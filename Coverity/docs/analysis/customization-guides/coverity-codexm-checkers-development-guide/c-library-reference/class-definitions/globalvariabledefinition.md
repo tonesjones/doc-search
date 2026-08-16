@@ -1,0 +1,17 @@
+---
+title: "globalVariableDefinition"
+source_url: "https://docs.blackduck.com/r/coverity/2026.6/coverity-documentation/globalvariabledefinition.html"
+content_id: "yZBDwP3xtBrzEsAHu_xlfA"
+version: "2026.6"
+section: "Coverity Analysis"
+scraped_at: "2026-08-12T23:30:32.630904+00:00"
+---
+
+# globalVariableDefinition
+
+The class of a global variable definition.
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `variable` | `typeof(globalVariableSymbol).producedType;` | The symbol for the global variable whose definition this is. |
+| `initializer` | `initializer?` | The initializer for the global variable; `null`, if none was specified. |

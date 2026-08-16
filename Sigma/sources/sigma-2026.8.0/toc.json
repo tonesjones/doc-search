@@ -1,0 +1,488 @@
+[
+  {
+    "tocId": "OUPbX95CeJjUZKFf_UyXaA",
+    "contentId": "rdoxYYpFaJyK7bW1dE8vtg",
+    "title": "Sigma User Guide",
+    "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/sigma-user-guide.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "qHZZC4jvamOXKxXDbxpeBg",
+        "contentId": "LazckaOTKq9k1AfQEhPtKw",
+        "title": "Introducing Sigma",
+        "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/introducing-sigma.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "Ibanm7QjsOUkP3NDsEAWJw",
+        "contentId": "RdM25X09Uuag4~rTRldwCg",
+        "title": "Downloading Sigma",
+        "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/downloading-sigma.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "9a~oqXuf3lLmnuytEtlLKg",
+            "contentId": "kqsiIMXnRxejbkIVWd1Rkg",
+            "title": "Getting the Binary",
+            "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/getting-the-binary.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "3wt7GX9UqAy7arw2Uu23Pw",
+            "contentId": "VWG4WRpwJiLzkSqo3Qq1YA",
+            "title": "Getting the Docker Image",
+            "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/getting-the-docker-image.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "4ZnKwZEZOru~3i3rRNDMBw",
+        "contentId": "Xl8iDJakrSeDOXugDFeR8Q",
+        "title": "Configuring Sigma",
+        "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/configuring-sigma.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "GlLKfN2Jen2rhfrqZUH6sQ",
+            "contentId": "6krqWBOjW~oJvTqSmXlCtA",
+            "title": "Configuring the AI-augmented SAST checker plug-in",
+            "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/configuring-the-ai-augmented-sast-checker-plug-in.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "9vyu~Txqb92NKCP_1PiGpg",
+            "contentId": "PPB7VIXkqZ_l2S6w_5gk8g",
+            "title": "Security considerations for the AI-augmented SAST checker plug-in",
+            "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/security-considerations-for-the-ai-augmented-sast-checker-plug-in.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "2d~sEp~b5bCEW5PvRRak7w",
+            "contentId": "UlwTjNT4~B4D7D3lbTlvbA",
+            "title": "Configuration Methods and Precedence",
+            "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/configuration-methods-and-precedence.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "~EXz9PbSIOnX59doGebiyg",
+            "contentId": "Xc624824UX6vjgtvQWII9A",
+            "title": "Configuration Options",
+            "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/configuration-options.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "yuPY~BwYmBGsH13WUOvobQ",
+            "contentId": "URk08ADiZX3YuipU67QwTg",
+            "title": "Configuring Sigma Output",
+            "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/configuring-sigma-output.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "nLkGdzN5AJV1L1IqafDwIg",
+            "contentId": "_FxEuYxEkH6V4uHTV8ai~A",
+            "title": "Configuring Sigma with coverity.yml",
+            "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/configuring-sigma-with-coverity.yml.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "Ws7aoWpfLHmnUbcW~S2~lQ",
+            "contentId": "_uXx10ru0RzfLF1Gs0AIDA",
+            "title": "Configuring Sigma with .sigma-config.yml",
+            "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/configuring-sigma-with-.sigma-config.yml.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "XR34R2Id2bmrq4Whpqi1Pg",
+                "contentId": "tkabxzKHuOjpgta8d32v8Q",
+                "title": "Creating a Default Configuration",
+                "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/creating-a-default-configuration.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "aPE_k5U~_AXBoujcFOjgSA",
+                "contentId": "MkuiLoCE_GTAw91SvLxuPw",
+                "title": "Customizing Check Attributes",
+                "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/customizing-check-attributes.html",
+                "hasRating": false,
+                "children": [
+                  {
+                    "tocId": "2QjnO30E1FYltuISXJXfwA",
+                    "contentId": "o8RNDgwuUneKtXvPdyR3Kw",
+                    "title": "Overriding Severity Levels",
+                    "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/overriding-severity-levels.html",
+                    "hasRating": false,
+                    "children": []
+                  },
+                  {
+                    "tocId": "CTjHo6agKkZorY0exz1O~w",
+                    "contentId": "gVS4N_yImYcQ_x4b364WcQ",
+                    "title": "Using the Configuration File to Specify Overrides",
+                    "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/using-the-configuration-file-to-specify-overrides.html",
+                    "hasRating": false,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tocId": "HwdQbwbE0hljdU_qB810pA",
+            "contentId": "rfx9ekNj7q2izwVVsD_HfA",
+            "title": "Environment Variables",
+            "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/environment-variables.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "hHbQmC4RK1PWuXYdjgsSYA",
+            "contentId": "4ncdnf~eblEZjG153YG3qA",
+            "title": "Using a Configuration File in a CI/CD Pipeline",
+            "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/using-a-configuration-file-in-a-ci/cd-pipeline.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "5ST2VLZZsZiMcMswwngAYg",
+        "contentId": "2ruCBmdF3ezoLWq9A~BZcw",
+        "title": "Running Sigma in CI/CD",
+        "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/running-sigma-in-ci/cd.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "aUwpXJXMGimplJni6UYxmg",
+            "contentId": "AAzvTMS~FnPGam1mWpliHg",
+            "title": "Using the Black Duck Rapid Scan Static Jenkins Plugin",
+            "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/using-the-black-duck-rapid-scan-static-jenkins-plugin.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "ddWMgIT3MGPHrqKRLkQr4Q",
+                "contentId": "VaW5Hy84zK9Spb4WFTKXSA",
+                "title": "Installing the Black Duck Rapid Scan Static Jenkins Plugin for Sigma",
+                "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/installing-the-black-duck-rapid-scan-static-jenkins-plugin-for-sigma.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "riUmOjBJlrxczh6_9zhuKg",
+                "contentId": "1ghb5wOw578Kb12hRkM_pQ",
+                "title": "Configuring Sigma as a Jenkins Tool",
+                "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/configuring-sigma-as-a-jenkins-tool.html",
+                "hasRating": false,
+                "children": [
+                  {
+                    "tocId": "gb0b4mLRtK5HbRKzXa8hXA",
+                    "contentId": "29hmSw_LIKn78hW5A6Nguw",
+                    "title": "Installing and Updating Sigma Automatically",
+                    "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/installing-and-updating-sigma-automatically.html",
+                    "hasRating": false,
+                    "children": []
+                  },
+                  {
+                    "tocId": "t3D16udyI_jqSMWW69tQSQ",
+                    "contentId": "bHk9Hp8LFlU2nDroz0JURQ",
+                    "title": "Installing Sigma Manually",
+                    "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/installing-sigma-manually.html",
+                    "hasRating": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "tocId": "qlZOyUB1bgTFYZIHCUY4jg",
+                "contentId": "y_Kn~HNzDh9fi6xqSAqxXg",
+                "title": "Working with a Jenkins Freestyle Project",
+                "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/working-with-a-jenkins-freestyle-project.html",
+                "hasRating": false,
+                "children": [
+                  {
+                    "tocId": "rISOAcZjgjj6zXMs4Xbtfw",
+                    "contentId": "l8diHpSt_mEs7Q9RsU12nQ",
+                    "title": "Defining a Freestyle Project for Using Sigma as a Quality Gate",
+                    "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/defining-a-freestyle-project-for-using-sigma-as-a-quality-gate.html",
+                    "hasRating": false,
+                    "children": []
+                  },
+                  {
+                    "tocId": "Mu0~_zh4YqD5If9XEws90g",
+                    "contentId": "menGZ1OEJn_Soxaex7LMVQ",
+                    "title": "Defining a Freestyle Project for Using Sigma to Report Issues",
+                    "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/defining-a-freestyle-project-for-using-sigma-to-report-issues.html",
+                    "hasRating": false,
+                    "children": []
+                  },
+                  {
+                    "tocId": "ef2aiKo6k1Zg31db_S_J4Q",
+                    "contentId": "02WHGPGQNCBdQfiCW_dy6g",
+                    "title": "Controlling How Sigma Executes",
+                    "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/controlling-how-sigma-executes.html",
+                    "hasRating": false,
+                    "children": []
+                  },
+                  {
+                    "tocId": "SYIVNdWWF1bPny2P5ZlZLw",
+                    "contentId": "TrjAAQB_Oko8dKxnJWHgqA",
+                    "title": "Adding Sigma Configuration Files",
+                    "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/adding-sigma-configuration-files.html",
+                    "hasRating": false,
+                    "children": []
+                  },
+                  {
+                    "tocId": "HlDsoBmFMceZsRESbIEVSA",
+                    "contentId": "fUpEUp5I9BAbzL02rQuh3g",
+                    "title": "Setting Sigma Policy Files",
+                    "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/setting-sigma-policy-files.html",
+                    "hasRating": false,
+                    "children": []
+                  },
+                  {
+                    "tocId": "IkqoqTXVf6N4Bm3JM~ajPw",
+                    "contentId": "kIdFo~6rCoKX~DgwQOcRSw",
+                    "title": "Recording Issues",
+                    "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/recording-issues.html",
+                    "hasRating": false,
+                    "children": []
+                  },
+                  {
+                    "tocId": "zyeQVd3ywy_EzKs1CClJow",
+                    "contentId": "9mlhScuCLYFEOQCQ~hwlbQ",
+                    "title": "Executing Other Sigma Commands",
+                    "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/executing-other-sigma-commands.html",
+                    "hasRating": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "tocId": "9_zGchjcgDkUqdYVPjk7kA",
+                "contentId": "RYeTZVnbOLj1OrT6EuxTow",
+                "title": "Working with a Jenkins Pipeline",
+                "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/working-with-a-jenkins-pipeline.html",
+                "hasRating": false,
+                "children": [
+                  {
+                    "tocId": "jsKjz~zr1u6kV~XB7MLA7A",
+                    "contentId": "VNoCeECs7OgQr4uP0C979A",
+                    "title": "Defining a Jenkins Pipeline",
+                    "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/defining-a-jenkins-pipeline.html",
+                    "hasRating": false,
+                    "children": []
+                  },
+                  {
+                    "tocId": "uWf4IlUELyVTbGeb7cY_iA",
+                    "contentId": "z39hIG3aPaNbV4pjhYcHjQ",
+                    "title": "Configuring a Scripted Pipeline",
+                    "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/configuring-a-scripted-pipeline.html",
+                    "hasRating": false,
+                    "children": []
+                  },
+                  {
+                    "tocId": "_oC6itrs8Q77v2M9gMu9kg",
+                    "contentId": "XE4u1f5zL7AWpQCFzZwsXw",
+                    "title": "Configuring a Declarative Pipeline",
+                    "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/configuring-a-declarative-pipeline.html",
+                    "hasRating": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "tocId": "eIYy09NzFJtJD_zY9Q9ZKA",
+                "contentId": "6VlaE7lZ6TtRA720zEOV9g",
+                "title": "Viewing Sigma Issues Reports",
+                "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/viewing-sigma-issues-reports.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "tocId": "xw30O7uJTQ6cg8kfvM5IWQ",
+            "contentId": "Y5pQ6Wd~t5l1cl5l8hHcGA",
+            "title": "Using Policies to Define a Quality Gate",
+            "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/using-policies-to-define-a-quality-gate.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "4HdAt6~fluSt0LYPE7YISw",
+                "contentId": "pPF0MtUZLXluZNKX~eX8JA",
+                "title": "Structure of the Policy File",
+                "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/structure-of-the-policy-file.html",
+                "hasRating": false,
+                "children": [
+                  {
+                    "tocId": "zreC6bbssLpp0~y74mcwEQ",
+                    "contentId": "GrASSLXa~AW_zKxU7xZWYw",
+                    "title": "The when Node",
+                    "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/the-when-node.html",
+                    "hasRating": false,
+                    "children": []
+                  },
+                  {
+                    "tocId": "rgzLCzKxFoEpGBtlGLKuNQ",
+                    "contentId": "kqrpTg0Bfcr0VrVT7X2tIg",
+                    "title": "The result Node",
+                    "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/the-result-node.html",
+                    "hasRating": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "tocId": "gr50ZVnvjxr9yTprhcbYwA",
+                "contentId": "gxidhxwRO5Sz7YyLwXvYow",
+                "title": "Policy Examples",
+                "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/policy-examples.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "B91W9UPGWARr~VG_kd4ViQ",
+                "contentId": "xXRRc5ED~6Tf1NxatPG7Ww",
+                "title": "Policy Violations Output",
+                "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/policy-violations-output.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tocId": "GLFomdv3Ja6SH8VMQOnvUg",
+        "contentId": "2V9mPkdcYJfpFdnJT3CEaA",
+        "title": "Command Reference",
+        "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/command-reference.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "zu1kxD9WgRs4uLQ2Msjicg",
+            "contentId": "3tE2Jr2E6TcEwQeERIok3A",
+            "title": "The sigma Command",
+            "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/the-sigma-command.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "HwV0k4AUdJ0fcaA5Bq4yAw",
+            "contentId": "2W16ngdei_TguwpPR6dZng",
+            "title": "The analyze Subcommand",
+            "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/the-analyze-subcommand.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "EN~fiz6X_vs9EzrZ_zA0XA",
+            "contentId": "wVDsbnTGcsDuGLBkQ_3FpQ",
+            "title": "The checkers Subcommand",
+            "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/the-checkers-subcommand.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "XAzvM_PDiViZ7~3kR2mW4A",
+            "contentId": "t7xjPskmlHyUtlhfC8WKDw",
+            "title": "The config Subcommand",
+            "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/the-config-subcommand.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "7g8C5WzU9ptITI2_~zrLIQ",
+            "contentId": "kCAWmaWegr1sj0i18Wn98A",
+            "title": "The docs Subcommand",
+            "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/the-docs-subcommand.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "ff01v4RhpF3WCqCwFTF9_Q",
+            "contentId": "Vz3n_Pdexk_F6WkQC0Tujw",
+            "title": "The explain Subcommand",
+            "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/the-explain-subcommand.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "nBfqUzi7dptHVyWGrIIqYA",
+            "contentId": "LZji~EAEIwsa5rWvcnZoiA",
+            "title": "The metadata Subcommand",
+            "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/the-metadata-subcommand.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "WTzFCV7OhjuQsfDfY17Euw",
+        "contentId": "jmDei0Z9KcJjLS~sb6vkmQ",
+        "title": "Sigma Support Matrix",
+        "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/sigma-support-matrix.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "yKGUTFJ919MlYwjuiVFQbg",
+            "contentId": "HCxlw0HH8Jfo16YuCP8VgQ",
+            "title": "Language and Framework Support",
+            "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/language-and-framework-support.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "Du2RR2SIUab0dn2FV_PY9g",
+            "contentId": "5P7gP1Xo5LP2K5VPmIQCIA",
+            "title": "OS Support",
+            "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/os-support.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "apKhVY1U6uekX9_ali1NIQ",
+            "contentId": "sSVr4PW2pntH4TLW4jxQbw",
+            "title": "CI/CD System Support",
+            "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/ci/cd-system-support.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "2lKVSN~uzWBWwITOrFRf3Q",
+            "contentId": "BeMZDxc5xF1rCuYIx_obeQ",
+            "title": "Minimal Hardware Requirements",
+            "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/minimal-hardware-requirements.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "7Onplc6SiDkJiaSPMDPvcw",
+        "contentId": "J7mBniL5UGhDwhA5CPa4bg",
+        "title": "Release Notes",
+        "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/release-notes.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "he51R0nuotfHQXFkBcIyRQ",
+        "contentId": "kNt_DjaX_LKDPBYxkGAjyA",
+        "title": "Sigma Checkers",
+        "prettyUrl": "/r/sigma/2026.8.0/sigma-documentation/sigma-checkers.html",
+        "hasRating": false,
+        "children": []
+      }
+    ]
+  }
+]

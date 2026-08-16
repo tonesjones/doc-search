@@ -1,0 +1,14 @@
+---
+title: "Synopsis"
+source_url: "https://docs.blackduck.com/r/coverity/2026.6/coverity-documentation/synopsis.html"
+content_id: "0xCR5ExPLk0llaDetE9u2A"
+version: "2026.6"
+section: "Coverity Analysis"
+scraped_at: "2026-08-12T19:40:59.693097+00:00"
+---
+
+# Synopsis
+
+```
+cov-generate-hostid [--output-file <filename>]
+```

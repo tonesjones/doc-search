@@ -1,0 +1,1669 @@
+[
+  {
+    "tocId": "A94CpoBHpTZ7wh3MdNZ2ow",
+    "contentId": "S8kyQwUfDP5OiJX4IFHUwg",
+    "title": "Introduction to Black Duck® Detect",
+    "prettyUrl": "/r/detect/11.5.1/black-duck-detect/introduction-to-black-duck-detect.html",
+    "hasRating": true,
+    "children": []
+  },
+  {
+    "tocId": "31XUcR71NTGVjOJWk5j98A",
+    "contentId": "4zqGxJ0Oi7zKhmu7XfDvTg",
+    "title": "Release Notes",
+    "prettyUrl": "/r/detect/11.5.1/black-duck-detect/release-notes.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "8_iRF3IIqEZIa5NPXROsxg",
+        "contentId": "hpkc4_tDlAR2mPi5vJMIYg",
+        "title": "Current Detect release notes",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/current-detect-release-notes.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "WYWQPoA4fOqiXVBvUIr13A",
+        "contentId": "Nv4kn99pLo6v81SA2pPkag",
+        "title": "Release notes for previous Detect versions",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/release-notes-for-previous-detect-versions.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "Ii85M07_Z5Bbn2JztLxtAQ",
+        "contentId": "9PKI5rS~axOYDd8Udx4L4A",
+        "title": "Release notes for older Detect versions",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/release-notes-for-older-detect-versions.html",
+        "hasRating": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "tocId": "O4TUi6Zk43WYYii~IVWoqg",
+    "contentId": "HwDOsOlW4MhPmunlgRU7gA",
+    "title": "Detect requirements and release information",
+    "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-requirements-and-release-information.html",
+    "hasRating": true,
+    "children": []
+  },
+  {
+    "tocId": "M43u9jTC~T5GiQTv9SErzw",
+    "contentId": "p0xs4k8FofHgNGBpwfRaDg",
+    "title": "Downloading and Installing Detect",
+    "prettyUrl": "/r/detect/11.5.1/black-duck-detect/downloading-and-installing-detect.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "0evm76NR~b2PZc9Alk857g",
+        "contentId": "CiNJXjR5hbylj4rEVWMrrw",
+        "title": "Download Locations for Black Duck® Detect & Plugins",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/download-locations-for-black-duck-detect-plugins.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "bk2fZKkLTVjzRGGBNYdbdw",
+        "contentId": "Wl8kLNbai0FJvLQn1b_JeQ",
+        "title": "Upgrading Detect",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/upgrading-detect.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "5fcaZ7~hMWeWyAmg8a_CIQ",
+        "contentId": "6D23NaLqMtQC1EE1g6d52A",
+        "title": "Detect Version Management",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-version-management.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "v8Kob5jQEAgQYY_k9k4IBQ",
+        "contentId": "Hov7oWB9PuIyKGencjI9fA",
+        "title": "Detect Code Verification",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-code-verification.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "QUE37~VgY6jO82qJRxP1lw",
+        "contentId": "~senNQqZziBX21Ydk5Hh_A",
+        "title": "Detect Air Gap mode",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-air-gap-mode.html",
+        "hasRating": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "tocId": "OIpQg8sL_KudQxpy20NIBw",
+    "contentId": "vvW90cEGhPZfykg08tbpqQ",
+    "title": "Detect Quickstart guide",
+    "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-quickstart-guide.html",
+    "hasRating": true,
+    "children": []
+  },
+  {
+    "tocId": "uf3EvwbTNIOcXWrwx0rUIw",
+    "contentId": "VLJOPTjUlaxLKAgzcjdLKw",
+    "title": "Getting started with Detect",
+    "prettyUrl": "/r/detect/11.5.1/black-duck-detect/getting-started-with-detect.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "fMLw79DymeYoPADyC9ETNA",
+        "contentId": "DBN78rPO4Rnavkd5vld9~Q",
+        "title": "Detect Key Concepts and Terms",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-key-concepts-and-terms.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "~3RuuIwa5GXxhLJqVOCm6Q",
+            "contentId": "s~Xy3QXERV0O7QI8C8VDcA",
+            "title": "BDIO",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/bdio.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "hSv3kMfqPlHaAEhUGeNkcQ",
+            "contentId": "IZJzyBESfi___olLm~_Zew",
+            "title": "Detectors",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detectors.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "lmYUmAM~6CvOmIRsGlwLBg",
+            "contentId": "1z9w_4gI_0g_gtwHiQqWyg",
+            "title": "Vulnerability Impact Analysis",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/vulnerability-impact-analysis.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "82XZd5NHK_ikfUn5ZKDtYw",
+            "contentId": "po3xLJc1hURl4jTQSpLUFg",
+            "title": "Inspectors",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/inspectors.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "Id_16pgpOuZ1iWerdqd_3g",
+            "contentId": "5JmLLfkPdjZZ1IhxEOdrIg",
+            "title": "JAR",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/jar.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "nPYgW_t9fb0PC_oeMG_W1Q",
+            "contentId": "3o3A7Cthec3O5zG~3eQKFA",
+            "title": "Detect Properties",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-properties.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "n8hGQPmT3cYF2vefVoXUSA",
+            "contentId": "b7p9uuelOsGg~Qulufzy2Q",
+            "title": "Run",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/run.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "D~bJghQZBWJtu5GxaZAl0A",
+            "contentId": "R5XyI7dRmOqrTn~0hJvGRA",
+            "title": "Software Composition Analysis (SCA)",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/software-composition-analysis-sca-.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "Gz3r~DP_ObnmFuAXfv9vZA",
+            "contentId": "O_v_hAoQQ7X_XbjD_HjCLw",
+            "title": "Scans and projects",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/scans-and-projects.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "TuHocwHGgd2EL5EQX~1Pug",
+            "contentId": "ZvmabLzKGT4yZx5ngTdy7w",
+            "title": "Script",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/script.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "Wggj3VHWqavKmp7BaIkQzg",
+            "contentId": "CzfTZRGmNQASgyITof92tQ",
+            "title": "Tools",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/tools.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "65FkG7NMrkLXSjsTtgYAcw",
+        "contentId": "b2JqybCgiQWZPVdXSahbKw",
+        "title": "How Detect Works",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/how-detect-works.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "QINCdLKy2EgtiDdFUfPDkg",
+        "contentId": "acSpQ3fRWt1tDOkUqDUv6w",
+        "title": "Detect basic workflow",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-basic-workflow.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "0xznygBNcLdY_wNN_4ed7g",
+        "contentId": "lMXX~jmHMa0E9mqVYuNuZQ",
+        "title": "Detect Processing",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-processing.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "HcBu5NVF5WjHc8gsW4PLJg",
+        "contentId": "pNnbt3cTcz_co1VrJvuFhQ",
+        "title": "Detect configuration overview",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-configuration-overview.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "uy2ELq8sP6MO1PvGnHrdLA",
+        "contentId": "UiQ9jl05zrlcZSeSlF8qUg",
+        "title": "User role requirements when running with Black Duck",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/user-role-requirements-when-running-with-black-duck.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "sMRV3fva9F3JdfxWED1aNQ",
+        "contentId": "jolVqaNN_HWGFVSKudOyWA",
+        "title": "Detect command line help options",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-command-line-help-options.html",
+        "hasRating": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "tocId": "1_CJ5dAwdbd6l0Qiasu7uQ",
+    "contentId": "VPnpgaOAFpGjhyWqJO5gTA",
+    "title": "Configuring Detect",
+    "prettyUrl": "/r/detect/11.5.1/black-duck-detect/configuring-detect.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "E5NI563qGlJQd5k~4Xo3GA",
+        "contentId": "8ZJ~jlJdhtjz1BIp2H2Whw",
+        "title": "On the command line",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/on-the-command-line.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "h~Fmk07gwuNUEJmCl7fRtg",
+        "contentId": "ffX6GHIQf6NoSbVFaU8KEw",
+        "title": "Using environment variables",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/using-environment-variables.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "UiD~TQvmPGeGPd7OmH4skQ",
+        "contentId": "hkHgxPu18QjFfVCPREJQZA",
+        "title": "Using a configuration file",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/using-a-configuration-file.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "QquWxBGzDGhF8e3QqQ_o_w",
+        "contentId": "B1bJzejZZPtJweRVLCffuw",
+        "title": "Project settings via JSON",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/project-settings-via-json.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "iY0Lh7S9AaxIUnc9vzj6dg",
+        "contentId": "aNf_GmLjmNbStItFTg4yWQ",
+        "title": "Switching between multiple profiles",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/switching-between-multiple-profiles.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "4pKK5eRdOohbIAhbpHSH1g",
+        "contentId": "~6BnNykEZ0mPkwbHJMd18g",
+        "title": "Additional configuration methods and details",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/additional-configuration-methods-and-details.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "60UpwI0g6dm3Vq~BKuYS6Q",
+        "contentId": "Oqs5Dfzb4buT~pTy6oClgQ",
+        "title": "Providing sensitive values such as credentials",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/providing-sensitive-values-such-as-credentials.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "GpGEUv1uYREnDmaJ7rvyaw",
+        "contentId": "iANJRYWc1NZpKcS6ubZ6tA",
+        "title": "Path properties",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/path-properties.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "r67Yl5bQT6hZ0AfzGpY3~w",
+        "contentId": "ZEbYbgeoSK2QRMNlhfLw2g",
+        "title": "Property wildcard support",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/property-wildcard-support.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "oWTVADmqigDeCfNqEIOCOg",
+        "contentId": "MxYfQG3Q6K2WdyP7YW0TSQ",
+        "title": "Java regular expression support",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/java-regular-expression-support.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "X9hIRhW00AlfIkfSOLGKgQ",
+        "contentId": "cRTX5LamgSL5Psah57EB4A",
+        "title": "Shell script configuration and environment variables",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/shell-script-configuration-and-environment-variables.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "Kk7v8SzVI8FmDlDM5IvZ9A",
+            "contentId": "UN1pCVybdfBRgvZ7nWWvWA",
+            "title": "Quoting and escaping shell script arguments",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/quoting-and-escaping-shell-script-arguments.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "uA35MUOewVB5IJPO8ndHdA",
+        "contentId": "Svfa8TJxEC0KkKzHMC_pEQ",
+        "title": "Project, Version, and Code Location Naming",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/project-version-and-code-location-naming.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "gfTSDdN5EQlUBDD6TTDl0Q",
+        "contentId": "N8d3uJEYS~VJ~Jttw7CFnw",
+        "title": "BDIO aggregation",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/bdio-aggregation.html",
+        "hasRating": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "tocId": "ElGbd5fozGQJ5n6lyl8USQ",
+    "contentId": "Kp87eaMDJ1HLKwwILkUzMw",
+    "title": "Planning and running Detect",
+    "prettyUrl": "/r/detect/11.5.1/black-duck-detect/planning-and-running-detect.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "qQ74P0fA8eCZNU~05oUSnw",
+        "contentId": "f7lR2y~LC6FNURfBe6D_RQ",
+        "title": "Deciding how to use Detect",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/deciding-how-to-use-detect.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "ymTOQjJ3d9ZIk6LQY8YV1Q",
+        "contentId": "TeKHB_FVtk8JLtDHXtmuKQ",
+        "title": "Positioning Detect in the build process",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/positioning-detect-in-the-build-process.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "_2qRtXyhiJnrFLcv07V1rQ",
+        "contentId": "E96obnvwDl_TPzcspbSUKA",
+        "title": "Installation Best Practices",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/installation-best-practices.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "VrDEt_NcP1UlfeOqGhWzYg",
+        "contentId": "_lzri9F7duPy5HVTYespHw",
+        "title": "Choosing the working directory",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/choosing-the-working-directory.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "tbnSQNvzW4vR3C0~Y67BSQ",
+        "contentId": "ZCv3Bfb7td9029~dp653mA",
+        "title": "Choosing a run method (script, .jar, or Docker container)",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/choosing-a-run-method-script-.jar-or-docker-container-.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "mMRPT~7JeVD4tyFyfkZs3Q",
+        "contentId": "zHUuoQm6zLdtiTLSX0xZHg",
+        "title": "Running the Detect script",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/running-the-detect-script.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "zu1qYgrde_axz4XraF7BdA",
+        "contentId": "Wm9ENZ2Id3cvlkmtdcuUaw",
+        "title": "Running the Detect .jar",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/running-the-detect-.jar.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "RU4vbjAIvIPtvh1TNgLbTA",
+        "contentId": "OwsBcZHsQwCqfxSmNTanqg",
+        "title": "Choosing the Detect target type",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/choosing-the-detect-target-type.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "xHvI6uPLHzgnD_i~PZKWqQ",
+        "contentId": "Wt7RrdRrG2TCWCawuPvqWg",
+        "title": "Running with Black Duck® SCA",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/running-with-black-duck-sca.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "k2GAsbcsToClmq0iHGT0Dw",
+        "contentId": "WLr2BMQLucmGo5RWcY3oQw",
+        "title": "Including and excluding Tools, Detectors, and Directories",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/including-and-excluding-tools-detectors-and-directories.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "XZNFhCfTLv_iaaqYQPfyVw",
+            "contentId": "QpfLLQzKiQQTAJE5QEsIFw",
+            "title": "Detect Tools",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-tools.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "rfGBS4MaDK~cm3CxqtAl_w",
+            "contentId": "gw22TvvZI2Sw5EEBpXzFQg",
+            "title": "Detectors",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detectors.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "EUFUpeM584HL_IYmObu2eg",
+            "contentId": "hg1IMYJ8StKlVHJHyl8Tsw",
+            "title": "Package Manager Exclusions",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/package-manager-exclusions.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "XrUyBKcI2bbtmwK39AcUNQ",
+            "contentId": "eDGv~IQXoFTLF1r_P8ws7g",
+            "title": "Directory Exclusions",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/directory-exclusions.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "EUseW7OLyI8mkEeCl~PHtQ",
+        "contentId": "lzp1dyN_smcThhr2sknNLw",
+        "title": "Component Location Analysis",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/component-location-analysis.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "HQ~Tfc_DPdyeAiQPLd4MbA",
+        "contentId": "jjxFDWLQC976B4nur4bgFg",
+        "title": "Concurrent execution",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/concurrent-execution.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "7Mn5Il9ePLtHzE7OTZ8WLw",
+        "contentId": "ntW__L7OoCFB_yq7_RThMg",
+        "title": "Detector search and accuracy",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detector-search-and-accuracy.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "8VQNpEnUzRPpSzLj8vlZ4Q",
+        "contentId": "VejYElKO~RbeK1p7FEBU7A",
+        "title": "Running behind a proxy",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/running-behind-a-proxy.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "tYnV4kCcbAYmYE0TsBRNzw",
+        "contentId": "l9KpH52rqj9Vz~c659xKQA",
+        "title": "Running Detect within a Docker container",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/running-detect-within-a-docker-container.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "IkqPLH3rLc2YTpiExL8BrA",
+        "contentId": "fiejezghcCGSNUvG6~Qs7Q",
+        "title": "Running Detect in air gap mode",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/running-detect-in-air-gap-mode.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "B_N_DZUW3yarhyri7~fihA",
+        "contentId": "ggU42h036O42S1wNLnw8Vg",
+        "title": "Output Status File",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/output-status-file.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "gVJ3LU678MhqUMoMrs4nSA",
+        "contentId": "Brvnd6uFkt8IrslOsklqtw",
+        "title": "Autonomous Scanning",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/autonomous-scanning.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "W3VoPNf8FyPrqVWddCQOvA",
+        "contentId": "HjuODacBz8fcKYoXsN_AYQ",
+        "title": "Container Scan",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/container-scan.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "B5AA2ni4X_b8L0Drs5LEiw",
+        "contentId": "O~UPsPaCFo6hzijzgvY~PQ",
+        "title": "IaC Scan",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/iac-scan.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "hjjzyhcJrZYS1b0dQqJRUg",
+        "contentId": "_cd6HvlH9MTO71VBTR0HXw",
+        "title": "Rapid Scan",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/rapid-scan.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "GWCJ21ZBUZs5EanQNBLQ7Q",
+        "contentId": "BHV4jLNjNe0RuqGrs0LZOQ",
+        "title": "Stateless Scan",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/stateless-scan.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "sVOGc_FMv1nqjq2MUUMlZw",
+        "contentId": "wY735bPdYOdiopmk~pa0~g",
+        "title": "Quack Patch (Early Access)",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/quack-patch-early-access-.html",
+        "hasRating": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "tocId": "SOwG8xz~cvrdSazuDkDIug",
+    "contentId": "J7hHBARvgOFyNAAVKT5P5g",
+    "title": "Detect Components",
+    "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-components.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "SI_qWZteKUU9TLBKq2rCYw",
+        "contentId": "dS5GfwG0AOqFaHVuoSo7QA",
+        "title": "Tools",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/tools.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "4sO~6Z16YmuAJ_NO4_jSBg",
+        "contentId": "QCxasHgk6nxXRhe7O3QfpQ",
+        "title": "Detectors",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detectors.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "t6VpKoP0MlEK30I6Tejl~w",
+        "contentId": "oPP1AyiBL6qt5BIzfZOXDw",
+        "title": "Inspectors",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/inspectors.html",
+        "hasRating": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "tocId": "le2~A2xZN4BHFF~lTmAv7w",
+    "contentId": "~fPLUd2O9PrXO_R~cF3k7Q",
+    "title": "Package Manager information for Detect",
+    "prettyUrl": "/r/detect/11.5.1/black-duck-detect/package-manager-information-for-detect.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "3wSrawEt5LIK4p0Wgm1P7g",
+        "contentId": "sG59u9qP5GWWGFHTTkVw1A",
+        "title": "Bazel support",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/bazel-support.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "tBqPZ_TV3XwfZkZoqeYs2Q",
+        "contentId": "y6N4zLCl3UxSpDT4JahPjA",
+        "title": "BitBake support",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/bitbake-support.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "xP87jVO3Kok6h624F0WGaQ",
+        "contentId": "N9iihHi7b_oUEZiAQXLBNQ",
+        "title": "Cargo support",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/cargo-support.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "QSiC_heuQJXL32D81QaA3Q",
+        "contentId": "lFEsLzG6zPesdF3D3QTRnA",
+        "title": "Carthage support",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/carthage-support.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "QgQ6zUpYDUdc6HL17n0atA",
+        "contentId": "2HiHBxz4RmIoaoyetVBf1g",
+        "title": "C/C++ (Clang) support",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/c/c-clang-support.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "NfOgwUzGDGr4jL2kHF_9PA",
+        "contentId": "~qn79eHFZuImKjE7JD5I6Q",
+        "title": "Conan support",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/conan-support.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "h3j4yaVhgz8uE8vZmue76Q",
+        "contentId": "PAcnLeWfNyvzwS4U23adlQ",
+        "title": "Conda Support",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/conda-support.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "QXPBXdB3H~lyjTMFR4I31Q",
+        "contentId": "ZAXidkE_o4XQuBzXK85iLw",
+        "title": "CPAN Support",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/cpan-support.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "rZVyQxWpx3apMIinQ8~WJQ",
+        "contentId": "aDPsNbAnUmZSRzrHPnvrCw",
+        "title": "Dart Support",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/dart-support.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "VGo0HRsAjJH1LSqUGYDxww",
+        "contentId": "FFVX6MZXprQxxyTXmGNnog",
+        "title": "Detect Docker image support",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-docker-image-support.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "k3I3tHo2n8CTLIr2egtpGQ",
+            "contentId": "vl6Fx0AumGrOWwJqZdliKg",
+            "title": "Detect Docker Inspector Release notes",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-docker-inspector-release-notes.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "wtWPPCIcQL3y3NX0Hou~Mw",
+            "contentId": "37HCZZAhj7q57YdUYrw4Hg",
+            "title": "Supported image formats",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/supported-image-formats.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "aZbbfbAvBZvrgLocpzp7ZA",
+            "contentId": "sSya0Y~lxx3lD9hF5CCzeg",
+            "title": "Black Duck® Detect workflow",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/black-duck-detect-workflow.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "OnMHPnK6wMsRcLEALIjJ_g",
+            "contentId": "PRWfrzoPrw5kJTshA2sHKA",
+            "title": "File permissions",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/file-permissions.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "Y8kiqUdS0z4RmefBET6bmg",
+            "contentId": "kwJnLsAGD7RTMO~LL5reCw",
+            "title": "Black Duck® Detect's scan target",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/black-duck-detect-s-scan-target.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "7OuFohTnYrjy0lwRXe4KQA",
+            "contentId": "P5ipxntvustQn~7uY4zBMw",
+            "title": "Isolating application components",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/isolating-application-components.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "pxqFOxC3hMgsOJ3JhQTADg",
+            "contentId": "jkYMBl52NfgJd~l~XRiCyg",
+            "title": "Inspecting Windows Docker images",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/inspecting-windows-docker-images.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "dfQ_C5g9gHB8fC~Q7TYOOQ",
+            "contentId": "rJTbXjb6lr80Q~rnE5WE~g",
+            "title": "Inspecting Docker images on Windows",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/inspecting-docker-images-on-windows.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "TO~P1UWbE2fMEqqlejiiRQ",
+            "contentId": "FN0L6V0Tc2WjqNwKGvWYnQ",
+            "title": "Detect architecture overview",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-architecture-overview.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "0paQjcteMcQeg55YTlUrLA",
+            "contentId": "9ihq_kHmdnFkXoYQfJCjig",
+            "title": "Advanced Detect topics",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/advanced-detect-topics.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "T6qEQvJ9FVwYmRKLik3zkg",
+            "contentId": "Vfb5hsAbbP3xESPEuRyfSg",
+            "title": "Advanced properties",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/advanced-properties.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "Bg0qjJjL81j_N16YQTDD1A",
+            "contentId": "N9FVqyyt3Mj_5tcsEzZBIQ",
+            "title": "Deploying Detect Docker Inspector",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/deploying-detect-docker-inspector.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "bQ5ZkiZw6Gd4AXuNBIuxRg",
+            "contentId": "eq1fpx~9qhyJrVdEBgYhrQ",
+            "title": "Troubleshooting Docker Inspector",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/troubleshooting-docker-inspector.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "bHVscjqJPfFqqBk47qgoog",
+        "contentId": "sYngeGU3DjEpo_9Publ6WA",
+        "title": "Git project support",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/git-project-support.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "zaoqH6OhvXAA8BeZBvlCYw",
+        "contentId": "fxTae3ZD911Ft0TbuARWjA",
+        "title": "GoLang support",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/golang-support.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "02m3UxpZbWyAChLJARrQEQ",
+        "contentId": "JZdjl0psLGpJ3_VvsWzgjQ",
+        "title": "Gradle support",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/gradle-support.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "XMwwNFflsQtUbtyJVHuC6Q",
+        "contentId": "iXx2grr8bN_Q7eHJWnfoOw",
+        "title": "Erlang/Hex/Rebar support",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/erlang/hex/rebar-support.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "1GRrmZFm4QwCyEVJbeCE5g",
+        "contentId": "2BnOwk7RH74n7GqB6OAXsg",
+        "title": "Ivy (Ant) support",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/ivy-ant-support.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "A1E7hlzxnZR6FNbAqV8JgA",
+        "contentId": "SO0xs1s4RKlDSpDuqIavzA",
+        "title": "Lerna support",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/lerna-support.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "wSyRB3vT_DWMwEbrX3dVWw",
+        "contentId": "1g3f2Q2_dy1r9QCq61UPOw",
+        "title": "Maven support",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/maven-support.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "P09vHWgvDM0OK1sZ9jPP5Q",
+        "contentId": "R971ROvkjoMBwB7VV4s9ZQ",
+        "title": "NPM support",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/npm-support.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "8YkIx8bdSiNnh5Z2VL814w",
+        "contentId": "4y8oUw1fquHS1i5vPJgtrQ",
+        "title": "NuGet support",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/nuget-support.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "ZafZui09xZIxAvtKT26Img",
+        "contentId": "pUT~k8zzGalYCNLlPJ7EqQ",
+        "title": "Opam Support",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/opam-support.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "WUBBTP41rC8pe5mCGvTD8w",
+        "contentId": "ZvBEQiFMwU7FXujOuBpCOA",
+        "title": "pnpm support",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/pnpm-support.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "pjLO9sRus2KV2a4QhwHObw",
+        "contentId": "2FxVx9OjRs90hVHFwEyXMQ",
+        "title": "Python support",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/python-support.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "xkJrBDdQQ~kldryUOlSmRg",
+        "contentId": "iSawpIeOPruXgUlWEdyLBw",
+        "title": "Rush support",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/rush-support.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "XWjT29NajzJ442fPlnuFMw",
+        "contentId": "P~LPjKIGQSPULIJMd9Vc6Q",
+        "title": "SBT support",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/sbt-support.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "ctUVpIB0MNic1h4tgYuUIQ",
+        "contentId": "3emuW6Y4VZ1oMSivqrHovg",
+        "title": "Swift & Xcode support",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/swift-xcode-support.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "ui__~GbVUSHCFhy9PPoQwA",
+        "contentId": "G0DbkryFL0ffKg1zsm2nHw",
+        "title": "Yarn support",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/yarn-support.html",
+        "hasRating": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "tocId": "lOBl11fhpqTLgcgz8xN06Q",
+    "contentId": "VZmLk7R7~rvIdnrSBkiebg",
+    "title": "Detect Properties",
+    "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-properties.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "GAaQRGIal_nhXfquJomVeQ",
+        "contentId": "WmQUp0p68yDatuazrOKJ4w",
+        "title": "Basic Properties",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/basic-properties.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "dWAOoKPgOkQ~aN5TjsBVEQ",
+        "contentId": "38Q0dWTPi0JQrIOeXc7ldQ",
+        "title": "All Properties",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/all-properties.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "c1mwLV8iyXzAK1E~GBK1Qg",
+        "contentId": "k21nofi~Q7xuwiAhU0eEjw",
+        "title": "Detect configuration property details",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-configuration-property-details.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "dQ7xCR0pS_QHvtzfDuj0Uw",
+            "contentId": "c6fsfEGVdvjgLk09ZRAgpQ",
+            "title": "binary-scanner",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/binary-scanner.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "PxQwsBC4oDDXDbLQ82Gwxg",
+            "contentId": "RwliZJf3R0RX~49dctaC1w",
+            "title": "blackduck-server",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/blackduck-server.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "2jDl1TXaILgKtWHUAZKHrg",
+            "contentId": "Op6_lh1qyts6uIg34mzYeg",
+            "title": "cleanup",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/cleanup.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "FDfGGb~5_~XNuqJ9YzF7~A",
+            "contentId": "~gh72qGXK_kWkUNo6w~gGQ",
+            "title": "container-scanner",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/container-scanner.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "jmTTTSIe97iu9zHE72~kww",
+            "contentId": "yOi2LqR7ggkfaRnWP8P8vw",
+            "title": "debug",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/debug.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "Ukr7g~SuzHXcoqiQklhWzA",
+            "contentId": "97mpPDZnscaAXHc3OwWyaA",
+            "title": "default",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/default.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "MamrPv05jT3rItidlzjm8w",
+            "contentId": "L~TiKC4qX_r~kGCabHRS7Q",
+            "title": "detector",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detector.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "2_2g5YO6CAtvyUTF_iDORA",
+            "contentId": "RSz4mVge0PjEygxM2F_LPA",
+            "title": "general",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/general.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "zYlVbqm2bMDK6Mtjv8Y_aw",
+            "contentId": "tr0C8exRGd4GTR0fEThIrA",
+            "title": "global",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/global.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "DD~o3RUu61OR1wAZiLSWhQ",
+            "contentId": "dc8EzBW_MMsBsg4uwPtY~g",
+            "title": "iac-scan",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/iac-scan.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "LiSubZFQJoqF_hNxzrg_fQ",
+            "contentId": "YcHr7WGc2XchtmTqWM4pGg",
+            "title": "impact-analysis",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/impact-analysis.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "UNKDHLE6nJAZm1FsiDDUUw",
+            "contentId": "rMnDdqIWu1CvY0kGL79f6A",
+            "title": "logging",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/logging.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "oVuvOPo9~MnYrPPSBVClww",
+            "contentId": "jWGQz8cGDt4cZBMEUw_n5A",
+            "title": "paths",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/paths.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "~fDuwmsknvLYeq~pzblKtQ",
+            "contentId": "EEtqCIB8vvhF~1uaB7ps3w",
+            "title": "project",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/project.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "egW3P_QogXmLLhg8hRsACQ",
+            "contentId": "iYrHZkQnQ4fHG7oAAuPVjw",
+            "title": "project-inspector",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/project-inspector.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "Wa0ke~Bu5jTWtnUIilbKwQ",
+            "contentId": "u9exgvIZYDuPrkasn8m1ew",
+            "title": "proxy",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/proxy.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "GMyt8lwYtczjM3Hgk4xxAA",
+            "contentId": "T9mAvvzMixwImplZOU9DIA",
+            "title": "quack-patch",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/quack-patch.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "Z1WAeVwms4oupkKo6sjpyw",
+            "contentId": "wX395_xKiZ2LNarbii31GA",
+            "title": "rapid-scan",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/rapid-scan.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "Hn2ogt0GnGtZPNut3~YVlQ",
+            "contentId": "0bjjNXEpL~vZVk5qANUj6w",
+            "title": "report",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/report.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "UetbupPv6Gd6p_43z8IpSw",
+            "contentId": "sjIE1jjGD~QxFTu4oeg64g",
+            "title": "signature-scanner",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/signature-scanner.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "9qFwUL0LU9VOYrDjQ5_lrw",
+        "contentId": "aepAc6l29rYr_RJndNrAWA",
+        "title": "Detect Detector properties",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-detector-properties.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "x7ojkDuoy9dabGxsd6yn1g",
+            "contentId": "yoRNnJ27auYQaQAcDUERFg",
+            "title": "bazel",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/bazel.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "_4~RaTo2~gUIzQq8bGWHcw",
+            "contentId": "YYfILBt_E6wtfAkKLs0qWQ",
+            "title": "bitbake",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/bitbake.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "7wnfPDQv4qVzeAkOC6hZ3g",
+            "contentId": "4RDfKTkcTfGhD9CMy43o1w",
+            "title": "cargo",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/cargo.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "MYDh9RgM1_NJ1rhBQziKsg",
+            "contentId": "UbFqaa8HueaGXVFRliPoXw",
+            "title": "conan",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/conan.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "PANh6nX6DiIxo3M6elk2rQ",
+            "contentId": "SWa7J9KIldfTZKwSBVAdiQ",
+            "title": "conda",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/conda.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "Ik_zKWlz92Wz9DaJUD2X5A",
+            "contentId": "ntC~hkgjZl9P9xT9PyEwXA",
+            "title": "cpan",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/cpan.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "qflNsQSlfWY_CQO4FZXviQ",
+            "contentId": "7E2ClUlZjYHIHNtemJrUBA",
+            "title": "dart",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/dart.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "ErOPjbP7IpFSmOsrLadDzg",
+            "contentId": "Y2HPtopKAGoG81QIe4rHtA",
+            "title": "docker",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/docker.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "gcKvxKBla2pRJgjYF7heaw",
+            "contentId": "jF8V2O_3Zo89HpCQJFNZ4Q",
+            "title": "go",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/go.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "47tQ6_zxsMmI8jgmyl6vZg",
+            "contentId": "Zh66buQNZAzFcMrxTAP4mg",
+            "title": "gradle",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/gradle.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "LWcx6O9_kNAby39B5HpNjQ",
+            "contentId": "p1Jm_oWgxqtKnmYlUS4Ofw",
+            "title": "hex",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/hex.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "XDKgFgK4XBgMs5SrrO~unw",
+            "contentId": "HhT_OFJMpf84PQ~jZKbgRQ",
+            "title": "lerna",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/lerna.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "AXbMjMQc23uxs1uG5ITtYQ",
+            "contentId": "dhW7fWxJwgRvSjQSnb2XJw",
+            "title": "maven",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/maven.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "o~KA4u395L~NmbDgZ8J9Hg",
+            "contentId": "YoplzFVIzX4JCqsO2SuiKw",
+            "title": "npm",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/npm.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "F~qwWKLLA1tH0CXE8U2ulw",
+            "contentId": "ELNbmNjUPKoS~EwcY6KXsQ",
+            "title": "nuget",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/nuget.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "kQoqwIHVAhRzTsAHAZ23BQ",
+            "contentId": "MA5Zkwyg_KEDvNndcEerfg",
+            "title": "opam",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/opam.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "ds~uHlDy8GFQh7QN3PwCdQ",
+            "contentId": "XxnX6FwWuiC_l1ruvHFRdg",
+            "title": "packagist",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/packagist.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "tsYsYFklWFizee4cvGo~LA",
+            "contentId": "~dyJIIWEhJPWVHOXTrhSdg",
+            "title": "pear",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/pear.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "JExEXuCGejwrw0Wuaqo5fQ",
+            "contentId": "_lSpJ2uWh9s~VOF_9B_05w",
+            "title": "pip",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/pip.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "~lIq3vVIhedBFPQ9R9T7Mg",
+            "contentId": "q_87Gx6MubZjvvu6ITuVJw",
+            "title": "pnpm",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/pnpm.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "Wbq~XkUbUXF0paj3SkTSzQ",
+            "contentId": "C4PUgMcOjuXgAV4NM5Ez_g",
+            "title": "poetry",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/poetry.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "qF8gbdkW71A_js089PSANQ",
+            "contentId": "zd3vbNc80NHoWV4rMoXNNw",
+            "title": "python",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/python.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "Zr6PZY2zJFYsfbXKuzEOFQ",
+            "contentId": "_O44pMYjxWkpA75OhryIdQ",
+            "title": "ruby",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/ruby.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "JUCpXetjaW5h0XQYN7yuxw",
+            "contentId": "Q~q~Bkb5RkJL0WmxjzymlQ",
+            "title": "sbt",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/sbt.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "E36WbN1BoqKoD_6~_5TnlQ",
+            "contentId": "ltII6zDxju7bur9jXOfW_A",
+            "title": "swift",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/swift.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "l9KcHb6BodXN_KReD7yzzA",
+            "contentId": "8QP2~HiDrsUIKoodwOS5cw",
+            "title": "uv",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/uv.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "4Cihqv8lBR_wf_~XLpVTcg",
+            "contentId": "4O_OpUaqTEtK9ciJwT7Gng",
+            "title": "yarn",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/yarn.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "9Iqrr9MWpPtSQe6iE_Bm1A",
+        "contentId": "bGEf0T0mivmwBXYI3fcytw",
+        "title": "Deprecated Properties",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/deprecated-properties.html",
+        "hasRating": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "tocId": "a33HiXK1_REJasVq7ujEUw",
+    "contentId": "rClJVcucnm2Y9KFmxVkTcg",
+    "title": "Viewing and managing Detect scan results",
+    "prettyUrl": "/r/detect/11.5.1/black-duck-detect/viewing-and-managing-detect-scan-results.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "o9S6AoTFL9BpcLPszpASGg",
+        "contentId": "xNMRY8q_3dMKg1lTzELM8A",
+        "title": "Risk Report generation via Detect",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/risk-report-generation-via-detect.html",
+        "hasRating": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "tocId": "EcFRBpzRp0viBYDsgv93zQ",
+    "contentId": "uDAQQ~kxGEQNDouzHmtJVg",
+    "title": "Troubleshooting",
+    "prettyUrl": "/r/detect/11.5.1/black-duck-detect/troubleshooting.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "s7miNjV4Db9LL8oZ9CN4rQ",
+        "contentId": "4eXDN7~NcehC67tunWUNng",
+        "title": "Collecting Detect log information",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/collecting-detect-log-information.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "TYZ~MiWZmtVpEmzvcLDzRA",
+        "contentId": "2QP7cY8GzEOaz3SMPJYFXw",
+        "title": "Common Detect complications",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/common-detect-complications.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "CpjQWzq_M~phIehvubPhrg",
+        "contentId": "WxG7GVQAYGUyewpKhZHoNQ",
+        "title": "Detect Diagnostic mode",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-diagnostic-mode.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "hdEChwg83atwtZTCLgawnQ",
+        "contentId": "sj1yFly8UOQj9Uz5noKO_g",
+        "title": "Detect Exit Codes",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-exit-codes.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "CS9nokjUve7cRLk2ZpT3Qg",
+        "contentId": "44OYJ~euKr2oXNzmrC~XcA",
+        "title": "Common Detect troubleshooting solutions",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/common-detect-troubleshooting-solutions.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "NCIYrY8COcsLNC4VXo55hg",
+        "contentId": "H0kDTMSyogGSN4xhJCv~Ag",
+        "title": "Detect usage metrics collection",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-usage-metrics-collection.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "I_wa42xntzZt9oeCQFNZHw",
+        "contentId": "gpiRbhU_jARlNy28RAW8nw",
+        "title": "Windows OS hints for Detect",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/windows-os-hints-for-detect.html",
+        "hasRating": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "tocId": "3Lk2c_qeFGpVASaOhxJ94A",
+    "contentId": "HtXDKubHAXbATMYP_jM3qw",
+    "title": "Detect Integrations",
+    "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-integrations.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "jx_T6HUCJ6lfqSgSvUgyzQ",
+        "contentId": "osFQOeISkf4iSUUa_KHODg",
+        "title": "Detect Jenkins Plugin",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-jenkins-plugin.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "pU1VUwFWYTGu2FKKLM1YMw",
+            "contentId": "cw98W6bXF8O9JmLkHqHJ~Q",
+            "title": "Release Notes for Jenkins Plugin",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/release-notes-for-jenkins-plugin.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "MsTrlaRi0mdN2Cfw4MOXhQ",
+            "contentId": "Pm5WQC5TeozmGR27qSiLRA",
+            "title": "Requirements for Black Duck® Detect for Jenkins",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/requirements-for-black-duck-detect-for-jenkins.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "oG9eqWXtpRHkqZJ3GCdoWg",
+            "contentId": "EPui4bTOMHllximjrmxrFA",
+            "title": "Downloading, Installing, and Updating the Plugin",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/downloading-installing-and-updating-the-plugin.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "Mb3eSpJwvwgXuDQDvJwL5g",
+            "contentId": "XQXE09KQRr7wOBXQM1kVTw",
+            "title": "Configuring the Jenkins Plugin",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/configuring-the-jenkins-plugin.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "4e2B7ehykCHM2hPpCzxGEg",
+            "contentId": "_Cwgicwj8WJEy2st4qm1oA",
+            "title": "Users and roles for Jenkins Plugin",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/users-and-roles-for-jenkins-plugin.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "73snApST2Qj3hieo96IpUA",
+            "contentId": "G2WQimZfpS_iSzHZSdF7lg",
+            "title": "Running Black Duck® Detect in Jenkins",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/running-black-duck-detect-in-jenkins.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "VwvnFt_GuaHSmXqd~_dcCg",
+            "contentId": "Ha5H5ZKJ8geiusFjiOGtXg",
+            "title": "Detect in Jenkins Pipeline job",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-in-jenkins-pipeline-job.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "HgeWI8U2yQS06xNwA_CtIw",
+            "contentId": "_hYzvVPm6eljJLQkivo5eQ",
+            "title": "Detect in Jenkins Freestyle job",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-in-jenkins-freestyle-job.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "aImu9r4ybvUuEKbWiIgD9Q",
+            "contentId": "a5HYUdaxYY0cwIhiBJHefA",
+            "title": "Auto-escaping Parameters",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/auto-escaping-parameters.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "WHeKCnNzlMLcC88WXtQoXA",
+            "contentId": "yMxJeo7itJ7NBDpGhzjE0w",
+            "title": "Jenkins Air Gap mode",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/jenkins-air-gap-mode.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "9KCuXwnwGBZp3Om6AHk9BQ",
+            "contentId": "W8YmSCcas9p4hMBUJ~zGpQ",
+            "title": "Using Docker Containers - Best Practice",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/using-docker-containers-best-practice.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "jEDkshI4TiH3rHUzCsATdA",
+        "contentId": "KlX033g7w41Ze0bIo02j1A",
+        "title": "Detect Azure DevOps (ADO) Plugin",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-azure-devops-ado-plugin.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "KzVgY2ySKi5KRTtZ50yLDg",
+            "contentId": "UCnI1B4u1rnFvgNqv26wTA",
+            "title": "Release Notes for Azure DevOps Plugin",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/release-notes-for-azure-devops-plugin.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "8~VV~KcEzG8pyU8kMgOUZg",
+            "contentId": "GlhfgisZkRYS~piYOmlAWw",
+            "title": "Requirements for Azure DevOps",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/requirements-for-azure-devops.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "~NhN3vFYkaoAM1Sqr2vZVQ",
+            "contentId": "yGWtQwrezZuPgkLbEYechg",
+            "title": "Installing the Azure DevOps plugin",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/installing-the-azure-devops-plugin.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "Dv5oH1LZ3X90fMJxVBh6Ig",
+            "contentId": "uAPcqiFYL0TGBKDDk0x89g",
+            "title": "Configuring and Running the Plugin",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/configuring-and-running-the-plugin.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "Hv6rVev0f0tDJUTkYecpFg",
+            "contentId": "Ncznf5~m_PeHMrH6Rc~2rQ",
+            "title": "Auto-escaping Parameters",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/auto-escaping-parameters.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "O7~w~tX1zI1RV1frRWlguw",
+            "contentId": "UaGVhgvXVneNs3kcraJu5g",
+            "title": "Configuring a Build Agent",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/configuring-a-build-agent.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "ZGgLqFIRnx0TSj1l56wemg",
+            "contentId": "DRRHh96_8kty1cLyQ1FL6g",
+            "title": "Running the Task",
+            "prettyUrl": "/r/detect/11.5.1/black-duck-detect/running-the-task.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "cTNs~IwkhHk_qKq4jNwfsQ",
+        "contentId": "q8EtSsQ9h8iawGrJUdFTIw",
+        "title": "Detect GitLab integration",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-gitlab-integration.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "0eX4GMf9NP3daQK7UeFO2A",
+        "contentId": "ZoOsd~2_NgcPIOvlk42PMg",
+        "title": "Detect Bitbucket integration",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-bitbucket-integration.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "5L8yPcshig09qYnFYzt3nA",
+        "contentId": "BqTGgOhNYhycyakYl8VBaA",
+        "title": "Azure Container Registry scanning with Detect",
+        "prettyUrl": "/r/detect/11.5.1/black-duck-detect/azure-container-registry-scanning-with-detect.html",
+        "hasRating": false,
+        "children": []
+      }
+    ]
+  }
+]

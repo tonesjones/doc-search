@@ -1,0 +1,4287 @@
+{
+  "mapId": "bMVbOgKqSRm_N11~2Mv5gg",
+  "version": "11.5.1",
+  "product": "detect",
+  "productKey": "detect-11.5.1",
+  "title": "Black Duck Detect",
+  "tocApi": "https://docs.blackduck.com/api/khub/maps/bMVbOgKqSRm_N11~2Mv5gg/toc",
+  "contentApiTemplate": "https://docs.blackduck.com/api/khub/maps/bMVbOgKqSRm_N11~2Mv5gg/topics/{contentId}/content",
+  "baseReaderUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/",
+  "docsRoot": "detect",
+  "lastIndexBuild": "2026-08-08T23:46:13.735123+00:00",
+  "lastTocFetch": "2026-08-08T23:43:42.185947+00:00",
+  "scrapedAt": "2026-08-08T23:46:13.583616+00:00",
+  "statusValues": [
+    "pending",
+    "done",
+    "skipped",
+    "error"
+  ],
+  "stats": {
+    "total": 206,
+    "pending": 0,
+    "done": 206,
+    "skipped": 0,
+    "error": 0
+  },
+  "rootSections": [
+    {
+      "title": "Introduction to Black Duck® Detect",
+      "slug": "introduction-to-black-duck-detect"
+    },
+    {
+      "title": "Release Notes",
+      "slug": "release-notes"
+    },
+    {
+      "title": "Detect requirements and release information",
+      "slug": "detect-requirements-and-release-information"
+    },
+    {
+      "title": "Downloading and Installing Detect",
+      "slug": "downloading-and-installing-detect"
+    },
+    {
+      "title": "Detect Quickstart guide",
+      "slug": "detect-quickstart-guide"
+    },
+    {
+      "title": "Getting started with Detect",
+      "slug": "getting-started-with-detect"
+    },
+    {
+      "title": "Configuring Detect",
+      "slug": "configuring-detect"
+    },
+    {
+      "title": "Planning and running Detect",
+      "slug": "planning-and-running-detect"
+    },
+    {
+      "title": "Detect Components",
+      "slug": "detect-components"
+    },
+    {
+      "title": "Package Manager information for Detect",
+      "slug": "package-manager-information-for-detect"
+    },
+    {
+      "title": "Detect Properties",
+      "slug": "detect-properties"
+    },
+    {
+      "title": "Viewing and managing Detect scan results",
+      "slug": "viewing-and-managing-detect-scan-results"
+    },
+    {
+      "title": "Troubleshooting",
+      "slug": "troubleshooting"
+    },
+    {
+      "title": "Detect Integrations",
+      "slug": "detect-integrations"
+    }
+  ],
+  "topics": [
+    {
+      "id": "S8kyQwUfDP5OiJX4IFHUwg",
+      "tocId": "A94CpoBHpTZ7wh3MdNZ2ow",
+      "title": "Introduction to Black Duck® Detect",
+      "path": [
+        "Introduction to Black Duck® Detect"
+      ],
+      "section": "Introduction to Black Duck® Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/introduction-to-black-duck-detect.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/introduction-to-black-duck-detect.html",
+      "localPath": "docs/detect/introduction-to-black-duck-detect.md",
+      "depth": 1,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:43:56.502468+00:00",
+      "bytes": 3864
+    },
+    {
+      "id": "4zqGxJ0Oi7zKhmu7XfDvTg",
+      "tocId": "31XUcR71NTGVjOJWk5j98A",
+      "title": "Release Notes",
+      "path": [
+        "Release Notes"
+      ],
+      "section": "Release Notes",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/release-notes.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/release-notes.html",
+      "localPath": "docs/detect/release-notes.md",
+      "depth": 1,
+      "hasChildren": true,
+      "directChildren": 3,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:43:57.126103+00:00",
+      "bytes": 310
+    },
+    {
+      "id": "hpkc4_tDlAR2mPi5vJMIYg",
+      "tocId": "8_iRF3IIqEZIa5NPXROsxg",
+      "title": "Current Detect release notes",
+      "path": [
+        "Release Notes",
+        "Current Detect release notes"
+      ],
+      "section": "Release Notes",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/current-detect-release-notes.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/current-detect-release-notes.html",
+      "localPath": "docs/detect/release-notes/current-detect-release-notes.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:43:57.757385+00:00",
+      "bytes": 6250
+    },
+    {
+      "id": "Nv4kn99pLo6v81SA2pPkag",
+      "tocId": "WYWQPoA4fOqiXVBvUIr13A",
+      "title": "Release notes for previous Detect versions",
+      "path": [
+        "Release Notes",
+        "Release notes for previous Detect versions"
+      ],
+      "section": "Release Notes",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/release-notes-for-previous-detect-versions.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/release-notes-for-previous-detect-versions.html",
+      "localPath": "docs/detect/release-notes/release-notes-for-previous-detect-versions.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:43:58.673480+00:00",
+      "bytes": 44799
+    },
+    {
+      "id": "9PKI5rS~axOYDd8Udx4L4A",
+      "tocId": "Ii85M07_Z5Bbn2JztLxtAQ",
+      "title": "Release notes for older Detect versions",
+      "path": [
+        "Release Notes",
+        "Release notes for older Detect versions"
+      ],
+      "section": "Release Notes",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/release-notes-for-older-detect-versions.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/release-notes-for-older-detect-versions.html",
+      "localPath": "docs/detect/release-notes/release-notes-for-older-detect-versions.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:43:59.630074+00:00",
+      "bytes": 77441
+    },
+    {
+      "id": "HwDOsOlW4MhPmunlgRU7gA",
+      "tocId": "O4TUi6Zk43WYYii~IVWoqg",
+      "title": "Detect requirements and release information",
+      "path": [
+        "Detect requirements and release information"
+      ],
+      "section": "Detect requirements and release information",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-requirements-and-release-information.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detect-requirements-and-release-information.html",
+      "localPath": "docs/detect/detect-requirements-and-release-information.md",
+      "depth": 1,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:00.307453+00:00",
+      "bytes": 3977
+    },
+    {
+      "id": "p0xs4k8FofHgNGBpwfRaDg",
+      "tocId": "M43u9jTC~T5GiQTv9SErzw",
+      "title": "Downloading and Installing Detect",
+      "path": [
+        "Downloading and Installing Detect"
+      ],
+      "section": "Downloading and Installing Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/downloading-and-installing-detect.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/downloading-and-installing-detect.html",
+      "localPath": "docs/detect/downloading-and-installing-detect.md",
+      "depth": 1,
+      "hasChildren": true,
+      "directChildren": 5,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:00.922247+00:00",
+      "bytes": 559
+    },
+    {
+      "id": "CiNJXjR5hbylj4rEVWMrrw",
+      "tocId": "0evm76NR~b2PZc9Alk857g",
+      "title": "Download Locations for Black Duck® Detect & Plugins",
+      "path": [
+        "Downloading and Installing Detect",
+        "Download Locations for Black Duck® Detect & Plugins"
+      ],
+      "section": "Downloading and Installing Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/download-locations-for-black-duck-detect-plugins.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/download-locations-for-black-duck-detect-plugins.html",
+      "localPath": "docs/detect/downloading-and-installing-detect/download-locations-for-black-duck-detect-and-plugins.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:01.545255+00:00",
+      "bytes": 2554
+    },
+    {
+      "id": "Wl8kLNbai0FJvLQn1b_JeQ",
+      "tocId": "bk2fZKkLTVjzRGGBNYdbdw",
+      "title": "Upgrading Detect",
+      "path": [
+        "Downloading and Installing Detect",
+        "Upgrading Detect"
+      ],
+      "section": "Downloading and Installing Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/upgrading-detect.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/upgrading-detect.html",
+      "localPath": "docs/detect/downloading-and-installing-detect/upgrading-detect.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:02.164079+00:00",
+      "bytes": 2091
+    },
+    {
+      "id": "6D23NaLqMtQC1EE1g6d52A",
+      "tocId": "5fcaZ7~hMWeWyAmg8a_CIQ",
+      "title": "Detect Version Management",
+      "path": [
+        "Downloading and Installing Detect",
+        "Detect Version Management"
+      ],
+      "section": "Downloading and Installing Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-version-management.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detect-version-management.html",
+      "localPath": "docs/detect/downloading-and-installing-detect/detect-version-management.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:02.774412+00:00",
+      "bytes": 5208
+    },
+    {
+      "id": "Hov7oWB9PuIyKGencjI9fA",
+      "tocId": "v8Kob5jQEAgQYY_k9k4IBQ",
+      "title": "Detect Code Verification",
+      "path": [
+        "Downloading and Installing Detect",
+        "Detect Code Verification"
+      ],
+      "section": "Downloading and Installing Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-code-verification.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detect-code-verification.html",
+      "localPath": "docs/detect/downloading-and-installing-detect/detect-code-verification.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:03.375068+00:00",
+      "bytes": 2155
+    },
+    {
+      "id": "~senNQqZziBX21Ydk5Hh_A",
+      "tocId": "QUE37~VgY6jO82qJRxP1lw",
+      "title": "Detect Air Gap mode",
+      "path": [
+        "Downloading and Installing Detect",
+        "Detect Air Gap mode"
+      ],
+      "section": "Downloading and Installing Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-air-gap-mode.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detect-air-gap-mode.html",
+      "localPath": "docs/detect/downloading-and-installing-detect/detect-air-gap-mode.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:03.996835+00:00",
+      "bytes": 1597
+    },
+    {
+      "id": "vvW90cEGhPZfykg08tbpqQ",
+      "tocId": "OIpQg8sL_KudQxpy20NIBw",
+      "title": "Detect Quickstart guide",
+      "path": [
+        "Detect Quickstart guide"
+      ],
+      "section": "Detect Quickstart guide",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-quickstart-guide.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detect-quickstart-guide.html",
+      "localPath": "docs/detect/detect-quickstart-guide.md",
+      "depth": 1,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:04.633534+00:00",
+      "bytes": 4176
+    },
+    {
+      "id": "VLJOPTjUlaxLKAgzcjdLKw",
+      "tocId": "uf3EvwbTNIOcXWrwx0rUIw",
+      "title": "Getting started with Detect",
+      "path": [
+        "Getting started with Detect"
+      ],
+      "section": "Getting started with Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/getting-started-with-detect.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/getting-started-with-detect.html",
+      "localPath": "docs/detect/getting-started-with-detect.md",
+      "depth": 1,
+      "hasChildren": true,
+      "directChildren": 7,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:05.246323+00:00",
+      "bytes": 1070
+    },
+    {
+      "id": "DBN78rPO4Rnavkd5vld9~Q",
+      "tocId": "fMLw79DymeYoPADyC9ETNA",
+      "title": "Detect Key Concepts and Terms",
+      "path": [
+        "Getting started with Detect",
+        "Detect Key Concepts and Terms"
+      ],
+      "section": "Getting started with Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-key-concepts-and-terms.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detect-key-concepts-and-terms.html",
+      "localPath": "docs/detect/getting-started-with-detect/detect-key-concepts-and-terms.md",
+      "depth": 2,
+      "hasChildren": true,
+      "directChildren": 11,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:05.876747+00:00",
+      "bytes": 591
+    },
+    {
+      "id": "s~Xy3QXERV0O7QI8C8VDcA",
+      "tocId": "~3RuuIwa5GXxhLJqVOCm6Q",
+      "title": "BDIO",
+      "path": [
+        "Getting started with Detect",
+        "Detect Key Concepts and Terms",
+        "BDIO"
+      ],
+      "section": "Getting started with Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/bdio.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/bdio.html",
+      "localPath": "docs/detect/getting-started-with-detect/detect-key-concepts-and-terms/bdio.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:06.489955+00:00",
+      "bytes": 449
+    },
+    {
+      "id": "IZJzyBESfi___olLm~_Zew",
+      "tocId": "hSv3kMfqPlHaAEhUGeNkcQ",
+      "title": "Detectors",
+      "path": [
+        "Getting started with Detect",
+        "Detect Key Concepts and Terms",
+        "Detectors"
+      ],
+      "section": "Getting started with Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detectors.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detectors.html",
+      "localPath": "docs/detect/getting-started-with-detect/detect-key-concepts-and-terms/detectors.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:07.097389+00:00",
+      "bytes": 1057
+    },
+    {
+      "id": "1z9w_4gI_0g_gtwHiQqWyg",
+      "tocId": "lmYUmAM~6CvOmIRsGlwLBg",
+      "title": "Vulnerability Impact Analysis",
+      "path": [
+        "Getting started with Detect",
+        "Detect Key Concepts and Terms",
+        "Vulnerability Impact Analysis"
+      ],
+      "section": "Getting started with Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/vulnerability-impact-analysis.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/vulnerability-impact-analysis.html",
+      "localPath": "docs/detect/getting-started-with-detect/detect-key-concepts-and-terms/vulnerability-impact-analysis.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:07.707280+00:00",
+      "bytes": 845
+    },
+    {
+      "id": "po3xLJc1hURl4jTQSpLUFg",
+      "tocId": "82XZd5NHK_ikfUn5ZKDtYw",
+      "title": "Inspectors",
+      "path": [
+        "Getting started with Detect",
+        "Detect Key Concepts and Terms",
+        "Inspectors"
+      ],
+      "section": "Getting started with Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/inspectors.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/inspectors.html",
+      "localPath": "docs/detect/getting-started-with-detect/detect-key-concepts-and-terms/inspectors.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:08.309659+00:00",
+      "bytes": 554
+    },
+    {
+      "id": "5JmLLfkPdjZZ1IhxEOdrIg",
+      "tocId": "Id_16pgpOuZ1iWerdqd_3g",
+      "title": "JAR",
+      "path": [
+        "Getting started with Detect",
+        "Detect Key Concepts and Terms",
+        "JAR"
+      ],
+      "section": "Getting started with Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/jar.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/jar.html",
+      "localPath": "docs/detect/getting-started-with-detect/detect-key-concepts-and-terms/jar.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:08.943118+00:00",
+      "bytes": 544
+    },
+    {
+      "id": "3o3A7Cthec3O5zG~3eQKFA",
+      "tocId": "nPYgW_t9fb0PC_oeMG_W1Q",
+      "title": "Detect Properties",
+      "path": [
+        "Getting started with Detect",
+        "Detect Key Concepts and Terms",
+        "Detect Properties"
+      ],
+      "section": "Getting started with Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-properties.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detect-properties.html",
+      "localPath": "docs/detect/getting-started-with-detect/detect-key-concepts-and-terms/detect-properties.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:09.564320+00:00",
+      "bytes": 1184
+    },
+    {
+      "id": "b7p9uuelOsGg~Qulufzy2Q",
+      "tocId": "n8hGQPmT3cYF2vefVoXUSA",
+      "title": "Run",
+      "path": [
+        "Getting started with Detect",
+        "Detect Key Concepts and Terms",
+        "Run"
+      ],
+      "section": "Getting started with Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/run.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/run.html",
+      "localPath": "docs/detect/getting-started-with-detect/detect-key-concepts-and-terms/run.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:10.183635+00:00",
+      "bytes": 528
+    },
+    {
+      "id": "R5XyI7dRmOqrTn~0hJvGRA",
+      "tocId": "D~bJghQZBWJtu5GxaZAl0A",
+      "title": "Software Composition Analysis (SCA)",
+      "path": [
+        "Getting started with Detect",
+        "Detect Key Concepts and Terms",
+        "Software Composition Analysis (SCA)"
+      ],
+      "section": "Getting started with Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/software-composition-analysis-sca-.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/software-composition-analysis-sca-.html",
+      "localPath": "docs/detect/getting-started-with-detect/detect-key-concepts-and-terms/software-composition-analysis-sca.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:10.789490+00:00",
+      "bytes": 844
+    },
+    {
+      "id": "O_v_hAoQQ7X_XbjD_HjCLw",
+      "tocId": "Gz3r~DP_ObnmFuAXfv9vZA",
+      "title": "Scans and projects",
+      "path": [
+        "Getting started with Detect",
+        "Detect Key Concepts and Terms",
+        "Scans and projects"
+      ],
+      "section": "Getting started with Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/scans-and-projects.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/scans-and-projects.html",
+      "localPath": "docs/detect/getting-started-with-detect/detect-key-concepts-and-terms/scans-and-projects.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:11.400558+00:00",
+      "bytes": 813
+    },
+    {
+      "id": "ZvmabLzKGT4yZx5ngTdy7w",
+      "tocId": "TuHocwHGgd2EL5EQX~1Pug",
+      "title": "Script",
+      "path": [
+        "Getting started with Detect",
+        "Detect Key Concepts and Terms",
+        "Script"
+      ],
+      "section": "Getting started with Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/script.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/script.html",
+      "localPath": "docs/detect/getting-started-with-detect/detect-key-concepts-and-terms/script.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:12.018509+00:00",
+      "bytes": 1046
+    },
+    {
+      "id": "CzfTZRGmNQASgyITof92tQ",
+      "tocId": "Wggj3VHWqavKmp7BaIkQzg",
+      "title": "Tools",
+      "path": [
+        "Getting started with Detect",
+        "Detect Key Concepts and Terms",
+        "Tools"
+      ],
+      "section": "Getting started with Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/tools.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/tools.html",
+      "localPath": "docs/detect/getting-started-with-detect/detect-key-concepts-and-terms/tools.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:12.641157+00:00",
+      "bytes": 1933
+    },
+    {
+      "id": "b2JqybCgiQWZPVdXSahbKw",
+      "tocId": "65FkG7NMrkLXSjsTtgYAcw",
+      "title": "How Detect Works",
+      "path": [
+        "Getting started with Detect",
+        "How Detect Works"
+      ],
+      "section": "Getting started with Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/how-detect-works.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/how-detect-works.html",
+      "localPath": "docs/detect/getting-started-with-detect/how-detect-works.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:13.260001+00:00",
+      "bytes": 1594
+    },
+    {
+      "id": "acSpQ3fRWt1tDOkUqDUv6w",
+      "tocId": "QINCdLKy2EgtiDdFUfPDkg",
+      "title": "Detect basic workflow",
+      "path": [
+        "Getting started with Detect",
+        "Detect basic workflow"
+      ],
+      "section": "Getting started with Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-basic-workflow.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detect-basic-workflow.html",
+      "localPath": "docs/detect/getting-started-with-detect/detect-basic-workflow.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:13.876605+00:00",
+      "bytes": 715
+    },
+    {
+      "id": "lMXX~jmHMa0E9mqVYuNuZQ",
+      "tocId": "0xznygBNcLdY_wNN_4ed7g",
+      "title": "Detect Processing",
+      "path": [
+        "Getting started with Detect",
+        "Detect Processing"
+      ],
+      "section": "Getting started with Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-processing.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detect-processing.html",
+      "localPath": "docs/detect/getting-started-with-detect/detect-processing.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:14.483531+00:00",
+      "bytes": 1689
+    },
+    {
+      "id": "pNnbt3cTcz_co1VrJvuFhQ",
+      "tocId": "HcBu5NVF5WjHc8gsW4PLJg",
+      "title": "Detect configuration overview",
+      "path": [
+        "Getting started with Detect",
+        "Detect configuration overview"
+      ],
+      "section": "Getting started with Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-configuration-overview.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detect-configuration-overview.html",
+      "localPath": "docs/detect/getting-started-with-detect/detect-configuration-overview.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:15.108457+00:00",
+      "bytes": 771
+    },
+    {
+      "id": "UiQ9jl05zrlcZSeSlF8qUg",
+      "tocId": "uy2ELq8sP6MO1PvGnHrdLA",
+      "title": "User role requirements when running with Black Duck",
+      "path": [
+        "Getting started with Detect",
+        "User role requirements when running with Black Duck"
+      ],
+      "section": "Getting started with Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/user-role-requirements-when-running-with-black-duck.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/user-role-requirements-when-running-with-black-duck.html",
+      "localPath": "docs/detect/getting-started-with-detect/user-role-requirements-when-running-with-black-duck.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:15.721193+00:00",
+      "bytes": 1327
+    },
+    {
+      "id": "jolVqaNN_HWGFVSKudOyWA",
+      "tocId": "sMRV3fva9F3JdfxWED1aNQ",
+      "title": "Detect command line help options",
+      "path": [
+        "Getting started with Detect",
+        "Detect command line help options"
+      ],
+      "section": "Getting started with Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-command-line-help-options.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detect-command-line-help-options.html",
+      "localPath": "docs/detect/getting-started-with-detect/detect-command-line-help-options.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:16.335132+00:00",
+      "bytes": 1077
+    },
+    {
+      "id": "VPnpgaOAFpGjhyWqJO5gTA",
+      "tocId": "1_CJ5dAwdbd6l0Qiasu7uQ",
+      "title": "Configuring Detect",
+      "path": [
+        "Configuring Detect"
+      ],
+      "section": "Configuring Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/configuring-detect.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/configuring-detect.html",
+      "localPath": "docs/detect/configuring-detect.md",
+      "depth": 1,
+      "hasChildren": true,
+      "directChildren": 13,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:16.935362+00:00",
+      "bytes": 773
+    },
+    {
+      "id": "8ZJ~jlJdhtjz1BIp2H2Whw",
+      "tocId": "E5NI563qGlJQd5k~4Xo3GA",
+      "title": "On the command line",
+      "path": [
+        "Configuring Detect",
+        "On the command line"
+      ],
+      "section": "Configuring Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/on-the-command-line.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/on-the-command-line.html",
+      "localPath": "docs/detect/configuring-detect/on-the-command-line.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:17.543463+00:00",
+      "bytes": 902
+    },
+    {
+      "id": "ffX6GHIQf6NoSbVFaU8KEw",
+      "tocId": "h~Fmk07gwuNUEJmCl7fRtg",
+      "title": "Using environment variables",
+      "path": [
+        "Configuring Detect",
+        "Using environment variables"
+      ],
+      "section": "Configuring Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/using-environment-variables.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/using-environment-variables.html",
+      "localPath": "docs/detect/configuring-detect/using-environment-variables.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:18.169771+00:00",
+      "bytes": 1148
+    },
+    {
+      "id": "hkHgxPu18QjFfVCPREJQZA",
+      "tocId": "UiD~TQvmPGeGPd7OmH4skQ",
+      "title": "Using a configuration file",
+      "path": [
+        "Configuring Detect",
+        "Using a configuration file"
+      ],
+      "section": "Configuring Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/using-a-configuration-file.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/using-a-configuration-file.html",
+      "localPath": "docs/detect/configuring-detect/using-a-configuration-file.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:18.798980+00:00",
+      "bytes": 3096
+    },
+    {
+      "id": "B1bJzejZZPtJweRVLCffuw",
+      "tocId": "QquWxBGzDGhF8e3QqQ_o_w",
+      "title": "Project settings via JSON",
+      "path": [
+        "Configuring Detect",
+        "Project settings via JSON"
+      ],
+      "section": "Configuring Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/project-settings-via-json.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/project-settings-via-json.html",
+      "localPath": "docs/detect/configuring-detect/project-settings-via-json.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:19.432957+00:00",
+      "bytes": 2631
+    },
+    {
+      "id": "aNf_GmLjmNbStItFTg4yWQ",
+      "tocId": "iY0Lh7S9AaxIUnc9vzj6dg",
+      "title": "Switching between multiple profiles",
+      "path": [
+        "Configuring Detect",
+        "Switching between multiple profiles"
+      ],
+      "section": "Configuring Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/switching-between-multiple-profiles.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/switching-between-multiple-profiles.html",
+      "localPath": "docs/detect/configuring-detect/switching-between-multiple-profiles.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:20.065223+00:00",
+      "bytes": 1350
+    },
+    {
+      "id": "~6BnNykEZ0mPkwbHJMd18g",
+      "tocId": "4pKK5eRdOohbIAhbpHSH1g",
+      "title": "Additional configuration methods and details",
+      "path": [
+        "Configuring Detect",
+        "Additional configuration methods and details"
+      ],
+      "section": "Configuring Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/additional-configuration-methods-and-details.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/additional-configuration-methods-and-details.html",
+      "localPath": "docs/detect/configuring-detect/additional-configuration-methods-and-details.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:20.679319+00:00",
+      "bytes": 2336
+    },
+    {
+      "id": "Oqs5Dfzb4buT~pTy6oClgQ",
+      "tocId": "60UpwI0g6dm3Vq~BKuYS6Q",
+      "title": "Providing sensitive values such as credentials",
+      "path": [
+        "Configuring Detect",
+        "Providing sensitive values such as credentials"
+      ],
+      "section": "Configuring Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/providing-sensitive-values-such-as-credentials.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/providing-sensitive-values-such-as-credentials.html",
+      "localPath": "docs/detect/configuring-detect/providing-sensitive-values-such-as-credentials.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:21.277987+00:00",
+      "bytes": 1087
+    },
+    {
+      "id": "iANJRYWc1NZpKcS6ubZ6tA",
+      "tocId": "GpGEUv1uYREnDmaJ7rvyaw",
+      "title": "Path properties",
+      "path": [
+        "Configuring Detect",
+        "Path properties"
+      ],
+      "section": "Configuring Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/path-properties.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/path-properties.html",
+      "localPath": "docs/detect/configuring-detect/path-properties.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:21.899473+00:00",
+      "bytes": 1173
+    },
+    {
+      "id": "ZEbYbgeoSK2QRMNlhfLw2g",
+      "tocId": "r67Yl5bQT6hZ0AfzGpY3~w",
+      "title": "Property wildcard support",
+      "path": [
+        "Configuring Detect",
+        "Property wildcard support"
+      ],
+      "section": "Configuring Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/property-wildcard-support.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/property-wildcard-support.html",
+      "localPath": "docs/detect/configuring-detect/property-wildcard-support.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:22.516970+00:00",
+      "bytes": 1777
+    },
+    {
+      "id": "MxYfQG3Q6K2WdyP7YW0TSQ",
+      "tocId": "oWTVADmqigDeCfNqEIOCOg",
+      "title": "Java regular expression support",
+      "path": [
+        "Configuring Detect",
+        "Java regular expression support"
+      ],
+      "section": "Configuring Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/java-regular-expression-support.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/java-regular-expression-support.html",
+      "localPath": "docs/detect/configuring-detect/java-regular-expression-support.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:23.122042+00:00",
+      "bytes": 1191
+    },
+    {
+      "id": "cRTX5LamgSL5Psah57EB4A",
+      "tocId": "X9hIRhW00AlfIkfSOLGKgQ",
+      "title": "Shell script configuration and environment variables",
+      "path": [
+        "Configuring Detect",
+        "Shell script configuration and environment variables"
+      ],
+      "section": "Configuring Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/shell-script-configuration-and-environment-variables.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/shell-script-configuration-and-environment-variables.html",
+      "localPath": "docs/detect/configuring-detect/shell-script-configuration-and-environment-variables.md",
+      "depth": 2,
+      "hasChildren": true,
+      "directChildren": 1,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:23.846975+00:00",
+      "bytes": 7507
+    },
+    {
+      "id": "UN1pCVybdfBRgvZ7nWWvWA",
+      "tocId": "Kk7v8SzVI8FmDlDM5IvZ9A",
+      "title": "Quoting and escaping shell script arguments",
+      "path": [
+        "Configuring Detect",
+        "Shell script configuration and environment variables",
+        "Quoting and escaping shell script arguments"
+      ],
+      "section": "Configuring Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/quoting-and-escaping-shell-script-arguments.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/quoting-and-escaping-shell-script-arguments.html",
+      "localPath": "docs/detect/configuring-detect/shell-script-configuration-and-environment-variables/quoting-and-escaping-shell-script-arguments.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:24.481384+00:00",
+      "bytes": 7425
+    },
+    {
+      "id": "Svfa8TJxEC0KkKzHMC_pEQ",
+      "tocId": "uA35MUOewVB5IJPO8ndHdA",
+      "title": "Project, Version, and Code Location Naming",
+      "path": [
+        "Configuring Detect",
+        "Project, Version, and Code Location Naming"
+      ],
+      "section": "Configuring Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/project-version-and-code-location-naming.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/project-version-and-code-location-naming.html",
+      "localPath": "docs/detect/configuring-detect/project-version-and-code-location-naming.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:25.099991+00:00",
+      "bytes": 3280
+    },
+    {
+      "id": "N8d3uJEYS~VJ~Jttw7CFnw",
+      "tocId": "gfTSDdN5EQlUBDD6TTDl0Q",
+      "title": "BDIO aggregation",
+      "path": [
+        "Configuring Detect",
+        "BDIO aggregation"
+      ],
+      "section": "Configuring Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/bdio-aggregation.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/bdio-aggregation.html",
+      "localPath": "docs/detect/configuring-detect/bdio-aggregation.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:25.723437+00:00",
+      "bytes": 1145
+    },
+    {
+      "id": "Kp87eaMDJ1HLKwwILkUzMw",
+      "tocId": "ElGbd5fozGQJ5n6lyl8USQ",
+      "title": "Planning and running Detect",
+      "path": [
+        "Planning and running Detect"
+      ],
+      "section": "Planning and running Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/planning-and-running-detect.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/planning-and-running-detect.html",
+      "localPath": "docs/detect/planning-and-running-detect.md",
+      "depth": 1,
+      "hasChildren": true,
+      "directChildren": 23,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:26.336249+00:00",
+      "bytes": 647
+    },
+    {
+      "id": "f7lR2y~LC6FNURfBe6D_RQ",
+      "tocId": "qQ74P0fA8eCZNU~05oUSnw",
+      "title": "Deciding how to use Detect",
+      "path": [
+        "Planning and running Detect",
+        "Deciding how to use Detect"
+      ],
+      "section": "Planning and running Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/deciding-how-to-use-detect.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/deciding-how-to-use-detect.html",
+      "localPath": "docs/detect/planning-and-running-detect/deciding-how-to-use-detect.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:26.939367+00:00",
+      "bytes": 1020
+    },
+    {
+      "id": "TeKHB_FVtk8JLtDHXtmuKQ",
+      "tocId": "ymTOQjJ3d9ZIk6LQY8YV1Q",
+      "title": "Positioning Detect in the build process",
+      "path": [
+        "Planning and running Detect",
+        "Positioning Detect in the build process"
+      ],
+      "section": "Planning and running Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/positioning-detect-in-the-build-process.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/positioning-detect-in-the-build-process.html",
+      "localPath": "docs/detect/planning-and-running-detect/positioning-detect-in-the-build-process.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:27.541057+00:00",
+      "bytes": 1020
+    },
+    {
+      "id": "E96obnvwDl_TPzcspbSUKA",
+      "tocId": "_2qRtXyhiJnrFLcv07V1rQ",
+      "title": "Installation Best Practices",
+      "path": [
+        "Planning and running Detect",
+        "Installation Best Practices"
+      ],
+      "section": "Planning and running Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/installation-best-practices.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/installation-best-practices.html",
+      "localPath": "docs/detect/planning-and-running-detect/installation-best-practices.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:28.160899+00:00",
+      "bytes": 3722
+    },
+    {
+      "id": "_lzri9F7duPy5HVTYespHw",
+      "tocId": "VrDEt_NcP1UlfeOqGhWzYg",
+      "title": "Choosing the working directory",
+      "path": [
+        "Planning and running Detect",
+        "Choosing the working directory"
+      ],
+      "section": "Planning and running Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/choosing-the-working-directory.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/choosing-the-working-directory.html",
+      "localPath": "docs/detect/planning-and-running-detect/choosing-the-working-directory.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:28.785570+00:00",
+      "bytes": 610
+    },
+    {
+      "id": "ZCv3Bfb7td9029~dp653mA",
+      "tocId": "tbnSQNvzW4vR3C0~Y67BSQ",
+      "title": "Choosing a run method (script, .jar, or Docker container)",
+      "path": [
+        "Planning and running Detect",
+        "Choosing a run method (script, .jar, or Docker container)"
+      ],
+      "section": "Planning and running Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/choosing-a-run-method-script-.jar-or-docker-container-.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/choosing-a-run-method-script-.jar-or-docker-container-.html",
+      "localPath": "docs/detect/planning-and-running-detect/choosing-a-run-method-script-jar-or-docker-container.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:29.451222+00:00",
+      "bytes": 2952
+    },
+    {
+      "id": "zHUuoQm6zLdtiTLSX0xZHg",
+      "tocId": "mMRPT~7JeVD4tyFyfkZs3Q",
+      "title": "Running the Detect script",
+      "path": [
+        "Planning and running Detect",
+        "Running the Detect script"
+      ],
+      "section": "Planning and running Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/running-the-detect-script.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/running-the-detect-script.html",
+      "localPath": "docs/detect/planning-and-running-detect/running-the-detect-script.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:30.071847+00:00",
+      "bytes": 4768
+    },
+    {
+      "id": "Wm9ENZ2Id3cvlkmtdcuUaw",
+      "tocId": "zu1qYgrde_axz4XraF7BdA",
+      "title": "Running the Detect .jar",
+      "path": [
+        "Planning and running Detect",
+        "Running the Detect .jar"
+      ],
+      "section": "Planning and running Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/running-the-detect-.jar.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/running-the-detect-.jar.html",
+      "localPath": "docs/detect/planning-and-running-detect/running-the-detect-jar.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:30.684489+00:00",
+      "bytes": 851
+    },
+    {
+      "id": "OwsBcZHsQwCqfxSmNTanqg",
+      "tocId": "RU4vbjAIvIPtvh1TNgLbTA",
+      "title": "Choosing the Detect target type",
+      "path": [
+        "Planning and running Detect",
+        "Choosing the Detect target type"
+      ],
+      "section": "Planning and running Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/choosing-the-detect-target-type.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/choosing-the-detect-target-type.html",
+      "localPath": "docs/detect/planning-and-running-detect/choosing-the-detect-target-type.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:31.295922+00:00",
+      "bytes": 1127
+    },
+    {
+      "id": "Wt7RrdRrG2TCWCawuPvqWg",
+      "tocId": "xHvI6uPLHzgnD_i~PZKWqQ",
+      "title": "Running with Black Duck® SCA",
+      "path": [
+        "Planning and running Detect",
+        "Running with Black Duck® SCA"
+      ],
+      "section": "Planning and running Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/running-with-black-duck-sca.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/running-with-black-duck-sca.html",
+      "localPath": "docs/detect/planning-and-running-detect/running-with-black-duck-sca.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:31.978924+00:00",
+      "bytes": 4898
+    },
+    {
+      "id": "WLr2BMQLucmGo5RWcY3oQw",
+      "tocId": "k2GAsbcsToClmq0iHGT0Dw",
+      "title": "Including and excluding Tools, Detectors, and Directories",
+      "path": [
+        "Planning and running Detect",
+        "Including and excluding Tools, Detectors, and Directories"
+      ],
+      "section": "Planning and running Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/including-and-excluding-tools-detectors-and-directories.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/including-and-excluding-tools-detectors-and-directories.html",
+      "localPath": "docs/detect/planning-and-running-detect/including-and-excluding-tools-detectors-and-directories.md",
+      "depth": 2,
+      "hasChildren": true,
+      "directChildren": 4,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:32.593698+00:00",
+      "bytes": 601
+    },
+    {
+      "id": "QpfLLQzKiQQTAJE5QEsIFw",
+      "tocId": "XZNFhCfTLv_iaaqYQPfyVw",
+      "title": "Detect Tools",
+      "path": [
+        "Planning and running Detect",
+        "Including and excluding Tools, Detectors, and Directories",
+        "Detect Tools"
+      ],
+      "section": "Planning and running Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-tools.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detect-tools.html",
+      "localPath": "docs/detect/planning-and-running-detect/including-and-excluding-tools-detectors-and-directories/detect-tools.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:33.199567+00:00",
+      "bytes": 1462
+    },
+    {
+      "id": "gw22TvvZI2Sw5EEBpXzFQg",
+      "tocId": "rfGBS4MaDK~cm3CxqtAl_w",
+      "title": "Detectors",
+      "path": [
+        "Planning and running Detect",
+        "Including and excluding Tools, Detectors, and Directories",
+        "Detectors"
+      ],
+      "section": "Planning and running Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detectors.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detectors.html",
+      "localPath": "docs/detect/planning-and-running-detect/including-and-excluding-tools-detectors-and-directories/detectors.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:33.821939+00:00",
+      "bytes": 977
+    },
+    {
+      "id": "hg1IMYJ8StKlVHJHyl8Tsw",
+      "tocId": "EUFUpeM584HL_IYmObu2eg",
+      "title": "Package Manager Exclusions",
+      "path": [
+        "Planning and running Detect",
+        "Including and excluding Tools, Detectors, and Directories",
+        "Package Manager Exclusions"
+      ],
+      "section": "Planning and running Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/package-manager-exclusions.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/package-manager-exclusions.html",
+      "localPath": "docs/detect/planning-and-running-detect/including-and-excluding-tools-detectors-and-directories/package-manager-exclusions.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:34.435064+00:00",
+      "bytes": 858
+    },
+    {
+      "id": "eDGv~IQXoFTLF1r_P8ws7g",
+      "tocId": "XrUyBKcI2bbtmwK39AcUNQ",
+      "title": "Directory Exclusions",
+      "path": [
+        "Planning and running Detect",
+        "Including and excluding Tools, Detectors, and Directories",
+        "Directory Exclusions"
+      ],
+      "section": "Planning and running Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/directory-exclusions.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/directory-exclusions.html",
+      "localPath": "docs/detect/planning-and-running-detect/including-and-excluding-tools-detectors-and-directories/directory-exclusions.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:35.132212+00:00",
+      "bytes": 4501
+    },
+    {
+      "id": "lzp1dyN_smcThhr2sknNLw",
+      "tocId": "EUseW7OLyI8mkEeCl~PHtQ",
+      "title": "Component Location Analysis",
+      "path": [
+        "Planning and running Detect",
+        "Component Location Analysis"
+      ],
+      "section": "Planning and running Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/component-location-analysis.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/component-location-analysis.html",
+      "localPath": "docs/detect/planning-and-running-detect/component-location-analysis.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:35.769499+00:00",
+      "bytes": 6239
+    },
+    {
+      "id": "jjxFDWLQC976B4nur4bgFg",
+      "tocId": "HQ~Tfc_DPdyeAiQPLd4MbA",
+      "title": "Concurrent execution",
+      "path": [
+        "Planning and running Detect",
+        "Concurrent execution"
+      ],
+      "section": "Planning and running Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/concurrent-execution.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/concurrent-execution.html",
+      "localPath": "docs/detect/planning-and-running-detect/concurrent-execution.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:36.408917+00:00",
+      "bytes": 2127
+    },
+    {
+      "id": "ntW__L7OoCFB_yq7_RThMg",
+      "tocId": "7Mn5Il9ePLtHzE7OTZ8WLw",
+      "title": "Detector search and accuracy",
+      "path": [
+        "Planning and running Detect",
+        "Detector search and accuracy"
+      ],
+      "section": "Planning and running Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detector-search-and-accuracy.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detector-search-and-accuracy.html",
+      "localPath": "docs/detect/planning-and-running-detect/detector-search-and-accuracy.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:37.142172+00:00",
+      "bytes": 8837
+    },
+    {
+      "id": "VejYElKO~RbeK1p7FEBU7A",
+      "tocId": "8VQNpEnUzRPpSzLj8vlZ4Q",
+      "title": "Running behind a proxy",
+      "path": [
+        "Planning and running Detect",
+        "Running behind a proxy"
+      ],
+      "section": "Planning and running Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/running-behind-a-proxy.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/running-behind-a-proxy.html",
+      "localPath": "docs/detect/planning-and-running-detect/running-behind-a-proxy.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:37.773190+00:00",
+      "bytes": 3108
+    },
+    {
+      "id": "l9KpH52rqj9Vz~c659xKQA",
+      "tocId": "tYnV4kCcbAYmYE0TsBRNzw",
+      "title": "Running Detect within a Docker container",
+      "path": [
+        "Planning and running Detect",
+        "Running Detect within a Docker container"
+      ],
+      "section": "Planning and running Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/running-detect-within-a-docker-container.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/running-detect-within-a-docker-container.html",
+      "localPath": "docs/detect/planning-and-running-detect/running-detect-within-a-docker-container.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:38.411817+00:00",
+      "bytes": 5129
+    },
+    {
+      "id": "fiejezghcCGSNUvG6~Qs7Q",
+      "tocId": "IkqPLH3rLc2YTpiExL8BrA",
+      "title": "Running Detect in air gap mode",
+      "path": [
+        "Planning and running Detect",
+        "Running Detect in air gap mode"
+      ],
+      "section": "Planning and running Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/running-detect-in-air-gap-mode.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/running-detect-in-air-gap-mode.html",
+      "localPath": "docs/detect/planning-and-running-detect/running-detect-in-air-gap-mode.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:39.024236+00:00",
+      "bytes": 2207
+    },
+    {
+      "id": "ggU42h036O42S1wNLnw8Vg",
+      "tocId": "B_N_DZUW3yarhyri7~fihA",
+      "title": "Output Status File",
+      "path": [
+        "Planning and running Detect",
+        "Output Status File"
+      ],
+      "section": "Planning and running Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/output-status-file.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/output-status-file.html",
+      "localPath": "docs/detect/planning-and-running-detect/output-status-file.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:39.745892+00:00",
+      "bytes": 8922
+    },
+    {
+      "id": "Brvnd6uFkt8IrslOsklqtw",
+      "tocId": "gVJ3LU678MhqUMoMrs4nSA",
+      "title": "Autonomous Scanning",
+      "path": [
+        "Planning and running Detect",
+        "Autonomous Scanning"
+      ],
+      "section": "Planning and running Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/autonomous-scanning.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/autonomous-scanning.html",
+      "localPath": "docs/detect/planning-and-running-detect/autonomous-scanning.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:40.456420+00:00",
+      "bytes": 7289
+    },
+    {
+      "id": "HjuODacBz8fcKYoXsN_AYQ",
+      "tocId": "W3VoPNf8FyPrqVWddCQOvA",
+      "title": "Container Scan",
+      "path": [
+        "Planning and running Detect",
+        "Container Scan"
+      ],
+      "section": "Planning and running Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/container-scan.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/container-scan.html",
+      "localPath": "docs/detect/planning-and-running-detect/container-scan.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:41.305251+00:00",
+      "bytes": 3059
+    },
+    {
+      "id": "O~UPsPaCFo6hzijzgvY~PQ",
+      "tocId": "B5AA2ni4X_b8L0Drs5LEiw",
+      "title": "IaC Scan",
+      "path": [
+        "Planning and running Detect",
+        "IaC Scan"
+      ],
+      "section": "Planning and running Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/iac-scan.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/iac-scan.html",
+      "localPath": "docs/detect/planning-and-running-detect/iac-scan.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:42.324362+00:00",
+      "bytes": 1773
+    },
+    {
+      "id": "_cd6HvlH9MTO71VBTR0HXw",
+      "tocId": "hjjzyhcJrZYS1b0dQqJRUg",
+      "title": "Rapid Scan",
+      "path": [
+        "Planning and running Detect",
+        "Rapid Scan"
+      ],
+      "section": "Planning and running Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/rapid-scan.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/rapid-scan.html",
+      "localPath": "docs/detect/planning-and-running-detect/rapid-scan.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:42.950299+00:00",
+      "bytes": 8696
+    },
+    {
+      "id": "BHV4jLNjNe0RuqGrs0LZOQ",
+      "tocId": "GWCJ21ZBUZs5EanQNBLQ7Q",
+      "title": "Stateless Scan",
+      "path": [
+        "Planning and running Detect",
+        "Stateless Scan"
+      ],
+      "section": "Planning and running Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/stateless-scan.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/stateless-scan.html",
+      "localPath": "docs/detect/planning-and-running-detect/stateless-scan.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:43.667190+00:00",
+      "bytes": 9590
+    },
+    {
+      "id": "wY735bPdYOdiopmk~pa0~g",
+      "tocId": "sVOGc_FMv1nqjq2MUUMlZw",
+      "title": "Quack Patch (Early Access)",
+      "path": [
+        "Planning and running Detect",
+        "Quack Patch (Early Access)"
+      ],
+      "section": "Planning and running Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/quack-patch-early-access-.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/quack-patch-early-access-.html",
+      "localPath": "docs/detect/planning-and-running-detect/quack-patch-early-access.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:44.281457+00:00",
+      "bytes": 6219
+    },
+    {
+      "id": "J7hHBARvgOFyNAAVKT5P5g",
+      "tocId": "SOwG8xz~cvrdSazuDkDIug",
+      "title": "Detect Components",
+      "path": [
+        "Detect Components"
+      ],
+      "section": "Detect Components",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-components.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detect-components.html",
+      "localPath": "docs/detect/detect-components.md",
+      "depth": 1,
+      "hasChildren": true,
+      "directChildren": 3,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:44.900890+00:00",
+      "bytes": 1010
+    },
+    {
+      "id": "dS5GfwG0AOqFaHVuoSo7QA",
+      "tocId": "SI_qWZteKUU9TLBKq2rCYw",
+      "title": "Tools",
+      "path": [
+        "Detect Components",
+        "Tools"
+      ],
+      "section": "Detect Components",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/tools.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/tools.html",
+      "localPath": "docs/detect/detect-components/tools.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:45.506042+00:00",
+      "bytes": 856
+    },
+    {
+      "id": "QCxasHgk6nxXRhe7O3QfpQ",
+      "tocId": "4sO~6Z16YmuAJ_NO4_jSBg",
+      "title": "Detectors",
+      "path": [
+        "Detect Components",
+        "Detectors"
+      ],
+      "section": "Detect Components",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detectors.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detectors.html",
+      "localPath": "docs/detect/detect-components/detectors.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:46.317560+00:00",
+      "bytes": 8393
+    },
+    {
+      "id": "oPP1AyiBL6qt5BIzfZOXDw",
+      "tocId": "t6VpKoP0MlEK30I6Tejl~w",
+      "title": "Inspectors",
+      "path": [
+        "Detect Components",
+        "Inspectors"
+      ],
+      "section": "Detect Components",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/inspectors.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/inspectors.html",
+      "localPath": "docs/detect/detect-components/inspectors.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:46.928441+00:00",
+      "bytes": 3015
+    },
+    {
+      "id": "~fPLUd2O9PrXO_R~cF3k7Q",
+      "tocId": "le2~A2xZN4BHFF~lTmAv7w",
+      "title": "Package Manager information for Detect",
+      "path": [
+        "Package Manager information for Detect"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/package-manager-information-for-detect.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/package-manager-information-for-detect.html",
+      "localPath": "docs/detect/package-manager-information-for-detect.md",
+      "depth": 1,
+      "hasChildren": true,
+      "directChildren": 26,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:47.546361+00:00",
+      "bytes": 831
+    },
+    {
+      "id": "sG59u9qP5GWWGFHTTkVw1A",
+      "tocId": "3wSrawEt5LIK4p0Wgm1P7g",
+      "title": "Bazel support",
+      "path": [
+        "Package Manager information for Detect",
+        "Bazel support"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/bazel-support.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/bazel-support.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/bazel-support.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:48.280240+00:00",
+      "bytes": 18688
+    },
+    {
+      "id": "y6N4zLCl3UxSpDT4JahPjA",
+      "tocId": "tBqPZ_TV3XwfZkZoqeYs2Q",
+      "title": "BitBake support",
+      "path": [
+        "Package Manager information for Detect",
+        "BitBake support"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/bitbake-support.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/bitbake-support.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/bitbake-support.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:48.906781+00:00",
+      "bytes": 3977
+    },
+    {
+      "id": "N9iihHi7b_oUEZiAQXLBNQ",
+      "tocId": "xP87jVO3Kok6h624F0WGaQ",
+      "title": "Cargo support",
+      "path": [
+        "Package Manager information for Detect",
+        "Cargo support"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/cargo-support.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/cargo-support.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/cargo-support.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:49.527203+00:00",
+      "bytes": 4578
+    },
+    {
+      "id": "lFEsLzG6zPesdF3D3QTRnA",
+      "tocId": "QSiC_heuQJXL32D81QaA3Q",
+      "title": "Carthage support",
+      "path": [
+        "Package Manager information for Detect",
+        "Carthage support"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/carthage-support.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/carthage-support.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/carthage-support.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:50.149205+00:00",
+      "bytes": 1408
+    },
+    {
+      "id": "2HiHBxz4RmIoaoyetVBf1g",
+      "tocId": "QgQ6zUpYDUdc6HL17n0atA",
+      "title": "C/C++ (Clang) support",
+      "path": [
+        "Package Manager information for Detect",
+        "C/C++ (Clang) support"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/c/c-clang-support.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/c/c-clang-support.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/c-c-clang-support.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:50.782249+00:00",
+      "bytes": 2194
+    },
+    {
+      "id": "~qn79eHFZuImKjE7JD5I6Q",
+      "tocId": "NfOgwUzGDGr4jL2kHF_9PA",
+      "title": "Conan support",
+      "path": [
+        "Package Manager information for Detect",
+        "Conan support"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/conan-support.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/conan-support.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/conan-support.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:51.412791+00:00",
+      "bytes": 5199
+    },
+    {
+      "id": "PAcnLeWfNyvzwS4U23adlQ",
+      "tocId": "h3j4yaVhgz8uE8vZmue76Q",
+      "title": "Conda Support",
+      "path": [
+        "Package Manager information for Detect",
+        "Conda Support"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/conda-support.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/conda-support.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/conda-support.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:52.036803+00:00",
+      "bytes": 2343
+    },
+    {
+      "id": "ZAXidkE_o4XQuBzXK85iLw",
+      "tocId": "QXPBXdB3H~lyjTMFR4I31Q",
+      "title": "CPAN Support",
+      "path": [
+        "Package Manager information for Detect",
+        "CPAN Support"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/cpan-support.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/cpan-support.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/cpan-support.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:52.666737+00:00",
+      "bytes": 1005
+    },
+    {
+      "id": "aDPsNbAnUmZSRzrHPnvrCw",
+      "tocId": "rZVyQxWpx3apMIinQ8~WJQ",
+      "title": "Dart Support",
+      "path": [
+        "Package Manager information for Detect",
+        "Dart Support"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/dart-support.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/dart-support.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/dart-support.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:53.297008+00:00",
+      "bytes": 1815
+    },
+    {
+      "id": "FFVX6MZXprQxxyTXmGNnog",
+      "tocId": "VGo0HRsAjJH1LSqUGYDxww",
+      "title": "Detect Docker image support",
+      "path": [
+        "Package Manager information for Detect",
+        "Detect Docker image support"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-docker-image-support.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detect-docker-image-support.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/detect-docker-image-support.md",
+      "depth": 2,
+      "hasChildren": true,
+      "directChildren": 13,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:54.031027+00:00",
+      "bytes": 10308
+    },
+    {
+      "id": "vl6Fx0AumGrOWwJqZdliKg",
+      "tocId": "k3I3tHo2n8CTLIr2egtpGQ",
+      "title": "Detect Docker Inspector Release notes",
+      "path": [
+        "Package Manager information for Detect",
+        "Detect Docker image support",
+        "Detect Docker Inspector Release notes"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-docker-inspector-release-notes.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detect-docker-inspector-release-notes.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/detect-docker-image-support/detect-docker-inspector-release-notes.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:54.838478+00:00",
+      "bytes": 18540
+    },
+    {
+      "id": "37HCZZAhj7q57YdUYrw4Hg",
+      "tocId": "wtWPPCIcQL3y3NX0Hou~Mw",
+      "title": "Supported image formats",
+      "path": [
+        "Package Manager information for Detect",
+        "Detect Docker image support",
+        "Supported image formats"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/supported-image-formats.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/supported-image-formats.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/detect-docker-image-support/supported-image-formats.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:55.453398+00:00",
+      "bytes": 2204
+    },
+    {
+      "id": "sSya0Y~lxx3lD9hF5CCzeg",
+      "tocId": "aZbbfbAvBZvrgLocpzp7ZA",
+      "title": "Black Duck® Detect workflow",
+      "path": [
+        "Package Manager information for Detect",
+        "Detect Docker image support",
+        "Black Duck® Detect workflow"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/black-duck-detect-workflow.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/black-duck-detect-workflow.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/detect-docker-image-support/black-duck-detect-workflow.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:56.074586+00:00",
+      "bytes": 1474
+    },
+    {
+      "id": "PRWfrzoPrw5kJTshA2sHKA",
+      "tocId": "OnMHPnK6wMsRcLEALIjJ_g",
+      "title": "File permissions",
+      "path": [
+        "Package Manager information for Detect",
+        "Detect Docker image support",
+        "File permissions"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/file-permissions.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/file-permissions.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/detect-docker-image-support/file-permissions.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:56.693185+00:00",
+      "bytes": 729
+    },
+    {
+      "id": "kwJnLsAGD7RTMO~LL5reCw",
+      "tocId": "Y8kiqUdS0z4RmefBET6bmg",
+      "title": "Black Duck® Detect's scan target",
+      "path": [
+        "Package Manager information for Detect",
+        "Detect Docker image support",
+        "Black Duck® Detect's scan target"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/black-duck-detect-s-scan-target.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/black-duck-detect-s-scan-target.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/detect-docker-image-support/black-duck-detects-scan-target.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:57.304514+00:00",
+      "bytes": 1889
+    },
+    {
+      "id": "P5ipxntvustQn~7uY4zBMw",
+      "tocId": "7OuFohTnYrjy0lwRXe4KQA",
+      "title": "Isolating application components",
+      "path": [
+        "Package Manager information for Detect",
+        "Detect Docker image support",
+        "Isolating application components"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/isolating-application-components.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/isolating-application-components.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/detect-docker-image-support/isolating-application-components.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:57.928601+00:00",
+      "bytes": 1971
+    },
+    {
+      "id": "jkYMBl52NfgJd~l~XRiCyg",
+      "tocId": "pxqFOxC3hMgsOJ3JhQTADg",
+      "title": "Inspecting Windows Docker images",
+      "path": [
+        "Package Manager information for Detect",
+        "Detect Docker image support",
+        "Inspecting Windows Docker images"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/inspecting-windows-docker-images.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/inspecting-windows-docker-images.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/detect-docker-image-support/inspecting-windows-docker-images.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:58.552730+00:00",
+      "bytes": 661
+    },
+    {
+      "id": "rJTbXjb6lr80Q~rnE5WE~g",
+      "tocId": "dfQ_C5g9gHB8fC~Q7TYOOQ",
+      "title": "Inspecting Docker images on Windows",
+      "path": [
+        "Package Manager information for Detect",
+        "Detect Docker image support",
+        "Inspecting Docker images on Windows"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/inspecting-docker-images-on-windows.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/inspecting-docker-images-on-windows.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/detect-docker-image-support/inspecting-docker-images-on-windows.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:59.164527+00:00",
+      "bytes": 2055
+    },
+    {
+      "id": "FN0L6V0Tc2WjqNwKGvWYnQ",
+      "tocId": "TO~P1UWbE2fMEqqlejiiRQ",
+      "title": "Detect architecture overview",
+      "path": [
+        "Package Manager information for Detect",
+        "Detect Docker image support",
+        "Detect architecture overview"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-architecture-overview.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detect-architecture-overview.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/detect-docker-image-support/detect-architecture-overview.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:44:59.798035+00:00",
+      "bytes": 5894
+    },
+    {
+      "id": "9ihq_kHmdnFkXoYQfJCjig",
+      "tocId": "0paQjcteMcQeg55YTlUrLA",
+      "title": "Advanced Detect topics",
+      "path": [
+        "Package Manager information for Detect",
+        "Detect Docker image support",
+        "Advanced Detect topics"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/advanced-detect-topics.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/advanced-detect-topics.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/detect-docker-image-support/advanced-detect-topics.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:00.520563+00:00",
+      "bytes": 18468
+    },
+    {
+      "id": "Vfb5hsAbbP3xESPEuRyfSg",
+      "tocId": "T6qEQvJ9FVwYmRKLik3zkg",
+      "title": "Advanced properties",
+      "path": [
+        "Package Manager information for Detect",
+        "Detect Docker image support",
+        "Advanced properties"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/advanced-properties.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/advanced-properties.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/detect-docker-image-support/advanced-properties.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:01.223010+00:00",
+      "bytes": 4476
+    },
+    {
+      "id": "N9FVqyyt3Mj_5tcsEzZBIQ",
+      "tocId": "Bg0qjJjL81j_N16YQTDD1A",
+      "title": "Deploying Detect Docker Inspector",
+      "path": [
+        "Package Manager information for Detect",
+        "Detect Docker image support",
+        "Deploying Detect Docker Inspector"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/deploying-detect-docker-inspector.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/deploying-detect-docker-inspector.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/detect-docker-image-support/deploying-detect-docker-inspector.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:01.919373+00:00",
+      "bytes": 9381
+    },
+    {
+      "id": "eq1fpx~9qhyJrVdEBgYhrQ",
+      "tocId": "bQ5ZkiZw6Gd4AXuNBIuxRg",
+      "title": "Troubleshooting Docker Inspector",
+      "path": [
+        "Package Manager information for Detect",
+        "Detect Docker image support",
+        "Troubleshooting Docker Inspector"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/troubleshooting-docker-inspector.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/troubleshooting-docker-inspector.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/detect-docker-image-support/troubleshooting-docker-inspector.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:02.543379+00:00",
+      "bytes": 6413
+    },
+    {
+      "id": "sYngeGU3DjEpo_9Publ6WA",
+      "tocId": "bHVscjqJPfFqqBk47qgoog",
+      "title": "Git project support",
+      "path": [
+        "Package Manager information for Detect",
+        "Git project support"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/git-project-support.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/git-project-support.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/git-project-support.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:03.158835+00:00",
+      "bytes": 1443
+    },
+    {
+      "id": "fxTae3ZD911Ft0TbuARWjA",
+      "tocId": "zaoqH6OhvXAA8BeZBvlCYw",
+      "title": "GoLang support",
+      "path": [
+        "Package Manager information for Detect",
+        "GoLang support"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/golang-support.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/golang-support.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/golang-support.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:03.778429+00:00",
+      "bytes": 4121
+    },
+    {
+      "id": "JZdjl0psLGpJ3_VvsWzgjQ",
+      "tocId": "02m3UxpZbWyAChLJARrQEQ",
+      "title": "Gradle support",
+      "path": [
+        "Package Manager information for Detect",
+        "Gradle support"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/gradle-support.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/gradle-support.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/gradle-support.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:04.403872+00:00",
+      "bytes": 3689
+    },
+    {
+      "id": "iXx2grr8bN_Q7eHJWnfoOw",
+      "tocId": "XMwwNFflsQtUbtyJVHuC6Q",
+      "title": "Erlang/Hex/Rebar support",
+      "path": [
+        "Package Manager information for Detect",
+        "Erlang/Hex/Rebar support"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/erlang/hex/rebar-support.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/erlang/hex/rebar-support.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/erlang-hex-rebar-support.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:05.015431+00:00",
+      "bytes": 754
+    },
+    {
+      "id": "2BnOwk7RH74n7GqB6OAXsg",
+      "tocId": "1GRrmZFm4QwCyEVJbeCE5g",
+      "title": "Ivy (Ant) support",
+      "path": [
+        "Package Manager information for Detect",
+        "Ivy (Ant) support"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/ivy-ant-support.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/ivy-ant-support.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/ivy-ant-support.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:05.631730+00:00",
+      "bytes": 2005
+    },
+    {
+      "id": "SO0xs1s4RKlDSpDuqIavzA",
+      "tocId": "A1E7hlzxnZR6FNbAqV8JgA",
+      "title": "Lerna support",
+      "path": [
+        "Package Manager information for Detect",
+        "Lerna support"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/lerna-support.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/lerna-support.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/lerna-support.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:06.265053+00:00",
+      "bytes": 2557
+    },
+    {
+      "id": "1g3f2Q2_dy1r9QCq61UPOw",
+      "tocId": "wSyRB3vT_DWMwEbrX3dVWw",
+      "title": "Maven support",
+      "path": [
+        "Package Manager information for Detect",
+        "Maven support"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/maven-support.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/maven-support.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/maven-support.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:06.872652+00:00",
+      "bytes": 3303
+    },
+    {
+      "id": "R971ROvkjoMBwB7VV4s9ZQ",
+      "tocId": "P09vHWgvDM0OK1sZ9jPP5Q",
+      "title": "NPM support",
+      "path": [
+        "Package Manager information for Detect",
+        "NPM support"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/npm-support.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/npm-support.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/npm-support.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:07.506333+00:00",
+      "bytes": 2550
+    },
+    {
+      "id": "4y8oUw1fquHS1i5vPJgtrQ",
+      "tocId": "8YkIx8bdSiNnh5Z2VL814w",
+      "title": "NuGet support",
+      "path": [
+        "Package Manager information for Detect",
+        "NuGet support"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/nuget-support.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/nuget-support.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/nuget-support.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:08.228962+00:00",
+      "bytes": 7411
+    },
+    {
+      "id": "pUT~k8zzGalYCNLlPJ7EqQ",
+      "tocId": "ZafZui09xZIxAvtKT26Img",
+      "title": "Opam Support",
+      "path": [
+        "Package Manager information for Detect",
+        "Opam Support"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/opam-support.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/opam-support.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/opam-support.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:08.836094+00:00",
+      "bytes": 3026
+    },
+    {
+      "id": "ZvBEQiFMwU7FXujOuBpCOA",
+      "tocId": "WUBBTP41rC8pe5mCGvTD8w",
+      "title": "pnpm support",
+      "path": [
+        "Package Manager information for Detect",
+        "pnpm support"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/pnpm-support.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/pnpm-support.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/pnpm-support.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:09.444501+00:00",
+      "bytes": 913
+    },
+    {
+      "id": "2FxVx9OjRs90hVHFwEyXMQ",
+      "tocId": "pjLO9sRus2KV2a4QhwHObw",
+      "title": "Python support",
+      "path": [
+        "Package Manager information for Detect",
+        "Python support"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/python-support.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/python-support.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/python-support.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:10.148003+00:00",
+      "bytes": 7994
+    },
+    {
+      "id": "iSawpIeOPruXgUlWEdyLBw",
+      "tocId": "xkJrBDdQQ~kldryUOlSmRg",
+      "title": "Rush support",
+      "path": [
+        "Package Manager information for Detect",
+        "Rush support"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/rush-support.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/rush-support.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/rush-support.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:10.780558+00:00",
+      "bytes": 2014
+    },
+    {
+      "id": "P~LPjKIGQSPULIJMd9Vc6Q",
+      "tocId": "XWjT29NajzJ442fPlnuFMw",
+      "title": "SBT support",
+      "path": [
+        "Package Manager information for Detect",
+        "SBT support"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/sbt-support.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/sbt-support.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/sbt-support.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:11.382684+00:00",
+      "bytes": 2689
+    },
+    {
+      "id": "3emuW6Y4VZ1oMSivqrHovg",
+      "tocId": "ctUVpIB0MNic1h4tgYuUIQ",
+      "title": "Swift & Xcode support",
+      "path": [
+        "Package Manager information for Detect",
+        "Swift & Xcode support"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/swift-xcode-support.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/swift-xcode-support.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/swift-and-xcode-support.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:11.991394+00:00",
+      "bytes": 5833
+    },
+    {
+      "id": "G0DbkryFL0ffKg1zsm2nHw",
+      "tocId": "ui__~GbVUSHCFhy9PPoQwA",
+      "title": "Yarn support",
+      "path": [
+        "Package Manager information for Detect",
+        "Yarn support"
+      ],
+      "section": "Package Manager information for Detect",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/yarn-support.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/yarn-support.html",
+      "localPath": "docs/detect/package-manager-information-for-detect/yarn-support.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:12.625696+00:00",
+      "bytes": 4142
+    },
+    {
+      "id": "VZmLk7R7~rvIdnrSBkiebg",
+      "tocId": "lOBl11fhpqTLgcgz8xN06Q",
+      "title": "Detect Properties",
+      "path": [
+        "Detect Properties"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-properties.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detect-properties.html",
+      "localPath": "docs/detect/detect-properties.md",
+      "depth": 1,
+      "hasChildren": true,
+      "directChildren": 5,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:13.235257+00:00",
+      "bytes": 535
+    },
+    {
+      "id": "WmQUp0p68yDatuazrOKJ4w",
+      "tocId": "GAaQRGIal_nhXfquJomVeQ",
+      "title": "Basic Properties",
+      "path": [
+        "Detect Properties",
+        "Basic Properties"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/basic-properties.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/basic-properties.html",
+      "localPath": "docs/detect/detect-properties/basic-properties.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:14.181985+00:00",
+      "bytes": 33000
+    },
+    {
+      "id": "38Q0dWTPi0JQrIOeXc7ldQ",
+      "tocId": "dWAOoKPgOkQ~aN5TjsBVEQ",
+      "title": "All Properties",
+      "path": [
+        "Detect Properties",
+        "All Properties"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/all-properties.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/all-properties.html",
+      "localPath": "docs/detect/detect-properties/all-properties.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:15.154554+00:00",
+      "bytes": 51760
+    },
+    {
+      "id": "k21nofi~Q7xuwiAhU0eEjw",
+      "tocId": "c1mwLV8iyXzAK1E~GBK1Qg",
+      "title": "Detect configuration property details",
+      "path": [
+        "Detect Properties",
+        "Detect configuration property details"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-configuration-property-details.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detect-configuration-property-details.html",
+      "localPath": "docs/detect/detect-properties/detect-configuration-property-details.md",
+      "depth": 2,
+      "hasChildren": true,
+      "directChildren": 20,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:15.799111+00:00",
+      "bytes": 545
+    },
+    {
+      "id": "c6fsfEGVdvjgLk09ZRAgpQ",
+      "tocId": "dQ7xCR0pS_QHvtzfDuj0Uw",
+      "title": "binary-scanner",
+      "path": [
+        "Detect Properties",
+        "Detect configuration property details",
+        "binary-scanner"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/binary-scanner.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/binary-scanner.html",
+      "localPath": "docs/detect/detect-properties/detect-configuration-property-details/binary-scanner.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:16.412931+00:00",
+      "bytes": 2316
+    },
+    {
+      "id": "RwliZJf3R0RX~49dctaC1w",
+      "tocId": "PxQwsBC4oDDXDbLQ82Gwxg",
+      "title": "blackduck-server",
+      "path": [
+        "Detect Properties",
+        "Detect configuration property details",
+        "blackduck-server"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/blackduck-server.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/blackduck-server.html",
+      "localPath": "docs/detect/detect-properties/detect-configuration-property-details/blackduck-server.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:17.112262+00:00",
+      "bytes": 3966
+    },
+    {
+      "id": "Op6_lh1qyts6uIg34mzYeg",
+      "tocId": "2jDl1TXaILgKtWHUAZKHrg",
+      "title": "cleanup",
+      "path": [
+        "Detect Properties",
+        "Detect configuration property details",
+        "cleanup"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/cleanup.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/cleanup.html",
+      "localPath": "docs/detect/detect-properties/detect-configuration-property-details/cleanup.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:17.726173+00:00",
+      "bytes": 576
+    },
+    {
+      "id": "~gh72qGXK_kWkUNo6w~gGQ",
+      "tocId": "FDfGGb~5_~XNuqJ9YzF7~A",
+      "title": "container-scanner",
+      "path": [
+        "Detect Properties",
+        "Detect configuration property details",
+        "container-scanner"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/container-scanner.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/container-scanner.html",
+      "localPath": "docs/detect/detect-properties/detect-configuration-property-details/container-scanner.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:18.336279+00:00",
+      "bytes": 993
+    },
+    {
+      "id": "yOi2LqR7ggkfaRnWP8P8vw",
+      "tocId": "jmTTTSIe97iu9zHE72~kww",
+      "title": "debug",
+      "path": [
+        "Detect Properties",
+        "Detect configuration property details",
+        "debug"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/debug.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/debug.html",
+      "localPath": "docs/detect/detect-properties/detect-configuration-property-details/debug.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:18.968502+00:00",
+      "bytes": 866
+    },
+    {
+      "id": "97mpPDZnscaAXHc3OwWyaA",
+      "tocId": "Ukr7g~SuzHXcoqiQklhWzA",
+      "title": "default",
+      "path": [
+        "Detect Properties",
+        "Detect configuration property details",
+        "default"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/default.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/default.html",
+      "localPath": "docs/detect/detect-properties/detect-configuration-property-details/default.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:19.602775+00:00",
+      "bytes": 641
+    },
+    {
+      "id": "L~TiKC4qX_r~kGCabHRS7Q",
+      "tocId": "MamrPv05jT3rItidlzjm8w",
+      "title": "detector",
+      "path": [
+        "Detect Properties",
+        "Detect configuration property details",
+        "detector"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detector.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detector.html",
+      "localPath": "docs/detect/detect-properties/detect-configuration-property-details/detector.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:20.323598+00:00",
+      "bytes": 5641
+    },
+    {
+      "id": "RSz4mVge0PjEygxM2F_LPA",
+      "tocId": "2_2g5YO6CAtvyUTF_iDORA",
+      "title": "general",
+      "path": [
+        "Detect Properties",
+        "Detect configuration property details",
+        "general"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/general.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/general.html",
+      "localPath": "docs/detect/detect-properties/detect-configuration-property-details/general.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:21.056563+00:00",
+      "bytes": 5499
+    },
+    {
+      "id": "tr0C8exRGd4GTR0fEThIrA",
+      "tocId": "zYlVbqm2bMDK6Mtjv8Y_aw",
+      "title": "global",
+      "path": [
+        "Detect Properties",
+        "Detect configuration property details",
+        "global"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/global.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/global.html",
+      "localPath": "docs/detect/detect-properties/detect-configuration-property-details/global.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:21.673669+00:00",
+      "bytes": 611
+    },
+    {
+      "id": "dc8EzBW_MMsBsg4uwPtY~g",
+      "tocId": "DD~o3RUu61OR1wAZiLSWhQ",
+      "title": "iac-scan",
+      "path": [
+        "Detect Properties",
+        "Detect configuration property details",
+        "iac-scan"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/iac-scan.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/iac-scan.html",
+      "localPath": "docs/detect/detect-properties/detect-configuration-property-details/iac-scan.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:22.441616+00:00",
+      "bytes": 1916
+    },
+    {
+      "id": "YcHr7WGc2XchtmTqWM4pGg",
+      "tocId": "LiSubZFQJoqF_hNxzrg_fQ",
+      "title": "impact-analysis",
+      "path": [
+        "Detect Properties",
+        "Detect configuration property details",
+        "impact-analysis"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/impact-analysis.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/impact-analysis.html",
+      "localPath": "docs/detect/detect-properties/detect-configuration-property-details/impact-analysis.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:23.168520+00:00",
+      "bytes": 1194
+    },
+    {
+      "id": "rMnDdqIWu1CvY0kGL79f6A",
+      "tocId": "UNKDHLE6nJAZm1FsiDDUUw",
+      "title": "logging",
+      "path": [
+        "Detect Properties",
+        "Detect configuration property details",
+        "logging"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/logging.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/logging.html",
+      "localPath": "docs/detect/detect-properties/detect-configuration-property-details/logging.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:23.782547+00:00",
+      "bytes": 1920
+    },
+    {
+      "id": "jWGQz8cGDt4cZBMEUw_n5A",
+      "tocId": "oVuvOPo9~MnYrPPSBVClww",
+      "title": "paths",
+      "path": [
+        "Detect Properties",
+        "Detect configuration property details",
+        "paths"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/paths.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/paths.html",
+      "localPath": "docs/detect/detect-properties/detect-configuration-property-details/paths.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:24.592177+00:00",
+      "bytes": 12498
+    },
+    {
+      "id": "EEtqCIB8vvhF~1uaB7ps3w",
+      "tocId": "~fDuwmsknvLYeq~pzblKtQ",
+      "title": "project",
+      "path": [
+        "Detect Properties",
+        "Detect configuration property details",
+        "project"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/project.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/project.html",
+      "localPath": "docs/detect/detect-properties/detect-configuration-property-details/project.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:25.431001+00:00",
+      "bytes": 17162
+    },
+    {
+      "id": "iYrHZkQnQ4fHG7oAAuPVjw",
+      "tocId": "egW3P_QogXmLLhg8hRsACQ",
+      "title": "project-inspector",
+      "path": [
+        "Detect Properties",
+        "Detect configuration property details",
+        "project-inspector"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/project-inspector.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/project-inspector.html",
+      "localPath": "docs/detect/detect-properties/detect-configuration-property-details/project-inspector.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:26.051129+00:00",
+      "bytes": 1700
+    },
+    {
+      "id": "u9exgvIZYDuPrkasn8m1ew",
+      "tocId": "Wa0ke~Bu5jTWtnUIilbKwQ",
+      "title": "proxy",
+      "path": [
+        "Detect Properties",
+        "Detect configuration property details",
+        "proxy"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/proxy.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/proxy.html",
+      "localPath": "docs/detect/detect-properties/detect-configuration-property-details/proxy.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:26.760187+00:00",
+      "bytes": 2772
+    },
+    {
+      "id": "T9mAvvzMixwImplZOU9DIA",
+      "tocId": "GMyt8lwYtczjM3Hgk4xxAA",
+      "title": "quack-patch",
+      "path": [
+        "Detect Properties",
+        "Detect configuration property details",
+        "quack-patch"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/quack-patch.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/quack-patch.html",
+      "localPath": "docs/detect/detect-properties/detect-configuration-property-details/quack-patch.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:27.379894+00:00",
+      "bytes": 2760
+    },
+    {
+      "id": "wX395_xKiZ2LNarbii31GA",
+      "tocId": "Z1WAeVwms4oupkKo6sjpyw",
+      "title": "rapid-scan",
+      "path": [
+        "Detect Properties",
+        "Detect configuration property details",
+        "rapid-scan"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/rapid-scan.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/rapid-scan.html",
+      "localPath": "docs/detect/detect-properties/detect-configuration-property-details/rapid-scan.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:28.020440+00:00",
+      "bytes": 1206
+    },
+    {
+      "id": "0bjjNXEpL~vZVk5qANUj6w",
+      "tocId": "Hn2ogt0GnGtZPNut3~YVlQ",
+      "title": "report",
+      "path": [
+        "Detect Properties",
+        "Detect configuration property details",
+        "report"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/report.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/report.html",
+      "localPath": "docs/detect/detect-properties/detect-configuration-property-details/report.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:28.735990+00:00",
+      "bytes": 2407
+    },
+    {
+      "id": "sjIE1jjGD~QxFTu4oeg64g",
+      "tocId": "UetbupPv6Gd6p_43z8IpSw",
+      "title": "signature-scanner",
+      "path": [
+        "Detect Properties",
+        "Detect configuration property details",
+        "signature-scanner"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/signature-scanner.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/signature-scanner.html",
+      "localPath": "docs/detect/detect-properties/detect-configuration-property-details/signature-scanner.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:29.465712+00:00",
+      "bytes": 7559
+    },
+    {
+      "id": "aepAc6l29rYr_RJndNrAWA",
+      "tocId": "9qFwUL0LU9VOYrDjQ5_lrw",
+      "title": "Detect Detector properties",
+      "path": [
+        "Detect Properties",
+        "Detect Detector properties"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-detector-properties.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detect-detector-properties.html",
+      "localPath": "docs/detect/detect-properties/detect-detector-properties.md",
+      "depth": 2,
+      "hasChildren": true,
+      "directChildren": 27,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:30.091214+00:00",
+      "bytes": 830
+    },
+    {
+      "id": "yoRNnJ27auYQaQAcDUERFg",
+      "tocId": "x7ojkDuoy9dabGxsd6yn1g",
+      "title": "bazel",
+      "path": [
+        "Detect Properties",
+        "Detect Detector properties",
+        "bazel"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/bazel.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/bazel.html",
+      "localPath": "docs/detect/detect-properties/detect-detector-properties/bazel.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:30.809969+00:00",
+      "bytes": 4745
+    },
+    {
+      "id": "YYfILBt_E6wtfAkKLs0qWQ",
+      "tocId": "_4~RaTo2~gUIzQq8bGWHcw",
+      "title": "bitbake",
+      "path": [
+        "Detect Properties",
+        "Detect Detector properties",
+        "bitbake"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/bitbake.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/bitbake.html",
+      "localPath": "docs/detect/detect-properties/detect-detector-properties/bitbake.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:31.445965+00:00",
+      "bytes": 2314
+    },
+    {
+      "id": "4RDfKTkcTfGhD9CMy43o1w",
+      "tocId": "7wnfPDQv4qVzeAkOC6hZ3g",
+      "title": "cargo",
+      "path": [
+        "Detect Properties",
+        "Detect Detector properties",
+        "cargo"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/cargo.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/cargo.html",
+      "localPath": "docs/detect/detect-properties/detect-detector-properties/cargo.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:32.168589+00:00",
+      "bytes": 3964
+    },
+    {
+      "id": "UbFqaa8HueaGXVFRliPoXw",
+      "tocId": "MYDh9RgM1_NJ1rhBQziKsg",
+      "title": "conan",
+      "path": [
+        "Detect Properties",
+        "Detect Detector properties",
+        "conan"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/conan.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/conan.html",
+      "localPath": "docs/detect/detect-properties/detect-detector-properties/conan.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:32.804249+00:00",
+      "bytes": 2527
+    },
+    {
+      "id": "SWa7J9KIldfTZKwSBVAdiQ",
+      "tocId": "PANh6nX6DiIxo3M6elk2rQ",
+      "title": "conda",
+      "path": [
+        "Detect Properties",
+        "Detect Detector properties",
+        "conda"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/conda.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/conda.html",
+      "localPath": "docs/detect/detect-properties/detect-detector-properties/conda.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:33.454208+00:00",
+      "bytes": 1193
+    },
+    {
+      "id": "ntC~hkgjZl9P9xT9PyEwXA",
+      "tocId": "Ik_zKWlz92Wz9DaJUD2X5A",
+      "title": "cpan",
+      "path": [
+        "Detect Properties",
+        "Detect Detector properties",
+        "cpan"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/cpan.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/cpan.html",
+      "localPath": "docs/detect/detect-properties/detect-detector-properties/cpan.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:34.076357+00:00",
+      "bytes": 833
+    },
+    {
+      "id": "7E2ClUlZjYHIHNtemJrUBA",
+      "tocId": "qflNsQSlfWY_CQO4FZXviQ",
+      "title": "dart",
+      "path": [
+        "Detect Properties",
+        "Detect Detector properties",
+        "dart"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/dart.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/dart.html",
+      "localPath": "docs/detect/detect-properties/detect-detector-properties/dart.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:34.704040+00:00",
+      "bytes": 1391
+    },
+    {
+      "id": "Y2HPtopKAGoG81QIe4rHtA",
+      "tocId": "ErOPjbP7IpFSmOsrLadDzg",
+      "title": "docker",
+      "path": [
+        "Detect Properties",
+        "Detect Detector properties",
+        "docker"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/docker.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/docker.html",
+      "localPath": "docs/detect/detect-properties/detect-detector-properties/docker.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:35.415996+00:00",
+      "bytes": 5967
+    },
+    {
+      "id": "jF8V2O_3Zo89HpCQJFNZ4Q",
+      "tocId": "gcKvxKBla2pRJgjYF7heaw",
+      "title": "go",
+      "path": [
+        "Detect Properties",
+        "Detect Detector properties",
+        "go"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/go.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/go.html",
+      "localPath": "docs/detect/detect-properties/detect-detector-properties/go.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:36.113604+00:00",
+      "bytes": 2644
+    },
+    {
+      "id": "Zh66buQNZAzFcMrxTAP4mg",
+      "tocId": "47tQ6_zxsMmI8jgmyl6vZg",
+      "title": "gradle",
+      "path": [
+        "Detect Properties",
+        "Detect Detector properties",
+        "gradle"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/gradle.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/gradle.html",
+      "localPath": "docs/detect/detect-properties/detect-detector-properties/gradle.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:36.822066+00:00",
+      "bytes": 7466
+    },
+    {
+      "id": "p1Jm_oWgxqtKnmYlUS4Ofw",
+      "tocId": "LWcx6O9_kNAby39B5HpNjQ",
+      "title": "hex",
+      "path": [
+        "Detect Properties",
+        "Detect Detector properties",
+        "hex"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/hex.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/hex.html",
+      "localPath": "docs/detect/detect-properties/detect-detector-properties/hex.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:37.434919+00:00",
+      "bytes": 550
+    },
+    {
+      "id": "HhT_OFJMpf84PQ~jZKbgRQ",
+      "tocId": "XDKgFgK4XBgMs5SrrO~unw",
+      "title": "lerna",
+      "path": [
+        "Detect Properties",
+        "Detect Detector properties",
+        "lerna"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/lerna.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/lerna.html",
+      "localPath": "docs/detect/detect-properties/detect-detector-properties/lerna.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:38.054072+00:00",
+      "bytes": 2484
+    },
+    {
+      "id": "dhW7fWxJwgRvSjQSnb2XJw",
+      "tocId": "AXbMjMQc23uxs1uG5ITtYQ",
+      "title": "maven",
+      "path": [
+        "Detect Properties",
+        "Detect Detector properties",
+        "maven"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/maven.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/maven.html",
+      "localPath": "docs/detect/detect-properties/detect-detector-properties/maven.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:38.770767+00:00",
+      "bytes": 5373
+    },
+    {
+      "id": "YoplzFVIzX4JCqsO2SuiKw",
+      "tocId": "o~KA4u395L~NmbDgZ8J9Hg",
+      "title": "npm",
+      "path": [
+        "Detect Properties",
+        "Detect Detector properties",
+        "npm"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/npm.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/npm.html",
+      "localPath": "docs/detect/detect-properties/detect-detector-properties/npm.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:39.402158+00:00",
+      "bytes": 1474
+    },
+    {
+      "id": "ELNbmNjUPKoS~EwcY6KXsQ",
+      "tocId": "F~qwWKLLA1tH0CXE8U2ulw",
+      "title": "nuget",
+      "path": [
+        "Detect Properties",
+        "Detect Detector properties",
+        "nuget"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/nuget.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/nuget.html",
+      "localPath": "docs/detect/detect-properties/detect-detector-properties/nuget.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:40.117329+00:00",
+      "bytes": 4488
+    },
+    {
+      "id": "MA5Zkwyg_KEDvNndcEerfg",
+      "tocId": "kQoqwIHVAhRzTsAHAZ23BQ",
+      "title": "opam",
+      "path": [
+        "Detect Properties",
+        "Detect Detector properties",
+        "opam"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/opam.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/opam.html",
+      "localPath": "docs/detect/detect-properties/detect-detector-properties/opam.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:40.740821+00:00",
+      "bytes": 544
+    },
+    {
+      "id": "XxnX6FwWuiC_l1ruvHFRdg",
+      "tocId": "ds~uHlDy8GFQh7QN3PwCdQ",
+      "title": "packagist",
+      "path": [
+        "Detect Properties",
+        "Detect Detector properties",
+        "packagist"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/packagist.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/packagist.html",
+      "localPath": "docs/detect/detect-properties/detect-detector-properties/packagist.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:41.355740+00:00",
+      "bytes": 704
+    },
+    {
+      "id": "~dyJIIWEhJPWVHOXTrhSdg",
+      "tocId": "tsYsYFklWFizee4cvGo~LA",
+      "title": "pear",
+      "path": [
+        "Detect Properties",
+        "Detect Detector properties",
+        "pear"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/pear.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/pear.html",
+      "localPath": "docs/detect/detect-properties/detect-detector-properties/pear.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:42.000586+00:00",
+      "bytes": 992
+    },
+    {
+      "id": "_lSpJ2uWh9s~VOF_9B_05w",
+      "tocId": "JExEXuCGejwrw0Wuaqo5fQ",
+      "title": "pip",
+      "path": [
+        "Detect Properties",
+        "Detect Detector properties",
+        "pip"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/pip.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/pip.html",
+      "localPath": "docs/detect/detect-properties/detect-detector-properties/pip.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:42.717209+00:00",
+      "bytes": 3255
+    },
+    {
+      "id": "q_87Gx6MubZjvvu6ITuVJw",
+      "tocId": "~lIq3vVIhedBFPQ9R9T7Mg",
+      "title": "pnpm",
+      "path": [
+        "Detect Properties",
+        "Detect Detector properties",
+        "pnpm"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/pnpm.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/pnpm.html",
+      "localPath": "docs/detect/detect-properties/detect-detector-properties/pnpm.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:43.333316+00:00",
+      "bytes": 2225
+    },
+    {
+      "id": "C4PUgMcOjuXgAV4NM5Ez_g",
+      "tocId": "Wbq~XkUbUXF0paj3SkTSzQ",
+      "title": "poetry",
+      "path": [
+        "Detect Properties",
+        "Detect Detector properties",
+        "poetry"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/poetry.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/poetry.html",
+      "localPath": "docs/detect/detect-properties/detect-detector-properties/poetry.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:43.946216+00:00",
+      "bytes": 1274
+    },
+    {
+      "id": "zd3vbNc80NHoWV4rMoXNNw",
+      "tocId": "qF8gbdkW71A_js089PSANQ",
+      "title": "python",
+      "path": [
+        "Detect Properties",
+        "Detect Detector properties",
+        "python"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/python.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/python.html",
+      "localPath": "docs/detect/detect-properties/detect-detector-properties/python.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:44.561237+00:00",
+      "bytes": 555
+    },
+    {
+      "id": "_O44pMYjxWkpA75OhryIdQ",
+      "tocId": "Zr6PZY2zJFYsfbXKuzEOFQ",
+      "title": "ruby",
+      "path": [
+        "Detect Properties",
+        "Detect Detector properties",
+        "ruby"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/ruby.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/ruby.html",
+      "localPath": "docs/detect/detect-properties/detect-detector-properties/ruby.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:45.190739+00:00",
+      "bytes": 727
+    },
+    {
+      "id": "Q~q~Bkb5RkJL0WmxjzymlQ",
+      "tocId": "JUCpXetjaW5h0XQYN7yuxw",
+      "title": "sbt",
+      "path": [
+        "Detect Properties",
+        "Detect Detector properties",
+        "sbt"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/sbt.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/sbt.html",
+      "localPath": "docs/detect/detect-properties/detect-detector-properties/sbt.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:45.803424+00:00",
+      "bytes": 1215
+    },
+    {
+      "id": "ltII6zDxju7bur9jXOfW_A",
+      "tocId": "E36WbN1BoqKoD_6~_5TnlQ",
+      "title": "swift",
+      "path": [
+        "Detect Properties",
+        "Detect Detector properties",
+        "swift"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/swift.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/swift.html",
+      "localPath": "docs/detect/detect-properties/detect-detector-properties/swift.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:46.413599+00:00",
+      "bytes": 545
+    },
+    {
+      "id": "8QP2~HiDrsUIKoodwOS5cw",
+      "tocId": "l9KcHb6BodXN_KReD7yzzA",
+      "title": "uv",
+      "path": [
+        "Detect Properties",
+        "Detect Detector properties",
+        "uv"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/uv.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/uv.html",
+      "localPath": "docs/detect/detect-properties/detect-detector-properties/uv.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:47.047940+00:00",
+      "bytes": 2776
+    },
+    {
+      "id": "4O_OpUaqTEtK9ciJwT7Gng",
+      "tocId": "4Cihqv8lBR_wf_~XLpVTcg",
+      "title": "yarn",
+      "path": [
+        "Detect Properties",
+        "Detect Detector properties",
+        "yarn"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/yarn.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/yarn.html",
+      "localPath": "docs/detect/detect-properties/detect-detector-properties/yarn.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:47.666520+00:00",
+      "bytes": 2788
+    },
+    {
+      "id": "bGEf0T0mivmwBXYI3fcytw",
+      "tocId": "9Iqrr9MWpPtSQe6iE_Bm1A",
+      "title": "Deprecated Properties",
+      "path": [
+        "Detect Properties",
+        "Deprecated Properties"
+      ],
+      "section": "Detect Properties",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/deprecated-properties.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/deprecated-properties.html",
+      "localPath": "docs/detect/detect-properties/deprecated-properties.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:48.281687+00:00",
+      "bytes": 1518
+    },
+    {
+      "id": "rClJVcucnm2Y9KFmxVkTcg",
+      "tocId": "a33HiXK1_REJasVq7ujEUw",
+      "title": "Viewing and managing Detect scan results",
+      "path": [
+        "Viewing and managing Detect scan results"
+      ],
+      "section": "Viewing and managing Detect scan results",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/viewing-and-managing-detect-scan-results.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/viewing-and-managing-detect-scan-results.html",
+      "localPath": "docs/detect/viewing-and-managing-detect-scan-results.md",
+      "depth": 1,
+      "hasChildren": true,
+      "directChildren": 1,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:48.919577+00:00",
+      "bytes": 1932
+    },
+    {
+      "id": "xNMRY8q_3dMKg1lTzELM8A",
+      "tocId": "o9S6AoTFL9BpcLPszpASGg",
+      "title": "Risk Report generation via Detect",
+      "path": [
+        "Viewing and managing Detect scan results",
+        "Risk Report generation via Detect"
+      ],
+      "section": "Viewing and managing Detect scan results",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/risk-report-generation-via-detect.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/risk-report-generation-via-detect.html",
+      "localPath": "docs/detect/viewing-and-managing-detect-scan-results/risk-report-generation-via-detect.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:49.555831+00:00",
+      "bytes": 2571
+    },
+    {
+      "id": "uDAQQ~kxGEQNDouzHmtJVg",
+      "tocId": "EcFRBpzRp0viBYDsgv93zQ",
+      "title": "Troubleshooting",
+      "path": [
+        "Troubleshooting"
+      ],
+      "section": "Troubleshooting",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/troubleshooting.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/troubleshooting.html",
+      "localPath": "docs/detect/troubleshooting.md",
+      "depth": 1,
+      "hasChildren": true,
+      "directChildren": 7,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:50.166588+00:00",
+      "bytes": 318
+    },
+    {
+      "id": "4eXDN7~NcehC67tunWUNng",
+      "tocId": "s7miNjV4Db9LL8oZ9CN4rQ",
+      "title": "Collecting Detect log information",
+      "path": [
+        "Troubleshooting",
+        "Collecting Detect log information"
+      ],
+      "section": "Troubleshooting",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/collecting-detect-log-information.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/collecting-detect-log-information.html",
+      "localPath": "docs/detect/troubleshooting/collecting-detect-log-information.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:50.801394+00:00",
+      "bytes": 1464
+    },
+    {
+      "id": "2QP7cY8GzEOaz3SMPJYFXw",
+      "tocId": "TYZ~MiWZmtVpEmzvcLDzRA",
+      "title": "Common Detect complications",
+      "path": [
+        "Troubleshooting",
+        "Common Detect complications"
+      ],
+      "section": "Troubleshooting",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/common-detect-complications.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/common-detect-complications.html",
+      "localPath": "docs/detect/troubleshooting/common-detect-complications.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:51.427577+00:00",
+      "bytes": 4378
+    },
+    {
+      "id": "WxG7GVQAYGUyewpKhZHoNQ",
+      "tocId": "CpjQWzq_M~phIehvubPhrg",
+      "title": "Detect Diagnostic mode",
+      "path": [
+        "Troubleshooting",
+        "Detect Diagnostic mode"
+      ],
+      "section": "Troubleshooting",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-diagnostic-mode.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detect-diagnostic-mode.html",
+      "localPath": "docs/detect/troubleshooting/detect-diagnostic-mode.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:52.043881+00:00",
+      "bytes": 1780
+    },
+    {
+      "id": "sj1yFly8UOQj9Uz5noKO_g",
+      "tocId": "hdEChwg83atwtZTCLgawnQ",
+      "title": "Detect Exit Codes",
+      "path": [
+        "Troubleshooting",
+        "Detect Exit Codes"
+      ],
+      "section": "Troubleshooting",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-exit-codes.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detect-exit-codes.html",
+      "localPath": "docs/detect/troubleshooting/detect-exit-codes.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:52.665023+00:00",
+      "bytes": 3100
+    },
+    {
+      "id": "44OYJ~euKr2oXNzmrC~XcA",
+      "tocId": "CS9nokjUve7cRLk2ZpT3Qg",
+      "title": "Common Detect troubleshooting solutions",
+      "path": [
+        "Troubleshooting",
+        "Common Detect troubleshooting solutions"
+      ],
+      "section": "Troubleshooting",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/common-detect-troubleshooting-solutions.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/common-detect-troubleshooting-solutions.html",
+      "localPath": "docs/detect/troubleshooting/common-detect-troubleshooting-solutions.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:53.392107+00:00",
+      "bytes": 13665
+    },
+    {
+      "id": "H0kDTMSyogGSN4xhJCv~Ag",
+      "tocId": "NCIYrY8COcsLNC4VXo55hg",
+      "title": "Detect usage metrics collection",
+      "path": [
+        "Troubleshooting",
+        "Detect usage metrics collection"
+      ],
+      "section": "Troubleshooting",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-usage-metrics-collection.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detect-usage-metrics-collection.html",
+      "localPath": "docs/detect/troubleshooting/detect-usage-metrics-collection.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:54.022398+00:00",
+      "bytes": 1057
+    },
+    {
+      "id": "gpiRbhU_jARlNy28RAW8nw",
+      "tocId": "I_wa42xntzZt9oeCQFNZHw",
+      "title": "Windows OS hints for Detect",
+      "path": [
+        "Troubleshooting",
+        "Windows OS hints for Detect"
+      ],
+      "section": "Troubleshooting",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/windows-os-hints-for-detect.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/windows-os-hints-for-detect.html",
+      "localPath": "docs/detect/troubleshooting/windows-os-hints-for-detect.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:54.636318+00:00",
+      "bytes": 1001
+    },
+    {
+      "id": "HtXDKubHAXbATMYP_jM3qw",
+      "tocId": "3Lk2c_qeFGpVASaOhxJ94A",
+      "title": "Detect Integrations",
+      "path": [
+        "Detect Integrations"
+      ],
+      "section": "Detect Integrations",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-integrations.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detect-integrations.html",
+      "localPath": "docs/detect/detect-integrations.md",
+      "depth": 1,
+      "hasChildren": true,
+      "directChildren": 5,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:55.260168+00:00",
+      "bytes": 1048
+    },
+    {
+      "id": "osFQOeISkf4iSUUa_KHODg",
+      "tocId": "jx_T6HUCJ6lfqSgSvUgyzQ",
+      "title": "Detect Jenkins Plugin",
+      "path": [
+        "Detect Integrations",
+        "Detect Jenkins Plugin"
+      ],
+      "section": "Detect Integrations",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-jenkins-plugin.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detect-jenkins-plugin.html",
+      "localPath": "docs/detect/detect-integrations/detect-jenkins-plugin.md",
+      "depth": 2,
+      "hasChildren": true,
+      "directChildren": 11,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:55.889944+00:00",
+      "bytes": 1812
+    },
+    {
+      "id": "cw98W6bXF8O9JmLkHqHJ~Q",
+      "tocId": "pU1VUwFWYTGu2FKKLM1YMw",
+      "title": "Release Notes for Jenkins Plugin",
+      "path": [
+        "Detect Integrations",
+        "Detect Jenkins Plugin",
+        "Release Notes for Jenkins Plugin"
+      ],
+      "section": "Detect Integrations",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/release-notes-for-jenkins-plugin.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/release-notes-for-jenkins-plugin.html",
+      "localPath": "docs/detect/detect-integrations/detect-jenkins-plugin/release-notes-for-jenkins-plugin.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:56.609828+00:00",
+      "bytes": 10938
+    },
+    {
+      "id": "Pm5WQC5TeozmGR27qSiLRA",
+      "tocId": "MsTrlaRi0mdN2Cfw4MOXhQ",
+      "title": "Requirements for Black Duck® Detect for Jenkins",
+      "path": [
+        "Detect Integrations",
+        "Detect Jenkins Plugin",
+        "Requirements for Black Duck® Detect for Jenkins"
+      ],
+      "section": "Detect Integrations",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/requirements-for-black-duck-detect-for-jenkins.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/requirements-for-black-duck-detect-for-jenkins.html",
+      "localPath": "docs/detect/detect-integrations/detect-jenkins-plugin/requirements-for-black-duck-detect-for-jenkins.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:57.245812+00:00",
+      "bytes": 751
+    },
+    {
+      "id": "EPui4bTOMHllximjrmxrFA",
+      "tocId": "oG9eqWXtpRHkqZJ3GCdoWg",
+      "title": "Downloading, Installing, and Updating the Plugin",
+      "path": [
+        "Detect Integrations",
+        "Detect Jenkins Plugin",
+        "Downloading, Installing, and Updating the Plugin"
+      ],
+      "section": "Detect Integrations",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/downloading-installing-and-updating-the-plugin.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/downloading-installing-and-updating-the-plugin.html",
+      "localPath": "docs/detect/detect-integrations/detect-jenkins-plugin/downloading-installing-and-updating-the-plugin.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:57.858406+00:00",
+      "bytes": 3793
+    },
+    {
+      "id": "XQXE09KQRr7wOBXQM1kVTw",
+      "tocId": "Mb3eSpJwvwgXuDQDvJwL5g",
+      "title": "Configuring the Jenkins Plugin",
+      "path": [
+        "Detect Integrations",
+        "Detect Jenkins Plugin",
+        "Configuring the Jenkins Plugin"
+      ],
+      "section": "Detect Integrations",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/configuring-the-jenkins-plugin.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/configuring-the-jenkins-plugin.html",
+      "localPath": "docs/detect/detect-integrations/detect-jenkins-plugin/configuring-the-jenkins-plugin.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:58.728387+00:00",
+      "bytes": 2398
+    },
+    {
+      "id": "_Cwgicwj8WJEy2st4qm1oA",
+      "tocId": "4e2B7ehykCHM2hPpCzxGEg",
+      "title": "Users and roles for Jenkins Plugin",
+      "path": [
+        "Detect Integrations",
+        "Detect Jenkins Plugin",
+        "Users and roles for Jenkins Plugin"
+      ],
+      "section": "Detect Integrations",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/users-and-roles-for-jenkins-plugin.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/users-and-roles-for-jenkins-plugin.html",
+      "localPath": "docs/detect/detect-integrations/detect-jenkins-plugin/users-and-roles-for-jenkins-plugin.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:59.340223+00:00",
+      "bytes": 2022
+    },
+    {
+      "id": "G2WQimZfpS_iSzHZSdF7lg",
+      "tocId": "73snApST2Qj3hieo96IpUA",
+      "title": "Running Black Duck® Detect in Jenkins",
+      "path": [
+        "Detect Integrations",
+        "Detect Jenkins Plugin",
+        "Running Black Duck® Detect in Jenkins"
+      ],
+      "section": "Detect Integrations",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/running-black-duck-detect-in-jenkins.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/running-black-duck-detect-in-jenkins.html",
+      "localPath": "docs/detect/detect-integrations/detect-jenkins-plugin/running-black-duck-detect-in-jenkins.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:45:59.951867+00:00",
+      "bytes": 2737
+    },
+    {
+      "id": "Ha5H5ZKJ8geiusFjiOGtXg",
+      "tocId": "VwvnFt_GuaHSmXqd~_dcCg",
+      "title": "Detect in Jenkins Pipeline job",
+      "path": [
+        "Detect Integrations",
+        "Detect Jenkins Plugin",
+        "Detect in Jenkins Pipeline job"
+      ],
+      "section": "Detect Integrations",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-in-jenkins-pipeline-job.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detect-in-jenkins-pipeline-job.html",
+      "localPath": "docs/detect/detect-integrations/detect-jenkins-plugin/detect-in-jenkins-pipeline-job.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:46:01.011175+00:00",
+      "bytes": 1949
+    },
+    {
+      "id": "_hYzvVPm6eljJLQkivo5eQ",
+      "tocId": "HgeWI8U2yQS06xNwA_CtIw",
+      "title": "Detect in Jenkins Freestyle job",
+      "path": [
+        "Detect Integrations",
+        "Detect Jenkins Plugin",
+        "Detect in Jenkins Freestyle job"
+      ],
+      "section": "Detect Integrations",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-in-jenkins-freestyle-job.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detect-in-jenkins-freestyle-job.html",
+      "localPath": "docs/detect/detect-integrations/detect-jenkins-plugin/detect-in-jenkins-freestyle-job.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:46:02.024717+00:00",
+      "bytes": 753
+    },
+    {
+      "id": "a5HYUdaxYY0cwIhiBJHefA",
+      "tocId": "aImu9r4ybvUuEKbWiIgD9Q",
+      "title": "Auto-escaping Parameters",
+      "path": [
+        "Detect Integrations",
+        "Detect Jenkins Plugin",
+        "Auto-escaping Parameters"
+      ],
+      "section": "Detect Integrations",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/auto-escaping-parameters.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/auto-escaping-parameters.html",
+      "localPath": "docs/detect/detect-integrations/detect-jenkins-plugin/auto-escaping-parameters.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:46:02.644375+00:00",
+      "bytes": 2762
+    },
+    {
+      "id": "yMxJeo7itJ7NBDpGhzjE0w",
+      "tocId": "WHeKCnNzlMLcC88WXtQoXA",
+      "title": "Jenkins Air Gap mode",
+      "path": [
+        "Detect Integrations",
+        "Detect Jenkins Plugin",
+        "Jenkins Air Gap mode"
+      ],
+      "section": "Detect Integrations",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/jenkins-air-gap-mode.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/jenkins-air-gap-mode.html",
+      "localPath": "docs/detect/detect-integrations/detect-jenkins-plugin/jenkins-air-gap-mode.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:46:03.523163+00:00",
+      "bytes": 1829
+    },
+    {
+      "id": "W8YmSCcas9p4hMBUJ~zGpQ",
+      "tocId": "9KCuXwnwGBZp3Om6AHk9BQ",
+      "title": "Using Docker Containers - Best Practice",
+      "path": [
+        "Detect Integrations",
+        "Detect Jenkins Plugin",
+        "Using Docker Containers - Best Practice"
+      ],
+      "section": "Detect Integrations",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/using-docker-containers-best-practice.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/using-docker-containers-best-practice.html",
+      "localPath": "docs/detect/detect-integrations/detect-jenkins-plugin/using-docker-containers-best-practice.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:46:04.148655+00:00",
+      "bytes": 1260
+    },
+    {
+      "id": "KlX033g7w41Ze0bIo02j1A",
+      "tocId": "jEDkshI4TiH3rHUzCsATdA",
+      "title": "Detect Azure DevOps (ADO) Plugin",
+      "path": [
+        "Detect Integrations",
+        "Detect Azure DevOps (ADO) Plugin"
+      ],
+      "section": "Detect Integrations",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-azure-devops-ado-plugin.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detect-azure-devops-ado-plugin.html",
+      "localPath": "docs/detect/detect-integrations/detect-azure-devops-ado-plugin.md",
+      "depth": 2,
+      "hasChildren": true,
+      "directChildren": 7,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:46:05.131309+00:00",
+      "bytes": 2082
+    },
+    {
+      "id": "UCnI1B4u1rnFvgNqv26wTA",
+      "tocId": "KzVgY2ySKi5KRTtZ50yLDg",
+      "title": "Release Notes for Azure DevOps Plugin",
+      "path": [
+        "Detect Integrations",
+        "Detect Azure DevOps (ADO) Plugin",
+        "Release Notes for Azure DevOps Plugin"
+      ],
+      "section": "Detect Integrations",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/release-notes-for-azure-devops-plugin.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/release-notes-for-azure-devops-plugin.html",
+      "localPath": "docs/detect/detect-integrations/detect-azure-devops-ado-plugin/release-notes-for-azure-devops-plugin.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:46:05.828238+00:00",
+      "bytes": 5780
+    },
+    {
+      "id": "GlhfgisZkRYS~piYOmlAWw",
+      "tocId": "8~VV~KcEzG8pyU8kMgOUZg",
+      "title": "Requirements for Azure DevOps",
+      "path": [
+        "Detect Integrations",
+        "Detect Azure DevOps (ADO) Plugin",
+        "Requirements for Azure DevOps"
+      ],
+      "section": "Detect Integrations",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/requirements-for-azure-devops.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/requirements-for-azure-devops.html",
+      "localPath": "docs/detect/detect-integrations/detect-azure-devops-ado-plugin/requirements-for-azure-devops.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:46:06.437741+00:00",
+      "bytes": 1600
+    },
+    {
+      "id": "yGWtQwrezZuPgkLbEYechg",
+      "tocId": "~NhN3vFYkaoAM1Sqr2vZVQ",
+      "title": "Installing the Azure DevOps plugin",
+      "path": [
+        "Detect Integrations",
+        "Detect Azure DevOps (ADO) Plugin",
+        "Installing the Azure DevOps plugin"
+      ],
+      "section": "Detect Integrations",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/installing-the-azure-devops-plugin.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/installing-the-azure-devops-plugin.html",
+      "localPath": "docs/detect/detect-integrations/detect-azure-devops-ado-plugin/installing-the-azure-devops-plugin.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:46:07.474119+00:00",
+      "bytes": 946
+    },
+    {
+      "id": "uAPcqiFYL0TGBKDDk0x89g",
+      "tocId": "Dv5oH1LZ3X90fMJxVBh6Ig",
+      "title": "Configuring and Running the Plugin",
+      "path": [
+        "Detect Integrations",
+        "Detect Azure DevOps (ADO) Plugin",
+        "Configuring and Running the Plugin"
+      ],
+      "section": "Detect Integrations",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/configuring-and-running-the-plugin.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/configuring-and-running-the-plugin.html",
+      "localPath": "docs/detect/detect-integrations/detect-azure-devops-ado-plugin/configuring-and-running-the-plugin.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:46:08.514285+00:00",
+      "bytes": 2869
+    },
+    {
+      "id": "Ncznf5~m_PeHMrH6Rc~2rQ",
+      "tocId": "Hv6rVev0f0tDJUTkYecpFg",
+      "title": "Auto-escaping Parameters",
+      "path": [
+        "Detect Integrations",
+        "Detect Azure DevOps (ADO) Plugin",
+        "Auto-escaping Parameters"
+      ],
+      "section": "Detect Integrations",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/auto-escaping-parameters.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/auto-escaping-parameters.html",
+      "localPath": "docs/detect/detect-integrations/detect-azure-devops-ado-plugin/auto-escaping-parameters.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:46:09.126655+00:00",
+      "bytes": 938
+    },
+    {
+      "id": "UaGVhgvXVneNs3kcraJu5g",
+      "tocId": "O7~w~tX1zI1RV1frRWlguw",
+      "title": "Configuring a Build Agent",
+      "path": [
+        "Detect Integrations",
+        "Detect Azure DevOps (ADO) Plugin",
+        "Configuring a Build Agent"
+      ],
+      "section": "Detect Integrations",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/configuring-a-build-agent.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/configuring-a-build-agent.html",
+      "localPath": "docs/detect/detect-integrations/detect-azure-devops-ado-plugin/configuring-a-build-agent.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:46:10.161950+00:00",
+      "bytes": 1961
+    },
+    {
+      "id": "DRRHh96_8kty1cLyQ1FL6g",
+      "tocId": "ZGgLqFIRnx0TSj1l56wemg",
+      "title": "Running the Task",
+      "path": [
+        "Detect Integrations",
+        "Detect Azure DevOps (ADO) Plugin",
+        "Running the Task"
+      ],
+      "section": "Detect Integrations",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/running-the-task.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/running-the-task.html",
+      "localPath": "docs/detect/detect-integrations/detect-azure-devops-ado-plugin/running-the-task.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:46:10.794907+00:00",
+      "bytes": 685
+    },
+    {
+      "id": "q8EtSsQ9h8iawGrJUdFTIw",
+      "tocId": "cTNs~IwkhHk_qKq4jNwfsQ",
+      "title": "Detect GitLab integration",
+      "path": [
+        "Detect Integrations",
+        "Detect GitLab integration"
+      ],
+      "section": "Detect Integrations",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-gitlab-integration.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detect-gitlab-integration.html",
+      "localPath": "docs/detect/detect-integrations/detect-gitlab-integration.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:46:11.835243+00:00",
+      "bytes": 4593
+    },
+    {
+      "id": "ZoOsd~2_NgcPIOvlk42PMg",
+      "tocId": "0eX4GMf9NP3daQK7UeFO2A",
+      "title": "Detect Bitbucket integration",
+      "path": [
+        "Detect Integrations",
+        "Detect Bitbucket integration"
+      ],
+      "section": "Detect Integrations",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/detect-bitbucket-integration.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/detect-bitbucket-integration.html",
+      "localPath": "docs/detect/detect-integrations/detect-bitbucket-integration.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:46:12.611303+00:00",
+      "bytes": 3608
+    },
+    {
+      "id": "BqTGgOhNYhycyakYl8VBaA",
+      "tocId": "5L8yPcshig09qYnFYzt3nA",
+      "title": "Azure Container Registry scanning with Detect",
+      "path": [
+        "Detect Integrations",
+        "Azure Container Registry scanning with Detect"
+      ],
+      "section": "Detect Integrations",
+      "prettyUrl": "/r/detect/11.5.1/black-duck-detect/azure-container-registry-scanning-with-detect.html",
+      "sourceUrl": "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/azure-container-registry-scanning-with-detect.html",
+      "localPath": "docs/detect/detect-integrations/azure-container-registry-scanning-with-detect.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-08T23:46:13.231254+00:00",
+      "bytes": 5181
+    }
+  ]
+}

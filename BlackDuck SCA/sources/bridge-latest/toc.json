@@ -1,0 +1,1446 @@
+[
+  {
+    "tocId": "9KPX_viDa6L8JRycPvCxgA",
+    "contentId": "DGzGhA5zGE2c9VhXWt_lzA",
+    "title": "Central Integrations release notes",
+    "prettyUrl": "/r/bridge/latest/bridge-cli-guide/central-integrations-release-notes.html",
+    "hasRating": true,
+    "children": []
+  },
+  {
+    "tocId": "I7_1AHFHRxMT93wup8~k3Q",
+    "contentId": "iQXSk~S0hNK2YPe60lwDgw",
+    "title": "Bridge product overview",
+    "prettyUrl": "/r/bridge/latest/bridge-cli-guide/bridge-product-overview.html",
+    "hasRating": true,
+    "children": []
+  },
+  {
+    "tocId": "6WkWsrzcPmpwH74hQxOszQ",
+    "contentId": "XXWcReElxhPsW9A9y8RBYQ",
+    "title": "Bridge CLI",
+    "prettyUrl": "/r/bridge/latest/bridge-cli-guide/bridge-cli.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "UF8XIFQIxbvREzO84usY_w",
+        "contentId": "N6ht5MB9qNia93RVsekK1g",
+        "title": "Download Bridge CLI",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/download-bridge-cli.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "sZFYpafgNFO4RKrimvH61w",
+        "contentId": "QJ68CctbsHRI5L3S3CX1NA",
+        "title": "Using Bridge CLI",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-bridge-cli.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "4gYXlStrdNeNAbWjB0uNYg",
+            "contentId": "u~RnWn2KcypS~G90P0S3Kw",
+            "title": "Passing Arguments using a JSON file",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/passing-arguments-using-a-json-file.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "rxrMel96xbDVP~WCgbSpug",
+            "contentId": "K_E1OK0VY_txDjPNqiqQGg",
+            "title": "Passing Arguments using the CLI",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/passing-arguments-using-the-cli.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "I7xr76TgYOpx_L70HsM59w",
+            "contentId": "SaoNuDEGAhwd0_Q~slkzTA",
+            "title": "Configuring tools using Bridge",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/configuring-tools-using-bridge.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "xWOS4LBs6~4veTZUN6G13w",
+        "contentId": "bU_BVNTVI0dPIcoVQJ4QDQ",
+        "title": "Using Bridge CLI with Signal",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-bridge-cli-with-signal.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "cprW28uMoKHM_BJ4B7eT8w",
+            "contentId": "xEDE0q25HmGtsyKiKJDP4g",
+            "title": "Scan a full project with Black Duck Signal",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/scan-a-full-project-with-black-duck-signal.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "l~BjILfU~pTplwx_F3Hf5g",
+            "contentId": "oW33tu8l5H9~3rummnuG4A",
+            "title": "Perform a diff scan with Black Duck Signal",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/perform-a-diff-scan-with-black-duck-signal.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "Dz2l~uXXMpp9n64Aat4SEw",
+            "contentId": "9Sk4~KOiDSe~mxNYwxp8aA",
+            "title": "Perform a diff scan against a reference branch with Black Duck Signal",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/perform-a-diff-scan-against-a-reference-branch-with-black-duck-signal.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "IFdEVc0rw5b3dfUU~QdZtQ",
+            "contentId": "4WBiYOds7Y_1FXGKdw8eAA",
+            "title": "Scan local files with Black Duck Signal",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/scan-local-files-with-black-duck-signal.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "FmPlCf7rmab97KIWgR5FLQ",
+            "contentId": "umhhqHihgvnCKpSEJNC2ng",
+            "title": "Black Duck Signal reference guide",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/black-duck-signal-reference-guide.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "XSvpEQVO8881OO3IeOrl0g",
+        "contentId": "DB3mniWSJB2WPCpqg3ByGA",
+        "title": "Using Bridge CLI with Polaris",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-bridge-cli-with-polaris.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "1wnsp6JhFWZ0uWKzmFE0DA",
+            "contentId": "~U27n0Nuq3p3rhWPibQicA",
+            "title": "Polaris prerequisites",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/polaris-prerequisites.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "UZqWhFusHoSjjKZbxT7ABA",
+            "contentId": "RN3nfETJUbRGslM3NWdeAA",
+            "title": "Quickstarts",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstarts.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "7DCEESP_bfn7McVm8ZZ3Lw",
+                "contentId": "Y4m~TGnh8oT5T3FXYe1giQ",
+                "title": "Quickstart: Polaris Bridge CLI in an Azure DevOps pipeline",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-polaris-bridge-cli-in-an-azure-devops-pipeline.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "YveiiCUNKIfkWBk6hoSOtQ",
+                "contentId": "I9iSeNJAMd3FweRG7JnJrQ",
+                "title": "Quickstart: Polaris Bridge CLI in a Bitbucket pipeline",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-polaris-bridge-cli-in-a-bitbucket-pipeline.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "Pq2CK1DG0~548Hw3tOzZIA",
+                "contentId": "uoEvtoRlNAihuTseBI84ZQ",
+                "title": "Quickstart: Polaris Bridge CLI in a GitHub workflow",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-polaris-bridge-cli-in-a-github-workflow.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "_3qIwp0TCOcTdkOA2JwzDQ",
+                "contentId": "incuyObq1r6MXCPrzaD2~Q",
+                "title": "Quickstart: Polaris Bridge CLI in a GitLab template",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-polaris-bridge-cli-in-a-gitlab-template.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "NaOicbowkRxCkOSvRFKGZA",
+                "contentId": "awDfyMHa01fVMXoYt9X5aA",
+                "title": "Quickstart: Polaris Bridge CLI in a Jenkins pipeline",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-polaris-bridge-cli-in-a-jenkins-pipeline.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "tocId": "6A~E9yHyq5AAnT63eJxoTw",
+            "contentId": "gnkQZukNM96vB6kcuVRgTA",
+            "title": "Using SAST Fix PRs with Bridge",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-sast-fix-prs-with-bridge.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "GW90BDiAjxbMTLVg0wR1zg",
+            "contentId": "mJXuqqevpdNQu8yjbbc6tA",
+            "title": "Using SCA Fix PRs with Bridge",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-sca-fix-prs-with-bridge.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "m0d37iHLCFXJyL6YLDCGIg",
+            "contentId": "0IvGwwAyU2P4qSw~cyZ2OQ",
+            "title": "Using Rapid Scan Static with Bridge",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-rapid-scan-static-with-bridge.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "IpEXWgwL3tYfGGZkvWvFtw",
+            "contentId": "ujTpwayr_6ZR9fvYpIti0g",
+            "title": "Using Polaris secure tunnel",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-polaris-secure-tunnel.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "DKZKjgc8dQ86zl2yvSXwSg",
+                "contentId": "tQT0QGztOhw9W7eNtpI2fA",
+                "title": "Create a secure tunnel using Bridge CLI",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/create-a-secure-tunnel-using-bridge-cli.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "4yvTWsHIVgYXwk7hXidC8w",
+                "contentId": "LAqlJet_AOwzEjLu0kJVpQ",
+                "title": "Connect to an internal DAST target from Bridge CLI",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/connect-to-an-internal-dast-target-from-bridge-cli.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "tocId": "jCj0yVS0xyrKTmoZUYW_9A",
+            "contentId": "~QzaxYmKZdMJQxWcQzKboQ",
+            "title": "Interactive tutorial: run a signature analysis",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/interactive-tutorial-run-a-signature-analysis.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "MxY6Vlky_vcIEgG2wLi1vQ",
+            "contentId": "R1nVYpGOerTE7Z4tM8rqKw",
+            "title": "Polaris multi version SAST tool support with Bridge",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/polaris-multi-version-sast-tool-support-with-bridge.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "m6bAlsCk4ZdBIveRvyVifA",
+            "contentId": "k7Y0kayJ8woegUzveJC67Q",
+            "title": "Select a Coverity version with Bridge Polaris",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/select-a-coverity-version-with-bridge-polaris.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "pg5hbUA7GuY3FgJgL6NtKg",
+            "contentId": "R07wexfykgJYgFGVVbHYsQ",
+            "title": "Create external issues from Polaris scans",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/create-external-issues-from-polaris-scans.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "mD_ODVi645esnmNoOWU7Pw",
+            "contentId": "Z6G03zHl6mufvly7tIubvw",
+            "title": "Using SCA Binary Scan with Bridge",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-sca-binary-scan-with-bridge.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "R5AM_wW3o09mdoFioTe~kg",
+            "contentId": "UBfUyYK9U4b4HEsgOLqXtA",
+            "title": "Using SCA Container Scan with Bridge",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-sca-container-scan-with-bridge.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "N9F8RW_Bek9YQUiRqF4hoA",
+        "contentId": "pvId1aJA7Q7KEz6MVGV4jg",
+        "title": "Using Bridge CLI with Black Duck SCA",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-bridge-cli-with-black-duck-sca.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "l94NXggLHeuSHNuQ5Gvvwg",
+            "contentId": "9AikRbnKAHgNrGl_MMtzvw",
+            "title": "Quickstarts",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstarts.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "ZtgjYMaoJe16cmjs0zElMQ",
+                "contentId": "ciwUJzw7pa1UrIfDJvYLog",
+                "title": "Quickstart: Black Duck SCA Bridge CLI in an Azure DevOps pipeline",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-black-duck-sca-bridge-cli-in-an-azure-devops-pipeline.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "T27SVUkaZFYEy6UbeA8j7g",
+                "contentId": "7j8H5xerlHJ8jlahPYThjw",
+                "title": "Quickstart: Black Duck SCA Bridge CLI in a Bitbucket pipeline",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-black-duck-sca-bridge-cli-in-a-bitbucket-pipeline.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "hl3AxnFhvdtozCdEyI7A9A",
+                "contentId": "FTbnmGEIkHdZaZnu67Cf5g",
+                "title": "Quickstart: Black Duck SCA Bridge CLI in a GitHub workflow",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-black-duck-sca-bridge-cli-in-a-github-workflow.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "zVGwqP2xGnajiWWGxVPh8g",
+                "contentId": "NcDZM_K0VSPqoJiY~_yTSw",
+                "title": "Quickstart: Black Duck SCA Bridge CLI in a GitLab template",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-black-duck-sca-bridge-cli-in-a-gitlab-template.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "4Ylb8wXQN1Nv5~Ima9QN_A",
+                "contentId": "ZZ18N3gkVdEMzPGDxSM58Q",
+                "title": "Quickstart: Black Duck SCA Bridge CLI in a Jenkins pipeline",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-black-duck-sca-bridge-cli-in-a-jenkins-pipeline.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "tocId": "P4b286QXtS6VG6XDBiaTIA",
+            "contentId": "kY8KPhxWve~9AOxaEIMAng",
+            "title": "Create external issues from Black Duck SCA scans",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/create-external-issues-from-black-duck-sca-scans.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "Bx4TUgi0fqEW683Vy9mKOg",
+        "contentId": "aQUbyCwfvaXW3nOBHZz2yg",
+        "title": "Using Bridge CLI with Coverity",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-bridge-cli-with-coverity.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "3w~RULBaRicSSI1xvCB46Q",
+            "contentId": "nke0JpbisrvWxSPPVNxdRA",
+            "title": "Quickstarts",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstarts.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "t2mA049gtUwNtjveG9OXSw",
+                "contentId": "6FSuOWHbNByNFERehWXD1g",
+                "title": "Quickstart: Coverity Bridge CLI in an Azure DevOps pipeline",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-coverity-bridge-cli-in-an-azure-devops-pipeline.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "nH5VrVfL0P~ShgShrIekYw",
+                "contentId": "NxPOiPDW3AkW1floKQxlyw",
+                "title": "Quickstart: Coverity Bridge CLI in a Bitbucket pipeline",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-coverity-bridge-cli-in-a-bitbucket-pipeline.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "o1wdozyiCXL5xesKpxjEtw",
+                "contentId": "_FLikXu3acsHkkgdHXL7yg",
+                "title": "Quickstart: Coverity Bridge CLI in a GitHub Actions pipeline",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-coverity-bridge-cli-in-a-github-actions-pipeline.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "eAmcgCMlD37_l4LnITXn3w",
+                "contentId": "soatkYyjc6vQ1azDjrmv4g",
+                "title": "Quickstart: Coverity Bridge CLI in a GitLab template",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-coverity-bridge-cli-in-a-gitlab-template.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "49RRb2apsNoIs6SRm8XfZg",
+                "contentId": "D_ymOD7ePOPDqiji8LrA3w",
+                "title": "Quickstart: Coverity Bridge CLI in a Jenkins pipeline",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-coverity-bridge-cli-in-a-jenkins-pipeline.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "tocId": "pQsGmsfAeVuopDYpYcPdkg",
+            "contentId": "27NYrjFir1wLqz7QPEKkEQ",
+            "title": "Using Fail Pull Requests With Coverity",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-fail-pull-requests-with-coverity.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "C5m3Gh8iH7CEd_MpV3CysA",
+            "contentId": "sz7~CMkUQuL7ivEPEjnOTw",
+            "title": "Using Bridge with compiled languages",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-bridge-with-compiled-languages.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "NY4Hid~iMVh_jd3yNVL_Ew",
+        "contentId": "3SlkM2ZuAE6KeyGWJy1OBQ",
+        "title": "Using Bridge CLI with Software Risk Manager (SRM)",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-bridge-cli-with-software-risk-manager-srm-.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "f2UbK82HgYScgW90mZ3~6w",
+            "contentId": "vM1t4rCUpsqE2qJuvytlzQ",
+            "title": "Quickstart: SRM Bridge CLI in an Azure DevOps pipeline",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-srm-bridge-cli-in-an-azure-devops-pipeline.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "o4scpXDilVXzzAXoXVeqkQ",
+            "contentId": "RY3ASea6IDMpG00JPMwzig",
+            "title": "Quickstart: SRM Bridge CLI in a Bitbucket pipeline",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-srm-bridge-cli-in-a-bitbucket-pipeline.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "F8XWYdfyRWUuzQX10zjtDA",
+            "contentId": "GSs5IaWi52PrO8rDKtvw4Q",
+            "title": "Quickstart: SRM Bridge CLI in a GitHub Actions workflow",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-srm-bridge-cli-in-a-github-actions-workflow.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "1KqdWMZZIotbCK51sP7R_Q",
+            "contentId": "UYVanktAPBINQ8VA3VRNEw",
+            "title": "Quickstart: SRM Bridge CLI in a GitLab pipeline",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-srm-bridge-cli-in-a-gitlab-pipeline.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "7ySoXTDCWT_ZRBLgDkVJqQ",
+            "contentId": "eZIBNcbcaLZFkh6roQhMOw",
+            "title": "Quickstart: SRM Bridge CLI in a Jenkins pipeline",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-srm-bridge-cli-in-a-jenkins-pipeline.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "Cd5lpl42tqjo6yiZrKiI8Q",
+        "contentId": "dPW9FWt2CpejHsEMI4Cg1w",
+        "title": "Pull request (PR) comments",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/pull-request-pr-comments.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "Nj60ISYBd6P7iyRFyKRS7w",
+        "contentId": "X6MIwVxAqwC5eTWzpb8XqA",
+        "title": "Fix pull requests (Fix PRs)",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/fix-pull-requests-fix-prs-.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "p9dkUndT7DAa3o9ooR8eLw",
+        "contentId": "5HNCy~xif8rlYcKWiJdLXg",
+        "title": "External issues",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/external-issues.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "3sbQ3zPR_DSrSIKpFbNB5A",
+        "contentId": "w5zWAv2oq7bEe0nsJd~4iw",
+        "title": "Deprecated resources",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/deprecated-resources.html",
+        "hasRating": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "tocId": "gvmiK5a5Kf~2bNXuhicgLw",
+    "contentId": "euJWvjjgrvlPZZCGtUnURg",
+    "title": "Bridge CLI reference",
+    "prettyUrl": "/r/bridge/latest/bridge-cli-guide/bridge-cli-reference.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "Agsb8bLdFpKQqCgPS0ZLjQ",
+        "contentId": "eHpDl6VDN6Uv9tKf_r3phw",
+        "title": "Complete list of Bridge arguments",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/complete-list-of-bridge-arguments.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "IY5HxeKFqYNseI9sGqwRAw",
+        "contentId": "SFMWFXZ6gwFEM78yR_9iFg",
+        "title": "Bridge CLI versioning",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/bridge-cli-versioning.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "Vz5qxyBIkktUrE8nN6kOFg",
+        "contentId": "zOU23U2KJp8SsxjxXcSIJA",
+        "title": "Exit codes",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/exit-codes.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "MY9wngWxfvsqBUp7575MeQ",
+        "contentId": "HZ56eqeQEx7vSS1NUCU5uQ",
+        "title": "Files and directories",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/files-and-directories.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "K76X8t6M0hXZUKtts3x7cQ",
+        "contentId": "M~WZ67m_J7DZBiK6_hxlkA",
+        "title": "Logging and diagnostics",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/logging-and-diagnostics.html",
+        "hasRating": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "tocId": "MXALb1eGfs14k05AWe_ZzA",
+    "contentId": "a6v0vURaEcio7ua5wkS6TA",
+    "title": "GitHub Integrations",
+    "prettyUrl": "/r/bridge/latest/bridge-cli-guide/github-integrations.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "2OqQDJ5FBuWREtAxG79hLg",
+        "contentId": "W6jvpOFaRlQEXXpEJlnt7Q",
+        "title": "GitHub App – Black Duck Security",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/github-app-black-duck-security.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "hl8IXpBtp~uiptV4fQW4LA",
+            "contentId": "71eAaBKTbMo6XPLCdtY~Jw",
+            "title": "Prerequisites: GitHub Black Duck Security App",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/prerequisites-github-black-duck-security-app.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "qqhYOq9aRizMqNjJJ5e3ow",
+            "contentId": "YsrE0ygoBLMbJ0aB6tfQDw",
+            "title": "Getting started: Black Duck Security App",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/getting-started-black-duck-security-app.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "XhZ3ZqNLZ~sr8iWu1LbVog",
+                "contentId": "2SbwSoWlZYxvYBaVn9MJew",
+                "title": "Using the GitHub App with Coverity",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-the-github-app-with-coverity.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "eiQkxV7WP8Jodjk3bBDUmw",
+                "contentId": "7~8Z5RF~RGZk7QMxGcX7iw",
+                "title": "Using the GitHub App with Black Duck SCA",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-the-github-app-with-black-duck-sca.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "YVgMTEQUJAD6WutzE0G4yA",
+                "contentId": "yFJ7LeTwqoeTxVYm4yRl6g",
+                "title": "Using the GitHub App with Polaris",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-the-github-app-with-polaris.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tocId": "4mO5kskLkrSXTQwgot~lDg",
+        "contentId": "QXM08KfUhulA7evxm6pJYQ",
+        "title": "GitHub Action – Black Duck Security Scan",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/github-action-black-duck-security-scan.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "JfxuBz0JvTS8XcYC1Eyh5A",
+            "contentId": "KqzrEvf~ynFYzojnsV6QLg",
+            "title": "GitHub prerequisites",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/github-prerequisites.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "QEAea5uiebNC99MJsxC1Pg",
+            "contentId": "d3p4Yewl9PEUoAJn9oR~Sw",
+            "title": "Using the Black Duck Security Scan Action with Polaris",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-scan-action-with-polaris.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "M_k8K50SEENyiGEBEftTzA",
+                "contentId": "9c381pgzV7V4ZZmI1ALLvQ",
+                "title": "Quickstart: Black Duck Security Scan Action with Polaris",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-black-duck-security-scan-action-with-polaris.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "tocId": "jjnWbUGcSlNpbMg~6xk09Q",
+            "contentId": "dGFOn2~mTPj53ttEFdBQNA",
+            "title": "Using the Black Duck Security Scan Action with Black Duck SCA",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-scan-action-with-black-duck-sca.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "uw~KELp90Bf2MmNRUTQ7Vw",
+                "contentId": "700kuerTqlyFnaByt1Bx3Q",
+                "title": "Quickstart: Black Duck Security Scan Action with Black Duck SCA",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-black-duck-security-scan-action-with-black-duck-sca.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "tocId": "KX6zL0qrdVvI49KVKfI0Pg",
+            "contentId": "dPEl2ehUTaTVSXGo76rtPg",
+            "title": "Using the Black Duck Security Scan Action with Coverity",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-scan-action-with-coverity.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "AxcVwWxFYd1OeiDaz_y6Pw",
+                "contentId": "Ucb9PwMLEc03_l8gKEa5Yg",
+                "title": "Quickstart: Black Duck Security Scan Action with Coverity",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-black-duck-security-scan-action-with-coverity.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "tocId": "4MXulwgx9_2LdkP71a6RlQ",
+            "contentId": "GtOc_csY7NqtdUYPDS8MIQ",
+            "title": "Using the Black Duck Security Scan Action with Software Risk Manager",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-scan-action-with-software-risk-manager.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "JjMm7Fbb_3JsXSGbK~r0FQ",
+                "contentId": "k5FSWYxSWRa0gm_5FwCV~w",
+                "title": "Quickstart: Black Duck Security Scan Action with SRM",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-black-duck-security-scan-action-with-srm.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "tocId": "95LlGwj9UwnYVqV4ksgmQw",
+            "contentId": "XGKfOvc9ABeKvPDpPrb2Bw",
+            "title": "Additional GitHub configuration",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/additional-github-configuration.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tocId": "gEydW3rt9zba2bwdGXJtgg",
+    "contentId": "iQRzb_UjEioIEq~Ab9vgqA",
+    "title": "GitLab Integrations",
+    "prettyUrl": "/r/bridge/latest/bridge-cli-guide/gitlab-integrations.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "Bgb8WKS__xIeCOCd1OYxXQ",
+        "contentId": "_1wDL1my_AaKDp~O2J4yeA",
+        "title": "Black Duck Security Bulk Onboarding for GitLab",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/black-duck-security-bulk-onboarding-for-gitlab.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "BL6SzUDZXbImE2NfIfqZow",
+            "contentId": "BERthcYuD_buVxKdCNYYwQ",
+            "title": "Prerequisites: GitLab Black Duck Security Bulk Onboarding",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/prerequisites-gitlab-black-duck-security-bulk-onboarding.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "jYuKdZMTtMZFQZlWvnHixw",
+            "contentId": "8R1aCX26R7LClWR~u9zyaA",
+            "title": "Getting Started: Black Duck Security Bulk Onboarding",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/getting-started-black-duck-security-bulk-onboarding.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "Q_x1diKIcmQJ4ALSuUVhLw",
+                "contentId": "gqiMobU4ULgUBn4Ajk0WhQ",
+                "title": "Using Black Duck Security Bulk Onboarding with Coverity",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-black-duck-security-bulk-onboarding-with-coverity.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "XAmEQWo3FAn5pBd7c5dwcw",
+                "contentId": "gGZvWW7RDJcqjKddtQOp9Q",
+                "title": "Using Black Duck Security Bulk Onboarding with Black Duck SCA",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-black-duck-security-bulk-onboarding-with-black-duck-sca.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "H_6VwbTHBKlJmtnj6OQ24A",
+                "contentId": "Iw324xH3zW4TMJQZBckrtw",
+                "title": "Using Black Duck Security Bulk Onboarding with Polaris",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-black-duck-security-bulk-onboarding-with-polaris.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tocId": "9REVq09SK8zKCR2JTZ5qOg",
+        "contentId": "bfTbPgIts6V2mCceUbL6vA",
+        "title": "GitLab – Black Duck Security Scan Template",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/gitlab-black-duck-security-scan-template.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "sTYhmtbMXXB34rwXlFcyzw",
+            "contentId": "vEr4YZrSbEFnyYxynqSzzg",
+            "title": "GitLab prerequisites",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/gitlab-prerequisites.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "oggkv0P13D~v7tJPEkllGQ",
+            "contentId": "f2zGV_v5_yTOMY8WeMUeyw",
+            "title": "Using the Black Duck Security Scan Template with Polaris",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-scan-template-with-polaris.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "YD6tVwgAyBbESUlOEOs2FQ",
+                "contentId": "lhv1OV1yiNnMnTgy3a8iQQ",
+                "title": "Quickstart: GitLab Template with Polaris",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-gitlab-template-with-polaris.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "tocId": "gDWkYhxVOGQBPtKRNMsQIg",
+            "contentId": "chYvhUEMaCkHVaZETnX1cw",
+            "title": "Using the Black Duck Security Scan Template with Black Duck SCA",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-scan-template-with-black-duck-sca.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "G7CaKGGEEPiSMMIlaT33Rg",
+                "contentId": "C7VZ8BRfyKyiCgBJ1FnQiQ",
+                "title": "Quickstart: GitLab Template with Black Duck SCA",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-gitlab-template-with-black-duck-sca.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "tocId": "aIqSR~pLpDY10o_khccUmA",
+            "contentId": "3QO4fKpI7QGppwJAdC_oUQ",
+            "title": "Using the Black Duck Security Scan Template with Coverity",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-scan-template-with-coverity.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "4V1Sbeu9jQg27JjYWlgsqg",
+                "contentId": "ln~l1Ogf~wIMEl06k2Ivxg",
+                "title": "Quickstart: GitLab Template with Coverity",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-gitlab-template-with-coverity.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "tocId": "LSrrp2TwD4AfulQf7SY9pA",
+            "contentId": "sOLCcTu0DQmnYQnzok7Zag",
+            "title": "Using the Black Duck Security Scan Template with Software Risk Manager",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-scan-template-with-software-risk-manager.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "OE1t3YGu2kfkMevryAN7ww",
+                "contentId": "j64fe2dvddV8CqJ282qvmw",
+                "title": "Quickstart: GitLab Template with Software Risk Manager",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-gitlab-template-with-software-risk-manager.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "tocId": "QL~zqhlJ0GYlLIAVbZvDaQ",
+            "contentId": "QaUepVRb9NsYmMamWxQvtg",
+            "title": "Additional GitLab configuration",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/additional-gitlab-configuration.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tocId": "kn5_Wvtsm_ysxidXJAWMgQ",
+    "contentId": "xFF8dmU2ReSqA4Gl4QUmYw",
+    "title": "Azure DevOps Integrations",
+    "prettyUrl": "/r/bridge/latest/bridge-cli-guide/azure-devops-integrations.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "SnJjK4If3mx~_ux84ctswg",
+        "contentId": "it6KfZwL8o8~Ark7ZLFiQQ",
+        "title": "Black Duck Security Bulk Onboarding for Azure DevOps",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/black-duck-security-bulk-onboarding-for-azure-devops.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "_oAqg149AIY9Srn8O3QIzQ",
+            "contentId": "uocGvKIzKWDtfbyxHCAsCA",
+            "title": "Prerequisites: Azure Black Duck Security Bulk Onboarding",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/prerequisites-azure-black-duck-security-bulk-onboarding.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "w3rPSVBBgXbc6B_wcAZABQ",
+            "contentId": "f~4Cdg1hZugZkc1IBU6KTg",
+            "title": "Getting started: Black Duck Security Bulk Onboarding for Azure DevOps",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/getting-started-black-duck-security-bulk-onboarding-for-azure-devops.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "H3rO3V1pcCOExSQh7vlSag",
+                "contentId": "9WQjns46Kq7_mizxDQN8kA",
+                "title": "Using Black Duck Security Bulk Onboarding for Azure DevOps with Coverity",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-black-duck-security-bulk-onboarding-for-azure-devops-with-coverity.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "N24H6HFWSZACGGd3e42kkQ",
+                "contentId": "F3eJYFQ7i7aYYMYefPRpng",
+                "title": "Using Black Duck Security Bulk Onboarding for Azure DevOps with Black Duck SCA",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-black-duck-security-bulk-onboarding-for-azure-devops-with-black-duck-sca.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "_7JPSz5n47Me5vg0vXVj_Q",
+                "contentId": "Xt8r~qIfj0LHHEfLYiRXOw",
+                "title": "Using Black Duck Security Bulk Onboarding for Azure DevOps with Polaris",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-black-duck-security-bulk-onboarding-for-azure-devops-with-polaris.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tocId": "HnC1C2bz9~V3UaGIJLaxgg",
+        "contentId": "4yDI7g0nupyTjYF8a_C8_g",
+        "title": "Azure DevOps – Black Duck Security Scan Extension for Azure DevOps",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/azure-devops-black-duck-security-scan-extension-for-azure-devops.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "JaTfMXhMc_j~zCOoTVZykw",
+            "contentId": "WYO_33ZWrl5SagC0bfg2cQ",
+            "title": "Setting up Black Duck Security Scan Extension",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/setting-up-black-duck-security-scan-extension.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "6fW2VZU0x_KsTxSw0Kwwgg",
+            "contentId": "vHXxGhhAyXCi9TyA84do~w",
+            "title": "Using the Black Duck Security Scan Extension with Polaris",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-scan-extension-with-polaris.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "D0Q9BJjrSQWVhGEpxIT_5g",
+                "contentId": "HrMeUNswHZgiZKoURhNKgA",
+                "title": "Quickstart: Azure with Polaris",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-azure-with-polaris.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "mQ_E1~SW4UXXhE9NMmYg8A",
+                "contentId": "iLxbDGWLqUXP73b7~sVVCQ",
+                "title": "Academy resources",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/academy-resources.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "tocId": "u7SRxblxlBhk5ZcZ8Wjwsg",
+            "contentId": "Vogk8UFLaKNiLhwRVR7hIg",
+            "title": "Using the Black Duck Security Scan Extension with Black Duck SCA",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-scan-extension-with-black-duck-sca.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "bMx~mFYNOyvVggB47ea8ng",
+                "contentId": "rmrEvYiPwOAyo0t1eVaJ5w",
+                "title": "Quickstart: Azure with Black Duck SCA",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-azure-with-black-duck-sca.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "j6TBl~_zjjeL0d9m3NLN3Q",
+                "contentId": "saAsqcp_GaAPD~XwTZwvCw",
+                "title": "Academy resources",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/academy-resources.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "tocId": "H2vyqf~AGnkN7rBmR2Q8wg",
+            "contentId": "EHp9b_mEnoivm_8zBR94Ew",
+            "title": "Using the Black Duck Security Scan Extension with Coverity",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-scan-extension-with-coverity.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "hOxo7R8luWQVAScIq5iusQ",
+                "contentId": "Iw9Ymue26epLx_uBvG6y6Q",
+                "title": "Quickstart: Azure with Coverity",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-azure-with-coverity.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "0R0X~ExVNX15XONGyRE9UA",
+                "contentId": "hNzwHRP2ZF1qW5UXQaGNUw",
+                "title": "Academy resources",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/academy-resources.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "tocId": "dDlEQTg8BMQZJJlPJm~OCA",
+            "contentId": "QP7DhnK0me9Si8QutqBYZQ",
+            "title": "Using the Black Duck Security Scan Extension with Software Risk Manager",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-scan-extension-with-software-risk-manager.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "JNZ~mOmJMcJM9_DiC9B6Jw",
+                "contentId": "Doq~ovl5hDKZHjdfgEzcgg",
+                "title": "Quickstart: Azure with Software Risk Manager",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-azure-with-software-risk-manager.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "tocId": "fVCXmhMeMV18nfanOLBGjw",
+            "contentId": "wsA8K_vVwdOSxGJalg6c3A",
+            "title": "Additional Azure DevOps configuration",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/additional-azure-devops-configuration.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tocId": "MEmDAn9GTjvoOg6Ngg2ENA",
+    "contentId": "zAv0lvHqHiEx3PqXIiB~kg",
+    "title": "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+    "prettyUrl": "/r/bridge/latest/bridge-cli-guide/jenkins-black-duck-security-scan-plugin-for-jenkins.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "D6K4hPp2_UsFZ7d82g~g4w",
+        "contentId": "PcShe~_tx~T29l3UKxaQcQ",
+        "title": "Jenkins prerequisites",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/jenkins-prerequisites.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "rcs5dUREhfrQWsZXFBLsPg",
+            "contentId": "41WGODcOTgZI1ihz3o7aFQ",
+            "title": "Configuring Bitbucket",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/configuring-bitbucket.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "6qgJbgFiHQ9Dj03ye8o3QA",
+            "contentId": "_s3hCdcRFHJdV_Jf6jO1tA",
+            "title": "Configuring GitHub",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/configuring-github.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "sjc5EU_6DI7RElqjz2lIBA",
+            "contentId": "OMwtry3pg7r_hQuxgno82w",
+            "title": "Configuring GitLab",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/configuring-gitlab.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "x5FFmZ52ALfpKTJXxocVIw",
+        "contentId": "agoBKU5RlQQuyulDeyqdog",
+        "title": "Get started with Black Duck Security Scan Plugin for Jenkins",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/get-started-with-black-duck-security-scan-plugin-for-jenkins.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "g2ldPDgyqKHA_cnI9i56Jw",
+            "contentId": "qyeJCmOFIODUwLZsaRPs6g",
+            "title": "Create a multibranch pipeline job in your Jenkins instance",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/create-a-multibranch-pipeline-job-in-your-jenkins-instance.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "LihH50BzhsxlZx2L5nZlyg",
+            "contentId": "s0cFs4NcgZBNWwua7O2EqQ",
+            "title": "Create a freestyle job in your Jenkins instance",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/create-a-freestyle-job-in-your-jenkins-instance.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "XSsQyXy8oeXA6HO4LVsxKA",
+            "contentId": "CTM6UmVhuMa7WiKO_UN~2g",
+            "title": "Create a pipeline job in your Jenkins instance",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/create-a-pipeline-job-in-your-jenkins-instance.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "d9uZrNI40RhKGG~r9GsLRw",
+        "contentId": "xbq1NjuyLXf2Xv9EM1M0yw",
+        "title": "Using the Black Duck Security Scan Plugin with Polaris",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-scan-plugin-with-polaris.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "Nf6gCpFI_AQyi8lhtwDSRg",
+            "contentId": "psQK~~k9LjK05YhztV468g",
+            "title": "Multibranch pipeline",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/multibranch-pipeline.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "pErk1hi~HOP9izegj6VhpQ",
+            "contentId": "DArwSyn0S1rUURa1nSf4aQ",
+            "title": "Pipeline",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/pipeline.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "~CoSjLIpVhAM81Ke49wk0A",
+            "contentId": "xdcjg22VAMpPXrRrY9MGBw",
+            "title": "Quickstart: Jenkins Black Duck Security Scan Plugin with Polaris",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-jenkins-black-duck-security-scan-plugin-with-polaris.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "0FcDnlf~SfZ0Zg~UFgSBaw",
+        "contentId": "Q05y_NWq64XNbDVYDabodA",
+        "title": "Using the Black Duck Security Scan Plugin with Black Duck SCA",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-scan-plugin-with-black-duck-sca.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "eC1bteo0GR_IgRSTIamH3w",
+            "contentId": "LPnnyVxe_LZkQtddIVhp4A",
+            "title": "Multibranch pipeline",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/multibranch-pipeline.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "jHgEYdHdLwLpSgPHY~9D1Q",
+            "contentId": "g8Q3~NtOVq7shGyCsJWbdA",
+            "title": "Pipeline",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/pipeline.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "UQ_YNwnpX8C5R2ZwXRfCTQ",
+            "contentId": "0VGNuu08vFBAN~c4AhmRPw",
+            "title": "Quickstart: Jenkins Black Duck Security Scan Plugin with Black Duck SCA",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-jenkins-black-duck-security-scan-plugin-with-black-duck-sca.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "51h_8ItZQ3uvohsjalJFGg",
+        "contentId": "d9GyXZQD6xmHZ9UncmbR0w",
+        "title": "Using the Black Duck Security Scan Plugin with Coverity",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-scan-plugin-with-coverity.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "iEw3MLMRmWJvWmtuGY67_Q",
+            "contentId": "p8PejMeUgUQ0m8mjluq8iA",
+            "title": "Multibranch pipeline",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/multibranch-pipeline.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "7pF_Fmrae6hx08tqF4GF8Q",
+            "contentId": "pI2wpG9UeoyLTo2eZFdD6Q",
+            "title": "Pipeline",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/pipeline.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "R~Tx9KzoIFyp2w9jiMJm7w",
+            "contentId": "t9zP9noMBs_q34xmF57Xeg",
+            "title": "Quickstart: Jenkins Black Duck Security Scan Plugin with Coverity",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-jenkins-black-duck-security-scan-plugin-with-coverity.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "KbcgPjrZ8AyotVm3OmJV9w",
+        "contentId": "9sS4cFPWQ6rUm3Qrn1DUeA",
+        "title": "Using the Black Duck Security Scan Plugin with Software Risk Manager",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-scan-plugin-with-software-risk-manager.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "Dx~a9caCXU46KRSrCMUbeA",
+            "contentId": "OJcdt6hP_lgTUDjFktBHQg",
+            "title": "Multibranch pipeline",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/multibranch-pipeline.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "4e6Ll7gCNc500QeFCgyD7w",
+            "contentId": "HpnPe0Dsdiy1hnnll3WOoA",
+            "title": "Pipeline",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/pipeline.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "EAuHtMtqiIar7lueLzzXnQ",
+            "contentId": "rUzKTr2ruGYBZhX~LoEyIg",
+            "title": "Quickstart: Jenkins Black Duck Security Scan Plugin with Software Risk Manager",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-jenkins-black-duck-security-scan-plugin-with-software-risk-manager.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "g4gWTugqmB5abqGqnM631Q",
+        "contentId": "~Ulu5ax3LXOw3pSQsF3O_A",
+        "title": "Additional Jenkins configuration",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/additional-jenkins-configuration.html",
+        "hasRating": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "tocId": "qr3IFK87WyxvrSLkF26K3g",
+    "contentId": "L8CfExJg8HC8I065Zh7Ihg",
+    "title": "Bitbucket Integrations",
+    "prettyUrl": "/r/bridge/latest/bridge-cli-guide/bitbucket-integrations.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "a0AUbRUaJQ55Mc8rHlMlFA",
+        "contentId": "5_mzNu_EEa1wLKNNBs6yrw",
+        "title": "Bitbucket App - Black Duck Security",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/bitbucket-app-black-duck-security.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "Sna7ujt~I7IjHvTvn~v19w",
+            "contentId": "y5_gfuJ~qZqQ4MBvsfHGuw",
+            "title": "Prerequisites: Bitbucket Black Duck Security App",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/prerequisites-bitbucket-black-duck-security-app.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "5cyK6e62x5pc6ZvJrmcH5w",
+            "contentId": "LKph49o8X8rIwX0qSrZFwQ",
+            "title": "Getting started: Black Duck Security App",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/getting-started-black-duck-security-app.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "6FOjsCdyfx6m4UiSmrE0Zw",
+                "contentId": "pbImldil4toKmsFDd8LHEQ",
+                "title": "Using the Black Duck Security App with Coverity",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-app-with-coverity.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "UfJf03gjVMVZYRd2Ts9FQQ",
+                "contentId": "h20ONq1_wEvYxskddDVm1g",
+                "title": "Using the Black Duck Security App with Black Duck SCA",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-app-with-black-duck-sca.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "2zbECYSKat4_8nw_eW_KDQ",
+                "contentId": "Q~oHkrQW2wlF~2B84GCaDQ",
+                "title": "Using the Black Duck Security App with Polaris",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-app-with-polaris.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tocId": "I~MZYWCxjCORXZWP3kvjCw",
+        "contentId": "Ii~0lR5eWIXCsHDy3cQSZQ",
+        "title": "Bitbucket – Black Duck Security Scan Pipe",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/bitbucket-black-duck-security-scan-pipe.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "5kwzsugEKqiK7q9L54cwwg",
+            "contentId": "cirZ13ZsgavAgCq7gxzp3w",
+            "title": "Setting up Black Duck Security Scan Pipe",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/setting-up-black-duck-security-scan-pipe.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "S7YGkX8ex9aWxe5OvzGF5w",
+            "contentId": "KWKxORuBJ7h7U0KHzEzuXQ",
+            "title": "Create and use a custom Docker image",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/create-and-use-a-custom-docker-image.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "59kX_ru2TUoPT5hv9MGnMw",
+            "contentId": "RRTcCxjLsVQRPmCI1qrONQ",
+            "title": "Using the Black Duck Security Scan Pipe with Polaris",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-scan-pipe-with-polaris.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "BDpRI78LadtDl2pZw__Apg",
+                "contentId": "XyofGonTANhZYCBnHqAhaQ",
+                "title": "Quickstart: Black Duck Security Scan Pipe with Polaris",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-black-duck-security-scan-pipe-with-polaris.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "tocId": "RqYGL7Lhb0IzhCYG094EbA",
+            "contentId": "aFejma_DnSfQITYn34Up8w",
+            "title": "Using Black Duck Security Scan Pipe for Software Risk Manager",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-black-duck-security-scan-pipe-for-software-risk-manager.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "b3XotP1RL3DpkJHwSInZ6Q",
+                "contentId": "Pn~buBS5wrHMvJRVZwA0oQ",
+                "title": "Quickstart: Black Duck Security Scan Pipe with Software Risk Manager",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-black-duck-security-scan-pipe-with-software-risk-manager.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "tocId": "Z7NGgliRE2GUEx~vAuWEHQ",
+            "contentId": "lGjG8IIJi6zlaZGr81COtw",
+            "title": "Using the Black Duck Security Scan Pipe with Black Duck SCA",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-scan-pipe-with-black-duck-sca.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "_ykOoepJddpt7f2M1K~dcQ",
+                "contentId": "BL6eoshBryv2ScLo5_EpTg",
+                "title": "Quickstart: Black Duck Security Scan Pipe with Black Duck SCA",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-black-duck-security-scan-pipe-with-black-duck-sca.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "tocId": "J95dkPAs_EqycsG9KWfk~Q",
+            "contentId": "GssxTBFDd10pv2sxg1Nonw",
+            "title": "Using Black Duck Security Scan Pipe for Coverity",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-black-duck-security-scan-pipe-for-coverity.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "he8a1dpmt1YMaL~w8C8RAQ",
+                "contentId": "KLqDnDbC2AdQNyrP5LPEdA",
+                "title": "Quickstart: Black Duck Security Scan Pipe with Coverity",
+                "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-black-duck-security-scan-pipe-with-coverity.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "tocId": "5unFjQjdqROsS3AEeauLsA",
+            "contentId": "BkX4Uh9D8LPV41JBSU3jkQ",
+            "title": "Additional Bitbucket configuration",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/additional-bitbucket-configuration.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tocId": "9Ee8lcJ81wndFyKQZFYU1g",
+    "contentId": "TKgvJ5VaG47lZyvRLEdK9A",
+    "title": "Troubleshooting",
+    "prettyUrl": "/r/bridge/latest/bridge-cli-guide/troubleshooting.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "zOhHLmcWTu~L1x2Q4vTVug",
+        "contentId": "f5qJcvAkPB9HCuaTC3v72A",
+        "title": "Troubleshooting Coverity errors",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/troubleshooting-coverity-errors.html",
+        "hasRating": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "tocId": "0l1TqIT7~dOBGnq1kT7GBw",
+    "contentId": "ePKQqFFFn9gDdoLeb6tjZQ",
+    "title": "Configuring proxy for Bridge",
+    "prettyUrl": "/r/bridge/latest/bridge-cli-guide/configuring-proxy-for-bridge.html",
+    "hasRating": true,
+    "children": []
+  },
+  {
+    "tocId": "ExGO0fPa2P1CaGtJeypHeQ",
+    "contentId": "0uoNRIyirxOsddxqimFiYQ",
+    "title": "Bridge glossary",
+    "prettyUrl": "/r/bridge/latest/bridge-cli-guide/bridge-glossary.html",
+    "hasRating": true,
+    "children": []
+  },
+  {
+    "tocId": "xfVaqDMdhjmfVHSpDED0cQ",
+    "contentId": "JLcDtzhRetUzUofAxL8hAQ",
+    "title": "Bridge support matrix",
+    "prettyUrl": "/r/bridge/latest/bridge-cli-guide/bridge-support-matrix.html",
+    "hasRating": true,
+    "children": []
+  }
+]

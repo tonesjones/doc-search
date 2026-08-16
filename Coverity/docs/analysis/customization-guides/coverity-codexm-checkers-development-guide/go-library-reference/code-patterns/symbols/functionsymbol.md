@@ -1,0 +1,49 @@
+---
+title: "functionSymbol"
+source_url: "https://docs.blackduck.com/r/coverity/2026.6/coverity-documentation/functionsymbol.html"
+content_id: "Vgq9u8AnUKKdsIFUFM8WUQ"
+version: "2026.6"
+section: "Coverity Analysis"
+scraped_at: "2026-08-12T23:34:00.982547+00:00"
+---
+
+# functionSymbol
+
+Matches the symbols used to declare functions.
+
+This pattern only matches nodes of type `symbol`.
+
+## Properties
+
+`functionSymbol` produces a record that contains the following properties:
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `explicitParameterCount` | `int` | The number of explicit parameters this function has |
+| `functionType` | `functionType` | The type of the function |
+| `hasThis` | `bool` | `true` if the function has the implicit `this` argument |
+| `isClassInitializer` | `bool` | `true` if this function is a class initializer |
+| `isCompilerGenerated` | `bool` | `true` if the function is compiler-generated |
+| `isConstructor` | `bool` | `true` if the function is a constructor |
+| `isStaticMethod` | `bool` | `true` if the function is a static method |
+| `qualifiedName` | `string` | The name of the function, including any scope information |
+| `simpleName` | `string` | The name of the function, without scope information |
+
+**Inherits properties from:**
+
+- symbol
+
+## Example
+
+The following CodeXM pattern finds all function calls to method functions:
+
+  
+ [image: CXM code follows]   
+
+```
+    pattern callToSynchronized {
+        functionCall {
+            .calledFunction == functionSymbol { .hasThus == true }
+        }
+    }
+```

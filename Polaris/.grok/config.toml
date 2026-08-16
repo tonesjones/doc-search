@@ -1,0 +1,7 @@
+# Project-scoped MCP servers for this Polaris corpus.
+# Auth uses the existing Bridge CLI token env var. Do not put a raw token here.
+
+[mcp_servers.polaris-issue-management-mcp-server]
+url = "https://poc.polaris.blackduck.com/api/mcp"
+enabled = true
+headers = { "Api-Token" = "${BRIDGE_POLARIS_ACCESSTOKEN}" }

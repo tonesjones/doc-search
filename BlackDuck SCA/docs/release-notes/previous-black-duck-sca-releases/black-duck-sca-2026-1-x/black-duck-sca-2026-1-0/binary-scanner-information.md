@@ -1,0 +1,12 @@
+---
+title: "Binary Scanner Information"
+source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/binary-scanner-information.html"
+content_id: "rgR2zLn1MVeOJQl_hwG5qg"
+version: "2026.7"
+section: "Release Notes"
+scraped_at: "2026-08-08T15:35:11.402701+00:00"
+---
+
+# Binary Scanner Information
+
+The binary scanner has been updated to version **2025.12.1**.

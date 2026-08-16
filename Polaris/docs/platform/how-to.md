@@ -1,0 +1,75 @@
+---
+title: "How-to"
+source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/how-to.html"
+content_id: "4IyXjATY85d~2zj4p7f5mQ"
+product_key: "polaris-platform-latest"
+section: "How-to"
+scraped_at: "2026-08-12T19:55:57.220769+00:00"
+content_hash: "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+---
+
+# How-to
+
+This section includes:
+
+- [Migrate Polaris to the Black Duck domain](how-to/migrate-polaris-to-the-black-duck-domain.md)
+- [How-do-I](how-to/how-do-i.md)
+- [Set up single sign-on (with SAML 2.0)](how-to/set-up-single-sign-on-with-saml-2-0.md)
+- [Manage access with groups](how-to/manage-access-with-groups.md)
+- [Manage permissions with custom roles](how-to/manage-permissions-with-custom-roles.md)
+- [Service accounts for Polaris](how-to/service-accounts-for-polaris.md)
+- [Move projects between applications](how-to/move-projects-between-applications.md)
+- [Exclude files and folders from tests](how-to/exclude-files-and-folders-from-tests.md)
+- [Manage SAST tool versions](how-to/manage-sast-tool-versions.md)
+- [How to test from the web UI](how-to/how-to-test-from-the-web-ui.md)
+- [Binary Analysis](how-to/binary-analysis.md)
+- [Download test artifacts](how-to/download-test-artifacts.md)
+- [Find a test UID](how-to/find-a-test-uid.md)
+- [Generate SAST remediation guidance with Black Duck Assist](how-to/generate-sast-remediation-guidance-with-black-duck-assist.md)
+- [Chat with Black Duck Assist (Beta)](how-to/chat-with-black-duck-assist-beta.md)
+- [Issue Management MCP server](how-to/issue-management-mcp-server.md)
+- [Import results from third-party tools (limited availability)](how-to/import-results-from-third-party-tools-limited-availability.md)
+- [Import issues from Black Duck SCA](how-to/import-issues-from-black-duck-sca.md)
+- [Manage copyright format](how-to/manage-copyright-format.md)
+- [Add or modify components](how-to/add-or-modify-components.md)
+- [Automatic component updates from the Black Duck KnowledgeBase](how-to/automatic-component-updates-from-the-black-duck-knowledgebase.md)
+- [Find issues captured after a test](how-to/find-issues-captured-after-a-test.md)
+- [Find component upgrade guidance](how-to/find-component-upgrade-guidance.md)
+- [Find component license information (including terms)](how-to/find-component-license-information-including-terms.md)
+- [View component history (and activity log)](how-to/view-component-history-and-activity-log.md)
+- [Fix Pull Requests (Fix PR)](how-to/fix-pull-requests-fix-pr.md)
+- [Fail Pull Requests (Fail PR)](how-to/fail-pull-requests-fail-pr.md)
+- [Using Reachability Analysis](how-to/using-reachability-analysis.md)
+- [Edit and review licenses](how-to/edit-and-review-licenses.md)
+- [Managing deep licenses](how-to/managing-deep-licenses.md)
+- [Ways to triage issues in Polaris](how-to/ways-to-triage-issues-in-polaris.md)
+- [Ways to triage components in Polaris](how-to/ways-to-triage-components-in-polaris.md)
+- [Set up triage approval workflows](how-to/set-up-triage-approval-workflows.md)
+- [Approve or reject issue triage requests](how-to/approve-or-reject-issue-triage-requests.md)
+- [Approve or reject component triage requests](how-to/approve-or-reject-component-triage-requests.md)
+- [Triaging issue severity](how-to/triaging-issue-severity.md)
+- [View issue history](how-to/view-issue-history.md)
+- [How to export issues to CSV or JSON](how-to/how-to-export-issues-to-csv-or-json.md)
+- [Create and manage Policies](how-to/create-and-manage-policies.md)
+- [Add and manage secure tunnels in the Polaris UI](how-to/add-and-manage-secure-tunnels-in-the-polaris-ui.md)
+- [Connect Polaris to Multiple SCM Repositories](how-to/connect-polaris-to-multiple-scm-repositories.md)
+- [Synchronizing Polaris with your SCM Provider](how-to/synchronizing-polaris-with-your-scm-provider.md)
+- [Event-Based Test Automation in Polaris for SCM Integrations](how-to/event-based-test-automation-in-polaris-for-scm-integrations.md)
+- [Azure Tokens for SCM Bulk Integration and/or Monitoring](how-to/azure-tokens-for-scm-bulk-integration-and-or-monitoring.md)
+- [Bitbucket Tokens for SCM Bulk Integration and/or Monitoring](how-to/bitbucket-tokens-for-scm-bulk-integration-and-or-monitoring.md)
+- [GitHub Tokens for SCM Bulk Integration and/or Monitoring](how-to/github-tokens-for-scm-bulk-integration-and-or-monitoring.md)
+- [GitLab Tokens for SCM Bulk Integration and/or Monitoring](how-to/gitlab-tokens-for-scm-bulk-integration-and-or-monitoring.md)
+- [Connect a Polaris project to a repository in your SCM](how-to/connect-a-polaris-project-to-a-repository-in-your-scm.md)
+- [Create and manage branches in a project](how-to/create-and-manage-branches-in-a-project.md)
+- [Compare default and non-default branches in a project](how-to/compare-default-and-non-default-branches-in-a-project.md)
+- [Create and manage labels](how-to/create-and-manage-labels.md)
+- [Setting up and resetting two-factor authentication](how-to/setting-up-and-resetting-two-factor-authentication.md)
+- [Issue tracking integrations](how-to/issue-tracking-integrations.md)
+- [Integrate Secure Code Warrior with Polaris](how-to/integrate-secure-code-warrior-with-polaris.md)
+- [Make an access token](how-to/make-an-access-token.md)
+- [Work with dashboards](how-to/work-with-dashboards.md)
+- [Create a report](how-to/create-a-report.md)
+- [Connect Code Sight to Polaris](how-to/connect-code-sight-to-polaris.md)
+- [Test web applications and APIs with Polaris fAST Dynamic](how-to/test-web-applications-and-apis-with-polaris-fast-dynamic.md)
+- [Risk scoring in Polaris](how-to/risk-scoring-in-polaris.md)
+- [Assign subscriptions to applications](how-to/assign-subscriptions-to-applications.md)

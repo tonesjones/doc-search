@@ -1,0 +1,5 @@
+# Only needed to run scripts/scrape-pending.py (refresh / scrape).
+# Reading the Markdown corpus needs no Python packages.
+beautifulsoup4>=4.12
+lxml>=5.0
+markdownify>=0.13

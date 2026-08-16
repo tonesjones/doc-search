@@ -1,0 +1,28 @@
+---
+title: "compositeType"
+source_url: "https://docs.blackduck.com/r/coverity/2026.6/coverity-documentation/compositetype.html"
+content_id: "0kWy2Y~pytSwiB7jaB2N~w"
+version: "2026.6"
+section: "Coverity Analysis"
+scraped_at: "2026-08-12T23:37:34.206600+00:00"
+---
+
+# compositeType
+
+Matches composite objects such as sequences, sets, and dictionaries.
+
+This pattern only matches nodes of type `type`.
+
+## Properties
+
+`compositeType` does not expose any new properties.
+
+## Example
+
+The following CodeXM code matches any expression that has a composite type:
+
+[image: CXM code follows]
+
+```
+    node matches expression as e where e.type matches compositeType;
+```

@@ -1,0 +1,429 @@
+{
+  "mapId": "xmDr3Yryk7OYDGb__OGKlg",
+  "version": "latest",
+  "product": "signal",
+  "productKey": "signal-latest",
+  "title": "Black Duck Signal",
+  "tocApi": "https://docs.blackduck.com/api/khub/maps/xmDr3Yryk7OYDGb__OGKlg/toc",
+  "contentApiTemplate": "https://docs.blackduck.com/api/khub/maps/xmDr3Yryk7OYDGb__OGKlg/topics/{contentId}/content",
+  "baseReaderUrl": "https://docs.blackduck.com/r/signal/black-duck-signal/",
+  "docsRoot": null,
+  "lastIndexBuild": "2026-08-13T00:05:06.286869+00:00",
+  "lastTocFetch": "2026-08-13T00:04:45.723542+00:00",
+  "scrapedAt": "2026-08-13T00:05:00.200419+00:00",
+  "statusValues": [
+    "pending",
+    "done",
+    "skipped",
+    "error"
+  ],
+  "stats": {
+    "total": 17,
+    "pending": 0,
+    "done": 17,
+    "skipped": 0,
+    "error": 0
+  },
+  "rootSections": [
+    {
+      "title": "Overview of Black Duck Signal",
+      "slug": "overview"
+    },
+    {
+      "title": "Scan your code changes",
+      "slug": "scan-changes"
+    },
+    {
+      "title": "Scan a full project from the CLI",
+      "slug": "scan-project"
+    },
+    {
+      "title": "Reference guide",
+      "slug": "reference"
+    },
+    {
+      "title": "AI security, data protection, and trust",
+      "slug": "ai-security"
+    },
+    {
+      "title": "Signal release notes",
+      "slug": "release-notes"
+    }
+  ],
+  "topics": [
+    {
+      "id": "dB8K2SDHD53lShGOyuhOKg",
+      "tocId": "6D1mplu6R9Yl6mqGKcntdg",
+      "title": "Overview of Black Duck Signal",
+      "path": [
+        "Overview of Black Duck Signal"
+      ],
+      "section": "Overview of Black Duck Signal",
+      "prettyUrl": "/r/signal/black-duck-signal/overview-of-black-duck-signal.html",
+      "sourceUrl": "https://docs.blackduck.com/r/signal/black-duck-signal/overview-of-black-duck-signal.html",
+      "localPath": "docs/overview/overview-of-black-duck-signal.md",
+      "depth": 1,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-13T00:04:49.053553+00:00",
+      "lastCheckedAt": "2026-08-13T00:04:49.053553+00:00",
+      "contentHash": "4bff04989e5f8d290ff8474725cad45bfba4d3d1d6a69dafd7444bd684256050",
+      "bytes": 5840
+    },
+    {
+      "id": "ujhWk4bWYBGi9EG95j4Inw",
+      "tocId": "Wr0JAj6PCgQZSX9AHb7UuQ",
+      "title": "Scan your code changes",
+      "path": [
+        "Scan your code changes"
+      ],
+      "section": "Scan your code changes",
+      "prettyUrl": "/r/signal/black-duck-signal/scan-your-code-changes.html",
+      "sourceUrl": "https://docs.blackduck.com/r/signal/black-duck-signal/scan-your-code-changes.html",
+      "localPath": "docs/scan-changes/scan-your-code-changes.md",
+      "depth": 1,
+      "hasChildren": true,
+      "directChildren": 3,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-13T00:04:49.729064+00:00",
+      "lastCheckedAt": "2026-08-13T00:04:49.729064+00:00",
+      "contentHash": "9c675e99de414a5d361fecb86d33e6c810967d6bdd4c1d39e957dcafbc2ee6c0",
+      "bytes": 508
+    },
+    {
+      "id": "SjEFcRZdM2gIPe3yrbv9lg",
+      "tocId": "OTJo2R4WQlUAhCwjU7rcWQ",
+      "title": "With a coding assistant",
+      "path": [
+        "Scan your code changes",
+        "With a coding assistant"
+      ],
+      "section": "Scan your code changes",
+      "prettyUrl": "/r/signal/black-duck-signal/with-a-coding-assistant.html",
+      "sourceUrl": "https://docs.blackduck.com/r/signal/black-duck-signal/with-a-coding-assistant.html",
+      "localPath": "docs/scan-changes/with-a-coding-assistant.md",
+      "depth": 2,
+      "hasChildren": true,
+      "directChildren": 2,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-13T00:04:50.373929+00:00",
+      "lastCheckedAt": "2026-08-13T00:04:50.373929+00:00",
+      "contentHash": "f1646709f36cc508c1b88c4ab53d0e111f30d81e91af36e2405192d3d835ad8c",
+      "bytes": 577
+    },
+    {
+      "id": "ixkusxIoyIQQXA5nwicHGg",
+      "tocId": "bZ6pXpqk6g~DJ8CDRNd~Xw",
+      "title": "Black Duck Signal and Claude Code",
+      "path": [
+        "Scan your code changes",
+        "With a coding assistant",
+        "Black Duck Signal and Claude Code"
+      ],
+      "section": "Scan your code changes",
+      "prettyUrl": "/r/signal/black-duck-signal/black-duck-signal-and-claude-code.html",
+      "sourceUrl": "https://docs.blackduck.com/r/signal/black-duck-signal/black-duck-signal-and-claude-code.html",
+      "localPath": "docs/scan-changes/with-a-coding-assistant/black-duck-signal-and-claude-code.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-13T00:04:51.296190+00:00",
+      "lastCheckedAt": "2026-08-13T00:04:51.296190+00:00",
+      "contentHash": "294d9fdad2bb22994943e71d37d88a46efa7180cbb01289cd1f62af20778639f",
+      "bytes": 2076
+    },
+    {
+      "id": "yJEbl~KQUC2yDwoSiqgacg",
+      "tocId": "UMxi3f6J5159Ct0Y23nOTg",
+      "title": "Black Duck Signal and GitHub Copilot",
+      "path": [
+        "Scan your code changes",
+        "With a coding assistant",
+        "Black Duck Signal and GitHub Copilot"
+      ],
+      "section": "Scan your code changes",
+      "prettyUrl": "/r/signal/black-duck-signal/black-duck-signal-and-github-copilot.html",
+      "sourceUrl": "https://docs.blackduck.com/r/signal/black-duck-signal/black-duck-signal-and-github-copilot.html",
+      "localPath": "docs/scan-changes/with-a-coding-assistant/black-duck-signal-and-github-copilot.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-13T00:04:51.934770+00:00",
+      "lastCheckedAt": "2026-08-13T00:04:51.934770+00:00",
+      "contentHash": "aa9c825244e9e804499c96dfabc53f711908df16f7e6d2b9ea68c9bc3fd1ecc2",
+      "bytes": 2469
+    },
+    {
+      "id": "ZCe1Ljs9qdQy3oC6pVwfUw",
+      "tocId": "PmQ0dsUmJ~kHAscTngnbpQ",
+      "title": "In your IDE",
+      "path": [
+        "Scan your code changes",
+        "In your IDE"
+      ],
+      "section": "Scan your code changes",
+      "prettyUrl": "/r/signal/black-duck-signal/in-your-ide.html",
+      "sourceUrl": "https://docs.blackduck.com/r/signal/black-duck-signal/in-your-ide.html",
+      "localPath": "docs/scan-changes/in-your-ide.md",
+      "depth": 2,
+      "hasChildren": true,
+      "directChildren": 1,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-13T00:04:52.551156+00:00",
+      "lastCheckedAt": "2026-08-13T00:04:52.551156+00:00",
+      "contentHash": "32998aeac8676f09604bf4d6bfcf6d28c466bce466a4e67e490e3b769aaaeabe",
+      "bytes": 437
+    },
+    {
+      "id": "fPSXTYIaVYKVGJI3EoHgUQ",
+      "tocId": "Xfn0eA~eI2IENvG6K2IxIw",
+      "title": "Signal with Code Sight VS Code Extension",
+      "path": [
+        "Scan your code changes",
+        "In your IDE",
+        "Signal with Code Sight VS Code Extension"
+      ],
+      "section": "Scan your code changes",
+      "prettyUrl": "/r/signal/black-duck-signal/signal-with-code-sight-vs-code-extension.html",
+      "sourceUrl": "https://docs.blackduck.com/r/signal/black-duck-signal/signal-with-code-sight-vs-code-extension.html",
+      "localPath": "docs/scan-changes/in-your-ide/signal-with-code-sight-vs-code-extension.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-13T00:04:53.211523+00:00",
+      "lastCheckedAt": "2026-08-13T00:04:53.211523+00:00",
+      "contentHash": "4d709b0da9984b29af6e7c76186030ac12ad32375f75a142fccd8a2eb13ae617",
+      "bytes": 5658
+    },
+    {
+      "id": "Ec_l6aQgIo6tdLo2n8CWew",
+      "tocId": "POBLf75mIoPWqQ7nCxEhNA",
+      "title": "From the command line",
+      "path": [
+        "Scan your code changes",
+        "From the command line"
+      ],
+      "section": "Scan your code changes",
+      "prettyUrl": "/r/signal/black-duck-signal/from-the-command-line.html",
+      "sourceUrl": "https://docs.blackduck.com/r/signal/black-duck-signal/from-the-command-line.html",
+      "localPath": "docs/scan-changes/from-the-command-line.md",
+      "depth": 2,
+      "hasChildren": true,
+      "directChildren": 3,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-13T00:04:53.853832+00:00",
+      "lastCheckedAt": "2026-08-13T00:04:53.853832+00:00",
+      "contentHash": "63d256530c0054d3dd1f18eb6aa8d69eb8eb66e012fefb8cb1e93b25d4c08be4",
+      "bytes": 625
+    },
+    {
+      "id": "XBRDb3XpMO6IjYIYjx2wZA",
+      "tocId": "KAGEIBsv7tCUzxwvSYkQFg",
+      "title": "Perform a diff scan",
+      "path": [
+        "Scan your code changes",
+        "From the command line",
+        "Perform a diff scan"
+      ],
+      "section": "Scan your code changes",
+      "prettyUrl": "/r/signal/black-duck-signal/perform-a-diff-scan.html",
+      "sourceUrl": "https://docs.blackduck.com/r/signal/black-duck-signal/perform-a-diff-scan.html",
+      "localPath": "docs/scan-changes/from-the-command-line/perform-a-diff-scan.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-13T00:04:54.486965+00:00",
+      "lastCheckedAt": "2026-08-13T00:04:54.486965+00:00",
+      "contentHash": "5b6b6200008d049ee05b762551afe072b0f56cd0aa40909e8c83b5707dfcff3c",
+      "bytes": 3185
+    },
+    {
+      "id": "i_KFKAGFq72wFejG_0mdFw",
+      "tocId": "6o9jptbpiGn5TcKiaVuFWw",
+      "title": "Perform diff scan against a reference branch",
+      "path": [
+        "Scan your code changes",
+        "From the command line",
+        "Perform diff scan against a reference branch"
+      ],
+      "section": "Scan your code changes",
+      "prettyUrl": "/r/signal/black-duck-signal/perform-diff-scan-against-a-reference-branch.html",
+      "sourceUrl": "https://docs.blackduck.com/r/signal/black-duck-signal/perform-diff-scan-against-a-reference-branch.html",
+      "localPath": "docs/scan-changes/from-the-command-line/perform-diff-scan-against-a-reference-branch.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-13T00:04:55.185299+00:00",
+      "lastCheckedAt": "2026-08-13T00:04:55.185299+00:00",
+      "contentHash": "1c41d529208ba1d66e11b45fce2eba8f7410aec67628fb818b674cb51ccc43ba",
+      "bytes": 3530
+    },
+    {
+      "id": "8a0GSNsRz1EeMdzh6FCNFA",
+      "tocId": "j4wsYcC0gUJXi41y1VyqtA",
+      "title": "Perform a file scan",
+      "path": [
+        "Scan your code changes",
+        "From the command line",
+        "Perform a file scan"
+      ],
+      "section": "Scan your code changes",
+      "prettyUrl": "/r/signal/black-duck-signal/perform-a-file-scan.html",
+      "sourceUrl": "https://docs.blackduck.com/r/signal/black-duck-signal/perform-a-file-scan.html",
+      "localPath": "docs/scan-changes/from-the-command-line/perform-a-file-scan.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-13T00:04:55.814799+00:00",
+      "lastCheckedAt": "2026-08-13T00:04:55.814799+00:00",
+      "contentHash": "bb5b833cb472aa7a9593965fc741f109edca433fcbfbceed55fe525b7502d5c6",
+      "bytes": 2955
+    },
+    {
+      "id": "7jplJ4qnxCOCnQhPOvQ9jg",
+      "tocId": "uBeJEBJHiaZ9Dw~V88Wu_Q",
+      "title": "Scan a full project from the CLI",
+      "path": [
+        "Scan a full project from the CLI"
+      ],
+      "section": "Scan a full project from the CLI",
+      "prettyUrl": "/r/signal/black-duck-signal/scan-a-full-project-from-the-cli.html",
+      "sourceUrl": "https://docs.blackduck.com/r/signal/black-duck-signal/scan-a-full-project-from-the-cli.html",
+      "localPath": "docs/scan-project/scan-a-full-project-from-the-cli.md",
+      "depth": 1,
+      "hasChildren": true,
+      "directChildren": 2,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-13T00:04:56.466289+00:00",
+      "lastCheckedAt": "2026-08-13T00:04:56.466289+00:00",
+      "contentHash": "261bb70a8e51351137c4e418c9c482e5505488a00933ed40707c0b473f2e494e",
+      "bytes": 598
+    },
+    {
+      "id": "L5rw5N0dHn89RZbP5o6wpA",
+      "tocId": "DMTOXbHPzeFjpjidIAfUaw",
+      "title": "Full project scan with SARIF report only",
+      "path": [
+        "Scan a full project from the CLI",
+        "Full project scan with SARIF report only"
+      ],
+      "section": "Scan a full project from the CLI",
+      "prettyUrl": "/r/signal/black-duck-signal/full-project-scan-with-sarif-report-only.html",
+      "sourceUrl": "https://docs.blackduck.com/r/signal/black-duck-signal/full-project-scan-with-sarif-report-only.html",
+      "localPath": "docs/scan-project/full-project-scan-with-sarif-report-only.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-13T00:04:57.126614+00:00",
+      "lastCheckedAt": "2026-08-13T00:04:57.126614+00:00",
+      "contentHash": "da3d3a8845376f416c15dea088fe8635f9b5005b176b3859089558d79c90ebe5",
+      "bytes": 2167
+    },
+    {
+      "id": "ToOSgk4S4z5RCE5ztWaJBw",
+      "tocId": "eWGAuikI6EASRPxJYfXh8w",
+      "title": "Full project scan and send results to Polaris",
+      "path": [
+        "Scan a full project from the CLI",
+        "Full project scan and send results to Polaris"
+      ],
+      "section": "Scan a full project from the CLI",
+      "prettyUrl": "/r/signal/black-duck-signal/full-project-scan-and-send-results-to-polaris.html",
+      "sourceUrl": "https://docs.blackduck.com/r/signal/black-duck-signal/full-project-scan-and-send-results-to-polaris.html",
+      "localPath": "docs/scan-project/full-project-scan-and-send-results-to-polaris.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-13T00:04:57.760685+00:00",
+      "lastCheckedAt": "2026-08-13T00:04:57.760685+00:00",
+      "contentHash": "4e314b462ba4349eed101bd4d1c29f68d7a2a0ce4015b83093c45308b56bd8c4",
+      "bytes": 3033
+    },
+    {
+      "id": "7plpGYKZ68aJBNC_3zC2_g",
+      "tocId": "w0qO5pbvXYR_DIVcVbMHSw",
+      "title": "Reference guide",
+      "path": [
+        "Reference guide"
+      ],
+      "section": "Reference guide",
+      "prettyUrl": "/r/signal/black-duck-signal/reference-guide.html",
+      "sourceUrl": "https://docs.blackduck.com/r/signal/black-duck-signal/reference-guide.html",
+      "localPath": "docs/reference/reference-guide.md",
+      "depth": 1,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-13T00:04:58.571323+00:00",
+      "lastCheckedAt": "2026-08-13T00:04:58.571323+00:00",
+      "contentHash": "9bc730b6652849ecd8ec1fea5d0bffbb4eca135f266a15ca4827fc338413087f",
+      "bytes": 6816
+    },
+    {
+      "id": "SeKsRfoJBm40f_Zq4N3HQw",
+      "tocId": "h7kaTVyy_i_KxlL5VP14Hg",
+      "title": "AI security, data protection, and trust",
+      "path": [
+        "AI security, data protection, and trust"
+      ],
+      "section": "AI security, data protection, and trust",
+      "prettyUrl": "/r/signal/black-duck-signal/ai-security-data-protection-and-trust.html",
+      "sourceUrl": "https://docs.blackduck.com/r/signal/black-duck-signal/ai-security-data-protection-and-trust.html",
+      "localPath": "docs/ai-security/ai-security-data-protection-and-trust.md",
+      "depth": 1,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-13T00:04:59.199748+00:00",
+      "lastCheckedAt": "2026-08-13T00:04:59.199748+00:00",
+      "contentHash": "66b50efdd8089a2644873543cf52da6afd1cdeb94adb3cda5e95b8f471f70a09",
+      "bytes": 5200
+    },
+    {
+      "id": "4RKMpkO6EtmpgrOkKE9r0Q",
+      "tocId": "uZtnG18lyM_eo0zqc5k48w",
+      "title": "Signal release notes",
+      "path": [
+        "Signal release notes"
+      ],
+      "section": "Signal release notes",
+      "prettyUrl": "/r/signal/black-duck-signal/signal-release-notes.html",
+      "sourceUrl": "https://docs.blackduck.com/r/signal/black-duck-signal/signal-release-notes.html",
+      "localPath": "docs/release-notes/signal-release-notes.md",
+      "depth": 1,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-13T00:04:59.839396+00:00",
+      "lastCheckedAt": "2026-08-13T00:04:59.839396+00:00",
+      "contentHash": "ff37489f28fe8115de5db104edddbefd9fb943fe9df79c5bfb7d04b0fb1e040d",
+      "bytes": 3425
+    }
+  ]
+}

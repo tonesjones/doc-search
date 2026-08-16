@@ -1,0 +1,50 @@
+---
+title: "forLoop"
+source_url: "https://docs.blackduck.com/r/coverity/2026.6/coverity-documentation/forloop.html"
+content_id: "vY7AH72sOhKt85l0~Kckvg"
+version: "2026.6"
+section: "Coverity Analysis"
+scraped_at: "2026-08-12T23:34:39.881063+00:00"
+---
+
+# forLoop
+
+Matches either simple or enhanced `for` loops.
+
+To match specific kinds of `for` loops, and to obtain greater detail about them, refer to
+forLoopSimple and
+forLoopEnhanced.
+
+This pattern only matches nodes of type `statement`.
+
+## Properties
+
+`forLoop` produces a record that contains the following properties:
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `body` | `statement` | The body of the `for` loop |
+| `kind` | `enum ForLoopKind` | The kind of `for` loop, either `` `simple` `` or `` `enhanced` ``; see ForLoopKind |
+
+**Inherits properties from:**
+
+- astnode
+- statement
+
+## Example
+
+The following pattern matches any simple `for` loop:
+
+  
+ [image: CXM code follows]   
+
+```
+    pattern anySimpleForLoop {
+        forLoop { .kind == `simple` }
+    };
+```
+
+## See also
+
+forLoopEnhanced,
+forLoopSimple

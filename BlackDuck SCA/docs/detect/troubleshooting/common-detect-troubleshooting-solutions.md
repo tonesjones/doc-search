@@ -1,0 +1,335 @@
+---
+title: "Common Detect troubleshooting solutions"
+source_url: "https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/common-detect-troubleshooting-solutions.html"
+content_id: "44OYJ~euKr2oXNzmrC~XcA"
+version: "11.5.1"
+section: "Troubleshooting"
+scraped_at: "2026-08-08T23:45:53.392107+00:00"
+---
+
+# Common Detect troubleshooting solutions
+
+## SCA Scan Service (SCASS) Store endpoint is not whitelisted for Signature Scans
+
+### Symptom
+
+When running Detect version 10.6.0 and Black Duck SCA server 2025.7.0, Detect fails with `Signature scan failure: Connect to na.store.scass.blackduck.com:443 [na.store.scass.blackduck.com/6.6.6.1] failed: Operation timed out (Connection timed out)` or,
+`Signature scan failure: Connect to eu.store.scass.blackduck.com:443 [eu.store.scass.blackduck.com/6.6.6.1] failed: Operation timed out (Connection timed out)`
+
+### Solution
+
+Rerun the scan after adding or updating the IP addresses listed below in your network firewalls or allow lists.
+
+- scass.blackduck.com - 35.244.200.22
+- na.scass.blackduck.com - 35.244.200.22
+- na.store.scass.blackduck.com - 34.54.95.139
+- eu.store.scass.blackduck.com - 34.54.213.11
+- eu.scass.blackduck.com - 34.54.38.252
+
+## DETECT_SOURCE was not set or computed correctly
+
+### Symptom
+
+detect11.sh fails with: DETECT_SOURCE was not set or computed correctly, please check your configuration and environment.
+
+### Possible cause
+
+detect11.sh is trying to execute this command:
+
+```
+curl --silent --header \"X-Result-Detail: info\" https://repo.blackduck.com/api/storage/bds-integrations-release/com/blackduck/integration/detect?properties=DETECT_LATEST_11
+```
+
+The response to this command should be similar to the following:
+
+```
+{
+"properties" : {
+"DETECT_LATEST_11" : [ "https://repo.blackduck.com/bds-integrations-release/com/blackduck/integration/detect/11.0.0/detect-11.0.0.jar" ]
+},
+"uri" : "https://repo.blackduck.com/api/storage/bds-integrations-release/com/blackduck/integration/detect"
+}
+```
+
+When that command does not successfully return a value for property DETECT_LATEST, detect11.sh reports:
+
+```
+DETECT_SOURCE was not set or computed correctly, please check your configuration and environment.
+```
+
+Note: Detect releases prior to 10.0.0 will be located under https://repo.blackduck.com/bds-integrations-release/com/synopsys/integration/synopsys-detect
+
+### Solution
+
+If the curl command described above does not successfully return a value for property DETECT_LATEST, you must determine why, and make the changes necessary so that curl command works.
+
+## Detect succeeds, but the results are incomplete because package managers or subprojects were overlooked
+
+### Symptom
+
+In this scenario, everything succeeds, but many or all components are missed. Examining the log shows that
+package managers were not recognized and/or subprojects were overlooked.
+
+### Possible cause
+
+The detector search depth needs to be increased. The default value (0) limits the search for package manager files to the project directory. If project manager files
+are located in subdirectories and/or there are subprojects, this depth should be increased to enable Detect to find the relevant files, so it
+will run the appropriate detector(s).
+
+See detector search depth for more details.
+
+## Detect fails and a TRACE log shows an HTTP response from Black Duck SCA of "402 Payment Required" or "502 Bad Gateway"
+
+### Symptom
+
+Detect fails, and a TRACE log contains "402 Payment Required" or "502 Bad Gateway".
+
+### Possible cause
+
+Black Duck SCA does not have a required feature (notifications, binary analysis, etc.) enabled.
+
+### Solution
+
+Enable the required feature on the Black Duck SCA server.
+
+## Unexpected behavior running Detect on a project that uses Spring Boot
+
+### Symptom
+
+Unexpected behavior, and/or unexpected property values shown in the log.
+
+### Possible cause
+
+If your source directory contains Spring Framework configuration files named application.properties, application.yml,
+or application.xml that are written for any application other than Detect, you should not run Detect from your source directory.
+
+### Solution
+
+To prevent Detect from reading those files, run Detect from a different directory. Use the following property to point to your source directory.
+
+```
+--detect.source.path={project directory path}
+```
+
+## PKIX error connecting to Black Duck SCA
+
+### Symptom
+
+Exception: Could not communicate with Black Duck SCA: Could not perform the authorization request: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+### Possible cause
+
+The Black Duck SCA server certificate is not in Java's keystore.
+
+### Solution
+
+1. Acquire the certificate file for your Black Duck SCA server.
+2. Determine which *java* executable is being used to run Detect. If you run detect11.sh, that is either $JAVA_HOME/bin/java (the default) or the first *java* found on your $PATH.
+3. Determine the Java home directory for that *java* executable.
+4. Run [keytool](https://docs.oracle.com/en/java/javase/11/tools/keytool.html) to install the Black Duck SCA server certificate into the keystore in that Java home directory.
+
+Although not recommended, it is possible to disable the certificate check with the trust cert property.
+
+## Not Extractable: NUGET - Solution INFO [main] -- Exception occurred: java.nio.file.InvalidPathException
+
+### Symptom
+
+Running Detect on a NuGet project on Windows, a message similar to the following appears in the Detect log:
+
+```
+Not Extractable: NUGET - Solution INFO [main] -- Exception occurred: java.nio.file.InvalidPathException: Illegal char
+<:> at index 2: C:\...
+```
+
+### Possible cause
+
+The value of $PATH contains a whitespace character after a semicolon and the path mentioned in the log message.
+
+### Solution
+
+Remove spaces immediately following semicolons in the value of $PATH.
+
+## No project name/version provided or derived
+
+### Symptom
+
+Upload to Black Duck SCA fails with a message similar to the following in the log:
+
+```
+ERROR [main] -- createProject.arg0.name can't be blank [HTTP Error]: There was a problem trying to POST https://.../api/projects, response was 412 Precondition Failed.
+```
+
+### Possible cause
+
+No project name and version were provided via properties and no Detect tool capable of deriving a project name and version was included in the run. For example,
+you will get this (or a similar) error if you run with --detect.tools.BINARY_SCANNER and do not set --detect.project.name or --detect.project.version.name.
+
+### Solution
+
+Set --detect.project.name and --detect.project.version.name.
+
+## Black Duck Signature Scanner fails on Alpine Linux (non ARM64 architecture)
+
+### Symptom
+
+The Black Duck Signature Scanner fails on Alpine Linux systems with non arm64 architecture with an error similar to:
+
+```
+There was a problem scanning target '/opt/projects/myproject': Cannot run program "/home/me/blackduck/tools/Black_Duck_Scan_Installation/scan.cli-2025.4.0/jre/bin/java": error=2, No such file or directory
+```
+
+### Possible cause
+
+The Java bundled with the Black Duck Signature Scanner does not work on Alpine Linux systems with non arm64 architecture (it relies on libraries not usually present on an Alpine system).
+
+### Solution
+
+Install a supported version of Java and tell Detect to invoke the Black Duck Signature Scanner using that
+version of Java by setting environment variable BDS_JAVA_HOME to the JAVA_HOME value for that Java installation.
+
+For example:
+
+```
+export BDS_JAVA_HOME=$JAVA_HOME
+```
+
+Or:
+
+```
+export BDS_JAVA_HOME=/<path to supported>/jre
+```
+
+## Detector scan fails with Java compatibility issues
+
+### Symptom
+
+Detector scans may fail with an error indicating Java incompatibility.
+
+### Possible cause
+
+Detect might use package manager executables and CLI commands to investigate projects and the Java version in use by Detect might not be compatible with the Java version used for the project.
+
+### Solution
+
+Install an appropriate Detect supported version of Java and configure Detect to use that version of Java by setting environment variable JAVA_HOME value for that Java installation.
+
+## On Windows: Error trying cleanup
+
+### Symptom
+
+When running on Windows, inspecting a Docker image (e.g. using --detect.docker.image or --detect.docker.tar),
+during shutdown, Detect logs messages similar to the following:
+
+```
+2020-08-14 14:31:04 DEBUG [main] --- Error trying cleanup:
+
+java.io.IOException: Unable to delete file: C:\Users\Administrator\blackduck\runs\2020-08-14-21-28-40-106\extractions
+...
+Caused by: java.nio.file.FileSystemException: C:\Users\Administrator\blackduck\runs\2020-08-14-21-28-40-106\extractions\DOCKER-0\application.properties: The process cannot access the file because it is being used by another process.
+```
+
+### Possible cause
+
+This happens when Docker fails to release its lock on the volume mounted directory when it shuts down the image inspector service container
+due to [Docker for Windows issue 394](https://github.com/docker/for-win/issues/394).
+The result is that Detect cannot fully clean up its output directory and leaves behind empty subdirectories.
+The problem may be intermittent.
+
+### Solution
+
+There is no harm in leaving the directories behind in the short term but we recommend periodically removing them if the problem occurs frequently.
+Restarting Docker will force Docker to release the locks, and enable you to remove the directories.
+
+## Encoding Problems with PIP Requirements File
+
+### Symptom
+
+`requirements.txt` files created using encoding systems other than UTF-8 cause certain Unicode characters in the component names to be unreadable when inspected through Detect. The system does not recognize these component entries, resulting in unmatched components.
+
+Here is an example:
+
+```
+{
+    "@id" : "http:pypi/%EF%BF%BD%EF%BF%BDa%00p%00p%00d%00i%00r%00s%00%3D%00%3D%001%00.%004%00.%004",
+    "@type" : "https://blackducksoftware.github.io/bdio#Component",
+    "https://blackducksoftware.github.io/bdio#hasName" : "��a\u0000p\u0000p\u0000d\u0000i\u0000r\u0000s\u0000=\u0000=\u00001\u0000.\u00004\u0000.\u00004",
+    "https://blackducksoftware.github.io/bdio#hasVersion" : "",
+    "https://blackducksoftware.github.io/bdio#hasIdentifier" : "��a\u0000p\u0000p\u0000d\u0000i\u0000r\u0000s\u0000=\u0000=\u00001\u0000.\u00004\u0000.\u00004",
+    "https://blackducksoftware.github.io/bdio#hasNamespace" : "pypi"
+}
+```
+
+### Possible cause
+
+The requirements.txt file was created using encoding systems other than UTF-8.
+
+### Solution
+
+To resolve this issue, the requirements.txt file must be created using UTF-8 encoding before the Detect inspection is run on the source code.
+
+Note: See [PIP uses UTF-8 as the default encoding when creating requirements.txt files](https://pip.pypa.io/en/stable/reference/requirements-file-format/#encoding).
+
+## Bazel Troubleshooting Guide
+
+### Common Issues and Solutions
+
+#### Unable to determine Bazel mode automatically
+
+**Problem:** The tool cannot determine if your project uses BZLMOD or WORKSPACE mode. Usually occurs when the `bazel mod show_repo` command fails unexpectedly (not due to old Bazel version).
+
+**Possible Solutions:**
+
+- Manually specify the mode using `--detect.bazel.mode=WORKSPACE` or `--detect.bazel.mode=BZLMOD`
+
+#### No supported Bazel dependency sources found
+
+**Problem:** The automatic graph probing did not detect any dependency sources.
+
+**Possible Solutions:**
+
+- Verify your target has dependencies: `bazel query 'deps(//your:target)'`
+- Manually specify dependency sources: `--detect.bazel.dependency.sources=MAVEN_INSTALL,HTTP_ARCHIVE`
+- Check that your Bazel target builds successfully: `bazel build //your:target`
+
+#### Old Bazel Version Warning
+
+**Problem:** You see a warning like "Bazel does not support 'mod' command (likely version < 6.0)" or "show repo command not found".
+
+Expected behavior for Bazel versions before 6.0: the tool assumes WORKSPACE mode and continues.
+
+**Possible Solutions:**
+
+- To use BZLMOD features, upgrade to Bazel 6.4+ (preferably 7.x or 8.x)
+- To suppress the warning, explicitly set: `--detect.bazel.mode=WORKSPACE`
+
+Note: For Bazel 6.0–6.3 with Bzlmod enabled (via --enable_bzlmod), the tool may fail to probe HTTP/BCR repositories because bazel mod show_repo is unavailable or unstable. Upgrade or use WORKSPACE mode as a workaround.
+
+#### HTTP Dependencies Missing
+
+**Problem:** Some http_archive or git_repository dependencies are not detected.
+
+**Possible Solutions:**
+
+- Check the logs to verify the HTTP pipeline was enabled
+- Verify the dependencies are actually reachable from your specified target: `bazel query 'deps(//your:target)'`
+- For projects where HTTP dependencies are known to be absent, exclude the pipeline explicitly: `--detect.bazel.dependency.sources=MAVEN_INSTALL`
+
+#### Bazel Executable Not Found
+
+**Problem:** Error indicates Bazel executable cannot be located.
+
+**Possible Solutions:**
+
+- Ensure Bazel is installed: `bazel version`
+- Verify Bazel is on your PATH: `which bazel`
+- Specify the path explicitly: `--detect.bazel.path=/path/to/bazel`
+
+#### Debug Mode
+
+For detailed logging to diagnose issues:
+
+```
+bash <(curl -s -L https://detect.blackduck.com/detect11.sh) \
+  --logging.level.detect=DEBUG \
+  --detect.bazel.target='//your:target'
+```

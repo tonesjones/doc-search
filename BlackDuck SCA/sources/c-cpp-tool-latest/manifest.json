@@ -1,0 +1,444 @@
+{
+  "mapId": "2GUQEgoyKxsQAcOtWsqdDA",
+  "version": "latest",
+  "product": "c-cpp-tool",
+  "productKey": "c-cpp-tool-latest",
+  "title": "Black Duck C/CPP Tool",
+  "tocApi": "https://docs.blackduck.com/api/khub/maps/2GUQEgoyKxsQAcOtWsqdDA/toc",
+  "contentApiTemplate": "https://docs.blackduck.com/api/khub/maps/2GUQEgoyKxsQAcOtWsqdDA/topics/{contentId}/content",
+  "baseReaderUrl": "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/",
+  "docsRoot": "c-cpp-tool",
+  "lastIndexBuild": "2026-08-13T16:17:07.357586+00:00",
+  "lastTocFetch": "2026-08-13T16:16:10.686191+00:00",
+  "scrapedAt": "2026-08-13T16:16:59.928471+00:00",
+  "statusValues": [
+    "pending",
+    "done",
+    "skipped",
+    "error"
+  ],
+  "stats": {
+    "total": 20,
+    "pending": 0,
+    "done": 14,
+    "skipped": 6,
+    "error": 0
+  },
+  "rootSections": [
+    {
+      "title": "Black Duck Tools",
+      "slug": "black-duck-tools"
+    },
+    {
+      "title": "Black Duck C/CPP Tool",
+      "slug": "black-duck-c-cpp-tool"
+    },
+    {
+      "title": "KnowledgeBase Vulnerability Feed Server",
+      "slug": "knowledgebase-vulnerability-feed-server"
+    }
+  ],
+  "topics": [
+    {
+      "id": "fgx1N4o02iAq4vSWoMZEXw",
+      "tocId": "OP_uZvvmefwcAiSKVXmAlA",
+      "title": "Black Duck Tools",
+      "path": [
+        "Black Duck Tools"
+      ],
+      "section": "Black Duck Tools",
+      "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/black-duck-tools.html",
+      "sourceUrl": "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/black-duck-tools.html",
+      "localPath": "docs/c-cpp-tool/black-duck-tools.md",
+      "depth": 1,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "skipped",
+      "error": null,
+      "scrapedAt": null,
+      "bytes": null
+    },
+    {
+      "id": "8PfQx1P_PcooVPsEC6Pc_g",
+      "tocId": "iztbRYgPD2ucqs1QJg3fAA",
+      "title": "Black Duck C/CPP Tool",
+      "path": [
+        "Black Duck C/CPP Tool"
+      ],
+      "section": "Black Duck C/CPP Tool",
+      "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/black-duck-c/cpp-tool.html",
+      "sourceUrl": "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/black-duck-c/cpp-tool.html",
+      "localPath": "docs/c-cpp-tool/black-duck-c-cpp-tool.md",
+      "depth": 1,
+      "hasChildren": true,
+      "directChildren": 9,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-13T16:16:50.838386+00:00",
+      "bytes": 350
+    },
+    {
+      "id": "czazY~fEsIGqBzRimoHsxA",
+      "tocId": "T~MslmQuaLrjayB3~DyICg",
+      "title": "Black Duck C/CPP tool overview",
+      "path": [
+        "Black Duck C/CPP Tool",
+        "Black Duck C/CPP tool overview"
+      ],
+      "section": "Black Duck C/CPP Tool",
+      "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/black-duck-c/cpp-tool-overview.html",
+      "sourceUrl": "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/black-duck-c/cpp-tool-overview.html",
+      "localPath": "docs/c-cpp-tool/black-duck-c-cpp-tool/black-duck-c-cpp-tool-overview.md",
+      "depth": 2,
+      "hasChildren": true,
+      "directChildren": 2,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-13T16:16:51.541416+00:00",
+      "bytes": 2604
+    },
+    {
+      "id": "wr73B8IOKgNMXm_rzT_f4A",
+      "tocId": "MgPHor5n2akjt~oVc7XUBg",
+      "title": "Black Duck C/CPP tool quickstart guide",
+      "path": [
+        "Black Duck C/CPP Tool",
+        "Black Duck C/CPP tool overview",
+        "Black Duck C/CPP tool quickstart guide"
+      ],
+      "section": "Black Duck C/CPP Tool",
+      "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/black-duck-c/cpp-tool-quickstart-guide.html",
+      "sourceUrl": "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/black-duck-c/cpp-tool-quickstart-guide.html",
+      "localPath": "docs/c-cpp-tool/black-duck-c-cpp-tool/black-duck-c-cpp-tool-overview/black-duck-c-cpp-tool-quickstart-guide.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-13T16:16:52.157464+00:00",
+      "bytes": 1172
+    },
+    {
+      "id": "y8V_SQ48DovNtm3pFlg3HA",
+      "tocId": "k0NUcUP0_n3PaQNgtOxqDg",
+      "title": "How does the tool run?",
+      "path": [
+        "Black Duck C/CPP Tool",
+        "Black Duck C/CPP tool overview",
+        "How does the tool run?"
+      ],
+      "section": "Black Duck C/CPP Tool",
+      "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/how-does-the-tool-run-.html",
+      "sourceUrl": "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/how-does-the-tool-run-.html",
+      "localPath": "docs/c-cpp-tool/black-duck-c-cpp-tool/black-duck-c-cpp-tool-overview/how-does-the-tool-run.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-13T16:16:52.941441+00:00",
+      "bytes": 1500
+    },
+    {
+      "id": "FyYgakeoWulkUW30v2l4Ow",
+      "tocId": "nOGTc1ZDyNYgPr9h3d~CYw",
+      "title": "Supported platforms",
+      "path": [
+        "Black Duck C/CPP Tool",
+        "Supported platforms"
+      ],
+      "section": "Black Duck C/CPP Tool",
+      "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/supported-platforms.html",
+      "sourceUrl": "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/supported-platforms.html",
+      "localPath": "docs/c-cpp-tool/black-duck-c-cpp-tool/supported-platforms.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-13T16:16:53.558260+00:00",
+      "bytes": 1047
+    },
+    {
+      "id": "fDBFGrlIxrnHRHKkMaQxVQ",
+      "tocId": "dhiBSaK6yC2N9x_FNrewZg",
+      "title": "Installation",
+      "path": [
+        "Black Duck C/CPP Tool",
+        "Installation"
+      ],
+      "section": "Black Duck C/CPP Tool",
+      "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/installation.html",
+      "sourceUrl": "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/installation.html",
+      "localPath": "docs/c-cpp-tool/black-duck-c-cpp-tool/installation.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-13T16:16:54.182597+00:00",
+      "bytes": 549
+    },
+    {
+      "id": "Mkt31q4CrCHqlkWvzXQ0DA",
+      "tocId": "tSmw238nBCkTKTYKTYfeDw",
+      "title": "Executing the Black Duck C/CPP tool",
+      "path": [
+        "Black Duck C/CPP Tool",
+        "Executing the Black Duck C/CPP tool"
+      ],
+      "section": "Black Duck C/CPP Tool",
+      "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/executing-the-black-duck-c/cpp-tool.html",
+      "sourceUrl": "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/executing-the-black-duck-c/cpp-tool.html",
+      "localPath": "docs/c-cpp-tool/black-duck-c-cpp-tool/executing-the-black-duck-c-cpp-tool.md",
+      "depth": 2,
+      "hasChildren": true,
+      "directChildren": 1,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-13T16:16:55.004292+00:00",
+      "bytes": 10495
+    },
+    {
+      "id": "TcX8XARTF1rjFFw0caD7wA",
+      "tocId": "pCdsdE1k4_kg8GanKVpOvQ",
+      "title": "Configuring a yaml file",
+      "path": [
+        "Black Duck C/CPP Tool",
+        "Executing the Black Duck C/CPP tool",
+        "Configuring a yaml file"
+      ],
+      "section": "Black Duck C/CPP Tool",
+      "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/configuring-a-yaml-file.html",
+      "sourceUrl": "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/configuring-a-yaml-file.html",
+      "localPath": "docs/c-cpp-tool/black-duck-c-cpp-tool/executing-the-black-duck-c-cpp-tool/configuring-a-yaml-file.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-13T16:16:55.631336+00:00",
+      "bytes": 1665
+    },
+    {
+      "id": "s0SBRCBnmNmySHLNhnVb1g",
+      "tocId": "M_0azZIemUpvJG1Ob9VnNg",
+      "title": "API token",
+      "path": [
+        "Black Duck C/CPP Tool",
+        "API token"
+      ],
+      "section": "Black Duck C/CPP Tool",
+      "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/api-token.html",
+      "sourceUrl": "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/api-token.html",
+      "localPath": "docs/c-cpp-tool/black-duck-c-cpp-tool/api-token.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-13T16:16:56.243875+00:00",
+      "bytes": 2671
+    },
+    {
+      "id": "2sGxbfdqFY0BAUhRq7iWlA",
+      "tocId": "125ZsfX_u0Kd2zyMDgSIwA",
+      "title": "Bazel",
+      "path": [
+        "Black Duck C/CPP Tool",
+        "Bazel"
+      ],
+      "section": "Black Duck C/CPP Tool",
+      "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/bazel.html",
+      "sourceUrl": "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/bazel.html",
+      "localPath": "docs/c-cpp-tool/black-duck-c-cpp-tool/bazel.md",
+      "depth": 2,
+      "hasChildren": true,
+      "directChildren": 1,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-13T16:16:56.980679+00:00",
+      "bytes": 4685
+    },
+    {
+      "id": "KUsit7e57btUfByP7lW10g",
+      "tocId": "5uFW8wgYM_OfnlA5TRnCgQ",
+      "title": "Bazel setup",
+      "path": [
+        "Black Duck C/CPP Tool",
+        "Bazel",
+        "Bazel setup"
+      ],
+      "section": "Black Duck C/CPP Tool",
+      "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/bazel-setup.html",
+      "sourceUrl": "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/bazel-setup.html",
+      "localPath": "docs/c-cpp-tool/black-duck-c-cpp-tool/bazel/bazel-setup.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-13T16:16:57.628549+00:00",
+      "bytes": 8520
+    },
+    {
+      "id": "D7LtuVm19vILSkpbazvpYw",
+      "tocId": "AhdcPp7gVPBO82B6mjQEig",
+      "title": "The BOM",
+      "path": [
+        "Black Duck C/CPP Tool",
+        "The BOM"
+      ],
+      "section": "Black Duck C/CPP Tool",
+      "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/the-bom.html",
+      "sourceUrl": "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/the-bom.html",
+      "localPath": "docs/c-cpp-tool/black-duck-c-cpp-tool/the-bom.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-13T16:16:58.246511+00:00",
+      "bytes": 1303
+    },
+    {
+      "id": "PTZp6Ld~U~dRqLEHGmQVTw",
+      "tocId": "MqZlK_zXo6Om3pX13i~RPg",
+      "title": "Frequently asked questions",
+      "path": [
+        "Black Duck C/CPP Tool",
+        "Frequently asked questions"
+      ],
+      "section": "Black Duck C/CPP Tool",
+      "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/frequently-asked-questions.html",
+      "sourceUrl": "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/frequently-asked-questions.html",
+      "localPath": "docs/c-cpp-tool/black-duck-c-cpp-tool/frequently-asked-questions.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-13T16:16:58.949855+00:00",
+      "bytes": 8678
+    },
+    {
+      "id": "DoyaIoG42XkKIOJv5HicvQ",
+      "tocId": "qMAfiX7S8Q1r125qNjmoig",
+      "title": "Black Duck C/CPP tool release notes",
+      "path": [
+        "Black Duck C/CPP Tool",
+        "Black Duck C/CPP tool release notes"
+      ],
+      "section": "Black Duck C/CPP Tool",
+      "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/black-duck-c/cpp-tool-release-notes.html",
+      "sourceUrl": "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/black-duck-c/cpp-tool-release-notes.html",
+      "localPath": "docs/c-cpp-tool/black-duck-c-cpp-tool/black-duck-c-cpp-tool-release-notes.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-08-13T16:16:59.576791+00:00",
+      "bytes": 5301
+    },
+    {
+      "id": "sLkOpJDMZgMnXghflBSlFg",
+      "tocId": "hV23nLXqJ~PpxDKySfgYsw",
+      "title": "KnowledgeBase Vulnerability Feed Server",
+      "path": [
+        "KnowledgeBase Vulnerability Feed Server"
+      ],
+      "section": "KnowledgeBase Vulnerability Feed Server",
+      "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/knowledgebase-vulnerability-feed-server.html",
+      "sourceUrl": "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/knowledgebase-vulnerability-feed-server.html",
+      "localPath": "docs/c-cpp-tool/knowledgebase-vulnerability-feed-server.md",
+      "depth": 1,
+      "hasChildren": true,
+      "directChildren": 4,
+      "status": "skipped",
+      "error": null,
+      "scrapedAt": null,
+      "bytes": null
+    },
+    {
+      "id": "BK4a02MrgCPrDgsnyT10GA",
+      "tocId": "cG1w5YXJclTihoaSOljNHA",
+      "title": "Common Security Advisory Framework (CSAF)",
+      "path": [
+        "KnowledgeBase Vulnerability Feed Server",
+        "Common Security Advisory Framework (CSAF)"
+      ],
+      "section": "KnowledgeBase Vulnerability Feed Server",
+      "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/common-security-advisory-framework-csaf-.html",
+      "sourceUrl": "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/common-security-advisory-framework-csaf-.html",
+      "localPath": "docs/c-cpp-tool/knowledgebase-vulnerability-feed-server/common-security-advisory-framework-csaf.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "skipped",
+      "error": null,
+      "scrapedAt": null,
+      "bytes": null
+    },
+    {
+      "id": "BIpGXXaxk0H4CU3Gql0Q9Q",
+      "tocId": "dpYy1XIVxyv9lsPxCUY47w",
+      "title": "Usage Guide",
+      "path": [
+        "KnowledgeBase Vulnerability Feed Server",
+        "Usage Guide"
+      ],
+      "section": "KnowledgeBase Vulnerability Feed Server",
+      "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/usage-guide.html",
+      "sourceUrl": "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/usage-guide.html",
+      "localPath": "docs/c-cpp-tool/knowledgebase-vulnerability-feed-server/usage-guide.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "skipped",
+      "error": null,
+      "scrapedAt": null,
+      "bytes": null
+    },
+    {
+      "id": "hg1VFply9O1gIoklRlQbJA",
+      "tocId": "WV8d4XX9puGccSEzfVqYGQ",
+      "title": "Authentication",
+      "path": [
+        "KnowledgeBase Vulnerability Feed Server",
+        "Authentication"
+      ],
+      "section": "KnowledgeBase Vulnerability Feed Server",
+      "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/authentication.html",
+      "sourceUrl": "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/authentication.html",
+      "localPath": "docs/c-cpp-tool/knowledgebase-vulnerability-feed-server/authentication.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "skipped",
+      "error": null,
+      "scrapedAt": null,
+      "bytes": null
+    },
+    {
+      "id": "6cy_rP3UMuVs~PQtfUcphg",
+      "tocId": "eEj7JnRaTSFk5Efb7JyyLQ",
+      "title": "Rate Limiting",
+      "path": [
+        "KnowledgeBase Vulnerability Feed Server",
+        "Rate Limiting"
+      ],
+      "section": "KnowledgeBase Vulnerability Feed Server",
+      "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/rate-limiting.html",
+      "sourceUrl": "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/rate-limiting.html",
+      "localPath": "docs/c-cpp-tool/knowledgebase-vulnerability-feed-server/rate-limiting.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "skipped",
+      "error": null,
+      "scrapedAt": null,
+      "bytes": null
+    }
+  ]
+}
