@@ -5,7 +5,12 @@ import unittest
 from validators.blackduck_sca.client import Response, SCARequestError, collection_count
 from validators.blackduck_sca.validator import run_read_only
 from validators.core.contract import ValidationRequest
-from validators.core.safety import redact_text, validate_mutation_target, validate_sca_base_url
+from validators.core.safety import (
+    redact_text,
+    validate_active_version_capacity,
+    validate_mutation_target,
+    validate_sca_base_url,
+)
 from evaluation.combined import diagnose
 
 
@@ -37,6 +42,13 @@ class RuntimeValidatorTests(unittest.TestCase):
         validate_mutation_target("Tony RAG", "RAG-VAL-test")
         with self.assertRaises(ValueError):
             validate_mutation_target("Somebody Else's Project", "RAG-VAL-test")
+
+    def test_active_test_version_limit_is_enforced(self):
+        validate_active_version_capacity(9, 1)
+        with self.assertRaises(ValueError):
+            validate_active_version_capacity(10, 1)
+        with self.assertRaises(ValueError):
+            validate_active_version_capacity(9, 2)
 
     def test_version_mismatch_is_inconclusive(self):
         result = run_read_only(request(), FakeClient(version="2026.4.0"))

@@ -20,10 +20,13 @@ The project/version provisioner is setup infrastructure, not an assertion that t
 - mutations require both project-local opt-in and `--allow-mutations`;
 - exact project name `Tony RAG` only;
 - version prefix `RAG-VAL-` only;
+- a shared-instance safety limit of 10 Active versions in `Tony RAG`; provisioning stops before exceeding it;
 - an ownership marker is required before reuse;
 - exact-name/count checks prevent duplicate project creation;
 - no delete, archive, LTS, account-lockout, policy, role, scan, or customer-data operations;
 - authorization and token values are never emitted;
 - API failures and version mismatch are `INCONCLUSIVE`, not factual `FAIL` results.
+
+If the Active-version limit is reached, a human must explicitly select an obsolete test version for deletion or decide that an appropriate released version should be converted to LTS. LTS conversion is one-way and omits scan and project details, so the provisioner never performs either cleanup action automatically.
 
 The five versions are retained because the user requested a persistent isolated test project. `cleanup_result: PASS` means the requested retained state was verified, not deleted.

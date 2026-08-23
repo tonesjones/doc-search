@@ -6,6 +6,7 @@ from urllib.parse import urlparse
 ALLOWED_SCA_HOSTS = {"sca.field-test.blackduck.com"}
 SAFE_PROJECT_NAME = "Tony RAG"
 SAFE_VERSION_PREFIX = "RAG-VAL-"
+MAX_ACTIVE_TEST_VERSIONS = 10
 SECRET_ASSIGNMENT_RE = re.compile(
     r"(?i)(authorization|password|passwd|secret|api_?key|(?:api_?|access_?|refresh_?)?token|cookie)(\s*[:=]\s*)([^\s,;]+)"
 )
@@ -25,6 +26,17 @@ def validate_mutation_target(project_name: str, version_name: str | None = None)
         raise ValueError("UNSAFE_TO_VALIDATE: mutations are restricted to the exact isolated project name")
     if version_name is not None and not version_name.startswith(SAFE_VERSION_PREFIX):
         raise ValueError("UNSAFE_TO_VALIDATE: version name lacks the required RAG validation prefix")
+
+
+def validate_active_version_capacity(active_count: int, requested_new_count: int) -> None:
+    if active_count < 0 or requested_new_count < 0:
+        raise ValueError("UNSAFE_TO_VALIDATE: active-version counts cannot be negative")
+    if active_count + requested_new_count > MAX_ACTIVE_TEST_VERSIONS:
+        raise ValueError(
+            "UNSAFE_TO_VALIDATE: Tony RAG would exceed the shared-instance limit of "
+            f"{MAX_ACTIVE_TEST_VERSIONS} active versions; explicitly delete an obsolete test "
+            "version or convert an appropriate released version to LTS before provisioning"
+        )
 
 
 def redact_text(value: str) -> str:

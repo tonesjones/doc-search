@@ -13,7 +13,11 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from validators.blackduck_sca.client import PROJECT_MEDIA, SCAClient, collection_count, load_runtime_env  # noqa: E402
-from validators.core.safety import SAFE_PROJECT_NAME, validate_mutation_target  # noqa: E402
+from validators.core.safety import (  # noqa: E402
+    SAFE_PROJECT_NAME,
+    validate_active_version_capacity,
+    validate_mutation_target,
+)
 
 PROJECT_MARKER = "Isolated Tony RAG runtime-validation POC. Created only for Codex SCA tests."
 VERSION_MEDIA = "application/vnd.blackducksoftware.project-detail-5+json"
@@ -92,6 +96,15 @@ def main() -> int:
     if item.get("description") != PROJECT_MARKER:
         raise SystemExit("UNSAFE_TO_VALIDATE: existing Tony RAG project lacks this validator's ownership marker")
     path = project_path(item)
+
+    capacity_payload = client.project_versions(path, limit=100).json()
+    active_versions = [item for item in capacity_payload.get("items", []) if isinstance(item, dict)]
+    active_names = {item.get("versionName") for item in active_versions}
+    missing_names = [name for name in VERSION_NAMES if name not in active_names]
+    try:
+        validate_active_version_capacity(len(active_versions), len(missing_names))
+    except ValueError as exc:
+        raise SystemExit(str(exc)) from exc
 
     for name in VERSION_NAMES:
         payload = client.project_versions(path, limit=100).json()
