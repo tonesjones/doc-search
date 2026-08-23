@@ -1,12 +1,49 @@
 # Session checkpoint
 
-**Last updated:** 2026-08-13 (added C/CPP Tool chapter from Black Duck Tools)  
-**Status:** **DONE for now** — use local corpus for Q&A; do not scrape more unless the user reopens scope.  
+**Last updated:** 2026-08-23 (SCA verified-learning and runtime-validation iteration)
+**Status:** **IN PROGRESS on `codex/sca-verified-learning`** — continue the SCA human-verified improvement workflow; do not merge yet.
 **Primary corpus:** Black Duck Documentation **2026.7** — **941/941 done**  
 **Companions:** Detect **206/206** · Alert **45/45** · Bridge **174/174** · C/CPP Tool **14/14** (6 Tools siblings skipped)  
 **Grand total in corpus:** **1,380** topics
 
 Read this file at the start of every new session.
+
+---
+
+## Current SCA self-improvement checkpoint
+
+The corpus scrape remains complete. Current work is the SCA-only evaluation, feedback, regression, and runtime-validation workflow on branch `codex/sca-verified-learning`.
+
+### Completed in the 2026-08-23 session
+
+- Preserved and measured a 30-case SCA production-path baseline: 12 pass and 18 machine fail.
+- Added answer traces, deterministic scoring, failure taxonomy, feedback intake, and a permanent regression suite outside the baseline.
+- Proved the human-feedback loop with the C/C++ standard-scan correction: optional snippet matching is no longer silently added, and the production regression passes.
+- Added a read-only-first SCA runtime validator and ownership-isolated `Tony RAG` project on `sca.field-test.blackduck.com`.
+- Confirmed the runtime is SCA 2026.4.0 while the corpus is 2026.7; runtime results remain `INCONCLUSIVE / VERSION_MISMATCH`.
+- Recorded that the five empty `RAG-VAL-*` versions were unnecessary infrastructure placeholders, not scan tests.
+- Enforced the shared-instance operational limit of 10 Active versions in `Tony RAG`. Provisioning stops before exceeding the limit; deletion and one-way LTS conversion always require an explicit human decision.
+- Automated test status: 23 passing.
+- Latest pushed commit at this checkpoint: `6ae66bc` (`Guard shared SCA active version capacity`).
+
+### Next milestone
+
+Make one human correction repeatable from answer feedback through verified promotion and full regression testing without custom engineering.
+
+### Work next, in order
+
+1. Generate a human-review packet for all 30 baseline cases containing the question, production answer, expected evidence, citations, machine result, and blank adjudication fields.
+2. Human-review both passes and failures using: `TRUE_PASS`, `FALSE_PASS`, `TRUE_FAILURE`, `SCORING_FALSE_NEGATIVE`, `BENCHMARK_NEEDS_REVISION`, or `NEEDS_PRODUCT_EXPERT`.
+3. Fix evaluator false negatives caused by Markdown or semantically equivalent wording while retaining literal checks for flags, versions, filenames, API paths, and exact configuration values.
+4. Add a general version-compatibility/abstention guard; `sca-version-caveat-001` is the known severe case.
+5. Productize feedback capture and approval so an `answer_id` plus critique creates an untrusted candidate, not an automatic truth or code change.
+6. Automate promotion gates and rerun the exact question, all verified regressions, the preserved baseline, and safety tests.
+7. Improve evidence ranking only after human adjudication establishes the real failure set; current Recall@1/3/5 is 3.3%/20.0%/43.3%.
+8. Define merge thresholds, then merge only when the reviewed SCA baseline, version control, regressions, and safety gates meet them.
+
+**Immediate next action:** build the 30-case human-review packet. Do not optimize prompts or retrieval before the human adjudication identifies which of the 18 machine failures are genuine.
+
+Other product lines remain out of scope for this iteration. Replicate the workflow product-by-product only after it is stable for SCA.
 
 ---
 
