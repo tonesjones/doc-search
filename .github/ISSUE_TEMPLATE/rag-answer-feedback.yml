@@ -1,0 +1,54 @@
+name: Documentation answer feedback
+description: Report an inaccurate, incomplete, outdated, or unsupported documentation answer.
+title: "[Answer feedback] "
+labels: ["answer-feedback", "needs-verification"]
+body:
+  - type: input
+    id: answer_id
+    attributes:
+      label: Answer ID
+      description: Copy the answer ID shown with the response. It lets maintainers recover the complete trace.
+      placeholder: ans-...
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Factually incorrect
+        - Outdated / wrong version
+        - Incorrect citation
+        - Incomplete answer
+        - Relevant document not found
+        - Misunderstood question
+        - Conflicting documentation
+        - Should have abstained
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: comment
+    attributes:
+      label: What seems wrong?
+      description: Describe the problem in product terms; no RAG expertise is needed.
+    validations:
+      required: true
+  - type: textarea
+    id: suggested_correction
+    attributes:
+      label: Suggested correction
+      description: Optional. Feedback is treated as a candidate signal until verified.
+  - type: input
+    id: suggested_source
+    attributes:
+      label: Suggested authoritative source
+      description: Optional local documentation path or official source.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Sensitive data check
+      options:
+        - label: I did not include passwords, tokens, cookies, or other credentials.
+          required: true
+

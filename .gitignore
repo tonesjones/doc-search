@@ -1,0 +1,14 @@
+# Raw RAG executions may contain team questions, generated answers, or proprietary passages.
+/.env.runtime
+evaluation/traces/
+evaluation/results/
+feedback/inbox/
+feedback/candidates/
+runtime/artifacts/
+runtime/traces/
+runtime/results/
+
+# Local Python artifacts.
+__pycache__/
+*.py[cod]
+.pytest_cache/

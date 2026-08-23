@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/schemas/doc-search-eval-case.json",
+  "title": "Documentation answer evaluation case",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id", "question", "product", "expected_behavior", "must_retrieve",
+    "should_retrieve", "must_not_retrieve", "required_facts", "forbidden_facts",
+    "source_evidence", "verification_status", "verified_by", "origin", "notes"
+  ],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._-]+$"},
+    "question": {"type": "string", "minLength": 1},
+    "product": {"type": "string", "minLength": 1},
+    "product_version": {"type": ["string", "null"]},
+    "expected_behavior": {
+      "enum": ["answer", "abstain", "surface_conflict", "version_caveat"]
+    },
+    "must_retrieve": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "should_retrieve": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "must_not_retrieve": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "required_facts": {"$ref": "#/$defs/facts"},
+    "forbidden_facts": {"$ref": "#/$defs/facts"},
+    "source_evidence": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/evidence"}
+    },
+    "verification_status": {"enum": ["candidate", "verified", "rejected"]},
+    "verified_by": {"type": ["string", "null"]},
+    "origin": {"enum": ["baseline", "team-feedback", "incident", "runtime"]},
+    "runtime_classification": {
+      "enum": ["API_VALIDATABLE", "UI_VALIDATABLE", "API_OR_UI", "DOC_ONLY", "NOT_SAFE_TO_EXECUTE", "REQUIRES_HUMAN", "UNCLASSIFIED"]
+    },
+    "notes": {"type": "string"}
+  },
+  "$defs": {
+    "facts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["type", "value"],
+        "properties": {
+          "type": {"enum": ["EXACT_FACT", "SEMANTIC_FACT"]},
+          "value": {"type": "string", "minLength": 1},
+          "case_sensitive": {"type": "boolean", "default": false}
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["file", "section", "corpus_revision"],
+      "properties": {
+        "file": {"type": "string", "minLength": 1},
+        "section": {"type": "string", "minLength": 1},
+        "corpus_revision": {"type": "string", "minLength": 1}
+      }
+    }
+  }
+}
+

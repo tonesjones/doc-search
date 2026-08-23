@@ -1,0 +1,22 @@
+name: Deterministic documentation evaluation
+
+on:
+  pull_request:
+  push:
+    branches: [master]
+
+jobs:
+  deterministic-evaluation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m unittest discover -s tests -v
+      - run: python scripts/evaluate.py --cases evaluation/cases/sca-baseline.jsonl --deterministic-only --allow-unmeasured --output evaluation-deterministic.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: deterministic-evaluation
+          path: evaluation-deterministic.json

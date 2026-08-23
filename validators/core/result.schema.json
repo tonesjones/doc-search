@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Runtime validation result",
+  "type": "object",
+  "required": ["validation_id", "result", "method", "product", "requested_version", "observed_version", "observations", "assertions", "artifacts", "cleanup_result", "reason"],
+  "properties": {
+    "validation_id": {"type": "string", "minLength": 1},
+    "result": {"enum": ["PASS", "FAIL", "INCONCLUSIVE"]},
+    "method": {"enum": ["api", "ui"]},
+    "product": {"type": "string", "minLength": 1},
+    "requested_version": {"type": ["string", "null"]},
+    "observed_version": {"type": ["string", "null"]},
+    "observations": {"type": "array"},
+    "assertions": {"type": "array"},
+    "artifacts": {"type": "array", "items": {"type": "string"}},
+    "cleanup_result": {"enum": ["PASS", "FAIL", "INCONCLUSIVE"]},
+    "reason": {"type": ["string", "null"]},
+    "diagnosis": {"type": ["string", "null"]}
+  },
+  "additionalProperties": false
+}

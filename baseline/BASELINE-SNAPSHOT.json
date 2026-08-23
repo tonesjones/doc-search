@@ -1,0 +1,60 @@
+{
+  "baseline_id": "bd-docs-9485d952-20260823",
+  "captured_at": "2026-08-23 (exact wall-clock time not recorded)",
+  "git": {
+    "sha": "9485d952e1a15f65fafecd6eb2c92b1ec435357b",
+    "branch": "master",
+    "working_tree": "clean",
+    "tree_ids": {
+      "BlackDuck SCA": "a4f9c0eed1ad7b44ca4299b5d056588b47889404",
+      "Coverity": "f9f9f8640789939d8feaa3c998ee1201e19a955a",
+      "Polaris": "203932cdf3566a2dcc9ee34a21f1e5b59c98ec47",
+      "Sigma": "fd91bc6b43a1605b85d2f5ab49b01e7bc377a583",
+      "Signal": "2ec323a0157e3e5cf3901054f5427ed56f77c443"
+    }
+  },
+  "corpora": [
+    {"product_key": "blackduck-2026.7", "version": "2026.7", "topics": 941, "done": 941, "error": 0, "pending": 0},
+    {"product_key": "detect-11.5.1", "version": "11.5.1", "topics": 206, "done": 206, "error": 0, "pending": 0},
+    {"product_key": "alert-8.4.0", "version": "8.4.0", "topics": 45, "done": 45, "error": 0, "pending": 0},
+    {"product_key": "bridge-latest", "version": "latest", "topics": 174, "done": 174, "error": 0, "pending": 0},
+    {"product_key": "c-cpp-tool-latest", "version": "latest", "topics": 20, "done": 14, "error": 0, "pending": 0},
+    {"product_key": "coverity-2026.6", "version": "2026.6", "topics": 4443, "done": 4443, "error": 0, "pending": 0},
+    {"product_key": "polaris-platform-latest", "version": "latest", "topics": 182, "done": 182, "error": 0, "pending": 0},
+    {"product_key": "sigma-2026.8.0", "version": "2026.8.0", "topics": 59, "done": 59, "error": 0, "pending": 0},
+    {"product_key": "signal-latest", "version": "latest", "topics": 17, "done": 17, "error": 0, "pending": 0}
+  ],
+  "retrieval": {
+    "implementation": "external bd skill: route to product index, recursive text search, assistant-selected files/passages",
+    "chunking": "one-topic-per-Markdown-file; passage selection is interactive",
+    "ranking": "not programmatically defined",
+    "scores": "unavailable",
+    "index_revision": "git tree IDs above",
+    "configuration_revision": "sha256 hashes below"
+  },
+  "generation": {
+    "entrypoint": "codex-cli 0.147.0 exec -> installed bd skill",
+    "provider": "OpenAI Codex",
+    "model": "gpt-5.6-sol",
+    "parameters": {"model_reasoning_effort": "high"},
+    "prompt_revision": "bd-skill-sha256:df1549739d1bba197529036b0f76dcd202f8c1788e72eedb464f48deaebceb62"
+  },
+  "sha256": {
+    "README.md": "6F3919D8D56B517C933180BE135B7D40ADDE17E0D64D54891964369FB4FA238F",
+    "BlackDuck SCA/AGENTS.md": "83B49786BF86214CD8E27CF3C45F749F45A8C76F33A3A460FB653B9C0560F4D3",
+    "BlackDuck SCA/scripts/products.py": "895E7669876E3B152C6DAD8B6E193C30548AB3687A040FA1E0564E3DAE17B514",
+    "Coverity/AGENTS.md": "2506AA5CC3CA10BBF05611560ADA00AC2D675B206D95F55689F1E3D0F9E3BECC",
+    "Coverity/scripts/products.py": "97898C77DB27797A4CCA8328CCD4F39417481011D40B6A00B2825D693EAEC411",
+    "Polaris/AGENTS.md": "57DAE1526876BB4445E98BFA39EEDB287798D4E1FAE387B79262E25D58D4A079",
+    "Polaris/scripts/products.py": "81A2D5DA0B80BF4A5AC2229FB49ABA2C0D9896869823B0C8B944B33A86AB49B3",
+    "Sigma/AGENTS.md": "ACA5FEC46DE8D332FFFA8E5F128DE959D8881CB83CC2BD6BAD6F25F3ECF850CD",
+    "Sigma/scripts/products.py": "ED49C158B494BFF47A4712508E3E33C32A557379E2200E5A1A3CC1A16B11881F",
+    "Signal/AGENTS.md": "BEEE521FF09C93960C73C3521E1845C188CBD4A7A5E200BBBFCAF227067CFD72",
+    "Signal/scripts/products.py": "D4B886B2E09F1FA1B43DF3FBB3A38BD0C238B06D3FE3CC0E3C275FBB25B0809C"
+  },
+  "notes": [
+    "Snapshot was recorded before Phase 1 files were added.",
+    "The external production entrypoint, model configuration, CLI version, and installed bd/AGENTS prompt hash were identified read-only after the corpus snapshot.",
+    "No retrieval, context, prompt, generation, skill, corpus, or index behavior was changed by instrumentation."
+  ]
+}
