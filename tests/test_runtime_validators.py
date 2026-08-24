@@ -62,6 +62,18 @@ class RuntimeValidatorTests(unittest.TestCase):
         self.assertEqual(candidate["cleanup"]["controller_account_change"], "forbidden")
         self.assertEqual(candidate["execution_history"], [])
 
+    def test_clone_bom_retention_runtime_case_is_approval_gated(self):
+        candidate = json.loads(
+            (ROOT / "runtime" / "cases" / "sca-version-clone-bom-retention.json").read_text(encoding="utf-8")
+        )
+        self.assertEqual(candidate["related_eval_case"], "sca-version-007")
+        self.assertEqual(candidate["status"], "candidate")
+        self.assertTrue(candidate["approval"]["required"])
+        self.assertEqual(candidate["current_version_disposition"], "INCONCLUSIVE_VERSION_MISMATCH")
+        self.assertFalse(candidate["cleanup"]["automatic"])
+        self.assertEqual(candidate["cleanup"]["other_project_change"], "forbidden")
+        self.assertEqual(candidate["execution_history"], [])
+
     def test_version_mismatch_is_inconclusive(self):
         result = run_read_only(request(), FakeClient(version="2026.4.0"))
         self.assertEqual(result.result, "INCONCLUSIVE")

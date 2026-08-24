@@ -33,4 +33,6 @@ If the Active-version limit is reached, a human must explicitly select an obsole
 
 `runtime/cases/sca-user-inactivation-token.json` captures the proposed account-lifecycle test for `sca-auth-006`. It would create a disposable user and token, verify the token works while active, inactivate only that disposable user, and verify the token is rejected. It is a candidate only: account creation/inactivation is a high-risk shared-instance mutation, the controller administrator must never be modified, cleanup requires a human decision, and the current 2026.4.0 environment cannot conclusively validate the 2026.7 corpus claim.
 
+`runtime/cases/sca-version-clone-bom-retention.json` captures the proposed clone/rescan test for `sca-version-007`. It creates a test version, makes a documented BOM edit, clones it, rescans the same fixture into the clone, and compares whether the edit is retained. It is approval-gated and must remain isolated to the test project.
+
 The five versions are retained because the user requested a persistent isolated test project. `cleanup_result: PASS` means the requested retained state was verified, not deleted.

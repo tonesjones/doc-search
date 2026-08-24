@@ -1,7 +1,7 @@
 # Session checkpoint
 
-**Last updated:** 2026-08-24 (30-case SCA human-review packet generated)
-**Status:** **IN PROGRESS on `codex/sca-verified-learning`** — continue the SCA human-verified improvement workflow; do not merge yet.
+**Last updated:** 2026-08-24 (30/30 SCA baseline cases human-adjudicated)
+**Status:** **HUMAN REVIEW COMPLETE on `codex/sca-verified-learning`** — implement the adjudicated improvements and verification queue; do not merge yet.
 **Primary corpus:** Black Duck Documentation **2026.7** — **941/941 done**  
 **Companions:** Detect **206/206** · Alert **45/45** · Bridge **174/174** · C/CPP Tool **14/14** (6 Tools siblings skipped)  
 **Grand total in corpus:** **1,380** topics
@@ -33,24 +33,30 @@ The corpus scrape remains complete. Current work is the SCA-only evaluation, fee
 - Added `evaluation/reviews/sca-baseline-adjudications.jsonl` as the machine-readable source of human decisions; all 30 records start `UNREVIEWED`.
 - Added an adjudication schema and a reusable generator that preserves existing human decisions when refreshed.
 - Verified 30/30 cases, traces, queue entries, packet anchors, and adjudication records are present; no runtime credential was included.
-- Automated test status: 25 passing.
+- Completed human adjudication of all 30 cases. Verdicts: 15 `TRUE_PASS`, 6 `SCORING_FALSE_NEGATIVE`, 3 `TRUE_FAILURE`, 3 `NEEDS_PRODUCT_EXPERT`, 2 `BENCHMARK_NEEDS_REVISION`, and 1 `FALSE_PASS`.
+- Captured customer-guidance corrections for lifecycle phase and distribution selection, the current Access Tokens UI path, project terminology, version-specific Archived behavior, and the default 10-version Product Registration safeguard.
+- Preserved documentation/product conflicts and uncertain observations as unpromoted candidates rather than silently changing the corpus.
+- Added approval-gated runtime candidates for user-inactivation token invalidation and cloned-version BOM-edit retention. No shared-instance mutation was executed.
+- Recorded the 2026.4 runtime versus 2026.7 corpus mismatch and the need to rerun version-sensitive cases as the test environment is upgraded.
+- Automated test status: 29 passing.
 
 ### Next milestone
 
-Make one human correction repeatable from answer feedback through verified promotion and full regression testing without custom engineering.
+Convert the completed human adjudications into generalized evaluator, answer-quality, and version-safety improvements, then prove them through the production answer path and full regression suite.
 
 ### Work next, in order
 
-1. **Complete:** Generate a human-review packet for all 30 baseline cases containing the question, production answer, expected evidence, citations, machine result, and blank adjudication fields.
-2. **Next:** Human-review both passes and failures using: `TRUE_PASS`, `FALSE_PASS`, `TRUE_FAILURE`, `SCORING_FALSE_NEGATIVE`, `BENCHMARK_NEEDS_REVISION`, or `NEEDS_PRODUCT_EXPERT`.
-3. Fix evaluator false negatives caused by Markdown or semantically equivalent wording while retaining literal checks for flags, versions, filenames, API paths, and exact configuration values.
+1. **Complete:** Generate and human-review the 30-case SCA packet; preserve all verdicts in `evaluation/reviews/sca-baseline-adjudications.jsonl`.
+2. **Next:** Fix the six evaluator false negatives caused by semantically equivalent wording while retaining literal checks for flags, versions, filenames, API paths, and exact configuration values.
+3. Turn the three true failures and one false pass into generalized customer-answer regressions without creating question-specific answer mappings.
 4. Add a general version-compatibility/abstention guard; `sca-version-caveat-001` is the known severe case.
-5. Productize feedback capture and approval so an `answer_id` plus critique creates an untrusted candidate, not an automatic truth or code change.
-6. Automate promotion gates and rerun the exact question, all verified regressions, the preserved baseline, and safety tests.
-7. Improve evidence ranking only after human adjudication establishes the real failure set; current Recall@1/3/5 is 3.3%/20.0%/43.3%.
-8. Define merge thresholds, then merge only when the reviewed SCA baseline, version control, regressions, and safety gates meet them.
+5. Resolve the three product-expert cases and two benchmark-revision cases with version-matched documentation or approved runtime evidence.
+6. Productize feedback capture and approval so an `answer_id` plus critique creates an untrusted candidate, not an automatic truth or code change.
+7. Automate promotion gates and rerun the exact questions, all verified regressions, the preserved baseline, and safety tests.
+8. Improve evidence ranking using the human-adjudicated failure set; current Recall@1/3/5 is 3.3%/20.0%/43.3%.
+9. Define merge thresholds, then merge only when the reviewed SCA baseline, version control, regressions, and safety gates meet them.
 
-**Immediate next action:** begin human adjudication in `evaluation/reviews/sca-baseline-human-review.md` and record each decision in `evaluation/reviews/sca-baseline-adjudications.jsonl`. Do not optimize prompts or retrieval before the review identifies which of the 18 machine failures are genuine.
+**Immediate next action:** implement the adjudicated evaluator and answer-quality fixes, beginning with the six `SCORING_FALSE_NEGATIVE` cases and the version-compatibility guard. Keep runtime candidates approval-gated and isolated to `Tony RAG`.
 
 Other product lines remain out of scope for this iteration. Replicate the workflow product-by-product only after it is stable for SCA.
 

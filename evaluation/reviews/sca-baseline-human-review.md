@@ -1,7 +1,7 @@
 # SCA baseline human-review packet
 
-Generated: `2026-08-24T18:57:53.313139+00:00`  
-Cases: **30** · machine pass: **12** · machine fail: **18** · human reviewed: **13/30**
+Generated: `2026-08-24T19:21:19.416208+00:00`  
+Cases: **30** · machine pass: **12** · machine fail: **18** · human reviewed: **30/30**
 
 This packet is derived from the preserved SCA baseline, its production traces, and its machine report. It does not modify the baseline. The machine-readable human decisions belong in `sca-baseline-adjudications.jsonl`.
 
@@ -48,23 +48,23 @@ Do not change expected facts during review. If the benchmark is wrong or overly 
 | 11 | [`sca-project-002`](#case-sca-project-002) | FAIL | SYNTHESIS_FAILURE | NEEDS_PRODUCT_EXPERT |
 | 12 | [`sca-project-003`](#case-sca-project-003) | FAIL | CITATION_FAILURE, RETRIEVAL_FAILURE, SYNTHESIS_FAILURE | SCORING_FALSE_NEGATIVE |
 | 13 | [`sca-project-004`](#case-sca-project-004) | FAIL | SYNTHESIS_FAILURE | SCORING_FALSE_NEGATIVE |
-| 14 | [`sca-version-001`](#case-sca-version-001) | PASS | — | UNREVIEWED |
-| 15 | [`sca-version-002`](#case-sca-version-002) | PASS | — | UNREVIEWED |
-| 16 | [`sca-version-003`](#case-sca-version-003) | PASS | — | UNREVIEWED |
-| 17 | [`sca-version-004`](#case-sca-version-004) | FAIL | CITATION_FAILURE, SYNTHESIS_FAILURE | UNREVIEWED |
-| 18 | [`sca-version-005`](#case-sca-version-005) | FAIL | CITATION_FAILURE, SYNTHESIS_FAILURE | UNREVIEWED |
-| 19 | [`sca-version-006`](#case-sca-version-006) | FAIL | SYNTHESIS_FAILURE | UNREVIEWED |
-| 20 | [`sca-version-007`](#case-sca-version-007) | PASS | — | UNREVIEWED |
-| 21 | [`sca-version-008`](#case-sca-version-008) | FAIL | SYNTHESIS_FAILURE | UNREVIEWED |
-| 22 | [`sca-version-009`](#case-sca-version-009) | FAIL | CITATION_FAILURE, RETRIEVAL_FAILURE, SYNTHESIS_FAILURE | UNREVIEWED |
-| 23 | [`sca-bom-001`](#case-sca-bom-001) | PASS | — | UNREVIEWED |
-| 24 | [`sca-security-001`](#case-sca-security-001) | FAIL | SYNTHESIS_FAILURE | UNREVIEWED |
-| 25 | [`sca-security-002`](#case-sca-security-002) | FAIL | SYNTHESIS_FAILURE | UNREVIEWED |
-| 26 | [`sca-security-003`](#case-sca-security-003) | FAIL | SYNTHESIS_FAILURE | UNREVIEWED |
-| 27 | [`sca-security-004`](#case-sca-security-004) | PASS | — | UNREVIEWED |
-| 28 | [`sca-role-001`](#case-sca-role-001) | PASS | — | UNREVIEWED |
-| 29 | [`sca-role-002`](#case-sca-role-002) | PASS | — | UNREVIEWED |
-| 30 | [`sca-version-caveat-001`](#case-sca-version-caveat-001) | FAIL | ABSTENTION_FAILURE, UNSUPPORTED_CLAIM, VERSION_FAILURE | UNREVIEWED |
+| 14 | [`sca-version-001`](#case-sca-version-001) | PASS | — | TRUE_FAILURE |
+| 15 | [`sca-version-002`](#case-sca-version-002) | PASS | — | TRUE_PASS |
+| 16 | [`sca-version-003`](#case-sca-version-003) | PASS | — | TRUE_FAILURE |
+| 17 | [`sca-version-004`](#case-sca-version-004) | FAIL | CITATION_FAILURE, SYNTHESIS_FAILURE | NEEDS_PRODUCT_EXPERT |
+| 18 | [`sca-version-005`](#case-sca-version-005) | FAIL | CITATION_FAILURE, SYNTHESIS_FAILURE | TRUE_PASS |
+| 19 | [`sca-version-006`](#case-sca-version-006) | FAIL | SYNTHESIS_FAILURE | TRUE_PASS |
+| 20 | [`sca-version-007`](#case-sca-version-007) | PASS | — | NEEDS_PRODUCT_EXPERT |
+| 21 | [`sca-version-008`](#case-sca-version-008) | FAIL | SYNTHESIS_FAILURE | TRUE_PASS |
+| 22 | [`sca-version-009`](#case-sca-version-009) | FAIL | CITATION_FAILURE, RETRIEVAL_FAILURE, SYNTHESIS_FAILURE | TRUE_PASS |
+| 23 | [`sca-bom-001`](#case-sca-bom-001) | PASS | — | TRUE_PASS |
+| 24 | [`sca-security-001`](#case-sca-security-001) | FAIL | SYNTHESIS_FAILURE | TRUE_PASS |
+| 25 | [`sca-security-002`](#case-sca-security-002) | FAIL | SYNTHESIS_FAILURE | TRUE_PASS |
+| 26 | [`sca-security-003`](#case-sca-security-003) | FAIL | SYNTHESIS_FAILURE | TRUE_PASS |
+| 27 | [`sca-security-004`](#case-sca-security-004) | PASS | — | TRUE_PASS |
+| 28 | [`sca-role-001`](#case-sca-role-001) | PASS | — | TRUE_PASS |
+| 29 | [`sca-role-002`](#case-sca-role-002) | PASS | — | TRUE_PASS |
+| 30 | [`sca-version-caveat-001`](#case-sca-version-caveat-001) | FAIL | ABSTENTION_FAILURE, UNSUPPORTED_CLAIM, VERSION_FAILURE | BENCHMARK_NEEDS_REVISION |
 
 ## Cases
 
@@ -1030,7 +1030,7 @@ Source: [Creating a new version of a project](<C:/TestCode/Product Docs/BlackDuc
 
 ### 14. `sca-version-001` — machine PASS
 
-Human review: **UNREVIEWED** · status: `UNREVIEWED`
+Human review: **TRUE_FAILURE** · status: `REVIEWED`
 
 #### Pass A — customer view
 
@@ -1100,7 +1100,7 @@ Source: [About project version phases](<C:/TestCode/Product Docs/BlackDuck SCA/d
 
 ### 15. `sca-version-002` — machine PASS
 
-Human review: **UNREVIEWED** · status: `UNREVIEWED`
+Human review: **TRUE_PASS** · status: `REVIEWED`
 
 #### Pass A — customer view
 
@@ -1186,7 +1186,7 @@ Source: [About project version phases](<C:/TestCode/Product Docs/BlackDuck SCA/d
 
 ### 16. `sca-version-003` — machine PASS
 
-Human review: **UNREVIEWED** · status: `UNREVIEWED`
+Human review: **TRUE_FAILURE** · status: `REVIEWED`
 
 #### Pass A — customer view
 
@@ -1256,7 +1256,7 @@ Source: [Creating a new version of a project](<C:/TestCode/Product Docs/BlackDuc
 
 ### 17. `sca-version-004` — machine FAIL
 
-Human review: **UNREVIEWED** · status: `UNREVIEWED`
+Human review: **NEEDS_PRODUCT_EXPERT** · status: `REVIEWED`
 
 #### Pass A — customer view
 
@@ -1327,7 +1327,7 @@ Source: [Creating a new version of a project](C:/TestCode/Product%20Docs/BlackDu
 
 ### 18. `sca-version-005` — machine FAIL
 
-Human review: **UNREVIEWED** · status: `UNREVIEWED`
+Human review: **TRUE_PASS** · status: `REVIEWED`
 
 #### Pass A — customer view
 
@@ -1396,7 +1396,7 @@ Source: [Understanding projects in Black Duck](/C:/TestCode/Product%20Docs/Black
 
 ### 19. `sca-version-006` — machine FAIL
 
-Human review: **UNREVIEWED** · status: `UNREVIEWED`
+Human review: **TRUE_PASS** · status: `REVIEWED`
 
 #### Pass A — customer view
 
@@ -1469,7 +1469,7 @@ Source: [About project version phases](<C:/TestCode/Product Docs/BlackDuck SCA/d
 
 ### 20. `sca-version-007` — machine PASS
 
-Human review: **UNREVIEWED** · status: `UNREVIEWED`
+Human review: **NEEDS_PRODUCT_EXPERT** · status: `REVIEWED`
 
 #### Pass A — customer view
 
@@ -1539,7 +1539,7 @@ A cloned Black Duck SCA project version defaults to **In Development** when the 
 
 ### 21. `sca-version-008` — machine FAIL
 
-Human review: **UNREVIEWED** · status: `UNREVIEWED`
+Human review: **TRUE_PASS** · status: `REVIEWED`
 
 #### Pass A — customer view
 
@@ -1608,7 +1608,7 @@ Cloned data applies only to matching components present in the newly scanned ver
 
 ### 22. `sca-version-009` — machine FAIL
 
-Human review: **UNREVIEWED** · status: `UNREVIEWED`
+Human review: **TRUE_PASS** · status: `REVIEWED`
 
 #### Pass A — customer view
 
@@ -1679,7 +1679,7 @@ Source: [Black Duck SCA 2026.7 — Converting a project version to LTS](<C:/Test
 
 ### 23. `sca-bom-001` — machine PASS
 
-Human review: **UNREVIEWED** · status: `UNREVIEWED`
+Human review: **TRUE_PASS** · status: `REVIEWED`
 
 #### Pass A — customer view
 
@@ -1748,7 +1748,7 @@ Source: [Black Duck SCA 2026.7 documentation](<C:/TestCode/Product Docs/BlackDuc
 
 ### 24. `sca-security-001` — machine FAIL
 
-Human review: **UNREVIEWED** · status: `UNREVIEWED`
+Human review: **TRUE_PASS** · status: `REVIEWED`
 
 #### Pass A — customer view
 
@@ -1821,7 +1821,7 @@ Source: [Black Duck SCA 2026.7 documentation](</C:/TestCode/Product Docs/BlackDu
 
 ### 25. `sca-security-002` — machine FAIL
 
-Human review: **UNREVIEWED** · status: `UNREVIEWED`
+Human review: **TRUE_PASS** · status: `REVIEWED`
 
 #### Pass A — customer view
 
@@ -1892,7 +1892,7 @@ Source: [About locked out user accounts](<C:/TestCode/Product Docs/BlackDuck SCA
 
 ### 26. `sca-security-003` — machine FAIL
 
-Human review: **UNREVIEWED** · status: `UNREVIEWED`
+Human review: **TRUE_PASS** · status: `REVIEWED`
 
 #### Pass A — customer view
 
@@ -1968,7 +1968,7 @@ Source: [Configuring password requirements](<C:/TestCode/Product Docs/BlackDuck 
 
 ### 27. `sca-security-004` — machine PASS
 
-Human review: **UNREVIEWED** · status: `UNREVIEWED`
+Human review: **TRUE_PASS** · status: `REVIEWED`
 
 #### Pass A — customer view
 
@@ -2034,7 +2034,7 @@ Source: [Configuring password requirements](<C:/TestCode/Product Docs/BlackDuck 
 
 ### 28. `sca-role-001` — machine PASS
 
-Human review: **UNREVIEWED** · status: `UNREVIEWED`
+Human review: **TRUE_PASS** · status: `REVIEWED`
 
 #### Pass A — customer view
 
@@ -2111,7 +2111,7 @@ Source: [Black Duck SCA user role matrix](<C:/TestCode/Product Docs/BlackDuck SC
 
 ### 29. `sca-role-002` — machine PASS
 
-Human review: **UNREVIEWED** · status: `UNREVIEWED`
+Human review: **TRUE_PASS** · status: `REVIEWED`
 
 #### Pass A — customer view
 
@@ -2182,7 +2182,7 @@ Source: [Black Duck SCA user role matrix](<C:/TestCode/Product Docs/BlackDuck SC
 
 ### 30. `sca-version-caveat-001` — machine FAIL
 
-Human review: **UNREVIEWED** · status: `UNREVIEWED`
+Human review: **BENCHMARK_NEEDS_REVISION** · status: `REVIEWED`
 
 #### Pass A — customer view
 

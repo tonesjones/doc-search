@@ -1,0 +1,39 @@
+{
+  "id": "sca-runtime-clone-bom-retention",
+  "status": "candidate",
+  "origin": "human-product-review",
+  "related_eval_case": "sca-version-007",
+  "claim": "When a project version is cloned and the same source is rescanned into the clone, determine whether manual BOM edits from the source version are retained.",
+  "requested_documentation_version": "2026.7",
+  "current_test_environment_version": "2026.4.0",
+  "current_version_disposition": "INCONCLUSIVE_VERSION_MISMATCH",
+  "risk": "HIGH_SHARED_INSTANCE_PROJECT_MUTATION",
+  "approval": {
+    "required": true,
+    "reason": "The test creates a project version, edits BOM data, clones it, and rescans source code in a shared instance."
+  },
+  "preconditions": [
+    "Use only a uniquely named test project and versions owned by this test.",
+    "Use a disposable C/C++ source fixture whose scan output is deterministic.",
+    "Confirm the test project has capacity under the shared-instance version limit.",
+    "Capture the source BOM state and the exact manual edit before cloning."
+  ],
+  "steps": [
+    "Create a new test project version and scan the fixture source into it.",
+    "Make a documented manual edit to the source version BOM.",
+    "Clone the project version and record the clone's initial phase and BOM state.",
+    "Rescan the same fixture source and map the scan to the cloned version.",
+    "Compare the cloned version BOM after the rescan with the pre-clone manual edit."
+  ],
+  "expected_result": {
+    "phase_assertion": "If the source version is Archived, the clone defaults to In Development.",
+    "bom_assertion": "Record whether the manual BOM edit is retained, overwritten, or otherwise transformed after rescanning the clone. Documentation does not establish this behavior."
+  },
+  "cleanup": {
+    "automatic": false,
+    "required": true,
+    "plan": "After evidence capture, a human explicitly chooses whether to delete or mark test versions LTS, respecting the active-version limit.",
+    "other_project_change": "forbidden"
+  },
+  "execution_history": []
+}
