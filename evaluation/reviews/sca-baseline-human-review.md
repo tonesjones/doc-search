@@ -1,6 +1,6 @@
 # SCA baseline human-review packet
 
-Generated: `2026-08-24T18:55:23.561151+00:00`  
+Generated: `2026-08-24T18:57:53.313139+00:00`  
 Cases: **30** · machine pass: **12** · machine fail: **18** · human reviewed: **13/30**
 
 This packet is derived from the preserved SCA baseline, its production traces, and its machine report. It does not modify the baseline. The machine-readable human decisions belong in `sca-baseline-adjudications.jsonl`.
