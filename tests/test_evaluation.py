@@ -172,6 +172,14 @@ class EvaluationTests(unittest.TestCase):
             if item["review_status"] == "UNREVIEWED":
                 self.assertIsNone(item["verdict"])
 
+    def test_corpus_correctness_conflicts_remain_unpromoted_candidates(self):
+        candidates = load_jsonl(ROOT / "evaluation" / "reviews" / "corpus-correctness-candidates.jsonl")
+        self.assertGreaterEqual(len(candidates), 1)
+        for item in candidates:
+            self.assertEqual(item["status"], "candidate")
+            self.assertFalse(item["automatic_change_allowed"])
+            self.assertTrue(item["verification_required"])
+
     def test_human_review_refresh_preserves_existing_decisions(self):
         script = ROOT / "scripts" / "build-human-review-packet.py"
         spec = importlib.util.spec_from_file_location("build_human_review_packet", script)
