@@ -1,7 +1,7 @@
 # SCA baseline human-review packet
 
-Generated: `2026-08-24T18:33:47.119302+00:00`  
-Cases: **30** · machine pass: **12** · machine fail: **18** · human reviewed: **5/30**
+Generated: `2026-08-24T18:36:54.019166+00:00`  
+Cases: **30** · machine pass: **12** · machine fail: **18** · human reviewed: **6/30**
 
 This packet is derived from the preserved SCA baseline, its production traces, and its machine report. It does not modify the baseline. The machine-readable human decisions belong in `sca-baseline-adjudications.jsonl`.
 
@@ -40,7 +40,7 @@ Do not change expected facts during review. If the benchmark is wrong or overly 
 | 3 | [`sca-auth-003`](#case-sca-auth-003) | PASS | — | TRUE_PASS |
 | 4 | [`sca-auth-004`](#case-sca-auth-004) | PASS | — | TRUE_PASS |
 | 5 | [`sca-auth-005`](#case-sca-auth-005) | FAIL | SYNTHESIS_FAILURE | SCORING_FALSE_NEGATIVE |
-| 6 | [`sca-auth-006`](#case-sca-auth-006) | FAIL | SYNTHESIS_FAILURE | UNREVIEWED |
+| 6 | [`sca-auth-006`](#case-sca-auth-006) | FAIL | SYNTHESIS_FAILURE | SCORING_FALSE_NEGATIVE |
 | 7 | [`sca-auth-007`](#case-sca-auth-007) | FAIL | CITATION_FAILURE, RETRIEVAL_FAILURE, SYNTHESIS_FAILURE | UNREVIEWED |
 | 8 | [`sca-auth-008`](#case-sca-auth-008) | FAIL | SYNTHESIS_FAILURE | UNREVIEWED |
 | 9 | [`sca-auth-009`](#case-sca-auth-009) | PASS | — | UNREVIEWED |
@@ -463,7 +463,7 @@ Source: [Managing user access tokens](</C:/TestCode/Product Docs/BlackDuck SCA/d
 
 ### 6. `sca-auth-006` — machine FAIL
 
-Human review: **UNREVIEWED** · status: `UNREVIEWED`
+Human review: **SCORING_FALSE_NEGATIVE** · status: `REVIEWED`
 
 #### Pass A — customer view
 

@@ -1,0 +1,41 @@
+{
+  "id": "sca-runtime-user-inactivation-token",
+  "status": "candidate",
+  "origin": "human-product-review",
+  "related_eval_case": "sca-auth-006",
+  "claim": "An API token associated with an inactivated Black Duck SCA user cannot authenticate.",
+  "requested_documentation_version": "2026.7",
+  "current_test_environment_version": "2026.4.0",
+  "current_version_disposition": "INCONCLUSIVE_VERSION_MISMATCH",
+  "risk": "HIGH_SHARED_INSTANCE_ACCOUNT_MUTATION",
+  "approval": {
+    "required": true,
+    "reason": "The test creates and inactivates an account and must not affect the administrator or any existing user."
+  },
+  "preconditions": [
+    "Use an existing administrator account only as the controller; never inactivate or modify that controller account.",
+    "Create a uniquely named disposable test user with an ownership marker and no customer project access.",
+    "Confirm another working administrator exists before any account-state mutation.",
+    "Store the disposable user's token only in a temporary secret location and never in traces, reports, or Git.",
+    "Use a version-compatible test environment before treating the runtime result as validation of 2026.7 documentation."
+  ],
+  "steps": [
+    "Using the controller administrator, create a new disposable test user.",
+    "While the disposable user is active, create an API token for that user.",
+    "Authenticate once with the disposable token and require a successful token exchange as the precondition assertion.",
+    "Using the controller administrator, inactivate only the disposable test user.",
+    "Attempt the same API-token authentication with the disposable user's token."
+  ],
+  "expected_result": {
+    "precondition": "The token authenticates while the disposable user is active.",
+    "assertion": "The same token cannot authenticate after the disposable user is inactivated.",
+    "accepted_http_outcome": "An authentication rejection such as HTTP 401 or 403, subject to version-matched API evidence."
+  },
+  "cleanup": {
+    "automatic": false,
+    "required": true,
+    "plan": "After evidence capture, a human explicitly chooses whether to reactivate and delete the disposable account or retain it with a documented reason.",
+    "controller_account_change": "forbidden"
+  },
+  "execution_history": []
+}

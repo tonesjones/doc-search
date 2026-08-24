@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import unittest
 
 from validators.blackduck_sca.client import Response, SCARequestError, collection_count
@@ -12,6 +13,7 @@ from validators.core.safety import (
     validate_sca_base_url,
 )
 from evaluation.combined import diagnose
+from evaluation.core import ROOT
 
 
 def request(validation_id: str = "sca-runtime-auth", version: str = "2026.7") -> ValidationRequest:
@@ -49,6 +51,16 @@ class RuntimeValidatorTests(unittest.TestCase):
             validate_active_version_capacity(10, 1)
         with self.assertRaises(ValueError):
             validate_active_version_capacity(9, 2)
+
+    def test_account_inactivation_runtime_case_is_approval_gated(self):
+        candidate = json.loads(
+            (ROOT / "runtime" / "cases" / "sca-user-inactivation-token.json").read_text(encoding="utf-8")
+        )
+        self.assertEqual(candidate["status"], "candidate")
+        self.assertTrue(candidate["approval"]["required"])
+        self.assertFalse(candidate["cleanup"]["automatic"])
+        self.assertEqual(candidate["cleanup"]["controller_account_change"], "forbidden")
+        self.assertEqual(candidate["execution_history"], [])
 
     def test_version_mismatch_is_inconclusive(self):
         result = run_read_only(request(), FakeClient(version="2026.4.0"))

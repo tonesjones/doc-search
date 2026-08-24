@@ -29,4 +29,8 @@ The project/version provisioner is setup infrastructure, not an assertion that t
 
 If the Active-version limit is reached, a human must explicitly select an obsolete test version for deletion or decide that an appropriate released version should be converted to LTS. LTS conversion is one-way and omits scan and project details, so the provisioner never performs either cleanup action automatically.
 
+## Approval-gated runtime candidates
+
+`runtime/cases/sca-user-inactivation-token.json` captures the proposed account-lifecycle test for `sca-auth-006`. It would create a disposable user and token, verify the token works while active, inactivate only that disposable user, and verify the token is rejected. It is a candidate only: account creation/inactivation is a high-risk shared-instance mutation, the controller administrator must never be modified, cleanup requires a human decision, and the current 2026.4.0 environment cannot conclusively validate the 2026.7 corpus claim.
+
 The five versions are retained because the user requested a persistent isolated test project. `cleanup_result: PASS` means the requested retained state was verified, not deleted.
