@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.blackduck/evaluation/human-adjudication.schema.json",
+  "title": "SCA baseline human adjudication",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "case_id",
+    "review_status",
+    "verdict",
+    "reviewer",
+    "reviewed_at",
+    "correctness",
+    "scope",
+    "evidence_support",
+    "version_handling",
+    "citation_quality",
+    "notes"
+  ],
+  "properties": {
+    "case_id": {"type": "string", "minLength": 1},
+    "review_status": {"enum": ["UNREVIEWED", "REVIEWED"]},
+    "verdict": {
+      "type": ["string", "null"],
+      "enum": [null, "TRUE_PASS", "FALSE_PASS", "TRUE_FAILURE", "SCORING_FALSE_NEGATIVE", "BENCHMARK_NEEDS_REVISION", "NEEDS_PRODUCT_EXPERT"]
+    },
+    "reviewer": {"type": ["string", "null"]},
+    "reviewed_at": {"type": ["string", "null"]},
+    "correctness": {
+      "type": ["string", "null"],
+      "enum": [null, "CORRECT", "PARTIAL", "INCORRECT", "ABSTAINED"]
+    },
+    "scope": {
+      "type": ["string", "null"],
+      "enum": [null, "APPROPRIATE", "TOO_BROAD", "TOO_NARROW"]
+    },
+    "evidence_support": {
+      "type": ["string", "null"],
+      "enum": [null, "SUPPORTED", "PARTIAL", "UNSUPPORTED", "NOT_APPLICABLE"]
+    },
+    "version_handling": {
+      "type": ["string", "null"],
+      "enum": [null, "CORRECT", "INCORRECT", "NOT_APPLICABLE"]
+    },
+    "citation_quality": {
+      "type": ["string", "null"],
+      "enum": [null, "GOOD", "WEAK", "MISSING", "INVALID", "NOT_APPLICABLE"]
+    },
+    "notes": {"type": "string"}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"review_status": {"const": "REVIEWED"}}},
+      "then": {
+        "required": ["verdict", "reviewer", "reviewed_at"],
+        "properties": {
+          "verdict": {"type": "string"},
+          "reviewer": {"type": "string", "minLength": 1},
+          "reviewed_at": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  ]
+}

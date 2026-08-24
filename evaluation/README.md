@@ -39,6 +39,9 @@ python scripts/evaluate.py --adapter python scripts/codex_production_adapter.py 
 # Capture one real answer trace
 python scripts/trace-answer.py --question "..." --product blackduck-sca --product-version 2026.7 -- python scripts/codex_production_adapter.py
 
+# Build or refresh the 30-case human-review packet without overwriting existing decisions
+python scripts/build-human-review-packet.py
+
 # Convert a feedback JSON export into a candidate regression
 ./scripts/feedback-to-eval.ps1 -Feedback C:\secure\feedback-123.json -FeedbackId 123
 
@@ -60,3 +63,7 @@ The normal evaluation command returns status 2 when any case is unmeasured, so a
 7. Only then is the case moved to the trusted baseline/regression JSONL.
 
 Report volume changes priority, not factual status. No part of this flow edits documentation, skill instructions, retrieval, prompts, or indexes.
+
+## Human baseline adjudication
+
+`evaluation/reviews/sca-baseline-human-review.md` presents the customer-visible answer first and keeps expected evidence and machine scoring in a collapsed second pass. Record decisions in `evaluation/reviews/sca-baseline-adjudications.jsonl`; the generator preserves existing decisions when rerun and adds only missing case records. The baseline JSONL remains unchanged.

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import importlib.util
 import json
 import subprocess
 import sys
@@ -156,6 +157,43 @@ class EvaluationTests(unittest.TestCase):
         self.assertTrue(all(case["verification_status"] == "verified" for case in cases))
         errors = {case["id"]: verify_case_evidence(case) for case in cases}
         self.assertEqual({key: value for key, value in errors.items() if value}, {})
+
+    def test_sca_human_review_packet_covers_every_baseline_case_once(self):
+        cases = load_jsonl(ROOT / "evaluation" / "cases" / "sca-baseline.jsonl")
+        adjudications = load_jsonl(ROOT / "evaluation" / "reviews" / "sca-baseline-adjudications.jsonl")
+        self.assertEqual([item["case_id"] for item in adjudications], [case["id"] for case in cases])
+        packet = (ROOT / "evaluation" / "reviews" / "sca-baseline-human-review.md").read_text(encoding="utf-8")
+        for case in cases:
+            self.assertEqual(packet.count(f'<a id="case-{case["id"]}"></a>'), 1)
+
+    def test_unreviewed_adjudications_cannot_claim_a_verdict(self):
+        adjudications = load_jsonl(ROOT / "evaluation" / "reviews" / "sca-baseline-adjudications.jsonl")
+        for item in adjudications:
+            if item["review_status"] == "UNREVIEWED":
+                self.assertIsNone(item["verdict"])
+
+    def test_human_review_refresh_preserves_existing_decisions(self):
+        script = ROOT / "scripts" / "build-human-review-packet.py"
+        spec = importlib.util.spec_from_file_location("build_human_review_packet", script)
+        self.assertIsNotNone(spec)
+        self.assertIsNotNone(spec.loader)
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        cases = [{"id": "case-a"}, {"id": "case-b"}]
+        existing = module.blank_adjudication("case-a")
+        existing.update({
+            "review_status": "REVIEWED",
+            "verdict": "TRUE_PASS",
+            "reviewer": "human",
+            "reviewed_at": "2026-08-24T00:00:00Z",
+        })
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "adjudications.jsonl"
+            path.write_text(json.dumps(existing) + "\n", encoding="utf-8")
+            refreshed = module.load_or_initialize_adjudications(path, cases)
+        self.assertEqual(refreshed[0], existing)
+        self.assertEqual(refreshed[1]["case_id"], "case-b")
+        self.assertEqual(refreshed[1]["review_status"], "UNREVIEWED")
 
     def test_production_adapter_parses_ranked_sca_context_and_citations(self):
         path = "BlackDuck SCA/docs/api/authenticating-with-the-api.md"

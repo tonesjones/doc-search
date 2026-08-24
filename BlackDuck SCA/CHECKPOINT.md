@@ -1,6 +1,6 @@
 # Session checkpoint
 
-**Last updated:** 2026-08-23 (SCA verified-learning and runtime-validation iteration)
+**Last updated:** 2026-08-24 (30-case SCA human-review packet generated)
 **Status:** **IN PROGRESS on `codex/sca-verified-learning`** — continue the SCA human-verified improvement workflow; do not merge yet.
 **Primary corpus:** Black Duck Documentation **2026.7** — **941/941 done**  
 **Companions:** Detect **206/206** · Alert **45/45** · Bridge **174/174** · C/CPP Tool **14/14** (6 Tools siblings skipped)  
@@ -24,7 +24,16 @@ The corpus scrape remains complete. Current work is the SCA-only evaluation, fee
 - Recorded that the five empty `RAG-VAL-*` versions were unnecessary infrastructure placeholders, not scan tests.
 - Enforced the shared-instance operational limit of 10 Active versions in `Tony RAG`. Provisioning stops before exceeding the limit; deletion and one-way LTS conversion always require an explicit human decision.
 - Automated test status: 23 passing.
-- Latest pushed commit at this checkpoint: `6ae66bc` (`Guard shared SCA active version capacity`).
+- Shared-version safety guard commit: `6ae66bc` (`Guard shared SCA active version capacity`).
+
+### Completed on 2026-08-24
+
+- Generated `evaluation/reviews/sca-baseline-human-review.md` from all 30 preserved cases, machine results, and production traces.
+- Added a customer-view-first review flow, collapsed evidence/machine details, a navigable queue, and explicit human verdict categories.
+- Added `evaluation/reviews/sca-baseline-adjudications.jsonl` as the machine-readable source of human decisions; all 30 records start `UNREVIEWED`.
+- Added an adjudication schema and a reusable generator that preserves existing human decisions when refreshed.
+- Verified 30/30 cases, traces, queue entries, packet anchors, and adjudication records are present; no runtime credential was included.
+- Automated test status: 25 passing.
 
 ### Next milestone
 
@@ -32,8 +41,8 @@ Make one human correction repeatable from answer feedback through verified promo
 
 ### Work next, in order
 
-1. Generate a human-review packet for all 30 baseline cases containing the question, production answer, expected evidence, citations, machine result, and blank adjudication fields.
-2. Human-review both passes and failures using: `TRUE_PASS`, `FALSE_PASS`, `TRUE_FAILURE`, `SCORING_FALSE_NEGATIVE`, `BENCHMARK_NEEDS_REVISION`, or `NEEDS_PRODUCT_EXPERT`.
+1. **Complete:** Generate a human-review packet for all 30 baseline cases containing the question, production answer, expected evidence, citations, machine result, and blank adjudication fields.
+2. **Next:** Human-review both passes and failures using: `TRUE_PASS`, `FALSE_PASS`, `TRUE_FAILURE`, `SCORING_FALSE_NEGATIVE`, `BENCHMARK_NEEDS_REVISION`, or `NEEDS_PRODUCT_EXPERT`.
 3. Fix evaluator false negatives caused by Markdown or semantically equivalent wording while retaining literal checks for flags, versions, filenames, API paths, and exact configuration values.
 4. Add a general version-compatibility/abstention guard; `sca-version-caveat-001` is the known severe case.
 5. Productize feedback capture and approval so an `answer_id` plus critique creates an untrusted candidate, not an automatic truth or code change.
@@ -41,7 +50,7 @@ Make one human correction repeatable from answer feedback through verified promo
 7. Improve evidence ranking only after human adjudication establishes the real failure set; current Recall@1/3/5 is 3.3%/20.0%/43.3%.
 8. Define merge thresholds, then merge only when the reviewed SCA baseline, version control, regressions, and safety gates meet them.
 
-**Immediate next action:** build the 30-case human-review packet. Do not optimize prompts or retrieval before the human adjudication identifies which of the 18 machine failures are genuine.
+**Immediate next action:** begin human adjudication in `evaluation/reviews/sca-baseline-human-review.md` and record each decision in `evaluation/reviews/sca-baseline-adjudications.jsonl`. Do not optimize prompts or retrieval before the review identifies which of the 18 machine failures are genuine.
 
 Other product lines remain out of scope for this iteration. Replicate the workflow product-by-product only after it is stable for SCA.
 
