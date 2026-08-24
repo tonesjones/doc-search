@@ -8,8 +8,17 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from evaluation.core import ROOT, adapter_payload, load_jsonl, redact, score_case, validate_trace, verify_case_evidence
-from scripts.codex_production_adapter import corpus_paths, parse_event_stream
+from evaluation.core import (
+    ROOT,
+    adapter_payload,
+    load_fact_equivalents,
+    load_jsonl,
+    redact,
+    score_case,
+    validate_trace,
+    verify_case_evidence,
+)
+from scripts.codex_production_adapter import corpus_paths, parse_event_stream, version_mismatch_trace
 
 
 class EvaluationTests(unittest.TestCase):
@@ -53,6 +62,37 @@ class EvaluationTests(unittest.TestCase):
         self.assertEqual(result["status"], "PASS")
         self.assertEqual(result["recall_at"]["1"], 1.0)
 
+    def test_human_verified_equivalent_fixes_wording_without_weakening_exact_default(self):
+        case = next(item for item in load_jsonl(ROOT / "evaluation" / "cases" / "sca-baseline.jsonl") if item["id"] == "sca-auth-006")
+        trace = {
+            "answer_id": "ans-equivalent", "timestamp": "2026-08-24T00:00:00Z",
+            "original_query": case["question"], "product": "blackduck-sca",
+            "answer": "All access tokens tied to that user are invalidated.",
+            "retrieved_chunks": [{"file": case["must_retrieve"][0], "content": "tokens are invalidated", "metadata": {"version": "2026.7"}}],
+            "citations": [{"file": case["must_retrieve"][0]}],
+        }
+        strict = score_case(case, trace, fact_equivalents={})
+        calibrated = score_case(case, trace, fact_equivalents=load_fact_equivalents())
+        self.assertEqual(strict["status"], "FAIL")
+        self.assertEqual(calibrated["status"], "PASS")
+        self.assertTrue(calibrated["fact_results"][0]["match_basis"].startswith("verified_equivalent:"))
+
+    def test_scoring_equivalents_are_linked_to_human_false_negatives(self):
+        equivalents = load_jsonl(ROOT / "evaluation" / "scoring" / "sca-human-equivalents.jsonl")
+        baseline_cases = {item["id"]: item for item in load_jsonl(ROOT / "evaluation" / "cases" / "sca-baseline.jsonl")}
+        regression_cases = {item["id"]: item for item in load_jsonl(ROOT / "evaluation" / "cases" / "sca-regressions.jsonl")}
+        cases = baseline_cases | regression_cases
+        adjudications = {item["case_id"]: item for item in load_jsonl(ROOT / "evaluation" / "reviews" / "sca-baseline-adjudications.jsonl")}
+        self.assertGreaterEqual(len(equivalents), 11)
+        for item in equivalents:
+            self.assertEqual(item["verification_status"], "verified")
+            if item["case_id"] in baseline_cases:
+                self.assertEqual(adjudications[item["case_id"]]["verdict"], "SCORING_FALSE_NEGATIVE")
+            else:
+                self.assertEqual(cases[item["case_id"]]["origin"], "team-feedback")
+            facts = cases[item["case_id"]][f'{item["fact_kind"]}_facts']
+            self.assertIn(item["fact_value"], [fact["value"] for fact in facts])
+
     def test_wrong_source_is_retrieval_failure_even_if_answer_contains_fact(self):
         case = next(item for item in self.cases if item["id"] == "signal-002")
         trace = {
@@ -78,6 +118,20 @@ class EvaluationTests(unittest.TestCase):
         result = score_case(case, trace)
         self.assertIn("CITATION_FAILURE", result["failures"])
 
+    def test_valid_required_citation_can_fill_missing_adapter_retrieval_observation(self):
+        case = next(item for item in load_jsonl(ROOT / "evaluation" / "cases" / "sca-baseline.jsonl") if item["id"] == "sca-project-003")
+        trace = {
+            "answer_id": "ans-citation-fallback", "timestamp": "2026-08-24T00:00:00Z",
+            "original_query": case["question"], "product": "blackduck-sca",
+            "answer": "The project name must be unique among projects.",
+            "retrieved_chunks": [],
+            "citations": [{"file": case["must_retrieve"][0]}],
+        }
+        result = score_case(case, trace)
+        self.assertEqual(result["status"], "PASS")
+        self.assertEqual(result["recall_at"]["1"], 0.0)
+        self.assertEqual(result["citation_evidence_fallbacks"], [case["must_retrieve"][0]])
+
     def test_missing_citation_is_a_failure_for_answer_cases(self):
         case = next(item for item in self.cases if item["id"] == "signal-002")
         trace = {
@@ -102,6 +156,18 @@ class EvaluationTests(unittest.TestCase):
         result = score_case(case, trace)
         self.assertIn("ABSTENTION_FAILURE", result["failures"])
         self.assertIn("UNSUPPORTED_CLAIM", result["failures"])
+
+    def test_expected_version_mismatch_abstention_is_not_a_version_failure(self):
+        case = next(item for item in load_jsonl(ROOT / "evaluation" / "cases" / "sca-baseline.jsonl") if item["id"] == "sca-version-caveat-001")
+        trace = {
+            "answer_id": "ans-version-guard", "timestamp": "2026-08-24T00:00:00Z",
+            "original_query": case["question"], "product": "blackduck-sca",
+            **version_mismatch_trace({"product_version": "2026.4"}),
+        }
+        result = score_case(case, trace)
+        self.assertEqual(result["status"], "PASS")
+        self.assertFalse(result["version_accuracy"])
+        self.assertNotIn("VERSION_FAILURE", result["failures"])
 
     def test_trace_requires_reconstruction_fields(self):
         errors = validate_trace({"answer": "x"})

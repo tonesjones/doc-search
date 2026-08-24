@@ -63,6 +63,52 @@ def prompt_revision() -> str:
     return f"bd-skill-sha256:{digest.hexdigest()}"
 
 
+def version_mismatch_trace(payload: dict[str, Any]) -> dict[str, Any] | None:
+    """Fail closed when an explicit SCA version is not the pinned corpus version."""
+    requested = payload.get("product_version")
+    if not isinstance(requested, str) or not requested.strip():
+        return None
+    requested = requested.strip()
+    if requested.casefold() in {CORPUS_VERSION.casefold(), "latest"}:
+        return None
+    relative = "BlackDuck SCA/AGENTS.md"
+    return {
+        "answer": (
+            f"The local Black Duck SCA documentation corpus is pinned to {CORPUS_VERSION} and does not establish "
+            f"behavior for {requested}. I cannot determine the {requested} answer from the available version-matched "
+            "documentation."
+        ),
+        "processed_query": None,
+        "retrieved_chunks": [{
+            "file": relative,
+            "rank": 1,
+            "score": None,
+            "content": AGENTS_PATH.read_text(encoding="utf-8"),
+            "metadata": {"product": "blackduck-sca", "version": CORPUS_VERSION},
+        }],
+        "citations": [{"file": relative}],
+        "model": "deterministic-version-guard",
+        "model_parameters": {},
+        "prompt_revision": prompt_revision(),
+        "adapter_metadata": {
+            "entrypoint": "codex production adapter version guard",
+            "guard": "EXPLICIT_VERSION_NOT_PINNED",
+            "requested_version": requested,
+            "available_version": CORPUS_VERSION,
+        },
+    }
+
+
+def production_prompt(payload: dict[str, Any]) -> str:
+    return "\n".join([
+        "Use the installed bd skill to answer this Black Duck documentation question.",
+        f"Requested product: {payload['product']}",
+        f"Requested documentation version: {payload.get('product_version') or 'unspecified'}",
+        "Preserve the customer's requested scope and cite the local version-matched Markdown evidence.",
+        f"Question: {payload['question']}",
+    ])
+
+
 def file_version(path: Path) -> str | None:
     """Read the product pin from a topic's small YAML front matter."""
     with path.open(encoding="utf-8") as handle:
@@ -152,11 +198,17 @@ def main() -> int:
         if payload.get("product") != "blackduck-sca":
             raise ValueError("this adapter is restricted to product blackduck-sca")
 
+        guarded = version_mismatch_trace(payload)
+        if guarded is not None:
+            json.dump(guarded, sys.stdout, ensure_ascii=False)
+            sys.stdout.write("\n")
+            return 0
+
         command = [
             "codex", "exec", "--json", "--ephemeral", "--color", "never",
             "-s", "danger-full-access", "-m", MODEL,
             "-c", f'model_reasoning_effort="{REASONING_EFFORT}"',
-            "-C", str(ROOT), question,
+            "-C", str(ROOT), production_prompt(payload),
         ]
         process = subprocess.Popen(
             command,

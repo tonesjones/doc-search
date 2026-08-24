@@ -52,6 +52,16 @@ python scripts/combined-evaluate.py
 
 The normal evaluation command returns status 2 when any case is unmeasured, so a missing live dependency cannot be mistaken for a passing baseline. `-AllowUnmeasured` is reserved for recording an explicitly incomplete report.
 
+## Human-calibrated deterministic scoring
+
+The preserved baseline remains unchanged. Human-approved wording equivalents live separately in `evaluation/scoring/sca-human-equivalents.jsonl`. Each entry is tied to a case, canonical fact, reviewer, and verification basis. The evaluator first checks the canonical exact fact, then only the tracked equivalent patterns. Exact flags, paths, versions, and configuration values remain literal unless a separately reviewed equivalent exists.
+
+Markdown emphasis is ignored during fact matching. A valid local corpus citation can fill a missing citation observation from the production adapter, and only a citation to the required corpus file can satisfy missing required evidence. Neither fallback inflates Recall@K; invalid or missing citations still fail.
+
+The production adapter also fails closed for an explicitly requested SCA version that does not match the pinned 2026.7 server corpus. It returns a version-caveated abstention before generation and does not transfer a 2026.7 fact to the requested version. `latest` remains available for companion corpora that are intentionally pinned as latest.
+
+As of the 2026-08-24 milestone, the human-calibrated saved baseline is 20/30 pass, the version-mismatch case passes with 100% abstention accuracy, and all five verified SCA feedback regressions pass through captured production traces. The remaining baseline failures stay visible for product-expert, benchmark, retrieval, and additional scoring review.
+
 ## Feedback promotion
 
 1. Team member submits the issue form with `answer_id`, category, and comment.

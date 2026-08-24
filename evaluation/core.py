@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 BASELINE_PATH = ROOT / "baseline" / "BASELINE-SNAPSHOT.json"
 EXPECTED_BEHAVIORS = {"answer", "abstain", "surface_conflict", "version_caveat"}
 FACT_TYPES = {"EXACT_FACT", "SEMANTIC_FACT"}
+DEFAULT_EQUIVALENTS_PATH = ROOT / "evaluation" / "scoring" / "sca-human-equivalents.jsonl"
 FAILURE_CLASSES = {
     "RETRIEVAL_FAILURE", "INSUFFICIENT_EVIDENCE", "CHUNKING_FAILURE",
     "RANKING_FAILURE", "METADATA_FAILURE", "VERSION_FAILURE",
@@ -81,6 +82,31 @@ def load_jsonl(path: Path) -> list[dict[str, Any]]:
     return cases
 
 
+def load_fact_equivalents(path: Path = DEFAULT_EQUIVALENTS_PATH) -> dict[tuple[str, str, str], list[str]]:
+    """Load human-verified regex equivalents without modifying preserved cases."""
+    if not path.is_file():
+        return {}
+    equivalents: dict[tuple[str, str, str], list[str]] = {}
+    for item in load_jsonl(path):
+        key = (str(item.get("case_id", "")), str(item.get("fact_kind", "")), str(item.get("fact_value", "")))
+        patterns = item.get("accepted_patterns")
+        if not all(key) or key[1] not in {"required", "forbidden"}:
+            raise EvaluationError(f"{path}: invalid scoring-equivalent key: {key}")
+        if item.get("verification_status") != "verified" or not isinstance(patterns, list) or not patterns:
+            raise EvaluationError(f"{path}: scoring equivalent {key} is not verified or has no patterns")
+        if key in equivalents:
+            raise EvaluationError(f"{path}: duplicate scoring-equivalent key: {key}")
+        for pattern in patterns:
+            if not isinstance(pattern, str) or not pattern:
+                raise EvaluationError(f"{path}: invalid pattern for {key}")
+            try:
+                re.compile(pattern)
+            except re.error as exc:
+                raise EvaluationError(f"{path}: invalid regex for {key}: {exc}") from exc
+        equivalents[key] = patterns
+    return equivalents
+
+
 def dump_json(path: Path, value: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(value, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
@@ -113,7 +139,14 @@ def validate_case(case: dict[str, Any]) -> list[str]:
     return errors
 
 
+def _strip_inline_markdown(text: str) -> str:
+    """Remove presentation-only inline markers before deterministic fact matching."""
+    return text.replace("**", "").replace("__", "").replace("`", "")
+
+
 def _contains(text: str, value: str, case_sensitive: bool = False) -> bool:
+    text = _strip_inline_markdown(text)
+    value = _strip_inline_markdown(value)
     flags = 0 if case_sensitive else re.IGNORECASE
     if re.fullmatch(r"[A-Za-z0-9_.-]+", value):
         pattern = rf"(?<![A-Za-z0-9_]){re.escape(value)}(?![A-Za-z0-9_])"
@@ -121,6 +154,21 @@ def _contains(text: str, value: str, case_sensitive: bool = False) -> bool:
     if case_sensitive:
         return value in text
     return value.casefold() in text.casefold()
+
+
+def _fact_match(
+    text: str,
+    fact: dict[str, Any],
+    patterns: list[str] | None = None,
+) -> tuple[bool, str]:
+    if _contains(text, fact["value"], fact.get("case_sensitive", False)):
+        return True, "canonical"
+    text = _strip_inline_markdown(text)
+    flags = re.DOTALL | (0 if fact.get("case_sensitive", False) else re.IGNORECASE)
+    for pattern in patterns or []:
+        if re.search(pattern, text, flags):
+            return True, f"verified_equivalent:{pattern}"
+    return False, "none"
 
 
 def verify_case_evidence(case: dict[str, Any], root: Path = ROOT) -> list[str]:
@@ -242,7 +290,21 @@ def _matches(path: str, expected: str) -> bool:
     return path == expected or path.endswith("/" + expected)
 
 
-def score_case(case: dict[str, Any], trace: dict[str, Any], root: Path = ROOT) -> dict[str, Any]:
+def _is_repository_file(root: Path, relative: str) -> bool:
+    try:
+        path = (root / relative).resolve()
+        path.relative_to(root.resolve())
+    except (OSError, ValueError):
+        return False
+    return path.is_file()
+
+
+def score_case(
+    case: dict[str, Any],
+    trace: dict[str, Any],
+    root: Path = ROOT,
+    fact_equivalents: dict[tuple[str, str, str], list[str]] | None = None,
+) -> dict[str, Any]:
     failures: list[str] = []
     trace_errors = validate_trace(trace)
     if trace_errors:
@@ -258,7 +320,22 @@ def score_case(case: dict[str, Any], trace: dict[str, Any], root: Path = ROOT) -
         else:
             hits = sum(any(_matches(path, expected) for path in files[:k]) for expected in must)
             recall[str(k)] = hits / len(must)
-    missing_sources = [expected for expected in must if not any(_matches(path, expected) for path in files)]
+    citation_files = [
+        citation.get("file") if isinstance(citation, dict) else citation
+        for citation in trace.get("citations", [])
+    ]
+    valid_citation_fallbacks = [
+        file for file in citation_files
+        if isinstance(file, str)
+        and _is_repository_file(root, file)
+        and not any(_matches(path, file) for path in files)
+    ]
+    required_citation_fallbacks = [
+        file for file in valid_citation_fallbacks
+        if any(_matches(file, expected) for expected in must)
+    ]
+    evidence_files = files + required_citation_fallbacks
+    missing_sources = [expected for expected in must if not any(_matches(path, expected) for path in evidence_files)]
     if missing_sources:
         failures.append("RETRIEVAL_FAILURE")
 
@@ -266,6 +343,8 @@ def score_case(case: dict[str, Any], trace: dict[str, Any], root: Path = ROOT) -
     if must_not_violations:
         failures.append("RETRIEVAL_FAILURE")
 
+    answer = trace.get("answer", "")
+    abstained = bool(ABSTENTION_RE.search(answer))
     version_accuracy: bool | None = None
     requested = case.get("product_version")
     if requested:
@@ -278,31 +357,42 @@ def score_case(case: dict[str, Any], trace: dict[str, Any], root: Path = ROOT) -
         versions = [str(value) for value in versions if value is not None]
         if versions:
             version_accuracy = all(value == requested for value in versions)
-            if not version_accuracy:
+            if not version_accuracy and not (case["expected_behavior"] == "abstain" and abstained):
                 failures.append("VERSION_FAILURE")
 
-    answer = trace.get("answer", "")
     fact_results: list[dict[str, Any]] = []
     context = "\n".join(str(chunk.get("content", "")) for chunk in chunks if isinstance(chunk, dict))
     for fact in case.get("required_facts", []):
         if fact["type"] == "SEMANTIC_FACT":
             fact_results.append({"fact": fact, "result": "NOT_MEASURED", "reason": "semantic evaluator not configured"})
             continue
-        in_answer = _contains(answer, fact["value"], fact.get("case_sensitive", False))
+        key = (case["id"], "required", fact["value"])
+        in_answer, match_basis = _fact_match(answer, fact, (fact_equivalents or {}).get(key))
         in_context = _contains(context, fact["value"], fact.get("case_sensitive", False)) if context else None
-        fact_results.append({"fact": fact, "result": "PASS" if in_answer else "FAIL", "in_context": in_context})
+        fact_results.append({
+            "fact": fact,
+            "result": "PASS" if in_answer else "FAIL",
+            "in_context": in_context,
+            "match_basis": match_basis,
+        })
         if not in_answer:
             failures.append("INSUFFICIENT_EVIDENCE" if in_context is False and not missing_sources else "SYNTHESIS_FAILURE")
     for fact in case.get("forbidden_facts", []):
         if fact["type"] == "SEMANTIC_FACT":
             fact_results.append({"fact": fact, "result": "NOT_MEASURED", "reason": "semantic evaluator not configured"})
             continue
-        absent = not _contains(answer, fact["value"], fact.get("case_sensitive", False))
-        fact_results.append({"fact": fact, "result": "PASS" if absent else "FAIL", "forbidden": True})
+        key = (case["id"], "forbidden", fact["value"])
+        present, match_basis = _fact_match(answer, fact, (fact_equivalents or {}).get(key))
+        absent = not present
+        fact_results.append({
+            "fact": fact,
+            "result": "PASS" if absent else "FAIL",
+            "forbidden": True,
+            "match_basis": match_basis,
+        })
         if not absent:
             failures.append("UNSUPPORTED_CLAIM")
 
-    abstained = bool(ABSTENTION_RE.search(answer))
     abstention_result: bool | None = None
     if case["expected_behavior"] == "abstain":
         abstention_result = abstained
@@ -324,9 +414,10 @@ def score_case(case: dict[str, Any], trace: dict[str, Any], root: Path = ROOT) -
             citation_errors.append("citation has no file")
             continue
         normalized = file.replace("\\", "/").casefold()
-        if not any(_matches(path, file) for path in retrieved_set):
+        is_verified_fallback = any(_matches(file, fallback) for fallback in valid_citation_fallbacks)
+        if not any(_matches(path, file) for path in retrieved_set) and not is_verified_fallback:
             citation_errors.append(f"citation not retrieved: {file}")
-        if not (root / file).is_file():
+        if not _is_repository_file(root, file):
             citation_errors.append(f"citation missing from corpus: {file}")
     if citation_errors:
         failures.append("CITATION_FAILURE")
@@ -339,6 +430,7 @@ def score_case(case: dict[str, Any], trace: dict[str, Any], root: Path = ROOT) -
         "status": "PASS" if not failures and not measured_fact_failures else "FAIL",
         "recall_at": recall,
         "must_retrieve_missing": missing_sources,
+        "citation_evidence_fallbacks": valid_citation_fallbacks,
         "must_not_retrieve_violations": must_not_violations,
         "version_accuracy": version_accuracy,
         "fact_results": fact_results,

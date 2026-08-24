@@ -12,11 +12,13 @@ sys.path.insert(0, str(ROOT))
 
 from evaluation.core import (  # noqa: E402
     BASELINE_PATH,
+    DEFAULT_EQUIVALENTS_PATH,
     EvaluationError,
     aggregate,
     dump_json,
     load_json,
     load_jsonl,
+    load_fact_equivalents,
     make_trace,
     revision_hash,
     run_adapter,
@@ -91,6 +93,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--label", default="BASELINE")
     parser.add_argument("--output", type=Path, default=ROOT / "evaluation" / "results" / "latest.json")
     parser.add_argument("--trace-output", type=Path, default=ROOT / "evaluation" / "traces")
+    parser.add_argument(
+        "--scoring-equivalents",
+        type=Path,
+        default=DEFAULT_EQUIVALENTS_PATH,
+        help="Human-verified deterministic fact equivalents; use an empty/missing file to disable",
+    )
     parser.add_argument("--resume", action="store_true", help="Reuse an existing trace-output file before invoking the adapter")
     return parser.parse_args()
 
@@ -101,6 +109,7 @@ def main() -> int:
         raise SystemExit("Use either --trace-dir or --adapter, not both")
     baseline = load_json(BASELINE_PATH)
     cases = load_jsonl(args.cases)
+    fact_equivalents = load_fact_equivalents(args.scoring_equivalents)
     if not args.include_candidates:
         cases = [case for case in cases if case.get("verification_status") == "verified"]
     if args.case_id:
@@ -130,14 +139,14 @@ def main() -> int:
                 continue
             trace = load_json(path)
             measured_traces.append(trace)
-            results.append(score_case(case, trace))
+            results.append(score_case(case, trace, fact_equivalents=fact_equivalents))
     elif args.adapter:
         for position, case in enumerate(cases, start=1):
             existing_trace = args.trace_output / f"{case['id']}.json"
             if args.resume and existing_trace.is_file():
                 trace = load_json(existing_trace)
                 measured_traces.append(trace)
-                results.append(score_case(case, trace))
+                results.append(score_case(case, trace, fact_equivalents=fact_equivalents))
                 print(f"[{position}/{len(cases)}] {case['id']}: reused {results[-1]['status']}", file=sys.stderr, flush=True)
                 continue
             print(f"[{position}/{len(cases)}] {case['id']}: invoking production path", file=sys.stderr, flush=True)
@@ -146,7 +155,7 @@ def main() -> int:
                 trace = make_trace(case, raw, baseline)
                 measured_traces.append(trace)
                 dump_json(args.trace_output / f"{case['id']}.json", trace)
-                results.append(score_case(case, trace))
+                results.append(score_case(case, trace, fact_equivalents=fact_equivalents))
                 print(f"[{position}/{len(cases)}] {case['id']}: {results[-1]['status']}", file=sys.stderr, flush=True)
             except (EvaluationError, OSError, TimeoutError) as exc:
                 results.append({"case_id": case["id"], "status": "NOT_MEASURED", "reason": str(exc)})
@@ -159,6 +168,8 @@ def main() -> int:
         if item.get("status") == "NOT_MEASURED" and item.get("reason") not in not_measured_reasons:
             not_measured_reasons.append(item["reason"])
     eval_paths = [args.cases, ROOT / "evaluation" / "schema" / "eval-case.schema.json", ROOT / "evaluation" / "core.py", Path(__file__)]
+    if args.scoring_equivalents.is_file():
+        eval_paths.append(args.scoring_equivalents)
     prompt_revisions = {trace.get("prompt_revision") for trace in measured_traces if trace.get("prompt_revision")}
     model_configs = {
         json.dumps({"model": trace.get("model"), "parameters": trace.get("model_parameters")}, sort_keys=True)
