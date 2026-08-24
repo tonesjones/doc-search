@@ -1,7 +1,7 @@
 # SCA baseline human-review packet
 
-Generated: `2026-08-24T18:31:42.430197+00:00`  
-Cases: **30** · machine pass: **12** · machine fail: **18** · human reviewed: **4/30**
+Generated: `2026-08-24T18:33:47.119302+00:00`  
+Cases: **30** · machine pass: **12** · machine fail: **18** · human reviewed: **5/30**
 
 This packet is derived from the preserved SCA baseline, its production traces, and its machine report. It does not modify the baseline. The machine-readable human decisions belong in `sca-baseline-adjudications.jsonl`.
 
@@ -39,7 +39,7 @@ Do not change expected facts during review. If the benchmark is wrong or overly 
 | 2 | [`sca-auth-002`](#case-sca-auth-002) | PASS | — | TRUE_PASS |
 | 3 | [`sca-auth-003`](#case-sca-auth-003) | PASS | — | TRUE_PASS |
 | 4 | [`sca-auth-004`](#case-sca-auth-004) | PASS | — | TRUE_PASS |
-| 5 | [`sca-auth-005`](#case-sca-auth-005) | FAIL | SYNTHESIS_FAILURE | UNREVIEWED |
+| 5 | [`sca-auth-005`](#case-sca-auth-005) | FAIL | SYNTHESIS_FAILURE | SCORING_FALSE_NEGATIVE |
 | 6 | [`sca-auth-006`](#case-sca-auth-006) | FAIL | SYNTHESIS_FAILURE | UNREVIEWED |
 | 7 | [`sca-auth-007`](#case-sca-auth-007) | FAIL | CITATION_FAILURE, RETRIEVAL_FAILURE, SYNTHESIS_FAILURE | UNREVIEWED |
 | 8 | [`sca-auth-008`](#case-sca-auth-008) | FAIL | SYNTHESIS_FAILURE | UNREVIEWED |
@@ -384,7 +384,7 @@ The token is further limited by its selected scope: **read-only** or **read/writ
 
 ### 5. `sca-auth-005` — machine FAIL
 
-Human review: **UNREVIEWED** · status: `UNREVIEWED`
+Human review: **SCORING_FALSE_NEGATIVE** · status: `REVIEWED`
 
 #### Pass A — customer view
 
