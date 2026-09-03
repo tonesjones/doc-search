@@ -1,6 +1,6 @@
 # Session checkpoint
 
-**Last updated:** 2026-08-24 (human-calibration milestone implemented and production-tested)
+**Last updated:** 2026-09-03 (versioned SCA OpenAPI snapshot integrated)
 **Status:** **CALIBRATION MILESTONE COMPLETE on `codex/sca-verified-learning`** — resolve the product-expert/benchmark queue and define merge thresholds; do not merge yet.
 **Primary corpus:** Black Duck Documentation **2026.7** — **941/941 done**  
 **Companions:** Detect **206/206** · Alert **45/45** · Bridge **174/174** · C/CPP Tool **14/14** (6 Tools siblings skipped)  
@@ -65,6 +65,13 @@ Resolve the remaining product-expert and benchmark questions with version-matche
 **Immediate next action:** work the product-expert/benchmark verification queue, starting with the 10GB Managed Code claim, Internal-distribution risk calculation, Archived-upgrade behavior, and the approval-gated clone/BOM-retention test. Keep all shared-instance mutations isolated to `Tony RAG` and require explicit approval.
 
 Other product lines remain out of scope for this iteration. Replicate the workflow product-by-product only after it is stable for SCA.
+
+## Added on 2026-09-03: SCA 2026.4.0 OpenAPI snapshot
+
+- Preserved the server-generated public specification at `sources/openapi/2026.4.0/openapi3-public.json`.
+- Added `docs/api/openapi-snapshot-2026-4-0.md` with provenance, retrieval guidance, checksum, and known specification limitations.
+- Updated the SCA corpus routing instructions to consult versioned OpenAPI snapshots for exact endpoint contracts while keeping narrative documentation primary for product guidance.
+- The snapshot version is 2026.4.0; do not silently treat it as the pinned 2026.7 documentation contract.
 
 ---
 

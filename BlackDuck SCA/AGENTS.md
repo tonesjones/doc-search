@@ -17,6 +17,11 @@ This repository is a **local knowledge base** of Black Duck product documentatio
 | 2 | Official Black Duck docs via Fluid Topics **content API** (not SPA HTML) | Corpus missing, outdated, or user asks to refresh |
 | 3 | General knowledge | Last resort; label uncertainty clearly |
 
+For exact SCA REST endpoint questions, also consult the versioned, server-generated
+OpenAPI snapshots under `sources/openapi/`. These supplement rather than replace the
+narrative documentation. Always state the snapshot version, and do not infer behavior
+that the specification does not document.
+
 Do **not** treat random blog posts or third-party summaries as authoritative when corpus or official docs cover the topic.
 
 ## Pinned documentation sources
@@ -86,6 +91,7 @@ GET https://docs.blackduck.com/api/khub/maps/{mapId}/topics/{contentId}/content
     c-cpp-tool/
   sources/
     blackduck-2026.7/            # toc.json + manifest.json
+    openapi/<version>/           # server-generated public REST API snapshots
     detect-11.5.1/
     alert-8.4.0/
     bridge-latest/
@@ -147,11 +153,15 @@ scraped_at: "ISO-8601"
 1. **Search this repo first** — `corpus-status.md` / product indexes, then open relevant `docs/**/*.md` (grep / read).
 2. **Route by product:**
    - SCA server/UI, BOM, policy, install, reporting → `docs/help-center/`, install, architecture, `index.md`
+   - Exact SCA REST endpoint contracts → relevant `docs/api/` guidance plus `sources/openapi/<version>/openapi3-public.json`
    - Detect client, detectors, properties, scripts → `docs/detect/`, `index-detect.md`
    - Alert channels / providers → `docs/alert/`, `index-alert.md`
    - Bridge CLI / CI security scan plugins → `docs/bridge/`, `index-bridge.md`
    - C/C++ BOM via blackduck-c-cpp / Coverity Build Capture → `docs/c-cpp-tool/`, `index-c-cpp-tool.md`
 3. **Cite paths** when answering (e.g. `docs/detect/planning-and-running-detect.md`) so answers are verifiable.
+   For OpenAPI evidence, cite the JSON path and state its version. Treat explicit paths,
+   methods, media types, examples, and limits as documented; do not invent undocumented
+   status-code meanings or schemas.
 4. **Quote or paraphrase carefully** — distinguish product facts from interpretation.
 5. **If the corpus is silent or conflicting**, say so; offer to scrape pending topics (e.g. optional air-gap) or fetch official content.
 6. **Do not invent** Black Duck UI paths, license names, API endpoints, or Detect properties.
