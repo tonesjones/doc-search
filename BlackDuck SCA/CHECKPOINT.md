@@ -1,12 +1,21 @@
 # Session checkpoint
 
-**Last updated:** 2026-08-13 (added C/CPP Tool chapter from Black Duck Tools)  
+**Last updated:** 2026-09-03 (versioned SCA OpenAPI snapshot added)  
 **Status:** **DONE for now** — use local corpus for Q&A; do not scrape more unless the user reopens scope.  
 **Primary corpus:** Black Duck Documentation **2026.7** — **941/941 done**  
 **Companions:** Detect **206/206** · Alert **45/45** · Bridge **174/174** · C/CPP Tool **14/14** (6 Tools siblings skipped)  
 **Grand total in corpus:** **1,380** topics
 
 Read this file at the start of every new session.
+
+---
+
+## Added on 2026-09-03: SCA 2026.4.0 OpenAPI snapshot
+
+- Preserved the server-generated public specification at `sources/openapi/2026.4.0/openapi3-public.json`.
+- Added `docs/api/openapi-snapshot-2026-4-0.md` with provenance, retrieval guidance, checksum, and known specification limitations.
+- Updated the SCA corpus routing instructions to consult versioned OpenAPI snapshots for exact endpoint contracts while keeping narrative documentation primary for product guidance.
+- The snapshot version is 2026.4.0; do not silently treat it as the pinned 2026.7 documentation contract.
 
 ---
 
