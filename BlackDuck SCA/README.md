@@ -10,11 +10,12 @@ The public help site is a JavaScript SPA. Opening a topic URL in a browser works
 |---------|---------|-------:|-------------|
 | Black Duck SCA (server / UI) | 2026.7 | 941 | [index.md](index.md) |
 | Black Duck Detect | 11.5.1 | 206 | [index-detect.md](index-detect.md) |
+| Black Duck Detect | 12.0.0 | 207 | [index-detect-12.0.0.md](index-detect-12.0.0.md) |
 | Black Duck Alert | 8.4.0 | 45 | [index-alert.md](index-alert.md) |
 | Bridge CLI | latest | 174 | [index-bridge.md](index-bridge.md) |
 | Black Duck C/CPP Tool | latest | 14 | [index-c-cpp-tool.md](index-c-cpp-tool.md) |
 
-**1,380 topics** in `docs/`. Progress hub: [corpus-status.md](corpus-status.md).
+**1,587 topics** in `docs/`. Progress hub: [corpus-status.md](corpus-status.md).
 
 This is a convenience mirror for RAG and local lookup. Official docs remain the source of truth if this snapshot and the live site disagree.
 
@@ -107,6 +108,7 @@ Registered product keys:
 |-----|---------|-----------------|
 | `blackduck-2026.7` | SCA 2026.7 | section folders under `docs/` |
 | `detect-11.5.1` | Detect 11.5.1 | `docs/detect/` |
+| `detect-12.0.0` | Detect 12.0.0 | `docs/detect-12.0.0/` |
 | `alert-8.4.0` | Alert 8.4.0 | `docs/alert/` |
 | `bridge-latest` | Bridge CLI | `docs/bridge/` |
 | `c-cpp-tool-latest` | C/CPP Tool (Tools map, C/CPP chapter only) | `docs/c-cpp-tool/` |
