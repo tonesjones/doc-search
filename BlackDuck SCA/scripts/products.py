@@ -138,6 +138,50 @@ PRODUCTS: dict[str, dict[str, Any]] = {
 DEFAULT_PRODUCT_KEY = "blackduck-2026.7"
 
 
+def validate_registry(products: dict[str, dict[str, Any]] = PRODUCTS) -> None:
+    """Reject product entries that would overwrite another product's corpus files.
+
+    A ``docs_root`` of ``None`` is safe only for one product, unless all involved
+    products explicitly map disjoint root-slug values.  This keeps the SCA
+    section-root layout intentional while preventing an accidental shared docs
+    directory.
+    """
+    required = ("key", "map_id", "version", "source_dir", "index_file")
+    seen: dict[str, dict[str, str]] = {"source_dir": {}, "index_file": {}}
+    none_root_entries: list[dict[str, Any]] = []
+    docs_roots: dict[str, str] = {}
+    for name, cfg in products.items():
+        missing = [field for field in required if not cfg.get(field)]
+        if missing:
+            raise ValueError(f"Product {name!r} missing required fields: {', '.join(missing)}")
+        if cfg["key"] != name:
+            raise ValueError(f"Product registry key mismatch: {name!r} != {cfg['key']!r}")
+        for field in seen:
+            value = str(cfg[field]).replace("\\", "/").rstrip("/").lower()
+            previous = seen[field].get(value)
+            if previous is not None:
+                raise ValueError(f"Product registry collision on {field}: {previous!r} and {name!r} use {cfg[field]!r}")
+            seen[field][value] = name
+        docs_root = cfg.get("docs_root")
+        if docs_root is None:
+            none_root_entries.append(cfg)
+            continue
+        value = str(docs_root).replace("\\", "/").strip("/").lower()
+        previous = docs_roots.get(value)
+        if previous is not None:
+            raise ValueError(f"Product registry collision on docs_root: {previous!r} and {name!r} use {docs_root!r}")
+        docs_roots[value] = name
+
+    if len(none_root_entries) > 1:
+        root_sets = [set((cfg.get("root_slugs") or {}).values()) for cfg in none_root_entries]
+        if not all(root_sets) or any(left & right for i, left in enumerate(root_sets) for right in root_sets[i + 1:]):
+            keys = ", ".join(cfg["key"] for cfg in none_root_entries)
+            raise ValueError(f"Unsafe null docs_root registry entries: {keys}")
+
+
+validate_registry()
+
+
 def get_product(key: str | None = None) -> dict[str, Any]:
     k = key or DEFAULT_PRODUCT_KEY
     if k not in PRODUCTS:

@@ -20,6 +20,7 @@ from collections import OrderedDict
 from datetime import datetime, timezone
 from pathlib import Path
 
+from corpus_utils import json_text, manifest_substantively_equal, write_text_if_changed
 from products import (
     BASE_URL,
     DEFAULT_PRODUCT_KEY,
@@ -174,6 +175,8 @@ def flatten_toc(nodes: list, cfg: dict) -> list[dict]:
                     "status": "pending",
                     "error": None,
                     "scrapedAt": None,
+                    "lastCheckedAt": None,
+                    "contentHash": None,
                     "bytes": None,
                 }
             )
@@ -204,7 +207,7 @@ def merge_statuses(new_topics: list[dict], old_manifest: dict | None) -> list[di
         old = by_id.get(t["id"])
         if not old:
             continue
-        for key in ("status", "error", "scrapedAt", "bytes"):
+        for key in ("status", "error", "scrapedAt", "lastCheckedAt", "contentHash", "bytes"):
             if key in old:
                 t[key] = old[key]
         if old.get("status") == "done" and old.get("localPath"):
@@ -357,7 +360,7 @@ def write_index(manifest: dict, cfg: dict, index_path: Path) -> None:
         f"Official docs: [{cfg['title']}]({reader}).*"
     )
 
-    index_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    return write_text_if_changed(index_path, "\n".join(lines) + "\n")
 
 
 def ensure_doc_dirs(cfg: dict) -> None:
@@ -468,7 +471,7 @@ def write_hub_index() -> None:
     a("")
     a("---")
     a("")
-    a(f"*Hub generated {now_iso()}. Primary SCA detail index: "
+    a(f"*Primary SCA detail index: "
       f"[index.md → see also monoproduct builds]({sca['index'] if sca else 'index.md'}).*")
     a("")
 
@@ -480,8 +483,8 @@ def write_hub_index() -> None:
     #
     # Simpler: write hub as corpus-status.md, leave product indexes as-is.
     hub = ROOT / "corpus-status.md"
-    hub.write_text("\n".join(lines) + "\n", encoding="utf-8")
-    print(f"Wrote {hub}")
+    changed = write_text_if_changed(hub, "\n".join(lines) + "\n")
+    print(f"{'Wrote' if changed else 'Unchanged'} {hub}")
 
 
 def build_one(cfg: dict, args: argparse.Namespace) -> int:
@@ -503,11 +506,9 @@ def build_one(cfg: dict, args: argparse.Namespace) -> int:
         url = toc_api(cfg)
         print(f"[{cfg['key']}] Fetching TOC from {url} ...")
         toc = fetch_toc(cfg)
-        toc_path.write_text(
-            json.dumps(toc, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
-        )
+        toc_changed = write_text_if_changed(toc_path, json_text(toc))
         toc_fetched = True
-        print(f"[{cfg['key']}] Wrote {toc_path}")
+        print(f"[{cfg['key']}] {'Wrote' if toc_changed else 'Unchanged'} {toc_path}")
     else:
         toc = load_json(toc_path)
 
@@ -522,6 +523,9 @@ def build_one(cfg: dict, args: argparse.Namespace) -> int:
             manifest["scrapedAt"] = old_manifest.get("scrapedAt")
             if not toc_fetched:
                 manifest["lastTocFetch"] = old_manifest.get("lastTocFetch")
+        if old_manifest and manifest_substantively_equal(old_manifest, manifest):
+            # A refresh with an identical TOC must not turn bookkeeping time into a corpus diff.
+            manifest = old_manifest
         print(f"[{cfg['key']}] Built manifest with {manifest['stats']['total']} topics")
     else:
         manifest = old_manifest or load_json(manifest_path)
@@ -529,20 +533,17 @@ def build_one(cfg: dict, args: argparse.Namespace) -> int:
         manifest.setdefault("productKey", cfg["key"])
         manifest.setdefault("docsRoot", cfg.get("docs_root"))
         manifest["stats"] = compute_stats(manifest.get("topics", []))
-        manifest["lastIndexBuild"] = now_iso()
         print(
             f"[{cfg['key']}] Refreshed stats from existing manifest "
             f"({manifest['stats']['total']} topics)"
         )
 
-    manifest_path.write_text(
-        json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
-    )
-    print(f"[{cfg['key']}] Wrote {manifest_path}")
+    manifest_changed = write_text_if_changed(manifest_path, json_text(manifest))
+    print(f"[{cfg['key']}] {'Wrote' if manifest_changed else 'Unchanged'} {manifest_path}")
 
     ensure_doc_dirs(cfg)
-    write_index(manifest, cfg, index_path)
-    print(f"[{cfg['key']}] Wrote {index_path}")
+    index_changed = write_index(manifest, cfg, index_path)
+    print(f"[{cfg['key']}] {'Wrote' if index_changed else 'Unchanged'} {index_path}")
     print(
         "[{key}] Progress: {done}/{total} done, {pending} pending, "
         "{skipped} skipped, {error} error".format(key=cfg["key"], **manifest["stats"])

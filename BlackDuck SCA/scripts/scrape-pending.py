@@ -25,6 +25,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 from markdownify import markdownify as md
 
+from corpus_utils import content_hash, json_text, write_text_if_changed
 from products import (
     DEFAULT_PRODUCT_KEY,
     PRODUCTS,
@@ -83,9 +84,7 @@ def save_manifest(manifest: dict, path: Path) -> None:
         stats.setdefault(k, 0)
     manifest["stats"] = stats
     manifest["scrapedAt"] = now_iso()
-    path.write_text(
-        json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
-    )
+    write_text_if_changed(path, json_text(manifest))
 
 
 def is_batch_a(topic: dict) -> bool:
@@ -98,7 +97,9 @@ def is_batch_a(topic: dict) -> bool:
 
 
 def select_topics(manifest: dict, args: argparse.Namespace) -> list[dict]:
-    if args.all_pending:
+    if args.refresh_changed:
+        statuses = {"done"}
+    elif args.all_pending:
         statuses = {"pending"}
     elif args.retry_errors and args.include_pending:
         statuses = {"pending", "error"}
@@ -167,7 +168,9 @@ def html_to_markdown(html: str, title: str) -> str:
     return text
 
 
-def write_topic_md(topic: dict, body_md: str, scraped_at: str, version: str) -> Path:
+def write_topic_md(
+    topic: dict, body_md: str, scraped_at: str, version: str, digest: str
+) -> Path:
     rel = topic["localPath"]
     path = ROOT / rel
     out = win_long_path(path)
@@ -185,13 +188,14 @@ def write_topic_md(topic: dict, body_md: str, scraped_at: str, version: str) -> 
             f'version: "{yq(version)}"',
             f'section: "{yq(topic.get("section") or "")}"',
             f'scraped_at: "{scraped_at}"',
+            f'content_hash: "{digest}"',
             "---",
             "",
             body_md,
             "",
         ]
     )
-    out.write_text(fm, encoding="utf-8")
+    write_text_if_changed(out, fm)
     # Return logical relative path object for size/reporting
     return path
 
@@ -219,6 +223,7 @@ def scrape_product(cfg: dict, args: argparse.Namespace) -> int:
         return 0
 
     done = 0
+    unchanged = 0
     errors = 0
     version = manifest.get("version") or cfg["version"]
     for i, topic in enumerate(topics, 1):
@@ -229,10 +234,19 @@ def scrape_product(cfg: dict, args: argparse.Namespace) -> int:
             html = fetch_html(cfg, cid)
             body = html_to_markdown(html, title or "Untitled")
             scraped_at = now_iso()
-            path = write_topic_md(topic, body, scraped_at, version)
+            digest = content_hash("\n" + body)
+            if args.refresh_changed and topic.get("contentHash") == digest:
+                # Keep a no-op content check out of the corpus Git diff.
+                unchanged += 1
+                print("  -> unchanged")
+                time.sleep(args.delay)
+                continue
+            path = write_topic_md(topic, body, scraped_at, version, digest)
             topic["status"] = "done"
             topic["error"] = None
             topic["scrapedAt"] = scraped_at
+            topic["lastCheckedAt"] = scraped_at
+            topic["contentHash"] = digest
             topic["bytes"] = path.stat().st_size
             done += 1
             print(f"  -> {path.relative_to(ROOT)} ({topic['bytes']} bytes)")
@@ -249,13 +263,15 @@ def scrape_product(cfg: dict, args: argparse.Namespace) -> int:
             topic["error"] = str(e)
             errors += 1
             print(f"  !! {e}")
-        if i % 5 == 0 or i == len(topics):
-            save_manifest(manifest, manifest_path)
+        # Persist every completed transition so interruption loses no completed work.
+        save_manifest(manifest, manifest_path)
         time.sleep(args.delay)
 
-    save_manifest(manifest, manifest_path)
+    if done or errors:
+        save_manifest(manifest, manifest_path)
     print(
-        f"[{cfg['key']}] Finished: {done} done, {errors} error; stats={manifest['stats']}"
+        f"[{cfg['key']}] Finished: {done} updated, {unchanged} unchanged, "
+        f"{errors} error; stats={manifest['stats']}"
     )
     return 0 if errors == 0 else 1
 
@@ -279,6 +295,11 @@ def main() -> int:
     parser.add_argument("--limit", type=int, default=0)
     parser.add_argument("--delay", type=float, default=0.35, help="Seconds between requests")
     parser.add_argument("--retry-errors", action="store_true")
+    parser.add_argument(
+        "--refresh-changed",
+        action="store_true",
+        help="Opt in to checking done topics and rewriting only changed normalized content",
+    )
     parser.add_argument("--include-pending", action="store_true", help="With --retry-errors also do pending")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--list-products", action="store_true")
@@ -291,10 +312,10 @@ def main() -> int:
         return 0
 
     if not any(
-        [args.batch_a, args.all_pending, args.section, args.path_contains, args.retry_errors]
+        [args.batch_a, args.all_pending, args.section, args.path_contains, args.retry_errors, args.refresh_changed]
     ):
         parser.error(
-            "Specify --all-pending, --batch-a, --section, --path-contains, and/or --retry-errors"
+            "Specify --all-pending, --batch-a, --section, --path-contains, --retry-errors, and/or --refresh-changed"
         )
 
     cfg = get_product(args.product)

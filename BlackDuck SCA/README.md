@@ -140,7 +140,20 @@ Then update [CHECKPOINT.md](CHECKPOINT.md) if the counts or scope changed.
 
 ### 2. Existing pages were edited in place (same content ids)
 
-`--refresh-toc` will **not** re-fetch those. Status stays `done`. Reset the topics you care about, then scrape.
+`--refresh-toc` will **not** re-fetch those. Use the opt-in content check to
+compare every completed page with the official content API and rewrite only
+pages whose normalized Markdown hash changed:
+
+```powershell
+python scripts/scrape-pending.py --product blackduck-2026.7 --refresh-changed
+```
+
+This makes one network request per `done` topic. An unchanged page does not
+update the topic, manifest, or timestamp, so a no-op content check does not
+create a noisy corpus diff. New or re-scraped topics record the same SHA-256
+`content_hash` in their front matter and manifest. Older topic files are
+accepted as legacy hash records; the validator warns about them rather than
+rewriting the whole corpus just to backfill metadata.
 
 **One or a few pages** — in `sources/<product-key>/manifest.json`, set that topic's `"status"` to `"pending"`, then:
 
@@ -225,6 +238,13 @@ python scripts/scrape-pending.py --product blackduck-2026.7 --section "Black Duc
 python scripts/scrape-pending.py --product bridge-latest --path-contains "jenkins" --dry-run
 python scripts/scrape-pending.py --product alert-8.4.0 --retry-errors
 python scripts/scrape-pending.py --product detect-11.5.1 --all-pending --delay 0.5
+python scripts/scrape-pending.py --product blackduck-2026.7 --refresh-changed
+
+# Read-only validation and safe end-to-end refresh
+python scripts/validate-corpus.py --product all
+python scripts/refresh-corpus.py --dry-run
+python scripts/refresh-corpus.py --product detect-11.5.1
+python scripts/refresh-corpus.py --content-check
 ```
 
 PowerShell wrapper for the indexer:
@@ -235,6 +255,19 @@ PowerShell wrapper for the indexer:
 ```
 
 `--delay` (default `0.35` seconds) spaces requests. If you see HTTP 429, the scraper already sleeps 10 seconds; increase `--delay` and rerun `--retry-errors`.
+
+`validate-corpus.py` checks registry collisions, manifest totals/statuses,
+done-topic files and front matter, version/content-id/source consistency,
+recorded hashes, index progress/links, and orphan Markdown files. It is
+read-only and reports orphans without deleting them (`--fail-on-orphans` makes
+reported orphans an error).
+
+`refresh-corpus.py` refreshes the TOC, scrapes pending then error topics,
+rebuilds the selected indexes/hub, validates, and prints a scoped Git summary.
+It never deletes orphan files, commits, or pushes. A real run refuses to start
+when generated SCA files were already modified, protecting unrelated work;
+`--dry-run` is safe in a dirty checkout and performs no network calls or writes.
+It exits nonzero if any refresh step or validation fails.
 
 ---
 
