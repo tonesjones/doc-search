@@ -3,8 +3,8 @@
 
 Usage:
   python scripts/build-index.py                         # rebuild SCA index from manifest
-  python scripts/build-index.py --product detect-11.5.1 --init
-  python scripts/build-index.py --product detect-11.5.1 --refresh-toc
+  python scripts/build-index.py --product detect-12.0.0 --init
+  python scripts/build-index.py --product detect-12.0.0 --refresh-toc
   python scripts/build-index.py --product all --init     # init all registered products
   python scripts/build-index.py --list-products
 """
@@ -413,6 +413,8 @@ def write_hub_index() -> None:
                     "index": cfg["index_file"],
                     "phase": cfg.get("phase", 1),
                     "optional": cfg.get("optional", False),
+                    "answer_default": cfg.get("answer_default", False),
+                    "historical": cfg.get("historical", False),
                 }
             )
             continue
@@ -431,6 +433,8 @@ def write_hub_index() -> None:
                 "index": cfg["index_file"],
                 "phase": cfg.get("phase", 1),
                 "optional": cfg.get("optional", False),
+                "answer_default": cfg.get("answer_default", False),
+                "historical": cfg.get("historical", False),
             }
         )
 
@@ -468,15 +472,22 @@ def write_hub_index() -> None:
             if r.get("error"):
                 prog += f" · {r['error']} error"
             idx = f"[{r['index']}]({r['index']})"
-        note = "optional" if r.get("optional") else ("phase 1" if r["phase"] == 1 else "phase 2")
+        if r.get("optional"):
+            note = "optional"
+        elif r.get("answer_default"):
+            note = "default for unversioned questions"
+        elif r.get("historical"):
+            note = "historical/version-specific"
+        else:
+            note = "phase 1" if r["phase"] == 1 else "phase 2"
         a(f"| {r['title']} | {r['version']} | {prog} | {idx} | {note} |")
     a("")
     a("## How to scrape")
     a("")
     a("```powershell")
-    a("python scripts/build-index.py --product detect-11.5.1 --init")
-    a("python scripts/scrape-pending.py --product detect-11.5.1 --all-pending")
-    a("python scripts/build-index.py --product detect-11.5.1")
+    a("python scripts/build-index.py --product detect-12.0.0 --init")
+    a("python scripts/scrape-pending.py --product detect-12.0.0 --all-pending")
+    a("python scripts/build-index.py --product detect-12.0.0")
     a("```")
     a("")
     a("Registered product keys: `" + "`, `".join(PRODUCTS.keys()) + "`.")

@@ -9,14 +9,16 @@ The public help site is a JavaScript SPA. Opening a topic URL in a browser works
 | Product | Version | Topics | Browse from |
 |---------|---------|-------:|-------------|
 | Black Duck SCA (server / UI) | 2026.7 | 941 | [index.md](index.md) |
-| Black Duck Detect | 11.5.1 | 206 | [index-detect.md](index-detect.md) |
-| Black Duck Detect | 12.0.0 | 207 | [index-detect-12.0.0.md](index-detect-12.0.0.md) |
+| Black Duck Detect | 12.0.0 (default) | 207 | [index-detect.md](index-detect.md) |
+| Black Duck Detect | 11.5.1 (historical) | 206 | [index-detect-11.5.1.md](index-detect-11.5.1.md) |
 | Black Duck Alert | 8.4.0 | 45 | [index-alert.md](index-alert.md) |
 | Bridge CLI | latest | 174 | [index-bridge.md](index-bridge.md) |
 | Black Duck C/CPP Tool | latest | 20 | [index-c-cpp-tool.md](index-c-cpp-tool.md) |
 | Black Duck SCA MCP Server | GitHub `main` snapshot | 2 | [index-sca-mcp.md](index-sca-mcp.md) |
 
 **1,595 topics** in `docs/`. Progress hub: [corpus-status.md](corpus-status.md). Bridge SRM integration documentation remains separate from the standalone SRM corpus.
+
+For Detect, use [the default routing page](index-detect.md): it selects 12.0.0 unless a question names 11.5.1. The [11.5.1-to-12.0.0 comparison](index-detect-11.5.1-to-12.0.0.md) is available for version-delta questions.
 
 This is a convenience mirror for RAG and local lookup. Official docs remain the source of truth if this snapshot and the live site disagree.
 
@@ -34,7 +36,9 @@ docs/                  # Topic bodies (one official topic → one .md file)
   scanning-best-practices/ reporting-database/ release-notes/
   detect/ alert/ bridge/ c-cpp-tool/ sca-mcp/
 index.md               # Full SCA catalog (generated — do not hand-edit rows)
-index-detect.md        # Detect catalog
+index-detect.md        # Detect default routing page (12.0.0)
+index-detect-12.0.0.md # Detect 12.0.0 catalog
+index-detect-11.5.1.md # Detect 11.5.1 historical catalog
 index-alert.md         # Alert catalog
 index-bridge.md        # Bridge catalog
 index-c-cpp-tool.md    # C/CPP Tool catalog
@@ -57,7 +61,7 @@ Each topic file starts with YAML front matter (`title`, `source_url`, `content_i
 2. Follow links into `docs/…`, or search the tree (IDE search, `rg`, GitHub search).
 3. Route by product:
    - SCA server/UI, BOM, policy, install, reporting → `docs/help-center/`, install folders, [index.md](index.md)
-   - Detect client, detectors, properties → `docs/detect/`, [index-detect.md](index-detect.md)
+   - Detect client, detectors, properties → [index-detect.md](index-detect.md), which routes unversioned questions to `docs/detect-12.0.0/`
    - Alert channels / providers → `docs/alert/`, [index-alert.md](index-alert.md)
    - Bridge CLI / CI scan plugins → `docs/bridge/`, [index-bridge.md](index-bridge.md)
    - C/C++ BOM via blackduck-c-cpp → `docs/c-cpp-tool/`, [index-c-cpp-tool.md](index-c-cpp-tool.md)
@@ -108,8 +112,8 @@ Registered product keys:
 | Key | Product | Docs live under |
 |-----|---------|-----------------|
 | `blackduck-2026.7` | SCA 2026.7 | section folders under `docs/` |
-| `detect-11.5.1` | Detect 11.5.1 | `docs/detect/` |
-| `detect-12.0.0` | Detect 12.0.0 | `docs/detect-12.0.0/` |
+| `detect-12.0.0` | Detect 12.0.0 — default for unversioned questions | `docs/detect-12.0.0/` |
+| `detect-11.5.1` | Detect 11.5.1 — historical/version-specific | `docs/detect/` |
 | `alert-8.4.0` | Alert 8.4.0 | `docs/alert/` |
 | `bridge-latest` | Bridge CLI | `docs/bridge/` |
 | `c-cpp-tool-latest` | Black Duck Tools map (C/CPP Tool and KnowledgeBase Vulnerability Feed Server) | `docs/c-cpp-tool/` and `docs/knowledgebase-vulnerability-feed-server/` |
@@ -126,15 +130,15 @@ python scripts/build-index.py --list-products
 `--refresh-toc` re-downloads the table of contents and **keeps existing `done` statuses by content id**. New topics become `pending`. Removed topics drop out of the manifest. Already-scraped files are **not** re-downloaded.
 
 ```powershell
-python scripts/build-index.py --product detect-11.5.1 --refresh-toc --hub
-python scripts/scrape-pending.py --product detect-11.5.1 --all-pending
-python scripts/build-index.py --product detect-11.5.1 --hub
+python scripts/build-index.py --product detect-12.0.0 --refresh-toc --hub
+python scripts/scrape-pending.py --product detect-12.0.0 --all-pending
+python scripts/build-index.py --product detect-12.0.0 --hub
 ```
 
 Preview first (no writes):
 
 ```powershell
-python scripts/scrape-pending.py --product detect-11.5.1 --all-pending --dry-run
+python scripts/scrape-pending.py --product detect-12.0.0 --all-pending --dry-run
 ```
 
 Then update [CHECKPOINT.md](CHECKPOINT.md) if the counts or scope changed.
@@ -229,22 +233,22 @@ Do **not** hand-edit topic rows in `index.md` / `index-*.md` / `corpus-status.md
 # Indexes / TOC
 python scripts/build-index.py --list-products
 python scripts/build-index.py --product blackduck-2026.7
-python scripts/build-index.py --product detect-11.5.1 --init
-python scripts/build-index.py --product detect-11.5.1 --refresh-toc --hub
+python scripts/build-index.py --product detect-12.0.0 --init
+python scripts/build-index.py --product detect-12.0.0 --refresh-toc --hub
 python scripts/build-index.py --product all --hub
 
 # Scrape
-python scripts/scrape-pending.py --product detect-11.5.1 --all-pending
+python scripts/scrape-pending.py --product detect-12.0.0 --all-pending
 python scripts/scrape-pending.py --product blackduck-2026.7 --section "Black Duck SCA Help Center" --limit 20
 python scripts/scrape-pending.py --product bridge-latest --path-contains "jenkins" --dry-run
 python scripts/scrape-pending.py --product alert-8.4.0 --retry-errors
-python scripts/scrape-pending.py --product detect-11.5.1 --all-pending --delay 0.5
+python scripts/scrape-pending.py --product detect-12.0.0 --all-pending --delay 0.5
 python scripts/scrape-pending.py --product blackduck-2026.7 --refresh-changed
 
 # Read-only validation and safe end-to-end refresh
 python scripts/validate-corpus.py --product all
 python scripts/refresh-corpus.py --dry-run
-python scripts/refresh-corpus.py --product detect-11.5.1
+python scripts/refresh-corpus.py --product detect-12.0.0
 python scripts/refresh-corpus.py --content-check
 ```
 
@@ -252,7 +256,7 @@ PowerShell wrapper for the indexer:
 
 ```powershell
 .\scripts\build-index.ps1 -ListProducts
-.\scripts\build-index.ps1 -Product detect-11.5.1 -RefreshToc -Hub
+.\scripts\build-index.ps1 -Product detect-12.0.0 -RefreshToc -Hub
 ```
 
 `--delay` (default `0.35` seconds) spaces requests. If you see HTTP 429, the scraper already sleeps 10 seconds; increase `--delay` and rerun `--retry-errors`.

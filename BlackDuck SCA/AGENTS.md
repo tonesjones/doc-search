@@ -44,7 +44,8 @@ Do **not** treat random blog posts or third-party summaries as authoritative whe
 
 | Product | Key | Version | Map ID | Topics | Docs | Index |
 |---------|-----|---------|--------|-------:|------|-------|
-| Black Duck Detect | `detect-11.5.1` | **11.5.1** | `bMVbOgKqSRm_N11~2Mv5gg` | **206** | `docs/detect/` | `index-detect.md` |
+| Black Duck Detect | `detect-12.0.0` | **12.0.0** (default for unversioned questions) | `j_bSwuxnjHv5ElV~TQrAQg` | **207** | `docs/detect-12.0.0/` | `index-detect.md` → `index-detect-12.0.0.md` |
+| Black Duck Detect | `detect-11.5.1` | **11.5.1** (historical) | `bMVbOgKqSRm_N11~2Mv5gg` | **206** | `docs/detect/` | `index-detect-11.5.1.md` |
 | Black Duck Alert | `alert-8.4.0` | **8.4.0** | `QEB0e_qPG~BdIwQfv5eDZQ` | **45** | `docs/alert/` | `index-alert.md` |
 | Bridge CLI | `bridge-latest` | **latest** | `ilBVZr_kR5v3KVjK1p~wbw` | **174** | `docs/bridge/` | `index-bridge.md` |
 | Black Duck C/CPP Tool | `c-cpp-tool-latest` | **latest** | `2GUQEgoyKxsQAcOtWsqdDA` | **20** | `docs/c-cpp-tool/` | `index-c-cpp-tool.md` |
@@ -81,7 +82,10 @@ GET https://docs.blackduck.com/api/khub/maps/{mapId}/topics/{contentId}/content
   CHECKPOINT.md                  # Session handoff: where we left off, next steps
   corpus-status.md               # Multi-product progress hub (generated)
   index.md                       # SCA 2026.7 catalog (do not hand-edit topic rows)
-  index-detect.md                # Detect catalog
+  index-detect.md                # Detect default routing page (12.0.0)
+  index-detect-12.0.0.md         # Detect 12.0.0 catalog
+  index-detect-11.5.1.md         # Detect 11.5.1 historical catalog
+  index-detect-11.5.1-to-12.0.0.md # generated version comparison
   index-alert.md                 # Alert catalog
   index-bridge.md                # Bridge catalog
   index-c-cpp-tool.md            # C/CPP Tool catalog
@@ -96,6 +100,7 @@ GET https://docs.blackduck.com/api/khub/maps/{mapId}/topics/{contentId}/content
     blackduck-2026.7/            # toc.json + manifest.json
     openapi/<version>/           # server-generated public REST API snapshots
     detect-11.5.1/
+    detect-12.0.0/
     alert-8.4.0/
     bridge-latest/
     c-cpp-tool-latest/
@@ -158,11 +163,11 @@ scraped_at: "ISO-8601"
 2. **Route by product:**
    - SCA server/UI, BOM, policy, install, reporting → `docs/help-center/`, install, architecture, `index.md`
    - Exact SCA REST endpoint contracts → relevant `docs/api/` guidance plus `sources/openapi/<version>/openapi3-public.json`
-   - Detect client, detectors, properties, scripts → `docs/detect/`, `index-detect.md`
+   - Detect client, detectors, properties, scripts → `index-detect.md`, then `docs/detect-12.0.0/` by default. Use `docs/detect/` only when 11.5.1 is named; use `index-detect-11.5.1-to-12.0.0.md` for a version comparison.
    - Alert channels / providers → `docs/alert/`, `index-alert.md`
    - Bridge CLI / CI security scan plugins → `docs/bridge/`, `index-bridge.md`
    - C/C++ BOM via blackduck-c-cpp / Coverity Build Capture → `docs/c-cpp-tool/`, `index-c-cpp-tool.md`
-3. **Cite paths** when answering (e.g. `docs/detect/planning-and-running-detect.md`) so answers are verifiable.
+3. **Cite paths** when answering (e.g. `docs/detect-12.0.0/planning-and-running-detect.md`) so answers are verifiable.
    For OpenAPI evidence, cite the JSON path and state its version. Treat explicit paths,
    methods, media types, examples, and limits as documented; do not invent undocumented
    status-code meanings or schemas.

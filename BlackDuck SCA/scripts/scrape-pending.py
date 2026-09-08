@@ -2,7 +2,7 @@
 """Scrape pending Black Duck doc topics via Fluid Topics content API.
 
 Examples:
-  python scripts/scrape-pending.py --product detect-11.5.1 --all-pending
+  python scripts/scrape-pending.py --product detect-12.0.0 --all-pending
   python scripts/scrape-pending.py --product alert-8.4.0 --all-pending
   python scripts/scrape-pending.py --batch-a
   python scripts/scrape-pending.py --section "Black Duck SCA Help Center" --limit 20

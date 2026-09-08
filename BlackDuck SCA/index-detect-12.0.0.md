@@ -15,7 +15,7 @@
 | Last index build | 2026-09-07T21:17:36.336417+00:00 |
 | Manifest | [sources/detect-12.0.0/manifest.json](sources/detect-12.0.0/manifest.json) |
 | Raw TOC | [sources/detect-12.0.0/toc.json](sources/detect-12.0.0/toc.json) |
-| Docs root | `docs/detect-12.0.0/` |
+| Docs roots | `docs/detect-12.0.0/` |
 
 ### Status legend
 

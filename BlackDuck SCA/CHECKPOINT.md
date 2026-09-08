@@ -1,6 +1,6 @@
 # Session checkpoint
 
-**Last updated:** 2026-09-08 (Black Duck Tools / KnowledgeBase Vulnerability Feed Server branch completed)
+**Last updated:** 2026-09-08 (Detect version routing and comparison policy added)
 **Status:** **DONE for now** — use local corpus for Q&A; no additional scrape is pending in the current scope.
 **Primary corpus:** Black Duck Documentation **2026.7** — **941/941 done**  
 **Companions:** Detect 11.5.1 **206/206** · Detect 12.0.0 **207/207** · Alert **45/45** · Bridge **174/174** · C/CPP Tool **20/20**
@@ -18,6 +18,12 @@
 - Its 286-topic snapshot, source metadata, index, and scraper tooling are no longer part of the Black Duck SCA corpus.
 
 Read this file at the start of every new session.
+
+## Detect version routing policy — 2026-09-08
+
+- Keep both immutable major-version snapshots: Detect 12.0.0 is the default for unversioned questions; Detect 11.5.1 is historical and is used only when that version is named or for comparison.
+- `index-detect.md` is the default routing page. Generated catalogs are explicit: `index-detect-12.0.0.md` and `index-detect-11.5.1.md`.
+- Regenerate `index-detect-11.5.1-to-12.0.0.md` with `python scripts/build-version-diff.py --from detect-11.5.1 --to detect-12.0.0 --output index-detect-11.5.1-to-12.0.0.md`. Use release notes first for semantic change questions.
 
 ## Black Duck Tools / KnowledgeBase Vulnerability Feed Server update — 2026-09-08
 
@@ -48,7 +54,8 @@ Missing maps below are **intentionally deferred**, not incomplete work.
 | Product | Key | Version | Progress | Docs | Index |
 |---------|-----|---------|----------|------|-------|
 | Black Duck SCA (server/UI) | `blackduck-2026.7` | 2026.7 | **941/941** | `docs/help-center/`, install, API, architecture, release-notes, … | `index.md` |
-| Black Duck Detect | `detect-11.5.1` | 11.5.1 | **206/206** | `docs/detect/` | `index-detect.md` |
+| Black Duck Detect | `detect-12.0.0` | 12.0.0 **default** | **207/207** | `docs/detect-12.0.0/` | `index-detect.md` / `index-detect-12.0.0.md` |
+| Black Duck Detect | `detect-11.5.1` | 11.5.1 historical | **206/206** | `docs/detect/` | `index-detect-11.5.1.md` |
 | Black Duck Alert | `alert-8.4.0` | 8.4.0 | **45/45** | `docs/alert/` | `index-alert.md` |
 | Bridge CLI | `bridge-latest` | latest | **174/174** | `docs/bridge/` | `index-bridge.md` |
 | Black Duck C/CPP Tool | `c-cpp-tool-latest` | latest | **20/20** | `docs/c-cpp-tool/` | `index-c-cpp-tool.md` |
@@ -100,7 +107,7 @@ If any of the above is needed later: add/init the map (or use existing `airgap-k
 
 ```powershell
 python scripts/build-index.py --list-products
-python scripts/build-index.py --product detect-11.5.1
+python scripts/build-index.py --product detect-12.0.0
 python scripts/scrape-pending.py --product bridge-latest --retry-errors
 ```
 
