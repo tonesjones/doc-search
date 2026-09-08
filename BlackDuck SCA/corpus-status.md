@@ -12,6 +12,7 @@
 | Black Duck Alert | 8.4.0 | **45/45** (100.0%) | [index-alert.md](index-alert.md) | phase 2 |
 | Bridge CLI | latest | **174/174** (100.0%) | [index-bridge.md](index-bridge.md) | phase 2 |
 | Black Duck C/CPP Tool | latest | **14/20** (70.0%) | [index-c-cpp-tool.md](index-c-cpp-tool.md) | phase 2 |
+| Black Duck SCA MCP Server | GitHub `main` snapshot | **2/2** (100.0%) | [index-sca-mcp.md](index-sca-mcp.md) | official GitHub source |
 | Black Duck Air-gapped KnowledgeBase | latest | not initialized | — | optional |
 
 ## How to scrape
@@ -22,7 +23,7 @@ python scripts/scrape-pending.py --product detect-11.5.1 --all-pending
 python scripts/build-index.py --product detect-11.5.1
 ```
 
-Registered product keys: `blackduck-2026.7`, `detect-11.5.1`, `detect-12.0.0`, `alert-8.4.0`, `bridge-latest`, `c-cpp-tool-latest`, `airgap-kb-latest`.
+Registered product keys: `blackduck-2026.7`, `detect-11.5.1`, `detect-12.0.0`, `alert-8.4.0`, `bridge-latest`, `c-cpp-tool-latest`, `sca-mcp-latest`, `airgap-kb-latest`.
 
 ---
 

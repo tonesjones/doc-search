@@ -6,6 +6,12 @@
 **Companions:** Detect 11.5.1 **206/206** · Detect 12.0.0 **207/207** · Alert **45/45** · Bridge **174/174** · C/CPP Tool **14/14** (6 Tools siblings skipped)
 **Grand total in corpus:** **1,587** topics
 
+## Black Duck SCA MCP Server source — 2026-09-08
+
+- Added the official GitHub documentation snapshot under `docs/sca-mcp/` with its own manifest and index.
+- Source is `blackducksoftware/sca-mcp` commit `6dac85b23b14899dc6c463a1021171356f381570`; it is a GitHub source, not a Fluid Topics map.
+- The snapshot contains the maintained README and security policy. Refresh it from the upstream repository, not with the Fluid Topics scraper.
+
 ## Software Risk Manager corpus boundary correction — 2026-09-08
 
 - SRM was moved to the standalone sibling corpus at `C:\TestCode\Product Docs\SRM`.

@@ -1,0 +1,30 @@
+{
+  "productKey": "sca-mcp-latest",
+  "sourceType": "github",
+  "repository": "https://github.com/blackducksoftware/sca-mcp",
+  "commit": "6dac85b23b14899dc6c463a1021171356f381570",
+  "mapId": "https://github.com/blackducksoftware/sca-mcp",
+  "version": "main@6dac85b23b14899dc6c463a1021171356f381570",
+  "docsRoot": "sca-mcp",
+  "stats": {"total": 2, "pending": 0, "done": 2, "skipped": 0, "error": 0},
+  "topics": [
+    {
+      "id": "README.md",
+      "title": "Black Duck SCA MCP Server",
+      "section": "Black Duck SCA MCP Server",
+      "sourceUrl": "https://raw.githubusercontent.com/blackducksoftware/sca-mcp/6dac85b23b14899dc6c463a1021171356f381570/README.md",
+      "localPath": "docs/sca-mcp/black-duck-sca-mcp-server.md",
+      "status": "done",
+      "contentHash": "18a6d2d77e820750fe0d64b290ea7a3e0a5a12ce5bee6e166ddf4a9fd894fda8"
+    },
+    {
+      "id": "SECURITY.md",
+      "title": "Black Duck SCA MCP Server Security Policy",
+      "section": "Black Duck SCA MCP Server",
+      "sourceUrl": "https://raw.githubusercontent.com/blackducksoftware/sca-mcp/6dac85b23b14899dc6c463a1021171356f381570/SECURITY.md",
+      "localPath": "docs/sca-mcp/security-policy.md",
+      "status": "done",
+      "contentHash": "db528984fbfd6370b3e094e4eedaa59f410453f9e31993f92695f8e44a9c578a"
+    }
+  ]
+}

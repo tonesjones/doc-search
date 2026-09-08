@@ -48,6 +48,7 @@ Do **not** treat random blog posts or third-party summaries as authoritative whe
 | Black Duck Alert | `alert-8.4.0` | **8.4.0** | `QEB0e_qPG~BdIwQfv5eDZQ` | **45** | `docs/alert/` | `index-alert.md` |
 | Bridge CLI | `bridge-latest` | **latest** | `ilBVZr_kR5v3KVjK1p~wbw` | **174** | `docs/bridge/` | `index-bridge.md` |
 | Black Duck C/CPP Tool | `c-cpp-tool-latest` | **latest** | `2GUQEgoyKxsQAcOtWsqdDA` | **14** (6 Tools siblings skipped) | `docs/c-cpp-tool/` | `index-c-cpp-tool.md` |
+| Black Duck SCA MCP Server | `sca-mcp-latest` | GitHub `main` snapshot | `blackducksoftware/sca-mcp` | **2** | `docs/sca-mcp/` | `index-sca-mcp.md` |
 | Air-gapped KnowledgeBase | `airgap-kb-latest` | latest | `YsDtm_HKwGM6efkx~2HVvQ` | ~15 **deferred** (not scraped; not needed for current use) | — | — |
 
 **Sibling corpora** (do not scrape into this SCA tree):
@@ -90,6 +91,7 @@ GET https://docs.blackduck.com/api/khub/maps/{mapId}/topics/{contentId}/content
     alert/
     bridge/
     c-cpp-tool/
+    sca-mcp/
   sources/
     blackduck-2026.7/            # toc.json + manifest.json
     openapi/<version>/           # server-generated public REST API snapshots
@@ -97,6 +99,7 @@ GET https://docs.blackduck.com/api/khub/maps/{mapId}/topics/{contentId}/content
     alert-8.4.0/
     bridge-latest/
     c-cpp-tool-latest/
+    sca-mcp-latest/              # GitHub-source manifest; not a Fluid Topics map
   scripts/
     products.py                  # Product/map registry
     build-index.py               # Init TOC + regenerate indexes (--product)

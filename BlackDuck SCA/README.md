@@ -14,6 +14,7 @@ The public help site is a JavaScript SPA. Opening a topic URL in a browser works
 | Black Duck Alert | 8.4.0 | 45 | [index-alert.md](index-alert.md) |
 | Bridge CLI | latest | 174 | [index-bridge.md](index-bridge.md) |
 | Black Duck C/CPP Tool | latest | 14 | [index-c-cpp-tool.md](index-c-cpp-tool.md) |
+| Black Duck SCA MCP Server | GitHub `main` snapshot | 2 | [index-sca-mcp.md](index-sca-mcp.md) |
 
 **1,587 topics** in `docs/`. Progress hub: [corpus-status.md](corpus-status.md). Bridge SRM integration documentation remains separate from the standalone SRM corpus.
 
@@ -31,7 +32,7 @@ docs/                  # Topic bodies (one official topic → one .md file)
   getting-started/ api/ architecture/ architecture-hosted/
   install-kubernetes/ install-docker-swarm/
   scanning-best-practices/ reporting-database/ release-notes/
-  detect/ alert/ bridge/ c-cpp-tool/
+  detect/ alert/ bridge/ c-cpp-tool/ sca-mcp/
 index.md               # Full SCA catalog (generated — do not hand-edit rows)
 index-detect.md        # Detect catalog
 index-alert.md         # Alert catalog
