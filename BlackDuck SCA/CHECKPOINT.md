@@ -1,10 +1,10 @@
 # Session checkpoint
 
-**Last updated:** 2026-09-08 (SRM moved to a standalone sibling corpus)
-**Status:** **DONE for now** — use local corpus for Q&A; do not scrape more unless the user reopens scope.  
+**Last updated:** 2026-09-08 (Black Duck Tools / KnowledgeBase Vulnerability Feed Server branch completed)
+**Status:** **DONE for now** — use local corpus for Q&A; no additional scrape is pending in the current scope.
 **Primary corpus:** Black Duck Documentation **2026.7** — **941/941 done**  
-**Companions:** Detect 11.5.1 **206/206** · Detect 12.0.0 **207/207** · Alert **45/45** · Bridge **174/174** · C/CPP Tool **14/14** (6 Tools siblings skipped)
-**Grand total in corpus:** **1,587** topics
+**Companions:** Detect 11.5.1 **206/206** · Detect 12.0.0 **207/207** · Alert **45/45** · Bridge **174/174** · C/CPP Tool **20/20**
+**Grand total in corpus:** **1,595** topics
 
 ## Black Duck SCA MCP Server source — 2026-09-08
 
@@ -18,6 +18,12 @@
 - Its 286-topic snapshot, source metadata, index, and scraper tooling are no longer part of the Black Duck SCA corpus.
 
 Read this file at the start of every new session.
+
+## Black Duck Tools / KnowledgeBase Vulnerability Feed Server update — 2026-09-08
+
+- Reopened the six previously skipped topics in the `c-cpp-tool-latest` map (`2GUQEgoyKxsQAcOtWsqdDA`), including the two parent topics: Black Duck Tools; KnowledgeBase Vulnerability Feed Server; Common Security Advisory Framework (CSAF); Usage Guide; Authentication; and Rate Limiting.
+- Scraped all six through the documented Fluid Topics TOC/content APIs with **0 errors**. The C/CPP Tool manifest is now **20/20 done**, with **0 pending**, **0 skipped**, and **0 errors**.
+- Rebuilt `index-c-cpp-tool.md` and `corpus-status.md`. No commit or push was performed.
 
 ---
 
@@ -44,7 +50,7 @@ Missing maps below are **intentionally deferred**, not incomplete work.
 | Black Duck Detect | `detect-11.5.1` | 11.5.1 | **206/206** | `docs/detect/` | `index-detect.md` |
 | Black Duck Alert | `alert-8.4.0` | 8.4.0 | **45/45** | `docs/alert/` | `index-alert.md` |
 | Bridge CLI | `bridge-latest` | latest | **174/174** | `docs/bridge/` | `index-bridge.md` |
-| Black Duck C/CPP Tool | `c-cpp-tool-latest` | latest | **14/20** (6 skipped) | `docs/c-cpp-tool/` | `index-c-cpp-tool.md` |
+| Black Duck C/CPP Tool | `c-cpp-tool-latest` | latest | **20/20** | `docs/c-cpp-tool/` | `index-c-cpp-tool.md` |
 
 **Hub:** `corpus-status.md`
 
@@ -64,7 +70,6 @@ Route Coverity / Polaris questions to those checkouts. Do not copy or scrape the
 |---------------|-------------|--------:|--------------|
 | **Air-gapped KnowledgeBase** | `airgap-kb-latest` · map `YsDtm_HKwGM6efkx~2HVvQ` · registered in `scripts/products.py` but never initialized | ~15 | Optional corner case (offline KB). User: not needed right now. |
 | **BDBA** (Binary Analysis) | Not registered | — | Out of scope unless re-requested |
-| **Black Duck Tools** (rest of map) | Same map as C/CPP (`2GUQEgoyKxsQAcOtWsqdDA`) | 6 skipped | KB Vulnerability Feed Server left unscraped; C/CPP chapter is in corpus |
 | **SCASS MCP Server** | Other Tools map `3JcuocdfP6Yh0iupxpNOwQ` | — | Not the map the SCA portal link opens |
 | **Artifactory** plugin docs | Not registered | — | Out of scope |
 | **Code Sight** | Not registered | — | Out of scope |
@@ -131,7 +136,7 @@ python scripts/build-index.py --product airgap-kb-latest --hub
 - [x] Detect 11.5.1 — scrape (206)  
 - [x] Alert 8.4.0 — scrape (45)  
 - [x] Bridge CLI latest — scrape (174)  
-- [x] C/CPP Tool chapter — scrape (14; 6 Tools siblings skipped)  
+- [x] C/CPP Tool and KnowledgeBase Vulnerability Feed Server — scrape (20)
 - [x] Rebuild indexes / hub  
 - [x] Update `AGENTS.md` + this checkpoint  
 - [x] **User decision:** no further scrape for now  

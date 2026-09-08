@@ -47,7 +47,7 @@ Do **not** treat random blog posts or third-party summaries as authoritative whe
 | Black Duck Detect | `detect-11.5.1` | **11.5.1** | `bMVbOgKqSRm_N11~2Mv5gg` | **206** | `docs/detect/` | `index-detect.md` |
 | Black Duck Alert | `alert-8.4.0` | **8.4.0** | `QEB0e_qPG~BdIwQfv5eDZQ` | **45** | `docs/alert/` | `index-alert.md` |
 | Bridge CLI | `bridge-latest` | **latest** | `ilBVZr_kR5v3KVjK1p~wbw` | **174** | `docs/bridge/` | `index-bridge.md` |
-| Black Duck C/CPP Tool | `c-cpp-tool-latest` | **latest** | `2GUQEgoyKxsQAcOtWsqdDA` | **14** (6 Tools siblings skipped) | `docs/c-cpp-tool/` | `index-c-cpp-tool.md` |
+| Black Duck C/CPP Tool | `c-cpp-tool-latest` | **latest** | `2GUQEgoyKxsQAcOtWsqdDA` | **20** | `docs/c-cpp-tool/` | `index-c-cpp-tool.md` |
 | Black Duck SCA MCP Server | `sca-mcp-latest` | GitHub `main` snapshot | `blackducksoftware/sca-mcp` | **2** | `docs/sca-mcp/` | `index-sca-mcp.md` |
 | Air-gapped KnowledgeBase | `airgap-kb-latest` | latest | `YsDtm_HKwGM6efkx~2HVvQ` | ~15 **deferred** (not scraped; not needed for current use) | — | — |
 
@@ -59,10 +59,10 @@ Do **not** treat random blog posts or third-party summaries as authoritative whe
 | Polaris | `C:\TestCode\Product Docs\Polaris` |
 | Software Risk Manager | `C:\TestCode\Product Docs\SRM` |
 
-**Intentionally not scraped yet** (user: not needed right now): Air-gapped KB; remainder of Black Duck Tools (KB Vulnerability Feed Server); BDBA; Artifactory; Code Sight; Defensics; Seeker; Sigma; Signal; Portal; older SCA versions; non-English locales. See **`CHECKPOINT.md`**. Do not scrape these unless the user reopens scope.
+**Intentionally not scraped yet** (user: not needed right now): Air-gapped KB; BDBA; Artifactory; Code Sight; Defensics; Seeker; Sigma; Signal; Portal; older SCA versions; non-English locales. See **`CHECKPOINT.md`**. Do not scrape these unless the user reopens scope.
 
 Hub progress table: **`corpus-status.md`**. Session handoff: **`CHECKPOINT.md`**.  
-**Scrape status:** core scope complete (**1,587** topics). Prefer answering from local Markdown; no pending required scrape work. Bridge SRM-integration topics remain in `docs/bridge/`; standalone SRM documentation is in the sibling `SRM/` corpus.
+**Scrape status:** core scope complete (**1,595** topics). Prefer answering from local Markdown; no pending required scrape work. Bridge SRM-integration topics remain in `docs/bridge/`; standalone SRM documentation is in the sibling `SRM/` corpus.
 
 The public site is a **JavaScript SPA** (Fluid Topics). A plain page fetch only returns "Loading application...". **Always use the TOC/content APIs** for structure and bodies.
 

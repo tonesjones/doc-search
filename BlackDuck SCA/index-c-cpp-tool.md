@@ -11,7 +11,7 @@
 | Version | **latest** |
 | Map ID | `2GUQEgoyKxsQAcOtWsqdDA` |
 | TOC nodes | **20** |
-| Progress | **14/20 done** (70.0%) · 0 pending · 6 skipped · 0 error |
+| Progress | **20/20 done** (100.0%) · 0 pending · 0 skipped · 0 error |
 | Last index build | 2026-08-13T16:17:07.357586+00:00 |
 | Manifest | [sources/c-cpp-tool-latest/manifest.json](sources/c-cpp-tool-latest/manifest.json) |
 | Raw TOC | [sources/c-cpp-tool-latest/toc.json](sources/c-cpp-tool-latest/toc.json) |
@@ -43,12 +43,12 @@ https://docs.blackduck.com/api/khub/maps/2GUQEgoyKxsQAcOtWsqdDA/topics/{contentI
 | Section | Topics | Pending | Done | Skipped | Error | Local root |
 |---------|--------|---------|------|---------|-------|------------|
 | Black Duck C/CPP Tool | 14 | 0 | 14 | 0 | 0 | `docs/c-cpp-tool/black-duck-c-cpp-tool/` |
-| KnowledgeBase Vulnerability Feed Server | 5 | 0 | 0 | 5 | 0 | `docs/c-cpp-tool/knowledgebase-vulnerability-feed-server/` |
-| Black Duck Tools | 1 | 0 | 0 | 1 | 0 | `docs/c-cpp-tool/black-duck-tools/` |
+| KnowledgeBase Vulnerability Feed Server | 5 | 0 | 5 | 0 | 0 | `docs/c-cpp-tool/knowledgebase-vulnerability-feed-server/` |
+| Black Duck Tools | 1 | 0 | 1 | 0 | 0 | `docs/c-cpp-tool/black-duck-tools/` |
 
 ## Table of contents
 
-- [-] [Black Duck Tools](docs/c-cpp-tool/black-duck-tools.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/black-duck-tools.html)
+- [x] [Black Duck Tools](docs/c-cpp-tool/black-duck-tools.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/black-duck-tools.html)
 - [x] [Black Duck C/CPP Tool](docs/c-cpp-tool/black-duck-c-cpp-tool.md) _(+9)_ · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/black-duck-c/cpp-tool.html)
   - [x] [Black Duck C/CPP tool overview](docs/c-cpp-tool/black-duck-c-cpp-tool/black-duck-c-cpp-tool-overview.md) _(+2)_ · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/black-duck-c/cpp-tool-overview.html)
     - [x] [Black Duck C/CPP tool quickstart guide](docs/c-cpp-tool/black-duck-c-cpp-tool/black-duck-c-cpp-tool-overview/black-duck-c-cpp-tool-quickstart-guide.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/black-duck-c/cpp-tool-quickstart-guide.html)
@@ -63,11 +63,11 @@ https://docs.blackduck.com/api/khub/maps/2GUQEgoyKxsQAcOtWsqdDA/topics/{contentI
   - [x] [The BOM](docs/c-cpp-tool/black-duck-c-cpp-tool/the-bom.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/the-bom.html)
   - [x] [Frequently asked questions](docs/c-cpp-tool/black-duck-c-cpp-tool/frequently-asked-questions.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/frequently-asked-questions.html)
   - [x] [Black Duck C/CPP tool release notes](docs/c-cpp-tool/black-duck-c-cpp-tool/black-duck-c-cpp-tool-release-notes.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/black-duck-c/cpp-tool-release-notes.html)
-- [-] [KnowledgeBase Vulnerability Feed Server](docs/c-cpp-tool/knowledgebase-vulnerability-feed-server.md) _(+4)_ · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/knowledgebase-vulnerability-feed-server.html)
-  - [-] [Common Security Advisory Framework (CSAF)](docs/c-cpp-tool/knowledgebase-vulnerability-feed-server/common-security-advisory-framework-csaf.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/common-security-advisory-framework-csaf-.html)
-  - [-] [Usage Guide](docs/c-cpp-tool/knowledgebase-vulnerability-feed-server/usage-guide.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/usage-guide.html)
-  - [-] [Authentication](docs/c-cpp-tool/knowledgebase-vulnerability-feed-server/authentication.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/authentication.html)
-  - [-] [Rate Limiting](docs/c-cpp-tool/knowledgebase-vulnerability-feed-server/rate-limiting.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/rate-limiting.html)
+- [x] [KnowledgeBase Vulnerability Feed Server](docs/c-cpp-tool/knowledgebase-vulnerability-feed-server.md) _(+4)_ · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/knowledgebase-vulnerability-feed-server.html)
+  - [x] [Common Security Advisory Framework (CSAF)](docs/c-cpp-tool/knowledgebase-vulnerability-feed-server/common-security-advisory-framework-csaf.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/common-security-advisory-framework-csaf-.html)
+  - [x] [Usage Guide](docs/c-cpp-tool/knowledgebase-vulnerability-feed-server/usage-guide.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/usage-guide.html)
+  - [x] [Authentication](docs/c-cpp-tool/knowledgebase-vulnerability-feed-server/authentication.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/authentication.html)
+  - [x] [Rate Limiting](docs/c-cpp-tool/knowledgebase-vulnerability-feed-server/rate-limiting.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/rate-limiting.html)
 
 ---
 

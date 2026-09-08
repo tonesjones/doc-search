@@ -10,7 +10,7 @@
   "docsRoot": "c-cpp-tool",
   "lastIndexBuild": "2026-08-13T16:17:07.357586+00:00",
   "lastTocFetch": "2026-08-13T16:16:10.686191+00:00",
-  "scrapedAt": "2026-08-13T16:16:59.928471+00:00",
+  "scrapedAt": "2026-09-08T21:26:29.423997+00:00",
   "statusValues": [
     "pending",
     "done",
@@ -20,8 +20,8 @@
   "stats": {
     "total": 20,
     "pending": 0,
-    "done": 14,
-    "skipped": 6,
+    "done": 20,
+    "skipped": 0,
     "error": 0
   },
   "rootSections": [
@@ -53,10 +53,12 @@
       "depth": 1,
       "hasChildren": false,
       "directChildren": 0,
-      "status": "skipped",
+      "status": "done",
       "error": null,
-      "scrapedAt": null,
-      "bytes": null
+      "scrapedAt": "2026-09-08T21:26:25.942898+00:00",
+      "bytes": 1093,
+      "lastCheckedAt": "2026-09-08T21:26:25.942898+00:00",
+      "contentHash": "ae936525bae3d8eb907c21897d718d5bfc738b306e9cd231f2522796150aa864"
     },
     {
       "id": "8PfQx1P_PcooVPsEC6Pc_g",
@@ -355,10 +357,12 @@
       "depth": 1,
       "hasChildren": true,
       "directChildren": 4,
-      "status": "skipped",
+      "status": "done",
       "error": null,
-      "scrapedAt": null,
-      "bytes": null
+      "scrapedAt": "2026-09-08T21:26:26.538028+00:00",
+      "bytes": 491,
+      "lastCheckedAt": "2026-09-08T21:26:26.538028+00:00",
+      "contentHash": "78ea7b24e0b3746e84efcf7e5e18ae58593555c1151abfc2c6760002736944c0"
     },
     {
       "id": "BK4a02MrgCPrDgsnyT10GA",
@@ -375,10 +379,12 @@
       "depth": 2,
       "hasChildren": false,
       "directChildren": 0,
-      "status": "skipped",
+      "status": "done",
       "error": null,
-      "scrapedAt": null,
-      "bytes": null
+      "scrapedAt": "2026-09-08T21:26:27.168547+00:00",
+      "bytes": 5082,
+      "lastCheckedAt": "2026-09-08T21:26:27.168547+00:00",
+      "contentHash": "a7ba39cbe3632ebb5bea26e9c8b39de5ee40783c8fae8af1a8fe3ebe5e8a3476"
     },
     {
       "id": "BIpGXXaxk0H4CU3Gql0Q9Q",
@@ -395,10 +401,12 @@
       "depth": 2,
       "hasChildren": false,
       "directChildren": 0,
-      "status": "skipped",
+      "status": "done",
       "error": null,
-      "scrapedAt": null,
-      "bytes": null
+      "scrapedAt": "2026-09-08T21:26:27.780818+00:00",
+      "bytes": 3889,
+      "lastCheckedAt": "2026-09-08T21:26:27.780818+00:00",
+      "contentHash": "c03a025de2866bf81d3377e8945fff658ff08290dfe5105839d29ce673a2d3ab"
     },
     {
       "id": "hg1VFply9O1gIoklRlQbJA",
@@ -415,10 +423,12 @@
       "depth": 2,
       "hasChildren": false,
       "directChildren": 0,
-      "status": "skipped",
+      "status": "done",
       "error": null,
-      "scrapedAt": null,
-      "bytes": null
+      "scrapedAt": "2026-09-08T21:26:28.378901+00:00",
+      "bytes": 1869,
+      "lastCheckedAt": "2026-09-08T21:26:28.378901+00:00",
+      "contentHash": "3393bfd19c57158b8bd00f0412d7aff93914b9327098b05bb4437f0ae15d8a1e"
     },
     {
       "id": "6cy_rP3UMuVs~PQtfUcphg",
@@ -435,10 +445,12 @@
       "depth": 2,
       "hasChildren": false,
       "directChildren": 0,
-      "status": "skipped",
+      "status": "done",
       "error": null,
-      "scrapedAt": null,
-      "bytes": null
+      "scrapedAt": "2026-09-08T21:26:29.063730+00:00",
+      "bytes": 5215,
+      "lastCheckedAt": "2026-09-08T21:26:29.063730+00:00",
+      "contentHash": "134326236950545c43a5b4e8721c5646fba76193ad1f019f008a66d4f147f97d"
     }
   ]
 }
