@@ -110,6 +110,9 @@ PRODUCTS: dict[str, dict[str, Any]] = {
         "title": "Black Duck C/CPP Tool",
         "source_dir": "sources/c-cpp-tool-latest",
         "docs_root": "c-cpp-tool",
+        "section_docs_roots": OrderedDict(
+            [("KnowledgeBase Vulnerability Feed Server", "knowledgebase-vulnerability-feed-server")]
+        ),
         "root_slugs": OrderedDict(),
         "reader_product": "blackduck-tools",
         "reader_book": "black-duck-tools",

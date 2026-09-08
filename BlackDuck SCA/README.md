@@ -112,7 +112,7 @@ Registered product keys:
 | `detect-12.0.0` | Detect 12.0.0 | `docs/detect-12.0.0/` |
 | `alert-8.4.0` | Alert 8.4.0 | `docs/alert/` |
 | `bridge-latest` | Bridge CLI | `docs/bridge/` |
-| `c-cpp-tool-latest` | Black Duck Tools map (C/CPP Tool and KnowledgeBase Vulnerability Feed Server) | `docs/c-cpp-tool/` |
+| `c-cpp-tool-latest` | Black Duck Tools map (C/CPP Tool and KnowledgeBase Vulnerability Feed Server) | `docs/c-cpp-tool/` and `docs/knowledgebase-vulnerability-feed-server/` |
 | `airgap-kb-latest` | Air-gapped KB (optional, not initialized) | `docs/airgap-kb/` |
 
 List keys:

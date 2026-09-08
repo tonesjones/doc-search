@@ -119,6 +119,7 @@ def flatten_toc(nodes: list, cfg: dict) -> list[dict]:
     path_counts: dict[str, int] = {}
     root_slugs: OrderedDict = cfg.get("root_slugs") or OrderedDict()
     docs_root = cfg.get("docs_root")
+    section_docs_roots: OrderedDict = cfg.get("section_docs_roots") or OrderedDict()
 
     def walk(items: list, path: list[str]) -> None:
         for n in items:
@@ -127,14 +128,17 @@ def flatten_toc(nodes: list, cfg: dict) -> list[dict]:
             topic_slug = slugify(titles[-1])
             mid = [slugify(t) for t in titles[1:-1]] if len(titles) > 2 else []
 
-            if docs_root:
-                # Companion products: everything under docs/<docs_root>/...
-                parts = ["docs", docs_root]
+            topic_docs_root = section_docs_roots.get(root_title, docs_root)
+            if topic_docs_root:
+                # Companion products default to docs/<docs_root>/, with optional
+                # top-level roots for distinct chapters in a shared source map.
+                parts = ["docs", topic_docs_root]
                 # include root topic slug in path for multi-root TOCs
                 if len(titles) == 1:
                     parts.append(f"{topic_slug}.md")
                 else:
-                    parts.append(slugify(root_title))
+                    if topic_docs_root == docs_root:
+                        parts.append(slugify(root_title))
                     parts.extend(mid)
                     parts.append(f"{topic_slug}.md")
             else:
@@ -239,6 +243,7 @@ def build_manifest(topics: list[dict], cfg: dict, toc_fetched: bool) -> dict:
         "contentApiTemplate": content_api_template(cfg),
         "baseReaderUrl": base_reader_url(cfg),
         "docsRoot": cfg.get("docs_root"),
+        "sectionDocsRoots": cfg.get("section_docs_roots") or OrderedDict(),
         "lastIndexBuild": ts,
         "lastTocFetch": ts if toc_fetched else None,
         "scrapedAt": None,
@@ -259,6 +264,7 @@ def write_index(manifest: dict, cfg: dict, index_path: Path) -> None:
     source_rel = cfg["source_dir"].replace("\\", "/")
     root_slugs = cfg.get("root_slugs") or OrderedDict()
     docs_root = cfg.get("docs_root") or manifest.get("docsRoot")
+    section_docs_roots = cfg.get("section_docs_roots") or manifest.get("sectionDocsRoots") or OrderedDict()
 
     lines: list[str] = []
     a = lines.append
@@ -287,7 +293,9 @@ def write_index(manifest: dict, cfg: dict, index_path: Path) -> None:
     a(f"| Manifest | [{source_rel}/manifest.json]({source_rel}/manifest.json) |")
     a(f"| Raw TOC | [{source_rel}/toc.json]({source_rel}/toc.json) |")
     if docs_root:
-        a(f"| Docs root | `docs/{docs_root}/` |")
+        all_docs_roots = [docs_root, *section_docs_roots.values()]
+        roots = ", ".join(f"`docs/{root}/`" for root in dict.fromkeys(all_docs_roots))
+        a(f"| Docs roots | {roots} |")
     a("")
     a("### Status legend")
     a("")
@@ -327,7 +335,11 @@ def write_index(manifest: dict, cfg: dict, index_path: Path) -> None:
 
     for section, items in sorted(by_section.items(), key=lambda kv: -len(kv[1])):
         if docs_root:
-            local = f"docs/{docs_root}/{slugify(section)}/"
+            section_root = section_docs_roots.get(section, docs_root)
+            if section_root == docs_root:
+                local = f"docs/{section_root}/{slugify(section)}/"
+            else:
+                local = f"docs/{section_root}/"
         else:
             slug = root_slugs.get(section, slugify(section))
             local = f"docs/{slug}/"

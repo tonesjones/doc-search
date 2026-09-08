@@ -24,6 +24,7 @@ Read this file at the start of every new session.
 - Reopened the six previously skipped topics in the `c-cpp-tool-latest` map (`2GUQEgoyKxsQAcOtWsqdDA`), including the two parent topics: Black Duck Tools; KnowledgeBase Vulnerability Feed Server; Common Security Advisory Framework (CSAF); Usage Guide; Authentication; and Rate Limiting.
 - Scraped all six through the documented Fluid Topics TOC/content APIs with **0 errors**. The C/CPP Tool manifest is now **20/20 done**, with **0 pending**, **0 skipped**, and **0 errors**.
 - Rebuilt `index-c-cpp-tool.md` and `corpus-status.md`. No commit or push was performed.
+- KnowledgeBase Vulnerability Feed Server topics are stored separately under `docs/knowledgebase-vulnerability-feed-server/`, not under `docs/c-cpp-tool/`.
 
 ---
 
