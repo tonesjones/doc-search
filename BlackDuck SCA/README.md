@@ -14,9 +14,8 @@ The public help site is a JavaScript SPA. Opening a topic URL in a browser works
 | Black Duck Alert | 8.4.0 | 45 | [index-alert.md](index-alert.md) |
 | Bridge CLI | latest | 174 | [index-bridge.md](index-bridge.md) |
 | Black Duck C/CPP Tool | latest | 14 | [index-c-cpp-tool.md](index-c-cpp-tool.md) |
-| Software Risk Manager | latest (docs v2026.9.0) | 286 | [index-srm.md](index-srm.md) |
 
-**1,873 topics** in `docs/`. Progress hub: [corpus-status.md](corpus-status.md). Bridge SRM integration documentation remains separate from the standalone SRM corpus.
+**1,587 topics** in `docs/`. Progress hub: [corpus-status.md](corpus-status.md). Bridge SRM integration documentation remains separate from the standalone SRM corpus.
 
 This is a convenience mirror for RAG and local lookup. Official docs remain the source of truth if this snapshot and the live site disagree.
 
@@ -32,7 +31,7 @@ docs/                  # Topic bodies (one official topic → one .md file)
   getting-started/ api/ architecture/ architecture-hosted/
   install-kubernetes/ install-docker-swarm/
   scanning-best-practices/ reporting-database/ release-notes/
-  detect/ alert/ bridge/ c-cpp-tool/ srm/
+  detect/ alert/ bridge/ c-cpp-tool/
 index.md               # Full SCA catalog (generated — do not hand-edit rows)
 index-detect.md        # Detect catalog
 index-alert.md         # Alert catalog
@@ -77,7 +76,7 @@ A typical prompt:
 
 ### What is not in this snapshot
 
-Intentionally omitted from this tree (see [CHECKPOINT.md](CHECKPOINT.md)): Air-gapped KnowledgeBase, rest of Black Duck Tools (KB Vulnerability Feed Server), BDBA, Artifactory, Code Sight, Defensics, Seeker, Sigma, Signal, Portal, older SCA year versions, non-English locales. Standalone SRM is included under `docs/srm/`; Bridge SRM integration topics remain under `docs/bridge/`.
+Intentionally omitted from this tree (see [CHECKPOINT.md](CHECKPOINT.md)): Air-gapped KnowledgeBase, rest of Black Duck Tools (KB Vulnerability Feed Server), BDBA, Artifactory, Code Sight, Defensics, Seeker, Sigma, Signal, Portal, older SCA year versions, non-English locales. Standalone SRM is in the sibling `SRM/` corpus; Bridge SRM integration topics remain under `docs/bridge/`.
 
 Sibling corpora (do not scrape here): Coverity at `C:\TestCode\Product Docs\Coverity`, Polaris at `C:\TestCode\Product Docs\Polaris`.
 
@@ -113,7 +112,6 @@ Registered product keys:
 | `alert-8.4.0` | Alert 8.4.0 | `docs/alert/` |
 | `bridge-latest` | Bridge CLI | `docs/bridge/` |
 | `c-cpp-tool-latest` | C/CPP Tool (Tools map, C/CPP chapter only) | `docs/c-cpp-tool/` |
-| `srm-latest` | Software Risk Manager (mutable latest; map edition 2026-09-08, docs v2026.9.0) | `docs/srm/` |
 | `airgap-kb-latest` | Air-gapped KB (optional, not initialized) | `docs/airgap-kb/` |
 
 List keys:

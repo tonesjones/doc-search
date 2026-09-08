@@ -48,7 +48,6 @@ Do **not** treat random blog posts or third-party summaries as authoritative whe
 | Black Duck Alert | `alert-8.4.0` | **8.4.0** | `QEB0e_qPG~BdIwQfv5eDZQ` | **45** | `docs/alert/` | `index-alert.md` |
 | Bridge CLI | `bridge-latest` | **latest** | `ilBVZr_kR5v3KVjK1p~wbw` | **174** | `docs/bridge/` | `index-bridge.md` |
 | Black Duck C/CPP Tool | `c-cpp-tool-latest` | **latest** | `2GUQEgoyKxsQAcOtWsqdDA` | **14** (6 Tools siblings skipped) | `docs/c-cpp-tool/` | `index-c-cpp-tool.md` |
-| Software Risk Manager | `srm-latest` | **latest** (map edition 2026-09-08; docs v2026.9.0) | `6dyNreOMuOAenymg0Owm8A` | **286** | `docs/srm/` | `index-srm.md` |
 | Air-gapped KnowledgeBase | `airgap-kb-latest` | latest | `YsDtm_HKwGM6efkx~2HVvQ` | ~15 **deferred** (not scraped; not needed for current use) | — | — |
 
 **Sibling corpora** (do not scrape into this SCA tree):
@@ -57,11 +56,12 @@ Do **not** treat random blog posts or third-party summaries as authoritative whe
 |---------|------|
 | Coverity | `C:\TestCode\Product Docs\Coverity` |
 | Polaris | `C:\TestCode\Product Docs\Polaris` |
+| Software Risk Manager | `C:\TestCode\Product Docs\SRM` |
 
 **Intentionally not scraped yet** (user: not needed right now): Air-gapped KB; remainder of Black Duck Tools (KB Vulnerability Feed Server); BDBA; Artifactory; Code Sight; Defensics; Seeker; Sigma; Signal; Portal; older SCA versions; non-English locales. See **`CHECKPOINT.md`**. Do not scrape these unless the user reopens scope.
 
 Hub progress table: **`corpus-status.md`**. Session handoff: **`CHECKPOINT.md`**.  
-**Scrape status:** core scope complete (**1,873** topics including SRM). Prefer answering from local Markdown; no pending required scrape work. Bridge SRM-integration topics remain in `docs/bridge/`; the standalone SRM corpus is separate under `docs/srm/`.
+**Scrape status:** core scope complete (**1,587** topics). Prefer answering from local Markdown; no pending required scrape work. Bridge SRM-integration topics remain in `docs/bridge/`; standalone SRM documentation is in the sibling `SRM/` corpus.
 
 The public site is a **JavaScript SPA** (Fluid Topics). A plain page fetch only returns "Loading application...". **Always use the TOC/content APIs** for structure and bodies.
 
@@ -90,7 +90,6 @@ GET https://docs.blackduck.com/api/khub/maps/{mapId}/topics/{contentId}/content
     alert/
     bridge/
     c-cpp-tool/
-    srm/
   sources/
     blackduck-2026.7/            # toc.json + manifest.json
     openapi/<version>/           # server-generated public REST API snapshots

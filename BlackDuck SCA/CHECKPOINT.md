@@ -1,17 +1,15 @@
 # Session checkpoint
 
-**Last updated:** 2026-09-08 (SRM corpus added)
+**Last updated:** 2026-09-08 (SRM moved to a standalone sibling corpus)
 **Status:** **DONE for now** — use local corpus for Q&A; do not scrape more unless the user reopens scope.  
 **Primary corpus:** Black Duck Documentation **2026.7** — **941/941 done**  
-**Companions:** Detect 11.5.1 **206/206** · Detect 12.0.0 **207/207** · Alert **45/45** · Bridge **174/174** · C/CPP Tool **14/14** (6 Tools siblings skipped) · SRM **286/286**
-**Grand total in corpus:** **1,873** topics
+**Companions:** Detect 11.5.1 **206/206** · Detect 12.0.0 **207/207** · Alert **45/45** · Bridge **174/174** · C/CPP Tool **14/14** (6 Tools siblings skipped)
+**Grand total in corpus:** **1,587** topics
 
-## Software Risk Manager corpus update — 2026-09-08
+## Software Risk Manager corpus boundary correction — 2026-09-08
 
-- Registered mutable `srm-latest` from official map `6dyNreOMuOAenymg0Owm8A`; reader root is `https://docs.blackduck.com/r/srm/latest/software-risk-manager-documentation/`.
-- Selected the 2026-09-08 map edition (SRM v2026.9.0), rather than the older `srm-documentation` map dated 2026-05-29.
-- Scraped **286/286** topics with **0 errors** to `docs/srm/`, source metadata to `sources/srm-latest/`, and catalog to `index-srm.md`.
-- Validated with `python scripts/validate-corpus.py --product srm-latest`; standalone SRM remains separate from Bridge SRM-integration content.
+- SRM was moved to the standalone sibling corpus at `C:\TestCode\Product Docs\SRM`.
+- Its 286-topic snapshot, source metadata, index, and scraper tooling are no longer part of the Black Duck SCA corpus.
 
 Read this file at the start of every new session.
 
@@ -41,7 +39,6 @@ Missing maps below are **intentionally deferred**, not incomplete work.
 | Black Duck Alert | `alert-8.4.0` | 8.4.0 | **45/45** | `docs/alert/` | `index-alert.md` |
 | Bridge CLI | `bridge-latest` | latest | **174/174** | `docs/bridge/` | `index-bridge.md` |
 | Black Duck C/CPP Tool | `c-cpp-tool-latest` | latest | **14/20** (6 skipped) | `docs/c-cpp-tool/` | `index-c-cpp-tool.md` |
-| Software Risk Manager | `srm-latest` | latest | **286/286** | `docs/srm/` | `index-srm.md` |
 
 **Hub:** `corpus-status.md`
 
@@ -51,6 +48,7 @@ Missing maps below are **intentionally deferred**, not incomplete work.
 |---------|------|
 | **Coverity** | `C:\TestCode\Product Docs\Coverity` |
 | **Polaris** | `C:\TestCode\Product Docs\Polaris` |
+| **Software Risk Manager** | `C:\TestCode\Product Docs\SRM` |
 
 Route Coverity / Polaris questions to those checkouts. Do not copy or scrape their maps here.
 
@@ -64,7 +62,7 @@ Route Coverity / Polaris questions to those checkouts. Do not copy or scrape the
 | **SCASS MCP Server** | Other Tools map `3JcuocdfP6Yh0iupxpNOwQ` | — | Not the map the SCA portal link opens |
 | **Artifactory** plugin docs | Not registered | — | Out of scope |
 | **Code Sight** | Not registered | — | Out of scope |
-| **Defensics / Seeker / Sigma / Signal / SRM** | Not registered | — | Out of scope |
+| **Defensics / Seeker / Sigma / Signal** | Not registered | — | Out of scope |
 | **Portal** / multi-product portal maps | Not registered | — | Out of scope |
 | **Older SCA year versions** / non-English locales | Not registered | — | Out of scope |
 

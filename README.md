@@ -7,7 +7,7 @@ This folder is a local, retrieval-friendly mirror of Black Duck product document
 The previous optimization work changed this from a loose collection of downloaded pages into a maintainable offline knowledge base:
 
 - **RAG-first answering:** assistants search the local Markdown corpus before using web search or general knowledge.
-- **Product separation:** Black Duck SCA, Coverity, Polaris, Sigma, and Signal have separate roots, indexes, manifests, and agent guidance. This prevents similarly named products and workflows from being mixed together.
+- **Product separation:** Black Duck SCA, Coverity, Polaris, Software Risk Manager, Sigma, and Signal have separate roots, indexes, manifests, and agent guidance. This prevents similarly named products and workflows from being mixed together.
 - **Generated navigation:** each corpus has generated topic indexes and progress/status hubs. Index rows are derived from manifests and must not be hand-edited.
 - **One topic per Markdown file:** official TOC topics are split into small, retrieval-friendly files instead of large scraped HTML documents.
 - **Traceable source metadata:** topic files carry front matter such as title, source URL, content ID, product/version, section, scrape timestamp, and—in newer corpora—content hashes.
@@ -37,6 +37,7 @@ The previous optimization work changed this from a loose collection of downloade
 | Black Duck SCA and companion tools | `BlackDuck SCA/` | `README.md`, `AGENTS.md`, `index.md` |
 | Coverity | `Coverity/` | `README.md`, `AGENTS.md`, `index.md` |
 | Polaris Platform | `Polaris/` | `README.md`, `AGENTS.md`, `index.md` |
+| Software Risk Manager | `SRM/` | `README.md`, `AGENTS.md`, `index.md` |
 | Sigma | `Sigma/` | `README.md`, `AGENTS.md`, `index.md` |
 | Signal | `Signal/` | `README.md`, `AGENTS.md`, `index.md` |
 
