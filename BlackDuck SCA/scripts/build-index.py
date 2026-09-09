@@ -3,8 +3,8 @@
 
 Usage:
   python scripts/build-index.py                         # rebuild SCA index from manifest
-  python scripts/build-index.py --product detect-11.5.1 --init
-  python scripts/build-index.py --product detect-11.5.1 --refresh-toc
+  python scripts/build-index.py --product detect-12.0.0 --init
+  python scripts/build-index.py --product detect-12.0.0 --refresh-toc
   python scripts/build-index.py --product all --init     # init all registered products
   python scripts/build-index.py --list-products
 """
@@ -20,6 +20,7 @@ from collections import OrderedDict
 from datetime import datetime, timezone
 from pathlib import Path
 
+from corpus_utils import json_text, manifest_substantively_equal, write_text_if_changed
 from products import (
     BASE_URL,
     DEFAULT_PRODUCT_KEY,
@@ -118,6 +119,7 @@ def flatten_toc(nodes: list, cfg: dict) -> list[dict]:
     path_counts: dict[str, int] = {}
     root_slugs: OrderedDict = cfg.get("root_slugs") or OrderedDict()
     docs_root = cfg.get("docs_root")
+    section_docs_roots: OrderedDict = cfg.get("section_docs_roots") or OrderedDict()
 
     def walk(items: list, path: list[str]) -> None:
         for n in items:
@@ -126,14 +128,17 @@ def flatten_toc(nodes: list, cfg: dict) -> list[dict]:
             topic_slug = slugify(titles[-1])
             mid = [slugify(t) for t in titles[1:-1]] if len(titles) > 2 else []
 
-            if docs_root:
-                # Companion products: everything under docs/<docs_root>/...
-                parts = ["docs", docs_root]
+            topic_docs_root = section_docs_roots.get(root_title, docs_root)
+            if topic_docs_root:
+                # Companion products default to docs/<docs_root>/, with optional
+                # top-level roots for distinct chapters in a shared source map.
+                parts = ["docs", topic_docs_root]
                 # include root topic slug in path for multi-root TOCs
                 if len(titles) == 1:
                     parts.append(f"{topic_slug}.md")
                 else:
-                    parts.append(slugify(root_title))
+                    if topic_docs_root == docs_root:
+                        parts.append(slugify(root_title))
                     parts.extend(mid)
                     parts.append(f"{topic_slug}.md")
             else:
@@ -174,6 +179,8 @@ def flatten_toc(nodes: list, cfg: dict) -> list[dict]:
                     "status": "pending",
                     "error": None,
                     "scrapedAt": None,
+                    "lastCheckedAt": None,
+                    "contentHash": None,
                     "bytes": None,
                 }
             )
@@ -204,7 +211,7 @@ def merge_statuses(new_topics: list[dict], old_manifest: dict | None) -> list[di
         old = by_id.get(t["id"])
         if not old:
             continue
-        for key in ("status", "error", "scrapedAt", "bytes"):
+        for key in ("status", "error", "scrapedAt", "lastCheckedAt", "contentHash", "bytes"):
             if key in old:
                 t[key] = old[key]
         if old.get("status") == "done" and old.get("localPath"):
@@ -236,6 +243,7 @@ def build_manifest(topics: list[dict], cfg: dict, toc_fetched: bool) -> dict:
         "contentApiTemplate": content_api_template(cfg),
         "baseReaderUrl": base_reader_url(cfg),
         "docsRoot": cfg.get("docs_root"),
+        "sectionDocsRoots": cfg.get("section_docs_roots") or OrderedDict(),
         "lastIndexBuild": ts,
         "lastTocFetch": ts if toc_fetched else None,
         "scrapedAt": None,
@@ -256,6 +264,7 @@ def write_index(manifest: dict, cfg: dict, index_path: Path) -> None:
     source_rel = cfg["source_dir"].replace("\\", "/")
     root_slugs = cfg.get("root_slugs") or OrderedDict()
     docs_root = cfg.get("docs_root") or manifest.get("docsRoot")
+    section_docs_roots = cfg.get("section_docs_roots") or manifest.get("sectionDocsRoots") or OrderedDict()
 
     lines: list[str] = []
     a = lines.append
@@ -284,7 +293,9 @@ def write_index(manifest: dict, cfg: dict, index_path: Path) -> None:
     a(f"| Manifest | [{source_rel}/manifest.json]({source_rel}/manifest.json) |")
     a(f"| Raw TOC | [{source_rel}/toc.json]({source_rel}/toc.json) |")
     if docs_root:
-        a(f"| Docs root | `docs/{docs_root}/` |")
+        all_docs_roots = [docs_root, *section_docs_roots.values()]
+        roots = ", ".join(f"`docs/{root}/`" for root in dict.fromkeys(all_docs_roots))
+        a(f"| Docs roots | {roots} |")
     a("")
     a("### Status legend")
     a("")
@@ -324,7 +335,11 @@ def write_index(manifest: dict, cfg: dict, index_path: Path) -> None:
 
     for section, items in sorted(by_section.items(), key=lambda kv: -len(kv[1])):
         if docs_root:
-            local = f"docs/{docs_root}/{slugify(section)}/"
+            section_root = section_docs_roots.get(section, docs_root)
+            if section_root == docs_root:
+                local = f"docs/{section_root}/{slugify(section)}/"
+            else:
+                local = f"docs/{section_root}/"
         else:
             slug = root_slugs.get(section, slugify(section))
             local = f"docs/{slug}/"
@@ -357,7 +372,7 @@ def write_index(manifest: dict, cfg: dict, index_path: Path) -> None:
         f"Official docs: [{cfg['title']}]({reader}).*"
     )
 
-    index_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    return write_text_if_changed(index_path, "\n".join(lines) + "\n")
 
 
 def ensure_doc_dirs(cfg: dict) -> None:
@@ -398,6 +413,8 @@ def write_hub_index() -> None:
                     "index": cfg["index_file"],
                     "phase": cfg.get("phase", 1),
                     "optional": cfg.get("optional", False),
+                    "answer_default": cfg.get("answer_default", False),
+                    "historical": cfg.get("historical", False),
                 }
             )
             continue
@@ -416,6 +433,8 @@ def write_hub_index() -> None:
                 "index": cfg["index_file"],
                 "phase": cfg.get("phase", 1),
                 "optional": cfg.get("optional", False),
+                "answer_default": cfg.get("answer_default", False),
+                "historical": cfg.get("historical", False),
             }
         )
 
@@ -453,22 +472,29 @@ def write_hub_index() -> None:
             if r.get("error"):
                 prog += f" · {r['error']} error"
             idx = f"[{r['index']}]({r['index']})"
-        note = "optional" if r.get("optional") else ("phase 1" if r["phase"] == 1 else "phase 2")
+        if r.get("optional"):
+            note = "optional"
+        elif r.get("answer_default"):
+            note = "default for unversioned questions"
+        elif r.get("historical"):
+            note = "historical/version-specific"
+        else:
+            note = "phase 1" if r["phase"] == 1 else "phase 2"
         a(f"| {r['title']} | {r['version']} | {prog} | {idx} | {note} |")
     a("")
     a("## How to scrape")
     a("")
     a("```powershell")
-    a("python scripts/build-index.py --product detect-11.5.1 --init")
-    a("python scripts/scrape-pending.py --product detect-11.5.1 --all-pending")
-    a("python scripts/build-index.py --product detect-11.5.1")
+    a("python scripts/build-index.py --product detect-12.0.0 --init")
+    a("python scripts/scrape-pending.py --product detect-12.0.0 --all-pending")
+    a("python scripts/build-index.py --product detect-12.0.0")
     a("```")
     a("")
     a("Registered product keys: `" + "`, `".join(PRODUCTS.keys()) + "`.")
     a("")
     a("---")
     a("")
-    a(f"*Hub generated {now_iso()}. Primary SCA detail index: "
+    a(f"*Primary SCA detail index: "
       f"[index.md → see also monoproduct builds]({sca['index'] if sca else 'index.md'}).*")
     a("")
 
@@ -480,8 +506,8 @@ def write_hub_index() -> None:
     #
     # Simpler: write hub as corpus-status.md, leave product indexes as-is.
     hub = ROOT / "corpus-status.md"
-    hub.write_text("\n".join(lines) + "\n", encoding="utf-8")
-    print(f"Wrote {hub}")
+    changed = write_text_if_changed(hub, "\n".join(lines) + "\n")
+    print(f"{'Wrote' if changed else 'Unchanged'} {hub}")
 
 
 def build_one(cfg: dict, args: argparse.Namespace) -> int:
@@ -503,11 +529,9 @@ def build_one(cfg: dict, args: argparse.Namespace) -> int:
         url = toc_api(cfg)
         print(f"[{cfg['key']}] Fetching TOC from {url} ...")
         toc = fetch_toc(cfg)
-        toc_path.write_text(
-            json.dumps(toc, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
-        )
+        toc_changed = write_text_if_changed(toc_path, json_text(toc))
         toc_fetched = True
-        print(f"[{cfg['key']}] Wrote {toc_path}")
+        print(f"[{cfg['key']}] {'Wrote' if toc_changed else 'Unchanged'} {toc_path}")
     else:
         toc = load_json(toc_path)
 
@@ -522,6 +546,9 @@ def build_one(cfg: dict, args: argparse.Namespace) -> int:
             manifest["scrapedAt"] = old_manifest.get("scrapedAt")
             if not toc_fetched:
                 manifest["lastTocFetch"] = old_manifest.get("lastTocFetch")
+        if old_manifest and manifest_substantively_equal(old_manifest, manifest):
+            # A refresh with an identical TOC must not turn bookkeeping time into a corpus diff.
+            manifest = old_manifest
         print(f"[{cfg['key']}] Built manifest with {manifest['stats']['total']} topics")
     else:
         manifest = old_manifest or load_json(manifest_path)
@@ -529,20 +556,17 @@ def build_one(cfg: dict, args: argparse.Namespace) -> int:
         manifest.setdefault("productKey", cfg["key"])
         manifest.setdefault("docsRoot", cfg.get("docs_root"))
         manifest["stats"] = compute_stats(manifest.get("topics", []))
-        manifest["lastIndexBuild"] = now_iso()
         print(
             f"[{cfg['key']}] Refreshed stats from existing manifest "
             f"({manifest['stats']['total']} topics)"
         )
 
-    manifest_path.write_text(
-        json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
-    )
-    print(f"[{cfg['key']}] Wrote {manifest_path}")
+    manifest_changed = write_text_if_changed(manifest_path, json_text(manifest))
+    print(f"[{cfg['key']}] {'Wrote' if manifest_changed else 'Unchanged'} {manifest_path}")
 
     ensure_doc_dirs(cfg)
-    write_index(manifest, cfg, index_path)
-    print(f"[{cfg['key']}] Wrote {index_path}")
+    index_changed = write_index(manifest, cfg, index_path)
+    print(f"[{cfg['key']}] {'Wrote' if index_changed else 'Unchanged'} {index_path}")
     print(
         "[{key}] Progress: {done}/{total} done, {pending} pending, "
         "{skipped} skipped, {error} error".format(key=cfg["key"], **manifest["stats"])

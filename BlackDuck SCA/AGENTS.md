@@ -17,6 +17,11 @@ This repository is a **local knowledge base** of Black Duck product documentatio
 | 2 | Official Black Duck docs via Fluid Topics **content API** (not SPA HTML) | Corpus missing, outdated, or user asks to refresh |
 | 3 | General knowledge | Last resort; label uncertainty clearly |
 
+For exact SCA REST endpoint questions, also consult the versioned, server-generated
+OpenAPI snapshots under `sources/openapi/`. These supplement rather than replace the
+narrative documentation. Always state the snapshot version, and do not infer behavior
+that the specification does not document.
+
 Do **not** treat random blog posts or third-party summaries as authoritative when corpus or official docs cover the topic.
 
 ## Pinned documentation sources
@@ -39,10 +44,12 @@ Do **not** treat random blog posts or third-party summaries as authoritative whe
 
 | Product | Key | Version | Map ID | Topics | Docs | Index |
 |---------|-----|---------|--------|-------:|------|-------|
-| Black Duck Detect | `detect-11.5.1` | **11.5.1** | `bMVbOgKqSRm_N11~2Mv5gg` | **206** | `docs/detect/` | `index-detect.md` |
+| Black Duck Detect | `detect-12.0.0` | **12.0.0** (default for unversioned questions) | `j_bSwuxnjHv5ElV~TQrAQg` | **207** | `docs/detect-12.0.0/` | `index-detect.md` → `index-detect-12.0.0.md` |
+| Black Duck Detect | `detect-11.5.1` | **11.5.1** (historical) | `bMVbOgKqSRm_N11~2Mv5gg` | **206** | `docs/detect/` | `index-detect-11.5.1.md` |
 | Black Duck Alert | `alert-8.4.0` | **8.4.0** | `QEB0e_qPG~BdIwQfv5eDZQ` | **45** | `docs/alert/` | `index-alert.md` |
 | Bridge CLI | `bridge-latest` | **latest** | `ilBVZr_kR5v3KVjK1p~wbw` | **174** | `docs/bridge/` | `index-bridge.md` |
-| Black Duck C/CPP Tool | `c-cpp-tool-latest` | **latest** | `2GUQEgoyKxsQAcOtWsqdDA` | **14** (6 Tools siblings skipped) | `docs/c-cpp-tool/` | `index-c-cpp-tool.md` |
+| Black Duck C/CPP Tool | `c-cpp-tool-latest` | **latest** | `2GUQEgoyKxsQAcOtWsqdDA` | **20** | `docs/c-cpp-tool/` | `index-c-cpp-tool.md` |
+| Black Duck SCA MCP Server | `sca-mcp-latest` | GitHub `main` snapshot | `blackducksoftware/sca-mcp` | **2** | `docs/sca-mcp/` | `index-sca-mcp.md` |
 | Air-gapped KnowledgeBase | `airgap-kb-latest` | latest | `YsDtm_HKwGM6efkx~2HVvQ` | ~15 **deferred** (not scraped; not needed for current use) | — | — |
 
 **Sibling corpora** (do not scrape into this SCA tree):
@@ -51,11 +58,12 @@ Do **not** treat random blog posts or third-party summaries as authoritative whe
 |---------|------|
 | Coverity | `C:\TestCode\Product Docs\Coverity` |
 | Polaris | `C:\TestCode\Product Docs\Polaris` |
+| Software Risk Manager | `C:\TestCode\Product Docs\SRM` |
 
-**Intentionally not scraped yet** (user: not needed right now): Air-gapped KB; remainder of Black Duck Tools (KB Vulnerability Feed Server); BDBA; Artifactory; Code Sight; Defensics; Seeker; Sigma; Signal; SRM; Portal; older SCA versions; non-English locales. See **`CHECKPOINT.md`**. Do not scrape these unless the user reopens scope.
+**Intentionally not scraped yet** (user: not needed right now): Air-gapped KB; BDBA; Artifactory; Code Sight; Defensics; Seeker; Sigma; Signal; Portal; older SCA versions; non-English locales. See **`CHECKPOINT.md`**. Do not scrape these unless the user reopens scope.
 
 Hub progress table: **`corpus-status.md`**. Session handoff: **`CHECKPOINT.md`**.  
-**Scrape status:** core scope complete (**1,380** topics). Prefer answering from local Markdown; no pending required scrape work.
+**Scrape status:** core scope complete (**1,595** topics). Prefer answering from local Markdown; no pending required scrape work. Bridge SRM-integration topics remain in `docs/bridge/`; standalone SRM documentation is in the sibling `SRM/` corpus.
 
 The public site is a **JavaScript SPA** (Fluid Topics). A plain page fetch only returns "Loading application...". **Always use the TOC/content APIs** for structure and bodies.
 
@@ -74,7 +82,10 @@ GET https://docs.blackduck.com/api/khub/maps/{mapId}/topics/{contentId}/content
   CHECKPOINT.md                  # Session handoff: where we left off, next steps
   corpus-status.md               # Multi-product progress hub (generated)
   index.md                       # SCA 2026.7 catalog (do not hand-edit topic rows)
-  index-detect.md                # Detect catalog
+  index-detect.md                # Detect default routing page (12.0.0)
+  index-detect-12.0.0.md         # Detect 12.0.0 catalog
+  index-detect-11.5.1.md         # Detect 11.5.1 historical catalog
+  index-detect-11.5.1-to-12.0.0.md # generated version comparison
   index-alert.md                 # Alert catalog
   index-bridge.md                # Bridge catalog
   index-c-cpp-tool.md            # C/CPP Tool catalog
@@ -84,12 +95,16 @@ GET https://docs.blackduck.com/api/khub/maps/{mapId}/topics/{contentId}/content
     alert/
     bridge/
     c-cpp-tool/
+    sca-mcp/
   sources/
     blackduck-2026.7/            # toc.json + manifest.json
+    openapi/<version>/           # server-generated public REST API snapshots
     detect-11.5.1/
+    detect-12.0.0/
     alert-8.4.0/
     bridge-latest/
     c-cpp-tool-latest/
+    sca-mcp-latest/              # GitHub-source manifest; not a Fluid Topics map
   scripts/
     products.py                  # Product/map registry
     build-index.py               # Init TOC + regenerate indexes (--product)
@@ -147,11 +162,15 @@ scraped_at: "ISO-8601"
 1. **Search this repo first** — `corpus-status.md` / product indexes, then open relevant `docs/**/*.md` (grep / read).
 2. **Route by product:**
    - SCA server/UI, BOM, policy, install, reporting → `docs/help-center/`, install, architecture, `index.md`
-   - Detect client, detectors, properties, scripts → `docs/detect/`, `index-detect.md`
+   - Exact SCA REST endpoint contracts → relevant `docs/api/` guidance plus `sources/openapi/<version>/openapi3-public.json`
+   - Detect client, detectors, properties, scripts → `index-detect.md`, then `docs/detect-12.0.0/` by default. Use `docs/detect/` only when 11.5.1 is named; use `index-detect-11.5.1-to-12.0.0.md` for a version comparison.
    - Alert channels / providers → `docs/alert/`, `index-alert.md`
    - Bridge CLI / CI security scan plugins → `docs/bridge/`, `index-bridge.md`
    - C/C++ BOM via blackduck-c-cpp / Coverity Build Capture → `docs/c-cpp-tool/`, `index-c-cpp-tool.md`
-3. **Cite paths** when answering (e.g. `docs/detect/planning-and-running-detect.md`) so answers are verifiable.
+3. **Cite paths** when answering (e.g. `docs/detect-12.0.0/planning-and-running-detect.md`) so answers are verifiable.
+   For OpenAPI evidence, cite the JSON path and state its version. Treat explicit paths,
+   methods, media types, examples, and limits as documented; do not invent undocumented
+   status-code meanings or schemas.
 4. **Quote or paraphrase carefully** — distinguish product facts from interpretation.
 5. **If the corpus is silent or conflicting**, say so; offer to scrape pending topics (e.g. optional air-gap) or fetch official content.
 6. **Do not invent** Black Duck UI paths, license names, API endpoints, or Detect properties.

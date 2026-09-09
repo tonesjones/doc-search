@@ -53,7 +53,24 @@ PRODUCTS: dict[str, dict[str, Any]] = {
         "root_slugs": OrderedDict(),
         "reader_product": "detect",
         "reader_book": "black-duck-detect",
-        "index_file": "index-detect.md",
+        "index_file": "index-detect-11.5.1.md",
+        "historical": True,
+        "default": False,
+        "phase": 2,
+    },
+    "detect-12.0.0": {
+        "key": "detect-12.0.0",
+        "map_id": "j_bSwuxnjHv5ElV~TQrAQg",
+        "version": "12.0.0",
+        "product": "detect",
+        "title": "Black Duck Detect",
+        "source_dir": "sources/detect-12.0.0",
+        "docs_root": "detect-12.0.0",
+        "root_slugs": OrderedDict(),
+        "reader_product": "detect",
+        "reader_book": "black-duck-detect",
+        "index_file": "index-detect-12.0.0.md",
+        "answer_default": True,
         "default": False,
         "phase": 2,
     },
@@ -95,12 +112,31 @@ PRODUCTS: dict[str, dict[str, Any]] = {
         "title": "Black Duck C/CPP Tool",
         "source_dir": "sources/c-cpp-tool-latest",
         "docs_root": "c-cpp-tool",
+        "section_docs_roots": OrderedDict(
+            [("KnowledgeBase Vulnerability Feed Server", "knowledgebase-vulnerability-feed-server")]
+        ),
         "root_slugs": OrderedDict(),
         "reader_product": "blackduck-tools",
         "reader_book": "black-duck-tools",
         "index_file": "index-c-cpp-tool.md",
         "default": False,
         "phase": 2,
+    },
+    "sca-mcp-latest": {
+        "key": "sca-mcp-latest",
+        "map_id": "https://github.com/blackducksoftware/sca-mcp",
+        "version": "main@6dac85b23b14899dc6c463a1021171356f381570",
+        "product": "sca-mcp",
+        "title": "Black Duck SCA MCP Server",
+        "source_dir": "sources/sca-mcp-latest",
+        "docs_root": "sca-mcp",
+        "root_slugs": OrderedDict(),
+        "reader_product": "github",
+        "reader_book": "blackducksoftware/sca-mcp",
+        "index_file": "index-sca-mcp.md",
+        "default": False,
+        "phase": 2,
+        "source_type": "github",
     },
     "airgap-kb-latest": {
         "key": "airgap-kb-latest",
@@ -121,6 +157,50 @@ PRODUCTS: dict[str, dict[str, Any]] = {
 }
 
 DEFAULT_PRODUCT_KEY = "blackduck-2026.7"
+
+
+def validate_registry(products: dict[str, dict[str, Any]] = PRODUCTS) -> None:
+    """Reject product entries that would overwrite another product's corpus files.
+
+    A ``docs_root`` of ``None`` is safe only for one product, unless all involved
+    products explicitly map disjoint root-slug values.  This keeps the SCA
+    section-root layout intentional while preventing an accidental shared docs
+    directory.
+    """
+    required = ("key", "map_id", "version", "source_dir", "index_file")
+    seen: dict[str, dict[str, str]] = {"source_dir": {}, "index_file": {}}
+    none_root_entries: list[dict[str, Any]] = []
+    docs_roots: dict[str, str] = {}
+    for name, cfg in products.items():
+        missing = [field for field in required if not cfg.get(field)]
+        if missing:
+            raise ValueError(f"Product {name!r} missing required fields: {', '.join(missing)}")
+        if cfg["key"] != name:
+            raise ValueError(f"Product registry key mismatch: {name!r} != {cfg['key']!r}")
+        for field in seen:
+            value = str(cfg[field]).replace("\\", "/").rstrip("/").lower()
+            previous = seen[field].get(value)
+            if previous is not None:
+                raise ValueError(f"Product registry collision on {field}: {previous!r} and {name!r} use {cfg[field]!r}")
+            seen[field][value] = name
+        docs_root = cfg.get("docs_root")
+        if docs_root is None:
+            none_root_entries.append(cfg)
+            continue
+        value = str(docs_root).replace("\\", "/").strip("/").lower()
+        previous = docs_roots.get(value)
+        if previous is not None:
+            raise ValueError(f"Product registry collision on docs_root: {previous!r} and {name!r} use {docs_root!r}")
+        docs_roots[value] = name
+
+    if len(none_root_entries) > 1:
+        root_sets = [set((cfg.get("root_slugs") or {}).values()) for cfg in none_root_entries]
+        if not all(root_sets) or any(left & right for i, left in enumerate(root_sets) for right in root_sets[i + 1:]):
+            keys = ", ".join(cfg["key"] for cfg in none_root_entries)
+            raise ValueError(f"Unsafe null docs_root registry entries: {keys}")
+
+
+validate_registry()
 
 
 def get_product(key: str | None = None) -> dict[str, Any]:
