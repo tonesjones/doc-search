@@ -141,6 +141,7 @@ https://docs.blackduck.com/api/khub/maps/bMVbOgKqSRm_N11~2Mv5gg/topics/{contentI
 - [x] [Package Manager information for Detect](docs/detect/package-manager-information-for-detect.md) _(+26)_ · [source](https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/package-manager-information-for-detect.html)
   - [x] [Bazel support](docs/detect/package-manager-information-for-detect/bazel-support.md) · [source](https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/bazel-support.html)
   - [x] [BitBake support](docs/detect/package-manager-information-for-detect/bitbake-support.md) · [source](https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/bitbake-support.html)
+  - [x] [bd_scan_yocto_via_sbom (community tool, local notes)](docs/detect/package-manager-information-for-detect/bd-scan-yocto-via-sbom-local-notes.md) · **local addition, not scraped** — source: `https://github.com/blackducksoftware/bd_scan_yocto_via_sbom`
   - [x] [Cargo support](docs/detect/package-manager-information-for-detect/cargo-support.md) · [source](https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/cargo-support.html)
   - [x] [Carthage support](docs/detect/package-manager-information-for-detect/carthage-support.md) · [source](https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/carthage-support.html)
   - [x] [C/C++ (Clang) support](docs/detect/package-manager-information-for-detect/c-c-clang-support.md) · [source](https://docs.blackduck.com/r/detect/11.5.1/black-duck-detect/c/c-clang-support.html)

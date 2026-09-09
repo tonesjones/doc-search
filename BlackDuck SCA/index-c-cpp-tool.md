@@ -10,8 +10,8 @@
 | Product key | `c-cpp-tool-latest` |
 | Version | **latest** |
 | Map ID | `2GUQEgoyKxsQAcOtWsqdDA` |
-| TOC nodes | **20** |
-| Progress | **14/20 done** (70.0%) · 0 pending · 6 skipped · 0 error |
+| TOC nodes | **21** (20 official + 1 local addition) |
+| Progress | **15/21 done** (71.4%) · 0 pending · 6 skipped · 0 error |
 | Last index build | 2026-08-13T16:17:07.357586+00:00 |
 | Manifest | [sources/c-cpp-tool-latest/manifest.json](sources/c-cpp-tool-latest/manifest.json) |
 | Raw TOC | [sources/c-cpp-tool-latest/toc.json](sources/c-cpp-tool-latest/toc.json) |
@@ -42,7 +42,7 @@ https://docs.blackduck.com/api/khub/maps/2GUQEgoyKxsQAcOtWsqdDA/topics/{contentI
 
 | Section | Topics | Pending | Done | Skipped | Error | Local root |
 |---------|--------|---------|------|---------|-------|------------|
-| Black Duck C/CPP Tool | 14 | 0 | 14 | 0 | 0 | `docs/c-cpp-tool/black-duck-c-cpp-tool/` |
+| Black Duck C/CPP Tool | 15 | 0 | 15 | 0 | 0 | `docs/c-cpp-tool/black-duck-c-cpp-tool/` |
 | KnowledgeBase Vulnerability Feed Server | 5 | 0 | 0 | 5 | 0 | `docs/c-cpp-tool/knowledgebase-vulnerability-feed-server/` |
 | Black Duck Tools | 1 | 0 | 0 | 1 | 0 | `docs/c-cpp-tool/black-duck-tools/` |
 
@@ -63,6 +63,7 @@ https://docs.blackduck.com/api/khub/maps/2GUQEgoyKxsQAcOtWsqdDA/topics/{contentI
   - [x] [The BOM](docs/c-cpp-tool/black-duck-c-cpp-tool/the-bom.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/the-bom.html)
   - [x] [Frequently asked questions](docs/c-cpp-tool/black-duck-c-cpp-tool/frequently-asked-questions.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/frequently-asked-questions.html)
   - [x] [Black Duck C/CPP tool release notes](docs/c-cpp-tool/black-duck-c-cpp-tool/black-duck-c-cpp-tool-release-notes.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/black-duck-c/cpp-tool-release-notes.html)
+  - [x] [Local notes: command-line flags and workflows (community reference)](docs/c-cpp-tool/black-duck-c-cpp-tool/local-notes-command-line-flags-and-workflows.md) · **local addition, not scraped** — source: `C:\TestCode\bdsca-c-cpp-demo\bd-ccpp-scanner.md`
 - [-] [KnowledgeBase Vulnerability Feed Server](docs/c-cpp-tool/knowledgebase-vulnerability-feed-server.md) _(+4)_ · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/knowledgebase-vulnerability-feed-server.html)
   - [-] [Common Security Advisory Framework (CSAF)](docs/c-cpp-tool/knowledgebase-vulnerability-feed-server/common-security-advisory-framework-csaf.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/common-security-advisory-framework-csaf-.html)
   - [-] [Usage Guide](docs/c-cpp-tool/knowledgebase-vulnerability-feed-server/usage-guide.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/usage-guide.html)
