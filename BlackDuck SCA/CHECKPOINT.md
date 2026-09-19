@@ -104,9 +104,9 @@ If any of the above is needed later: add/init the map (or use existing `airgap-k
 
 ## How to use the corpus today
 
-1. Prefer local `docs/**` + product indexes for **SCA, Detect, Alert, C/CPP Tool** questions.  
-2. For **Coverity** / **Polaris** / **Bridge**: use the sibling checkouts (`C:\TestCode\Product Docs\Coverity`, `C:\TestCode\Product Docs\Polaris`, `C:\TestCode\Product Docs\Bridge`). Do not scrape them here.  
-3. For other deferred products: say they are **not in the local corpus**; use official Fluid Topics APIs only if the user asks, or offer to scrape.  
+1. Prefer local `docs/**` + product indexes for **SCA, Detect, Alert, C/CPP Tool** questions.
+2. For **Coverity** / **Polaris** / **Bridge**: use the sibling checkouts (`C:\TestCode\Product Docs\Coverity`, `C:\TestCode\Product Docs\Polaris`, `C:\TestCode\Product Docs\Bridge`). Do not scrape them here.
+3. For other deferred products: say they are **not in the local corpus**; use official Fluid Topics APIs only if the user asks, or offer to scrape.
 4. Never scrape SPA HTML shells; always Fluid Topics TOC/content APIs.
 
 ### Maintenance (only if refreshing existing maps)
