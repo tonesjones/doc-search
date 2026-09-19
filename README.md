@@ -2,6 +2,26 @@
 
 This folder is a local, retrieval-friendly mirror of Black Duck product documentation. It is intended to be portable to another machine and usable by a coding assistant— including Claude Code—without requiring a live documentation scrape for ordinary questions.
 
+## Verify Black Duck SCA offline
+
+The root [router](SKILL.md) selects the [SCA skill](BlackDuck%20SCA/SKILL.md)
+through `products.json`. SCA is the first product with an implemented verifier.
+Other registered skill and verifier paths remain planned entrypoints.
+
+From the repository root, run:
+
+```powershell
+python -B "BlackDuck SCA/verification/verify.py"
+```
+
+The command prints JSON matching `verification-report.schema.json`. It exits with
+code 0 when all offline checks pass, or 1 on failure. The report covers corpus
+integrity and selected index-to-topic retrieval checks. `PASS` applies to those
+offline checks only. Live UI and API checks explicitly remain `NOT_RUN`.
+Existing corpus warnings appear in `evidence`. No network or credentials are needed.
+
+Run the registry and SCA report tests with `python -B -m unittest discover -s tests`.
+
 ## Improvements already made
 
 The previous optimization work changed this from a loose collection of downloaded pages into a maintainable offline knowledge base:
