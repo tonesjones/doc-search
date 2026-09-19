@@ -7,7 +7,7 @@
 ## Next action
 
 1. Answer Polaris Platform questions from `docs/platform/**`, `index.md`, and `index-polaris-platform-latest.md`.
-2. Route Bridge CLI and CI questions to `C:\TestCode\BlackDuck SCA\docs\bridge\` and `index-bridge.md`.
+2. Route Bridge CLI and CI questions to the sibling `Bridge/` corpus (`Bridge/docs/`, `Bridge/index.md`).
 3. Refresh changed topics with `python scripts/scrape-pending.py --product all --refresh-changed`.
 4. After a converter change, rewrite all pages with `--refresh-all`, then `python scripts/build-index.py --product all --hub`.
 

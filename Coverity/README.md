@@ -13,7 +13,7 @@ The public site is a JavaScript SPA. A normal page fetch only returns “Loading
 | Official help center | https://docs.blackduck.com/r/coverity/2026.6/coverity-documentation/ |
 | Map ID | `Ul9eg_yUOJh8gKU4cs1xrg` |
 
-**Out of scope unless someone reopens them:** Coverity on Polaris, non-English locales, older Coverity year versions, and Black Duck SCA / Detect / Alert / Bridge (separate repo).
+**Out of scope unless someone reopens them:** Coverity on Polaris, non-English locales, older Coverity year versions, Black Duck SCA / Detect / Alert (separate repo), and Bridge CLI (separate `Bridge` corpus).
 
 ---
 

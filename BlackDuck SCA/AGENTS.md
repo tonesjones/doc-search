@@ -7,7 +7,7 @@ This repository is a **local knowledge base** of Black Duck product documentatio
 - Capture Black Duck documentation offline as Markdown.
 - Maintain **product indexes** (`index.md`, `index-detect.md`, …) and a multi-product hub (`corpus-status.md`).
 - Split topics into **many smaller `.md` files** under `docs/` for retrieval-friendly chunks.
-- Prefer **RAG over this corpus** when answering questions about Black Duck SCA, Detect, Alert, Bridge, features, setup, workflows, policy, integrations, APIs, and operations.
+- Prefer **RAG over this corpus** when answering questions about Black Duck SCA, Detect, Alert, features, setup, workflows, policy, integrations, APIs, and operations.
 
 ## Source of truth
 
@@ -47,7 +47,6 @@ Do **not** treat random blog posts or third-party summaries as authoritative whe
 | Black Duck Detect | `detect-12.0.0` | **12.0.0** (default for unversioned questions) | `j_bSwuxnjHv5ElV~TQrAQg` | **207** | `docs/detect-12.0.0/` | `index-detect.md` → `index-detect-12.0.0.md` |
 | Black Duck Detect | `detect-11.5.1` | **11.5.1** (historical) | `bMVbOgKqSRm_N11~2Mv5gg` | **206** | `docs/detect/` | `index-detect-11.5.1.md` |
 | Black Duck Alert | `alert-8.4.0` | **8.4.0** | `QEB0e_qPG~BdIwQfv5eDZQ` | **45** | `docs/alert/` | `index-alert.md` |
-| Bridge CLI | `bridge-latest` | **latest** | `ilBVZr_kR5v3KVjK1p~wbw` | **174** | `docs/bridge/` | `index-bridge.md` |
 | Black Duck C/CPP Tool | `c-cpp-tool-latest` | **latest** | `2GUQEgoyKxsQAcOtWsqdDA` | **20** | `docs/c-cpp-tool/` | `index-c-cpp-tool.md` |
 | Black Duck SCA MCP Server | `sca-mcp-latest` | GitHub `main` snapshot | `blackducksoftware/sca-mcp` | **2** | `docs/sca-mcp/` | `index-sca-mcp.md` |
 | Air-gapped KnowledgeBase | `airgap-kb-latest` | latest | `YsDtm_HKwGM6efkx~2HVvQ` | ~15 **deferred** (not scraped; not needed for current use) | — | — |
@@ -59,11 +58,12 @@ Do **not** treat random blog posts or third-party summaries as authoritative whe
 | Coverity | `C:\TestCode\Product Docs\Coverity` |
 | Polaris | `C:\TestCode\Product Docs\Polaris` |
 | Software Risk Manager | `C:\TestCode\Product Docs\SRM` |
+| Bridge CLI | `C:\TestCode\Product Docs\Bridge` |
 
 **Intentionally not scraped yet** (user: not needed right now): Air-gapped KB; BDBA; Artifactory; Code Sight; Defensics; Seeker; Sigma; Signal; Portal; older SCA versions; non-English locales. See **`CHECKPOINT.md`**. Do not scrape these unless the user reopens scope.
 
 Hub progress table: **`corpus-status.md`**. Session handoff: **`CHECKPOINT.md`**.  
-**Scrape status:** core scope complete (**1,595** topics). Prefer answering from local Markdown; no pending required scrape work. Bridge SRM-integration topics remain in `docs/bridge/`; standalone SRM documentation is in the sibling `SRM/` corpus.
+**Scrape status:** core scope complete (**1,421** topics). Prefer answering from local Markdown; no pending required scrape work. Bridge CLI documentation (including Bridge SRM-integration topics) is in the sibling `Bridge/` corpus; standalone SRM documentation is in the sibling `SRM/` corpus.
 
 The public site is a **JavaScript SPA** (Fluid Topics). A plain page fetch only returns "Loading application...". **Always use the TOC/content APIs** for structure and bodies.
 
@@ -87,13 +87,11 @@ GET https://docs.blackduck.com/api/khub/maps/{mapId}/topics/{contentId}/content
   index-detect-11.5.1.md         # Detect 11.5.1 historical catalog
   index-detect-11.5.1-to-12.0.0.md # generated version comparison
   index-alert.md                 # Alert catalog
-  index-bridge.md                # Bridge catalog
   index-c-cpp-tool.md            # C/CPP Tool catalog
   docs/
     help-center/ … release-notes/   # Phase 1 SCA section roots
     detect/                         # Phase 2
     alert/
-    bridge/
     c-cpp-tool/
     sca-mcp/
   sources/
@@ -102,7 +100,6 @@ GET https://docs.blackduck.com/api/khub/maps/{mapId}/topics/{contentId}/content
     detect-11.5.1/
     detect-12.0.0/
     alert-8.4.0/
-    bridge-latest/
     c-cpp-tool-latest/
     sca-mcp-latest/              # GitHub-source manifest; not a Fluid Topics map
   scripts/
@@ -165,7 +162,7 @@ scraped_at: "ISO-8601"
    - Exact SCA REST endpoint contracts → relevant `docs/api/` guidance plus `sources/openapi/<version>/openapi3-public.json`
    - Detect client, detectors, properties, scripts → `index-detect.md`, then `docs/detect-12.0.0/` by default. Use `docs/detect/` only when 11.5.1 is named; use `index-detect-11.5.1-to-12.0.0.md` for a version comparison.
    - Alert channels / providers → `docs/alert/`, `index-alert.md`
-   - Bridge CLI / CI security scan plugins → `docs/bridge/`, `index-bridge.md`
+   - Bridge CLI / CI security scan plugins → sibling `Bridge/` corpus (`Bridge/index.md`, `Bridge/docs/`)
    - C/C++ BOM via blackduck-c-cpp / Coverity Build Capture → `docs/c-cpp-tool/`, `index-c-cpp-tool.md`
 3. **Cite paths** when answering (e.g. `docs/detect-12.0.0/planning-and-running-detect.md`) so answers are verifiable.
    For OpenAPI evidence, cite the JSON path and state its version. Treat explicit paths,
@@ -208,7 +205,7 @@ When adding or refreshing documentation:
 - Directories: `kebab-case` (from section roots / product docs roots)
 - Files: `kebab-case.md` (from topic titles; paths already assigned in manifest — do not rename lightly)
 - Titles inside files: product-accurate proper names (Black Duck, Detect, etc.)
-- Product keys: `<slug>-<version>` (e.g. `detect-11.5.1`, `bridge-latest`)
+- Product keys: `<slug>-<version>` (e.g. `detect-11.5.1`, `alert-8.4.0`)
 
 ## Agent behavior in this repo
 

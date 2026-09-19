@@ -13,7 +13,7 @@
     {
       "id": "bridge",
       "name": "Bridge",
-      "root": "BlackDuck SCA",
+      "root": "Bridge",
       "skill": "Bridge/SKILL.md",
       "verifier": "Bridge/verification/verify.py",
       "versions": ["latest"],

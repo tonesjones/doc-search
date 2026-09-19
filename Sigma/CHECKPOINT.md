@@ -69,7 +69,8 @@ python scripts/smoke-retrieval.py
 | Older Sigma versions | 2026.7.0, 2026.6.1 not registered |
 | Checker catalog / standalone RN | Origin IDs only; not book maps |
 | Non-English Sigma docs | No other locale maps registered |
-| Black Duck SCA / Detect / Alert / Bridge | Separate project: `C:\TestCode\Product Docs\BlackDuck SCA` |
+| Black Duck SCA / Detect / Alert | Separate project: `C:\TestCode\Product Docs\BlackDuck SCA` |
+| Bridge CLI | Separate project: `C:\TestCode\Product Docs\Bridge` |
 | Coverity | Separate project: `C:\TestCode\Product Docs\Coverity` |
 | Polaris | Separate project: `C:\TestCode\Product Docs\Polaris` |
 | Signal | Separate project: `C:\TestCode\Product Docs\Signal` |

@@ -6,8 +6,8 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-BRIDGE = Path(r"C:\TestCode\BlackDuck SCA\docs\bridge")
-BRIDGE_INDEX = Path(r"C:\TestCode\BlackDuck SCA\index-bridge.md")
+BRIDGE = ROOT.parent / "Bridge" / "docs"
+BRIDGE_INDEX = ROOT.parent / "Bridge" / "index.md"
 
 CHECKS = (
     (
