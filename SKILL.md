@@ -14,7 +14,7 @@ The root router owns product selection, source priority, and handoff. A product 
 
 Use the local corpus first. Use the official documentation API only when the local corpus is missing, stale, or the user asks for a refresh. Label claims that come from general knowledge.
 
-Bridge is a logical product in the root registry. Its files currently live under `BlackDuck SCA` and move to `Bridge` in DS-02. Treat Bridge behavior as cross-product integration behavior even during that transition.
+Bridge is a logical product in the root registry. Its files live in the standalone `Bridge/` corpus. Treat Bridge behavior as cross-product integration behavior.
 
 ## Product ids
 
