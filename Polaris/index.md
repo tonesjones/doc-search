@@ -2,7 +2,7 @@
 
 > Generated local RAG catalog. Do not hand-edit topic rows.
 
-Polaris CI, Bridge CLI, SARIF, and pull-request workflows live in `C:\TestCode\BlackDuck SCA\docs\bridge\` and `index-bridge.md`.
+Polaris CI, Bridge CLI, SARIF, and pull-request workflows live in the sibling `Bridge/` corpus (`Bridge/docs/`, `Bridge/index.md`).
 
 # Black Duck Polaris Platform index
 

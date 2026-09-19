@@ -73,7 +73,8 @@ To refresh a mutable documentation source, use `--refresh-changed --limit 100`; 
 | Coverity on Polaris | Separate maps; not registered |
 | Non-English Coverity docs | ko / zh / ja maps exist; skip |
 | Older versions (2026.3, etc.) | Pin is 2026.6 only |
-| Black Duck SCA / Detect / Alert / Bridge | Separate project: `C:\TestCode\BlackDuck SCA` |
+| Black Duck SCA / Detect / Alert | Separate project: `C:\TestCode\BlackDuck SCA` |
+| Bridge CLI | Separate project: `C:\TestCode\Bridge` |
 
 ---
 

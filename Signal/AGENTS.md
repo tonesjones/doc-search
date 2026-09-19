@@ -135,6 +135,7 @@ Do not mix Signal docs into sibling trees, and do not scrape those maps here:
 
 | Product | Path |
 |---------|------|
-| Black Duck SCA / Detect / Alert / Bridge | `C:\TestCode\Product Docs\BlackDuck SCA` |
+| Black Duck SCA / Detect / Alert | `C:\TestCode\Product Docs\BlackDuck SCA` |
+| Bridge CLI | `C:\TestCode\Product Docs\Bridge` |
 | Coverity | `C:\TestCode\Product Docs\Coverity` |
 | Polaris | `C:\TestCode\Product Docs\Polaris` |

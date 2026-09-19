@@ -1,10 +1,10 @@
 # Session checkpoint
 
-**Last updated:** 2026-09-08 (Detect version routing and comparison policy added)
+**Last updated:** 2026-09-18 (Bridge moved to a standalone sibling corpus)
 **Status:** **DONE for now** — use local corpus for Q&A; no additional scrape is pending in the current scope.
 **Primary corpus:** Black Duck Documentation **2026.7** — **941/941 done**  
-**Companions:** Detect 11.5.1 **206/206** · Detect 12.0.0 **207/207** · Alert **45/45** · Bridge **174/174** · C/CPP Tool **20/20**
-**Grand total in corpus:** **1,595** topics
+**Companions:** Detect 11.5.1 **206/206** · Detect 12.0.0 **207/207** · Alert **45/45** · C/CPP Tool **20/20**
+**Grand total in corpus:** **1,421** topics
 
 ## Black Duck SCA MCP Server source — 2026-09-08
 
@@ -16,6 +16,12 @@
 
 - SRM was moved to the standalone sibling corpus at `C:\TestCode\Product Docs\SRM`.
 - Its 286-topic snapshot, source metadata, index, and scraper tooling are no longer part of the Black Duck SCA corpus.
+
+## Bridge CLI corpus move — 2026-09-18
+
+- Bridge CLI was moved to the standalone sibling corpus at `Bridge/` (DS-02).
+- Its 174-topic snapshot, source metadata, index, and scraper tooling are no longer part of the Black Duck SCA corpus.
+- `bridge-latest` was removed from `scripts/products.py`; the root product router now resolves `bridge` to the `Bridge/` corpus root.
 
 Read this file at the start of every new session.
 
@@ -57,7 +63,6 @@ Missing maps below are **intentionally deferred**, not incomplete work.
 | Black Duck Detect | `detect-12.0.0` | 12.0.0 **default** | **207/207** | `docs/detect-12.0.0/` | `index-detect.md` / `index-detect-12.0.0.md` |
 | Black Duck Detect | `detect-11.5.1` | 11.5.1 historical | **206/206** | `docs/detect/` | `index-detect-11.5.1.md` |
 | Black Duck Alert | `alert-8.4.0` | 8.4.0 | **45/45** | `docs/alert/` | `index-alert.md` |
-| Bridge CLI | `bridge-latest` | latest | **174/174** | `docs/bridge/` | `index-bridge.md` |
 | Black Duck C/CPP Tool | `c-cpp-tool-latest` | latest | **20/20** | `docs/c-cpp-tool/` | `index-c-cpp-tool.md` |
 
 **Hub:** `corpus-status.md`
@@ -69,8 +74,9 @@ Missing maps below are **intentionally deferred**, not incomplete work.
 | **Coverity** | `C:\TestCode\Product Docs\Coverity` |
 | **Polaris** | `C:\TestCode\Product Docs\Polaris` |
 | **Software Risk Manager** | `C:\TestCode\Product Docs\SRM` |
+| **Bridge CLI** | `C:\TestCode\Product Docs\Bridge` |
 
-Route Coverity / Polaris questions to those checkouts. Do not copy or scrape their maps here.
+Route Coverity / Polaris / Bridge questions to those checkouts. Do not copy or scrape their maps here.
 
 ### Intentionally not scraped yet (deferred — not needed now)
 
@@ -98,8 +104,8 @@ If any of the above is needed later: add/init the map (or use existing `airgap-k
 
 ## How to use the corpus today
 
-1. Prefer local `docs/**` + product indexes for **SCA, Detect, Alert, Bridge, C/CPP Tool** questions.  
-2. For **Coverity** / **Polaris**: use the sibling checkouts (`C:\TestCode\Product Docs\Coverity`, `C:\TestCode\Product Docs\Polaris`). Do not scrape them here.  
+1. Prefer local `docs/**` + product indexes for **SCA, Detect, Alert, C/CPP Tool** questions.  
+2. For **Coverity** / **Polaris** / **Bridge**: use the sibling checkouts (`C:\TestCode\Product Docs\Coverity`, `C:\TestCode\Product Docs\Polaris`, `C:\TestCode\Product Docs\Bridge`). Do not scrape them here.  
 3. For other deferred products: say they are **not in the local corpus**; use official Fluid Topics APIs only if the user asks, or offer to scrape.  
 4. Never scrape SPA HTML shells; always Fluid Topics TOC/content APIs.
 
@@ -108,7 +114,7 @@ If any of the above is needed later: add/init the map (or use existing `airgap-k
 ```powershell
 python scripts/build-index.py --list-products
 python scripts/build-index.py --product detect-12.0.0
-python scripts/scrape-pending.py --product bridge-latest --retry-errors
+python scripts/scrape-pending.py --product alert-8.4.0 --retry-errors
 ```
 
 ### If user later wants air-gap only
@@ -129,7 +135,7 @@ python scripts/build-index.py --product airgap-kb-latest --hub
 | `AGENTS.md` | Standing rules |
 | `corpus-status.md` | Multi-product progress hub |
 | `index.md` | SCA 2026.7 full TOC |
-| `index-detect.md` / `index-alert.md` / `index-bridge.md` / `index-c-cpp-tool.md` | Companion TOCs |
+| `index-detect.md` / `index-alert.md` / `index-c-cpp-tool.md` | Companion TOCs |
 | `sources/<product-key>/manifest.json` | Per-map work queues |
 | `scripts/products.py` | Map registry |
 | `scripts/scrape-pending.py` | Scraper |

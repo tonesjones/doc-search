@@ -12,11 +12,10 @@ The public help site is a JavaScript SPA. Opening a topic URL in a browser works
 | Black Duck Detect | 12.0.0 (default) | 207 | [index-detect.md](index-detect.md) |
 | Black Duck Detect | 11.5.1 (historical) | 206 | [index-detect-11.5.1.md](index-detect-11.5.1.md) |
 | Black Duck Alert | 8.4.0 | 45 | [index-alert.md](index-alert.md) |
-| Bridge CLI | latest | 174 | [index-bridge.md](index-bridge.md) |
 | Black Duck C/CPP Tool | latest | 20 | [index-c-cpp-tool.md](index-c-cpp-tool.md) |
 | Black Duck SCA MCP Server | GitHub `main` snapshot | 2 | [index-sca-mcp.md](index-sca-mcp.md) |
 
-**1,595 topics** in `docs/`. Progress hub: [corpus-status.md](corpus-status.md). Bridge SRM integration documentation remains separate from the standalone SRM corpus.
+**1,421 topics** in `docs/`. Progress hub: [corpus-status.md](corpus-status.md). Bridge CLI documentation is in the sibling `Bridge/` corpus; standalone SRM documentation is in the sibling `SRM/` corpus.
 
 For Detect, use [the default routing page](index-detect.md): it selects 12.0.0 unless a question names 11.5.1. The [11.5.1-to-12.0.0 comparison](index-detect-11.5.1-to-12.0.0.md) is available for version-delta questions.
 
@@ -34,13 +33,12 @@ docs/                  # Topic bodies (one official topic → one .md file)
   getting-started/ api/ architecture/ architecture-hosted/
   install-kubernetes/ install-docker-swarm/
   scanning-best-practices/ reporting-database/ release-notes/
-  detect/ alert/ bridge/ c-cpp-tool/ sca-mcp/
+  detect/ alert/ c-cpp-tool/ sca-mcp/
 index.md               # Full SCA catalog (generated — do not hand-edit rows)
 index-detect.md        # Detect default routing page (12.0.0)
 index-detect-12.0.0.md # Detect 12.0.0 catalog
 index-detect-11.5.1.md # Detect 11.5.1 historical catalog
 index-alert.md         # Alert catalog
-index-bridge.md        # Bridge catalog
 index-c-cpp-tool.md    # C/CPP Tool catalog
 corpus-status.md       # Multi-product progress (generated)
 sources/<product>/     # toc.json + manifest.json (work queues)
@@ -63,7 +61,7 @@ Each topic file starts with YAML front matter (`title`, `source_url`, `content_i
    - SCA server/UI, BOM, policy, install, reporting → `docs/help-center/`, install folders, [index.md](index.md)
    - Detect client, detectors, properties → [index-detect.md](index-detect.md), which routes unversioned questions to `docs/detect-12.0.0/`
    - Alert channels / providers → `docs/alert/`, [index-alert.md](index-alert.md)
-   - Bridge CLI / CI scan plugins → `docs/bridge/`, [index-bridge.md](index-bridge.md)
+   - Bridge CLI / CI scan plugins → sibling `Bridge/` corpus ([index.md](../Bridge/index.md), `Bridge/docs/`)
    - C/C++ BOM via blackduck-c-cpp → `docs/c-cpp-tool/`, [index-c-cpp-tool.md](index-c-cpp-tool.md)
 
 ### As a coding agent (Claude, Cursor, Copilot, Grok, …)
@@ -81,9 +79,9 @@ A typical prompt:
 
 ### What is not in this snapshot
 
-Intentionally omitted from this tree (see [CHECKPOINT.md](CHECKPOINT.md)): Air-gapped KnowledgeBase, BDBA, Artifactory, Code Sight, Defensics, Seeker, Sigma, Signal, Portal, older SCA year versions, and non-English locales. Standalone SRM is in the sibling `SRM/` corpus; Bridge SRM integration topics remain under `docs/bridge/`.
+Intentionally omitted from this tree (see [CHECKPOINT.md](CHECKPOINT.md)): Air-gapped KnowledgeBase, BDBA, Artifactory, Code Sight, Defensics, Seeker, Sigma, Signal, Portal, older SCA year versions, and non-English locales. Bridge CLI is in the sibling `Bridge/` corpus; standalone SRM is in the sibling `SRM/` corpus.
 
-Sibling corpora (do not scrape here): Coverity at `C:\TestCode\Product Docs\Coverity`, Polaris at `C:\TestCode\Product Docs\Polaris`.
+Sibling corpora (do not scrape here): Coverity at `C:\TestCode\Product Docs\Coverity`, Polaris at `C:\TestCode\Product Docs\Polaris`, Bridge CLI at `C:\TestCode\Product Docs\Bridge`.
 
 ---
 
@@ -99,7 +97,7 @@ python -m pip install -r requirements.txt
 
 `requirements.txt` is only needed to run `scripts/scrape-pending.py`. Reading the existing Markdown needs nothing extra.
 
-On Windows, keep the clone path reasonably short. The scraper uses extended-length paths, but deep Bridge trees can still get close to `MAX_PATH`.
+On Windows, keep the clone path reasonably short. The scraper uses extended-length paths, but deep doc trees can still get close to `MAX_PATH`.
 
 ---
 
@@ -115,7 +113,6 @@ Registered product keys:
 | `detect-12.0.0` | Detect 12.0.0 — default for unversioned questions | `docs/detect-12.0.0/` |
 | `detect-11.5.1` | Detect 11.5.1 — historical/version-specific | `docs/detect/` |
 | `alert-8.4.0` | Alert 8.4.0 | `docs/alert/` |
-| `bridge-latest` | Bridge CLI | `docs/bridge/` |
 | `c-cpp-tool-latest` | Black Duck Tools map (C/CPP Tool and KnowledgeBase Vulnerability Feed Server) | `docs/c-cpp-tool/` and `docs/knowledgebase-vulnerability-feed-server/` |
 | `airgap-kb-latest` | Air-gapped KB (optional, not initialized) | `docs/airgap-kb/` |
 
@@ -200,8 +197,8 @@ To find a map id, open the product on docs.blackduck.com and inspect network cal
 ### Retry failed downloads
 
 ```powershell
-python scripts/scrape-pending.py --product bridge-latest --retry-errors
-python scripts/build-index.py --product bridge-latest --hub
+python scripts/scrape-pending.py --product alert-8.4.0 --retry-errors
+python scripts/build-index.py --product alert-8.4.0 --hub
 ```
 
 `--retry-errors --include-pending` does both `error` and `pending`.
@@ -240,7 +237,6 @@ python scripts/build-index.py --product all --hub
 # Scrape
 python scripts/scrape-pending.py --product detect-12.0.0 --all-pending
 python scripts/scrape-pending.py --product blackduck-2026.7 --section "Black Duck SCA Help Center" --limit 20
-python scripts/scrape-pending.py --product bridge-latest --path-contains "jenkins" --dry-run
 python scripts/scrape-pending.py --product alert-8.4.0 --retry-errors
 python scripts/scrape-pending.py --product detect-12.0.0 --all-pending --delay 0.5
 python scripts/scrape-pending.py --product blackduck-2026.7 --refresh-changed

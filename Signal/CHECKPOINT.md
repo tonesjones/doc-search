@@ -64,7 +64,8 @@ python scripts/smoke-retrieval.py
 | Item | Notes |
 |------|-------|
 | Non-English Signal docs | No other locale maps registered |
-| Black Duck SCA / Detect / Alert / Bridge | Separate project: `C:\TestCode\Product Docs\BlackDuck SCA` |
+| Black Duck SCA / Detect / Alert | Separate project: `C:\TestCode\Product Docs\BlackDuck SCA` |
+| Bridge CLI | Separate project: `C:\TestCode\Product Docs\Bridge` |
 | Coverity | Separate project: `C:\TestCode\Product Docs\Coverity` |
 | Polaris | Separate project: `C:\TestCode\Product Docs\Polaris` |
 

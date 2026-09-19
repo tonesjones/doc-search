@@ -71,7 +71,7 @@ def write_index(cfg, manifest, destination):
             "",
             "> Generated local RAG catalog. Do not hand-edit topic rows.",
             "",
-            "Polaris CI, Bridge CLI, SARIF, and pull-request workflows live in `C:\\TestCode\\BlackDuck SCA\\docs\\bridge\\` and `index-bridge.md`.",
+            "Polaris CI, Bridge CLI, SARIF, and pull-request workflows live in the sibling `Bridge/` corpus (`Bridge/docs/`, `Bridge/index.md`).",
             "",
         ]
         (ROOT / "index.md").write_text("\n".join(preamble) + "\n" + "\n".join(lines) + "\n", encoding="utf-8")
