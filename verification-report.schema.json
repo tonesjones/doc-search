@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://doc-search.local/schemas/verification-report.schema.json",
+  "title": "VerificationReport",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["product", "version", "checks", "evidence", "failures", "status"],
+  "properties": {
+    "product": {"type": "string", "minLength": 1},
+    "version": {"type": "string", "minLength": 1},
+    "checks": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/check"}
+    },
+    "evidence": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1}
+    },
+    "failures": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1}
+    },
+    "status": {"$ref": "#/$defs/status"}
+  },
+  "$defs": {
+    "status": {
+      "type": "string",
+      "enum": ["PASS", "FAIL", "NOT_RUN"]
+    },
+    "check": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "category", "status"],
+      "properties": {
+        "name": {"type": "string", "minLength": 1},
+        "category": {
+          "type": "string",
+          "enum": ["corpus", "retrieval", "live", "harness"]
+        },
+        "status": {"$ref": "#/$defs/status"}
+      }
+    }
+  }
+}

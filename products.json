@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "products": [
+    {
+      "id": "black-duck-sca",
+      "name": "Black Duck SCA",
+      "root": "BlackDuck SCA",
+      "skill": "BlackDuck SCA/SKILL.md",
+      "verifier": "BlackDuck SCA/verification/verify.py",
+      "versions": ["2026.7", "12.0.0", "11.5.1", "8.4.0", "latest"],
+      "aliases": ["sca", "blackduck", "detect", "alert", "c-cpp-tool", "sca-mcp"]
+    },
+    {
+      "id": "bridge",
+      "name": "Bridge",
+      "root": "BlackDuck SCA",
+      "skill": "Bridge/SKILL.md",
+      "verifier": "Bridge/verification/verify.py",
+      "versions": ["latest"],
+      "aliases": ["bridge-cli"]
+    },
+    {
+      "id": "coverity",
+      "name": "Coverity",
+      "root": "Coverity",
+      "skill": "Coverity/SKILL.md",
+      "verifier": "Coverity/verification/verify.py",
+      "versions": ["2026.6"],
+      "aliases": ["cov"]
+    },
+    {
+      "id": "polaris",
+      "name": "Polaris",
+      "root": "Polaris",
+      "skill": "Polaris/SKILL.md",
+      "verifier": "Polaris/verification/verify.py",
+      "versions": ["latest"],
+      "aliases": ["polaris-platform"]
+    },
+    {
+      "id": "sigma",
+      "name": "Sigma",
+      "root": "Sigma",
+      "skill": "Sigma/SKILL.md",
+      "verifier": "Sigma/verification/verify.py",
+      "versions": ["2026.8.0"],
+      "aliases": []
+    },
+    {
+      "id": "signal",
+      "name": "Signal",
+      "root": "Signal",
+      "skill": "Signal/SKILL.md",
+      "verifier": "Signal/verification/verify.py",
+      "versions": ["latest"],
+      "aliases": []
+    },
+    {
+      "id": "srm",
+      "name": "Software Risk Manager",
+      "root": "SRM",
+      "skill": "SRM/SKILL.md",
+      "verifier": "SRM/verification/verify.py",
+      "versions": ["latest"],
+      "aliases": ["software-risk-manager"]
+    }
+  ]
+}
