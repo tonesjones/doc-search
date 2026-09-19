@@ -2,6 +2,13 @@
 
 This folder is a local, retrieval-friendly mirror of Black Duck product documentation. It is intended to be portable to another machine and usable by a coding assistant— including Claude Code—without requiring a live documentation scrape for ordinary questions.
 
+## Supported answer workflow
+
+Use the [supported workflow](docs/supported-workflow.md) for customer questions
+and future evaluations. The merged router and the installed personal `bd` skill
+are distinct profiles. The [DS-04 inventory](docs/ds-04-reconciliation.md)
+records existing experimental work to reuse and its current limits.
+
 ## Verify Black Duck SCA offline
 
 The root [router](SKILL.md) selects the [SCA skill](BlackDuck%20SCA/SKILL.md)
