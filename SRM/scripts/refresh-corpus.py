@@ -22,12 +22,21 @@ REPO_ROOT = ROOT.parent
 
 def git_status() -> dict[str, str]:
     completed = subprocess.run(
-        ["git", "status", "--porcelain", "--", ROOT.name], cwd=REPO_ROOT,
-        text=True, capture_output=True, check=False,
+        ["git", "status", "--porcelain=v1", "-z", "--untracked-files=all", "--", ROOT.name],
+        cwd=REPO_ROOT, text=True, encoding="utf-8", capture_output=True, check=False,
     )
     if completed.returncode:
-        return {}
-    return {line[3:].replace("\\", "/"): line[:2] for line in completed.stdout.splitlines() if len(line) >= 4}
+        raise RuntimeError(f"Cannot determine Git status: {completed.stderr.strip()}")
+    status: dict[str, str] = {}
+    records = iter(completed.stdout.split("\0"))
+    for record in records:
+        if not record:
+            continue
+        state, path = record[:2], record[3:]
+        status[path] = state
+        if "R" in state or "C" in state:
+            status[next(records)] = state
+    return status
 
 
 def protected_dirty_paths(status: dict[str, str]) -> list[str]:
@@ -35,6 +44,8 @@ def protected_dirty_paths(status: dict[str, str]) -> list[str]:
     for path in status:
         relative = path.split("/", 1)[-1] if "/" in path else path
         if relative == "corpus-status.md" or relative.startswith("index") and relative.endswith(".md"):
+            protected.append(path)
+        elif relative.startswith("docs/") and relative.endswith(".md"):
             protected.append(path)
         elif relative.startswith("sources/") and relative.endswith(("/manifest.json", "/toc.json")):
             protected.append(path)
@@ -84,11 +95,15 @@ def main() -> int:
     unknown = [key for key in keys if key not in PRODUCTS]
     if unknown:
         parser.error(f"Unknown product(s): {', '.join(unknown)}")
-    before = git_status()
+    try:
+        before = git_status()
+    except (OSError, RuntimeError) as exc:
+        print(f"Refusing refresh: {exc}", file=sys.stderr)
+        return 2
     dirty = protected_dirty_paths(before)
     if dirty and not args.dry_run:
         print("Refusing to overwrite pre-existing generated-file changes:", *dirty, sep="\n", file=sys.stderr)
-        print("Use a clean/staged generated corpus before a real refresh; dry-run remains safe.", file=sys.stderr)
+        print("Commit or preserve generated-file changes before a real refresh; dry-run remains safe.", file=sys.stderr)
         return 2
     describe_work(keys)
     if args.dry_run:
