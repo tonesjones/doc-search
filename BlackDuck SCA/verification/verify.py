@@ -15,6 +15,7 @@ spec = importlib.util.spec_from_file_location("sca_corpus_validator", PRODUCT_RO
 validator = importlib.util.module_from_spec(spec)
 sys.modules[spec.name] = validator
 spec.loader.exec_module(validator)
+from rbac_case import load_case, validate_case
 
 CASES = (
     ("SCA project creation", "index.md", "docs/help-center/understanding-projects-in-black-duck/creating-a-project.md", "2026.7", "project"),
@@ -65,6 +66,19 @@ def verify(root: Path) -> dict:
         record("Detect default routing", "retrieval", failures, ["index-detect.md default section selects Detect 12.0.0"])
     except (OSError, ValueError, IndexError) as exc:
         record("Detect default routing", "retrieval", [str(exc)])
+
+    try:
+        case_path = root / "verification/cases/sca-2026-7-rbac-poc.json"
+        case = load_case(case_path)
+        failures = validate_case(case, root)
+        record(
+            "SCA RBAC evidence case",
+            "harness",
+            failures,
+            [f"{case_path.relative_to(root)} [{case['product_version']}; observed {case['observation_date']}]"],
+        )
+    except (OSError, ValueError, KeyError, TypeError, json.JSONDecodeError) as exc:
+        record("SCA RBAC evidence case", "harness", [str(exc)])
 
     for name in ("Live UI", "Live API"):
         report["checks"].append(dict(name=name, category="live", status="NOT_RUN"))

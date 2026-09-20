@@ -39,7 +39,8 @@ python -B "BlackDuck SCA/verification/verify.py"
 
 The command prints one JSON report using the root verification report schema.
 It validates the registered SCA corpora and follows selected index-to-topic
-retrieval paths. Evidence includes corpus warnings and the versions checked.
+retrieval paths. It also validates the sanitized RBAC evidence case under
+`verification/cases/`. Evidence includes corpus warnings and the versions checked.
 Exit code 0 means the offline checks passed. Exit code 1 means a check failed.
 Live UI and API checks remain `NOT_RUN`. A `PASS` does not establish live product
 behavior or measure the quality of an agent's answers.

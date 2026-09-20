@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "case_id": "sca-2026-7-rbac-poc",
+  "title": "Project-group RBAC for central DevOps and business units",
+  "product": "Black Duck SCA",
+  "product_version": "2026.7.0",
+  "observation_date": "2026-09-18",
+  "environment": {
+    "label": "isolated SCA proof-of-concept instance",
+    "sanitized": true,
+    "identity_provider": "local demonstration accounts",
+    "customer_identifiers_removed": true
+  },
+  "principals": [
+    {"id": "central-devops-user", "kind": "user", "groups": ["central-devops"]},
+    {"id": "bu-a-user", "kind": "user", "groups": ["bu-a"]},
+    {"id": "bu-a-b-user", "kind": "user", "groups": ["bu-a", "bu-b"]},
+    {"id": "no-access-user", "kind": "user", "groups": []},
+    {"id": "central-devops", "kind": "user-group", "groups": []},
+    {"id": "bu-a", "kind": "user-group", "groups": []},
+    {"id": "bu-b", "kind": "user-group", "groups": []},
+    {"id": "bu-c", "kind": "user-group", "groups": []}
+  ],
+  "role_assignments": [
+    {"principal": "central-devops", "role": "Global Project Manager", "scope": "global"},
+    {"principal": "bu-a", "role": "BOM Manager", "scope": "project-group:bu-a-projects"},
+    {"principal": "bu-a", "role": "Project Code Scanner", "scope": "project-group:bu-a-projects"},
+    {"principal": "bu-b", "role": "BOM Manager", "scope": "project-group:bu-b-projects"},
+    {"principal": "bu-c", "role": "BOM Manager", "scope": "project-group:bu-c-projects"}
+  ],
+  "resources": {
+    "project_groups": ["bu-a-projects", "bu-b-projects", "bu-c-projects"],
+    "projects": [
+      "bu-a-service-1", "bu-a-service-2", "bu-b-service-1", "bu-b-service-2",
+      "bu-c-service-1", "bu-c-service-2", "ungrouped-control-project"
+    ],
+    "version_label": "1.0.0"
+  },
+  "evidence": [
+    {
+      "id": "docs-project-group-roles",
+      "kind": "versioned-documentation",
+      "source_path": "docs/help-center/administering-black-duck/administering-user-accounts/understanding-roles/project-group-roles-reference.md",
+      "summary": "Documents project-group role behavior for the pinned SCA corpus."
+    },
+    {
+      "id": "docs-edit-project-group",
+      "kind": "versioned-documentation",
+      "source_path": "docs/help-center/managing-black-duck/managing-project-groups/editing-a-project-group.md",
+      "summary": "Documents assigning user groups and roles from a project group."
+    },
+    {
+      "id": "historical-rbac-run",
+      "kind": "sanitized-run-summary",
+      "summary": "The original run recorded persona-specific UI and API results. Raw credentials and private server identifiers remain outside this repository."
+    },
+    {
+      "id": "historical-detect-run",
+      "kind": "sanitized-run-summary",
+      "summary": "Detect 12 used the restricted BU-A identity, mapped one source file to an assigned project, and produced one unconfirmed snippet candidate."
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "ui-bu-a-project-list",
+      "surface": "UI",
+      "principal": "bu-a-user",
+      "operation": "list visible projects",
+      "target": "bu-a-projects",
+      "expectation": "ALLOW",
+      "outcome": "OBSERVED_SUCCESS",
+      "result": "Exactly the two BU-A projects were visible.",
+      "evidence": ["historical-rbac-run"]
+    },
+    {
+      "id": "ui-bu-a-control-project",
+      "surface": "UI",
+      "principal": "bu-a-user",
+      "operation": "list visible projects",
+      "target": "ungrouped-control-project",
+      "expectation": "DENY",
+      "outcome": "OBSERVED_DENIAL",
+      "result": "The control project was not visible.",
+      "evidence": ["historical-rbac-run"],
+      "negative_control_for": "ui-bu-a-project-list"
+    },
+    {
+      "id": "ui-cross-bu-project-list",
+      "surface": "UI",
+      "principal": "bu-a-b-user",
+      "operation": "list visible projects",
+      "target": "bu-a-projects and bu-b-projects",
+      "expectation": "ALLOW",
+      "outcome": "OBSERVED_SUCCESS",
+      "result": "Exactly four projects from the two assigned groups were visible.",
+      "evidence": ["historical-rbac-run"]
+    },
+    {
+      "id": "ui-no-access-project-list",
+      "surface": "UI",
+      "principal": "no-access-user",
+      "operation": "list visible projects",
+      "target": "all demonstration projects",
+      "expectation": "DENY",
+      "outcome": "OBSERVED_DENIAL",
+      "result": "No projects were visible.",
+      "evidence": ["historical-rbac-run"],
+      "negative_control_for": "ui-cross-bu-project-list"
+    },
+    {
+      "id": "ui-central-project-list",
+      "surface": "UI",
+      "principal": "central-devops-user",
+      "operation": "list visible projects",
+      "target": "all demonstration projects",
+      "expectation": "ALLOW",
+      "outcome": "OBSERVED_SUCCESS",
+      "result": "All seven projects, including the ungrouped control project, were visible.",
+      "evidence": ["historical-rbac-run"]
+    },
+    {
+      "id": "ui-bu-a-sbom",
+      "surface": "UI",
+      "principal": "bu-a-user",
+      "operation": "generate SPDX 2.3 JSON SBOM",
+      "target": "bu-a-service-1:1.0.0",
+      "expectation": "ALLOW",
+      "outcome": "OBSERVED_SUCCESS",
+      "result": "The SBOM report completed and downloaded.",
+      "evidence": ["historical-rbac-run"]
+    },
+    {
+      "id": "mcp-bu-a-snippet-request",
+      "surface": "MCP",
+      "principal": "bu-a-user",
+      "operation": "match_code_snippet",
+      "target": "synthetic source sample",
+      "expectation": "ALLOW",
+      "outcome": "OBSERVED_SUCCESS",
+      "result": "The request completed with zero matches. This proves request processing, not positive matching or project isolation.",
+      "evidence": ["historical-rbac-run"]
+    },
+    {
+      "id": "detect-bu-a-mapped-scan",
+      "surface": "DETECT",
+      "principal": "bu-a-user",
+      "operation": "signature scan with snippet matching and source upload",
+      "target": "bu-a-service-1:1.0.0",
+      "expectation": "ALLOW",
+      "outcome": "OBSERVED_SUCCESS",
+      "result": "Detect 12 mapped one file and Black Duck displayed one unconfirmed snippet candidate.",
+      "evidence": ["historical-detect-run"]
+    },
+    {
+      "id": "api-bu-a-match-review-mutation",
+      "surface": "API",
+      "principal": "bu-a-user",
+      "operation": "confirm or ignore an unconfirmed snippet candidate",
+      "target": "bu-a-service-1:1.0.0",
+      "expectation": "ALLOW",
+      "outcome": "NOT_TESTED",
+      "result": "The writable endpoint was discoverable, but no Confirm or Ignore mutation was executed.",
+      "evidence": ["historical-detect-run"]
+    },
+    {
+      "id": "api-bu-a-unassigned-project-read",
+      "surface": "API",
+      "principal": "bu-a-user",
+      "operation": "read an unassigned project directly by identifier",
+      "target": "ungrouped-control-project",
+      "expectation": "DENY",
+      "outcome": "NOT_TESTED",
+      "result": "Project-list isolation was observed, but direct-object denial was not preserved as evidence.",
+      "evidence": ["historical-rbac-run"],
+      "negative_control_for": "detect-bu-a-mapped-scan"
+    }
+  ],
+  "claims": [
+    {
+      "id": "project-group-isolation",
+      "statement": "On the observed SCA 2026.7.0 instance, project-group role assignments limited BU-A project visibility while global project management retained all-project visibility.",
+      "supported_by": ["ui-bu-a-project-list", "ui-central-project-list"],
+      "requires_negative_control": true
+    },
+    {
+      "id": "scoped-detect-scan",
+      "statement": "The BU-A identity completed a Detect 12 scan into its assigned project after receiving Project Code Scanner on the BU-A project group.",
+      "supported_by": ["detect-bu-a-mapped-scan"],
+      "requires_negative_control": false
+    },
+    {
+      "id": "mcp-request-processing",
+      "statement": "The BU-A identity successfully processed an MCP snippet request. The zero-match result does not prove positive matching or project isolation.",
+      "supported_by": ["mcp-bu-a-snippet-request"],
+      "requires_negative_control": false
+    }
+  ],
+  "open_gaps": [
+    "Run a direct API read against an unassigned project and preserve the denial response.",
+    "Execute one Confirm or Ignore mutation on a disposable snippet candidate, then verify an equivalent unassigned-project mutation is denied.",
+    "Preserve sanitized API response metadata and screenshots in a future controlled rerun.",
+    "Repeat version-sensitive claims when the target SCA release changes."
+  ],
+  "restoration": {
+    "required": false,
+    "reason": "The isolated demonstration environment was intentionally retained.",
+    "future_run_rule": "Record the baseline before mutation and restore only resources created by the selected case."
+  }
+}
