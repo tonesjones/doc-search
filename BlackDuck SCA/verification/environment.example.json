@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "environment_label": "my-sca-rbac-lab",
+  "base_url": "https://sca.example.test",
+  "expected_version": "2026.7.0",
+  "principals": {
+    "admin": {
+      "api_token_env": "BD_RBAC_ADMIN_TOKEN",
+      "ui_username_env": "BD_RBAC_ADMIN_USERNAME",
+      "ui_password_env": "BD_RBAC_ADMIN_PASSWORD"
+    },
+    "bu-a-user": {
+      "api_token_env": "BD_RBAC_BU_A_TOKEN",
+      "ui_username_env": "BD_RBAC_BU_A_USERNAME",
+      "ui_password_env": "BD_RBAC_BU_A_PASSWORD"
+    },
+    "no-access-user": {
+      "api_token_env": "BD_RBAC_NO_ACCESS_TOKEN",
+      "ui_username_env": "BD_RBAC_NO_ACCESS_USERNAME",
+      "ui_password_env": "BD_RBAC_NO_ACCESS_PASSWORD"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+__pycache__/
+*.py[cod]
+
+# Per-user live validation configuration. Copy the committed example locally.
+BlackDuck SCA/verification/environment.local.json
