@@ -356,15 +356,14 @@ def score_case(
     missing_sources = [expected for expected in must if not any(_matches(path, expected) for path in evidence_files)]
     if must_any and not any(_matches(path, expected) for path in evidence_files for expected in must_any):
         missing_sources.append("one of: " + ", ".join(must_any))
-    if missing_sources:
-        failures.append("RETRIEVAL_FAILURE")
-
     must_not_violations = [expected for expected in case.get("must_not_retrieve", []) if any(_matches(path, expected) for path in files)]
     if must_not_violations:
         failures.append("RETRIEVAL_FAILURE")
 
     answer = trace.get("answer", "")
     abstained = bool(ABSTENTION_RE.search(answer))
+    if missing_sources and not (case["expected_behavior"] == "abstain" and abstained):
+        failures.append("RETRIEVAL_FAILURE")
     version_accuracy: bool | None = None
     requested = case.get("product_version")
     if requested:

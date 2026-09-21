@@ -104,6 +104,17 @@ class Ds07EvaluationTests(unittest.TestCase):
         self.assertIn("does not establish", result["answer"])
         self.assertEqual(result["model"], "deterministic-version-guard")
 
+    def test_successful_version_abstention_does_not_require_unavailable_sources(self):
+        case = next(case for case in self.cases if case["id"] == "sca-version-caveat-001")
+        result = version_guard({"product_version": case["product_version"]}, {
+            **self.profile, "available_versions": [self.profile["product_version"]],
+        })
+        provenance = profile_metadata(self.profile)
+        provenance["checkout_dirty"] = False
+        provenance["prompt_revision"] = "sha256:test"
+        trace = make_trace(case, result, provenance)
+        self.assertEqual(score_case(case, trace)["status"], "PASS")
+
     def test_trace_requires_current_provenance(self):
         provenance = profile_metadata(self.profile)
         provenance["checkout_dirty"] = False
