@@ -29,7 +29,7 @@ The adapter uses `gpt-5.6-terra` with medium reasoning by default. Set `DOC_SEAR
 
 The adapter starts an ephemeral Codex process in the read-only sandbox. The process loads the root `SKILL.md`, resolves the product through `products.json`, and follows the selected product instructions. It cannot write to the checkout.
 
-Each returned evidence item contains a repository path and an exact excerpt. The adapter rejects an excerpt that is absent from the named file. It also rejects evidence outside the profile and evidence with a version that conflicts with the requested version.
+Each returned evidence item contains a repository path and an excerpt. The adapter verifies the excerpt against the named file and permits whitespace-only formatting differences. It rejects evidence outside the profile and evidence with a version that conflicts with the requested version.
 
 ## Read the result
 

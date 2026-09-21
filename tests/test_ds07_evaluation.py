@@ -5,7 +5,13 @@ from pathlib import Path
 
 from evaluation.core import load_jsonl, make_trace, validate_trace, verify_case_evidence
 from evaluation.profile import evidence_path_allowed, load_profile, profile_metadata
-from scripts.codex_checkout_adapter import build_command, validate_output, version_guard
+from scripts.codex_checkout_adapter import (
+    build_command,
+    repository_relative,
+    validate_output,
+    verified_excerpt,
+    version_guard,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -53,6 +59,13 @@ class Ds07EvaluationTests(unittest.TestCase):
         result = validate_output(value, {"product_version": "2026.7"}, self.profile)
         self.assertEqual(result["retrieved_chunks"][0]["metadata"]["version"], "2026.7")
         self.assertEqual(result["citations"], [{"file": relative}])
+
+    def test_adapter_normalizes_checkout_path_and_source_whitespace(self):
+        relative = "BlackDuck SCA/docs/help-center/understanding-projects-in-black-duck/creating-a-project.md"
+        absolute = str(ROOT / relative)
+        self.assertEqual(repository_relative(absolute), relative)
+        matched = verified_excerpt("one\n  two three", "one two three", relative)
+        self.assertEqual(matched, "one\n  two three")
 
     def test_adapter_rejects_wrong_version_openapi_evidence(self):
         relative = "BlackDuck SCA/sources/openapi/2026.4.0/openapi3-public.json"

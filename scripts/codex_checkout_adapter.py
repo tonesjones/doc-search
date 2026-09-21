@@ -66,6 +66,28 @@ def source_version(path: Path) -> str | None:
     return None
 
 
+def repository_relative(value: str, root: Path = ROOT) -> str:
+    candidate = Path(value.replace("\\", "/"))
+    if candidate.is_absolute():
+        try:
+            candidate = candidate.resolve().relative_to(root.resolve())
+        except ValueError as exc:
+            raise EvaluationError(f"evidence path is outside the checkout: {value}") from exc
+    return candidate.as_posix()
+
+
+def verified_excerpt(source: str, claimed: str, relative: str) -> str:
+    if claimed in source:
+        return claimed
+    words = claimed.split()
+    if not words:
+        raise EvaluationError(f"evidence excerpt is empty: {relative}")
+    match = re.search(r"\s+".join(re.escape(word) for word in words), source)
+    if not match:
+        raise EvaluationError(f"evidence excerpt is not present in source: {relative}")
+    return match.group(0)
+
+
 def validate_output(
     value: dict[str, Any], payload: dict[str, Any], profile: dict[str, Any], root: Path = ROOT,
 ) -> dict[str, Any]:
@@ -82,19 +104,18 @@ def validate_output(
     for item in evidence:
         if not isinstance(item, dict) or not isinstance(item.get("file"), str) or not isinstance(item.get("excerpt"), str):
             raise EvaluationError("each evidence item must contain file and excerpt strings")
-        relative = item["file"].replace("\\", "/")
+        relative = repository_relative(item["file"], root)
         if not evidence_path_allowed(relative, profile, root):
             raise EvaluationError(f"evidence path is outside the selected profile: {relative}")
         path = root / relative
         text = path.read_text(encoding="utf-8", errors="replace")
-        if item["excerpt"] not in text:
-            raise EvaluationError(f"evidence excerpt is not present in source: {relative}")
+        excerpt = verified_excerpt(text, item["excerpt"], relative)
         version = source_version(path)
         if requested and version and version != requested:
             raise EvaluationError(f"evidence version {version} does not match requested version {requested}: {relative}")
         chunks.append({
             "file": relative,
-            "content": item["excerpt"],
+            "content": excerpt,
             "metadata": {"product": profile["product"], "version": version},
         })
         evidence_files.add(relative.casefold())
@@ -103,7 +124,7 @@ def validate_output(
     for citation in citations:
         if not isinstance(citation, dict) or not isinstance(citation.get("file"), str):
             raise EvaluationError("each citation must contain a file string")
-        relative = citation["file"].replace("\\", "/")
+        relative = repository_relative(citation["file"], root)
         if relative.casefold() not in evidence_files:
             raise EvaluationError(f"citation has no validated evidence excerpt: {relative}")
         normalized_citations.append({"file": relative})
@@ -158,7 +179,7 @@ def main() -> int:
             "model": model,
             "model_parameters": {"model_reasoning_effort": reasoning},
             "prompt_revision": prompt_revision(profile),
-            "adapter_metadata": {"evidence_method": "model-reported exact excerpt, repository-validated"},
+            "adapter_metadata": {"evidence_method": "model-reported excerpt, repository-validated with whitespace normalization"},
         })
         print(json.dumps(redact(result)))
         return 0
