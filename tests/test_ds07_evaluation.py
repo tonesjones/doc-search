@@ -86,6 +86,7 @@ class Ds07EvaluationTests(unittest.TestCase):
 
     def test_trace_requires_current_provenance(self):
         provenance = profile_metadata(self.profile)
+        provenance["checkout_dirty"] = False
         provenance["prompt_revision"] = "sha256:test"
         trace = make_trace(
             {"question": "q", "product": "blackduck-sca", "product_version": "2026.7"},
@@ -97,6 +98,7 @@ class Ds07EvaluationTests(unittest.TestCase):
 
     def test_stale_trace_cannot_score_as_current(self):
         provenance = profile_metadata(self.profile)
+        provenance["checkout_dirty"] = False
         provenance["prompt_revision"] = "sha256:test"
         trace = make_trace(
             {"question": "q", "product": "blackduck-sca", "product_version": "2026.7"},
@@ -111,6 +113,7 @@ class Ds07EvaluationTests(unittest.TestCase):
 
     def test_dirty_checkout_cannot_claim_a_current_trace(self):
         provenance = profile_metadata(self.profile)
+        provenance["checkout_dirty"] = False
         provenance["prompt_revision"] = "sha256:test"
         trace = make_trace(
             {"question": "q", "product": "blackduck-sca", "product_version": "2026.7"},
