@@ -195,7 +195,7 @@ def verify_case_evidence(case: dict[str, Any], root: Path = ROOT) -> list[str]:
         for fact in case.get("required_facts", []):
             if fact["type"] == "EXACT_FACT" and not _contains(joined, fact["value"], fact.get("case_sensitive", False)):
                 errors.append(f"required exact fact absent from evidence: {fact['value']}")
-    for pattern in case.get("must_retrieve", []):
+    for pattern in case.get("must_retrieve", []) + case.get("must_retrieve_any", []):
         if not (root / pattern).is_file():
             errors.append(f"must_retrieve path missing: {pattern}")
     return errors
@@ -325,13 +325,15 @@ def score_case(
     chunks = trace.get("retrieved_chunks", [])
     files = [path for path in (_chunk_file(chunk) for chunk in chunks) if path]
     must = case.get("must_retrieve", [])
+    must_any = case.get("must_retrieve_any", [])
+    retrieval_targets = must if must else must_any
     recall: dict[str, float | None] = {}
     for k in (1, 3, 5):
-        if not must:
+        if not retrieval_targets:
             recall[str(k)] = None
         else:
-            hits = sum(any(_matches(path, expected) for path in files[:k]) for expected in must)
-            recall[str(k)] = hits / len(must)
+            hits = sum(any(_matches(path, expected) for path in files[:k]) for expected in retrieval_targets)
+            recall[str(k)] = hits / len(retrieval_targets)
     citation_files = [
         citation.get("file") if isinstance(citation, dict) else citation
         for citation in trace.get("citations", [])
@@ -344,10 +346,12 @@ def score_case(
     ]
     required_citation_fallbacks = [
         file for file in valid_citation_fallbacks
-        if any(_matches(file, expected) for expected in must)
+        if any(_matches(file, expected) for expected in retrieval_targets)
     ]
     evidence_files = files + required_citation_fallbacks
     missing_sources = [expected for expected in must if not any(_matches(path, expected) for path in evidence_files)]
+    if must_any and not any(_matches(path, expected) for path in evidence_files for expected in must_any):
+        missing_sources.append("one of: " + ", ".join(must_any))
     if missing_sources:
         failures.append("RETRIEVAL_FAILURE")
 
@@ -363,7 +367,7 @@ def score_case(
         relevant_chunks = [
             chunk for chunk in chunks
             if isinstance(chunk, dict)
-            and (not must or any(_matches(_chunk_file(chunk) or "", expected) for expected in must))
+            and (not retrieval_targets or any(_matches(_chunk_file(chunk) or "", expected) for expected in retrieval_targets))
         ]
         versions = [chunk.get("metadata", {}).get("version") for chunk in relevant_chunks]
         versions = [str(value) for value in versions if value is not None]
@@ -418,7 +422,7 @@ def score_case(
 
     retrieved_set = {path.replace("\\", "/").casefold() for path in files}
     citation_errors: list[str] = []
-    if case["expected_behavior"] != "abstain" and must and not trace.get("citations"):
+    if case["expected_behavior"] != "abstain" and retrieval_targets and not trace.get("citations"):
         citation_errors.append("answer has no citation")
     for citation in trace.get("citations", []):
         file = citation.get("file") if isinstance(citation, dict) else citation

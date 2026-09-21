@@ -18,6 +18,7 @@
       "enum": ["answer", "abstain", "surface_conflict", "version_caveat"]
     },
     "must_retrieve": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "must_retrieve_any": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
     "should_retrieve": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
     "must_not_retrieve": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
     "required_facts": {"$ref": "#/$defs/facts"},

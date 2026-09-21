@@ -3,7 +3,7 @@ from __future__ import annotations
 import unittest
 from pathlib import Path
 
-from evaluation.core import load_jsonl, make_trace, validate_trace, verify_case_evidence
+from evaluation.core import load_jsonl, make_trace, score_case, validate_trace, verify_case_evidence
 from evaluation.profile import evidence_path_allowed, load_profile, profile_metadata
 from scripts.codex_checkout_adapter import (
     PROMPT_TEMPLATE,
@@ -32,6 +32,23 @@ class Ds07EvaluationTests(unittest.TestCase):
         cases = load_jsonl(ROOT / "evaluation" / "cases" / "sca-regressions.jsonl")
         self.assertEqual(len(cases), 6)
         self.assertEqual([error for case in cases for error in verify_case_evidence(case)], [])
+
+    def test_project_definition_accepts_either_version_matched_definition_page(self):
+        case = next(
+            case for case in load_jsonl(ROOT / "evaluation" / "cases" / "sca-regressions.jsonl")
+            if case["id"] == "feedback-sca-project-definition-001"
+        )
+        for path in case["must_retrieve_any"]:
+            trace = {
+                "answer_id": "ans-test", "timestamp": "2026-09-21T00:00:00Z",
+                "original_query": case["question"], "product": case["product"],
+                "answer": "base unit stand-alone development project part of another project project version",
+                "retrieved_chunks": [{"file": path, "content": "base unit project version", "metadata": {"version": "2026.7"}}],
+                "citations": [{"file": path}], "evaluation_profile": "test", "entrypoint": "test",
+                "checkout_revision": "test", "checkout_dirty": False, "instruction_revision": "test",
+                "source_revision": "test", "prompt_revision": "test",
+            }
+            self.assertEqual(score_case(case, trace)["status"], "PASS")
 
     def test_profile_accepts_markdown_and_openapi_only_inside_sca_roots(self):
         self.assertTrue(evidence_path_allowed(
