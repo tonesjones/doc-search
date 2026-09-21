@@ -48,7 +48,7 @@ def prompt_revision(profile: dict[str, Any]) -> str:
 
 def build_command(output_path: Path, model: str, reasoning: str) -> list[str]:
     return [
-        "codex", "exec", "-", "--json", "--ephemeral", "--ignore-user-config",
+        "codex", "exec", "-", "--json", "--ephemeral",
         "--sandbox", "read-only", "--cd", str(ROOT), "--model", model,
         "--config", f'model_reasoning_effort="{reasoning}"',
         "--output-schema", str(OUTPUT_SCHEMA), "--output-last-message", str(output_path),

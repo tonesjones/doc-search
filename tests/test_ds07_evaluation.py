@@ -41,6 +41,7 @@ class Ds07EvaluationTests(unittest.TestCase):
         self.assertIn("read-only", command)
         self.assertIn("--ephemeral", command)
         self.assertNotIn("danger-full-access", command)
+        self.assertNotIn("--ignore-user-config", command)
 
     def test_adapter_validates_exact_excerpt_and_citation(self):
         relative = "BlackDuck SCA/docs/help-center/understanding-projects-in-black-duck/creating-a-project.md"

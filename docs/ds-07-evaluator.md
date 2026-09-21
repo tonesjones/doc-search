@@ -20,7 +20,7 @@ Run one case before starting a larger evaluation:
 python -B scripts/evaluate.py `
   --cases evaluation/cases/sca-regressions.jsonl `
   --case-id feedback-sca-project-definition-001 `
-  --adapter python -B scripts/codex_checkout_adapter.py `
+  --adapter python scripts/codex_checkout_adapter.py `
   --trace-output evaluation/traces/ds-07-smoke `
   --output evaluation/results/ds-07-smoke.json
 ```
