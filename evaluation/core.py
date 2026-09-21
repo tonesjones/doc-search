@@ -262,7 +262,7 @@ def make_trace(case: dict[str, Any], result: dict[str, Any], provenance: dict[st
     return trace
 
 
-def validate_trace(trace: dict[str, Any]) -> list[str]:
+def validate_trace(trace: dict[str, Any], expected_provenance: dict[str, Any] | None = None) -> list[str]:
     errors: list[str] = []
     for field in (
         "answer_id", "timestamp", "original_query", "product", "answer",
@@ -273,6 +273,13 @@ def validate_trace(trace: dict[str, Any]) -> list[str]:
             errors.append(f"trace missing string {field}")
     if not isinstance(trace.get("checkout_dirty"), bool):
         errors.append("trace missing boolean checkout_dirty")
+    elif trace.get("checkout_dirty"):
+        errors.append("trace was captured from a checkout with tracked changes")
+    if expected_provenance and expected_provenance.get("checkout_dirty"):
+        errors.append("current checkout has tracked changes")
+    for field in ("evaluation_profile", "checkout_revision", "instruction_revision", "source_revision"):
+        if expected_provenance and trace.get(field) != expected_provenance.get(field):
+            errors.append(f"trace {field} does not match the current evaluation profile")
     if not isinstance(trace.get("retrieved_chunks", []), list):
         errors.append("retrieved_chunks must be a list")
     if not isinstance(trace.get("citations", []), list):
@@ -308,9 +315,10 @@ def score_case(
     trace: dict[str, Any],
     root: Path = ROOT,
     fact_equivalents: dict[tuple[str, str, str], list[str]] | None = None,
+    expected_provenance: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
     failures: list[str] = []
-    trace_errors = validate_trace(trace)
+    trace_errors = validate_trace(trace, expected_provenance)
     if trace_errors:
         failures.append("METADATA_FAILURE")
 

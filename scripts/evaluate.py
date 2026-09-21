@@ -141,14 +141,14 @@ def main() -> int:
                 continue
             trace = load_json(path)
             measured_traces.append(trace)
-            results.append(score_case(case, trace, fact_equivalents=fact_equivalents))
+            results.append(score_case(case, trace, fact_equivalents=fact_equivalents, expected_provenance=provenance))
     elif args.adapter:
         for position, case in enumerate(cases, start=1):
             existing_trace = args.trace_output / f"{case['id']}.json"
             if args.resume and existing_trace.is_file():
                 trace = load_json(existing_trace)
                 measured_traces.append(trace)
-                results.append(score_case(case, trace, fact_equivalents=fact_equivalents))
+                results.append(score_case(case, trace, fact_equivalents=fact_equivalents, expected_provenance=provenance))
                 print(f"[{position}/{len(cases)}] {case['id']}: reused {results[-1]['status']}", file=sys.stderr, flush=True)
                 continue
             print(f"[{position}/{len(cases)}] {case['id']}: invoking production path", file=sys.stderr, flush=True)
@@ -157,7 +157,7 @@ def main() -> int:
                 trace = make_trace(case, raw, provenance)
                 measured_traces.append(trace)
                 dump_json(args.trace_output / f"{case['id']}.json", trace)
-                results.append(score_case(case, trace, fact_equivalents=fact_equivalents))
+                results.append(score_case(case, trace, fact_equivalents=fact_equivalents, expected_provenance=provenance))
                 print(f"[{position}/{len(cases)}] {case['id']}: {results[-1]['status']}", file=sys.stderr, flush=True)
             except (EvaluationError, OSError, TimeoutError) as exc:
                 results.append({"case_id": case["id"], "status": "NOT_MEASURED", "reason": str(exc)})

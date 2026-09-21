@@ -41,7 +41,7 @@ Each trace records these revisions:
 - A hash of the adapter prompt.
 - The model and reasoning setting.
 
-Saved results are historical after any recorded revision changes. Re-run the cases before comparing a changed router, source tree, prompt, or model.
+Saved traces fail the current-profile check after the checkout, source tree, or instructions change. Re-run the cases before comparing a changed router, source tree, prompt, or model.
 
 The deterministic scorer checks required and forbidden facts, citations, retrieval paths, and version metadata. Semantic facts remain `NOT_MEASURED` without a separate grader. A model grader can assist review, but it is not promotion authority.
 

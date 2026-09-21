@@ -95,6 +95,31 @@ class Ds07EvaluationTests(unittest.TestCase):
         del trace["instruction_revision"]
         self.assertIn("trace missing string instruction_revision", validate_trace(trace))
 
+    def test_stale_trace_cannot_score_as_current(self):
+        provenance = profile_metadata(self.profile)
+        provenance["prompt_revision"] = "sha256:test"
+        trace = make_trace(
+            {"question": "q", "product": "blackduck-sca", "product_version": "2026.7"},
+            {"answer": "a"}, provenance,
+        )
+        expected = dict(provenance)
+        expected["source_revision"] = "new-tree"
+        self.assertIn(
+            "trace source_revision does not match the current evaluation profile",
+            validate_trace(trace, expected),
+        )
+
+    def test_dirty_checkout_cannot_claim_a_current_trace(self):
+        provenance = profile_metadata(self.profile)
+        provenance["prompt_revision"] = "sha256:test"
+        trace = make_trace(
+            {"question": "q", "product": "blackduck-sca", "product_version": "2026.7"},
+            {"answer": "a"}, provenance,
+        )
+        expected = dict(provenance)
+        expected["checkout_dirty"] = True
+        self.assertIn("current checkout has tracked changes", validate_trace(trace, expected))
+
 
 if __name__ == "__main__":
     unittest.main()
