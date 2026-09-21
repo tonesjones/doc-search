@@ -1,6 +1,6 @@
 # Black Duck Documentation Skill Handoff
 
-This folder is a local, retrieval-friendly mirror of Black Duck product documentation. It is intended to be portable to another machine and usable by a coding assistant— including Claude Code—without requiring a live documentation scrape for ordinary questions.
+This folder is a local, retrieval-friendly mirror of Black Duck product documentation. It works with coding agents without a live documentation scrape for ordinary questions.
 
 ## Supported answer workflow
 
@@ -47,28 +47,47 @@ The previous optimization work changed this from a loose collection of downloade
 - **Explicit scope boundaries:** intentionally omitted products, versions, locales, and legacy documentation are recorded so an assistant does not silently expand the corpus or scrape unrelated material.
 - **Portable read path:** reading the existing corpus requires only the files; Python, dependencies, and network access are needed only for refresh, scrape, or validation operations.
 
-## How Claude Code should use this folder
-
-1. Read the relevant product's `AGENTS.md` and `CHECKPOINT.md` before making changes or answering product questions.
-2. Search that product's `docs/`, generated indexes, and `corpus-status.md` first.
-3. Cite local Markdown paths in answers so claims are verifiable.
-4. Do not invent UI paths, API endpoints, CLI flags, checker names, license names, or product properties.
-5. If the local corpus is silent, say so clearly. Only then consult official Black Duck documentation or propose a refresh.
-6. Treat generated indexes and status hubs as outputs. Update the manifest or source scripts, then regenerate them.
-7. Preserve the pinned product versions and the documented out-of-scope decisions unless the user explicitly requests a new scrape or version.
-
 ## Product entry points
 
 | Product | Folder | Start with |
 |---|---|---|
-| Black Duck SCA and companion tools | `BlackDuck SCA/` | `README.md`, `AGENTS.md`, `index.md` |
+| Black Duck SCA, Detect, Alert, and C/C++ Tool | `BlackDuck SCA/` | `README.md`, `AGENTS.md`, `CHECKPOINT.md`, `index.md` |
+| Bridge | `Bridge/` | `README.md`, `AGENTS.md`, `CHECKPOINT.md`, `index.md` |
 | Coverity | `Coverity/` | `README.md`, `AGENTS.md`, `index.md` |
 | Polaris Platform | `Polaris/` | `README.md`, `AGENTS.md`, `index.md` |
 | Software Risk Manager | `SRM/` | `README.md`, `AGENTS.md`, `index.md` |
 | Sigma | `Sigma/` | `README.md`, `AGENTS.md`, `index.md` |
 | Signal | `Signal/` | `README.md`, `AGENTS.md`, `index.md` |
 
-For a Claude Code skill, use this root README as the high-level instruction and each product's `AGENTS.md` as the product-specific operating rules. Do not flatten the product folders into one undifferentiated index.
+## Use this repository with a coding agent
+
+All coding agents use the same source and version rules.
+
+1. Read [SKILL.md](SKILL.md) to select a product from `products.json`.
+2. Read the selected product's `README.md`, `AGENTS.md`, and `CHECKPOINT.md`.
+3. Search that product's `docs/`, generated index, and `corpus-status.md` before using the web or general knowledge.
+4. Cite local Markdown paths in answers.
+5. Do not invent UI paths, API endpoints, CLI flags, checker names, license names, or product properties.
+6. If the local corpus is silent, say so. Then use official Black Duck documentation or ask before refreshing the corpus.
+7. Update manifests and source scripts before generated indexes or status files. Preserve pinned versions and documented scope unless the user requests a change.
+
+### Claude Code
+
+Add this checkout to the Claude Code workspace. Start each product question by reading `SKILL.md` and the selected product's agent files. The root router and the Black Duck SCA product skill are the current agent instruction files.
+
+### Codex
+
+Open this checkout as the Codex workspace. In your first prompt, ask Codex to read `SKILL.md`, resolve the product through `products.json`, and then read the selected product's `README.md`, `AGENTS.md`, and `CHECKPOINT.md`. Codex follows `AGENTS.md` files automatically when they are in scope, but the explicit prompt ensures it loads the root router first.
+
+### Grok
+
+Attach or clone this checkout before asking a product question. Give Grok the same instruction as Codex because Grok does not automatically load this repository's guidance:
+
+```text
+Read SKILL.md. Resolve the product through products.json. Read the selected product's README.md, AGENTS.md, and CHECKPOINT.md. Search local Markdown and indexes before answering. Cite local file paths. Do not guess when the corpus is silent.
+```
+
+Poteto Mode is a personal agent-workflow style. It has no dedicated technical-documentation skill. Use the `technical-writing` skill for README and documentation edits.
 
 ## Refresh principle
 
