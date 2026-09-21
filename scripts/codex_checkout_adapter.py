@@ -31,6 +31,8 @@ PROMPT_TEMPLATE = """Use only this checkout to answer the question.
 Read SKILL.md and products.json first. Resolve the product, then read its SKILL.md when present and its AGENTS.md.
 Open the relevant local Markdown or versioned OpenAPI source. Do not use the web or general knowledge.
 Return an answer with local file citations. For each cited source, return one exact excerpt copied from that file.
+Return evidence only from BlackDuck SCA/docs, BlackDuck SCA/sources/openapi, or evaluation/guidance.
+Do not return SKILL.md, AGENTS.md, products.json, indexes, or checkpoint files as answer evidence.
 If the requested version is unavailable, say that the checkout does not establish the answer for that version.
 
 Product: {product}
