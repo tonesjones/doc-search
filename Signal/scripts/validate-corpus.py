@@ -12,6 +12,10 @@ from corpus_utils import atomic_write_text, content_hash, markdown_body
 from products import DEFAULT_PRODUCT_KEY, get_product, product_paths
 
 ROOT = Path(__file__).resolve().parents[1]
+if sys.platform == "win32":
+    absolute = str(ROOT)
+    if not absolute.startswith("\\\\?\\"):
+        ROOT = Path("\\\\?\\UNC\\" + absolute[2:] if absolute.startswith("\\\\") else "\\\\?\\" + absolute)
 REQUIRED_FIELDS = ("title:", "source_url:", "content_id:", "version:", "section:", "scraped_at:")
 
 
@@ -50,18 +54,17 @@ def main() -> int:
             continue
         digest = content_hash(body)
         expected = topic.get("contentHash")
-        if args.backfill_hashes and expected != digest:
+        if args.backfill_hashes and expected is None:
             topic["contentHash"] = digest
             backfilled += 1
         elif expected != digest:
             failures.append(f"content hash mismatch: {local}")
 
-    if args.backfill_hashes and backfilled:
-        atomic_write_text(manifest_path, json.dumps(manifest, indent=2, ensure_ascii=False) + "\n")
-
     if failures:
         print("Corpus validation failed:", *failures, sep="\n", file=sys.stderr)
         return 1
+    if args.backfill_hashes and backfilled:
+        atomic_write_text(manifest_path, json.dumps(manifest, indent=2, ensure_ascii=False) + "\n")
     print(
         f"[{cfg['key']}] Corpus validation passed "
         f"({manifest.get('stats', {}).get('done', 0)} done topics; {backfilled} hashes backfilled)."

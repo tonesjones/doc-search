@@ -76,7 +76,8 @@ Sibling products live in neighboring folders. Do **not** scrape them into this t
 
 | Product | Typical path |
 |---------|--------------|
-| Black Duck SCA / Detect / Alert / Bridge | `C:\TestCode\Product Docs\BlackDuck SCA` |
+| Black Duck SCA / Detect / Alert | `C:\TestCode\Product Docs\BlackDuck SCA` |
+| Bridge CLI | `C:\TestCode\Product Docs\Bridge` |
 | Coverity | `C:\TestCode\Product Docs\Coverity` |
 | Polaris | `C:\TestCode\Product Docs\Polaris` |
 

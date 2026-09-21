@@ -122,4 +122,4 @@ See **`PHASE-PLAN.md`** for the recommended phase order.
 
 ## Related project
 
-Black Duck SCA / Detect / Alert / Bridge corpus lives separately at `C:\TestCode\BlackDuck SCA`. Do not mix Coverity docs into that tree.
+Black Duck SCA / Detect / Alert corpus lives separately at `C:\TestCode\BlackDuck SCA`; Bridge CLI docs live in the sibling `Bridge` corpus. Do not mix Coverity docs into those trees.

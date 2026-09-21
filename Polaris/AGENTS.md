@@ -43,4 +43,4 @@ python scripts/validate-corpus.py
 python scripts/smoke-retrieval.py
 ```
 
-Polaris CI guidance is deliberately not duplicated here. Use the proven Bridge corpus in `C:\TestCode\BlackDuck SCA\docs\bridge\` and its `index-bridge.md` for Bridge CLI, CI platform, SARIF, and pull-request workflows. The registry requires a verified Fluid Topics map ID before `--init`; record it only after validating the official TOC endpoint.
+Polaris CI guidance is deliberately not duplicated here. Use the sibling `Bridge/` corpus (`Bridge/docs/`, `Bridge/index.md`) for Bridge CLI, CI platform, SARIF, and pull-request workflows. The registry requires a verified Fluid Topics map ID before `--init`; record it only after validating the official TOC endpoint.

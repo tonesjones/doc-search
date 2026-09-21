@@ -159,7 +159,7 @@ PHASE-PLAN.md               Original scrape plan (historical)
 
 ## CI / Bridge CLI and PR workflows
 
-Polaris CI, Bridge CLI, SARIF, and pull-request integration guidance is **not** duplicated in this repo. If your team maintains a Bridge corpus (for example a sibling Black Duck SCA docs tree with `docs/bridge/` and `index-bridge.md`), point CI questions there.
+Polaris CI, Bridge CLI, SARIF, and pull-request integration guidance is **not** duplicated in this repo. If your team maintains a Bridge corpus (for example the sibling `Bridge/` corpus with `docs/` and `index.md`), point CI questions there.
 
 `smoke-retrieval.py` can report whether a Bridge corpus is present on the machine; absence does not block using the Platform docs here.
 
