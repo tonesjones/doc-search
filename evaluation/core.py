@@ -331,6 +331,10 @@ def score_case(
     for k in (1, 3, 5):
         if not retrieval_targets:
             recall[str(k)] = None
+        elif not must and must_any:
+            recall[str(k)] = float(any(
+                _matches(path, expected) for path in files[:k] for expected in must_any
+            ))
         else:
             hits = sum(any(_matches(path, expected) for path in files[:k]) for expected in retrieval_targets)
             recall[str(k)] = hits / len(retrieval_targets)

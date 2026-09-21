@@ -48,7 +48,9 @@ class Ds07EvaluationTests(unittest.TestCase):
                 "checkout_revision": "test", "checkout_dirty": False, "instruction_revision": "test",
                 "source_revision": "test", "prompt_revision": "test",
             }
-            self.assertEqual(score_case(case, trace)["status"], "PASS")
+            result = score_case(case, trace)
+            self.assertEqual(result["status"], "PASS")
+            self.assertEqual(result["recall_at"]["1"], 1.0)
 
     def test_profile_accepts_markdown_and_openapi_only_inside_sca_roots(self):
         self.assertTrue(evidence_path_allowed(
