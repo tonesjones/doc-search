@@ -29,6 +29,12 @@ Existing corpus warnings appear in `evidence`. No network or credentials are nee
 
 Run the registry and SCA report tests with `python -B -m unittest discover -s tests`.
 
+## Evaluate SCA answers
+
+Use the [DS-07 evaluation guide](docs/ds-07-evaluator.md) to validate the reviewed
+case set, run the read-only checkout adapter, and capture revision-bound traces.
+The evaluator contains 30 SCA baseline cases and six feedback regressions.
+
 ## Improvements already made
 
 The previous optimization work changed this from a loose collection of downloaded pages into a maintainable offline knowledge base:

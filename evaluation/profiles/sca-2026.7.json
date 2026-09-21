@@ -1,0 +1,18 @@
+{
+  "id": "sca-2026.7-root-router",
+  "product": "blackduck-sca",
+  "product_version": "2026.7",
+  "available_versions": ["2026.7", "2026.4.0", "12.0.0", "11.5.1", "8.4.0", "latest"],
+  "entrypoint": "SKILL.md via products.json",
+  "instruction_files": [
+    "SKILL.md",
+    "products.json",
+    "BlackDuck SCA/SKILL.md",
+    "BlackDuck SCA/AGENTS.md"
+  ],
+  "evidence_roots": [
+    "BlackDuck SCA/docs",
+    "BlackDuck SCA/sources/openapi",
+    "evaluation/guidance"
+  ]
+}

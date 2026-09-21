@@ -3,3 +3,11 @@ __pycache__/
 
 # Per-user live validation configuration. Copy the committed example locally.
 BlackDuck SCA/verification/environment.local.json
+
+# Local evaluation runs and credentials.
+.env.runtime
+evaluation/results/
+evaluation/traces/
+feedback/
+runtime/
+BlackDuck SCA/approved-guidance/
