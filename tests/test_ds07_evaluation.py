@@ -51,6 +51,7 @@ class Ds07EvaluationTests(unittest.TestCase):
             result = score_case(case, trace)
             self.assertEqual(result["status"], "PASS")
             self.assertEqual(result["recall_at"]["1"], 1.0)
+        self.assertNotIn("base unit", [fact["value"] for fact in case["required_facts"]])
 
     def test_profile_accepts_markdown_and_openapi_only_inside_sca_roots(self):
         self.assertTrue(evidence_path_allowed(
