@@ -277,7 +277,7 @@ def validate_trace(trace: dict[str, Any], expected_provenance: dict[str, Any] | 
         errors.append("trace was captured from a checkout with tracked changes")
     if expected_provenance and expected_provenance.get("checkout_dirty"):
         errors.append("current checkout has tracked changes")
-    for field in ("evaluation_profile", "checkout_revision", "instruction_revision", "source_revision"):
+    for field in ("evaluation_profile", "checkout_revision", "instruction_revision", "source_revision", "prompt_revision"):
         if expected_provenance and trace.get(field) != expected_provenance.get(field):
             errors.append(f"trace {field} does not match the current evaluation profile")
     if not isinstance(trace.get("retrieved_chunks", []), list):

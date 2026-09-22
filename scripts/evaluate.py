@@ -26,6 +26,7 @@ from evaluation.core import (  # noqa: E402
     verify_case_evidence,
 )
 from evaluation.profile import DEFAULT_PROFILE_PATH, load_profile, profile_metadata  # noqa: E402
+from scripts.codex_checkout_adapter import prompt_revision  # noqa: E402
 
 
 def percent(value):
@@ -110,6 +111,7 @@ def main() -> int:
         raise SystemExit("Use either --trace-dir or --adapter, not both")
     profile = load_profile(args.profile)
     provenance = profile_metadata(profile)
+    provenance["prompt_revision"] = prompt_revision(profile)
     cases = load_jsonl(args.cases)
     fact_equivalents = load_fact_equivalents(args.scoring_equivalents)
     if not args.include_candidates:
