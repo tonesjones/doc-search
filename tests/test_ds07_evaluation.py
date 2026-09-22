@@ -101,6 +101,16 @@ class Ds07EvaluationTests(unittest.TestCase):
         with self.assertRaisesRegex(Exception, "does not match requested version"):
             validate_output(value, {"product_version": "2026.7"}, self.profile)
 
+    def test_latest_accepts_the_profile_current_version(self):
+        relative = "BlackDuck SCA/docs/help-center/understanding-projects-in-black-duck/creating-a-project.md"
+        value = {
+            "answer": "x",
+            "evidence": [{"file": relative, "excerpt": "A project is the base unit in Black Duck."}],
+            "citations": [{"file": relative}],
+        }
+        result = validate_output(value, {"product_version": "latest"}, self.profile)
+        self.assertEqual(result["retrieved_chunks"][0]["metadata"]["version"], "2026.7")
+
     def test_version_guard_abstains_before_model_execution(self):
         self.assertIsNone(version_guard({"product_version": "2026.4.0"}, self.profile))
         result = version_guard({"product_version": "2025.1.0"}, self.profile)

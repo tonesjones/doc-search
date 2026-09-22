@@ -116,7 +116,10 @@ def validate_output(
         text = path.read_text(encoding="utf-8", errors="replace")
         excerpt = verified_excerpt(text, item["excerpt"], relative)
         version = source_version(path)
-        if requested and version and version != requested:
+        allowed_versions = {requested}
+        if requested == "latest":
+            allowed_versions.add(profile["product_version"])
+        if requested and version and version not in allowed_versions:
             raise EvaluationError(f"evidence version {version} does not match requested version {requested}: {relative}")
         chunks.append({
             "file": relative,
