@@ -6,6 +6,7 @@ BlackDuck SCA/verification/environment.local.json
 
 # Local evaluation runs and credentials.
 .env.runtime
+.local/
 evaluation/results/
 evaluation/traces/
 feedback/
