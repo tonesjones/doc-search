@@ -70,6 +70,9 @@ class Ds07EvaluationTests(unittest.TestCase):
         self.assertNotIn("danger-full-access", command)
         self.assertNotIn("--ignore-user-config", command)
         self.assertIn("Do not return SKILL.md", PROMPT_TEMPLATE)
+        self.assertIn("support every material step", PROMPT_TEMPLATE)
+        self.assertIn("prefer the self-documenting long options", PROMPT_TEMPLATE)
+        self.assertIn("environment variable for a secret", PROMPT_TEMPLATE)
 
     def test_adapter_validates_exact_excerpt_and_citation(self):
         relative = "BlackDuck SCA/docs/help-center/understanding-projects-in-black-duck/creating-a-project.md"
