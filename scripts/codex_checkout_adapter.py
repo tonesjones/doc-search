@@ -88,9 +88,18 @@ def verified_excerpt(source: str, claimed: str, relative: str) -> str:
     if not words:
         raise EvaluationError(f"evidence excerpt is empty: {relative}")
     match = re.search(r"\s+".join(re.escape(word) for word in words), source)
-    if not match:
-        raise EvaluationError(f"evidence excerpt is not present in source: {relative}")
-    return match.group(0)
+    if match:
+        return match.group(0)
+
+    token_pattern = re.compile(r"--?[A-Za-z0-9_][A-Za-z0-9_.:/+-]*|[A-Za-z0-9_][A-Za-z0-9_.:/+-]*")
+    claimed_tokens = [item.group(0).casefold() for item in token_pattern.finditer(claimed)]
+    source_tokens = list(token_pattern.finditer(source))
+    if len(claimed_tokens) >= 3:
+        for start in range(len(source_tokens) - len(claimed_tokens) + 1):
+            candidate = source_tokens[start:start + len(claimed_tokens)]
+            if [item.group(0).casefold() for item in candidate] == claimed_tokens:
+                return source[candidate[0].start():candidate[-1].end()]
+    raise EvaluationError(f"evidence excerpt is not present in source: {relative}")
 
 
 def validate_output(

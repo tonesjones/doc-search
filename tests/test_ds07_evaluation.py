@@ -92,6 +92,19 @@ class Ds07EvaluationTests(unittest.TestCase):
         matched = verified_excerpt("one\n  two three", "one two three", relative)
         self.assertEqual(matched, "one\n  two three")
 
+    def test_adapter_returns_source_text_when_markdown_punctuation_differs(self):
+        relative = "example.md"
+        source = "| `--build_cmd build_cmd` | Command used to execute the build. |"
+        claimed = "--build_cmd build_cmd Command used to execute the build."
+        self.assertEqual(
+            verified_excerpt(source, claimed, relative),
+            "--build_cmd build_cmd` | Command used to execute the build.",
+        )
+
+    def test_adapter_rejects_a_noncontiguous_excerpt(self):
+        with self.assertRaisesRegex(Exception, "not present in source"):
+            verified_excerpt("one two omitted three four", "one two three four", "example.md")
+
     def test_adapter_rejects_wrong_version_openapi_evidence(self):
         relative = "BlackDuck SCA/sources/openapi/2026.4.0/openapi3-public.json"
         value = {
