@@ -13,6 +13,7 @@ Paths here are relative to this skill's directory.
 
 - For SCA server, UI, BOM, policy, and project questions, use [index.md](index.md).
   The narrative documentation snapshot is 2026.7.
+- For the current access-token menu label, read the [user-observed UI note](../evaluation/guidance/access-token-menu.md) with the SCA help-center token page. The note records where the UI differs from the page.
 - For unversioned Detect questions, start at [index-detect.md](index-detect.md).
   Detect 12.0.0 is the default. Use the 11.5.1 catalog only when that version is
   named or a comparison is requested. State which version supports the answer.
