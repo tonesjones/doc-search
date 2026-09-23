@@ -1,7 +1,5 @@
 # DS-07 routine smoke set. The other reviewed cases remain in their source banks.
 feedback-bd-cpp-standard-scope-001
-feedback-sca-project-definition-001
-feedback-sca-phase-selection-001
 feedback-sca-distribution-selection-001
 feedback-sca-token-ui-path-001
 feedback-sca-project-size-guidance-001

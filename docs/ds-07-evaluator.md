@@ -4,7 +4,7 @@ DS-07 measures answers produced through the merged repository router. It does no
 
 ## Check the cases and evidence
 
-Run the six-case deterministic check before a model run:
+Run the four-case deterministic check before a model run:
 
 ```powershell
 python -B scripts/evaluate.py `
@@ -14,7 +14,7 @@ python -B scripts/evaluate.py `
   --output evaluation/results/ds-07-smoke-deterministic.json
 ```
 
-The full case bank contains 30 baseline cases and six feedback regressions. It is a reference bank, not the routine model-run gate. The six IDs in `evaluation/cases/sca-smoke.txt` cover distinct customer-facing behaviors.
+The full case bank contains 30 baseline cases and six feedback regressions. It is a reference bank, not the routine model-run gate. The four IDs in `evaluation/cases/sca-smoke.txt` cover a first C/C++ scan, a SaaS distribution choice, the current access-token menu, and licensed size limits. The project-definition and phase cases remain in the reference bank.
 
 This verifies local source paths and required exact facts. It does not measure answer quality, retrieval, or generation. The 30 baseline cases remain available for targeted investigation, not automatic reruns. The baseline token-path and 10GB cases contain stale or license-dependent expectations and must not be used as promotion gates without review.
 

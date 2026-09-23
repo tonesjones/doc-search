@@ -58,7 +58,7 @@ class Ds07EvaluationTests(unittest.TestCase):
         }
         self.assertEqual(score_case(case, trace, fact_equivalents=load_fact_equivalents())["status"], "PASS")
 
-    def test_smoke_manifest_selects_six_cases_without_model_calls(self):
+    def test_smoke_manifest_selects_four_cases_without_model_calls(self):
         with tempfile.TemporaryDirectory() as directory:
             output = Path(directory) / "result.json"
             result = subprocess.run([
@@ -68,7 +68,7 @@ class Ds07EvaluationTests(unittest.TestCase):
                 "--deterministic-only", "--allow-unmeasured", "--output", str(output),
             ], cwd=ROOT, capture_output=True, text=True)
             self.assertEqual(result.returncode, 0, result.stderr)
-            self.assertEqual(json.loads(output.read_text(encoding="utf-8"))["verified_cases"], 6)
+            self.assertEqual(json.loads(output.read_text(encoding="utf-8"))["verified_cases"], 4)
 
     def test_reviewed_project_definition_answer_passes_plain_language_equivalent(self):
         case = next(case for case in load_jsonl(ROOT / "evaluation" / "cases" / "sca-regressions.jsonl")
