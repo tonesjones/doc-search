@@ -32,6 +32,9 @@ Read SKILL.md and products.json first. Resolve the product, then read its SKILL.
 Open the relevant local Markdown or versioned OpenAPI source. Do not use the web or general knowledge.
 Return an answer with local file citations. For each cited source, return one exact excerpt copied from that file.
 Make the excerpts support every material step, option, and value in the answer.
+Return one JSON object with an answer string, an evidence array of file and excerpt objects,
+and a citations array of file objects. Each excerpt must be one contiguous exact substring
+of its file. Do not stitch together separate lines or rows.
 When the documentation lists short and long command options, prefer the self-documenting long options.
 When the documentation provides an environment variable for a secret, use it instead of putting the secret on the command line.
 Return evidence only from BlackDuck SCA/docs, BlackDuck SCA/sources/openapi, or evaluation/guidance.

@@ -86,6 +86,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--cases", type=Path, default=ROOT / "evaluation" / "cases" / "sca-baseline.jsonl")
     parser.add_argument("--profile", type=Path, default=DEFAULT_PROFILE_PATH)
     parser.add_argument("--case-id", action="append", help="Run only the named case; may be repeated")
+    parser.add_argument("--case-id-file", type=Path, help="Run IDs listed one per line in a UTF-8 file")
     parser.add_argument("--trace-dir", type=Path, help="Read production traces named <case-id>.json")
     parser.add_argument("--adapter", nargs="+", help="Actual production answer command; reads query JSON on stdin and returns trace JSON")
     parser.add_argument("--timeout", type=float, default=120.0)
@@ -116,8 +117,14 @@ def main() -> int:
     fact_equivalents = load_fact_equivalents(args.scoring_equivalents)
     if not args.include_candidates:
         cases = [case for case in cases if case.get("verification_status") == "verified"]
-    if args.case_id:
-        selected = set(args.case_id)
+    selected = set(args.case_id or [])
+    if args.case_id_file:
+        selected.update(
+            line.strip()
+            for line in args.case_id_file.read_text(encoding="utf-8").splitlines()
+            if line.strip() and not line.lstrip().startswith("#")
+        )
+    if selected:
         cases = [case for case in cases if case.get("id") in selected]
         missing = sorted(selected - {case.get("id") for case in cases})
         if missing:

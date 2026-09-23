@@ -1,9 +1,13 @@
 from __future__ import annotations
 
 import unittest
+import json
+import subprocess
+import sys
+import tempfile
 from pathlib import Path
 
-from evaluation.core import load_jsonl, make_trace, score_case, validate_trace, verify_case_evidence
+from evaluation.core import load_fact_equivalents, load_jsonl, make_trace, score_case, validate_trace, verify_case_evidence
 from evaluation.profile import evidence_path_allowed, load_profile, profile_metadata
 from scripts.codex_checkout_adapter import (
     PROMPT_TEMPLATE,
@@ -32,6 +36,57 @@ class Ds07EvaluationTests(unittest.TestCase):
         cases = load_jsonl(ROOT / "evaluation" / "cases" / "sca-regressions.jsonl")
         self.assertEqual(len(cases), 6)
         self.assertEqual([error for case in cases for error in verify_case_evidence(case)], [])
+
+    def test_cpp_scan_case_includes_build_for_normal_first_scan(self):
+        case = next(case for case in load_jsonl(ROOT / "evaluation" / "cases" / "sca-regressions.jsonl")
+                    if case["id"] == "feedback-bd-cpp-standard-scope-001")
+        self.assertEqual(
+            [fact["value"] for fact in case["required_facts"]],
+            ["blackduck-c-cpp", "--build_cmd", "--build_dir", "--project_name", "--project_version", "--bd_url", "--api_token"],
+        )
+        path = case["must_retrieve"][0]
+        trace = {
+            "answer_id": "ans-cpp", "timestamp": "2026-09-22T00:00:00Z",
+            "original_query": case["question"], "product": case["product"],
+            "answer": "Run blackduck-c-cpp -bc BUILD_COMMAND -d BUILD_DIR -proj PROJECT_NAME -vers PROJECT_VERSION -bd bd_url -a api_token.",
+            "retrieved_chunks": [{"file": path, "content": "-bc build_cmd --build_cmd build_cmd -d BUILD_DIR -proj PROJECT_NAME -vers PROJECT_VERSION -bd bd_url -a api_token",
+                                  "metadata": {"version": "latest"}}],
+            "citations": [{"file": path}],
+            "evaluation_profile": "test", "entrypoint": "test", "checkout_revision": "test",
+            "checkout_dirty": False, "instruction_revision": "test", "source_revision": "test",
+            "prompt_revision": "test",
+        }
+        self.assertEqual(score_case(case, trace, fact_equivalents=load_fact_equivalents())["status"], "PASS")
+
+    def test_smoke_manifest_selects_six_cases_without_model_calls(self):
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / "result.json"
+            result = subprocess.run([
+                sys.executable, str(ROOT / "scripts" / "evaluate.py"),
+                "--cases", str(ROOT / "evaluation" / "cases" / "sca-regressions.jsonl"),
+                "--case-id-file", str(ROOT / "evaluation" / "cases" / "sca-smoke.txt"),
+                "--deterministic-only", "--allow-unmeasured", "--output", str(output),
+            ], cwd=ROOT, capture_output=True, text=True)
+            self.assertEqual(result.returncode, 0, result.stderr)
+            self.assertEqual(json.loads(output.read_text(encoding="utf-8"))["verified_cases"], 6)
+
+    def test_reviewed_project_definition_answer_passes_plain_language_equivalent(self):
+        case = next(case for case in load_jsonl(ROOT / "evaluation" / "cases" / "sca-regressions.jsonl")
+                    if case["id"] == "feedback-sca-project-definition-001")
+        path = case["must_retrieve_any"][0]
+        trace = {
+            "answer_id": "ans-test", "timestamp": "2026-09-22T00:00:00Z",
+            "original_query": case["question"], "product": case["product"],
+            "answer": "A project is a top-level record. It can stand alone or be included in a larger project. Each release has a project version.",
+            "retrieved_chunks": [{"file": path, "content": "A project can be part of another project.",
+                                  "metadata": {"version": "2026.7"}}],
+            "citations": [{"file": path}],
+            "evaluation_profile": "test", "entrypoint": "test", "checkout_revision": "test",
+            "checkout_dirty": False, "instruction_revision": "test", "source_revision": "test",
+            "prompt_revision": "test",
+        }
+        equivalents = load_fact_equivalents()
+        self.assertEqual(score_case(case, trace, fact_equivalents=equivalents)["status"], "PASS")
 
     def test_project_definition_accepts_either_version_matched_definition_page(self):
         case = next(

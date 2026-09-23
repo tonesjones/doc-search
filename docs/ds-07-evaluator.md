@@ -4,17 +4,23 @@ DS-07 measures answers produced through the merged repository router. It does no
 
 ## Check the cases and evidence
 
-Run the deterministic check before a model run:
+Run the six-case deterministic check before a model run:
 
 ```powershell
-python -B scripts/evaluate.py --deterministic-only --allow-unmeasured --output evaluation/results/ds-07-deterministic.json
+python -B scripts/evaluate.py `
+  --cases evaluation/cases/sca-regressions.jsonl `
+  --case-id-file evaluation/cases/sca-smoke.txt `
+  --deterministic-only --allow-unmeasured `
+  --output evaluation/results/ds-07-smoke-deterministic.json
 ```
 
-The check validates 30 reviewed SCA baseline cases and six reviewed regressions. It verifies their local source paths and required exact facts. It does not measure answer quality, retrieval, or generation.
+The full case bank contains 30 baseline cases and six feedback regressions. It is a reference bank, not the routine model-run gate. The six IDs in `evaluation/cases/sca-smoke.txt` cover distinct customer-facing behaviors.
+
+This verifies local source paths and required exact facts. It does not measure answer quality, retrieval, or generation. The 30 baseline cases remain available for targeted investigation, not automatic reruns. The baseline token-path and 10GB cases contain stale or license-dependent expectations and must not be used as promotion gates without review.
 
 ## Run one answer
 
-Run one case before starting a larger evaluation:
+Run one case only after the deterministic check passes. Use this command on a host where the nested Codex CLI can load its home directory and authentication:
 
 ```powershell
 python -B scripts/evaluate.py `
@@ -25,7 +31,9 @@ python -B scripts/evaluate.py `
   --output evaluation/results/ds-07-smoke.json
 ```
 
-The adapter uses `gpt-5.6-terra` with medium reasoning by default. Set `DOC_SEARCH_MODEL` and `DOC_SEARCH_REASONING_EFFORT` to override those values for a named run.
+The adapter uses `gpt-5.6-terra` with medium reasoning by default. Set `DOC_SEARCH_MODEL` and `DOC_SEARCH_REASONING_EFFORT` to override those values for a named run. Review the trace before selecting another case. Stop if the result is `NOT_MEASURED`.
+
+The nested CLI currently fails with `Could not find home directory` in the Codex desktop restricted shell, before a model receives the case. Native Codex tasks can answer a case, but their output needs validated excerpts and a trace with the actual prompt, model, and clean-checkout metadata before `--trace-dir` can certify it. Do not label a native answer as a production adapter result without that trace.
 
 The adapter starts an ephemeral Codex process in the read-only sandbox. The process loads the root `SKILL.md`, resolves the product through `products.json`, and follows the selected product instructions. It cannot write to the checkout.
 
