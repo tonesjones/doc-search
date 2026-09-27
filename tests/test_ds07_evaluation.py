@@ -169,6 +169,31 @@ class Ds07EvaluationTests(unittest.TestCase):
         with self.assertRaisesRegex(Exception, "does not match requested version"):
             validate_output(value, {"product_version": "2026.7"}, self.profile)
 
+    def test_sca_answer_accepts_pinned_detect_companion_evidence(self):
+        relative = "BlackDuck SCA/docs/detect-12.0.0/detect-properties/all-properties.md"
+        value = {
+            "answer": "Enable SNIPPET_MATCHING.",
+            "evidence": [{"file": relative, "excerpt": "detect.blackduck.signature.scanner.snippet.matching"}],
+            "citations": [{"file": relative}],
+        }
+        result = validate_output(value, {"product_version": "2026.7"}, self.profile)
+        self.assertEqual(result["retrieved_chunks"][0]["metadata"]["version"], "12.0.0")
+
+    def test_sca_scoring_accepts_pinned_detect_but_rejects_other_versions(self):
+        case = {
+            "id": "mixed-version", "product_version": "2026.7", "expected_behavior": "answer",
+            "must_retrieve": [], "must_not_retrieve": [], "required_facts": [], "forbidden_facts": [],
+        }
+        trace = {"answer": "Enable snippet matching.", "retrieved_chunks": []}
+        trace["retrieved_chunks"] = [{
+            "file": "BlackDuck SCA/docs/detect-12.0.0/detect-properties/all-properties.md",
+            "content": "snippet matching", "metadata": {"version": "12.0.0"},
+        }]
+        companions = {"BlackDuck SCA/docs/detect-12.0.0": "12.0.0"}
+        self.assertEqual(score_case(case, trace, companion_versions=companions)["version_accuracy"], True)
+        trace["retrieved_chunks"][0]["metadata"]["version"] = "11.5.1"
+        self.assertEqual(score_case(case, trace, companion_versions=companions)["version_accuracy"], False)
+
     def test_latest_accepts_the_profile_current_version(self):
         relative = "BlackDuck SCA/docs/help-center/understanding-projects-in-black-duck/creating-a-project.md"
         value = {

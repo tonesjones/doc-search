@@ -15,7 +15,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from evaluation.core import EvaluationError, redact  # noqa: E402
+from evaluation.core import EvaluationError, redact, version_matches_source  # noqa: E402
 from evaluation.profile import (  # noqa: E402
     DEFAULT_PROFILE_PATH,
     evidence_path_allowed,
@@ -131,7 +131,10 @@ def validate_output(
         allowed_versions = {requested}
         if requested == "latest":
             allowed_versions.add(profile["product_version"])
-        if requested and version and version not in allowed_versions:
+        if requested and version and not (
+            version in allowed_versions
+            or version_matches_source(requested, version, relative, profile.get("companion_evidence_versions"))
+        ):
             raise EvaluationError(f"evidence version {version} does not match requested version {requested}: {relative}")
         chunks.append({
             "file": relative,

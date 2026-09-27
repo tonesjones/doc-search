@@ -301,6 +301,18 @@ def _matches(path: str, expected: str) -> bool:
     return path == expected or path.endswith("/" + expected)
 
 
+def version_matches_source(
+    requested: str, observed: str, relative: str, companion_versions: dict[str, str] | None = None,
+) -> bool:
+    if observed == requested:
+        return True
+    path = relative.replace("\\", "/").casefold()
+    return any(
+        observed == version and (path == prefix.casefold() or path.startswith(prefix.casefold() + "/"))
+        for prefix, version in (companion_versions or {}).items()
+    )
+
+
 def _is_repository_file(root: Path, relative: str) -> bool:
     try:
         path = (root / relative).resolve()
@@ -316,6 +328,7 @@ def score_case(
     root: Path = ROOT,
     fact_equivalents: dict[tuple[str, str, str], list[str]] | None = None,
     expected_provenance: dict[str, Any] | None = None,
+    companion_versions: dict[str, str] | None = None,
 ) -> dict[str, Any]:
     failures: list[str] = []
     trace_errors = validate_trace(trace, expected_provenance)
@@ -372,10 +385,16 @@ def score_case(
             if isinstance(chunk, dict)
             and (not retrieval_targets or any(_matches(_chunk_file(chunk) or "", expected) for expected in retrieval_targets))
         ]
-        versions = [chunk.get("metadata", {}).get("version") for chunk in relevant_chunks]
-        versions = [str(value) for value in versions if value is not None]
-        if versions:
-            version_accuracy = all(value == requested for value in versions)
+        versioned = [
+            (str(chunk["metadata"]["version"]), _chunk_file(chunk) or "")
+            for chunk in relevant_chunks
+            if chunk.get("metadata", {}).get("version") is not None
+        ]
+        if versioned:
+            version_accuracy = all(
+                version_matches_source(requested, version, path, companion_versions)
+                for version, path in versioned
+            )
             if not version_accuracy and not (case["expected_behavior"] == "abstain" and abstained):
                 failures.append("VERSION_FAILURE")
 

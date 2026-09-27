@@ -35,7 +35,10 @@ def load_records(path: Path) -> list[dict]:
     raise EvaluationError(f"{path}: expected a JSON object, array, or JSONL objects")
 
 
-def promotion_errors(candidate: dict, approved: dict, trace: dict, expected_provenance: dict) -> list[str]:
+def promotion_errors(
+    candidate: dict, approved: dict, trace: dict, expected_provenance: dict,
+    companion_versions: dict[str, str] | None = None,
+) -> list[str]:
     errors: list[str] = []
     if candidate.get("verification_status") != "candidate":
         errors.append("source record is not an untrusted candidate")
@@ -72,6 +75,7 @@ def promotion_errors(candidate: dict, approved: dict, trace: dict, expected_prov
         trace,
         fact_equivalents=load_fact_equivalents(),
         expected_provenance=expected_provenance,
+        companion_versions=companion_versions,
     )
     if result["status"] != "PASS":
         errors.append("production replay did not pass: " + ", ".join(result["failures"] or ["unmeasured facts"]))
@@ -100,7 +104,9 @@ def main() -> int:
         parser.error("DS-08 promotion requires a Black Duck SCA evaluation profile")
     expected_provenance = profile_metadata(profile)
     expected_provenance["prompt_revision"] = prompt_revision(profile)
-    errors = promotion_errors(candidate, approved, trace, expected_provenance)
+    errors = promotion_errors(
+        candidate, approved, trace, expected_provenance, profile.get("companion_evidence_versions"),
+    )
     if approved.get("product") != profile["product"]:
         errors.append("approved case product does not match evaluation profile")
     if errors:

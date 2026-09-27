@@ -3,6 +3,9 @@
   "product": "blackduck-sca",
   "product_version": "2026.7",
   "available_versions": ["2026.7", "2026.4.0", "12.0.0", "11.5.1", "8.4.0", "latest"],
+  "companion_evidence_versions": {
+    "BlackDuck SCA/docs/detect-12.0.0": "12.0.0"
+  },
   "entrypoint": "SKILL.md via products.json",
   "instruction_files": [
     "SKILL.md",
