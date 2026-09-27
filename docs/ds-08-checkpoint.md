@@ -1,52 +1,66 @@
-# DS-08 project handoff
+# DS-08 checkpoint and live-validation handoff
 
-Updated 2026-09-27. Workspace: `C:\TestCode\Product Docs`. Branch: `codex/ds-08-promotion` at `e791f6c`. This is a local checkpoint, not a claim that the branch is pushed or merged.
+Updated 2026-09-27 (afternoon). Workspace: `C:\TestCode\Product Docs`. Branch: `codex/ds-08-handoff`. This file records progress and the next decisions; it is not a claim that anything is merged.
 
-## Goal and current state
+## Goal
 
 The repository is a local, versioned Black Duck documentation corpus and product router. Its supported path starts at the root `SKILL.md`, selects a product through `products.json`, and answers from that product's documented sources. DS-07 added a checkout-bound answer evaluator. DS-08 closes the feedback loop: turn one customer question into a candidate, have a person review it, capture a fresh answer replay, and promote the case into the regression bank only after all gates pass.
 
-The current DS-08 question asks how to run a Detect snippet scan and find the results in the Black Duck UI. Its candidate and reviewed case exist, but the case is **not promoted**. The latest GPT-6 Luna replay is measured and failed. No promotion preview or `--apply` has run for this candidate.
+The longer-term goal changed on 2026-09-27: make answers more reliable by checking uncertain claims against a live Black Duck SCA sandbox, while keeping documentation evidence and live evidence separate and keeping every improvement human-reviewed. Live findings feed the DS-08 candidate-review-promote loop; nothing edits the corpus, guidance, or scoring on its own.
 
-## Completed work
+## DS-08 status: parked, not promoted
 
-- DS-01 through DS-03 established the merged root-router workflow. DS-04 reconciled that workflow with the older personal `bd` experiment and selected the merged checkout as the maintained source. DS-05 repaired integrity checks. DS-06 preserved the SCA RBAC exercise as a sanitized, machine-checked case. The [supported workflow](supported-workflow.md) and [DS-06 case guide](ds-06-rbac-case.md) describe their boundaries.
-- DS-07 established 30 baseline cases, six reviewed feedback regressions, and a four-case routine smoke set. The [evaluator guide](ds-07-evaluator.md) distinguishes deterministic corpus checks from measured answers. The older 36-case bank is a reference set, not a required routine model run.
-- DS-08 added a dry-run-first promotion command with candidate, reviewed-case, fresh-replay, provenance, and duplicate-ID gates. See the [promotion guide](ds-08-promotion.md) and commit `00199a1`.
-- The DS-08 adapter now accepts pinned Detect 12.0.0 evidence alongside SCA 2026.7 evidence (`49b4da8`), selects a current Codex executable through `DOC_SEARCH_CODEX_BIN` (`145dcbf`), records timeouts as `NOT_MEASURED` and saves redacted invalid answers locally (`93d0abf`), and gives general cross-platform first-scan guidance (`e791f6c`).
-- All 70 local unit tests passed after those changes. The latest replay used GPT-6 Luna and recorded the model, prompt, source, and clean tracked checkout revisions. It returned valid source excerpts, but its case score is FAIL.
+Case: `feedback-detect-snippet-ui-001` ("how do I run a snippet scan via detect cli and have the results show up in the black duck hub ui?"). Files: `evaluation/candidates/feedback-detect-snippet-ui-001.json`, `evaluation/reviews/feedback-detect-snippet-ui-001.{json,jsonl,md}`.
 
-## Why DS-08 is stuck
+The GPT-6 Luna replay at `e791f6c` failed on required facts `detect.ps1`, `detect.sh`, `SIGNATURE_SCAN`, `Source tab`, on the required Source-tab page, and on the abstention check. The owner reviewed each expectation against the local docs:
 
-The latest answer gives Windows PowerShell and Linux Bash commands, a token environment variable, server and project inputs, snippet matching, and a UI route. It is more useful than the earlier unmeasured attempts. The scorer still reports `ABSTENTION_FAILURE`, `RETRIEVAL_FAILURE`, and `SYNTHESIS_FAILURE`:
+| Expectation | Decision | Evidence |
+|---|---|---|
+| Source tab vs Source view | Accept either phrase and either 2026.7 page (`must_retrieve_any`). | The Source-tab page and the unconfirmed-snippets page describe the same destination. |
+| Literal `SIGNATURE_SCAN` | Require the concept ("signature scan"), not the literal. Forbid `SNIPPET_MATCHING_ONLY` in a first-scan command. The reference answer no longer sets `--detect.tools`. | Detect 12.0.0 runs applicable tools when `detect.tools` is unset; `--detect.tools=SIGNATURE_SCAN` disables package-manager detection. |
+| Generic vs pinned scripts | Accept `detect.ps1`/`detect.sh` and version-specific `detectNN` scripts. Forbid `DETECT_LATEST_RELEASE_VERSION=12.0.0`. | Detect 12.0.0 recommends version-specific scripts for production; 12.0.0 is the documentation snapshot, not a runtime requirement. That page's PowerShell "latest" example uses `detect12.ps1`, a source-doc inconsistency. |
+| Detect-version caveat | Harness defect. The adapter prompt now says the requested version is the selected product's; companion tools use their documented default. The abstention regex is unchanged. | The prompt told the model to say "does not establish" for an unavailable version without naming the product; that phrase trips `ABSTENTION_RE`. |
 
-- The answer adds an unnecessary caveat that the checkout does not establish a Detect client version named 2026.7. SCA server 2026.7 and the pinned Detect 12.0.0 documentation are different version axes. The caveat triggers the abstention detector even though the answer continues with instructions.
-- The case requires the exact Source-tab page. The answer cites a different 2026.7 page that describes the same UI route as "Source view" and does not say the exact words "Source tab".
-- The case requires the literal `SIGNATURE_SCAN`. The answer relies on Detect's documented default tool selection and enables `SNIPPET_MATCHING`, but does not spell out `SIGNATURE_SCAN`.
+Commit `bc4f9d3` holds the scoring equivalents and the prompt line. Local checks: case evidence verification passes; all 70 unit tests pass (1 skipped) on a Linux copy of the checkout. Re-scoring the old saved trace offline still fails, on the forbidden 12.0.0 pin and the caveat, so the changes do not wave that answer through.
 
-These are partly scoring-policy questions, not evidence that the snippet guidance is unusable. Do not edit the model prompt again merely to make it repeat case literals. First decide which requirements protect customer value. The answer also pinned Detect 12.0.0 while the approved draft uses the generic latest-download scripts; review that difference before accepting the answer. No live Detect scan was run for this DS-08 question. Documentation evidence and live behavior remain separate.
+The fresh replay at `bc4f9d3` (`evaluation/results/ds-08-snippet-replay-r2.json`, ignored) is `NOT_MEASURED`: `production adapter exited 1: Codex exited 1:` with an empty message. With `--json`, Codex reports errors on stdout, which the adapter discards. The likely cause is the Codex binary selected in that PowerShell session (`DOC_SEARCH_CODEX_BIN` unset, falling back to `codex-cli 0.149.1` on PATH), not confirmed. The owner chose not to depend on Codex; the adapter interface (case JSON in, trace JSON out) can take another model later.
 
-Earlier attempts failed before scoring. The old CLI on PATH rejected GPT-6; the current app-managed CLI accepted Luna and Sol. A Luna answer had copied excerpts that did not match its files. One Sol attempt exceeded the old 120-second evaluator limit. The current adapter saves redacted invalid answers under ignored `.local/evaluation-failures/` and times out its nested model run before the evaluator's 120-second limit. Do not count those earlier attempts as measured passes.
+To finish DS-08 later: get one measured replay with any adapter, inspect the full answer and citations, run `scripts/promote-candidate.py` without `--apply`, and apply only with owner approval. Do not run the full case bank for this. Optional adapter fix: include Codex's last stdout error event in the failure message.
 
-## Review files in this order
+## Live validation: what exists now
 
-1. [Supported workflow](supported-workflow.md) and [promotion guide](ds-08-promotion.md).
-2. Candidate: `evaluation/candidates/feedback-detect-snippet-ui-001.json`.
-3. Human-approved draft and run notes: `evaluation/reviews/feedback-detect-snippet-ui-001.md`.
-4. Reviewed case: `evaluation/reviews/feedback-detect-snippet-ui-001.json` and its `.jsonl` copy.
-5. Latest local replay: `evaluation/results/ds-08-snippet-replay.json` and `evaluation/traces/ds-08-snippet/feedback-detect-snippet-ui-001.json`. These result and trace directories are gitignored. If absent on another machine, rerun rather than claiming a pass.
-6. Adapter and score implementation: `scripts/codex_checkout_adapter.py`, `evaluation/core.py`, `scripts/evaluate.py`, and `scripts/promote-candidate.py`. `scripts/audit_failed_answer.py` audits saved invalid answers without another model call.
+- **Sandbox:** isolated Black Duck SCA 2026.7.0 test system, no customer data, may be torn down. Its non-secret details live in the ignored `.local/live-environment.json`; replace that file when a new sandbox is provided. No tokens or passwords are stored anywhere.
+- **Access route:** the Claude desktop app's built-in browser, signed in by the owner. The linked device shell cannot reach the sandbox (network allowlist, proxy 403), and a personal Claude plan cannot add allowed domains, so token-file API scripts are not usable. The browser session carries the owner's sysadmin role; read-only is enforced by rule: page reads and API `GET` through `fetch`, forms opened only to read defaults and then cancelled, before/after counts to confirm nothing changed, and owner approval for every write.
+- **Records:** raw observations are saved unreviewed in the ignored `.local/live-observations/`. They are not repository evidence until reviewed.
+- **`/bd` skill (account skill, not in this repo):** proposed update adds a High/Medium/Low confidence level with a reason to every answer, and runs a live check only when the owner explicitly invokes `/bd` and confidence is below High. It also documents the Windows-checkout git flags (`-c core.autocrlf=true`, `GIT_OPTIONAL_LOCKS=0`).
 
-The candidate and review files are currently untracked. Other untracked SRM and checker files also exist. Preserve all of them. The tracked checkout was clean for the latest replay, but check current status before any new run or promotion.
+## Live findings so far (unreviewed)
 
-## Exact next action
+1. **Access-token location.** User menu (button shows the signed-in user's display name, "System" for sysadmin) > Access Tokens > "My Settings > Access Tokens" > **Create Token**; the dialog offers Read Access Only or Read and Write Access with no default. Admin > Access Tokens lists all users' tokens and cannot create one. The help-center page uses older labels ("My Access Tokens", "Create New Token"); the API guide's "System > Access Tokens" only matches because its author was signed in as sysadmin.
+2. **Pilot on five reviewed cases:** `feedback-sca-token-ui-path-001`, `sca-version-001` (In Planning), `sca-version-003` (External), and `feedback-sca-project-size-guidance-001` (Admin > System Settings > Product Registration; this registration shows unlimited codebase size and a 21.00 GB per-scan limit) were confirmed. `sca-role-001` is partial: `/api/roles` descriptions match the role matrix, but effective permissions need a session for a user holding each role. New-version forms also default Approval Status to Unreviewed, which no case covers.
+3. **Side findings:** the sandbox licenses Snippets, so the DS-08 snippet question can be tested end to end once a scan is approved; the sandbox has role test users (GroupA/B/C Bom and Viewer, Dev Ops1/2, Build Bom/Viewer).
 
-Review the three failed expectations with the product owner. Decide whether "Source view" with equivalent 2026.7 evidence is acceptable, whether explicit `SIGNATURE_SCAN` is necessary for a first scan, and whether the Detect-version caveat is a real answer failure or a scorer false positive. Also decide whether the answer must use generic latest Detect scripts rather than pinning 12.0.0. Record the decision in the reviewed case and its notes. Do not relax a gate solely because one model answer failed it.
+Takeaway: no reviewed case was contradicted (they were already human-corrected). Live checks add the most for UI labels and routes, doc conflicts, and license-dependent facts. Permissions are the blind spot and need role-user sessions and usually writes.
 
-After that review, change only the accepted case assertions or the actual answer guidance. Run local case checks, capture one fresh replay from a clean tracked checkout, and inspect the full answer and citations. If the replay passes, run the promotion command **without** `--apply` and inspect every gate. Apply only after human approval. Do not run the 30 baseline and six regression cases as a batch to settle this one question.
+## Open customer questions (answered from docs, not live-checked)
 
-## After DS-08
+- Which role can view BOMs and confirm or ignore unconfirmed snippets? BOM Manager on the project (least privilege); also Project Administrator or Project Manager, or Global Project Manager or Global Project Administrator for all projects. Confidence: Medium.
+- Which role lets Detect scan and map results to a project and version? Project Code Scanner on an existing project, or Global Code Scanner; add Project Creator if Detect creates the project. Confidence: Low, because the Detect 12.0.0 role page and the SCA 2026.7 role matrix disagree on what is needed to create a version.
 
-DS-08 is done when at least this reviewed feedback case can traverse candidate, review, measured replay, dry-run preview, and deliberate promotion without weakening source or provenance checks. The next documented step is to use that same workflow for later customer corrections while keeping candidates separate from verified regressions. The repository does not currently define a numbered DS-09 milestone in the checked guides; do not invent one.
+Both need role-user sessions (and a snippet scan for the first) to verify live.
 
-Longer term, this makes the local documentation router more reliable through small, evidence-backed customer questions. It does not turn the corpus into a live Black Duck validator or an automatically self-improving agent. Product expansion, package distribution, and hosted search remain separate decisions that need their own scope and validation.
+## Next steps, in order
+
+1. Owner reviews the two unreviewed observation files; approved findings become sanitized live-evidence records in the repository (shape to be decided, following the DS-06 RBAC case) and, where a doc is wrong, feedback candidates.
+2. Save the `/bd` skill update, then try it on the two open role questions with `/bd`. That needs owner-approved sign-ins as role test users.
+3. Decide the committed live-evidence format and how the evaluator treats live evidence (a separate evidence type; never mixed with documentation citations).
+4. Finish DS-08 with a measured replay from a working adapter, then the dry-run promotion preview. No `--apply` without approval.
+
+Not now: jev (TypeSafe AI) does not reduce answer tokens because it does not generate text; revisit it later for the evaluator's unmeasured `SEMANTIC_FACT` checks or for choosing which replays need human review.
+
+## Working notes
+
+- From the linked device shell, this Windows checkout looks fully modified unless git runs with `-c core.autocrlf=true`. Use `GIT_OPTIONAL_LOCKS=0` for status. Git writes from that shell cannot delete their own lock files; leftover locks were renamed to `*.stale-claude` inside `.git` and can be deleted from Windows, along with `tmp_obj_*` files under `.git/objects`.
+- The full unit suite times out on the mounted folder; run it from a local copy or from Windows.
+- Untracked files not part of this work are preserved: `BlackDuck SCA/docs/srm/`, `BlackDuck SCA/index-srm.md`, `BlackDuck SCA/sources/srm-latest/`, `checker-lists/`, `evaluation/reviews/sca-queue-evidence.md`, `scripts/check-merge-readiness.py`.
+- The repository does not define a numbered DS-09 milestone; the live-validation work is an unnumbered next phase until the owner names it.

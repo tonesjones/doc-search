@@ -1,0 +1,9 @@
+{
+  "id": "feedback-detect-snippet-ui-001",
+  "question": "how do i run a snippet scan via detect cli and have the results show up in the black duck hub ui?",
+  "product": "blackduck-sca",
+  "product_version": "2026.7",
+  "verification_status": "candidate",
+  "origin": "team-feedback",
+  "notes": "User-supplied question. SCA 2026.7 is assumed from the current evaluation profile. Answer with the generic detect.ps1 (Windows PowerShell) or detect.sh (Linux Bash) download-and-run script for the latest Detect release, not a preinstalled detect-12.0.0.jar. Detect 12.0.0 documentation is reference evidence, not a runtime-version requirement. Include the minimum scan settings: server URL, source path, project and version names, SIGNATURE_SCAN, and SNIPPET_MATCHING. Use the BLACKDUCK_API_TOKEN environment variable; never put the token on the command line. Do not add scan.mode=INTELLIGENT to the normal example because INTELLIGENT is the documented default. If a customer's configuration overrides the mode to RAPID or STATELESS, explain that those modes do not persist results in the project UI. Check snippet licensing and Source-tab visibility before approval. The evaluation profile explicitly allows pinned Detect 12.0.0 companion evidence alongside SCA 2026.7 evidence."
+}
