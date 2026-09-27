@@ -37,6 +37,8 @@ The nested CLI currently fails with `Could not find home directory` in the Codex
 
 The adapter starts an ephemeral Codex process in the read-only sandbox. The process loads the root `SKILL.md`, resolves the product through `products.json`, and follows the selected product instructions. It cannot write to the checkout.
 
+The nested model run has a 110-second limit inside the evaluator's 120-second default limit. If the adapter times out, the evaluator records `NOT_MEASURED` and does not create a trace. If the model returns an answer with invalid evidence, the adapter saves a redacted copy in the ignored `.local/evaluation-failures/` directory and reports its path. Inspect that copy locally before another model run. Do not treat it as a verified trace.
+
 Each returned evidence item contains a repository path and an excerpt. The adapter verifies the excerpt against the named file and permits whitespace-only formatting differences. It rejects evidence outside the profile and evidence with a version that conflicts with the requested version.
 
 ## Read the result

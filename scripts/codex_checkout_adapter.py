@@ -9,6 +9,7 @@ import re
 import subprocess
 import sys
 import tempfile
+import uuid
 from pathlib import Path
 from typing import Any
 
@@ -26,6 +27,8 @@ from evaluation.profile import (  # noqa: E402
 OUTPUT_SCHEMA = ROOT / "evaluation" / "schema" / "adapter-output.schema.json"
 DEFAULT_MODEL = "gpt-5.6-terra"
 DEFAULT_REASONING = "medium"
+MODEL_TIMEOUT_SECONDS = 110
+FAILED_OUTPUT_DIR = ROOT / ".local" / "evaluation-failures"
 FRONT_MATTER_VERSION = re.compile(r'^version:\s*["\']?([^"\'\r\n]+)', re.MULTILINE)
 PROMPT_TEMPLATE = """Use only this checkout to answer the question.
 Read SKILL.md and products.json first. Resolve the product, then read its SKILL.md when present and its AGENTS.md.
@@ -159,6 +162,19 @@ def validate_output(
     }
 
 
+def validate_or_save_failed_output(
+    value: dict[str, Any], payload: dict[str, Any], profile: dict[str, Any],
+    failed_dir: Path = FAILED_OUTPUT_DIR,
+) -> dict[str, Any]:
+    try:
+        return validate_output(value, payload, profile)
+    except EvaluationError as exc:
+        failed_dir.mkdir(parents=True, exist_ok=True)
+        path = failed_dir / f"invalid-answer-{uuid.uuid4().hex}.json"
+        path.write_text(json.dumps(redact(value), indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        raise EvaluationError(f"{exc}; invalid answer saved to {path}") from exc
+
+
 def version_guard(payload: dict[str, Any], profile: dict[str, Any]) -> dict[str, Any] | None:
     requested = payload.get("product_version")
     if not requested or requested in profile.get("available_versions", [profile["product_version"]]):
@@ -192,12 +208,13 @@ def main() -> int:
             output_path = Path(temp) / "answer.json"
             completed = subprocess.run(
                 build_command(output_path, model, reasoning), input=prompt, text=True,
-                encoding="utf-8", errors="replace", capture_output=True, timeout=600, check=False,
+                encoding="utf-8", errors="replace", capture_output=True,
+                timeout=MODEL_TIMEOUT_SECONDS, check=False,
             )
             if completed.returncode != 0:
                 raise EvaluationError(f"Codex exited {completed.returncode}: {completed.stderr.strip()}")
             value = json.loads(output_path.read_text(encoding="utf-8"))
-        result = validate_output(value, payload, profile)
+        result = validate_or_save_failed_output(value, payload, profile)
         result.update({
             "model": model,
             "model_parameters": {"model_reasoning_effort": reasoning},

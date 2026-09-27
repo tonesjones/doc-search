@@ -222,16 +222,19 @@ def adapter_payload(case: dict[str, Any]) -> dict[str, Any]:
 
 def run_adapter(command: list[str], case: dict[str, Any], timeout_seconds: float) -> dict[str, Any]:
     started = time.perf_counter()
-    completed = subprocess.run(
-        command,
-        input=json.dumps(adapter_payload(case)),
-        text=True,
-        encoding="utf-8",
-        errors="replace",
-        capture_output=True,
-        timeout=timeout_seconds,
-        check=False,
-    )
+    try:
+        completed = subprocess.run(
+            command,
+            input=json.dumps(adapter_payload(case)),
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+            capture_output=True,
+            timeout=timeout_seconds,
+            check=False,
+        )
+    except subprocess.TimeoutExpired as exc:
+        raise EvaluationError(f"production adapter timed out after {timeout_seconds:g} seconds") from exc
     latency_ms = round((time.perf_counter() - started) * 1000, 3)
     if completed.returncode != 0:
         raise EvaluationError(f"production adapter exited {completed.returncode}: {redact_text(completed.stderr.strip())}")

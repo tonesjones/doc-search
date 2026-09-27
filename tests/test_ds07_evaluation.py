@@ -8,12 +8,13 @@ import tempfile
 from pathlib import Path
 from unittest.mock import patch
 
-from evaluation.core import load_fact_equivalents, load_jsonl, make_trace, score_case, validate_trace, verify_case_evidence
+from evaluation.core import EvaluationError, load_fact_equivalents, load_jsonl, make_trace, run_adapter, score_case, validate_trace, verify_case_evidence
 from evaluation.profile import evidence_path_allowed, load_profile, profile_metadata
 from scripts.codex_checkout_adapter import (
     PROMPT_TEMPLATE,
     build_command,
     repository_relative,
+    validate_or_save_failed_output,
     validate_output,
     verified_excerpt,
     version_guard,
@@ -166,6 +167,30 @@ class Ds07EvaluationTests(unittest.TestCase):
     def test_adapter_rejects_a_noncontiguous_excerpt(self):
         with self.assertRaisesRegex(Exception, "not present in source"):
             verified_excerpt("one two omitted three four", "one two three four", "example.md")
+
+    def test_adapter_preserves_invalid_answer_locally_without_secrets(self):
+        relative = "BlackDuck SCA/docs/detect-12.0.0/detect-properties/all-properties.md"
+        value = {
+            "answer": "BLACKDUCK_API_TOKEN=example-secret",
+            "evidence": [{"file": relative, "excerpt": "text that is not in the file"}],
+            "citations": [{"file": relative}],
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            with self.assertRaisesRegex(EvaluationError, "invalid answer saved to"):
+                validate_or_save_failed_output(
+                    value, {"product_version": "2026.7"}, self.profile, Path(directory)
+                )
+            files = list(Path(directory).glob("*.json"))
+            self.assertEqual(len(files), 1)
+            saved = json.loads(files[0].read_text(encoding="utf-8"))
+            self.assertEqual(saved["evidence"], value["evidence"])
+            self.assertNotIn("example-secret", files[0].read_text(encoding="utf-8"))
+
+    def test_adapter_timeout_is_a_measurable_evaluation_error(self):
+        with self.assertRaisesRegex(EvaluationError, "timed out"):
+            run_adapter([sys.executable, "-c", "import time; time.sleep(1)"], {
+                "question": "q", "product": "blackduck-sca", "product_version": "2026.7"
+            }, 0.05)
 
     def test_adapter_rejects_wrong_version_openapi_evidence(self):
         relative = "BlackDuck SCA/sources/openapi/2026.4.0/openapi3-public.json"
