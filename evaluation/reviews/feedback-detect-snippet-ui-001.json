@@ -1,0 +1,105 @@
+{
+  "id": "feedback-detect-snippet-ui-001",
+  "question": "how do i run a snippet scan via detect cli and have the results show up in the black duck hub ui?",
+  "product": "blackduck-sca",
+  "product_version": "2026.7",
+  "expected_behavior": "answer",
+  "must_retrieve": [
+    "BlackDuck SCA/docs/detect-12.0.0/planning-and-running-detect/running-the-detect-script.md",
+    "BlackDuck SCA/docs/detect-12.0.0/detect-properties/detect-configuration-property-details/signature-scanner.md"
+  ],
+  "must_retrieve_any": [
+    "BlackDuck SCA/docs/help-center/about-project-version-boms/editing-a-project-version-bom/reviewing-snippet-matches/viewing-snippet-matches-in-the-source-tab.md",
+    "BlackDuck SCA/docs/help-center/about-project-version-boms/understanding-the-information-in-a-project-versions-bom/unconfirmed-snippets-and-unmatched-components.md"
+  ],
+  "should_retrieve": [
+    "BlackDuck SCA/docs/detect-12.0.0/configuring-detect/providing-sensitive-values-such-as-credentials.md",
+    "BlackDuck SCA/docs/help-center/scanning-your-code/about-signature-scanning/about-snippet-matching.md"
+  ],
+  "must_not_retrieve": [],
+  "required_facts": [
+    {
+      "type": "EXACT_FACT",
+      "value": "detect.ps1"
+    },
+    {
+      "type": "EXACT_FACT",
+      "value": "detect.sh"
+    },
+    {
+      "type": "EXACT_FACT",
+      "value": "BLACKDUCK_API_TOKEN"
+    },
+    {
+      "type": "EXACT_FACT",
+      "value": "SIGNATURE_SCAN"
+    },
+    {
+      "type": "EXACT_FACT",
+      "value": "SNIPPET_MATCHING"
+    },
+    {
+      "type": "EXACT_FACT",
+      "value": "Source tab"
+    }
+  ],
+  "forbidden_facts": [
+    {
+      "type": "EXACT_FACT",
+      "value": "java -jar detect-12.0.0.jar"
+    },
+    {
+      "type": "EXACT_FACT",
+      "value": "--detect.blackduck.scan.mode=INTELLIGENT"
+    },
+    {
+      "type": "EXACT_FACT",
+      "value": "--blackduck.api.token="
+    },
+    {
+      "type": "EXACT_FACT",
+      "value": "--detect.blackduck.signature.scanner.snippet.matching=SNIPPET_MATCHING_ONLY"
+    },
+    {
+      "type": "EXACT_FACT",
+      "value": "DETECT_LATEST_RELEASE_VERSION=12.0.0"
+    }
+  ],
+  "source_evidence": [
+    {
+      "file": "BlackDuck SCA/docs/detect-12.0.0/planning-and-running-detect/running-the-detect-script.md",
+      "section": "# Running the Detect script",
+      "corpus_revision": "detect-12.0.0"
+    },
+    {
+      "file": "BlackDuck SCA/docs/detect-12.0.0/configuring-detect/providing-sensitive-values-such-as-credentials.md",
+      "section": "# Providing sensitive values such as credentials",
+      "corpus_revision": "detect-12.0.0"
+    },
+    {
+      "file": "BlackDuck SCA/docs/detect-12.0.0/detect-properties/detect-configuration-property-details/paths.md",
+      "section": "## Detect Tools Included",
+      "corpus_revision": "detect-12.0.0"
+    },
+    {
+      "file": "BlackDuck SCA/docs/detect-12.0.0/detect-properties/detect-configuration-property-details/signature-scanner.md",
+      "section": "## Snippet Matching",
+      "corpus_revision": "detect-12.0.0"
+    },
+    {
+      "file": "BlackDuck SCA/docs/help-center/about-project-version-boms/editing-a-project-version-bom/reviewing-snippet-matches/viewing-snippet-matches-in-the-source-tab.md",
+      "section": "# Viewing snippet matches in the Source tab",
+      "corpus_revision": "blackduck-2026.7"
+    },
+    {
+      "file": "BlackDuck SCA/docs/help-center/about-project-version-boms/understanding-the-information-in-a-project-versions-bom/unconfirmed-snippets-and-unmatched-components.md",
+      "section": "# Unconfirmed snippets and unmatched components",
+      "corpus_revision": "blackduck-2026.7"
+    }
+  ],
+  "verification_status": "verified",
+  "verified_by": "User approved the draft answer in this task on 2026-09-27; agent checked cited local documentation",
+  "origin": "team-feedback",
+  "runtime_classification": "DOC_ONLY",
+  "notes": "The user approved the proposed answer text. These assertions encode that answer for replay and still require inspection before promotion. Detect 12.0.0 is the pinned evidence snapshot, not a claim that the generic download scripts execute version 12.0.0. No live Detect scan was run. Reviewed 2026-09-27 after the failed GPT-6 Luna replay at e791f6c: either 2026.7 UI page and either 'Source tab' or 'Source view' is accepted; signature scanning may be stated as a concept because Detect runs applicable tools by default, and the reference answer no longer restricts detect.tools; generic detect.ps1/detect.sh or version-specific detectNN scripts are accepted, but pinning DETECT_LATEST_RELEASE_VERSION to the 12.0.0 evidence snapshot is forbidden; a first scan must not use SNIPPET_MATCHING_ONLY. Accepted alternatives live in evaluation/scoring/sca-human-equivalents.jsonl."
+}
