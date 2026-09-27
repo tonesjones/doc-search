@@ -46,6 +46,7 @@ For a first scan, include the server URL, source path, project name, and project
 Return evidence only from BlackDuck SCA/docs, BlackDuck SCA/sources/openapi, or evaluation/guidance.
 Do not return SKILL.md, AGENTS.md, products.json, indexes, or checkpoint files as answer evidence.
 If the requested version is unavailable, say that the checkout does not establish the answer for that version.
+The requested version is the selected product's version. For a companion tool such as Detect, use the version its product skill names as the default instead of looking for the requested product version.
 
 Product: {product}
 Requested version: {version}
