@@ -19,7 +19,7 @@ If a lesson could be either kind, treat it as answer content.
 
 The `instruction_files` in `evaluation/profiles/*.json` and the adapter's `PROMPT_TEMPLATE` shape measured answers. Change them only when the user asks, on a branch. Expect saved traces to become stale after the change.
 
-Do not create a root `AGENTS.md` or put these rules in any `AGENTS.md`. The DS-07 adapter runs Codex in this checkout, and Codex loads a root `AGENTS.md` automatically. That file is not in `instruction_files`, so it would change evaluated behavior without changing `instruction_revision`.
+Do not create a root `AGENTS.md` or put these rules in any `AGENTS.md`. The DS-07 adapter runs Codex in this checkout, and Codex loads a root `AGENTS.md` automatically. That file is not in `instruction_files`, so it would change evaluated behavior without changing `instruction_revision`. This file has the same risk if a Claude Code adapter ever runs in this checkout. See `docs/agent-gotchas.md` before switching adapters.
 
 ### Before a task
 
@@ -27,7 +27,7 @@ Read `docs/agent-gotchas.md` and the relevant `CHECKPOINT.md` or handoff doc. Ap
 
 ### Skill gaps
 
-When a multi-step workflow has been done by hand three or more times (check `git log`), propose a skill. Do not create one silently. Current candidates are corpus refresh and replay-to-promotion. Write the replay skill only after the DS-08 scoring decisions are recorded.
+When a multi-step workflow has been done by hand three or more times (check `git log`), propose a skill. Do not create one silently. Current candidates are corpus refresh, eval-case calibration after owner review, and replay-to-promotion. The DS-08 scoring decisions are recorded in `docs/ds-08-checkpoint.md`. Write the replay skill only after one replay has been measured with a working adapter.
 
 ### Skill review
 
