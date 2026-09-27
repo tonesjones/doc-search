@@ -131,6 +131,11 @@ class Ds07EvaluationTests(unittest.TestCase):
         self.assertIn("prefer the self-documenting long options", PROMPT_TEMPLATE)
         self.assertIn("environment variable for a secret", PROMPT_TEMPLATE)
 
+    def test_cli_prompt_covers_unspecified_platform_and_first_scan_inputs(self):
+        self.assertIn("Windows PowerShell and Linux Bash", PROMPT_TEMPLATE)
+        self.assertIn("source path, project name, and project version", PROMPT_TEMPLATE)
+        self.assertIn("short exact excerpts", PROMPT_TEMPLATE)
+
     def test_codex_command_uses_explicit_executable_when_set(self):
         selected = r"C:\current-codex\codex.exe"
         with patch.dict("os.environ", {"DOC_SEARCH_CODEX_BIN": selected}):

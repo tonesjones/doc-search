@@ -38,8 +38,11 @@ Make the excerpts support every material step, option, and value in the answer.
 Return one JSON object with an answer string, an evidence array of file and excerpt objects,
 and a citations array of file objects. Each excerpt must be one contiguous exact substring
 of its file. Do not stitch together separate lines or rows.
+Prefer short exact excerpts from focused topic pages. Copy their punctuation and symbols unchanged.
 When the documentation lists short and long command options, prefer the self-documenting long options.
 When the documentation provides an environment variable for a secret, use it instead of putting the secret on the command line.
+If a CLI question does not specify an operating system, give Windows PowerShell and Linux Bash commands when both are documented.
+For a first scan, include the server URL, source path, project name, and project version in the command or setup.
 Return evidence only from BlackDuck SCA/docs, BlackDuck SCA/sources/openapi, or evaluation/guidance.
 Do not return SKILL.md, AGENTS.md, products.json, indexes, or checkpoint files as answer evidence.
 If the requested version is unavailable, say that the checkout does not establish the answer for that version.
