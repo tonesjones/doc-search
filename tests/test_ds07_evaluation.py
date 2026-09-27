@@ -6,6 +6,7 @@ import subprocess
 import sys
 import tempfile
 from pathlib import Path
+from unittest.mock import patch
 
 from evaluation.core import load_fact_equivalents, load_jsonl, make_trace, score_case, validate_trace, verify_case_evidence
 from evaluation.profile import evidence_path_allowed, load_profile, profile_metadata
@@ -128,6 +129,12 @@ class Ds07EvaluationTests(unittest.TestCase):
         self.assertIn("support every material step", PROMPT_TEMPLATE)
         self.assertIn("prefer the self-documenting long options", PROMPT_TEMPLATE)
         self.assertIn("environment variable for a secret", PROMPT_TEMPLATE)
+
+    def test_codex_command_uses_explicit_executable_when_set(self):
+        selected = r"C:\current-codex\codex.exe"
+        with patch.dict("os.environ", {"DOC_SEARCH_CODEX_BIN": selected}):
+            command = build_command(Path("answer.json"), "gpt-6-luna", "medium")
+        self.assertEqual(command[0], selected)
 
     def test_adapter_validates_exact_excerpt_and_citation(self):
         relative = "BlackDuck SCA/docs/help-center/understanding-projects-in-black-duck/creating-a-project.md"

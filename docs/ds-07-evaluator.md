@@ -31,9 +31,9 @@ python -B scripts/evaluate.py `
   --output evaluation/results/ds-07-smoke.json
 ```
 
-The adapter uses `gpt-5.6-terra` with medium reasoning by default. Set `DOC_SEARCH_MODEL` and `DOC_SEARCH_REASONING_EFFORT` to override those values for a named run. Review the trace before selecting another case. Stop if the result is `NOT_MEASURED`.
+The adapter uses `gpt-5.6-terra` with medium reasoning by default. Set `DOC_SEARCH_MODEL` and `DOC_SEARCH_REASONING_EFFORT` to override those values for a named run. To use a specific CLI binary without changing your PATH, set `DOC_SEARCH_CODEX_BIN` to its absolute executable path. Check that binary with `& $Env:DOC_SEARCH_CODEX_BIN --version` before the run. Review the trace before selecting another case. Stop if the result is `NOT_MEASURED`.
 
-The nested CLI currently fails with `Could not find home directory` in the Codex desktop restricted shell, before a model receives the case. Native Codex tasks can answer a case, but their output needs validated excerpts and a trace with the actual prompt, model, and clean-checkout metadata before `--trace-dir` can certify it. Do not label a native answer as a production adapter result without that trace.
+The nested CLI currently fails with `Could not find home directory` in the Codex desktop restricted shell, before a model receives the case. A host shell may instead find an older CLI on PATH; verify the selected binary and model access. Native Codex tasks can answer a case, but their output needs validated excerpts and a trace with the actual prompt, model, and clean-checkout metadata before `--trace-dir` can certify it. Do not label a native answer as a production adapter result without that trace.
 
 The adapter starts an ephemeral Codex process in the read-only sandbox. The process loads the root `SKILL.md`, resolves the product through `products.json`, and follows the selected product instructions. It cannot write to the checkout.
 
