@@ -2,7 +2,7 @@
 title: "Local notes: command-line flags and workflows (community reference)"
 source_url: "local:///C:/TestCode/bdsca-c-cpp-demo/bd-ccpp-scanner.md"
 content_id: "local-bd-ccpp-scanner"
-version: "2.0.0 / 3.0.4"
+version: "latest"
 section: "Black Duck C/CPP Tool"
 scraped_at: "2026-08-19T00:00:00.000000+00:00"
 local_addition: true

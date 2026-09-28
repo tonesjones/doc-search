@@ -10,9 +10,9 @@
 | Product key | `signal-latest` |
 | Version | **latest** |
 | Map ID | `xmDr3Yryk7OYDGb__OGKlg` |
-| TOC nodes | **17** |
-| Progress | **17/17 done** (100.0%) · 0 pending · 0 skipped · 0 error |
-| Last index build | 2026-08-13T00:05:06.286869+00:00 |
+| TOC nodes | **18** |
+| Progress | **18/18 done** (100.0%) · 0 pending · 0 skipped · 0 error |
+| Last index build | 2026-09-28T19:14:17.470578+00:00 |
 | Manifest | [sources/signal-latest/manifest.json](sources/signal-latest/manifest.json) |
 | Raw TOC | [sources/signal-latest/toc.json](sources/signal-latest/toc.json) |
 
@@ -43,8 +43,8 @@ https://docs.blackduck.com/api/khub/maps/xmDr3Yryk7OYDGb__OGKlg/topics/{contentI
 |---------|--------|---------|------|---------|-------|------------|
 | Scan your code changes | 10 | 0 | 10 | 0 | 0 | `docs/scan-changes/` |
 | Scan a full project from the CLI | 3 | 0 | 3 | 0 | 0 | `docs/scan-project/` |
+| Reference guide | 2 | 0 | 2 | 0 | 0 | `docs/reference/` |
 | Overview of Black Duck Signal | 1 | 0 | 1 | 0 | 0 | `docs/overview/` |
-| Reference guide | 1 | 0 | 1 | 0 | 0 | `docs/reference/` |
 | AI security, data protection, and trust | 1 | 0 | 1 | 0 | 0 | `docs/ai-security/` |
 | Signal release notes | 1 | 0 | 1 | 0 | 0 | `docs/release-notes/` |
 
@@ -65,6 +65,7 @@ https://docs.blackduck.com/api/khub/maps/xmDr3Yryk7OYDGb__OGKlg/topics/{contentI
   - [x] [Full project scan with SARIF report only](docs/scan-project/full-project-scan-with-sarif-report-only.md) · [source](https://docs.blackduck.com/r/signal/black-duck-signal/full-project-scan-with-sarif-report-only.html)
   - [x] [Full project scan and send results to Polaris](docs/scan-project/full-project-scan-and-send-results-to-polaris.md) · [source](https://docs.blackduck.com/r/signal/black-duck-signal/full-project-scan-and-send-results-to-polaris.html)
 - [x] [Reference guide](docs/reference/reference-guide.md) · [source](https://docs.blackduck.com/r/signal/black-duck-signal/reference-guide.html)
+- [x] [Local notes: Signal CLI usage and options (field reference)](docs/reference/signal-cli-local-notes.md) · [source](local:///C:/Users/TonyJiang/.claude/skills/bd/Signal/AGENTS.md)
 - [x] [AI security, data protection, and trust](docs/ai-security/ai-security-data-protection-and-trust.md) · [source](https://docs.blackduck.com/r/signal/black-duck-signal/ai-security-data-protection-and-trust.html)
 - [x] [Signal release notes](docs/release-notes/signal-release-notes.md) · [source](https://docs.blackduck.com/r/signal/black-duck-signal/signal-release-notes.html)
 
