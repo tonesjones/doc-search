@@ -53,7 +53,11 @@ class ScaVerificationTests(unittest.TestCase):
         self.assertEqual(code, 0)
         self.assertEqual(report["status"], "PASS")
         self.assertEqual(report["failures"], [])
-        self.assertEqual(sum(check["status"] == "PASS" for check in report["checks"]), 7)
+        self.assertEqual(sum(check["status"] == "PASS" for check in report["checks"]), 8)
+        self.assertTrue(any(
+            check["name"] == "SCA live observation sca-2026-7-live-2026-09-27" and check["status"] == "PASS"
+            for check in report["checks"]
+        ))
 
     def test_missing_corpus_fails_with_a_json_report(self):
         with tempfile.TemporaryDirectory() as directory:

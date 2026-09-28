@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "observation_id": "sca-2026-7-live-2026-09-27",
+  "title": "Access-token UI, version defaults, roles, and registration limits on an SCA 2026.7.0 sandbox",
+  "product": "Black Duck SCA",
+  "product_version": "2026.7.0",
+  "observation_date": "2026-09-27",
+  "environment": {
+    "label": "isolated SCA sandbox",
+    "sanitized": true,
+    "customer_data": false,
+    "version_source": "GET /api/current-version",
+    "access": "Claude desktop built-in browser session signed in by the owner"
+  },
+  "principal": {
+    "global_role": "System Administrator",
+    "note": "Findings reflect what a system administrator sees. Other roles may see different menus or pages."
+  },
+  "method": {
+    "mode": "READ_ONLY",
+    "surfaces": ["UI", "API"],
+    "actions": "Opened menus and pages; opened Create Token, Create Standard Project, and Create Version forms only to read them and cancelled each; API GET requests through the signed-in page. The registration key was not read or recorded.",
+    "mutation_check": "Before and after: the administrator's token count stayed 4, the sampled project's version count stayed 2, and the project count stayed 5."
+  },
+  "review": {
+    "status": "APPROVED",
+    "reviewed_by": "Tony",
+    "reviewed_at": "2026-09-27"
+  },
+  "findings": [
+    {
+      "id": "user-menu-shows-display-name",
+      "statement": "The top-right user menu button shows the signed-in user's display name (\"System\" for the system administrator), not a fixed label. Its items are Profile, Global Roles, User Groups, Watched Projects, Access Tokens, SCM Providers, and Log Out.",
+      "surface": "UI",
+      "outcome": "OBSERVED",
+      "scope": "GENERAL",
+      "related_cases": ["sca-auth-009"],
+      "documentation": [
+        {"source_path": "docs/api/authenticating-with-the-api.md", "verdict": "MISLEADING", "note": "\"System > Access Tokens\" matches only when the signed-in user's display name is System; other users see their own name, and a reader can mistake it for the Admin area."}
+      ]
+    },
+    {
+      "id": "token-created-from-my-settings",
+      "statement": "User menu > Access Tokens opens My Settings > Access Tokens, which has a Create Token button (plus icon). The Create Token dialog has Name, Description, and Scope with Read Access Only or Read and Write Access, and no scope is preselected.",
+      "surface": "UI",
+      "outcome": "OBSERVED",
+      "scope": "GENERAL",
+      "related_cases": ["feedback-sca-token-ui-path-001", "sca-auth-009"],
+      "documentation": [
+        {"source_path": "docs/help-center/administering-black-duck/access-tokens/managing-user-access-tokens.md", "verdict": "OUTDATED_LABELS", "note": "The route is correct; the page says My Access Tokens and Create New Token."}
+      ]
+    },
+    {
+      "id": "admin-token-page-cannot-create",
+      "statement": "Admin > Access Tokens opens Administration > Access Tokens, which lists all users' tokens with a Delete action and has no create action.",
+      "surface": "UI",
+      "outcome": "OBSERVED",
+      "scope": "GENERAL",
+      "related_cases": ["sca-auth-009"],
+      "documentation": [
+        {"source_path": "docs/help-center/administering-black-duck/access-tokens.md", "verdict": "CONSISTENT"}
+      ]
+    },
+    {
+      "id": "new-version-defaults",
+      "statement": "Both Create Standard Project and an existing project's Create Version default to Phase In Planning, Distribution External, and Approval Status Unreviewed.",
+      "surface": "UI",
+      "outcome": "OBSERVED",
+      "scope": "GENERAL",
+      "related_cases": ["sca-version-001", "sca-version-003"],
+      "documentation": [
+        {"source_path": "docs/help-center/understanding-projects-in-black-duck/about-project-versions/creating-a-new-version-of-a-project.md", "verdict": "CONSISTENT", "note": "Approval Status default is not covered by any case."}
+      ]
+    },
+    {
+      "id": "project-role-descriptions",
+      "statement": "GET /api/roles describes Global Project Administrator as able to create, modify, and delete projects and versions; Global Project Manager as having administration and management privileges to all projects, including editing all BOMs (creation not stated); and Project Creator as able to create projects and assume the Project Manager role for them. Effective permissions were not tested.",
+      "surface": "API",
+      "outcome": "PARTIAL",
+      "scope": "GENERAL",
+      "related_cases": ["sca-role-001"],
+      "documentation": [
+        {"source_path": "docs/help-center/administering-black-duck/administering-user-accounts/understanding-roles/black-duck-sca-user-role-matrix.md", "verdict": "CONSISTENT"}
+      ]
+    },
+    {
+      "id": "registration-limits-location",
+      "statement": "Admin > System Settings > Product Registration shows the registration's limits. This sandbox's registration lists unlimited codebase size and a maximum of 21.00 GB scan size per scan; these values belong to this registration, not to customers generally.",
+      "surface": "UI",
+      "outcome": "OBSERVED",
+      "scope": "ENVIRONMENT_SPECIFIC",
+      "related_cases": ["feedback-sca-project-size-guidance-001"],
+      "documentation": [
+        {"source_path": "docs/help-center/administering-black-duck/managing-your-code-size-limits.md", "verdict": "CONSISTENT", "note": "The page says the code size limit is declared in your license."}
+      ]
+    },
+    {
+      "id": "snippets-module-licensed",
+      "statement": "Product Registration lists the Snippets module as Licensed on this sandbox.",
+      "surface": "UI",
+      "outcome": "OBSERVED",
+      "scope": "ENVIRONMENT_SPECIFIC",
+      "related_cases": [],
+      "documentation": []
+    }
+  ],
+  "open_gaps": [
+    "Test effective project-creation permissions with users holding Global Project Manager and Project Creator only.",
+    "Record which roles can confirm or ignore unconfirmed snippets, using a role test user and a disposable snippet match.",
+    "Record the minimum roles for a Detect scan that maps to a new version, using a role test user."
+  ]
+}
