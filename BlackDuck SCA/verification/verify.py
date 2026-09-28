@@ -16,6 +16,7 @@ validator = importlib.util.module_from_spec(spec)
 sys.modules[spec.name] = validator
 spec.loader.exec_module(validator)
 from rbac_case import load_case, validate_case
+from live_observation import load_observation, validate_observation
 
 CASES = (
     ("SCA project creation", "index.md", "docs/help-center/understanding-projects-in-black-duck/creating-a-project.md", "2026.7", "project"),
@@ -79,6 +80,21 @@ def verify(root: Path) -> dict:
         )
     except (OSError, ValueError, KeyError, TypeError, json.JSONDecodeError) as exc:
         record("SCA RBAC evidence case", "harness", [str(exc)])
+
+    observation_paths = sorted((root / "verification/live-observations").glob("*.json"))
+    for observation_path in observation_paths:
+        name = f"SCA live observation {observation_path.stem}"
+        try:
+            observation = load_observation(observation_path)
+            failures = validate_observation(observation, root)
+            record(
+                name,
+                "harness",
+                failures,
+                [f"{observation_path.relative_to(root)} [{observation['product_version']}; observed {observation['observation_date']}; reviewed]"],
+            )
+        except (OSError, ValueError, KeyError, TypeError, json.JSONDecodeError) as exc:
+            record(name, "harness", [str(exc)])
 
     for name in ("Live UI", "Live API"):
         report["checks"].append(dict(name=name, category="live", status="NOT_RUN"))

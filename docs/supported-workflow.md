@@ -31,10 +31,10 @@ entrypoint, loaded instruction revisions, opened evidence, answer, and citations
 Label a manually traced answer as manual. Label a replay of a saved answer as
 historical. Neither is a fresh run of the experimental adapter.
 
-The existing experimental adapter invokes a separately installed `bd` skill. Its
-results do not establish correctness for this workflow. DS-07 must adapt that
-implementation to the selected checkout and support Markdown and OpenAPI evidence
-before producing a current baseline here.
+The DS-07 adapter invokes this checkout's router in a read-only Codex process. It
+validates exact source excerpts from the allowed Markdown and OpenAPI roots. See
+[the DS-07 evaluation guide](ds-07-evaluator.md) for the commands and evidence
+boundary.
 
 Run the SCA offline check separately:
 
@@ -69,6 +69,6 @@ private evidence, credentials, and experimental promotion rules.
 ## Next steps
 
 DS-05 fixes known integrity-check defects. DS-06 recovers the RBAC experiment as
-a reproducible case. DS-07 reuses and corrects the existing evaluator to measure
-this workflow. DS-08 reuses the candidate-review design after strengthening its
-replay provenance requirements.
+a reproducible case. DS-07 adds the checkout-bound evaluator and recaptures its
+baseline. DS-08 reuses the candidate-review design after strengthening its replay
+provenance requirements.
