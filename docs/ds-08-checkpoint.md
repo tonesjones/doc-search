@@ -1,6 +1,6 @@
 # DS-08 checkpoint and live-validation handoff
 
-Updated 2026-09-27 (afternoon). Workspace: `C:\TestCode\Product Docs`. Branch: `codex/ds-08-handoff`. This file records progress and the next decisions; it is not a claim that anything is merged.
+Updated 2026-09-27 (evening). Workspace: `C:\TestCode\Product Docs`. Branch: `codex/ds-08-handoff`. This file records progress and the next decisions; it is not a claim that anything is merged.
 
 ## Goal
 
@@ -31,10 +31,13 @@ To finish DS-08 later: get one measured replay with any adapter, inspect the ful
 
 - **Sandbox:** isolated Black Duck SCA 2026.7.0 test system, no customer data, may be torn down. Its non-secret details live in the ignored `.local/live-environment.json`; replace that file when a new sandbox is provided. No tokens or passwords are stored anywhere.
 - **Access route:** the Claude desktop app's built-in browser, signed in by the owner. The linked device shell cannot reach the sandbox (network allowlist, proxy 403), and a personal Claude plan cannot add allowed domains, so token-file API scripts are not usable. The browser session carries the owner's sysadmin role; read-only is enforced by rule: page reads and API `GET` through `fetch`, forms opened only to read defaults and then cancelled, before/after counts to confirm nothing changed, and owner approval for every write.
-- **Records:** raw observations are saved unreviewed in the ignored `.local/live-observations/`. They are not repository evidence until reviewed.
+- **Records:** raw observations are saved unreviewed in the ignored `.local/live-observations/`. Owner-approved, read-only findings are committed as sanitized records under `BlackDuck SCA/verification/live-observations/`; the format and rules are in [the live-evidence guide](live-evidence.md).
 - **`/bd` skill (account skill, not in this repo):** proposed update adds a High/Medium/Low confidence level with a reason to every answer, and runs a live check only when the owner explicitly invokes `/bd` and confidence is below High. It also documents the Windows-checkout git flags (`-c core.autocrlf=true`, `GIT_OPTIONAL_LOCKS=0`).
 
-## Live findings so far (unreviewed)
+## Live findings so far (approved 2026-09-27)
+
+The owner approved all findings below. They are recorded in `BlackDuck SCA/verification/live-observations/sca-2026-7-live-2026-09-27.json`, validated by `verify.py`. See [the live-evidence guide](live-evidence.md).
+
 
 1. **Access-token location.** User menu (button shows the signed-in user's display name, "System" for sysadmin) > Access Tokens > "My Settings > Access Tokens" > **Create Token**; the dialog offers Read Access Only or Read and Write Access with no default. Admin > Access Tokens lists all users' tokens and cannot create one. The help-center page uses older labels ("My Access Tokens", "Create New Token"); the API guide's "System > Access Tokens" only matches because its author was signed in as sysadmin.
 2. **Pilot on five reviewed cases:** `feedback-sca-token-ui-path-001`, `sca-version-001` (In Planning), `sca-version-003` (External), and `feedback-sca-project-size-guidance-001` (Admin > System Settings > Product Registration; this registration shows unlimited codebase size and a 21.00 GB per-scan limit) were confirmed. `sca-role-001` is partial: `/api/roles` descriptions match the role matrix, but effective permissions need a session for a user holding each role. New-version forms also default Approval Status to Unreviewed, which no case covers.
@@ -51,9 +54,9 @@ Both need role-user sessions (and a snippet scan for the first) to verify live.
 
 ## Next steps, in order
 
-1. Owner reviews the two unreviewed observation files; approved findings become sanitized live-evidence records in the repository (shape to be decided, following the DS-06 RBAC case) and, where a doc is wrong, feedback candidates.
-2. Save the `/bd` skill update, then try it on the two open role questions with `/bd`. That needs owner-approved sign-ins as role test users.
-3. Decide the committed live-evidence format and how the evaluator treats live evidence (a separate evidence type; never mixed with documentation citations).
+1. Done 2026-09-27: the owner approved both observation files; the findings are committed as the first live-evidence record, with a validator and tests. The Help Center label finding is already enforced by `feedback-sca-token-ui-path-001`. The misleading API-guide path needs one feedback candidate, drafted for owner confirmation.
+2. Try `/bd` on the two open role questions. That needs owner-approved sign-ins as role test users, and write actions (a snippet decision, a Detect scan) the current record format does not accept yet.
+3. Decide how the evaluator treats live evidence (a separate evidence type, never mixed with documentation citations) before any case cites it.
 4. Finish DS-08 with a measured replay from a working adapter, then the dry-run promotion preview. No `--apply` without approval.
 
 Not now: jev (TypeSafe AI) does not reduce answer tokens because it does not generate text; revisit it later for the evaluator's unmeasured `SEMANTIC_FACT` checks or for choosing which replays need human review.

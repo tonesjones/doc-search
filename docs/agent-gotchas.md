@@ -18,6 +18,8 @@ Observed 2026-09-27: writing objects from the linked Linux shell printed `unable
 
 Workaround: ignore them; `git gc` or `git prune` from Windows removes them later. Prefer Windows Git for commits when a Windows shell is available.
 
+The same shell also leaves `.git/HEAD.lock` and `.git/objects/maintenance.lock` after a commit, and a status killed by a timeout leaves `.git/index.lock`. Those locks block the next Git command on Windows. Rename them aside (`mv` works where `rm` does not) or delete them from Windows. Avoid Git writes from the linked shell: commit from Windows, or from a separate clone that can push.
+
 ## The Codex CLI on PATH can reject current models
 
 Recorded in `docs/ds-08-checkpoint.md`: the older CLI on PATH rejected GPT-6, while the app-managed CLI accepted it.
