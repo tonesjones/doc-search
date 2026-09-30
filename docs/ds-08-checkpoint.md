@@ -54,7 +54,7 @@ Both need role-user sessions (and a snippet scan for the first) to verify live.
 
 ## Next steps, in order
 
-1. Done 2026-09-27: the owner approved both observation files; the findings are committed as the first live-evidence record, with a validator and tests. The Help Center label finding is already enforced by `feedback-sca-token-ui-path-001`. The misleading API-guide path needs one feedback candidate, drafted for owner confirmation.
+1. Done 2026-09-27: the owner approved both observation files; the findings are committed as the first live-evidence record, with a validator and tests. The Help Center label finding is already enforced by `feedback-sca-token-ui-path-001`. The misleading API-guide path needs one feedback candidate, drafted for owner confirmation. Follow-up 2026-09-30: the owner re-confirmed the token path (User Profile menu, top right > Access Tokens > Create Token) and decided the Approval Status default does not need a case (low customer value; easily changed after creation). New open gap in the record: do Detect-created projects and versions get the UI phase and distribution defaults?
 2. Try `/bd` on the two open role questions. That needs owner-approved sign-ins as role test users, and write actions (a snippet decision, a Detect scan) the current record format does not accept yet.
 3. Decide how the evaluator treats live evidence (a separate evidence type, never mixed with documentation citations) before any case cites it.
 4. Finish DS-08 with a measured replay from a working adapter, then the dry-run promotion preview. No `--apply` without approval.

@@ -85,7 +85,7 @@
     },
     {
       "id": "registration-limits-location",
-      "statement": "Admin > System Settings > Product Registration shows the registration's limits. This sandbox's registration lists unlimited codebase size and a maximum of 21.00 GB scan size per scan; these values belong to this registration, not to customers generally.",
+      "statement": "Admin > System Settings > Product Registration shows the registration's limits, license features, and licensed modules. This sandbox's registration lists unlimited codebase size and a maximum of 21.00 GB scan size per scan; these values belong to this registration, not to customers generally.",
       "surface": "UI",
       "outcome": "OBSERVED",
       "scope": "ENVIRONMENT_SPECIFIC",
@@ -107,6 +107,7 @@
   "open_gaps": [
     "Test effective project-creation permissions with users holding Global Project Manager and Project Creator only.",
     "Record which roles can confirm or ignore unconfirmed snippets, using a role test user and a disposable snippet match.",
-    "Record the minimum roles for a Detect scan that maps to a new version, using a role test user."
+    "Record the minimum roles for a Detect scan that maps to a new version, using a role test user.",
+    "Check whether a project and version created by a Detect scan, without --detect.project.version.phase or --detect.project.version.distribution, get the UI defaults (In Planning, External)."
   ]
 }
