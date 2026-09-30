@@ -1,0 +1,44 @@
+{
+  "id": "live-2026-09-27-pilot-reviewed-cases",
+  "evidence_type": "LIVE_UI_AND_API_OBSERVATION",
+  "environment": {
+    "product": "black-duck-sca",
+    "server_version": "2026.7.0",
+    "kind": "isolated sandbox"
+  },
+  "principal_role": "System Administrator",
+  "observed_at": "2026-09-27",
+  "method": "UI pages and forms opened and read; every form cancelled; API GET only. Token, project, and version counts were unchanged afterwards. Registration key not read.",
+  "findings": [
+    {
+      "case_id": "sca-version-001",
+      "verdict": "CONFIRMED",
+      "observed": "Phase defaults to 'In Planning' on Create Standard Project and on an existing project's Create Version dialog (UI-created projects and versions)."
+    },
+    {
+      "case_id": "sca-version-003",
+      "verdict": "CONFIRMED",
+      "observed": "Distribution defaults to 'External' on both forms (UI-created projects and versions)."
+    },
+    {
+      "case_id": "feedback-sca-project-size-guidance-001",
+      "verdict": "CONFIRMED",
+      "observed": "Admin > System Settings > Product Registration shows the registration's limits (codebase size, scan size per scan, versions per project where limited), license features, and licensed modules. Limits vary by registration; this record does not keep the sandbox's values."
+    },
+    {
+      "case_id": "sca-role-001",
+      "verdict": "PARTIAL",
+      "observed": "GET /api/roles descriptions match the role matrix: Global Project Administrator can create, modify, and delete projects and versions; Global Project Manager description does not mention create; Project Creator can create projects and becomes Project Manager on them.",
+      "not_checked": "Effective permissions. Needs sessions as users holding each role and a create attempt (a write action)."
+    }
+  ],
+  "open_checks": [
+    "Do projects and versions created or mapped by Detect CLI, without --detect.project.version.phase or --detect.project.version.distribution, get the same In Planning and External defaults as the UI?"
+  ],
+  "review": {
+    "status": "APPROVED",
+    "reviewed_by": "Tony",
+    "reviewed_at": "2026-09-30",
+    "notes": "Token-path result is recorded in live-2026-09-27-access-token-location. Approval Status defaulting to Unreviewed was observed but deliberately not made a case: low customer value, and it is easily changed after creation. sca-role-001 recorded as partial by agent recommendation."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "live-2026-09-27-access-token-location",
+  "evidence_type": "LIVE_UI_OBSERVATION",
+  "environment": {
+    "product": "black-duck-sca",
+    "server_version": "2026.7.0",
+    "kind": "isolated sandbox"
+  },
+  "principal_role": "System Administrator",
+  "observed_at": "2026-09-27",
+  "method": "Read-only: opened menus, pages, and the Create Token dialog, then cancelled. No token was created, regenerated, or deleted; token count was unchanged.",
+  "findings": [
+    {
+      "case_id": "feedback-sca-token-ui-path-001",
+      "verdict": "CONFIRMED",
+      "observed": "User Profile menu (top right; the button shows the signed-in user's display name) > Access Tokens opens 'My Settings > Access Tokens' with a '+ Create Token' button. The dialog asks for Name, optional Description, and Scope (Read Access Only or Read and Write Access, none preselected)."
+    },
+    {
+      "verdict": "CONFIRMED",
+      "observed": "Admin > Access Tokens opens 'Administration > Access Tokens', which lists all users' tokens with a Delete action and cannot create a token."
+    }
+  ],
+  "documentation_comparison": [
+    {
+      "file": "BlackDuck SCA/docs/help-center/administering-black-duck/access-tokens/managing-user-access-tokens.md",
+      "verdict": "ROUTE_CORRECT_LABELS_DIFFER",
+      "note": "Docs say 'My Access Tokens' and 'Create New Token'; the live UI shows 'Access Tokens' and 'Create Token'."
+    },
+    {
+      "file": "BlackDuck SCA/docs/api/authenticating-with-the-api.md",
+      "verdict": "MISLEADING",
+      "note": "'System > Access Tokens' matches only because 'System' is the sysadmin's display name on the user menu. Other users see their own name. It is not the Admin area."
+    },
+    {
+      "file": "BlackDuck SCA/docs/help-center/administering-black-duck/access-tokens.md",
+      "verdict": "CONSISTENT",
+      "note": "Administrators manage, delete, and purge all users' tokens."
+    }
+  ],
+  "review": {
+    "status": "APPROVED",
+    "reviewed_by": "Tony",
+    "reviewed_at": "2026-09-30",
+    "notes": "Owner confirmed the path: User Profile menu (top right) > Access Tokens > Create Token. Already reflected in evaluation/guidance/access-token-menu.md and case feedback-sca-token-ui-path-001; no new feedback candidate."
+  }
+}

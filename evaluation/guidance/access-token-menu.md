@@ -13,4 +13,6 @@ Open the upper-right profile menu, select **Access Tokens**, then click **+ Crea
 
 The 2026.7 [Managing user access tokens](../../BlackDuck%20SCA/docs/help-center/administering-black-duck/access-tokens/managing-user-access-tokens.md) page uses the older labels **My Access Tokens** and **Create New Token**. Use the labels shown in the current UI. The live creation dialog asks for a name, an optional description, and either **Read Access Only** or **Read and Write Access**. Copy the token when it is displayed because it is shown only once.
 
+**Admin > Access Tokens** is a different page. It lists all users' tokens so an administrator can delete them, and it cannot create a token.
+
 The C/CPP Tool's token page documents a companion tool. It does not establish the SCA UI path.

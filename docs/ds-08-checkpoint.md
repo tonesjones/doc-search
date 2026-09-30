@@ -1,6 +1,6 @@
 # DS-08 checkpoint and live-validation handoff
 
-Updated 2026-09-27 (afternoon). Workspace: `C:\TestCode\Product Docs`. Branch: `codex/ds-08-handoff`. This file records progress and the next decisions; it is not a claim that anything is merged.
+Updated 2026-09-30. Workspace: `C:\TestCode\Product Docs`. Branch: `live-evidence-review` (DS-08 handoff work merged to `master` in PR #6). This file records progress and the next decisions; it is not a claim that anything is merged.
 
 ## Goal
 
@@ -51,9 +51,9 @@ Both need role-user sessions (and a snippet scan for the first) to verify live.
 
 ## Next steps, in order
 
-1. Owner reviews the two unreviewed observation files; approved findings become sanitized live-evidence records in the repository (shape to be decided, following the DS-06 RBAC case) and, where a doc is wrong, feedback candidates.
+1. Done 2026-09-30: the owner reviewed both observation files. Sanitized records and the proposed format are in `evaluation/live-evidence/`. No new feedback candidates: the token-path doc gap was already covered by guidance and a reviewed case, and the Approval Status default was judged low value. Open check from the review: do Detect-mapped projects and versions get the UI defaults (In Planning, External) when phase and distribution are not passed?
 2. Save the `/bd` skill update, then try it on the two open role questions with `/bd`. That needs owner-approved sign-ins as role test users.
-3. Decide the committed live-evidence format and how the evaluator treats live evidence (a separate evidence type; never mixed with documentation citations).
+3. Approve the proposed live-evidence format in `evaluation/live-evidence/README.md`, and decide how the evaluator treats live evidence (a separate evidence type; never mixed with documentation citations).
 4. Finish DS-08 with a measured replay from a working adapter, then the dry-run promotion preview. No `--apply` without approval.
 
 Not now: jev (TypeSafe AI) does not reduce answer tokens because it does not generate text; revisit it later for the evaluator's unmeasured `SEMANTIC_FACT` checks or for choosing which replays need human review.
