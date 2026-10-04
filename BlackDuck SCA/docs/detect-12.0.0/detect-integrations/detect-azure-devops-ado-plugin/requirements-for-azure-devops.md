@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/requir
 content_id: "GlhfgisZkRYS~piYOmlAWw"
 version: "12.0.0"
 section: "Detect Integrations"
-scraped_at: "2026-09-07T21:17:24.192818+00:00"
+scraped_at: "2026-10-04T23:33:23.614304+00:00"
+content_hash: "d7e1b558299d740e120a8340eb24dd2c94cc481a404b69f420c6956828781d4e"
 ---
 
 # Requirements for Azure DevOps

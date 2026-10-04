@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/pull-re
 content_id: "dPW9FWt2CpejHsEMI4Cg1w"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:47:28.692238+00:00"
+scraped_at: "2026-10-04T23:28:27.009627+00:00"
+content_hash: "66a1921afa8bcca472a45d390d77404e4bbbfa3687bec5ca9ced42911149c6d9"
 ---
 
 # Pull request (PR) comments
@@ -20,7 +21,7 @@ This approach allows you to fix new issues *prior to completing a merge*, and be
 1. If your project is new to Black Duck Software, run a baseline scan on your main branch before using PR Comments, so that the project has a history to compare your pull request against (PR comments are intended to tell you only the new issues—not all the issues).
 2. PR comments require that you set additional environment variables, usually at least the project name and branch. NOTE: You may need to pass an SCM token with privileges as well. Check the documentation and verify that you have provided all the variables that are mandatory for PR Comments.
 3. Create a pipeline job that runs the Black Duck Security Scan. NOTE: Quickstart documentation for each integration often shows how to set up PR comments in your pipeline workflow file. You can uncomment the appropriate lines to get started, or enable the feature in the pipeline configuration UI when available.
-4. When PR Comments are enabled, a quick analysis is done that focuses exclusively on files modified in a pull request.
+4. When PR Comments are enabled, results are compared with the target branch baseline, and only issues introduced by the pull request are reported. For Coverity, this does not mean that only changed files are analyzed. A full analysis is performed and then compared with the baseline to identify new issues, so scan times are typically similar to a standard Coverity scan.
 5. If an issue is found, a PR Comment is added to your SCM tool.
 
 ## When PR comments will appear

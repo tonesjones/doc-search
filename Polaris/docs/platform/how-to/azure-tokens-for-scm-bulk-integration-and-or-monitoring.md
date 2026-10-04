@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/az
 content_id: "tz3K9xQqEHntCoaQ63wgLQ"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:57:15.170245+00:00"
-content_hash: "e0d465d03ffd5825eed4f2f06bb60366b3157e85b58e96b6518043bf1286c5a8"
+scraped_at: "2026-10-04T23:29:20.603345+00:00"
+content_hash: "b5326391db2ff35cca458e6e5ef7fc072ff5f3c6cf5f184e0956bff8f4f3408e"
 ---
 
 # Azure Tokens for SCM Bulk Integration and/or Monitoring

@@ -1,10 +1,11 @@
 ---
 title: "Job runner pod configuration"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/job-runner-pod-configuration.html"
-content_id: "W9M~GNExOsSezg62XdelTg"
+content_id: "iEb3HRAkuK0FP3wV9qq~rw"
 version: "2026.7"
 section: "Installing Black Duck using Kubernetes and OpenShift"
-scraped_at: "2026-08-08T15:33:08.806211+00:00"
+scraped_at: "2026-10-04T23:32:22.907913+00:00"
+content_hash: "d9323ca87eede6027764f46e9e9d151117c86113ea073be96b2e35021a4473f2"
 ---
 
 # Job runner pod configuration

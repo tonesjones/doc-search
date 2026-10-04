@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/ma
 content_id: "J5F2uSRagh7tw0WoEHuv7w"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:56:45.555576+00:00"
-content_hash: "22b0c5521f94b34c70ae8f9e7dcab0338ded7de0804ce937cf2e991735b65bf9"
+scraped_at: "2026-10-04T23:29:19.489974+00:00"
+content_hash: "53903851e68fe4aa68362291bfab6dda28e6ac03698e5627e4599353564b5ecd"
 ---
 
 # Managing deep licenses

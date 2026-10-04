@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-s
 content_id: "mJXuqqevpdNQu8yjbbc6tA"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:47:03.626909+00:00"
+scraped_at: "2026-10-04T23:28:25.892034+00:00"
+content_hash: "9f2600e52b769ac3f0b920a0211bf7edbae7b0ac84d2b131ddbc773cf847a05d"
 ---
 
 # Using SCA Fix PRs with Bridge

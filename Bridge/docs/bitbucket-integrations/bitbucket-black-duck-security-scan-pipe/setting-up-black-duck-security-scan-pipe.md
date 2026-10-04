@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/setting
 content_id: "cirZ13ZsgavAgCq7gxzp3w"
 version: "latest"
 section: "Bitbucket Integrations"
-scraped_at: "2026-08-08T23:48:59.402730+00:00"
+scraped_at: "2026-10-04T23:28:31.552253+00:00"
+content_hash: "55dc1e61a124793387a6391b3b0ed5b3cd42a7891b08c3b3c0f3d13f64f550a2"
 ---
 
 # Setting up Black Duck Security Scan Pipe

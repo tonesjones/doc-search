@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/ge
 content_id: "gG09eV9e7z94KYdRux1JpA"
 product_key: "polaris-platform-latest"
 section: "Get Started"
-scraped_at: "2026-08-12T19:55:52.357579+00:00"
-content_hash: "5aed808eb43677f15adcc2470475046589fba0964ebe7b2265b3b00eeb8af437"
+scraped_at: "2026-10-04T23:29:17.701665+00:00"
+content_hash: "19613a549b5bf704226c2e8ddf1c697ad0330c29c4a7474435d1d7e9efcb7359"
 ---
 
 # Get started: Organization Admin

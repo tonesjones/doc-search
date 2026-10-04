@@ -1,13 +1,13 @@
 ---
 title: "API Enhancements"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/api-enhancements.html"
-content_id: "_dl257AkZmJ6OMAtA_9gDQ"
+content_id: "4tgJud56qXe~XMeP5sXTSQ"
 version: "2026.7"
-section: "Release Notes"
-scraped_at: "2026-08-08T15:37:44.099128+00:00"
+section: "Black Duck SCA Release Notes"
+scraped_at: "2026-10-04T23:32:34.315715+00:00"
+content_hash: "ee61e0bd873ebac5dfb1f3545f62108e6412d70db52ee08abf4215a5aeec9045"
 ---
 
 # API Enhancements
 
-For more details on new or changed API requests, please refer to the API doc
-available in Black Duck.
+For more details on new or changed API requests, please refer to the API doc available in Black Duck.

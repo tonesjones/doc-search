@@ -1,10 +1,11 @@
 ---
 title: "Viewing your roles"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/viewing-your-roles.html"
-content_id: "zPNQFRC0~iTfNpeEDIHL0w"
+content_id: "CB89ZcsOH~S49FERGjfGag"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T15:31:39.679673+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:19.005136+00:00"
+content_hash: "ee15c0736d9d806f5cb761eab78bad6dec85b6c6af9938b506d1d1e4da53793e"
 ---
 
 # Viewing your roles
@@ -21,8 +22,6 @@ To view your roles:
      
     [image: image]   
 
-   Select **Global Roles** to view the roles assigned to your user account. Note that this
-   section includes all roles that were assigned to you via user groups.
+   Select **Global Roles** to view the roles assigned to your user account. Note that this section includes all roles that were assigned to you via user groups.
 
-   Note: Users with the User Administrator role can view the roles assigned to a user account by
-   selecting the username in the Users & Groups page.
+   Note: Users with the User Administrator role can view the roles assigned to a user account by selecting the username in the Users & Groups page.

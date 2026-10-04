@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/wa
 content_id: "uGrqUlYF8uzZJ4ihWl26lQ"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:56:49.388966+00:00"
-content_hash: "7dcbf6d1aad22b00f91c6b1252ce39c6b3792abf3bde3b4a666a67d26aa7dff7"
+scraped_at: "2026-10-04T23:29:19.641752+00:00"
+content_hash: "26eb2d4a6f5afd60da42e0e70be0dd78edfcf7be343d18b457957ac8c132d3b7"
 ---
 
 # Ways to triage components in Polaris

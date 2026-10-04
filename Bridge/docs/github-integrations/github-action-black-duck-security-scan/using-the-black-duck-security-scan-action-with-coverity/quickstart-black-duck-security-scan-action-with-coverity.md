@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickst
 content_id: "Ucb9PwMLEc03_l8gKEa5Yg"
 version: "latest"
 section: "GitHub Integrations"
-scraped_at: "2026-08-08T23:47:48.324388+00:00"
+scraped_at: "2026-10-04T23:28:28.099942+00:00"
+content_hash: "44fba4c7bb40a5fe3832b46aa1788d224312d1b9b90c9fa5a4b399bf7f2a49a0"
 ---
 
 # Quickstart: Black Duck Security Scan Action with Coverity
@@ -107,13 +108,13 @@ The full scan will be triggered by push and merge events on specified branches. 
              include_diagnostics: false
    ```
 
-   Important: For deployments with [scan_services](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/cnc/topics/scan_service.html) disabled, the `coverity_local` line in the example should be uncommented. This enables local analysis using the full Coverity client, overriding the default thin client behavior.
+   Important: For deployments with [scan_services](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/0a69325e186c9bec20342e8d19ab1fb4.topic) disabled, the `coverity_local` line in the example should be uncommented. This enables local analysis using the full Coverity client, overriding the default thin client behavior.
 
    The Black Duck Security Scan Action downloads and uses the Coverity CLI to scan the codebase of the branch that triggered the workflow. Branches are defined in the `on` block. Detected issues are uploaded to a Coverity stream within a Coverity Connect project named after the repository. If the project does not exist, it is created automatically.
 
    The Coverity stream is named `repository-name-branch-name` and stores a snapshot of the issues identified during the scan, ready for review in Coverity Connect.
 
-   For full scans, the `coverity_policy_view` parameter will break the build if new or outstanding issues are detected as defined by the `Outstanding Issues` [policy view](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/coverity-platform/topics/view_issues_by_snapshot.html). Consult [View Management](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/coverity-platform/topics/view_management.html) for further details.
+   For full scans, the `coverity_policy_view` parameter will break the build if new or outstanding issues are detected as defined by the `Outstanding Issues` [policy view](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/bf31a35839bf6ab49773e9063d5bda88.topic). Consult [View Management](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/f90e1c0212f2dc46cdbd0c29650065af.topic) for further details.
 
    Each time code is committed to a Pull Request branch that targets one of the specified base branches, a comparison is performed between the scan of the Pull Request branch and the latest full scan of its parent branch. This allows new issues to be added as review comments. Coverity Fail Pull Requests are enabled by setting the `coverity_prComment_enabled` parameter to *true*. Use the `coverity_prComment_impacts` parameter to add comments filtered by impact, with a default of `high` if unset. The source code management token created in the prerequisites is required to inject Pull Request review comments.
 
@@ -132,14 +133,14 @@ If a workflow error is encountered similar to the example below, then the `cover
 
 Attention: ERROR: Failed to retrieve tool information details: Fetch tool information: received unexpected response status code '500' from Connect API
 
-In this scenario either [scan services](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/cnc/topics/scan_service.html) are not enabled or a Coverity version prior to 2022.3 is deployed. The default behavior is that the workflow uses the Coverity thin client to upload artifacts, with the analysis performed at the server. Setting the `coverity_local` parameter to `true` enables the full analysis at the client. Subsequently, the scan and analysis will be performed locally by the workflow. For further details relating to the different Coverity deployment models supported, please refer to [Coverity Deployment Architecture](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/help-center/topics/deployment_architecture.html).
+In this scenario either [scan services](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/0a69325e186c9bec20342e8d19ab1fb4.topic) are not enabled or a Coverity version prior to 2022.3 is deployed. The default behavior is that the workflow uses the Coverity thin client to upload artifacts, with the analysis performed at the server. Setting the `coverity_local` parameter to `true` enables the full analysis at the client. Subsequently, the scan and analysis will be performed locally by the workflow. For further details relating to the different Coverity deployment models supported, please refer to [Coverity Deployment Architecture](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/a0caa9e5b240fbee6150f8640240b2a5.topic).
 
 ## Useful resources
 
-- [Coverity Product Documentation](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/webhelp-files/help_center_start.html)
+- [Coverity Product Documentation](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/65af71645148476f0c3da0e6b8552214.topic)
 - [Coverity Tutorials](https://community.blackduck.com/s/article/coverity-tutorials)
 - [Coverity Projects and Streams Tutorial](https://community.blackduck.com/s/article/Coverity-Tutorial-Projects-and-Streams)
-- [Coverity Deployment Architecture](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/help-center/topics/deployment_architecture.html)
+- [Coverity Deployment Architecture](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/a0caa9e5b240fbee6150f8640240b2a5.topic)
 - [Coverity Deployment Guide](https://community.blackduck.com/s/article/Coverity-Deployment-Guide)
 - [Black Duck Security Scan Action Documentation](https://github.com/marketplace/actions/black-duck-security-scan)
 - [Black Duck Security Scan Action Source](https://github.com/blackduck-inc/black-duck-security-scan)

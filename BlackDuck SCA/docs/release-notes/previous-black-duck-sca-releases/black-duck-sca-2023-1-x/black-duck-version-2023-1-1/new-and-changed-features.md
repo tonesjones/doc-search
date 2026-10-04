@@ -1,10 +1,11 @@
 ---
 title: "New and changed features"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/new-and-changed-features.html"
-content_id: "_wcpvc4UHH8wZPswpactiQ"
+content_id: "NwDqIG1_jYXk0cwQhdDS7w"
 version: "2026.7"
-section: "Release Notes"
-scraped_at: "2026-08-08T15:37:06.636798+00:00"
+section: "Black Duck SCA Release Notes"
+scraped_at: "2026-10-04T23:32:32.781592+00:00"
+content_hash: "c1d41191faff8eb010f56490c47c2108dc81bbbd46d64e14e0dbc16479c6ae48"
 ---
 
 # New and changed features

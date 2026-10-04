@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/conda-
 content_id: "PAcnLeWfNyvzwS4U23adlQ"
 version: "12.0.0"
 section: "Package Manager information for Detect"
-scraped_at: "2026-09-07T21:15:56.775634+00:00"
+scraped_at: "2026-10-04T23:33:20.457314+00:00"
+content_hash: "0fa89d5c61828e163b9147b24c4f3f08e76e8c68926b6050388324a7ed3aa544"
 ---
 
 # Conda Support

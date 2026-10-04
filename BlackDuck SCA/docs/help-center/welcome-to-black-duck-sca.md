@@ -1,10 +1,11 @@
 ---
 title: "Welcome to Black Duck SCA"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/welcome-to-black-duck-sca.html"
-content_id: "dg040g9GiRTvzBlwAR5w7w"
+content_id: "Tbp21r0UIa4zrZ0bN0fIWg"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T14:53:24.653561+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:10.048776+00:00"
+content_hash: "02f8ce429f4c04db5ac766ce6c78520851b5141f76d65e0d4adca7f9df48bd5b"
 ---
 
 # Welcome to Black Duck SCA
@@ -26,7 +27,7 @@ This documentation does not differentiate which features are available by module
   The Release Notes contain information about the new and improved features, resolved issues, and known issues in the current release.
 - What's New
 
-  See what's new with Black Duck 2026.7.0 by logging into Black Duck and clicking [image: Help button] → What's New.
+  See what's new with Black Duck2026.7.1 by logging into Black Duck and clicking [image: Help button] → What's New.
 - Installation information
 
   Installing Black Duck using Docker Swarm contains information about installing and upgrading Black Duck using Docker Swarm.

@@ -135,7 +135,7 @@ def empty_leaf_markdown(topic: dict) -> str:
     title = topic.get("title") or "Untitled"
     return (
         f"# {title}\n\n"
-        "This official topic has no extractable body in Coverity Documentation 2026.6."
+        "This official topic has no extractable body in the pinned Coverity documentation."
     )
 
 

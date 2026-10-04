@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/detect
 content_id: "lMXX~jmHMa0E9mqVYuNuZQ"
 version: "12.0.0"
 section: "Getting started with Detect"
-scraped_at: "2026-09-07T21:15:11.600611+00:00"
+scraped_at: "2026-10-04T23:33:19.000500+00:00"
+content_hash: "ce368ece1e19b1cdc2b09e3c1cb56e6bcbf0faf3ba640fedc4adc2cfc1dff559"
 ---
 
 # Detect Processing

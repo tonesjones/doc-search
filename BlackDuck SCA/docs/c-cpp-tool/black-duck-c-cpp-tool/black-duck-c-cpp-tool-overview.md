@@ -1,10 +1,11 @@
 ---
 title: "Black Duck C/CPP tool overview"
 source_url: "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/black-duck-c/cpp-tool-overview.html"
-content_id: "czazY~fEsIGqBzRimoHsxA"
+content_id: "CSiLxhxW_VEYL8BSIX8QMg"
 version: "latest"
 section: "Black Duck C/CPP Tool"
-scraped_at: "2026-08-13T16:16:51.541416+00:00"
+scraped_at: "2026-10-04T23:32:44.007953+00:00"
+content_hash: "7d3a45baa650fd65e34091372432dbf1d8d8679d0bd7ee9c20d90ab0a7d8c207"
 ---
 
 # Black Duck C/CPP tool overview

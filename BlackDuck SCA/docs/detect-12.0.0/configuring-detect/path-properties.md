@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/path-p
 content_id: "iANJRYWc1NZpKcS6ubZ6tA"
 version: "12.0.0"
 section: "Configuring Detect"
-scraped_at: "2026-09-07T21:15:20.469174+00:00"
+scraped_at: "2026-10-04T23:33:19.240682+00:00"
+content_hash: "9c57c80377b7368018d340601cebbabef72d723bb1762c351e977441311632c2"
 ---
 
 # Path properties

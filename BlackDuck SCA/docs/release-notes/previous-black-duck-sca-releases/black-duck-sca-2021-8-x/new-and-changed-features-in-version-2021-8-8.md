@@ -1,17 +1,16 @@
 ---
 title: "New and Changed Features in Version 2021.8.8"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/new-and-changed-features-in-version-2021.8.8.html"
-content_id: "2k8KgVEVY12m~4WDrVr6kA"
+content_id: "L9qL9xqOGVjORC6yD2YpJw"
 version: "2026.7"
-section: "Release Notes"
-scraped_at: "2026-08-08T15:37:55.628806+00:00"
+section: "Black Duck SCA Release Notes"
+scraped_at: "2026-10-04T23:32:34.960668+00:00"
+content_hash: "cdaa0e96003579d02282c2ce2dee26bf3c18bacd196bb4240bc79907a42db18c"
 ---
 
 # New and Changed Features in Version 2021.8.8
 
-Black Duck version 2021.8.8 is a maintenance release and contains no
-new or changed features. A fix was made to the online help to address [CVE-2022-30278](https://nvd.nist.gov/vuln/detail/CVE-2022-30278) which could allow an unauthenticated
-remote attacker to conduct a cross-site scripting attack.
+Black Duck version 2021.8.8 is a maintenance release and contains no new or changed features. A fix was made to the online help to address [CVE-2022-30278](https://nvd.nist.gov/vuln/detail/CVE-2022-30278) which could allow an unauthenticated remote attacker to conduct a cross-site scripting attack.
 
 ## Container versions
 

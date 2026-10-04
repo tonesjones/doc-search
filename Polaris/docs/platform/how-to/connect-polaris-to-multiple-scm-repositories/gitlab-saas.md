@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/gi
 content_id: "UHlavLYbiRSih2sbxX7VFg"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:57:12.500378+00:00"
-content_hash: "60ec5ead780693afc9aab3a4f488da725da0db79014be2bd320d0a84223f0a89"
+scraped_at: "2026-10-04T23:29:20.458358+00:00"
+content_hash: "ba6f3b634ef0badf5982dc925a93dede4d1b33e6375f1b28b47b8f22df3bf0ef"
 ---
 
 # GitLab SaaS
@@ -18,9 +18,9 @@ When integrating SCM repositories, you will need an access token you create in G
 
 Authentication between GitLab and Polaris is managed with an access token that you create in GitLab. If you haven't done so already, create an access token. For additional information: [GitLab Docs > GitLab token overview.](https://docs.gitlab.com/security/tokens/)
 
-Important: Must be created in GitLab SaaS (Premium or Ultimate). Free version does not allow users to create webhooks.
+Important: Premium or Ultimate is required for group-level webhooks (auto-onboarding of new repositories). All editions, including Free, are supported for project-level webhooks (individual project integrations).
 
-Important: Token must be created by a GitLab **Organization Owner** or users with the "Manage organization webhooks" permission, who are authorized to manage organization webhooks. Although other GitLab users may be able to select the scope requirements when creating a token, the token will not work due to permission requirements in GitLab to manage organization webhooks.
+Important: Token must be created by a GitLab **Group Owner** or someone with equivalent webhook-management rights. Although other GitLab users may be able to select the scope requirements when creating a token, the token will not work due to permission requirements in GitLab to manage organization webhooks.
 
 When creating an access token:
 
@@ -99,7 +99,7 @@ See General Prerequisites before starting.
    Click Cancel to cancel the import. Any repository in the process of being imported at the time of cancellation will complete in the background after the cancel is accepted. Then all onboarding will be stopped immediately. For example, if you import ten repositories and cancel at 50%, five repositories would be imported and five repositories would not.
 5. You can now set up event-based test automation. See [Event-Based Test Automation in Polaris for SCM Integrations](../event-based-test-automation-in-polaris-for-scm-integrations.md).
 
-   Note: To enable Fix Pull Requests for all onboarded applications, create a component policy (see [Component policies](../create-and-manage-policies/component-policies.md)) and assign it to the applications after onboarding. See [Fix Pull Requests (Fix PR)](../fix-pull-requests-fix-pr.md).
+   Note: To enable Fix Pull Requests for all onboarded applications, create a component policy (see [Component policies](../create-and-manage-policies/component-policies.md)) and assign it to the applications after onboarding. See [SCA Fix Pull Requests](../fix-pull-requests-fix-pr.md).
 
 ## SCM bulk onboarding projects into an application
 

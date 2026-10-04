@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-b
 content_id: "aFejma_DnSfQITYn34Up8w"
 version: "latest"
 section: "Bitbucket Integrations"
-scraped_at: "2026-08-08T23:49:02.496365+00:00"
+scraped_at: "2026-10-04T23:28:31.727601+00:00"
+content_hash: "2fd475d8e198da0e573a616df11f276fea7171a2c9932e00a3a6e00136b2bd0a"
 ---
 
 # Using Black Duck Security Scan Pipe for Software Risk Manager

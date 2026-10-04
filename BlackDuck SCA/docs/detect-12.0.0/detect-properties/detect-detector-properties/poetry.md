@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/poetry
 content_id: "C4PUgMcOjuXgAV4NM5Ez_g"
 version: "12.0.0"
 section: "Detect Properties"
-scraped_at: "2026-09-07T21:16:57.776835+00:00"
+scraped_at: "2026-10-04T23:33:22.799322+00:00"
+content_hash: "4226801268cc292d114c257007b9930f87a3924738f3dd4b47bbffb82ede551b"
 ---
 
 # poetry

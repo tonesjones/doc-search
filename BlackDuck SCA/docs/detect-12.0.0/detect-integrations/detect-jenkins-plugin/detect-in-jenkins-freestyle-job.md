@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/detect
 content_id: "_hYzvVPm6eljJLQkivo5eQ"
 version: "12.0.0"
 section: "Detect Integrations"
-scraped_at: "2026-09-07T21:17:19.124650+00:00"
+scraped_at: "2026-10-04T23:33:23.466470+00:00"
+content_hash: "fe5a5ac1a3f47e7f2a46b0e8677346b866fe83e3be6d60277e6b09cf7f1fc31e"
 ---
 
 # Detect in Jenkins Freestyle job

@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-b
 content_id: "Xt8r~qIfj0LHHEfLYiRXOw"
 version: "latest"
 section: "Azure DevOps Integrations"
-scraped_at: "2026-08-08T23:51:14.810530+00:00"
+scraped_at: "2026-10-04T23:28:29.727607+00:00"
+content_hash: "ba5712ac3648a9c6fcb958a0fb267290f1ef0d07db50d003a8ec15bb2d988cff"
 ---
 
 # Using Black Duck Security Bulk Onboarding for Azure DevOps with Polaris
@@ -57,7 +58,9 @@ A pipeline can be generated with the following scan options:
 The following post scan options can be configured:
 
 - **Decorate pull requests with comments:** When checked, each new SCA and/or SAST issue introduced by a pull request will be summarized within a review comment. This uses `$(System.AccessToken)` secret by default for authentication.
-- **Automatically create fix pull requests:** When checked, SCA package assessments will automatically open fix pull requests for a default maximum count of 5 dependency upgrades and vulnerabilities. This uses `$(System.AccessToken)` secret by default for authentication.
+- **Automatically create fix pull requests:** When checked, Polaris automatically creates Fix Pull Requests for eligible issues in the configured assessment types. SCA assessments create dependency upgrade Pull Requests, while SAST assessments create AI-generated code fix Pull Requests. By default, up to five Fix Pull Requests can be raised across all configured assessment types.
+
+  The default shared limit is five Fix Pull Requests across all configured assessment types. Polaris evaluates SCA and SAST issues that match the configured Fix PR severity filter, which is `CRITICAL,HIGH` by default. If eligible SCA and SAST issues have the same severity and timestamp for detection then SAST issues are prioritized. When the number of eligible issues exceeds the limit, some issues may not receive a Fix Pull Request.This uses `${{ secrets.GITHUB_TOKEN }}` for authentication.
 - **Create SARIF file**: When checked, a SARIF report will be generated with findings from the scan, categorized by severity (CRITICAL, HIGH) and issue types (SAST, SCA). An additional checkbox will be displayed to provide the option to upload and display issues in Azure Advanced Security.
 
 **Workflow options**

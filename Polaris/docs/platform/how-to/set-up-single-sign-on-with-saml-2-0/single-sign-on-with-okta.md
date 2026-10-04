@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/si
 content_id: "FrhzzEk3hSwAcedEKf4HPg"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:56:01.327975+00:00"
-content_hash: "dc28095931fb3650b75017d081816e27cc54058eea11a0ad36081d8f1ff070bd"
+scraped_at: "2026-10-04T23:29:18.279494+00:00"
+content_hash: "9e02fbdfdb07bb8010db04f1e87005edf2ab6a8220b540bee9fe2a28b83225b4"
 ---
 
 # Single sign-on with Okta

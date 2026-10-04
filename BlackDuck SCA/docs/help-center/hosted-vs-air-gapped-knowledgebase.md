@@ -1,16 +1,16 @@
 ---
 title: "Hosted vs Air-gapped KnowledgeBase"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/hosted-vs-air-gapped-knowledgebase.html"
-content_id: "R83H9cEy4LN57W8deig~tQ"
+content_id: "edBsJR9UWygSw1XaZglIuQ"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T15:32:25.317481+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:21.091933+00:00"
+content_hash: "c33b8820eb6e58d1cad0d85c7cee566d00b46edaaae1530a4ff413cb7687308e"
 ---
 
 # Hosted vs Air-gapped KnowledgeBase
 
-Notice: This is a non-exhaustive list and any feature not explicitly listed may
-not be available for air-gapped KnowledgeBase installations.
+Notice: This is a non-exhaustive list and any feature not explicitly listed may not be available for air-gapped KnowledgeBase installations.
 
 ## Core features & scanning techniques
 

@@ -3,8 +3,9 @@ title: "Using the Black Duck Security Scan Plugin with Software Risk Manager"
 source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-scan-plugin-with-software-risk-manager.html"
 content_id: "9sS4cFPWQ6rUm3Qrn1DUeA"
 version: "latest"
-section: "Jenkins - Black Duck Security Scan Plugin for Jenkins"
-scraped_at: "2026-08-08T23:48:46.198138+00:00"
+section: "Jenkins Integrations"
+scraped_at: "2026-10-04T23:28:30.894195+00:00"
+content_hash: "2593c8454646e9b0c660b8c58862035977aafb0093454a1f2e0d63f06bd6a8a2"
 ---
 
 # Using the Black Duck Security Scan Plugin with Software Risk Manager

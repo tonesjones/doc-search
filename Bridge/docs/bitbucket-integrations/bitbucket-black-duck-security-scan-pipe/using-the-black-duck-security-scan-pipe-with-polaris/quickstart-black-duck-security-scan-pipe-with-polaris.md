@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickst
 content_id: "XyofGonTANhZYCBnHqAhaQ"
 version: "latest"
 section: "Bitbucket Integrations"
-scraped_at: "2026-08-08T23:49:01.868002+00:00"
+scraped_at: "2026-10-04T23:28:31.696529+00:00"
+content_hash: "26d76def65c2ba430aab78e8b21788ce8f8e337868afbbf2d1576351a6ca201c"
 ---
 
 # Quickstart: Black Duck Security Scan Pipe with Polaris

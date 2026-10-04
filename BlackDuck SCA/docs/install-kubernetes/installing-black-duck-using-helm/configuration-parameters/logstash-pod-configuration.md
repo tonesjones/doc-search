@@ -1,10 +1,11 @@
 ---
 title: "Logstash pod configuration"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/logstash-pod-configuration.html"
-content_id: "OVtoaS~UZ5ok~Sam3nKwnA"
+content_id: "7wlQazYb0qy9jLfL3wUdGA"
 version: "2026.7"
 section: "Installing Black Duck using Kubernetes and OpenShift"
-scraped_at: "2026-08-08T15:33:09.385898+00:00"
+scraped_at: "2026-10-04T23:32:22.933914+00:00"
+content_hash: "03019e5a3d5559185d5d1426c18c37939f90887887aa770641187d6a545c694c"
 ---
 
 # Logstash pod configuration

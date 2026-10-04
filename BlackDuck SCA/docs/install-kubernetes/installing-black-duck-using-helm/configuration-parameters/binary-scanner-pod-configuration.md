@@ -1,10 +1,11 @@
 ---
 title: "Binary scanner pod configuration"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/binary-scanner-pod-configuration.html"
-content_id: "RXEBewE7OBSnI~pTucYvXw"
+content_id: "vxwXEPtccjYpZTYPP7A_hw"
 version: "2026.7"
 section: "Installing Black Duck using Kubernetes and OpenShift"
-scraped_at: "2026-08-08T15:33:05.392461+00:00"
+scraped_at: "2026-10-04T23:32:22.748142+00:00"
+content_hash: "2b27021659947fab95f2f1bbbaed8f1a55b3c7bec43f3ce8783de2e093184677"
 ---
 
 # Binary scanner pod configuration

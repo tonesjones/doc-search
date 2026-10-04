@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickst
 content_id: "ciwUJzw7pa1UrIfDJvYLog"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:47:12.323911+00:00"
+scraped_at: "2026-10-04T23:28:26.257629+00:00"
+content_hash: "7edcbe9421fe7f8874cf1acf53769a1b101efe065e58e199c6193b035b83aa78"
 ---
 
 # Quickstart: Black Duck SCA Bridge CLI in an Azure DevOps pipeline

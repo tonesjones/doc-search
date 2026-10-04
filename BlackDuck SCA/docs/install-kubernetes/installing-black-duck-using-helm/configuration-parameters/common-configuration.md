@@ -1,10 +1,11 @@
 ---
 title: "Common configuration"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/common-configuration.html"
-content_id: "HIMBsAztkbWjeltFP34_Zw"
+content_id: "TDdEsNR53z8YBR6BNJvtdg"
 version: "2026.7"
 section: "Installing Black Duck using Kubernetes and OpenShift"
-scraped_at: "2026-08-08T15:33:04.265862+00:00"
+scraped_at: "2026-10-04T23:32:22.694103+00:00"
+content_hash: "3a3259b1427637b36328231c9924aadf2d748bdca5298c37a5ef90e49c944d58"
 ---
 
 # Common configuration

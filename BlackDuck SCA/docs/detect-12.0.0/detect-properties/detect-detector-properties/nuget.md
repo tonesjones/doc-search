@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/nuget.
 content_id: "ELNbmNjUPKoS~EwcY6KXsQ"
 version: "12.0.0"
 section: "Detect Properties"
-scraped_at: "2026-09-07T21:16:53.196292+00:00"
+scraped_at: "2026-10-04T23:33:22.659977+00:00"
+content_hash: "a4e4ef4478874f0e6a72d733e441bab1fcf59a675492a83c701689039bc84d93"
 ---
 
 # nuget

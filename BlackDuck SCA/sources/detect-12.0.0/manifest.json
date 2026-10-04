@@ -8,9 +8,10 @@
   "contentApiTemplate": "https://docs.blackduck.com/api/khub/maps/j_bSwuxnjHv5ElV~TQrAQg/topics/{contentId}/content",
   "baseReaderUrl": "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/",
   "docsRoot": "detect-12.0.0",
-  "lastIndexBuild": "2026-09-07T21:17:36.336417+00:00",
-  "lastTocFetch": "2026-09-07T21:14:38.776504+00:00",
-  "scrapedAt": "2026-09-07T21:17:32.226450+00:00",
+  "sectionDocsRoots": {},
+  "lastIndexBuild": "2026-10-04T23:27:44.893047+00:00",
+  "lastTocFetch": "2026-10-04T23:27:44.893047+00:00",
+  "scrapedAt": "2026-10-04T23:33:23.876613+00:00",
   "statusValues": [
     "pending",
     "done",
@@ -99,8 +100,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:14:49.927219+00:00",
-      "bytes": 3864
+      "scrapedAt": "2026-10-04T23:33:18.190820+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:18.190820+00:00",
+      "contentHash": "6c1d3136fe2e02d463d361c3beb6115c12d8224eae4e1b42d959c7142045873e",
+      "bytes": 3898
     },
     {
       "id": "4zqGxJ0Oi7zKhmu7XfDvTg",
@@ -118,8 +121,10 @@
       "directChildren": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:14:50.658428+00:00",
-      "bytes": 310
+      "scrapedAt": "2026-10-04T23:33:18.200797+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:18.200797+00:00",
+      "contentHash": "8c2bbb594942bfadc60836360d6f892337773a84518c80bad13cdb0959e3b422",
+      "bytes": 379
     },
     {
       "id": "hpkc4_tDlAR2mPi5vJMIYg",
@@ -138,8 +143,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:14:51.404000+00:00",
-      "bytes": 5218
+      "scrapedAt": "2026-10-04T23:33:18.227893+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:18.227893+00:00",
+      "contentHash": "cbc794a3c831b173ae3352f55f1732fce6f7122e23cb42509ff0a9326eb5f0bc",
+      "bytes": 5229
     },
     {
       "id": "Nv4kn99pLo6v81SA2pPkag",
@@ -158,8 +165,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:14:52.436699+00:00",
-      "bytes": 49422
+      "scrapedAt": "2026-10-04T23:33:18.340144+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:18.340144+00:00",
+      "contentHash": "c3d8535de7c72919d1d10892c579ba9bc3fcc8bda3575d44a91e2ede461266b2",
+      "bytes": 48791
     },
     {
       "id": "9PKI5rS~axOYDd8Udx4L4A",
@@ -178,8 +187,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:14:53.496528+00:00",
-      "bytes": 77441
+      "scrapedAt": "2026-10-04T23:33:18.476873+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:18.476873+00:00",
+      "contentHash": "e168d588d951e9f3e8220820276ffb7ec26c0c5b0e4742a9ac66860a50d5d800",
+      "bytes": 76333
     },
     {
       "id": "HwDOsOlW4MhPmunlgRU7gA",
@@ -197,8 +208,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:14:54.245102+00:00",
-      "bytes": 3926
+      "scrapedAt": "2026-10-04T23:33:18.505683+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:18.505683+00:00",
+      "contentHash": "a7a9725dfbfb3d3cc7e8f05cc7e630a9b3970ed81c7dcfc62139ccac97e348b9",
+      "bytes": 3928
     },
     {
       "id": "p0xs4k8FofHgNGBpwfRaDg",
@@ -216,8 +229,10 @@
       "directChildren": 5,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:14:54.972993+00:00",
-      "bytes": 559
+      "scrapedAt": "2026-10-04T23:33:18.525954+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:18.525954+00:00",
+      "contentHash": "0854a1592b1b1cd6c9cadf685aba2dd608c1c4c0fd2d4b579834c5e902d04ab8",
+      "bytes": 626
     },
     {
       "id": "CiNJXjR5hbylj4rEVWMrrw",
@@ -236,8 +251,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:14:55.951847+00:00",
-      "bytes": 2554
+      "scrapedAt": "2026-10-04T23:33:18.554250+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:18.554250+00:00",
+      "contentHash": "2a38389bb5e9e0ce046fd8579198f98bdb3213feab29c23b38fe549a9cb87606",
+      "bytes": 2605
     },
     {
       "id": "Wl8kLNbai0FJvLQn1b_JeQ",
@@ -256,8 +273,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:14:56.684924+00:00",
-      "bytes": 2091
+      "scrapedAt": "2026-10-04T23:33:18.577599+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:18.577599+00:00",
+      "contentHash": "7a17eee2b3b9857fafb055db81961c00156a95d8ec6180ae074c12e89b4c3c79",
+      "bytes": 2140
     },
     {
       "id": "6D23NaLqMtQC1EE1g6d52A",
@@ -276,8 +295,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:14:57.426435+00:00",
-      "bytes": 5193
+      "scrapedAt": "2026-10-04T23:33:18.601567+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:18.601567+00:00",
+      "contentHash": "ee3e9509f0a83685dabbda702cd4046df62f9d5d8557cce413a1622df49c2b03",
+      "bytes": 5206
     },
     {
       "id": "Hov7oWB9PuIyKGencjI9fA",
@@ -296,8 +317,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:14:58.174784+00:00",
-      "bytes": 2155
+      "scrapedAt": "2026-10-04T23:33:18.625445+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:18.625445+00:00",
+      "contentHash": "124aaeb534fb99b7819c5f09d9dfa3177b3f3c4745a01bb8fbc08890ba029641",
+      "bytes": 2195
     },
     {
       "id": "~senNQqZziBX21Ydk5Hh_A",
@@ -316,8 +339,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:14:58.963887+00:00",
-      "bytes": 1597
+      "scrapedAt": "2026-10-04T23:33:18.649646+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:18.649646+00:00",
+      "contentHash": "7470ce4d997e22c7eafcb5c9e0ee42c2cddb18065c81dd89223fb619f9e569a4",
+      "bytes": 1644
     },
     {
       "id": "vvW90cEGhPZfykg08tbpqQ",
@@ -335,8 +360,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:14:59.724380+00:00",
-      "bytes": 4176
+      "scrapedAt": "2026-10-04T23:33:18.684916+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:18.684916+00:00",
+      "contentHash": "385c9cc00aa107ef5170d1534cacce2360920fc0aefe6820986782e8cc36cfa2",
+      "bytes": 4183
     },
     {
       "id": "VLJOPTjUlaxLKAgzcjdLKw",
@@ -354,8 +381,10 @@
       "directChildren": 7,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:00.476469+00:00",
-      "bytes": 1117
+      "scrapedAt": "2026-10-04T23:33:18.718011+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:18.718011+00:00",
+      "contentHash": "62b195f4a322c0f37be08364c59ba01d2c5620e95f19ce09039ec637bd8bfd1a",
+      "bytes": 1182
     },
     {
       "id": "DBN78rPO4Rnavkd5vld9~Q",
@@ -374,8 +403,10 @@
       "directChildren": 11,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:01.238348+00:00",
-      "bytes": 591
+      "scrapedAt": "2026-10-04T23:33:18.740612+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:18.740612+00:00",
+      "contentHash": "45c2d9932aac1eb72a080e3c85973b7e2a8074923befa627e98b16730e81ff8c",
+      "bytes": 659
     },
     {
       "id": "s~Xy3QXERV0O7QI8C8VDcA",
@@ -395,8 +426,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:01.994551+00:00",
-      "bytes": 449
+      "scrapedAt": "2026-10-04T23:33:18.758412+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:18.758412+00:00",
+      "contentHash": "d268fdf0135d2736640240c4a7e6fb67528fe9a972eaacda0cb33adea683c49b",
+      "bytes": 518
     },
     {
       "id": "IZJzyBESfi___olLm~_Zew",
@@ -416,8 +449,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:02.729347+00:00",
-      "bytes": 1057
+      "scrapedAt": "2026-10-04T23:33:18.776798+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:18.776798+00:00",
+      "contentHash": "f2d705b9e634da86766fffa8bd2b3b77767fabee14b549edc1ce5bfca2d0e90c",
+      "bytes": 1118
     },
     {
       "id": "1z9w_4gI_0g_gtwHiQqWyg",
@@ -437,8 +472,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:03.488573+00:00",
-      "bytes": 845
+      "scrapedAt": "2026-10-04T23:33:18.794023+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:18.794023+00:00",
+      "contentHash": "f33461393782ed778075ddb98226849bb015261d27ecaa6e8ffffa486713e6c8",
+      "bytes": 911
     },
     {
       "id": "po3xLJc1hURl4jTQSpLUFg",
@@ -458,8 +495,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:04.220779+00:00",
-      "bytes": 554
+      "scrapedAt": "2026-10-04T23:33:18.811177+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:18.811177+00:00",
+      "contentHash": "b5f8b73f904197afc10e940af6bfd01d3689dd1d76459ce30a6ed86e22da2f9b",
+      "bytes": 621
     },
     {
       "id": "5JmLLfkPdjZZ1IhxEOdrIg",
@@ -479,8 +518,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:04.966175+00:00",
-      "bytes": 544
+      "scrapedAt": "2026-10-04T23:33:18.827614+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:18.827614+00:00",
+      "contentHash": "fcfafba54fb7a3178795d66cb53879100ba96bee4f9bf0baad5e244c68f4a250",
+      "bytes": 611
     },
     {
       "id": "3o3A7Cthec3O5zG~3eQKFA",
@@ -500,8 +541,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:05.705774+00:00",
-      "bytes": 1184
+      "scrapedAt": "2026-10-04T23:33:18.845955+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:18.845955+00:00",
+      "contentHash": "3064a7b760ef2fc5aa0260b5222b9a5b8cd9a9fe03100974868b0855c2aaf6cd",
+      "bytes": 1239
     },
     {
       "id": "b7p9uuelOsGg~Qulufzy2Q",
@@ -521,8 +564,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:06.444186+00:00",
-      "bytes": 528
+      "scrapedAt": "2026-10-04T23:33:18.864291+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:18.864291+00:00",
+      "contentHash": "689897f81b6fed83987c8d06b3f4e632dc439c3da1add832b5e0008a571cd6be",
+      "bytes": 596
     },
     {
       "id": "R5XyI7dRmOqrTn~0hJvGRA",
@@ -542,8 +587,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:07.166965+00:00",
-      "bytes": 844
+      "scrapedAt": "2026-10-04T23:33:18.880275+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:18.880275+00:00",
+      "contentHash": "decfae5ef9fb782fd2c7720e0358a55b47bff1c89a9a8d92f990090d0e25d32f",
+      "bytes": 911
     },
     {
       "id": "O_v_hAoQQ7X_XbjD_HjCLw",
@@ -563,8 +610,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:07.914096+00:00",
-      "bytes": 813
+      "scrapedAt": "2026-10-04T23:33:18.898892+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:18.898892+00:00",
+      "contentHash": "da47282b5694a6bb9bd82765a15a7b1a470923cfa63b3102ef61924ecffa7654",
+      "bytes": 880
     },
     {
       "id": "ZvmabLzKGT4yZx5ngTdy7w",
@@ -584,8 +633,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:08.669390+00:00",
-      "bytes": 1046
+      "scrapedAt": "2026-10-04T23:33:18.919855+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:18.919855+00:00",
+      "contentHash": "1ee38c0a6d6f21ba7ea2ca8ca4c77241f254d4a88aaa3003ff58e0c19940f8cd",
+      "bytes": 1099
     },
     {
       "id": "CzfTZRGmNQASgyITof92tQ",
@@ -605,8 +656,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:09.406092+00:00",
-      "bytes": 1933
+      "scrapedAt": "2026-10-04T23:33:18.942083+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:18.942083+00:00",
+      "contentHash": "71524689ce2cdfc6c77a1dc43b416a5e69d6021c57d63855e69e55f6a8c53900",
+      "bytes": 1982
     },
     {
       "id": "b2JqybCgiQWZPVdXSahbKw",
@@ -625,8 +678,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:10.137917+00:00",
-      "bytes": 1594
+      "scrapedAt": "2026-10-04T23:33:18.961379+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:18.961379+00:00",
+      "contentHash": "45920805b298c00ac5b16b75b83b24668d6a52f4d68324f25c688c62d989d69a",
+      "bytes": 1653
     },
     {
       "id": "acSpQ3fRWt1tDOkUqDUv6w",
@@ -645,8 +700,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:10.866566+00:00",
-      "bytes": 715
+      "scrapedAt": "2026-10-04T23:33:18.981251+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:18.981251+00:00",
+      "contentHash": "c10462297c22322ef1f5bf1d6cb0c24ebd81057040717bf17725b264b0d0fef9",
+      "bytes": 776
     },
     {
       "id": "lMXX~jmHMa0E9mqVYuNuZQ",
@@ -665,8 +722,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:11.600611+00:00",
-      "bytes": 1689
+      "scrapedAt": "2026-10-04T23:33:19.000500+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.000500+00:00",
+      "contentHash": "ce368ece1e19b1cdc2b09e3c1cb56e6bcbf0faf3ba640fedc4adc2cfc1dff559",
+      "bytes": 1737
     },
     {
       "id": "pNnbt3cTcz_co1VrJvuFhQ",
@@ -685,8 +744,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:12.345145+00:00",
-      "bytes": 771
+      "scrapedAt": "2026-10-04T23:33:19.018548+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.018548+00:00",
+      "contentHash": "15bec7d0ba6c0a37dae2b2e1933b8bcfe10a3e1b6f53311c058f11b51fe43fa2",
+      "bytes": 828
     },
     {
       "id": "UiQ9jl05zrlcZSeSlF8qUg",
@@ -705,8 +766,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:13.091334+00:00",
-      "bytes": 1327
+      "scrapedAt": "2026-10-04T23:33:19.038663+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.038663+00:00",
+      "contentHash": "43c062357044d13f8b8a868a977a7b18b13bf989d3650094d83977f06a09f06f",
+      "bytes": 1388
     },
     {
       "id": "jolVqaNN_HWGFVSKudOyWA",
@@ -725,8 +788,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:13.819604+00:00",
-      "bytes": 1077
+      "scrapedAt": "2026-10-04T23:33:19.058962+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.058962+00:00",
+      "contentHash": "946780559e58f44a017b37a6893fc6b83917a368cbac4e780b892b78710fb630",
+      "bytes": 1137
     },
     {
       "id": "VPnpgaOAFpGjhyWqJO5gTA",
@@ -744,8 +809,10 @@
       "directChildren": 13,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:14.564584+00:00",
-      "bytes": 773
+      "scrapedAt": "2026-10-04T23:33:19.076741+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.076741+00:00",
+      "contentHash": "2d160805f22cab5ab609d2f9a46ab64930bcfbb8dbd1c5b3456d18cb52c6ad48",
+      "bytes": 839
     },
     {
       "id": "8ZJ~jlJdhtjz1BIp2H2Whw",
@@ -764,8 +831,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:15.300277+00:00",
-      "bytes": 902
+      "scrapedAt": "2026-10-04T23:33:19.094820+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.094820+00:00",
+      "contentHash": "998b9c248bd657af0b750e8bbb2d65a6003aee55ef859f8a3e75c64b1b8a5607",
+      "bytes": 955
     },
     {
       "id": "ffX6GHIQf6NoSbVFaU8KEw",
@@ -784,8 +853,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:16.037012+00:00",
-      "bytes": 1148
+      "scrapedAt": "2026-10-04T23:33:19.115594+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.115594+00:00",
+      "contentHash": "547be37d7f42319f6a850269e36ae47563a26e7a54aafa31a729e26c0758a979",
+      "bytes": 1199
     },
     {
       "id": "hkHgxPu18QjFfVCPREJQZA",
@@ -804,8 +875,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:16.774196+00:00",
-      "bytes": 3096
+      "scrapedAt": "2026-10-04T23:33:19.138388+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.138388+00:00",
+      "contentHash": "9034143bc23c721a2d485cb4921bb7912b8a36812289fab963c7442cfeba160e",
+      "bytes": 3118
     },
     {
       "id": "B1bJzejZZPtJweRVLCffuw",
@@ -824,8 +897,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:17.517860+00:00",
-      "bytes": 2631
+      "scrapedAt": "2026-10-04T23:33:19.161074+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.161074+00:00",
+      "contentHash": "82d834c582fd1ebf0c3195d3877e62a07a45e429788a054fc6bb56a6e3aec627",
+      "bytes": 2652
     },
     {
       "id": "aNf_GmLjmNbStItFTg4yWQ",
@@ -844,8 +919,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:18.241207+00:00",
-      "bytes": 1350
+      "scrapedAt": "2026-10-04T23:33:19.180823+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.180823+00:00",
+      "contentHash": "c8a52d23d2f7550924b229d10fa9be65786cc76378d140790937af5f686b9710",
+      "bytes": 1400
     },
     {
       "id": "~6BnNykEZ0mPkwbHJMd18g",
@@ -864,8 +941,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:18.987557+00:00",
-      "bytes": 2336
+      "scrapedAt": "2026-10-04T23:33:19.201925+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.201925+00:00",
+      "contentHash": "5888a1ea266077f5b4e415222a2c41dbb60433b0f689cfb9c8aae1a45926d0ae",
+      "bytes": 2360
     },
     {
       "id": "Oqs5Dfzb4buT~pTy6oClgQ",
@@ -884,8 +963,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:19.721905+00:00",
-      "bytes": 1087
+      "scrapedAt": "2026-10-04T23:33:19.221266+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.221266+00:00",
+      "contentHash": "c48b4b06dcc08507856e5d6f527deddba9a407784e8c46ab901f69b007638a28",
+      "bytes": 1147
     },
     {
       "id": "iANJRYWc1NZpKcS6ubZ6tA",
@@ -904,8 +985,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:20.469174+00:00",
-      "bytes": 1173
+      "scrapedAt": "2026-10-04T23:33:19.240682+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.240682+00:00",
+      "contentHash": "9c57c80377b7368018d340601cebbabef72d723bb1762c351e977441311632c2",
+      "bytes": 1229
     },
     {
       "id": "ZEbYbgeoSK2QRMNlhfLw2g",
@@ -924,8 +1007,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:21.222656+00:00",
-      "bytes": 1777
+      "scrapedAt": "2026-10-04T23:33:19.262507+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.262507+00:00",
+      "contentHash": "b264064ca2dc5ea97835940c4312cdc157be8920bdb73a659bcd7cd253d57c98",
+      "bytes": 1831
     },
     {
       "id": "MxYfQG3Q6K2WdyP7YW0TSQ",
@@ -944,8 +1029,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:21.966772+00:00",
-      "bytes": 1191
+      "scrapedAt": "2026-10-04T23:33:19.281703+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.281703+00:00",
+      "contentHash": "8fa9c683acebbf71f9ac235f024d4e43650ae6fb7284b7bebce6cee2fa90af77",
+      "bytes": 1245
     },
     {
       "id": "cRTX5LamgSL5Psah57EB4A",
@@ -964,8 +1051,10 @@
       "directChildren": 1,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:22.790190+00:00",
-      "bytes": 7507
+      "scrapedAt": "2026-10-04T23:33:19.312406+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.312406+00:00",
+      "contentHash": "633cf3b06cf13b1caa7a54e04a4edf3a4d76a18db96f18a11e219f8378ba70be",
+      "bytes": 7528
     },
     {
       "id": "UN1pCVybdfBRgvZ7nWWvWA",
@@ -985,8 +1074,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:23.522006+00:00",
-      "bytes": 7425
+      "scrapedAt": "2026-10-04T23:33:19.347349+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.347349+00:00",
+      "contentHash": "3aad564aff4e78d1d3d66ff976dfc2feb2f51e3be5a28e85cfa53840e7838ee4",
+      "bytes": 7369
     },
     {
       "id": "Svfa8TJxEC0KkKzHMC_pEQ",
@@ -1005,8 +1096,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:24.258580+00:00",
-      "bytes": 3280
+      "scrapedAt": "2026-10-04T23:33:19.383669+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.383669+00:00",
+      "contentHash": "e473d498de2869f4eb01507117bf4fa07c3792691b82e219c1ad90fa6a0daaa5",
+      "bytes": 3300
     },
     {
       "id": "N8d3uJEYS~VJ~Jttw7CFnw",
@@ -1025,8 +1118,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:24.996961+00:00",
-      "bytes": 1089
+      "scrapedAt": "2026-10-04T23:33:19.403340+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.403340+00:00",
+      "contentHash": "26f950c6a386eeeae768fe338a878703de47653105641e8ed1a182e27f818b06",
+      "bytes": 1140
     },
     {
       "id": "Kp87eaMDJ1HLKwwILkUzMw",
@@ -1044,8 +1139,10 @@
       "directChildren": 24,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:25.722844+00:00",
-      "bytes": 647
+      "scrapedAt": "2026-10-04T23:33:19.420456+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.420456+00:00",
+      "contentHash": "06417543043998ca3d35e44932bd463a9924bef31e87ddd386a303550a693ad6",
+      "bytes": 714
     },
     {
       "id": "f7lR2y~LC6FNURfBe6D_RQ",
@@ -1064,8 +1161,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:26.469595+00:00",
-      "bytes": 1020
+      "scrapedAt": "2026-10-04T23:33:19.439060+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.439060+00:00",
+      "contentHash": "0571482560fcaef1bae16968320f10713ee4007993a9ea8f69efc12e62b768d7",
+      "bytes": 1080
     },
     {
       "id": "TeKHB_FVtk8JLtDHXtmuKQ",
@@ -1084,8 +1183,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:27.196519+00:00",
-      "bytes": 1020
+      "scrapedAt": "2026-10-04T23:33:19.456461+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.456461+00:00",
+      "contentHash": "4e447fc39134dd4ffe3eb9f2cb76d33f7d8b687b97472f5e92c29e3ac241bce3",
+      "bytes": 1081
     },
     {
       "id": "E96obnvwDl_TPzcspbSUKA",
@@ -1104,8 +1205,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:27.948201+00:00",
-      "bytes": 3722
+      "scrapedAt": "2026-10-04T23:33:19.479766+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.479766+00:00",
+      "contentHash": "13990f509711a69e1a2a7b35de1a955cfabb110085401b7a7503cf46669a38c9",
+      "bytes": 3719
     },
     {
       "id": "_lzri9F7duPy5HVTYespHw",
@@ -1124,8 +1227,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:28.670535+00:00",
-      "bytes": 610
+      "scrapedAt": "2026-10-04T23:33:19.498276+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.498276+00:00",
+      "contentHash": "2bbe5e9b14cc9db5ec2d966fd4de0537aa95b932c439afe4fb0cc2ef3ac68d02",
+      "bytes": 677
     },
     {
       "id": "ZCv3Bfb7td9029~dp653mA",
@@ -1144,8 +1249,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:29.409294+00:00",
-      "bytes": 3000
+      "scrapedAt": "2026-10-04T23:33:19.527708+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.527708+00:00",
+      "contentHash": "291980879439160894500965bef7bd1db31592c235858f2869761493196c90a6",
+      "bytes": 3029
     },
     {
       "id": "zHUuoQm6zLdtiTLSX0xZHg",
@@ -1164,8 +1271,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:30.169967+00:00",
-      "bytes": 6619
+      "scrapedAt": "2026-10-04T23:33:19.559484+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.559484+00:00",
+      "contentHash": "9de1544e7ed518afe3515a4986ddeb197362981409d92799804f24c1ac47ab50",
+      "bytes": 6559
     },
     {
       "id": "Wm9ENZ2Id3cvlkmtdcuUaw",
@@ -1184,8 +1293,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:30.934502+00:00",
-      "bytes": 851
+      "scrapedAt": "2026-10-04T23:33:19.583230+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.583230+00:00",
+      "contentHash": "195799c60ee6e36ad6a81c9dcb31ab611cd27484ae813a195bb056c1a34dcb82",
+      "bytes": 900
     },
     {
       "id": "OwsBcZHsQwCqfxSmNTanqg",
@@ -1204,8 +1315,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:31.665885+00:00",
-      "bytes": 1127
+      "scrapedAt": "2026-10-04T23:33:19.602794+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.602794+00:00",
+      "contentHash": "4ca50c8c7ceeef15778e88265d53cdddf3359d2bb5b0661c9bfa45f0cca3b2ba",
+      "bytes": 1179
     },
     {
       "id": "Wt7RrdRrG2TCWCawuPvqWg",
@@ -1224,8 +1337,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:32.428116+00:00",
-      "bytes": 4665
+      "scrapedAt": "2026-10-04T23:33:19.629376+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.629376+00:00",
+      "contentHash": "14bd659a446c226ab8791164f5bc00310e628dd756d04da741a66644f2a71620",
+      "bytes": 4651
     },
     {
       "id": "OaYesGDupP_lcfdONt1RYw",
@@ -1244,8 +1359,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:33.175858+00:00",
-      "bytes": 2363
+      "scrapedAt": "2026-10-04T23:33:19.655213+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.655213+00:00",
+      "contentHash": "c242b1cb6705f70c337ff3d3e7dd58a43976268731fbd0bb3a0d702c6cfc0744",
+      "bytes": 2414
     },
     {
       "id": "WLr2BMQLucmGo5RWcY3oQw",
@@ -1264,8 +1381,10 @@
       "directChildren": 4,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:33.929854+00:00",
-      "bytes": 601
+      "scrapedAt": "2026-10-04T23:33:19.672769+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.672769+00:00",
+      "contentHash": "e79ea241f619c032ad95009b1ccc18c376a0f1ccf52a2af70ffda4fd36aad5f1",
+      "bytes": 670
     },
     {
       "id": "QpfLLQzKiQQTAJE5QEsIFw",
@@ -1285,8 +1404,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:34.669313+00:00",
-      "bytes": 1462
+      "scrapedAt": "2026-10-04T23:33:19.691212+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.691212+00:00",
+      "contentHash": "717cf9bc427f4cf234c5a47d41817ef77b6b0a893a30e8d71fa5275acb581acb",
+      "bytes": 1508
     },
     {
       "id": "gw22TvvZI2Sw5EEBpXzFQg",
@@ -1306,8 +1427,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:35.409407+00:00",
-      "bytes": 977
+      "scrapedAt": "2026-10-04T23:33:19.710175+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.710175+00:00",
+      "contentHash": "cba97efff4374546a03aa999c1fae6f7f05eab2b8f6c3556c31b36fa6a2fc870",
+      "bytes": 1027
     },
     {
       "id": "hg1IMYJ8StKlVHJHyl8Tsw",
@@ -1327,8 +1450,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:36.152932+00:00",
-      "bytes": 858
+      "scrapedAt": "2026-10-04T23:33:19.730270+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.730270+00:00",
+      "contentHash": "e6174bf197aa29e77274b1cd978823b094e0d5e33de635c6689484d2925b8307",
+      "bytes": 914
     },
     {
       "id": "eDGv~IQXoFTLF1r_P8ws7g",
@@ -1348,8 +1473,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:36.962738+00:00",
-      "bytes": 4501
+      "scrapedAt": "2026-10-04T23:33:19.759691+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.759691+00:00",
+      "contentHash": "1b6bc1d5b14abd50fef2227a78eb99caee8e7172a2c29633a3b641a760eb1bdb",
+      "bytes": 4481
     },
     {
       "id": "lzp1dyN_smcThhr2sknNLw",
@@ -1368,8 +1495,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:37.721876+00:00",
-      "bytes": 6239
+      "scrapedAt": "2026-10-04T23:33:19.789174+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.789174+00:00",
+      "contentHash": "0e41b67e8e78fb1dbbb7e806fee9b72eb38fb499c4cba7451a60c41cdb8e9ced",
+      "bytes": 6192
     },
     {
       "id": "jjxFDWLQC976B4nur4bgFg",
@@ -1388,8 +1517,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:38.445329+00:00",
-      "bytes": 2127
+      "scrapedAt": "2026-10-04T23:33:19.812974+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.812974+00:00",
+      "contentHash": "194e7f0a5bd7cd4dc238cb8ba2bfd1dea299c5fde66cb82e859e2b078e5691cb",
+      "bytes": 2171
     },
     {
       "id": "ntW__L7OoCFB_yq7_RThMg",
@@ -1408,8 +1539,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:39.248424+00:00",
-      "bytes": 8837
+      "scrapedAt": "2026-10-04T23:33:19.844258+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.844258+00:00",
+      "contentHash": "fd32573123fad6e71d71ec77db956f96ad98aca863e00cdff4fb32d74ac955fd",
+      "bytes": 8758
     },
     {
       "id": "VejYElKO~RbeK1p7FEBU7A",
@@ -1428,8 +1561,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:39.993081+00:00",
-      "bytes": 3108
+      "scrapedAt": "2026-10-04T23:33:19.869220+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.869220+00:00",
+      "contentHash": "f25e3da4c1ef6b82a4f1ac26777cdffaab065d90c5a8c00179086a2184f1b1b7",
+      "bytes": 3110
     },
     {
       "id": "l9KpH52rqj9Vz~c659xKQA",
@@ -1448,8 +1583,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:40.744260+00:00",
-      "bytes": 5336
+      "scrapedAt": "2026-10-04T23:33:19.895972+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.895972+00:00",
+      "contentHash": "6cdf4e2a36ec66c9463a9f105fdd0fbca35ad08aab1925e597217ee8fa4829b2",
+      "bytes": 5338
     },
     {
       "id": "fiejezghcCGSNUvG6~Qs7Q",
@@ -1468,8 +1605,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:41.476161+00:00",
-      "bytes": 2207
+      "scrapedAt": "2026-10-04T23:33:19.918692+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.918692+00:00",
+      "contentHash": "049fdce9e7d6c7b4a8eff4cbb54fae3fcdb95d5a7981bb552bf5780cdd98d8dd",
+      "bytes": 2256
     },
     {
       "id": "ggU42h036O42S1wNLnw8Vg",
@@ -1488,8 +1627,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:42.300272+00:00",
-      "bytes": 8922
+      "scrapedAt": "2026-10-04T23:33:19.949343+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.949343+00:00",
+      "contentHash": "81b565fbf8f47b1477a7154ef4278f8e453218504b70e9e2b8513d7f8ac8d4e0",
+      "bytes": 8815
     },
     {
       "id": "Brvnd6uFkt8IrslOsklqtw",
@@ -1508,8 +1649,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:43.143824+00:00",
-      "bytes": 7339
+      "scrapedAt": "2026-10-04T23:33:19.982734+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:19.982734+00:00",
+      "contentHash": "3c026b2567616ae77911087ec84517b2a26793ee6c9148b66ee7a7ce935ff3fc",
+      "bytes": 7250
     },
     {
       "id": "HjuODacBz8fcKYoXsN_AYQ",
@@ -1528,8 +1671,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:44.111306+00:00",
-      "bytes": 3059
+      "scrapedAt": "2026-10-04T23:33:20.013563+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.013563+00:00",
+      "contentHash": "5984729841d0824220cf8495c6e9f9e87dd797e80b8f48c0774eb240a289fce6",
+      "bytes": 3072
     },
     {
       "id": "O~UPsPaCFo6hzijzgvY~PQ",
@@ -1548,8 +1693,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:44.851361+00:00",
-      "bytes": 1767
+      "scrapedAt": "2026-10-04T23:33:20.036945+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.036945+00:00",
+      "contentHash": "91f1c092834be93ca09ea9a93fef3b9522986585701035fe36b9733669f2b5df",
+      "bytes": 1804
     },
     {
       "id": "_cd6HvlH9MTO71VBTR0HXw",
@@ -1568,8 +1715,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:45.598400+00:00",
-      "bytes": 8641
+      "scrapedAt": "2026-10-04T23:33:20.063938+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.063938+00:00",
+      "contentHash": "d04ad0ef913af6bcec8fc7e3f1d2b2935baf3d8a2fdcb32284f07349795c989b",
+      "bytes": 8589
     },
     {
       "id": "BHV4jLNjNe0RuqGrs0LZOQ",
@@ -1588,8 +1737,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:46.421888+00:00",
-      "bytes": 9668
+      "scrapedAt": "2026-10-04T23:33:20.092199+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.092199+00:00",
+      "contentHash": "427fd54e13d69504b30bb3b86646ac987052328cf202ca4760958cfc602c804f",
+      "bytes": 9612
     },
     {
       "id": "wY735bPdYOdiopmk~pa0~g",
@@ -1608,8 +1759,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:47.167535+00:00",
-      "bytes": 6229
+      "scrapedAt": "2026-10-04T23:33:20.117663+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.117663+00:00",
+      "contentHash": "fc09b9b1456cae76339f0259e6281765c6709591e6f20f80ac7b5b3c373087d9",
+      "bytes": 6192
     },
     {
       "id": "J7hHBARvgOFyNAAVKT5P5g",
@@ -1627,8 +1780,10 @@
       "directChildren": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:47.906168+00:00",
-      "bytes": 1010
+      "scrapedAt": "2026-10-04T23:33:20.138232+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.138232+00:00",
+      "contentHash": "4b624da5bd045b1140f28b9e7f57bb6e9eec7375bef4e44aec84ebd67475448f",
+      "bytes": 1063
     },
     {
       "id": "dS5GfwG0AOqFaHVuoSo7QA",
@@ -1647,8 +1802,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:48.634520+00:00",
-      "bytes": 856
+      "scrapedAt": "2026-10-04T23:33:20.158017+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.158017+00:00",
+      "contentHash": "ae6556c48eced422fab159e70a192b66ca32fcad3f0b1f880b72ec274307a7d4",
+      "bytes": 912
     },
     {
       "id": "QCxasHgk6nxXRhe7O3QfpQ",
@@ -1667,8 +1824,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:49.600415+00:00",
-      "bytes": 8393
+      "scrapedAt": "2026-10-04T23:33:20.230798+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.230798+00:00",
+      "contentHash": "4bd3e36b900a57748f8a75051387fb969beb24254bb0ff8d06f3ef41d0ddddbc",
+      "bytes": 8348
     },
     {
       "id": "oPP1AyiBL6qt5BIzfZOXDw",
@@ -1687,8 +1846,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:50.340603+00:00",
-      "bytes": 3015
+      "scrapedAt": "2026-10-04T23:33:20.252716+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.252716+00:00",
+      "contentHash": "081cdfb43a86ed6c870d84bf59c9ec7b4514b95a3b1c84cd7365f6ea1137eb31",
+      "bytes": 3037
     },
     {
       "id": "~fPLUd2O9PrXO_R~cF3k7Q",
@@ -1706,8 +1867,10 @@
       "directChildren": 26,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:51.092381+00:00",
-      "bytes": 831
+      "scrapedAt": "2026-10-04T23:33:20.271645+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.271645+00:00",
+      "contentHash": "e7dd945b119ef8a6049d3bea89809a14a7104e1175de971f4262220e068f0b30",
+      "bytes": 896
     },
     {
       "id": "sG59u9qP5GWWGFHTTkVw1A",
@@ -1726,8 +1889,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:51.927995+00:00",
-      "bytes": 24381
+      "scrapedAt": "2026-10-04T23:33:20.315307+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.315307+00:00",
+      "contentHash": "b52c56972dd63048300e03735f38d48233e3bae0f9bbc9a99101060cd4de9ff3",
+      "bytes": 23999
     },
     {
       "id": "y6N4zLCl3UxSpDT4JahPjA",
@@ -1746,8 +1911,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:52.659440+00:00",
-      "bytes": 3977
+      "scrapedAt": "2026-10-04T23:33:20.341058+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.341058+00:00",
+      "contentHash": "ff1ad3f8df96f68f2a5013d9df21cf0ac5b8c4e07a3eefebc0aa7839d9030061",
+      "bytes": 3995
     },
     {
       "id": "N9iihHi7b_oUEZiAQXLBNQ",
@@ -1766,8 +1933,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:53.405236+00:00",
-      "bytes": 4578
+      "scrapedAt": "2026-10-04T23:33:20.368605+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.368605+00:00",
+      "contentHash": "337611b5c439545f1f41b596b67aa9751d0910cf4731f0956bae1433df3833a1",
+      "bytes": 4572
     },
     {
       "id": "lFEsLzG6zPesdF3D3QTRnA",
@@ -1786,8 +1955,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:54.129975+00:00",
-      "bytes": 1408
+      "scrapedAt": "2026-10-04T23:33:20.389464+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.389464+00:00",
+      "contentHash": "898b6538a83f3f1650a37189e798c984ecb9dda81cae2e720c861e266832c927",
+      "bytes": 1464
     },
     {
       "id": "2HiHBxz4RmIoaoyetVBf1g",
@@ -1806,8 +1977,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:54.893016+00:00",
-      "bytes": 2194
+      "scrapedAt": "2026-10-04T23:33:20.408714+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.408714+00:00",
+      "contentHash": "4e3d04cab019f5c994478e6dbcedaf5a165422d9ace71b7507be005f4578a30d",
+      "bytes": 2228
     },
     {
       "id": "~qn79eHFZuImKjE7JD5I6Q",
@@ -1826,8 +1999,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:56.044668+00:00",
-      "bytes": 5199
+      "scrapedAt": "2026-10-04T23:33:20.434597+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.434597+00:00",
+      "contentHash": "ac3b75ddc6cdb9ffe6f7e0a2df9fa3c0c5bd5de9c9c510414dfe84841c5b86e2",
+      "bytes": 5169
     },
     {
       "id": "PAcnLeWfNyvzwS4U23adlQ",
@@ -1846,8 +2021,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:56.775634+00:00",
-      "bytes": 2343
+      "scrapedAt": "2026-10-04T23:33:20.457314+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.457314+00:00",
+      "contentHash": "0fa89d5c61828e163b9147b24c4f3f08e76e8c68926b6050388324a7ed3aa544",
+      "bytes": 2376
     },
     {
       "id": "ZAXidkE_o4XQuBzXK85iLw",
@@ -1866,8 +2043,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:57.512939+00:00",
-      "bytes": 1005
+      "scrapedAt": "2026-10-04T23:33:20.477564+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.477564+00:00",
+      "contentHash": "35ee8b0dd4db7c3d7d42f5b47de4dddcd0b27d73224c09f53c90a9cd044067df",
+      "bytes": 1059
     },
     {
       "id": "aDPsNbAnUmZSRzrHPnvrCw",
@@ -1886,8 +2065,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:58.273512+00:00",
-      "bytes": 1815
+      "scrapedAt": "2026-10-04T23:33:20.497878+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.497878+00:00",
+      "contentHash": "f39bddbcadaf5ec06f800a7adee81157b79d828740c9ef924d50f69994b2d7bd",
+      "bytes": 1858
     },
     {
       "id": "FFVX6MZXprQxxyTXmGNnog",
@@ -1906,8 +2087,10 @@
       "directChildren": 13,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:15:59.111507+00:00",
-      "bytes": 10288
+      "scrapedAt": "2026-10-04T23:33:20.530202+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.530202+00:00",
+      "contentHash": "23897dfa2182e349c9caa6d474e08184090060fc5f2819e6a60cfa058e5b3550",
+      "bytes": 10194
     },
     {
       "id": "vl6Fx0AumGrOWwJqZdliKg",
@@ -1927,8 +2110,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:00.021698+00:00",
-      "bytes": 18385
+      "scrapedAt": "2026-10-04T23:33:20.598049+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.598049+00:00",
+      "contentHash": "b7dd533398f2976f71cfc91a6a2b66d4a746a68fac5b811b8b4ded31be27608d",
+      "bytes": 17953
     },
     {
       "id": "37HCZZAhj7q57YdUYrw4Hg",
@@ -1948,8 +2133,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:00.755644+00:00",
-      "bytes": 2151
+      "scrapedAt": "2026-10-04T23:33:20.623940+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.623940+00:00",
+      "contentHash": "282d1ffa104a13a95c3dadfa7e2098666e148e35e4f38b4ae00bafc43c00616b",
+      "bytes": 2207
     },
     {
       "id": "sSya0Y~lxx3lD9hF5CCzeg",
@@ -1969,8 +2156,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:01.485402+00:00",
-      "bytes": 1474
+      "scrapedAt": "2026-10-04T23:33:20.647759+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.647759+00:00",
+      "contentHash": "f9b9efcf3e9fe26190b724b8e46e85bcd94b845533ab9636a34705f297df5bbc",
+      "bytes": 1518
     },
     {
       "id": "PRWfrzoPrw5kJTshA2sHKA",
@@ -1990,8 +2179,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:02.221289+00:00",
-      "bytes": 729
+      "scrapedAt": "2026-10-04T23:33:20.665980+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.665980+00:00",
+      "contentHash": "bedd25868cab717fbc45fde7c91ce144a188c1cedf6917629dae2740e55274fe",
+      "bytes": 793
     },
     {
       "id": "kwJnLsAGD7RTMO~LL5reCw",
@@ -2011,8 +2202,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:02.957896+00:00",
-      "bytes": 1889
+      "scrapedAt": "2026-10-04T23:33:20.685660+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.685660+00:00",
+      "contentHash": "14e8c6646ea854fe93ac1fa01df98aba48272cc47d52d26e13757ff58d30b289",
+      "bytes": 1952
     },
     {
       "id": "P5ipxntvustQn~7uY4zBMw",
@@ -2032,8 +2225,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:03.690081+00:00",
-      "bytes": 1971
+      "scrapedAt": "2026-10-04T23:33:20.705263+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.705263+00:00",
+      "contentHash": "38e62e72d8799c093fe9ec02511cb7239ac1e8b84190cd03ea8edf581571ece7",
+      "bytes": 2025
     },
     {
       "id": "jkYMBl52NfgJd~l~XRiCyg",
@@ -2053,8 +2248,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:04.422244+00:00",
-      "bytes": 661
+      "scrapedAt": "2026-10-04T23:33:20.722617+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.722617+00:00",
+      "contentHash": "325c3f300c718a9b64b3dc520042de5752322e2ba4b2ca5975b68669e8b9d925",
+      "bytes": 727
     },
     {
       "id": "rJTbXjb6lr80Q~rnE5WE~g",
@@ -2074,8 +2271,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:05.150482+00:00",
-      "bytes": 2055
+      "scrapedAt": "2026-10-04T23:33:20.745036+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.745036+00:00",
+      "contentHash": "57246e25fc41979950c24094d9d35204f90705fc712f12d7ecdd41268a2c34ae",
+      "bytes": 2093
     },
     {
       "id": "FN0L6V0Tc2WjqNwKGvWYnQ",
@@ -2095,8 +2294,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:05.891751+00:00",
-      "bytes": 5732
+      "scrapedAt": "2026-10-04T23:33:20.773773+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.773773+00:00",
+      "contentHash": "3dee3437aa905acd03a43a2a8500075c6f26c60e42c3f581323eb903fb63ba8c",
+      "bytes": 5724
     },
     {
       "id": "9ihq_kHmdnFkXoYQfJCjig",
@@ -2116,8 +2317,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:06.713541+00:00",
-      "bytes": 18220
+      "scrapedAt": "2026-10-04T23:33:20.810734+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.810734+00:00",
+      "contentHash": "48df5abeb93a59ed9d669c42d922119fe2dc5f7107220698043a9b37568a9097",
+      "bytes": 17985
     },
     {
       "id": "Vfb5hsAbbP3xESPEuRyfSg",
@@ -2137,8 +2340,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:07.537998+00:00",
-      "bytes": 4312
+      "scrapedAt": "2026-10-04T23:33:20.842756+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.842756+00:00",
+      "contentHash": "210c9abded298abf89ecbaa83b5440aa32f86b60314c16d28ca35c605051c0b0",
+      "bytes": 4352
     },
     {
       "id": "N9FVqyyt3Mj_5tcsEzZBIQ",
@@ -2158,8 +2363,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:08.351052+00:00",
-      "bytes": 9381
+      "scrapedAt": "2026-10-04T23:33:20.872833+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.872833+00:00",
+      "contentHash": "7fef31a057d1e18855062e7af21ccca112a2bcfae115167944598aad0966873e",
+      "bytes": 9292
     },
     {
       "id": "eq1fpx~9qhyJrVdEBgYhrQ",
@@ -2179,8 +2386,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:09.122534+00:00",
-      "bytes": 6413
+      "scrapedAt": "2026-10-04T23:33:20.900310+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.900310+00:00",
+      "contentHash": "6f498b9799b37e1fdcf8e972036f4a96eaea2c653ff7aae20aac1abbbd40033e",
+      "bytes": 6369
     },
     {
       "id": "sYngeGU3DjEpo_9Publ6WA",
@@ -2199,8 +2408,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:09.852833+00:00",
-      "bytes": 1443
+      "scrapedAt": "2026-10-04T23:33:20.921704+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.921704+00:00",
+      "contentHash": "1c6b45b0255a56b5c8c314812c01624eb4bdcd187c932e75fc36bc10a9a5dc6b",
+      "bytes": 1493
     },
     {
       "id": "fxTae3ZD911Ft0TbuARWjA",
@@ -2219,8 +2430,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:10.598251+00:00",
-      "bytes": 4121
+      "scrapedAt": "2026-10-04T23:33:20.946587+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.946587+00:00",
+      "contentHash": "1e4a93163cf9ca27e6955e0d429a005a2cb3857caff05dfd758f7255d6d1198f",
+      "bytes": 4117
     },
     {
       "id": "JZdjl0psLGpJ3_VvsWzgjQ",
@@ -2239,8 +2452,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:11.342832+00:00",
-      "bytes": 3689
+      "scrapedAt": "2026-10-04T23:33:20.972383+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.972383+00:00",
+      "contentHash": "c00355d9a038d93f8fdd680809fbc5f630d4c697e22ce28dca62e12a3dcb186e",
+      "bytes": 3706
     },
     {
       "id": "iXx2grr8bN_Q7eHJWnfoOw",
@@ -2259,8 +2474,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:12.077174+00:00",
-      "bytes": 754
+      "scrapedAt": "2026-10-04T23:33:20.993192+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:20.993192+00:00",
+      "contentHash": "014c1ebf23ac9aa4032b378ef8f99d1d14e078b3bdd46a8ab332619f678fefc5",
+      "bytes": 812
     },
     {
       "id": "2BnOwk7RH74n7GqB6OAXsg",
@@ -2279,8 +2496,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:12.810703+00:00",
-      "bytes": 2005
+      "scrapedAt": "2026-10-04T23:33:21.014510+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:21.014510+00:00",
+      "contentHash": "e7d3ca3537ea1c25863274c5e3f70b808b39311bc3246eca8c260d140a7bb450",
+      "bytes": 2033
     },
     {
       "id": "SO0xs1s4RKlDSpDuqIavzA",
@@ -2299,8 +2518,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:13.547946+00:00",
-      "bytes": 2557
+      "scrapedAt": "2026-10-04T23:33:21.035580+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:21.035580+00:00",
+      "contentHash": "03deca1cfa8135d088a2651a077d22f7a2d98e130692417b01926defe0648a5f",
+      "bytes": 2572
     },
     {
       "id": "1g3f2Q2_dy1r9QCq61UPOw",
@@ -2319,8 +2540,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:14.283204+00:00",
-      "bytes": 3303
+      "scrapedAt": "2026-10-04T23:33:21.058983+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:21.058983+00:00",
+      "contentHash": "a90fc09d39a9dd75d28f6f116980bb6a88bae18dec35f2e0919e87241e184df9",
+      "bytes": 3298
     },
     {
       "id": "R971ROvkjoMBwB7VV4s9ZQ",
@@ -2339,8 +2562,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:15.016775+00:00",
-      "bytes": 2550
+      "scrapedAt": "2026-10-04T23:33:21.080860+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:21.080860+00:00",
+      "contentHash": "ee04b2f78b3eb79f06758268a6a5d15a73260ee389d991c525aa169df821639d",
+      "bytes": 2565
     },
     {
       "id": "4y8oUw1fquHS1i5vPJgtrQ",
@@ -2359,8 +2584,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:15.840654+00:00",
-      "bytes": 7361
+      "scrapedAt": "2026-10-04T23:33:21.111193+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:21.111193+00:00",
+      "contentHash": "efcbbb0ffabb924e7e95077d80133778b75401431a52c1ec8c2fae7779b608a8",
+      "bytes": 7320
     },
     {
       "id": "pUT~k8zzGalYCNLlPJ7EqQ",
@@ -2379,8 +2606,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:16.583174+00:00",
-      "bytes": 3026
+      "scrapedAt": "2026-10-04T23:33:21.135154+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:21.135154+00:00",
+      "contentHash": "9e67593084926d38387798907ea4a5b261942f08f1a4b82131495db3b43f1254",
+      "bytes": 3057
     },
     {
       "id": "ZvBEQiFMwU7FXujOuBpCOA",
@@ -2399,8 +2628,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:17.310037+00:00",
-      "bytes": 913
+      "scrapedAt": "2026-10-04T23:33:21.154463+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:21.154463+00:00",
+      "contentHash": "29924f9444544420247a83cc7b3c15fe49f094543088be200f1e2a7463fe2386",
+      "bytes": 972
     },
     {
       "id": "2FxVx9OjRs90hVHFwEyXMQ",
@@ -2419,8 +2650,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:18.126607+00:00",
-      "bytes": 7994
+      "scrapedAt": "2026-10-04T23:33:21.182934+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:21.182934+00:00",
+      "contentHash": "6f95a891d1934b84e41c36d4b8cce944249e3fb2f523f46fa6bacae04ff822c6",
+      "bytes": 7962
     },
     {
       "id": "iSawpIeOPruXgUlWEdyLBw",
@@ -2439,8 +2672,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:18.856826+00:00",
-      "bytes": 2014
+      "scrapedAt": "2026-10-04T23:33:21.205848+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:21.205848+00:00",
+      "contentHash": "84c3a698151bf570562c1d932e0a9a7111467f95a9617371fb8523a9f80fbfe3",
+      "bytes": 2050
     },
     {
       "id": "P~LPjKIGQSPULIJMd9Vc6Q",
@@ -2459,8 +2694,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:19.603480+00:00",
-      "bytes": 2689
+      "scrapedAt": "2026-10-04T23:33:21.227108+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:21.227108+00:00",
+      "contentHash": "8cc81039636d2790e22a2572eb9cb958c4d7c605bd54bb123a44c79ebf1262d4",
+      "bytes": 2711
     },
     {
       "id": "3emuW6Y4VZ1oMSivqrHovg",
@@ -2479,8 +2716,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:20.347281+00:00",
-      "bytes": 5833
+      "scrapedAt": "2026-10-04T23:33:21.253472+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:21.253472+00:00",
+      "contentHash": "50a2504ba35385bfb1cafa21115a954275a9d8102b84017e92c82df137defd8c",
+      "bytes": 5771
     },
     {
       "id": "G0DbkryFL0ffKg1zsm2nHw",
@@ -2499,8 +2738,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:21.082194+00:00",
-      "bytes": 4142
+      "scrapedAt": "2026-10-04T23:33:21.275687+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:21.275687+00:00",
+      "contentHash": "528e0821b441113ca245ba862fd8ad6f45d345129c7b2df87e95bd47c6a7b243",
+      "bytes": 4125
     },
     {
       "id": "VZmLk7R7~rvIdnrSBkiebg",
@@ -2518,8 +2759,10 @@
       "directChildren": 5,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:21.833014+00:00",
-      "bytes": 535
+      "scrapedAt": "2026-10-04T23:33:21.293680+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:21.293680+00:00",
+      "contentHash": "2a8259b5e87d571c4e6090c628af4382fafb1b17141350f497af8d696c3da937",
+      "bytes": 600
     },
     {
       "id": "WmQUp0p68yDatuazrOKJ4w",
@@ -2538,8 +2781,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:22.901197+00:00",
-      "bytes": 33250
+      "scrapedAt": "2026-10-04T23:33:21.398450+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:21.398450+00:00",
+      "contentHash": "4130ed3b3972f96a63d3bb6d3ba35cb94f65b0d93e3431316b8b07bd2bd55dff",
+      "bytes": 32958
     },
     {
       "id": "38Q0dWTPi0JQrIOeXc7ldQ",
@@ -2558,8 +2803,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:24.052018+00:00",
-      "bytes": 53641
+      "scrapedAt": "2026-10-04T23:33:21.527330+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:21.527330+00:00",
+      "contentHash": "55dfad26c4598d7de5165b730bbc448c53879b325c17b30ce7b02c0b18817ac3",
+      "bytes": 53227
     },
     {
       "id": "k21nofi~Q7xuwiAhU0eEjw",
@@ -2578,8 +2825,10 @@
       "directChildren": 20,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:24.780299+00:00",
-      "bytes": 545
+      "scrapedAt": "2026-10-04T23:33:21.544859+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:21.544859+00:00",
+      "contentHash": "1d16840d6d026257751365a4c43cece0858b0f2866371ee1adca5e1324aeedac",
+      "bytes": 614
     },
     {
       "id": "c6fsfEGVdvjgLk09ZRAgpQ",
@@ -2599,8 +2848,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:25.514725+00:00",
-      "bytes": 2326
+      "scrapedAt": "2026-10-04T23:33:21.570682+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:21.570682+00:00",
+      "contentHash": "9a6dc93dabf2e6d4bcda3aeb09a308744cb98b73922c51364d3eba5467af16c9",
+      "bytes": 2342
     },
     {
       "id": "RwliZJf3R0RX~49dctaC1w",
@@ -2620,8 +2871,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:26.363721+00:00",
-      "bytes": 3966
+      "scrapedAt": "2026-10-04T23:33:21.605928+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:21.605928+00:00",
+      "contentHash": "c5e3ddd4b8602b60e3666603b687d0c943be4b401aef4922df240e2d86e5cbc8",
+      "bytes": 3887
     },
     {
       "id": "Op6_lh1qyts6uIg34mzYeg",
@@ -2641,8 +2894,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:27.129060+00:00",
-      "bytes": 576
+      "scrapedAt": "2026-10-04T23:33:21.627375+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:21.627375+00:00",
+      "contentHash": "f66e67bc8c0d38bfb7d674667c6cedfaa94c3ab88a21e8330210edb5441f9ae7",
+      "bytes": 629
     },
     {
       "id": "~gh72qGXK_kWkUNo6w~gGQ",
@@ -2662,8 +2917,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:27.884169+00:00",
-      "bytes": 993
+      "scrapedAt": "2026-10-04T23:33:21.647352+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:21.647352+00:00",
+      "contentHash": "1952829143b7f85abce8a5011f449c39eae7f8ebeca909855aa07ff7eb1b5743",
+      "bytes": 1044
     },
     {
       "id": "yOi2LqR7ggkfaRnWP8P8vw",
@@ -2683,8 +2940,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:28.625405+00:00",
-      "bytes": 1517
+      "scrapedAt": "2026-10-04T23:33:21.671147+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:21.671147+00:00",
+      "contentHash": "0044fb572760f08e56ab65342979f507f084a14b8778421cbfe823f5cddf7822",
+      "bytes": 1548
     },
     {
       "id": "97mpPDZnscaAXHc3OwWyaA",
@@ -2704,8 +2963,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:29.384844+00:00",
-      "bytes": 641
+      "scrapedAt": "2026-10-04T23:33:21.691402+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:21.691402+00:00",
+      "contentHash": "ace560a10797c1a034224a85fab67389481c2387f21738ff572f3e0b63018ac1",
+      "bytes": 694
     },
     {
       "id": "L~TiKC4qX_r~kGCabHRS7Q",
@@ -2725,8 +2986,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:30.212484+00:00",
-      "bytes": 5656
+      "scrapedAt": "2026-10-04T23:33:21.719725+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:21.719725+00:00",
+      "contentHash": "06b82bc9d601aad7d6e69eb813751995cc283f790ab36756226db7cd79b79802",
+      "bytes": 5622
     },
     {
       "id": "RSz4mVge0PjEygxM2F_LPA",
@@ -2746,8 +3009,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:31.035200+00:00",
-      "bytes": 5499
+      "scrapedAt": "2026-10-04T23:33:21.759646+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:21.759646+00:00",
+      "contentHash": "2a9d1c4f2a7c49a1f640c807eb3596d06b98c6832169ab7b4b50241bf83c66af",
+      "bytes": 5380
     },
     {
       "id": "tr0C8exRGd4GTR0fEThIrA",
@@ -2767,8 +3032,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:31.773350+00:00",
-      "bytes": 611
+      "scrapedAt": "2026-10-04T23:33:21.779611+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:21.779611+00:00",
+      "contentHash": "27ca80bbf55339882e833b75038be027538741581a92e2ea7213400a018ea7ce",
+      "bytes": 664
     },
     {
       "id": "dc8EzBW_MMsBsg4uwPtY~g",
@@ -2788,8 +3055,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:32.526043+00:00",
-      "bytes": 1923
+      "scrapedAt": "2026-10-04T23:33:21.805080+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:21.805080+00:00",
+      "contentHash": "40ff62abb0f6d162a62e02d5b6f6bad4626f3c1148b009035eb31a62df99a436",
+      "bytes": 1934
     },
     {
       "id": "YcHr7WGc2XchtmTqWM4pGg",
@@ -2809,8 +3078,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:33.275101+00:00",
-      "bytes": 1194
+      "scrapedAt": "2026-10-04T23:33:21.832015+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:21.832015+00:00",
+      "contentHash": "963adf624de947be6e2013895f6cf3c66d7910ee42b90e69f46d3ac0402bb9aa",
+      "bytes": 1227
     },
     {
       "id": "rMnDdqIWu1CvY0kGL79f6A",
@@ -2830,8 +3101,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:34.003145+00:00",
-      "bytes": 1920
+      "scrapedAt": "2026-10-04T23:33:21.852473+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:21.852473+00:00",
+      "contentHash": "dbfc2e202f38f279792d1eeeb3ff17bed8a454f06de0dcf4e8b2ae3ce888dbfd",
+      "bytes": 1965
     },
     {
       "id": "jWGQz8cGDt4cZBMEUw_n5A",
@@ -2851,8 +3124,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:34.915130+00:00",
-      "bytes": 13108
+      "scrapedAt": "2026-10-04T23:33:21.921934+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:21.921934+00:00",
+      "contentHash": "c27287fb22399b28ba7fc5a2a8399ba14250fda0c84079d727f831c05471fde0",
+      "bytes": 12791
     },
     {
       "id": "EEtqCIB8vvhF~1uaB7ps3w",
@@ -2872,8 +3147,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:35.846682+00:00",
-      "bytes": 17927
+      "scrapedAt": "2026-10-04T23:33:22.013256+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.013256+00:00",
+      "contentHash": "daebf1cf5f6a04366bca0a78fdc949ae97f5efee66e2f861b844bd4233d738e1",
+      "bytes": 17421
     },
     {
       "id": "iYrHZkQnQ4fHG7oAAuPVjw",
@@ -2893,8 +3170,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:36.575440+00:00",
-      "bytes": 1700
+      "scrapedAt": "2026-10-04T23:33:22.037416+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.037416+00:00",
+      "contentHash": "5ec29a8fd3256ba47a63af5ed07b6e48bf1fac7ab64a6ed9e1c7c90244e9b72f",
+      "bytes": 1716
     },
     {
       "id": "u9exgvIZYDuPrkasn8m1ew",
@@ -2914,8 +3193,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:37.395805+00:00",
-      "bytes": 2798
+      "scrapedAt": "2026-10-04T23:33:22.069834+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.069834+00:00",
+      "contentHash": "37a2b079d3cd504e091b5e5ec30616b470605bdd292a6ab8b08ed99b758f405a",
+      "bytes": 2737
     },
     {
       "id": "T9mAvvzMixwImplZOU9DIA",
@@ -2935,8 +3216,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:38.152391+00:00",
-      "bytes": 2610
+      "scrapedAt": "2026-10-04T23:33:22.098954+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.098954+00:00",
+      "contentHash": "c452ca6ed65b245032a62dbdd9ace600aace5560a66c52baa00d64f5ef60349b",
+      "bytes": 2585
     },
     {
       "id": "wX395_xKiZ2LNarbii31GA",
@@ -2956,8 +3239,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:38.890950+00:00",
-      "bytes": 1205
+      "scrapedAt": "2026-10-04T23:33:22.120720+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.120720+00:00",
+      "contentHash": "4b63f4cd56c7b28d513c04db15bfd69a47aac76e2140d5f58fdb99268590a813",
+      "bytes": 1256
     },
     {
       "id": "0bjjNXEpL~vZVk5qANUj6w",
@@ -2977,8 +3262,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:39.717165+00:00",
-      "bytes": 2407
+      "scrapedAt": "2026-10-04T23:33:22.150340+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.150340+00:00",
+      "contentHash": "bcac04a9c55ab5c17b35a975387e0883cdc9d9f79acc2193126f74a91b553d44",
+      "bytes": 2370
     },
     {
       "id": "sjIE1jjGD~QxFTu4oeg64g",
@@ -2998,8 +3285,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:40.552279+00:00",
-      "bytes": 7595
+      "scrapedAt": "2026-10-04T23:33:22.195862+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.195862+00:00",
+      "contentHash": "1c8106fb1fe5b889afd7fd0bbf511417681178d50e18f53bce11bb2d9025f800",
+      "bytes": 7429
     },
     {
       "id": "aepAc6l29rYr_RJndNrAWA",
@@ -3018,8 +3307,10 @@
       "directChildren": 27,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:41.295289+00:00",
-      "bytes": 830
+      "scrapedAt": "2026-10-04T23:33:22.213939+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.213939+00:00",
+      "contentHash": "bc20c3ed573ff1a5071796bfae6f637ff54604111c3f3ce29ab424defed47ec1",
+      "bytes": 893
     },
     {
       "id": "yoRNnJ27auYQaQAcDUERFg",
@@ -3039,8 +3330,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:42.142619+00:00",
-      "bytes": 3741
+      "scrapedAt": "2026-10-04T23:33:22.244116+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.244116+00:00",
+      "contentHash": "108d973544e404c923aea1356d6bebb754cbc2839696aaa3ffe44be172a4ab40",
+      "bytes": 3699
     },
     {
       "id": "YYfILBt_E6wtfAkKLs0qWQ",
@@ -3060,8 +3353,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:42.917215+00:00",
-      "bytes": 2314
+      "scrapedAt": "2026-10-04T23:33:22.272327+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.272327+00:00",
+      "contentHash": "0ac878ebf26d5fed04f8ff7edc5e94bb9809e2cc01723bc6402eb4a4451a36d3",
+      "bytes": 2292
     },
     {
       "id": "4RDfKTkcTfGhD9CMy43o1w",
@@ -3081,8 +3376,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:43.732410+00:00",
-      "bytes": 3964
+      "scrapedAt": "2026-10-04T23:33:22.306919+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.306919+00:00",
+      "contentHash": "e1e0635101b1711b7b56258c77f2ae843111f92e3cf4bf2caa4914bae69eb5ba",
+      "bytes": 3897
     },
     {
       "id": "UbFqaa8HueaGXVFRliPoXw",
@@ -3102,8 +3399,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:44.491363+00:00",
-      "bytes": 2527
+      "scrapedAt": "2026-10-04T23:33:22.337678+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.337678+00:00",
+      "contentHash": "063f325ea85e8ca629859c3ea7a116180419ceb077f1e4162da296e558b7cff7",
+      "bytes": 2504
     },
     {
       "id": "SWa7J9KIldfTZKwSBVAdiQ",
@@ -3123,8 +3422,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:45.225173+00:00",
-      "bytes": 1193
+      "scrapedAt": "2026-10-04T23:33:22.360953+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.360953+00:00",
+      "contentHash": "3878d8520690a0827830412e0cceecebc176d70499337b53e4af1986d1ac79ed",
+      "bytes": 1210
     },
     {
       "id": "ntC~hkgjZl9P9xT9PyEwXA",
@@ -3144,8 +3445,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:45.981135+00:00",
-      "bytes": 833
+      "scrapedAt": "2026-10-04T23:33:22.382484+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.382484+00:00",
+      "contentHash": "08cead62901e7213865733a5bbd090d562010313ae99ff725ac353e7f21fd10a",
+      "bytes": 868
     },
     {
       "id": "7E2ClUlZjYHIHNtemJrUBA",
@@ -3165,8 +3468,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:46.722619+00:00",
-      "bytes": 1391
+      "scrapedAt": "2026-10-04T23:33:22.405833+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.405833+00:00",
+      "contentHash": "a5d4a98ceb7c81d3dd0b8ca475a791dac950d9cafd8b27e11a3c8d422de7026b",
+      "bytes": 1405
     },
     {
       "id": "Y2HPtopKAGoG81QIe4rHtA",
@@ -3186,8 +3491,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:47.561500+00:00",
-      "bytes": 6827
+      "scrapedAt": "2026-10-04T23:33:22.443582+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.443582+00:00",
+      "contentHash": "891fe64d99c9fd377e691fee1e7a45a5aca3f8ac551290bd79b62cbbfcb3e715",
+      "bytes": 6723
     },
     {
       "id": "jF8V2O_3Zo89HpCQJFNZ4Q",
@@ -3207,8 +3514,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:48.383966+00:00",
-      "bytes": 2644
+      "scrapedAt": "2026-10-04T23:33:22.472188+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.472188+00:00",
+      "contentHash": "04c4af3b77f82209f88d12cf4378d2706b6d63c04c5377613dfa4ac503e6dc08",
+      "bytes": 2620
     },
     {
       "id": "Zh66buQNZAzFcMrxTAP4mg",
@@ -3228,8 +3537,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:49.216898+00:00",
-      "bytes": 7526
+      "scrapedAt": "2026-10-04T23:33:22.513715+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.513715+00:00",
+      "contentHash": "55831ec4c0c23b54ae78fd4a85aa0294cbe014b600a3673ea2d523c7c0a846f5",
+      "bytes": 7396
     },
     {
       "id": "p1Jm_oWgxqtKnmYlUS4Ofw",
@@ -3249,8 +3560,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:49.971601+00:00",
-      "bytes": 550
+      "scrapedAt": "2026-10-04T23:33:22.533028+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.533028+00:00",
+      "contentHash": "bfe97a7853beeb5302bea92932efaf8e95dbe786384fb3ef4bf49e16803efa3e",
+      "bytes": 603
     },
     {
       "id": "HhT_OFJMpf84PQ~jZKbgRQ",
@@ -3270,8 +3583,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:50.727637+00:00",
-      "bytes": 2504
+      "scrapedAt": "2026-10-04T23:33:22.560382+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.560382+00:00",
+      "contentHash": "112b2590b08ba98cddd4925ae1b23c1bb67e563420faf4baf758f35a80884c6f",
+      "bytes": 2498
     },
     {
       "id": "dhW7fWxJwgRvSjQSnb2XJw",
@@ -3291,8 +3606,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:51.563144+00:00",
-      "bytes": 5413
+      "scrapedAt": "2026-10-04T23:33:22.593970+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.593970+00:00",
+      "contentHash": "c5f7c1f0a02fdf9d72676d687f969d5f9fd89e8934c2b69cebc350533837babd",
+      "bytes": 5344
     },
     {
       "id": "YoplzFVIzX4JCqsO2SuiKw",
@@ -3312,8 +3629,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:52.387188+00:00",
-      "bytes": 3582
+      "scrapedAt": "2026-10-04T23:33:22.624933+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.624933+00:00",
+      "contentHash": "414d322281aa01e6d38e7f9392101cb8c667f80e0e0ac20bbf79a50763b3937e",
+      "bytes": 3537
     },
     {
       "id": "ELNbmNjUPKoS~EwcY6KXsQ",
@@ -3333,8 +3652,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:53.196292+00:00",
-      "bytes": 4479
+      "scrapedAt": "2026-10-04T23:33:22.659977+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.659977+00:00",
+      "contentHash": "a4e4ef4478874f0e6a72d733e441bab1fcf59a675492a83c701689039bc84d93",
+      "bytes": 4398
     },
     {
       "id": "MA5Zkwyg_KEDvNndcEerfg",
@@ -3354,8 +3675,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:53.946539+00:00",
-      "bytes": 544
+      "scrapedAt": "2026-10-04T23:33:22.681974+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.681974+00:00",
+      "contentHash": "2ed962e747219c5cc3889dd8dc3f1120647fc11f64cf1d1fce8e3c92b2210b29",
+      "bytes": 597
     },
     {
       "id": "XxnX6FwWuiC_l1ruvHFRdg",
@@ -3375,8 +3698,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:54.665990+00:00",
-      "bytes": 704
+      "scrapedAt": "2026-10-04T23:33:22.701768+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.701768+00:00",
+      "contentHash": "d679cac3669d39fadf82969d04bac8238c35588504bdf787dc14e6b4b03c8812",
+      "bytes": 757
     },
     {
       "id": "~dyJIIWEhJPWVHOXTrhSdg",
@@ -3396,8 +3721,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:55.436337+00:00",
-      "bytes": 992
+      "scrapedAt": "2026-10-04T23:33:22.724905+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.724905+00:00",
+      "contentHash": "384458f388af4c34d02d388acfd6ee4c04171c1a63c096524cfc18ec28649631",
+      "bytes": 1026
     },
     {
       "id": "_lSpJ2uWh9s~VOF_9B_05w",
@@ -3417,8 +3744,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:56.253747+00:00",
-      "bytes": 3255
+      "scrapedAt": "2026-10-04T23:33:22.755212+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.755212+00:00",
+      "contentHash": "ec371cd67d0c5adbd45af4a6bb231e17141eff376548e501eaf08535e6ba70b8",
+      "bytes": 3195
     },
     {
       "id": "q_87Gx6MubZjvvu6ITuVJw",
@@ -3438,8 +3767,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:57.040639+00:00",
-      "bytes": 2245
+      "scrapedAt": "2026-10-04T23:33:22.780013+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.780013+00:00",
+      "contentHash": "c06ad21e4bd59c00b027acce25fd061ec98807d585b769679056d7b47c40bbab",
+      "bytes": 2258
     },
     {
       "id": "C4PUgMcOjuXgAV4NM5Ez_g",
@@ -3459,8 +3790,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:57.776835+00:00",
-      "bytes": 1274
+      "scrapedAt": "2026-10-04T23:33:22.799322+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.799322+00:00",
+      "contentHash": "4226801268cc292d114c257007b9930f87a3924738f3dd4b47bbffb82ede551b",
+      "bytes": 1325
     },
     {
       "id": "zd3vbNc80NHoWV4rMoXNNw",
@@ -3480,8 +3813,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:58.525509+00:00",
-      "bytes": 555
+      "scrapedAt": "2026-10-04T23:33:22.821037+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.821037+00:00",
+      "contentHash": "64cc0908064cdb9d0cd77eb60c33fdb15b728e975c5158da652a08284eafa174",
+      "bytes": 608
     },
     {
       "id": "_O44pMYjxWkpA75OhryIdQ",
@@ -3501,8 +3836,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:16:59.270515+00:00",
-      "bytes": 727
+      "scrapedAt": "2026-10-04T23:33:22.840429+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.840429+00:00",
+      "contentHash": "e4cacc27e5439bb1e8491470e9e139edde20e766e8b42f4128bac660f8ec25c7",
+      "bytes": 779
     },
     {
       "id": "Q~q~Bkb5RkJL0WmxjzymlQ",
@@ -3522,8 +3859,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:00.020715+00:00",
-      "bytes": 1215
+      "scrapedAt": "2026-10-04T23:33:22.863460+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.863460+00:00",
+      "contentHash": "90a911cb4e59a31b69ae786a6cb187f57bd1d34d7e5bd84f0c3b7eab0901893d",
+      "bytes": 1246
     },
     {
       "id": "ltII6zDxju7bur9jXOfW_A",
@@ -3543,8 +3882,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:00.756708+00:00",
-      "bytes": 545
+      "scrapedAt": "2026-10-04T23:33:22.883292+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.883292+00:00",
+      "contentHash": "fad667fb9d3e1412cfc46677954a64107393a08a47271000589d782ea25f2384",
+      "bytes": 598
     },
     {
       "id": "8QP2~HiDrsUIKoodwOS5cw",
@@ -3564,8 +3905,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:01.581328+00:00",
-      "bytes": 3827
+      "scrapedAt": "2026-10-04T23:33:22.912671+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.912671+00:00",
+      "contentHash": "96df5192abde91707be6fdc34169ca7c700b2a60dded9182cb2a37db45b03c28",
+      "bytes": 3794
     },
     {
       "id": "4O_OpUaqTEtK9ciJwT7Gng",
@@ -3585,8 +3928,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:02.315955+00:00",
-      "bytes": 2808
+      "scrapedAt": "2026-10-04T23:33:22.940933+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.940933+00:00",
+      "contentHash": "e064924c75bbf9b384f9bf28d2bf4b86e86db23978d605957201307168320f58",
+      "bytes": 2800
     },
     {
       "id": "bGEf0T0mivmwBXYI3fcytw",
@@ -3605,8 +3950,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:03.063680+00:00",
-      "bytes": 3779
+      "scrapedAt": "2026-10-04T23:33:22.965006+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.965006+00:00",
+      "contentHash": "030dfcf9b6872ca2eaf8763c7b8149438dba753c100894ecb6bc45fbd46dfa23",
+      "bytes": 3829
     },
     {
       "id": "rClJVcucnm2Y9KFmxVkTcg",
@@ -3624,8 +3971,10 @@
       "directChildren": 1,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:03.815544+00:00",
-      "bytes": 1932
+      "scrapedAt": "2026-10-04T23:33:22.985885+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:22.985885+00:00",
+      "contentHash": "38e1a71094824871a5119d354279c7ec97736421272078a5f3a3ef1225b006c0",
+      "bytes": 1975
     },
     {
       "id": "xNMRY8q_3dMKg1lTzELM8A",
@@ -3644,8 +3993,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:04.562865+00:00",
-      "bytes": 2571
+      "scrapedAt": "2026-10-04T23:33:23.006285+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.006285+00:00",
+      "contentHash": "e02314f4872e3000ed1fad364a884240a0e7659e61b93f5e0c219afd9d51e9b9",
+      "bytes": 2608
     },
     {
       "id": "uDAQQ~kxGEQNDouzHmtJVg",
@@ -3663,8 +4014,10 @@
       "directChildren": 7,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:05.315084+00:00",
-      "bytes": 318
+      "scrapedAt": "2026-10-04T23:33:23.020251+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.020251+00:00",
+      "contentHash": "e3aaf9aa016d3cbd259c831bb1825403fbb062484f3aeb9d5377a343b16ebeb4",
+      "bytes": 387
     },
     {
       "id": "4eXDN7~NcehC67tunWUNng",
@@ -3683,8 +4036,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:06.045931+00:00",
-      "bytes": 1464
+      "scrapedAt": "2026-10-04T23:33:23.039540+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.039540+00:00",
+      "contentHash": "e36df0d074f6b1ab07336a9b2129a79630b7915a0fd1ceeb7b6e9791af9d0dbb",
+      "bytes": 1518
     },
     {
       "id": "2QP7cY8GzEOaz3SMPJYFXw",
@@ -3703,8 +4058,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:06.787024+00:00",
-      "bytes": 4378
+      "scrapedAt": "2026-10-04T23:33:23.064252+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.064252+00:00",
+      "contentHash": "f602f03930adcc7738848d2a655e5c4e5865b27e45cc6a8891e5aea44f31f959",
+      "bytes": 4426
     },
     {
       "id": "WxG7GVQAYGUyewpKhZHoNQ",
@@ -3723,8 +4080,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:07.521653+00:00",
-      "bytes": 2052
+      "scrapedAt": "2026-10-04T23:33:23.086105+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.086105+00:00",
+      "contentHash": "1cb10fc24756d8121b85b093690761bf467a349839eb0a319199f2428e71a7d1",
+      "bytes": 2090
     },
     {
       "id": "sj1yFly8UOQj9Uz5noKO_g",
@@ -3743,8 +4102,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:08.287806+00:00",
-      "bytes": 3100
+      "scrapedAt": "2026-10-04T23:33:23.109419+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.109419+00:00",
+      "contentHash": "f26839adda2864a5934cdc832211a4d51d41781e3e97fe7dfba352ec95272680",
+      "bytes": 3147
     },
     {
       "id": "44OYJ~euKr2oXNzmrC~XcA",
@@ -3763,8 +4124,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:09.118880+00:00",
-      "bytes": 13665
+      "scrapedAt": "2026-10-04T23:33:23.148662+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.148662+00:00",
+      "contentHash": "fa6c0d0bc29c8ea1014577fac18d4ad9522756eae996e756a7155adcd652b8ec",
+      "bytes": 13411
     },
     {
       "id": "H0kDTMSyogGSN4xhJCv~Ag",
@@ -3783,8 +4146,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:09.847513+00:00",
-      "bytes": 1057
+      "scrapedAt": "2026-10-04T23:33:23.169575+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.169575+00:00",
+      "contentHash": "255e09dbd83d358f068cf8f7e82fa157ac082611c5ca8174b96cbace102fb20e",
+      "bytes": 1116
     },
     {
       "id": "gpiRbhU_jARlNy28RAW8nw",
@@ -3803,8 +4168,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:10.588466+00:00",
-      "bytes": 1001
+      "scrapedAt": "2026-10-04T23:33:23.186818+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.186818+00:00",
+      "contentHash": "448c08d25a2d53539bc453d8055e31456eaa381ce6e46421051e942aa8c12705",
+      "bytes": 1064
     },
     {
       "id": "HtXDKubHAXbATMYP_jM3qw",
@@ -3822,8 +4189,10 @@
       "directChildren": 5,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:11.320368+00:00",
-      "bytes": 1047
+      "scrapedAt": "2026-10-04T23:33:23.205773+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.205773+00:00",
+      "contentHash": "5098931a800937281acc53f436539a28756a709e9722a46af0f795038cacbf11",
+      "bytes": 1111
     },
     {
       "id": "osFQOeISkf4iSUUa_KHODg",
@@ -3842,8 +4211,10 @@
       "directChildren": 11,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:12.060969+00:00",
-      "bytes": 1812
+      "scrapedAt": "2026-10-04T23:33:23.226536+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.226536+00:00",
+      "contentHash": "a8fdbcfdb7b441d56ee6360c0e9949ba387c9d8fb46d84ac247e6eaec0f46bd3",
+      "bytes": 1859
     },
     {
       "id": "cw98W6bXF8O9JmLkHqHJ~Q",
@@ -3863,8 +4234,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:12.903759+00:00",
-      "bytes": 11400
+      "scrapedAt": "2026-10-04T23:33:23.276624+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.276624+00:00",
+      "contentHash": "8ff6df0f9dbb09eb3eab087a5fee9c97cd4531459e936e10e359ad5a781ddfbd",
+      "bytes": 11209
     },
     {
       "id": "Pm5WQC5TeozmGR27qSiLRA",
@@ -3884,8 +4257,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:13.665685+00:00",
-      "bytes": 752
+      "scrapedAt": "2026-10-04T23:33:23.300512+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.300512+00:00",
+      "contentHash": "e0e707f1073ee755e07e9102e493e1893bd99f867b6d1e55f0c483d6c03cb19a",
+      "bytes": 816
     },
     {
       "id": "EPui4bTOMHllximjrmxrFA",
@@ -3905,8 +4280,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:14.412099+00:00",
-      "bytes": 3793
+      "scrapedAt": "2026-10-04T23:33:23.324676+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.324676+00:00",
+      "contentHash": "05f8f78f65e33cb1b98323858ab097e2a489112e7920c05e149ff7322019ede8",
+      "bytes": 3812
     },
     {
       "id": "XQXE09KQRr7wOBXQM1kVTw",
@@ -3926,8 +4303,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:15.403123+00:00",
-      "bytes": 2398
+      "scrapedAt": "2026-10-04T23:33:23.358884+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.358884+00:00",
+      "contentHash": "1c8f421d73372cdb78909cef6bc2cd99f960e8cbeb8b0f8adf9d79cd1a1ee6a8",
+      "bytes": 2439
     },
     {
       "id": "_Cwgicwj8WJEy2st4qm1oA",
@@ -3947,8 +4326,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:16.167958+00:00",
-      "bytes": 2022
+      "scrapedAt": "2026-10-04T23:33:23.380653+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.380653+00:00",
+      "contentHash": "0fa18d05630e439ae9ae5f73ff139240e37bc309a0eb3db81d3902b3d4425e46",
+      "bytes": 2067
     },
     {
       "id": "G2WQimZfpS_iSzHZSdF7lg",
@@ -3968,8 +4349,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:16.908016+00:00",
-      "bytes": 2737
+      "scrapedAt": "2026-10-04T23:33:23.404782+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.404782+00:00",
+      "contentHash": "64ac40aa752bcceb533f2cdaf8c4e44bb78e144a56f743d3c185248e0bf34caa",
+      "bytes": 2761
     },
     {
       "id": "Ha5H5ZKJ8geiusFjiOGtXg",
@@ -3989,8 +4372,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:18.019478+00:00",
-      "bytes": 1949
+      "scrapedAt": "2026-10-04T23:33:23.437195+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.437195+00:00",
+      "contentHash": "fad9d73c28a0ca5de9e37fef7451381605c2e8758b24e7deab5172308d6f43fd",
+      "bytes": 1989
     },
     {
       "id": "_hYzvVPm6eljJLQkivo5eQ",
@@ -4010,8 +4395,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:19.124650+00:00",
-      "bytes": 753
+      "scrapedAt": "2026-10-04T23:33:23.466470+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.466470+00:00",
+      "contentHash": "fe5a5ac1a3f47e7f2a46b0e8677346b866fe83e3be6d60277e6b09cf7f1fc31e",
+      "bytes": 812
     },
     {
       "id": "a5HYUdaxYY0cwIhiBJHefA",
@@ -4031,8 +4418,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:19.882940+00:00",
-      "bytes": 2762
+      "scrapedAt": "2026-10-04T23:33:23.485749+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.485749+00:00",
+      "contentHash": "457845cf2d2fd7bdf4be1c6d3cc0b57fb6eb03bd983fc12e759263b019a80cb2",
+      "bytes": 2814
     },
     {
       "id": "yMxJeo7itJ7NBDpGhzjE0w",
@@ -4052,8 +4441,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:20.855193+00:00",
-      "bytes": 1829
+      "scrapedAt": "2026-10-04T23:33:23.510701+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.510701+00:00",
+      "contentHash": "f69e8bd8d43ab52d6a18f8d5c698cb573fc49452153b9fec6aa1683690e50b16",
+      "bytes": 1877
     },
     {
       "id": "W8YmSCcas9p4hMBUJ~zGpQ",
@@ -4073,8 +4464,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:21.587058+00:00",
-      "bytes": 1260
+      "scrapedAt": "2026-10-04T23:33:23.528958+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.528958+00:00",
+      "contentHash": "34e0d3c25df0450ec0cc0dc85a97c2b93bc894452659968703e86e7a25e055f1",
+      "bytes": 1310
     },
     {
       "id": "KlX033g7w41Ze0bIo02j1A",
@@ -4093,8 +4486,10 @@
       "directChildren": 7,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:22.602725+00:00",
-      "bytes": 2082
+      "scrapedAt": "2026-10-04T23:33:23.559700+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.559700+00:00",
+      "contentHash": "78b23d59920c364d37aefba8f27354ae6ef3f3abf039e6096ee8e37b5701fcdf",
+      "bytes": 2118
     },
     {
       "id": "UCnI1B4u1rnFvgNqv26wTA",
@@ -4114,8 +4509,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:23.437231+00:00",
-      "bytes": 6107
+      "scrapedAt": "2026-10-04T23:33:23.593621+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.593621+00:00",
+      "contentHash": "a365bcd3caa76109941a63e51d2975298c1fd0f6d12701e63f697223a93716ef",
+      "bytes": 6014
     },
     {
       "id": "GlhfgisZkRYS~piYOmlAWw",
@@ -4135,8 +4532,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:24.192818+00:00",
-      "bytes": 1649
+      "scrapedAt": "2026-10-04T23:33:23.614304+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.614304+00:00",
+      "contentHash": "d7e1b558299d740e120a8340eb24dd2c94cc481a404b69f420c6956828781d4e",
+      "bytes": 1702
     },
     {
       "id": "yGWtQwrezZuPgkLbEYechg",
@@ -4156,8 +4555,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:25.287568+00:00",
-      "bytes": 946
+      "scrapedAt": "2026-10-04T23:33:23.650115+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.650115+00:00",
+      "contentHash": "7391a43c0da70d699423d3469c5800d15c3df49d28117c43ce1567196eb43660",
+      "bytes": 1000
     },
     {
       "id": "uAPcqiFYL0TGBKDDk0x89g",
@@ -4177,8 +4578,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:26.326715+00:00",
-      "bytes": 2869
+      "scrapedAt": "2026-10-04T23:33:23.689450+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.689450+00:00",
+      "contentHash": "46afb976220d57a4ff29ef0fd19408f8bd3d416d42c61526dae9135ce97c5ea0",
+      "bytes": 2904
     },
     {
       "id": "Ncznf5~m_PeHMrH6Rc~2rQ",
@@ -4198,8 +4601,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:27.070393+00:00",
-      "bytes": 938
+      "scrapedAt": "2026-10-04T23:33:23.707770+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.707770+00:00",
+      "contentHash": "879b62ceae67542d644166876a960282eececbf73b0881e34d07dd9a471ecfc7",
+      "bytes": 1001
     },
     {
       "id": "UaGVhgvXVneNs3kcraJu5g",
@@ -4219,8 +4624,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:28.175286+00:00",
-      "bytes": 1961
+      "scrapedAt": "2026-10-04T23:33:23.738987+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.738987+00:00",
+      "contentHash": "e50e1cf6fcac2992131a9888d7b5d8ff94b0b72e7a1ce5c84652513a3349b264",
+      "bytes": 2005
     },
     {
       "id": "DRRHh96_8kty1cLyQ1FL6g",
@@ -4240,8 +4647,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:28.916266+00:00",
-      "bytes": 685
+      "scrapedAt": "2026-10-04T23:33:23.757214+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.757214+00:00",
+      "contentHash": "c0603a627228842a36af2d5f28953cd858a30e69cb38c2370304ac2aaf21ed63",
+      "bytes": 749
     },
     {
       "id": "q8EtSsQ9h8iawGrJUdFTIw",
@@ -4260,8 +4669,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:30.007506+00:00",
-      "bytes": 4595
+      "scrapedAt": "2026-10-04T23:33:23.801986+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.801986+00:00",
+      "contentHash": "2a667183192a1f6b7a545848d381a9034cf34167f1d9f52eade15434b6579787",
+      "bytes": 4589
     },
     {
       "id": "ZoOsd~2_NgcPIOvlk42PMg",
@@ -4280,8 +4691,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:30.959122+00:00",
-      "bytes": 3608
+      "scrapedAt": "2026-10-04T23:33:23.833668+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.833668+00:00",
+      "contentHash": "ca536daf495e596a1e07c25461689c7174e777f05184d94be02b7c609682172e",
+      "bytes": 3612
     },
     {
       "id": "BqTGgOhNYhycyakYl8VBaA",
@@ -4300,8 +4713,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-09-07T21:17:31.723477+00:00",
-      "bytes": 5181
+      "scrapedAt": "2026-10-04T23:33:23.861572+00:00",
+      "lastCheckedAt": "2026-10-04T23:33:23.861572+00:00",
+      "contentHash": "081feabfa0090115475e58107036abef8e504ea957e86fbb820fb7f60555694d",
+      "bytes": 5144
     }
   ]
 }

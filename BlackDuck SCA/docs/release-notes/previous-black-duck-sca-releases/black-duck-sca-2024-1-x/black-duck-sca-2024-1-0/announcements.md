@@ -1,43 +1,28 @@
 ---
 title: "Announcements"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/announcements.html"
-content_id: "vPXLby0sF122TZTD4EVAFQ"
+content_id: "VpoIOOUERBMcfE_2En~1_g"
 version: "2026.7"
-section: "Release Notes"
-scraped_at: "2026-08-08T15:36:23.036288+00:00"
+section: "Black Duck SCA Release Notes"
+scraped_at: "2026-10-04T23:32:31.008676+00:00"
+content_hash: "52f8838f74e5a5834b0bdd7b40ec10aefff522341e334614da5686ac9e557bdf"
 ---
 
 # Announcements
 
 ## Removal of upload-cache service
 
-Encryption is now handled by the Black Duck secrets encryption libraries and key
-rotation mechanisms. As a result, the `recover_master_key.sh` and
-`bd_get_source_upload_master_key.sh` scripts for handling
-SEAL_KEY changes have been removed.
+Encryption is now handled by the Black Duck secrets encryption libraries and key rotation mechanisms. As a result, the `recover_master_key.sh` and `bd_get_source_upload_master_key.sh` scripts for handling SEAL_KEY changes have been removed.
 
-Also, uploaded source files used by the Source tab in Black Duck are not migrated. If
-needed, you can rescan the source in an existing or new, temporary project. Note
-that source uploads must still be explicitly enabled with
-`ENABLE_SOURCE_UPLOADS` (default false) and are still deleted
-automatically to meet the `MAX_TOTAL_SOURCE_SIZE_MB` (default 4G) and
-`DATA_RETENTION_IN_DAYS` (default 180 days) configuration
-settings.
+Also, uploaded source files used by the Source tab in Black Duck are not migrated. If needed, you can rescan the source in an existing or new, temporary project. Note that source uploads must still be explicitly enabled with `ENABLE_SOURCE_UPLOADS` (default false) and are still deleted automatically to meet the `MAX_TOTAL_SOURCE_SIZE_MB` (default 4G) and `DATA_RETENTION_IN_DAYS` (default 180 days) configuration settings.
 
-**NOTE**: Uploaded source code will not be migrated by default and migration
-scripts are not included as part of the Black Duck 2024.1.0 release. Please contact
-Black Duck Support if you require your uploaded source code migrated as part of your
-upgrade.
+**NOTE**: Uploaded source code will not be migrated by default and migration scripts are not included as part of the Black Duck 2024.1.0 release. Please contact Black Duck Support if you require your uploaded source code migrated as part of your upgrade.
 
 ## Scanning hardware requirements changes
 
-Black Duck 2024.1.0 will see a number of changes in scanning hardware requirements
-therefore Black Duck customers will need to update their environments and allocate
-additional hardware resources where necessary per the guidance below.
+Black Duck 2024.1.0 will see a number of changes in scanning hardware requirements therefore Black Duck customers will need to update their environments and allocate additional hardware resources where necessary per the guidance below.
 
-Please see [Black Duck Hardware Scaling
-Guidelines](https://docs.blackduck.com/access?ft:originId=f598e2689f20062534e28c8999b4550b/42e9daee77bcf342ae2692e1ec6e7746.topic) for
-more information.
+Please see [Black Duck Hardware Scaling Guidelines](https://docs.blackduck.com/access?ft:originId=f598e2689f20062534e28c8999b4550b/42e9daee77bcf342ae2692e1ec6e7746.topic) for more information.
 
 Table 1. Hardware Scaling Guidelines
 
@@ -52,5 +37,4 @@ Table 1. Hardware Scaling Guidelines
 
 ## Documentation localization
 
-The 2023.10.0 version of the UI, online help, and release notes have been localized
-to Japanese and Simplified Chinese.
+The 2023.10.0 version of the UI, online help, and release notes have been localized to Japanese and Simplified Chinese.

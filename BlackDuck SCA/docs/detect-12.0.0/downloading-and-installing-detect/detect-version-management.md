@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/detect
 content_id: "6D23NaLqMtQC1EE1g6d52A"
 version: "12.0.0"
 section: "Downloading and Installing Detect"
-scraped_at: "2026-09-07T21:14:57.426435+00:00"
+scraped_at: "2026-10-04T23:33:18.601567+00:00"
+content_hash: "ee3e9509f0a83685dabbda702cd4046df62f9d5d8557cce413a1622df49c2b03"
 ---
 
 # Detect Version Management

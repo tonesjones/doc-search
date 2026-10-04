@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/azure-d
 content_id: "xFF8dmU2ReSqA4Gl4QUmYw"
 version: "latest"
 section: "Azure DevOps Integrations"
-scraped_at: "2026-08-08T23:48:12.375160+00:00"
+scraped_at: "2026-10-04T23:28:29.197074+00:00"
+content_hash: "9326199e8395471eb2c007ee288f9adcb01d0838bf60db2c009ceb03773dee41"
 ---
 
 # Azure DevOps Integrations

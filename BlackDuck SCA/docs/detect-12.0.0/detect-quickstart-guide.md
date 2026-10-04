@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/detect
 content_id: "vvW90cEGhPZfykg08tbpqQ"
 version: "12.0.0"
 section: "Detect Quickstart guide"
-scraped_at: "2026-09-07T21:14:59.724380+00:00"
+scraped_at: "2026-10-04T23:33:18.684916+00:00"
+content_hash: "385c9cc00aa107ef5170d1534cacce2360920fc0aefe6820986782e8cc36cfa2"
 ---
 
 # Detect Quickstart guide

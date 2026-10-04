@@ -1,10 +1,11 @@
 ---
 title: "Component Comments table (component_comments)"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/component-comments-table-component_comments-.html"
-content_id: "2tdExf9LQ9L55lDutY0oYQ"
+content_id: "jzySypuKluifNQ6f_FHdWQ"
 version: "2026.7"
 section: "Reporting Database"
-scraped_at: "2026-08-08T15:34:34.355353+00:00"
+scraped_at: "2026-10-04T23:32:26.627777+00:00"
+content_hash: "2ed63c8736ee0618ee48e0ffa62c08c9eb32e4c8152e4cda630474687f4ba5a2"
 ---
 
 # Component Comments table (component_comments)

@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/detect
 content_id: "Hov7oWB9PuIyKGencjI9fA"
 version: "12.0.0"
 section: "Downloading and Installing Detect"
-scraped_at: "2026-09-07T21:14:58.174784+00:00"
+scraped_at: "2026-10-04T23:33:18.625445+00:00"
+content_hash: "124aaeb534fb99b7819c5f09d9dfa3177b3f3c4745a01bb8fbc08890ba029641"
 ---
 
 # Detect Code Verification

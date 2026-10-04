@@ -3,8 +3,9 @@ title: "Multibranch pipeline"
 source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/multibranch-pipeline.html"
 content_id: "psQK~~k9LjK05YhztV468g"
 version: "latest"
-section: "Jenkins - Black Duck Security Scan Plugin for Jenkins"
-scraped_at: "2026-08-08T23:48:38.274584+00:00"
+section: "Jenkins Integrations"
+scraped_at: "2026-10-04T23:28:30.521280+00:00"
+content_hash: "0d4bbaa55a20174511ac1b87f1edb0d60a55bf9d33115c869818d6e0cd289839"
 ---
 
 # Multibranch pipeline
@@ -45,6 +46,15 @@ pipeline {
 
                         // SARIF report generation
                         //  polaris_reports_sarif_create: true,
+
+                        // Binary scan: requires polaris_assessment_types set to SCA only
+                        //  polaris_test_sca_type: 'SCA-BINARY',
+                        //  polaris_artifactToUpload: '/path/to/binary-file',
+
+                        // SCA container scan: requires polaris_assessment_types set to SCA only
+                        //  polaris_test_sca_type: 'SCA-CONTAINER',
+                        //  polaris_artifactToUpload: '/path/to/container.tar.gz',
+                        //  polaris_container_name: 'unique-container-name', // use for filtering
                             
                         // Mark build status if issues found
                         //  mark_build_status: 'UNSTABLE'
@@ -100,11 +110,11 @@ pipeline {
                       // Pull Request Comments
                           polaris_prComment_enabled: true,
                       // polaris_branch_parent_name: 'PARENT_BRANCH_NAME',
-                      // Enable Polaris Fix PR
+                      // Enable SCA and/or SAST Polaris Fix PRs based on polaris_assessment_type setting
                       // polaris_fixpr_enabled: true,
-                      // polaris_fixpr_filter_severities: 'CRITICAL,HIGH' // Severities eligible for Fix PRs (comma-separated)
-                      // polaris_fixpr_maxCount: 5 // Max Fix PRs allowed per branch
-                      // polaris_fixpr_useUpgradeGuidance: 'SHORT_TERM,LONG_TERM' // Order of upgrade guidance preference (comma-separated)
+                      // polaris_fixpr_maxCount: 5, // Shared limit across SAST and SCA Fix PRs
+                      // polaris_fixpr_useUpgradeGuidance: 'SHORT_TERM,LONG_TERM', // Order of SCA upgrade guidance preference (comma-separated)
+                      // polaris_fixpr_filter_severities: 'CRITICAL,HIGH', // SAST and/or SCA Fix PR severity filter
                       // SARIF report generation
                           polaris_reports_sarif_create: true,
                       // Optional parameters
@@ -113,12 +123,16 @@ pipeline {
                       // polaris_reports_sarif_issue_types: 'SAST, SCA',
                       // polaris_reports_sarif_severities: 'CRITICAL,HIGH',
                       // Signature scan
-                      // polaris_test_sca_type:”SCA-SIGNATURE”,
-                      // Binary analysis scan
-      	             // polaris_test_sca_type:"SCA-BINARY",
-                      // polaris_artifactToUpload: "/path/to/binary-file",
+                      // polaris_test_sca_type: 'SCA-SIGNATURE',
+                      // Binary analysis scan: requires polaris_assessment_types set to SCA only
+                      // polaris_test_sca_type: 'SCA-BINARY',
+                      // polaris_artifactToUpload: '/path/to/binary-file',
+                      // SCA container scan: requires polaris_assessment_types set to SCA only
+                      // polaris_test_sca_type: 'SCA-CONTAINER',
+                      // polaris_artifactToUpload: '/path/to/container.tar.gz',
+                      // polaris_container_name: 'unique-container-name', // use for filtering
                       // Sigma Rapid scan
-                      // polaris_test_sast_type: "SAST_RAPID",
+                      // polaris_test_sast_type: 'SAST_RAPID',
                       // Uncomment below to add arbitrary CL parameters
                       // detect_search_depth: 1,
                       // detect_config_path: '/USER/application.properties',
@@ -160,13 +174,19 @@ node {
                 // bitbucket_token: 'BITBUCKET_TOKEN', // Used for PR comment. Use github_token for GitHub or gitlab_token for GitLab
                 // bitbucket_username:'BITBUCKET_USERNAME' // Used for bitbucket cloud pr comment if app password is set as bitbucket_token 
                 polaris_assessment_types: 'SAST,SCA'
+                // Binary analysis scan: requires polaris_assessment_types set to SCA only
+                //  polaris_test_sca_type: 'SCA-BINARY',
+                //  polaris_artifactToUpload: '/path/to/binary-file',
+                // SCA container scan: requires polaris_assessment_types set to SCA only
+                //  polaris_test_sca_type: 'SCA-CONTAINER',
+                //  polaris_artifactToUpload: '/path/to/container.tar.gz',
+                //  polaris_container_name: 'unique-container-name', // use for filtering
 
-                
                 // Pull Request Comments
-                // polaris_prComment_enabled: true
+                //  polaris_prComment_enabled: true
 
                 // Enable Polaris Fix PR
-                // polaris_fixpr_enabled: true
+                //  polaris_fixpr_enabled: true
 
                 // SARIF report generation
                 //  polaris_reports_sarif_create: true
@@ -216,11 +236,11 @@ node {
                 // Pull Request Comments
                 polaris_prComment_enabled: true,
                 // polaris_branch_parent_name: 'PARENT_BRANCH_NAME',
-                // Enable Polaris Fix PR
+                // Enable SCA and/or SAST Polaris Fix PRs based on polaris_assessment_type setting
                 // polaris_fixpr_enabled: true,
-                // polaris_fixpr_filter_severities: 'CRITICAL,HIGH' // Severities eligible for Fix PRs (comma-separated)
-                // polaris_fixpr_maxCount: 5 // Max Fix PRs allowed per branch
-                // polaris_fixpr_useUpgradeGuidance: 'SHORT_TERM,LONG_TERM' // Order of upgrade guidance preference (comma-separated)
+                // polaris_fixpr_maxCount: 5, // Shared limit across SAST and SCA Fix PRs
+                // polaris_fixpr_useUpgradeGuidance: 'SHORT_TERM,LONG_TERM', // Order of SCA upgrade guidance preference (comma-separated)
+                // polaris_fixpr_filter_severities: 'CRITICAL,HIGH', // SAST and/or SCA Fix PR severity filter
                 // SARIF report generation
                 polaris_reports_sarif_create: true,
                 // Optional parameters
@@ -230,9 +250,13 @@ node {
                 // polaris_reports_sarif_severities: 'CRITICAL,HIGH',
                 // Signature scan
                 // polaris_test_sca_type:"SCA-SIGNATURE",
-                // Binary analysis scan
-      	       // polaris_test_sca_type:"SCA-BINARY",
-                // polaris_artifactToUpload: "/path/to/binary-file",
+                // Binary analysis scan: requires polaris_assessment_types set to SCA only
+                // polaris_test_sca_type: 'SCA-BINARY',
+                // polaris_artifactToUpload: '/path/to/binary-file',
+                // SCA container scan: requires polaris_assessment_types set to SCA only
+                // polaris_test_sca_type: 'SCA-CONTAINER',
+                // polaris_artifactToUpload: '/path/to/container.tar.gz',
+                // polaris_container_name: 'unique-container-name', // use for filtering
                 // Sigma Rapid scan
                 // polaris_test_sast_type: "SAST_RAPID",
                 // Uncomment below to add arbitrary CL parameters

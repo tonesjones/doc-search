@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickst
 content_id: "ZZ18N3gkVdEMzPGDxSM58Q"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:47:16.064551+00:00"
+scraped_at: "2026-10-04T23:28:26.426248+00:00"
+content_hash: "8d5a4eeaa2d4aba6733a70c2f60264f3139411729ff5aeebfcc3de9c8effa24a"
 ---
 
 # Quickstart: Black Duck SCA Bridge CLI in a Jenkins pipeline

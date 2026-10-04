@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/ho
 content_id: "8SPAqezGZp9oReYPHawU9g"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:56:56.727445+00:00"
-content_hash: "49168a6f8f364310d22a7dcde68d4ec5027bc8eedd8e0fb9d16dbc4120896a92"
+scraped_at: "2026-10-04T23:29:19.823700+00:00"
+content_hash: "542ee7ca515928d296cebec3e30c03c11ac59e9c380ae7408d52c2edda381db4"
 ---
 
 # How to export issues to CSV or JSON

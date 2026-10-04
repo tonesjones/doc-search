@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/azure-d
 content_id: "4yDI7g0nupyTjYF8a_C8_g"
 version: "latest"
 section: "Azure DevOps Integrations"
-scraped_at: "2026-08-08T23:48:21.218429+00:00"
+scraped_at: "2026-10-04T23:28:29.751792+00:00"
+content_hash: "1baa6f70cf3aa84dd8e3d04b6d7cd6e7c6bd56bb0df6c01480b529338ab8329c"
 ---
 
 # Azure DevOps – Black Duck Security Scan Extension for Azure DevOps

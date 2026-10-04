@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/co
 content_id: "g4nWPm2JJwyMlAI6Aw2PHA"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:57:18.519836+00:00"
-content_hash: "c6b2ef0248f6af002705fd96920a3a1d40ce5f02a6d843dabdf1a6acb133cd8c"
+scraped_at: "2026-10-04T23:29:20.721974+00:00"
+content_hash: "e9f6b40e4d6c634acb1f075fb1077b1fe442bcf2d24e5a6d0344add1dbc9debc"
 ---
 
 # Connect a Polaris project to a repository in your SCM
@@ -33,7 +33,7 @@ You can connect Polaris projects to repositories in the following Source Code Ma
 - Azure Repos
 - Bitbucket Cloud
 - Bitbucket Data Center
-- GitHub and GitHub Enterprise Cloud
+- GitHub, GitHub Enterprise, and GitHub Enterprise with data residency (including GitHub Enterprise with data residency)
 - GitHub Enterprise Server
 - GitLab SaaS
 - GitLab Self-Managed

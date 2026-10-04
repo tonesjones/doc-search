@@ -1,10 +1,11 @@
 ---
 title: "Binaryscanner container"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/binaryscanner-container.html"
-content_id: "W09L7HXCsURZR8AlSi85jg"
+content_id: "ojOL0IC1V0ByHBwMnSjerw"
 version: "2026.7"
 section: "Installing Black Duck using Docker Swarm"
-scraped_at: "2026-08-08T15:34:19.306318+00:00"
+scraped_at: "2026-10-04T23:32:25.926974+00:00"
+content_hash: "fcd441a5057949a367af18cfe23dd1a6aa25630ae315c932da157751d237c707"
 ---
 
 # Binaryscanner container

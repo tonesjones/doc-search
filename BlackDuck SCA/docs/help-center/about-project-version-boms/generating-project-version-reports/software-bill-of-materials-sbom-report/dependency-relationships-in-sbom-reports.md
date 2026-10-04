@@ -1,22 +1,18 @@
 ---
 title: "Dependency relationships in SBOM reports"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/dependency-relationships-in-sbom-reports.html"
-content_id: "byf68HBqDszca28rFrDcrQ"
+content_id: "NME6NdO4GClxHkW1fLl4nA"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T15:14:54.804996+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:13.768966+00:00"
+content_hash: "1da14bac3b2085111c6a40239a908d61411d9c52ec49b570c1f7ce1a372a9cb9"
 ---
 
 # Dependency relationships in SBOM reports
 
-Dependency relationships indicate how a component is intended to be included in the
-project when this version is released. For example, if scanning identified development
-tools in scanned code or a Docker image, the SBOM report will indicate that they will
-not actually be included in the released version of the project.
+Dependency relationships indicate how a component is intended to be included in the project when this version is released. For example, if scanning identified development tools in scanned code or a Docker image, the SBOM report will indicate that they will not actually be included in the released version of the project.
 
-See the table below for usage types and how they are defined in the SBOM report. Please
-note that this applies only to SPDX 2.3 SBOM reports. CycloneDX SBOM reports do not
-indicate the usage type in its `dependencies` section.
+See the table below for usage types and how they are defined in the SBOM report. Please note that this applies only to SPDX 2.3 SBOM reports. CycloneDX SBOM reports do not indicate the usage type in its `dependencies` section.
 
 Table 1. Usage types
 

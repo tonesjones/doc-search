@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/quack-
 content_id: "wY735bPdYOdiopmk~pa0~g"
 version: "12.0.0"
 section: "Planning and running Detect"
-scraped_at: "2026-09-07T21:15:47.167535+00:00"
+scraped_at: "2026-10-04T23:33:20.117663+00:00"
+content_hash: "fc09b9b1456cae76339f0259e6281765c6709591e6f20f80ac7b5b3c373087d9"
 ---
 
 # Quack Patch (Early Access)

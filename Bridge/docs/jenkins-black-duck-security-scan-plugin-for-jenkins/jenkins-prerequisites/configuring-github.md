@@ -3,8 +3,9 @@ title: "Configuring GitHub"
 source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/configuring-github.html"
 content_id: "_s3hCdcRFHJdV_Jf6jO1tA"
 version: "latest"
-section: "Jenkins - Black Duck Security Scan Plugin for Jenkins"
-scraped_at: "2026-08-08T23:48:33.399842+00:00"
+section: "Jenkins Integrations"
+scraped_at: "2026-10-04T23:28:30.304278+00:00"
+content_hash: "cf3b064ef4db953504732d478002e11d3240b1ae554bc5f929d6854a784d5cb3"
 ---
 
 # Configuring GitHub

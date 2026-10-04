@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/conda.
 content_id: "SWa7J9KIldfTZKwSBVAdiQ"
 version: "12.0.0"
 section: "Detect Properties"
-scraped_at: "2026-09-07T21:16:45.225173+00:00"
+scraped_at: "2026-10-04T23:33:22.360953+00:00"
+content_hash: "3878d8520690a0827830412e0cceecebc176d70499337b53e4af1986d1ac79ed"
 ---
 
 # conda

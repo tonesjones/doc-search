@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickst
 content_id: "incuyObq1r6MXCPrzaD2~Q"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:47:01.227842+00:00"
+scraped_at: "2026-10-04T23:28:25.761921+00:00"
+content_hash: "ea12118c0b0b51c6b6e0b32f307cd78ae6f1b1aec027da87a0fe7f42b7e59df3"
 ---
 
 # Quickstart: Polaris Bridge CLI in a GitLab template
@@ -39,7 +40,7 @@ Note: You can use Black Duck Security Scan Template (recommended) for your workf
    | `BRIDGECLI_LINUX64` | Variable | Bridge CLI URL | <https://repo.blackduck.com/bds-integrations-release/com/blackduck/integration/bridge/binaries/bridge-cli-bundle/latest/bridge-cli-bundle-linux64.zip> |
 
    Note: be sure to set the mask variable flag for BRIDGE_POLARIS_ACCESSTOKEN to avoid exposing it in CI logs
-2. Add a [coverity.yaml](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/cli/topics/options_reference.html) file in the project repository. (Uncompiled languages are detected and configured automatically).
+2. Add a [coverity.yaml](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/13c0022b163195f4d305d9453a097d69.topic) file in the project repository. (Uncompiled languages are detected and configured automatically).
 
    ```
    capture:

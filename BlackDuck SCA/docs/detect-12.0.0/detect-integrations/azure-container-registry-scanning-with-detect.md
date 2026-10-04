@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/azure-
 content_id: "BqTGgOhNYhycyakYl8VBaA"
 version: "12.0.0"
 section: "Detect Integrations"
-scraped_at: "2026-09-07T21:17:31.723477+00:00"
+scraped_at: "2026-10-04T23:33:23.861572+00:00"
+content_hash: "081feabfa0090115475e58107036abef8e504ea957e86fbb820fb7f60555694d"
 ---
 
 # Azure Container Registry scanning with Detect

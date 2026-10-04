@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickst
 content_id: "vM1t4rCUpsqE2qJuvytlzQ"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:47:25.249343+00:00"
+scraped_at: "2026-10-04T23:28:26.853944+00:00"
+content_hash: "28a5312336706ae8c07c53fb456aa96dc3bee04a70de20ccdc71d0192c7341ad"
 ---
 
 # Quickstart: SRM Bridge CLI in an Azure DevOps pipeline

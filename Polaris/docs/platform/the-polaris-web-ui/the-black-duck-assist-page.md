@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/th
 content_id: "82_AtVCYScg5xPVgJl79rg"
 product_key: "polaris-platform-latest"
 section: "The Polaris web UI"
-scraped_at: "2026-08-12T19:55:50.765881+00:00"
-content_hash: "80850ad27d925c2ad8e5e8a6c9b235001f3c6fd21f9aa7e6a8b405b725fd925b"
+scraped_at: "2026-10-04T23:29:17.657476+00:00"
+content_hash: "e534d02e56e80b35b82c309ce3b352fe078dd984a1096758c4edd2053d3178da"
 ---
 
 # The Black Duck Assist page

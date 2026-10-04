@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/git-pr
 content_id: "sYngeGU3DjEpo_9Publ6WA"
 version: "12.0.0"
 section: "Package Manager information for Detect"
-scraped_at: "2026-09-07T21:16:09.852833+00:00"
+scraped_at: "2026-10-04T23:33:20.921704+00:00"
+content_hash: "1c6b45b0255a56b5c8c314812c01624eb4bdcd187c932e75fc36bc10a9a5dc6b"
 ---
 
 # Git project support

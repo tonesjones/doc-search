@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-t
 content_id: "dGFOn2~mTPj53ttEFdBQNA"
 version: "latest"
 section: "GitHub Integrations"
-scraped_at: "2026-08-08T23:47:45.687954+00:00"
+scraped_at: "2026-10-04T23:28:27.969529+00:00"
+content_hash: "c058116ec61e47201f98969a5af11aec96d0cbc8e50489a2d9978bbb37595400"
 ---
 
 # Using the Black Duck Security Scan Action with Black Duck SCA

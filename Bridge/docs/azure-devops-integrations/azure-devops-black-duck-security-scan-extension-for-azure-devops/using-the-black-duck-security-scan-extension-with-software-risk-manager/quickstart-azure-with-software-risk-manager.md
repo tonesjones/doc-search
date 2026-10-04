@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickst
 content_id: "Doq~ovl5hDKZHjdfgEzcgg"
 version: "latest"
 section: "Azure DevOps Integrations"
-scraped_at: "2026-08-08T23:48:30.194286+00:00"
+scraped_at: "2026-10-04T23:28:30.180265+00:00"
+content_hash: "283b149cc48b5eb89440a87c5c2ed051f0df745b174721a8f02207d9bf5aa7e6"
 ---
 
 # Quickstart: Azure with Software Risk Manager

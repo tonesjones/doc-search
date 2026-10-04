@@ -3,8 +3,9 @@ title: "Create a pipeline job in your Jenkins instance"
 source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/create-a-pipeline-job-in-your-jenkins-instance.html"
 content_id: "CTM6UmVhuMa7WiKO_UN~2g"
 version: "latest"
-section: "Jenkins - Black Duck Security Scan Plugin for Jenkins"
-scraped_at: "2026-08-08T23:48:36.848848+00:00"
+section: "Jenkins Integrations"
+scraped_at: "2026-10-04T23:28:30.444780+00:00"
+content_hash: "20b516fe51addc6d17016f96a29268f29baf22a1b3a7eb631397662b999cbb8f"
 ---
 
 # Create a pipeline job in your Jenkins instance

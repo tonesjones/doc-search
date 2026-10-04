@@ -1,10 +1,11 @@
 ---
 title: "Uploading a scan file in Black Duck SCA"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/uploading-a-scan-file-in-black-duck-sca.html"
-content_id: "M_IrtzhCtsDMOe55KDPlng"
+content_id: "B6Vfl10G52O721cERG0I6g"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T14:53:51.392980+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:11.309231+00:00"
+content_hash: "66613764ff40428ecb636662446c4bb92c4e30e06aecc208c0f2460c8c1b7781"
 ---
 
 # Uploading a scan file in Black Duck SCA
@@ -20,8 +21,7 @@ To upload a file:
 
        
       [image: Scans page]
-   - From the **Settings** tab for a project version, select
-     **Scans**.
+   - From the **Settings** tab for a project version, select **Scans**.
 
        
       [image: Project Version Scans tab]
@@ -32,31 +32,23 @@ To upload a file:
    - SBOM-CycloneDX: Supported file types and formats: .json
 4. Upload the desired file(s) in **Upload *file format*** dialog box:
 
-   - Click **Browse Computer...** or anywhere inside the dotted line box
-     and navigate to the desired report file.
+   - Click **Browse Computer...** or anywhere inside the dotted line box and navigate to the desired report file.
    - Drag the report file into the dialog box.
 
-   You can multiple files by repeating the step above. The selected report files
-   will be listed as Queued, ready to be uploaded.
+   You can multiple files by repeating the step above. The selected report files will be listed as Queued, ready to be uploaded.
 
    You can remove unwanted report files from the list by clicking the [image: Remove icon] .
-5. Optionally, you can enable the **Unmatched Component Auto-Creation** checkbox to automatically create custom components from SBOM unmatched origin
-   IDs.
+5. Optionally, you can enable the **Unmatched Component Auto-Creation** checkbox to automatically create custom components from SBOM unmatched origin IDs.
 6. Click **Scan** in the Upload dialog box after uploading the file.
 
-   The **Upload *file format*** dialog box will remain open after the scan(s) have
-   completed, should you want to add additional report files to scan.
+   The **Upload *file format*** dialog box will remain open after the scan(s) have completed, should you want to add additional report files to scan.
 7. Click **Close** to dismiss the **Upload *file format*** dialog box.
 
-Warning: When uploading a BDIO or SBOM file, it will override an existing BDIO or SBOM
-file if they share the same name. This will update the BOM of the project version to
-which it is mapped.
+Warning: When uploading a BDIO or SBOM file, it will override an existing BDIO or SBOM file if they share the same name. This will update the BOM of the project version to which it is mapped.
 
-Note: The scan will not appear on the project version's **Settings** tab unless you mapped the
-scan to this project version during the scan; view the scan on the Scans page.
+Note: The scan will not appear on the project version's **Settings** tab unless you mapped the scan to this project version during the scan; view the scan on the Scans page.
 
-After uploading the file, if the scan is unmapped, use Black Duck to map the file to a
-project.
+After uploading the file, if the scan is unmapped, use Black Duck to map the file to a project.
 
 ## Error code references
 

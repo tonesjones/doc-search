@@ -1,13 +1,25 @@
 ---
 title: "Black Duck C/CPP tool release notes"
 source_url: "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/black-duck-c/cpp-tool-release-notes.html"
-content_id: "DoyaIoG42XkKIOJv5HicvQ"
+content_id: "vbVDofkB4wSWPp5pA3ry0Q"
 version: "latest"
 section: "Black Duck C/CPP Tool"
-scraped_at: "2026-08-13T16:16:59.576791+00:00"
+scraped_at: "2026-10-04T23:32:43.987654+00:00"
+content_hash: "3f84e13af040d98e2b52ff2800e852037ab8ca2665571766614f51c255fccd81"
 ---
 
 # Black Duck C/CPP tool release notes
+
+## Black Duck C/CPP 3.0.8
+
+- BDCCPP-63: support redirects for scan cli version check API call
+- Added a line in README advising customers to store config yaml outside of scanned project directory
+
+## Black Duck C/CPP 3.0.7
+
+- BDCCPP-59 - harden credential handling
+- BDCCPP-60 - convert subprocess invocation to argv form
+- BDCCPP-62 - Updated outdated bazel docs
 
 ## Black Duck C/CPP 3.0.6
 

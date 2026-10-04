@@ -30,7 +30,7 @@ Do **not** treat random blog posts or third-party summaries as authoritative whe
 | Help Center (browser SPA) | https://docs.blackduck.com/r/signal/black-duck-signal.html |
 | TOC API | `GET https://docs.blackduck.com/api/khub/maps/xmDr3Yryk7OYDGb__OGKlg/toc` |
 | Content API | `GET https://docs.blackduck.com/api/khub/maps/xmDr3Yryk7OYDGb__OGKlg/topics/{contentId}/content` |
-| Topics | **17** under `docs/` (overview, scan-changes, scan-project, reference, ai-security, release-notes) |
+| Topics | **31 official topics plus one local reference note** under `docs/` (overview, scan-changes, scan-project, reference, ai-security, release-notes) |
 | Index | `index.md` |
 | Phased scrape plan | `PHASE-PLAN.md` |
 | Session handoff | `CHECKPOINT.md` |
@@ -139,3 +139,7 @@ Do not mix Signal docs into sibling trees, and do not scrape those maps here:
 | Bridge CLI | `C:\TestCode\Product Docs\Bridge` |
 | Coverity | `C:\TestCode\Product Docs\Coverity` |
 | Polaris | `C:\TestCode\Product Docs\Polaris` |
+
+## Current navigation
+
+The September 28 edition uses `docs/get-started/`, `docs/byollm/`, and `docs/reference/signal-reference-guide.md`. Use `index.md` to resolve current topics. Old pages removed from the official TOC remain as historical files and must not be used as current guidance. The CLI field reference is a local note, preserved separately from official source content.

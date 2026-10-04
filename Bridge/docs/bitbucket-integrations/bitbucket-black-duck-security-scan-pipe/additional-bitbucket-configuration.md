@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/additio
 content_id: "BkX4Uh9D8LPV41JBSU3jkQ"
 version: "latest"
 section: "Bitbucket Integrations"
-scraped_at: "2026-08-08T23:49:07.068511+00:00"
+scraped_at: "2026-10-04T23:28:31.968803+00:00"
+content_hash: "7e36d62ebe020d348a7b260f59b2d14e3bc85a7bc06950d441f550e0818f915e"
 ---
 
 # Additional Bitbucket configuration

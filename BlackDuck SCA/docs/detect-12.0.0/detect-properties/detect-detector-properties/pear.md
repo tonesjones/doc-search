@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/pear.h
 content_id: "~dyJIIWEhJPWVHOXTrhSdg"
 version: "12.0.0"
 section: "Detect Properties"
-scraped_at: "2026-09-07T21:16:55.436337+00:00"
+scraped_at: "2026-10-04T23:33:22.724905+00:00"
+content_hash: "384458f388af4c34d02d388acfd6ee4c04171c1a63c096524cfc18ec28649631"
 ---
 
 # pear

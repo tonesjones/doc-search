@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/planni
 content_id: "Kp87eaMDJ1HLKwwILkUzMw"
 version: "12.0.0"
 section: "Planning and running Detect"
-scraped_at: "2026-09-07T21:15:25.722844+00:00"
+scraped_at: "2026-10-04T23:33:19.420456+00:00"
+content_hash: "06417543043998ca3d35e44932bd463a9924bef31e87ddd386a303550a693ad6"
 ---
 
 # Planning and running Detect

@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickst
 content_id: "k5FSWYxSWRa0gm_5FwCV~w"
 version: "latest"
 section: "GitHub Integrations"
-scraped_at: "2026-08-08T23:47:49.577365+00:00"
+scraped_at: "2026-10-04T23:28:28.157554+00:00"
+content_hash: "fe05ad3bcb43ba5dce13b8bcf3bf2a237782b24f11a037f090d18904bf3ab4a0"
 ---
 
 # Quickstart: Black Duck Security Scan Action with SRM

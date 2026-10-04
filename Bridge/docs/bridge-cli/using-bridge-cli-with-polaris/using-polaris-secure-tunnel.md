@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-p
 content_id: "ujTpwayr_6ZR9fvYpIti0g"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:47:04.874343+00:00"
+scraped_at: "2026-10-04T23:28:25.949911+00:00"
+content_hash: "4a03fe569e044099a3f75a4656ce57fac99bcbb579c2a76ddae6ce7064c08069"
 ---
 
 # Using Polaris secure tunnel

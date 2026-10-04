@@ -1,16 +1,16 @@
 ---
 title: "Copying a policy rule"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/copying-a-policy-rule.html"
-content_id: "PYED48MggXRcXy6VOsmgHg"
+content_id: "8HPg2IrIq4c8LMktnXI2QA"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T15:31:14.393472+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:17.674750+00:00"
+content_hash: "139a6da13cd4ae748cf7b865758218ff529a2552a63150e726ba655d15024626"
 ---
 
 # Copying a policy rule
 
-Users with the Policy Manager role can
-copy policy rules.
+Users with the Policy Manager role can copy policy rules.
 
 To copy a policy:
 

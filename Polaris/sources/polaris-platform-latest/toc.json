@@ -407,6 +407,63 @@
         ]
       },
       {
+        "tocId": "QcUX2UF_rSaGDccT8qfavQ",
+        "contentId": "xIT7D7YHNn_8euJvc~aj3Q",
+        "title": "Centralize your Coverity configuration",
+        "prettyUrl": "/r/polaris/black-duck-polaris-platform/centralize-your-coverity-configuration.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "EbdEa8pr5Me_NtbI4qohyw",
+            "contentId": "9s6beSd1Ihsm5xHX3XTJ~g",
+            "title": "Update your organization's Coverity configuration",
+            "prettyUrl": "/r/polaris/black-duck-polaris-platform/update-your-organization-s-coverity-configuration.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "nXHGgQxSpYddhrsKv0EUFg",
+            "contentId": "qL1t2M2v2fTyHtujXM2s3w",
+            "title": "Update an application's Coverity configuration",
+            "prettyUrl": "/r/polaris/black-duck-polaris-platform/update-an-application-s-coverity-configuration.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "osNy4cCxJXjvCocK8fUuaQ",
+            "contentId": "h2Z1KHcz59qQS81L3XOTHg",
+            "title": "Update a project's Coverity configuration",
+            "prettyUrl": "/r/polaris/black-duck-polaris-platform/update-a-project-s-coverity-configuration.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "tktvYFPCysCdxpqfVsLFKA",
+            "contentId": "d9Q7KsoE4pPn90zEic1e_g",
+            "title": "Update a branch's Coverity configuration",
+            "prettyUrl": "/r/polaris/black-duck-polaris-platform/update-a-branch-s-coverity-configuration.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "OzycR0YAtYaSppbrAKjNoQ",
+            "contentId": "clEJ8DPH17tbJHnlxYoEqg",
+            "title": "Reset an application or project's Coverity configuration",
+            "prettyUrl": "/r/polaris/black-duck-polaris-platform/reset-an-application-or-project-s-coverity-configuration.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "DmU5eeQH7hpTJnDmO7bvQw",
+            "contentId": "7rylFqEhOOXEgs71EvRoWw",
+            "title": "Reset a branch's Coverity configuration",
+            "prettyUrl": "/r/polaris/black-duck-polaris-platform/reset-a-branch-s-coverity-configuration.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
         "tocId": "qWFAHmHeg~P7Q5grLSyscw",
         "contentId": "sGPJ~h3_OYJ_ZiV8I5Ma0Q",
         "title": "How to test from the web UI",
@@ -426,6 +483,47 @@
             "contentId": "kO1ixBtT2l7TEGgb8ih7~Q",
             "title": "How to run SCA binary analysis",
             "prettyUrl": "/r/polaris/black-duck-polaris-platform/how-to-run-sca-binary-analysis.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "bIdYOXY3bO586xHt71tuaQ",
+        "contentId": "9ZmfvRxknA7x7HcsehuRnw",
+        "title": "Container Analysis",
+        "prettyUrl": "/r/polaris/black-duck-polaris-platform/container-analysis.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "LBaEfpDrJRU5mBcrn~TVew",
+            "contentId": "w4T7X9~fWlzpfiswgEyCjQ",
+            "title": "Create a Container Analysis project",
+            "prettyUrl": "/r/polaris/black-duck-polaris-platform/create-a-container-analysis-project.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "~anIzXTyS0uLWL~8w5VEFA",
+            "contentId": "j~VqoiGu9l1a~2wthfeMMA",
+            "title": "Add a container to a Container Analysis project",
+            "prettyUrl": "/r/polaris/black-duck-polaris-platform/add-a-container-to-a-container-analysis-project.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "exhhsH3EHvGZc0ZHbz8RAg",
+            "contentId": "~cJ_LtvjxMx5JCyeJichSQ",
+            "title": "Delete a container from a Container Analysis project",
+            "prettyUrl": "/r/polaris/black-duck-polaris-platform/delete-a-container-from-a-container-analysis-project.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "awN9ADmLvN07Di3uXyFm~w",
+            "contentId": "f2O5v4f8zAorOgMSrmfytA",
+            "title": "How to run Container Analysis",
+            "prettyUrl": "/r/polaris/black-duck-polaris-platform/how-to-run-container-analysis.html",
             "hasRating": false,
             "children": []
           }
@@ -571,6 +669,23 @@
         "children": []
       },
       {
+        "tocId": "Z~ZaEVbQGg87MsaoHuRysw",
+        "contentId": "UNRNOaivEZTbGTaoOzk4Kw",
+        "title": "Vulnerability notifications",
+        "prettyUrl": "/r/polaris/black-duck-polaris-platform/vulnerability-notifications.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "PDsA74Bt5h1qxPD2D~s8Zw",
+            "contentId": "T3AHPAukxXuDGEHG1aYFRQ",
+            "title": "Configure vulnerability notifications",
+            "prettyUrl": "/r/polaris/black-duck-polaris-platform/configure-vulnerability-notifications.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
         "tocId": "iodYRyKkBl4ew6DAnPOwwA",
         "contentId": "3pqhJJ7ZuWZkM_lsop2YWA",
         "title": "Find issues captured after a test",
@@ -605,8 +720,8 @@
       {
         "tocId": "fcEL1r9eV063V3_hPrse2g",
         "contentId": "XUOflzc228XydyNCLuBjuA",
-        "title": "Fix Pull Requests (Fix PR)",
-        "prettyUrl": "/r/polaris/black-duck-polaris-platform/fix-pull-requests-fix-pr-.html",
+        "title": "SCA Fix Pull Requests",
+        "prettyUrl": "/r/polaris/black-duck-polaris-platform/sca-fix-pull-requests.html",
         "hasRating": false,
         "children": [
           {
@@ -630,6 +745,31 @@
             "contentId": "j04aqhLqeaLnoDBxBAFr7w",
             "title": "Disable a Fix PR for a Component",
             "prettyUrl": "/r/polaris/black-duck-polaris-platform/disable-a-fix-pr-for-a-component.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "F_uMzFEBzc7JD72ytI4fMQ",
+        "contentId": "QksShZwdjLe7eeQdBNKpdg",
+        "title": "SAST Fix Pull Requests",
+        "prettyUrl": "/r/polaris/black-duck-polaris-platform/sast-fix-pull-requests.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "EtXZ5nv6b0xRMjeMDV4o6g",
+            "contentId": "aXnYUdeb8VRmLCrK_sqkQA",
+            "title": "Create a SAST Fix PR on demand",
+            "prettyUrl": "/r/polaris/black-duck-polaris-platform/create-a-sast-fix-pr-on-demand.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "jTW2UpoIN3MBaQfHc4lfWw",
+            "contentId": "zJtPP_Phqbf5HoAIrbMLMQ",
+            "title": "Create SAST Fix PRs with a policy",
+            "prettyUrl": "/r/polaris/black-duck-polaris-platform/create-sast-fix-prs-with-a-policy.html",
             "hasRating": false,
             "children": []
           }
@@ -787,6 +927,14 @@
         "contentId": "hy66wWeljZ5SjlG5j~V0Fg",
         "title": "Approve or reject component triage requests",
         "prettyUrl": "/r/polaris/black-duck-polaris-platform/approve-or-reject-component-triage-requests.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "hji2nM3LtwwDa4uyepHKSA",
+        "contentId": "aK~t1Od4NNuS0Wjff2sQWg",
+        "title": "AI-assisted triage (limited availability)",
+        "prettyUrl": "/r/polaris/black-duck-polaris-platform/ai-assisted-triage-limited-availability-.html",
         "hasRating": false,
         "children": []
       },
@@ -979,8 +1127,8 @@
           {
             "tocId": "7XcRBPV0XktX2N4JyzOQPA",
             "contentId": "v5NFypuxAG_Tssy4Sjl_~A",
-            "title": "GitHub and GitHub Enterprise",
-            "prettyUrl": "/r/polaris/black-duck-polaris-platform/github-and-github-enterprise.html",
+            "title": "GitHub, GitHub Enterprise, and GitHub Enterprise with data residency",
+            "prettyUrl": "/r/polaris/black-duck-polaris-platform/github-github-enterprise-and-github-enterprise-with-data-residency.html",
             "hasRating": false,
             "children": []
           },
@@ -990,22 +1138,29 @@
             "title": "GitHub Enterprise Server",
             "prettyUrl": "/r/polaris/black-duck-polaris-platform/github-enterprise-server.html",
             "hasRating": false,
-            "children": [
-              {
-                "tocId": "9hXmsDwMy~AQg60tYyXY2g",
-                "contentId": "_fo2B9EqTQVTH54NNvnXyA",
-                "title": "Update your self-hosted SCM connections within an application",
-                "prettyUrl": "/r/polaris/black-duck-polaris-platform/update-your-self-hosted-scm-connections-within-an-application.html",
-                "hasRating": false,
-                "children": []
-              }
-            ]
+            "children": []
           },
           {
             "tocId": "cmr3lNuQxm5P4rbUL2fHqA",
             "contentId": "UHlavLYbiRSih2sbxX7VFg",
             "title": "GitLab SaaS",
             "prettyUrl": "/r/polaris/black-duck-polaris-platform/gitlab-saas.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "6rljSW7EFRuiqH_sEfGXIw",
+            "contentId": "WmSBBryUar1AJmU1fGy6SQ",
+            "title": "GitLab Self-Managed",
+            "prettyUrl": "/r/polaris/black-duck-polaris-platform/gitlab-self-managed.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "JnQ7HMoeAIZ770kxCtLPVw",
+            "contentId": "_fo2B9EqTQVTH54NNvnXyA",
+            "title": "Update your self-hosted SCM connections within an application",
+            "prettyUrl": "/r/polaris/black-duck-polaris-platform/update-your-self-hosted-scm-connections-within-an-application.html",
             "hasRating": false,
             "children": []
           }
@@ -1093,8 +1248,8 @@
           {
             "tocId": "KC9dyArhNUi1qoLM_I6Yww",
             "contentId": "7zCqxPvjbXHSNhNCLapPBQ",
-            "title": "GitHub and GitHub Enterprise Cloud",
-            "prettyUrl": "/r/polaris/black-duck-polaris-platform/github-and-github-enterprise-cloud.html",
+            "title": "GitHub, GitHub Enterprise, and GitHub Enterprise with data residency",
+            "prettyUrl": "/r/polaris/black-duck-polaris-platform/github-github-enterprise-and-github-enterprise-with-data-residency.html",
             "hasRating": false,
             "children": []
           },
@@ -1182,16 +1337,48 @@
           {
             "tocId": "4jYvV54i_eSJfNIRnOrw9g",
             "contentId": "DIrTqgd96EYX7eyAKSUkjg",
-            "title": "Issue tracking integration for Jira",
-            "prettyUrl": "/r/polaris/black-duck-polaris-platform/issue-tracking-integration-for-jira.html",
+            "title": "Issue tracking integration for Jira Cloud",
+            "prettyUrl": "/r/polaris/black-duck-polaris-platform/issue-tracking-integration-for-jira-cloud.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "GMQ~qSZMbGYtBWqvhA0MXA",
+            "contentId": "WGy6nGS45SKWolXXjatgBw",
+            "title": "Issue tracking integration for Jira Data Center",
+            "prettyUrl": "/r/polaris/black-duck-polaris-platform/issue-tracking-integration-for-jira-data-center.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "bVkLjZs4V568cANfqAnyWA",
+            "contentId": "nanrcSOSMsnk~SG5mpynFA",
+            "title": "Issue tracking integration for ServiceNow",
+            "prettyUrl": "/r/polaris/black-duck-polaris-platform/issue-tracking-integration-for-servicenow.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "u5tp6b2kVQmRdsP4Q3sG6g",
+            "contentId": "gokC4ZSU4bI1ZrfWIVHQdQ",
+            "title": "Issue tracking integration for GitHub Issues",
+            "prettyUrl": "/r/polaris/black-duck-polaris-platform/issue-tracking-integration-for-github-issues.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "ioOF3bwx3zAWSzYAI4TwtA",
+            "contentId": "ttMKrlA8LeSo~SdIUPqHDQ",
+            "title": "Issue tracking integration for GitLab Issues",
+            "prettyUrl": "/r/polaris/black-duck-polaris-platform/issue-tracking-integration-for-gitlab-issues.html",
             "hasRating": false,
             "children": []
           },
           {
             "tocId": "ZIX4VnpfxBeiWXU~WXxcAA",
             "contentId": "wYmexZHmWc5xs1ZJyzvsNA",
-            "title": "Export an issue to Azure DevOps or Jira",
-            "prettyUrl": "/r/polaris/black-duck-polaris-platform/export-an-issue-to-azure-devops-or-jira.html",
+            "title": "Export an issue to an issue tracking instance",
+            "prettyUrl": "/r/polaris/black-duck-polaris-platform/export-an-issue-to-an-issue-tracking-instance.html",
             "hasRating": false,
             "children": []
           },

@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/gi
 content_id: "fKp8SWVkBXUJOHwDGDCrqA"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:57:22.879898+00:00"
-content_hash: "3081b3a24f7c8d777206d3aa4ae9e3f7b6b9302e74ee4bd51984ee46df86fbdd"
+scraped_at: "2026-10-04T23:29:20.893386+00:00"
+content_hash: "c4ea70c6c6b1fbcf21006f9e58f38804bf2529c6d108b477a49ab46e8b829b60"
 ---
 
 # GitHub Enterprise Server
@@ -13,6 +13,8 @@ content_hash: "3081b3a24f7c8d777206d3aa4ae9e3f7b6b9302e74ee4bd51984ee46df86fbdd"
 How to connect a Polaris project to a repository in GitHub Enterprise Server.
 
 Note: Follow the steps on this page to connect a single project to a single GitHub repository. Alternatively, GitHub repositories can be imported into Polaris in bulk. For more information, see [Connect Polaris to Multiple SCM Repositories](../connect-polaris-to-multiple-scm-repositories.md).
+
+Note: SCA Fix Pull Requests are supported for repositories hosted in GitHub Enterprise Server. Polaris creates the pull request over the Secure Tunnel that connects it to your private network. See [SCA Fix Pull Requests](../fix-pull-requests-fix-pr.md).
 
 ## Prerequisites
 

@@ -4,13 +4,15 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/bi
 content_id: "vlkXwozD00XAQMzLPlNk2w"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:57:21.070970+00:00"
-content_hash: "f814c07769002b4bcdc7232a5a77dc0bd875892852e8416e193f5bb38c61a986"
+scraped_at: "2026-10-04T23:29:20.823534+00:00"
+content_hash: "c3ab12b6e880859a64b1908f5cfa81a210dc058f669a22dede2d80afa9e4b702"
 ---
 
 # Bitbucket Data Center
 
 How to connect a Polaris project to a repository in Bitbucket Data Center.
+
+Note: SCA Fix Pull Requests are supported for repositories hosted in Bitbucket Data Center. Polaris creates the pull request over the Secure Tunnel that connects it to your private network. See [SCA Fix Pull Requests](../fix-pull-requests-fix-pr.md).
 
 ## Prerequisites
 
@@ -31,7 +33,6 @@ When creating an access token:
 - Set Project permissions to Project read.
 - Set Repository permissions to Repository read.
 - Set the token's expiration date. To avoid issues, we recommend Do not expire.
-- .
 
 Important: Store your token in a secure location. Each time you modify a project's SCM integration, you'll need to reenter the token to save your changes.
 

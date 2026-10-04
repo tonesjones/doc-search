@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-b
 content_id: "F3eJYFQ7i7aYYMYefPRpng"
 version: "latest"
 section: "Azure DevOps Integrations"
-scraped_at: "2026-08-08T23:51:13.545281+00:00"
+scraped_at: "2026-10-04T23:28:29.651094+00:00"
+content_hash: "f6a8fd224a294edfad570a60e5646a28f8c42cb4b30b43b9890a23ec5fbbed1c"
 ---
 
 # Using Black Duck Security Bulk Onboarding for Azure DevOps with Black Duck SCA

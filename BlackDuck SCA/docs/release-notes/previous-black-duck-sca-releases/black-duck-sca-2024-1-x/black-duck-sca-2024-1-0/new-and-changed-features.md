@@ -1,66 +1,44 @@
 ---
 title: "New and changed features"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/new-and-changed-features.html"
-content_id: "IuacOjZB7_4EvnIEjAUkXQ"
+content_id: "xLG_OfwrJKGQtAcNksHzzg"
 version: "2026.7"
-section: "Release Notes"
-scraped_at: "2026-08-08T15:36:23.673584+00:00"
+section: "Black Duck SCA Release Notes"
+scraped_at: "2026-10-04T23:32:31.039321+00:00"
+content_hash: "821b777ab31d34baba9d77be933c2f704c09c9dd178d8502430b0ea2be454ab3"
 ---
 
 # New and changed features
 
 ## New Black Duck Automated Security Advisories (ASA)
 
-Automated Security Advisories (ASA) are automatically created by Black Duck's Cyber
-Security Research Center using automated AI tools. ASAs are created from various
-trusted security feeds such as the GitHub Security Advisories (GHSA) feeds along
-with automated vetting using AI tooling. These advisories are designed to supplement
-the BDSAs identified and verified by our [Cyber Security Research Center](https://www.blackduck.com/resources/cybersecurity-research-center.html).
+Automated Security Advisories (ASA) are automatically created by Black Duck's Cyber Security Research Center using automated AI tools. ASAs are created from various trusted security feeds such as the GitHub Security Advisories (GHSA) feeds along with automated vetting using AI tooling. These advisories are designed to supplement the BDSAs identified and verified by our [Cyber Security Research Center](https://www.blackduck.com/resources/cybersecurity-research-center.html).
 
-You will find ASA-tagged BDSAs in all areas where other vulnerability tags are
-found.
+You will find ASA-tagged BDSAs in all areas where other vulnerability tags are found.
 
 ## New Download Location value for a BOM Component
 
-A new Download Location SBOM field has been added to the list of Additional Fields.
-The Download Location is found under the BOM Component section and is configurable,
-allowing you to add the URL or other specific location within a version control
-system (VCS) where the component was downloaded. This new information is displayed
-in the SBOM report as:
+A new Download Location SBOM field has been added to the list of Additional Fields. The Download Location is found under the BOM Component section and is configurable, allowing you to add the URL or other specific location within a version control system (VCS) where the component was downloaded. This new information is displayed in the SBOM report as:
 
-- SPDX: Under the `packages` > *`package
-  ID`* section as `downloadLocation`.
-- CycloneDX: Under the `components` >
-  `externalReferences` section as `url`.
+- SPDX: Under the `packages` > *`package ID`* section as `downloadLocation`.
+- CycloneDX: Under the `components` > `externalReferences` section as `url`.
 
 ## New copyright text, license comment, and homepage data for SBOM reports
 
-The available SBOM report options under project group settings were updated to
-support inclusion of copyright data, license comments, and homepage URL to the SBOM
-reports. Copyright text, license comments, and homepage URLs are included in both
-CycloneDX and SPDX reports if the group setting is enabled.
+The available SBOM report options under project group settings were updated to support inclusion of copyright data, license comments, and homepage URL to the SBOM reports. Copyright text, license comments, and homepage URLs are included in both CycloneDX and SPDX reports if the group setting is enabled.
 
 ## New SCM repository auto-scanning
 
-SCM repository auto-scanning allows Black Duck to check daily for any changes such as
-commits, pushes, or merges in the repository branch mapped to your SCM projects and
-perform scans if changes were made. To take advantage of this feature, you must
-enable it through to Admin → Jobs → Scheduled.
+SCM repository auto-scanning allows Black Duck to check daily for any changes such as commits, pushes, or merges in the repository branch mapped to your SCM projects and perform scans if changes were made. To take advantage of this feature, you must enable it through to Admin → Jobs → Scheduled.
 
-In addition, two new SCM repository auto-scanning jobs have been added to Black Duck
-to support this feature:
+In addition, two new SCM repository auto-scanning jobs have been added to Black Duck to support this feature:
 
-- SCM Onboarding daily auto scanning: Schedules nightly job that performs auto
-  scanning of previously onboarded SCM repositories.
-- SCM Onboarding daily cleanup: Schedules nightly job that cleans up from SCM
-  Onboarding.
+- SCM Onboarding daily auto scanning: Schedules nightly job that performs auto scanning of previously onboarded SCM repositories.
+- SCM Onboarding daily cleanup: Schedules nightly job that cleans up from SCM Onboarding.
 
 ## Added CISA Known Exploited Vulnerability tag
 
-Vulnerabilities listed in the CISA Known Exploited Vulnerability Catalog are now
-tagged as such in Black Duck. This allows you to add CISA Known Exploited
-Vulnerabilities as a Vulnerability Conditions policy filter. Please visit [CISA's Known Exploited Vulnerability
-Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) page for more information.
+Vulnerabilities listed in the CISA Known Exploited Vulnerability Catalog are now tagged as such in Black Duck. This allows you to add CISA Known Exploited Vulnerabilities as a Vulnerability Conditions policy filter. Please visit [CISA's Known Exploited Vulnerability Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) page for more information.
 
 ## Updated SCM integration
 
@@ -69,25 +47,19 @@ Black Duck 2024.1.0 has added two new SCM providers to the list of SCM integrati
 - GitLab SaaS
 - Bitbucket
 
-You can now add these authorized SCM providers which can then be selected when
-creating a new project. Doing so will automatically pre-populate the repository URL
-and branch version in the Project Settings page for your new project.
+You can now add these authorized SCM providers which can then be selected when creating a new project. Doing so will automatically pre-populate the repository URL and branch version in the Project Settings page for your new project.
 
-This feature is compatible with Detect 8.x and above, and will take effect with new
-package manager scans.
+This feature is compatible with Detect 8.x and above, and will take effect with new package manager scans.
 
-Please note that SCM integration is not enabled by default in Black Duck and must be
-activated by adding the following in your environment:
+Please note that SCM integration is not enabled by default in Black Duck and must be activated by adding the following in your environment:
 
-For Swarm users, add the following to your `blackduck-config.env`
-file:
+For Swarm users, add the following to your `blackduck-config.env` file:
 
 ```
 blackduck.scan.scm.enableIntegration=true
 ```
 
-For Kubernetes users, add the following to your `values.yaml` file
-under the environs section:
+For Kubernetes users, add the following to your `values.yaml` file under the environs section:
 
 ```
 environs:
@@ -96,89 +68,53 @@ environs:
 
 ## Updated SBOM report relationship information
 
-SBOM reports were updated to add dependency information. SPDX reports the
-dependencies now include the dependency type in the `relationships`
-section. Note that this applies only to SPDX 2.3 reports. CycloneDX reports do not
-include dependency types.
+SBOM reports were updated to add dependency information. SPDX reports the dependencies now include the dependency type in the `relationships` section. Note that this applies only to SPDX 2.3 reports. CycloneDX reports do not include dependency types.
 
 ## Updated deep license data management for snippet component matches
 
-Customers leveraging Deep License Data (DLD) and snippet matching together can now
-configure their projects to see deep license risk appearing for files present in the
-components found in their code.
+Customers leveraging Deep License Data (DLD) and snippet matching together can now configure their projects to see deep license risk appearing for files present in the components found in their code.
 
 The feature has been broken up into two separate functions:
 
-- **Apply Deep License Data to Bill of Materials**: Enabling this checkbox
-  will apply deep license data to your non-snippet components and allow
-  visibility to embedded licenses which may exist in your components beyond
-  declared licenses.
-- **Apply Deep License Data to Snippet Component Matches**: If enabled,
-  component snippet matches are included in the deep license data
-  calculation.
+- **Apply Deep License Data to Bill of Materials**: Enabling this checkbox will apply deep license data to your non-snippet components and allow visibility to embedded licenses which may exist in your components beyond declared licenses.
+- **Apply Deep License Data to Snippet Component Matches**: If enabled, component snippet matches are included in the deep license data calculation.
 
 ## Enhanced license conflict management for project hierarchies
 
-Previously, license conflicts were calculated only from a single project license and
-did not factor in project hierarchies. With Black Duck 2024.1.0, subprojects within
-the parent project will now also factor in the calculation.
+Previously, license conflicts were calculated only from a single project license and did not factor in project hierarchies. With Black Duck 2024.1.0, subprojects within the parent project will now also factor in the calculation.
 
-Hierarchical licence conflicts are enabled by default with Black Duck 2024.1.0 but
-can be configured in your environment. However, license conflict information is not
-automatically enabled. System Administrators must enable the Legal and License
-Conflicts tab to view license conflicts. Use the project's Settings tabs to enable
-the feature for current projects.
+Hierarchical licence conflicts are enabled by default with Black Duck 2024.1.0 but can be configured in your environment. However, license conflict information is not automatically enabled. System Administrators must enable the Legal and License Conflicts tab to view license conflicts. Use the project's Settings tabs to enable the feature for current projects.
 
 ## Enhanced component vulnerability history graph
 
-The Vulnerability History graph displayed on a component's page now includes data for
-vulnerabilities of unknown origin.
+The Vulnerability History graph displayed on a component's page now includes data for vulnerabilities of unknown origin.
 
 ## Enhanced Kubernetes probes for SCA
 
-Improvements have been made to the readiness probes used in Kubernetes
-environments:
+Improvements have been made to the readiness probes used in Kubernetes environments:
 
-- A new startupProbe has been added to verify whether the application within a
-  container is started. The startupProbe runs before any other probe, and,
-  unless it finishes successfully, disables other probes.
-- The readinessProbe now starts checking after a 30 second initial delay (from
-  240 seconds) and checks every 10 seconds (from 30 seconds). It also allows
-  for 15 failures before a restart is issued.
+- A new startupProbe has been added to verify whether the application within a container is started. The startupProbe runs before any other probe, and, unless it finishes successfully, disables other probes.
+- The readinessProbe now starts checking after a 30 second initial delay (from 240 seconds) and checks every 10 seconds (from 30 seconds). It also allows for 15 failures before a restart is issued.
 - The livenessProbes now checks every 10 seconds (from 30 seconds).
-- New toggles for startupProbe and readinessProbes have been added. A unique
-  flag has been added to control each probe.
+- New toggles for startupProbe and readinessProbes have been added. A unique flag has been added to control each probe.
 
 ## Enhanced on-demand job retries
 
-On-demand jobs previously attempted to retry three times before finally failing
-which, in some cases, could lead to situations where a job that is known to fail
-would continue to re-run and consume system resources. We have refined this approach
-by disabling retries by default so that jobs kicked off by the periodic scheduler
-retry when the corresponding check job runs again.
+On-demand jobs previously attempted to retry three times before finally failing which, in some cases, could lead to situations where a job that is known to fail would continue to re-run and consume system resources. We have refined this approach by disabling retries by default so that jobs kicked off by the periodic scheduler retry when the corresponding check job runs again.
 
-Please note that this change does not affect report jobs. Report jobs will retry as
-normal.
+Please note that this change does not affect report jobs. Report jobs will retry as normal.
 
 ## Change to the upload cache for source code upload
 
-NOTE: This change was part of Black Duck 2023.10.0 and was not clearly communicated
-at the time.
+NOTE: This change was part of Black Duck 2023.10.0 and was not clearly communicated at the time.
 
-In Black Duck 2023.4.2, a workaround was added for users running on AWS to deal with
-an issue where uploading source files and using the license search feature was not
-working due to file system latency and spawning of multiple du processes.
+In Black Duck 2023.4.2, a workaround was added for users running on AWS to deal with an issue where uploading source files and using the license search feature was not working due to file system latency and spawning of multiple du processes.
 
-This issue was resolved in Black Duck 2023.10.0 with an architectural change to how
-Black Duck uses the upload cache and storage service. The upload cache is no longer
-used for the source code upload functionality in Black Duck therefore the root cause
-problem was eliminated with the new architectural model of the source code upload
-via the storage service.
+This issue was resolved in Black Duck 2023.10.0 with an architectural change to how Black Duck uses the upload cache and storage service. The upload cache is no longer used for the source code upload functionality in Black Duck therefore the root cause problem was eliminated with the new architectural model of the source code upload via the storage service.
 
 ## New Detect GUI release
 
-Detect GUI has been updated to version 2024.1.0 which includes Black Duck Detect (CLI)
-9.1.0.
+Detect GUI has been updated to version 2024.1.0 which includes Black Duck Detect (CLI) 9.1.0.
 
 ## Supported browser versions
 

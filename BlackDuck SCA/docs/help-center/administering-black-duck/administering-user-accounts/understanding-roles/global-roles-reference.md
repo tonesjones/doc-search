@@ -1,17 +1,16 @@
 ---
 title: "Global Roles Reference"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/global-roles-reference.html"
-content_id: "64GAFlLFmMLlqpX8JbTFhQ"
+content_id: "sKo1aVwavDVBH3zA~n2Oew"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T15:31:36.390874+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:18.819249+00:00"
+content_hash: "03b606cd715e2dafff89e87f5e077ce16dd5ff31223cc22544659e3b038c69f7"
 ---
 
 # Global Roles Reference
 
-Global roles grant permissions across the entire Black Duck SCA
-environment. These roles are typically assigned to users who administer Black Duck SCA, manage projects across the organisation, or perform
-specialised security, compliance, and reporting tasks.
+Global roles grant permissions across the entire Black Duck SCA environment. These roles are typically assigned to users who administer Black Duck SCA, manage projects across the organisation, or perform specialised security, compliance, and reporting tasks.
 
 | Role | Description | Key capabilities |
 | --- | --- | --- |
@@ -38,7 +37,5 @@ specialised security, compliance, and reporting tasks.
 
 - Understanding roles
 - Project roles reference
-- Project group roles
-  reference
-- Black Duck SCA user role
-  matrix
+- Project group roles reference
+- Black Duck SCA user role matrix

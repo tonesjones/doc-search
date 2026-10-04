@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/prerequ
 content_id: "y5_gfuJ~qZqQ4MBvsfHGuw"
 version: "latest"
 section: "Bitbucket Integrations"
-scraped_at: "2026-08-08T23:48:50.602449+00:00"
+scraped_at: "2026-10-04T23:28:31.074063+00:00"
+content_hash: "1702a50701caed1a23a7659078aeccdce17325eb0033a9e17e85cac144cc0816"
 ---
 
 # Prerequisites: Bitbucket Black Duck Security App

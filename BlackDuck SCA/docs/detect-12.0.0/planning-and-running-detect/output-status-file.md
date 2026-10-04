@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/output
 content_id: "ggU42h036O42S1wNLnw8Vg"
 version: "12.0.0"
 section: "Planning and running Detect"
-scraped_at: "2026-09-07T21:15:42.300272+00:00"
+scraped_at: "2026-10-04T23:33:19.949343+00:00"
+content_hash: "81b565fbf8f47b1477a7154ef4278f8e453218504b70e9e2b8513d7f8ac8d4e0"
 ---
 
 # Output Status File

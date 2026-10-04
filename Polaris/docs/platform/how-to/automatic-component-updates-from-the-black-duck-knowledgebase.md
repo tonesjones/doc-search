@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/au
 content_id: "FyxpH9tDc4qhH0qWsBtbZA"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:56:32.031689+00:00"
-content_hash: "a093a4afe22126d00649cf67cede092c11518606f0ab6fd178dca349146a2874"
+scraped_at: "2026-10-04T23:29:19.138549+00:00"
+content_hash: "d30e82803e9afe999ba7ec5e4f3e26998d863b925f58af1f1f97e5092703df09"
 ---
 
 # Automatic component updates from the Black Duck KnowledgeBase
@@ -29,6 +29,8 @@ Note: Changes in the KnowledgeBase are synchronized with Polaris every 3 hours, 
 
 To view issues that were added to a project as a result of automatic synchronization, open a completed test's results and use the Found post-test filter. For more information, see [Find issues captured after a test](find-issues-captured-after-a-test.md).
 
-## Reports and dashboards
+## Reports, dashboards, and notifications
 
-It can take up to 60 minutes for changes (resulting from automatic synchronization with the KnowledgeBase) to appear in reports and dashboards.
+It can take up to 60 minutes for changes (resulting from automatic synchronization with the KnowledgeBase) to appear in reports and dashboards, and for email notifications about critical and high vulnerabilities to be sent.
+
+Note: For more information about vulnerability notification emails, see [Vulnerability notifications](vulnerability-notifications.md).

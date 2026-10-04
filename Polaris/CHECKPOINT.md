@@ -1,3 +1,13 @@
+# Current corpus checkpoint
+
+Updated October 4, 2026.
+
+October 2 edition: 205/205 topics, zero pending or errors.
+
+The current catalog is `index.md`; companion catalogs are linked from `corpus-status.md`. The refresh report is `../docs/corpus-refresh-check-2026-10-04.md`.
+
+## Previous checkpoint history
+
 # Session checkpoint — Polaris corpus
 
 **Last updated:** 2026-08-12  

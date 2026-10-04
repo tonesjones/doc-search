@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-t
 content_id: "Q~oHkrQW2wlF~2B84GCaDQ"
 version: "latest"
 section: "Bitbucket Integrations"
-scraped_at: "2026-08-08T23:48:58.063616+00:00"
+scraped_at: "2026-10-04T23:28:31.500389+00:00"
+content_hash: "01822d332565ba08cbbd8fe70d383b1db3afd68632092407e4039211832995df"
 ---
 
 # Using the Black Duck Security App with Polaris
@@ -66,7 +67,7 @@ It can be seen from the screenshot above that a workflow can be generated with t
 The following post scan options can be configured and require a Bitbucket Token to be created as outlined in Bitbucket secrets and variables setup
 
 - **Decorate pull requests with comments**: When checked each new policy violation introduced within a Pull Request will be summarized within a review comment.
-- **Automatically create fix pull requests:** When checked, SCA package assessments will automatically open Fix Pull Requests for a default maximum count of 5 dependency upgrades and vulnerabilities. This uses `$BITBUCKET_TOKEN` secret by default for authentication.
+- **Automatically create fix pull requests:** When checked, Polaris automatically creates Fix Pull Requests for eligible issues in the configured assessment types. SCA assessments create dependency upgrade Pull Requests, while SAST assessments create AI-generated code fix Pull Requests. By default, up to five Fix Pull Requests can be raised across all configured assessment types. The default shared limit is five Fix Pull Requests across all configured assessment types. Polaris evaluates SCA and SAST issues that match the configured Fix PR severity filter, which is `CRITICAL,HIGH` by default. If eligible SCA and SAST issues have the same severity and timestamp for detection then SAST issues are prioritized. When the number of eligible issues exceeds the limit, some issues may not receive a Fix Pull Request. This uses `$BITBUCKET_TOKEN` secret by default for authentication.
 - **Create SARIF file**: When checked a SARIF file will be created. An additional checkbox will be displayed to provide the option to enable upload of the SARIF file to the downloads section of Bitbucket cloud.
 
 **Workflow options**

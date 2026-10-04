@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/bazel-
 content_id: "sG59u9qP5GWWGFHTTkVw1A"
 version: "12.0.0"
 section: "Package Manager information for Detect"
-scraped_at: "2026-09-07T21:15:51.927995+00:00"
+scraped_at: "2026-10-04T23:33:20.315307+00:00"
+content_hash: "b52c56972dd63048300e03735f38d48233e3bae0f9bbc9a99101060cd4de9ff3"
 ---
 
 # Bazel support

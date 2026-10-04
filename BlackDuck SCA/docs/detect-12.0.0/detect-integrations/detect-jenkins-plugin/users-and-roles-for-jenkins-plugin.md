@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/users-
 content_id: "_Cwgicwj8WJEy2st4qm1oA"
 version: "12.0.0"
 section: "Detect Integrations"
-scraped_at: "2026-09-07T21:17:16.167958+00:00"
+scraped_at: "2026-10-04T23:33:23.380653+00:00"
+content_hash: "0fa18d05630e439ae9ae5f73ff139240e37bc309a0eb3db81d3902b3d4425e46"
 ---
 
 # Users and roles for Jenkins Plugin

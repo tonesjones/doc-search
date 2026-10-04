@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/ev
 content_id: "1h4tAFLTrhhOgs_enTTArg"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:57:14.209487+00:00"
-content_hash: "c865ffff3f9de75ec0ec7e683592ed712499e196287236c00ca8f2bb246e53a7"
+scraped_at: "2026-10-04T23:29:20.571323+00:00"
+content_hash: "3210d01741805acf6e96f8ec0bd2ac83d517077be1c7853ee6297efcd846c4e3"
 ---
 
 # Event-Based Test Automation in Polaris for SCM Integrations
@@ -18,16 +18,17 @@ Note: Organization Admins can monitor event-based testing activity in audit logs
 
 ### Prerequisites
 
-- Only available for Azure Repos, Bitbucket Cloud (Premium), GitHub, GitHub Enterprise, or GitLab SaaS (Premium or Ultimate).
+- Only available for Azure Repos, Bitbucket Cloud (Premium), GitHub, GitHub Enterprise, GitLab SaaS, and GitLab Self-Managed.
 - An SCM integration that supports event-based testing automation (see [Connect a Polaris project to a repository in your SCM](connect-a-polaris-project-to-a-repository-in-your-scm.md) or Connect Polaris to Multiple SCM Repositories).
 - The access token used for integration must fit token requirements .
   - Azure Tokens for SCM Bulk Integration and/or Monitoring
   - Bitbucket Tokens for SCM Bulk Integration and/or Monitoring
   - GitHub Tokens for SCM Bulk Integration and/or Monitoring
   - GitLab Tokens for SCM Bulk Integration and/or Monitoring
-- If you plan on using PR comments:
-  - For pull request comments, create or assign a pull/merge request policy (see [Pull/merge request policies](create-and-manage-policies/pull-merge-request-policies.md)) and enable "A new pull request is created or updated" in your test automation.
-  - For Fix PRs, see [Fix Pull Requests (Fix PR)](fix-pull-requests-fix-pr.md)
+- If you plan on using PR/MR comments:
+  - For pull/merge request comments, create or assign a pull/merge request policy (see [Pull/merge request policies](create-and-manage-policies/pull-merge-request-policies.md)) and enable "A new pull request is created or updated" in your test automation.
+  - For SCA Fix PRs, see [SCA Fix Pull Requests](fix-pull-requests-fix-pr.md)
+  - For AI-assisted SAST Fix PRs, see [SAST Fix Pull Requests](sast-fix-pull-requests.md)
   - For Fail PRs, see [Fail Pull Requests (Fail PR)](fail-pull-requests-fail-pr.md)
 
 ### Setting inheritance
@@ -53,7 +54,7 @@ To check the active event-based test automation settings for a branch, go to Por
 
 ## Update organization-level event-based test automation settings
 
-Changing the settings will cause all appslications and projects that are inheriting the settings to get new settings. To manage organization-level test automation settings:
+Changing the settings will cause all applications and projects that are inheriting the settings to get new settings. To manage organization-level test automation settings:
 
 Note: Only Organization Administrators can manage organization-level test automation settings.
 
@@ -64,10 +65,10 @@ Note: Only Organization Administrators can manage organization-level test automa
 
       These options are available for both default and non-default branches.
 
-      To enable pull request comments, enable A new pull request is created or updated and assign a pull/merge request policy (see [Pull/merge request policies](create-and-manage-policies/pull-merge-request-policies.md)).
+      To enable pull/merge request comments, enable A new pull request is created or updated and assign a pull/merge request policy (see [Pull/merge request policies](create-and-manage-policies/pull-merge-request-policies.md)).
    2. Select if tests are SAST (Full or Rapid), SCA, or both test types.
 
-      Note: Rapid Scan Static tests provide quick results, whereas full SAST tests provide more in-depth but time-consuming analysis. The initial test should be full. Rapid scans are recommended for new pull requests, and full analysis for merges. Before a rapid scan, if the system detects no full analysis has run on the project with the same tool version, it converts the scan to full. Subsequent scans for that tool version run as rapid scans.
+      Note: Rapid Scan Static tests provide quick results, whereas full SAST tests provide more in-depth but time-consuming analysis. The initial test should be full. Rapid scans are recommended for new pull/merge request, and full analysis for merges. Before a rapid scan, if the system detects no full analysis has run on the project with the same tool version, it converts the scan to full. Subsequent scans for that tool version run as rapid scans.
    3. Option to select Block merge when policy fails pull/merge then select Default branches only or All branches. It requires a fail pull/merge request policy. See [Fail Pull Requests (Fail PR)](fail-pull-requests-fail-pr.md)
 4. Select Save.
 
@@ -84,9 +85,9 @@ Note: Organization Administrators, Organization Application Managers, and other 
 
    You can enable SAST (Full and/or Rapid) and SCA tests when, for default and non-default branches, A new pull request is created or updated and/or A pull request is merged.
 
-   Note: Rapid Scan Static tests provide quick results, whereas full SAST tests provides more in-depth but time-consuming analysis. The initial test should be full. Rapid scans are recommended for new pull requests, and full analysis for merges. Before a rapid scan, if the system detects no full analysis has run on the project with the same tool version, it converts the scan to full. Subsequent scans for that tool version run as rapid scans.
+   Note: Rapid Scan Static tests provide quick results, whereas full SAST tests provides more in-depth but time-consuming analysis. The initial test should be full. Rapid scans are recommended for new pull/merge requests, and full analysis for merges. Before a rapid scan, if the system detects no full analysis has run on the project with the same tool version, it converts the scan to full. Subsequent scans for that tool version run as rapid scans.
 
-   Note: For pull request comments, create or assign a pull/merge request policy (see [Pull/merge request policies](create-and-manage-policies/pull-merge-request-policies.md)) and enable "A new pull request is created or updated" in your test automation.
+   Note: For pull/merge request comments, create or assign a pull/merge request policy (see [Pull/merge request policies](create-and-manage-policies/pull-merge-request-policies.md)) and enable "A new pull request is created or updated" in your test automation.
 5. Select Save.
 
 ## Update project-level event-based test automation settings
@@ -102,9 +103,9 @@ Note: Organization Administrators, Organization Application Managers, Applicatio
 
    You can enable SAST (Full and/or Rapid) and SCA tests when, for default and non-default branches, A new pull request is created or updated and/or A pull request is merged.
 
-   Note: Rapid Scan Static tests provide quick results, whereas full SAST tests provides more in-depth but time-consuming analysis. The initial test should be full. Rapid scans are recommended for new pull requests, and full analysis for merges. Before a rapid scan, if the system detects no full analysis has run on the project with the same tool version, it converts the scan to full. Subsequent scans for that tool version run as rapid scans.
+   Note: Rapid Scan Static tests provide quick results, whereas full SAST tests provides more in-depth but time-consuming analysis. The initial test should be full. Rapid scans are recommended for new pull/merge requests, and full analysis for merges. Before a rapid scan, if the system detects no full analysis has run on the project with the same tool version, it converts the scan to full. Subsequent scans for that tool version run as rapid scans.
 
-   Note: For pull request comments, create or assign a pull/merge request policy (see [Pull/merge request policies](create-and-manage-policies/pull-merge-request-policies.md)) and enable "A new pull request is created or updated" in your test automation.
+   Note: For pull/merge request comments, create or assign a pull/merge request policy (see [Pull/merge request policies](create-and-manage-policies/pull-merge-request-policies.md)) and enable "A new pull request is created or updated" in your test automation.
 5. Select Save.
 
 ## Update branch-level event-based test automation settings
@@ -120,9 +121,9 @@ Note: Organization Administrators, Organization Application Managers, Applicatio
 
    You can enable SAST (Full and/or Rapid) and SCA tests when A new pull request is created or updated and/or A pull request is merged.
 
-   Note: Rapid Scan Static tests provide quick results, whereas full SAST tests provides more in-depth but time-consuming analysis. The initial test should be full. Rapid scans are recommended for new pull requests, and full analysis for merges. Before a rapid scan, if the system detects no full analysis has run on the project with the same tool version, it converts the scan to full. Subsequent scans for that tool version run as rapid scans.
+   Note: Rapid Scan Static tests provide quick results, whereas full SAST tests provides more in-depth but time-consuming analysis. The initial test should be full. Rapid scans are recommended for new pull/merge requests, and full analysis for merges. Before a rapid scan, if the system detects no full analysis has run on the project with the same tool version, it converts the scan to full. Subsequent scans for that tool version run as rapid scans.
 
-   Note: For pull request comments, create or assign a pull/merge request policy (see [Pull/merge request policies](create-and-manage-policies/pull-merge-request-policies.md)) and enable "A new pull request is created or updated" in your test automation.
+   Note: For pull/merge request comments, create or assign a pull/merge request policy (see [Pull/merge request policies](create-and-manage-policies/pull-merge-request-policies.md)) and enable "A new pull request is created or updated" in your test automation.
 5. Select Save.
 
 ## Reset event-based test automation settings

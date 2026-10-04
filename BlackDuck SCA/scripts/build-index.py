@@ -216,6 +216,9 @@ def merge_statuses(new_topics: list[dict], old_manifest: dict | None) -> list[di
                 t[key] = old[key]
         if old.get("status") == "done" and old.get("localPath"):
             t["localPath"] = old["localPath"]
+    new_topics.extend(t for t in old_manifest.get("topics", [])
+                      if str(t.get("id", "")).startswith("local-")
+                      and t["id"] not in {n["id"] for n in new_topics})
     return new_topics
 
 

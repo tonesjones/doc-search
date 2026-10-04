@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/jenkin
 content_id: "yMxJeo7itJ7NBDpGhzjE0w"
 version: "12.0.0"
 section: "Detect Integrations"
-scraped_at: "2026-09-07T21:17:20.855193+00:00"
+scraped_at: "2026-10-04T23:33:23.510701+00:00"
+content_hash: "f69e8bd8d43ab52d6a18f8d5c698cb573fc49452153b9fec6aa1683690e50b16"
 ---
 
 # Jenkins Air Gap mode

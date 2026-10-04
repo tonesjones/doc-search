@@ -1,18 +1,16 @@
 ---
 title: "Creating Custom Components and Component Versions"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/creating-custom-components-and-component-versions.html"
-content_id: "8vfDHBcFgA2~U2FGlGueuA"
+content_id: "O2HxhlwLdbZHMT2NIgDYVQ"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T15:30:13.091316+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:15.198428+00:00"
+content_hash: "5f4aab9311e199543ed1c0707db761002d177b9caf6dd2eae434f9d661313c27"
 ---
 
 # Creating Custom Components and Component Versions
 
-Create custom components and component versions to represent software that is not
-available in the Black Duck KnowledgeBase. Custom components can be used to track
-commercial, proprietary, internally developed, or otherwise unmanaged software within a
-BOM.
+Create custom components and component versions to represent software that is not available in the Black Duck KnowledgeBase. Custom components can be used to track commercial, proprietary, internally developed, or otherwise unmanaged software within a BOM.
 
 ## Before you begin
 
@@ -29,28 +27,22 @@ You must have the **Component Manager** role.
    - **Name**
    - **Version**
    - **License**
-4. Optionally, enter additional component information. See component and version fields
-   below for more information on each field.
+4. Optionally, enter additional component information. See component and version fields below for more information on each field.
 5. Click **Create**.
 
 The custom component is created and appears in the **Components** list.
 
-When a custom component is created, the initial component version is created
-automatically using the version information provided during creation and appears in
-the **Component Versions** list.
+When a custom component is created, the initial component version is created automatically using the version information provided during creation and appears in the **Component Versions** list.
 
 ## Creating a new version for an existing custom component
 
 1. Click [image: Manage] > **Components**.
-2. Select the custom component for which you want to create a version. Note that
-   you can also select the component from the **Component Versions**
-   tab.
+2. Select the custom component for which you want to create a version. Note that you can also select the component from the **Component Versions** tab.
 3. Click **+ Create Version**.
 4. Enter values for the component version.
 
    The **Version** and **Licence** fields are required.
-5. Optionally, update additional component information. See component and version fields below
-   for more information on each field.
+5. Optionally, update additional component information. See component and version fields below for more information on each field.
 6. Click **Create**.
 
 ## Component and version fields
@@ -70,5 +62,4 @@ the **Component Versions** list.
 | **Description** | Additional information about the component. |
 | **URL** | URL associated with the component. |
 
-Important: If you provide a value for an **External ID** field, you must provide
-values for all External ID fields.
+Important: If you provide a value for an **External ID** field, you must provide values for all External ID fields.

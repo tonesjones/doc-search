@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/inspec
 content_id: "oPP1AyiBL6qt5BIzfZOXDw"
 version: "12.0.0"
 section: "Detect Components"
-scraped_at: "2026-09-07T21:15:50.340603+00:00"
+scraped_at: "2026-10-04T23:33:20.252716+00:00"
+content_hash: "081cdfb43a86ed6c870d84bf59c9ec7b4514b95a3b1c84cd7365f6ea1137eb31"
 ---
 
 # Inspectors

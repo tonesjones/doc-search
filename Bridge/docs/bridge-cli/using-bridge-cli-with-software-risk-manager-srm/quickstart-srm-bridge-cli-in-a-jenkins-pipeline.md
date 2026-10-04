@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickst
 content_id: "eZIBNcbcaLZFkh6roQhMOw"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:47:28.081140+00:00"
+scraped_at: "2026-10-04T23:28:26.981292+00:00"
+content_hash: "d40f05690d44826415039dd3b8d58a86cfe75f0c166a78edbb78a1917157d5a0"
 ---
 
 # Quickstart: SRM Bridge CLI in a Jenkins pipeline

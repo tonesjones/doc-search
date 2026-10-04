@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/releas
 content_id: "Nv4kn99pLo6v81SA2pPkag"
 version: "12.0.0"
 section: "Release Notes"
-scraped_at: "2026-09-07T21:14:52.436699+00:00"
+scraped_at: "2026-10-04T23:33:18.340144+00:00"
+content_hash: "c3d8535de7c72919d1d10892c579ba9bc3fcc8bda3575d44a91e2ede461266b2"
 ---
 
 # Release notes for previous Detect versions

@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/create-
 content_id: "tQT0QGztOhw9W7eNtpI2fA"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:47:05.500668+00:00"
+scraped_at: "2026-10-04T23:28:25.974394+00:00"
+content_hash: "0b6d3e9a138a37d2f2993ccb1a6ee63755be566ebe04d53297290d953e5f5430"
 ---
 
 # Create a secure tunnel using Bridge CLI

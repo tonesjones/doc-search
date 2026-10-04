@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/ho
 content_id: "kO1ixBtT2l7TEGgb8ih7~Q"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:56:19.784594+00:00"
-content_hash: "f5270ddbebeffdd941d1241a8313fe23315cae7d071224b2562fd9a256e3a00a"
+scraped_at: "2026-10-04T23:29:18.813948+00:00"
+content_hash: "befa5398b77dadc586fe1a4e5cd19db9bed6ec5b1813736391d924ded9411b07"
 ---
 
 # How to run SCA binary analysis

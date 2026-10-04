@@ -41,13 +41,29 @@ PRODUCTS: dict[str, dict[str, Any]] = {
         "root_slugs": COVERITY_ROOT_SLUGS,
         "reader_product": "coverity",
         "reader_book": "coverity-documentation",
+        "index_file": "index-coverity-2026.6.md",
+        "default": False,
+        "historical": True,
+        "phase": 1,
+    },
+    "coverity-2026.9": {
+        "key": "coverity-2026.9",
+        "map_id": "p947~vf~m8~FAAkUVEdBIQ",
+        "version": "2026.9",
+        "product": "coverity",
+        "title": "Coverity Documentation",
+        "source_dir": "sources/coverity-2026.9",
+        "docs_root": "coverity-2026.9",
+        "root_slugs": COVERITY_ROOT_SLUGS,
+        "reader_product": "coverity",
+        "reader_book": "coverity-documentation",
         "index_file": "index.md",
         "default": True,
         "phase": 1,
     },
 }
 
-DEFAULT_PRODUCT_KEY = "coverity-2026.6"
+DEFAULT_PRODUCT_KEY = "coverity-2026.9"
 
 
 def get_product(key: str | None = None) -> dict[str, Any]:

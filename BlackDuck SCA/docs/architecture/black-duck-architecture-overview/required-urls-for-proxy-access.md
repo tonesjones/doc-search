@@ -1,17 +1,16 @@
 ---
 title: "Required URLs for proxy access"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/required-urls-for-proxy-access.html"
-content_id: "Uy5absqXAT2amxJyv8Bj3w"
+content_id: "hLROcJ5kZy_coOa~VqX18w"
 version: "2026.7"
 section: "Architecture and Network Communications"
-scraped_at: "2026-08-08T15:32:47.412939+00:00"
+scraped_at: "2026-10-04T23:32:22.024451+00:00"
+content_hash: "47b7d09838f0e47cdb995fcb171f9932bccedac84fa2c0a2be3049311049c01f"
 ---
 
 # Required URLs for proxy access
 
-If your corporate security policy requires registration of specific URLs, connectivity
-from the customer's Black Duck server to Black Duck hosted servers is limited to communications via HTTPS/TCP on port 443 with the
-following servers:
+If your corporate security policy requires registration of specific URLs, connectivity from the customer's Black Duck server to Black Duck hosted servers is limited to communications via HTTPS/TCP on port 443 with the following servers:
 
 | Domain | IP Address(es) |
 | --- | --- |
@@ -30,6 +29,4 @@ following servers:
 | registry-1.docker.io | 54.196.99.49, 3.219.239.5, 34.226.69.105 |
 | github.com | 140.82.116.4 |
 
-Companies that wish to enhance the security of their Black Duck server
-should configure their firewalls to block external communications on other ports or
-to/from other machines outside their firewall.
+Companies that wish to enhance the security of their Black Duck server should configure their firewalls to block external communications on other ports or to/from other machines outside their firewall.

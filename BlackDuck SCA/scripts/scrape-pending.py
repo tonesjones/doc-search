@@ -110,6 +110,8 @@ def select_topics(manifest: dict, args: argparse.Namespace) -> list[dict]:
 
     out: list[dict] = []
     for t in manifest["topics"]:
+        if str(t.get("id", "")).startswith("local-"):
+            continue
         if t.get("status") not in statuses:
             continue
         if args.batch_a and not is_batch_a(t):
@@ -166,6 +168,21 @@ def html_to_markdown(html: str, title: str) -> str:
     if not re.match(r"^#\s+", text):
         text = f"# {title}\n\n{text}"
     return text
+
+
+def fill_empty_topic(topic: dict, body: str, topics: list[dict]) -> str:
+    if "_(No extractable content.)_" not in body:
+        return body
+    children = [t for t in topics if t.get("path", [])[:-1] == topic["path"]]
+    lines = [f"# {topic['title']}", ""]
+    if children:
+        lines.extend(["## Contents", ""])
+        for child in children:
+            link = os.path.relpath(child["localPath"], os.path.dirname(topic["localPath"])).replace("\\", "/")
+            lines.append(f"- [{child['title']}]({link})")
+    else:
+        lines.append("This official topic has no extractable body in the pinned documentation.")
+    return "\n".join(lines)
 
 
 def write_topic_md(
@@ -232,7 +249,7 @@ def scrape_product(cfg: dict, args: argparse.Namespace) -> int:
         print(f"[{cfg['key']}] [{i}/{len(topics)}] {title} ({cid})")
         try:
             html = fetch_html(cfg, cid)
-            body = html_to_markdown(html, title or "Untitled")
+            body = fill_empty_topic(topic, html_to_markdown(html, title or "Untitled"), manifest["topics"])
             scraped_at = now_iso()
             digest = content_hash("\n" + body)
             if args.refresh_changed and topic.get("contentHash") == digest:

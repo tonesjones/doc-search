@@ -1,10 +1,11 @@
 ---
 title: "Editing SBOM and VEX Templates"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/editing-sbom-and-vex-templates.html"
-content_id: "ZfyGMTD9ROpZCL5tq58HMg"
+content_id: "lSkHNUn9h~AHsXFTm2_4oQ"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T15:31:21.252741+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:18.046070+00:00"
+content_hash: "37b61546ccd225881cfcefa93facf9bc7f96dd4f01bd0c224dac2501e3f3269d"
 ---
 
 # Editing SBOM and VEX Templates
@@ -16,13 +17,11 @@ This page describes how to edit existing SBOM and VEX templates.
 
 Note:
 
-**Required permissions:** To edit SBOM or VEX templates, you must have Custom
-Fields Administrator role permissions.
+**Required permissions:** To edit SBOM or VEX templates, you must have Custom Fields Administrator role permissions.
 
 ## Editing a SBOM template
 
-For all SBOM templates, you can edit the name, description, default SBOM and report
-types, and enabled SBOM fields.
+For all SBOM templates, you can edit the name, description, default SBOM and report types, and enabled SBOM fields.
 
 To edit a SBOM template:
 
@@ -34,9 +33,7 @@ To edit a SBOM template:
 
 ## Editing a VEX template
 
-For custom VEX templates, you can edit the name, description, active status, and all
-configurable fields (Project Data, Subproject Data, and Vulnerability Data). The
-System template cannot be edited.
+For custom VEX templates, you can edit the name, description, active status, and all configurable fields (Project Data, Subproject Data, and Vulnerability Data). The System template cannot be edited.
 
 To edit a VEX template:
 
@@ -46,8 +43,6 @@ To edit a VEX template:
 4. Edit any of the fields.
 5. Click **Save**.
 
-Tip: Click **Reset** to restore all fields to their last saved values
-before saving your changes.
+Tip: Click **Reset** to restore all fields to their last saved values before saving your changes.
 
-Note: The System (built-in) template cannot be edited. To customize its configuration,
-create a new template from it using **Copy**, then edit the copy.
+Note: The System (built-in) template cannot be edited. To customize its configuration, create a new template from it using **Copy**, then edit the copy.

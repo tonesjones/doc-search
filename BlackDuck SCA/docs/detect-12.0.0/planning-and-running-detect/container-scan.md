@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/contai
 content_id: "HjuODacBz8fcKYoXsN_AYQ"
 version: "12.0.0"
 section: "Planning and running Detect"
-scraped_at: "2026-09-07T21:15:44.111306+00:00"
+scraped_at: "2026-10-04T23:33:20.013563+00:00"
+content_hash: "5984729841d0824220cf8495c6e9f9e87dd797e80b8f48c0774eb240a289fce6"
 ---
 
 # Container Scan

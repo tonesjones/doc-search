@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-b
 content_id: "DB3mniWSJB2WPCpqg3ByGA"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:46:56.985780+00:00"
+scraped_at: "2026-10-04T23:28:25.541867+00:00"
+content_hash: "4a3987905387fa29b18ed7747541bb88b8d2eb5c6702222a9291075d536a8e07"
 ---
 
 # Using Bridge CLI with Polaris
@@ -288,6 +289,12 @@ A `coverity.yml` configuration file is required for
 - Optimizing static analysis when results are unsatisfactory.
 
 Certain Coverity Connect scans on Polaris require configuration of additional capture settings using a `coverity.yaml` file.
+
+Note: Bridge CLI 4.4.0 and later supports centralized configuration for SAST scans using a Coverity configuration file managed in the Polaris Web UI. Administrators upload the configuration file to Polaris. During a scan, Bridge CLI retrieves it and passes it to Coverity for analysis.
+
+A locally specified configuration, using `coverity.config.path` or `--config` or `-c` in `coverity.args`, takes precedence over the centrally managed configuration.
+
+If no configuration is available in Polaris or locally, Coverity uses the default CLI and analyzer behavior (see [default analysis documentation](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/48a0a223f2d3132fc578c1a4f7c67eac.topic)).
 
 See [Configuring Coverity Thin Client for use with Bridge CLI and Polaris](https://docs.blackduck.com/access?ft:originId=4411d74355056751ace3917564d29bc0/3d79ddc1d59ccc31d9e8859e179b61e7.topic) in the Black Duck® Developer Portal for more information.
 

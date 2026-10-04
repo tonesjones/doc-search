@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/create-
 content_id: "R07wexfykgJYgFGVVbHYsQ"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:47:08.773319+00:00"
+scraped_at: "2026-10-04T23:28:26.114672+00:00"
+content_hash: "01243a77070e8119e562521036f48f1574965c2cf5e4bf5599ffd18589934f84"
 ---
 
 # Create external issues from Polaris scans

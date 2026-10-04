@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/po
 content_id: "~yN_fpU5QAib9FJLTHKk5g"
 product_key: "polaris-platform-latest"
 section: "Reference"
-scraped_at: "2026-08-12T19:57:56.590961+00:00"
-content_hash: "41288cc69d4a9a5701cce790ea79ef760ab1934f6589691a2a6588e4f951fe7a"
+scraped_at: "2026-10-04T23:29:23.553380+00:00"
+content_hash: "7ea2fffe47a9f8733759268aaa7ad4f24ac61eb0b39bea973f49278819ce8115"
 ---
 
 # Polaris IP ranges for Bridge CLI

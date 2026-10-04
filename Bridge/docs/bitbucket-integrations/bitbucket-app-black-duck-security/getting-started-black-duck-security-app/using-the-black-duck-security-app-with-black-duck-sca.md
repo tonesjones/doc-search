@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-t
 content_id: "h20ONq1_wEvYxskddDVm1g"
 version: "latest"
 section: "Bitbucket Integrations"
-scraped_at: "2026-08-08T23:48:56.284169+00:00"
+scraped_at: "2026-10-04T23:28:31.410735+00:00"
+content_hash: "a4c8e09ccdc8c003076e57f96962f86ec08ad79498a53d348b18c0a88ffde5c4"
 ---
 
 # Using the Black Duck Security App with Black Duck SCA

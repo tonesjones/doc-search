@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/fix-pul
 content_id: "X6MIwVxAqwC5eTWzpb8XqA"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:47:29.320248+00:00"
+scraped_at: "2026-10-04T23:28:27.033663+00:00"
+content_hash: "b9c18890ff90c90a9117f1eda73a85d97ed666c0efdf61f0c2c5a7a262b8e67c"
 ---
 
 # Fix pull requests (Fix PRs)

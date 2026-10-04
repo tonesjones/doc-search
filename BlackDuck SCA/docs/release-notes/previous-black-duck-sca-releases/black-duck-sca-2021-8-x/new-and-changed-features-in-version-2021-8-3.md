@@ -1,10 +1,11 @@
 ---
 title: "New and Changed Features in Version 2021.8.3"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/new-and-changed-features-in-version-2021.8.3.html"
-content_id: "fQdFqXEJxJ3Q4jSWTmfbiw"
+content_id: "nc3jSg5_LOkaFQIEXF59RA"
 version: "2026.7"
-section: "Release Notes"
-scraped_at: "2026-08-08T15:38:02.314145+00:00"
+section: "Black Duck SCA Release Notes"
+scraped_at: "2026-10-04T23:32:35.282069+00:00"
+content_hash: "9ee0c3d5a67338509f6775a072a439d135b1a2b9f17aa71942c7585c35ab0fea"
 ---
 
 # New and Changed Features in Version 2021.8.3

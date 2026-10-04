@@ -1,10 +1,11 @@
 ---
 title: "How does the tool run?"
 source_url: "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/how-does-the-tool-run-.html"
-content_id: "y8V_SQ48DovNtm3pFlg3HA"
+content_id: "A7qlMj6BJAUEU0txQeEfgA"
 version: "latest"
 section: "Black Duck C/CPP Tool"
-scraped_at: "2026-08-13T16:16:52.941441+00:00"
+scraped_at: "2026-10-04T23:32:44.050670+00:00"
+content_hash: "f175a819218e39bd38bda77cd37fb8b3472f3c2dfe451aaf3b41198d8595420f"
 ---
 
 # How does the tool run?

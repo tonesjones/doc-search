@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickst
 content_id: "I9iSeNJAMd3FweRG7JnJrQ"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:46:59.787437+00:00"
+scraped_at: "2026-10-04T23:28:25.654599+00:00"
+content_hash: "1ece68d2575a0d5b386f7743a79b4baf004fdd6e2561bda8f532413e56d9a09c"
 ---
 
 # Quickstart: Polaris Bridge CLI in a Bitbucket pipeline

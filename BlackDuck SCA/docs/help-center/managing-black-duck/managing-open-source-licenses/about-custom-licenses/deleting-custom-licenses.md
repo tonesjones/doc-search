@@ -1,10 +1,11 @@
 ---
 title: "Deleting custom licenses"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/deleting-custom-licenses.html"
-content_id: "mJpjynvoOZeASK4P2nEHMg"
+content_id: "nc4uou0o2X8eNg7aGgbR5w"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T15:30:44.635915+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:16.433377+00:00"
+content_hash: "8099f26ae1e6efb1b3467304afc30441611c2cad953afd69e4fa3369b9a2e203"
 ---
 
 # Deleting custom licenses
@@ -20,9 +21,7 @@ You also cannot delete licenses provided by Black Duck KnowledgeBase.
 
      
     [image: License Management page]
-3. Click [image: Down arrow] and select **Delete** in the row of the custom license that you want
-   to delete to display a confirmation dialog box.
+3. Click [image: Down arrow] and select **Delete** in the row of the custom license that you want to delete to display a confirmation dialog box.
 
-   An error message appears if you try to delete a custom license that is currently
-   being used in a BOM.
+   An error message appears if you try to delete a custom license that is currently being used in a BOM.
 4. Click **Delete** to confirm.

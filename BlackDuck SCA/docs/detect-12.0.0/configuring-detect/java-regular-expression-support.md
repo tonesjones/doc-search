@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/java-r
 content_id: "MxYfQG3Q6K2WdyP7YW0TSQ"
 version: "12.0.0"
 section: "Configuring Detect"
-scraped_at: "2026-09-07T21:15:21.966772+00:00"
+scraped_at: "2026-10-04T23:33:19.281703+00:00"
+content_hash: "8fa9c683acebbf71f9ac235f024d4e43650ae6fb7284b7bebce6cee2fa90af77"
 ---
 
 # Java regular expression support

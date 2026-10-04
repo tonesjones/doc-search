@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-t
 content_id: "QP7DhnK0me9Si8QutqBYZQ"
 version: "latest"
 section: "Azure DevOps Integrations"
-scraped_at: "2026-08-08T23:48:29.487814+00:00"
+scraped_at: "2026-10-04T23:28:30.146924+00:00"
+content_hash: "3885d6c212ba4e78d9f3261151e3ac76abfc39d307c52f5db1b697e6a31846e5"
 ---
 
 # Using the Black Duck Security Scan Extension with Software Risk Manager

@@ -33,13 +33,30 @@ PRODUCTS: dict[str, dict[str, Any]] = {
         "reader_product": "sigma",
         "reader_book": "sigma-documentation",
         "reader_path": "r/sigma/2026.8.0/sigma-documentation/",
+        "index_file": "index-sigma-2026.8.0.md",
+        "default": False,
+        "historical": True,
+        "phase": 1,
+    },
+    "sigma-2026.9.1": {
+        "key": "sigma-2026.9.1",
+        "map_id": "HDJ_IfD4RK593mgPPhyrnw",
+        "version": "2026.9.1",
+        "product": "sigma",
+        "title": "Sigma Documentation",
+        "source_dir": "sources/sigma-2026.9.1",
+        "docs_root": "sigma-2026.9.1",
+        "root_slugs": SIGMA_ROOT_SLUGS,
+        "reader_product": "sigma",
+        "reader_book": "sigma-documentation",
+        "reader_path": "r/sigma/2026.9.1/sigma-documentation/",
         "index_file": "index.md",
         "default": True,
         "phase": 1,
     },
 }
 
-DEFAULT_PRODUCT_KEY = "sigma-2026.8.0"
+DEFAULT_PRODUCT_KEY = "sigma-2026.9.1"
 
 
 def get_product(key: str | None = None) -> dict[str, Any]:

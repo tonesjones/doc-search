@@ -1,22 +1,18 @@
 ---
 title: "New and Changed Features in Version 2022.2.1"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/new-and-changed-features-in-version-2022.2.1.html"
-content_id: "onzUzXu_27nKXtLPJHto5w"
+content_id: "tNB~C_MW5AJPD11Morjwhw"
 version: "2026.7"
-section: "Release Notes"
-scraped_at: "2026-08-08T15:37:43.506544+00:00"
+section: "Black Duck SCA Release Notes"
+scraped_at: "2026-10-04T23:32:34.293273+00:00"
+content_hash: "7cea2008d7b648db830f9bb8165f2f4bdf17b26434e5b1e2774f86b736b72fb9"
 ---
 
 # New and Changed Features in Version 2022.2.1
 
 ## Updated Data Removal feature (Beta)
 
-The data removal feature allows you to explore ways to automatically delete
-ProjectVersions according defined criteria. For users with version limits, disk
-space constraints or database bottlenecks, the buildup of obsolete versions can
-become problematic to either their process or to their system performance. This
-feature is helpful if you generate multiple ProjectVersions over time which become
-obsolete over time.
+The data removal feature allows you to explore ways to automatically delete ProjectVersions according defined criteria. For users with version limits, disk space constraints or database bottlenecks, the buildup of obsolete versions can become problematic to either their process or to their system performance. This feature is helpful if you generate multiple ProjectVersions over time which become obsolete over time.
 
 Added in Black Duck 2022.2.0, a new environment variable has been added:
 
@@ -24,27 +20,19 @@ Added in Black Duck 2022.2.0, a new environment variable has been added:
   BLACKDUCK_AUTOMATIC_VERSION_REMOVAL_RELEASE_PHASES
   ```
 
-  - Defines what ProjectVersion phases are applicable to the data removal
-    process.
-  - Release phases values are: Planning, Development, Released,
-    Deprecated, Archived, and Prerelease
+  - Defines what ProjectVersion phases are applicable to the data removal process.
+  - Release phases values are: Planning, Development, Released, Deprecated, Archived, and Prerelease
   - If not set, the default value is Development.
   - Values are case insensitive.
-  - Multiple release phases can be added with the phases delimited by
-    comma.
+  - Multiple release phases can be added with the phases delimited by comma.
 
 ## Updated role assignment for Projects and Project Groups
 
-You can now add users to Projects and Project Groups as a Project Viewer. When adding
-a user to a Project or Project Group, the role of Project Viewer is now
-automatically selected and serves as the default role. You can then add further
-roles to the user as needed.
+You can now add users to Projects and Project Groups as a Project Viewer. When adding a user to a Project or Project Group, the role of Project Viewer is now automatically selected and serves as the default role. You can then add further roles to the user as needed.
 
 ## Updated minimum scan interval configuration
 
-Starting from Detect 7.13 and later, the Black Duck Hub scan setting for Minimum Scan
-Interval will be disabled. Minimum scan interval should be configured as a command
-argument through Detect as follows:
+Starting from Detect 7.13 and later, the Black Duck Hub scan setting for Minimum Scan Interval will be disabled. Minimum scan interval should be configured as a command argument through Detect as follows:
 
 ```
 --detect.blackduck.signature.scanner.arguments='--min-scan-interval=##'

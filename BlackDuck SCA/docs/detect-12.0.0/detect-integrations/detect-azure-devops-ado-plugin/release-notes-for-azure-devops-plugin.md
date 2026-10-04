@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/releas
 content_id: "UCnI1B4u1rnFvgNqv26wTA"
 version: "12.0.0"
 section: "Detect Integrations"
-scraped_at: "2026-09-07T21:17:23.437231+00:00"
+scraped_at: "2026-10-04T23:33:23.593621+00:00"
+content_hash: "a365bcd3caa76109941a63e51d2975298c1fd0f6d12701e63f697223a93716ef"
 ---
 
 # Release Notes for Azure DevOps Plugin

@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/cargo.
 content_id: "4RDfKTkcTfGhD9CMy43o1w"
 version: "12.0.0"
 section: "Detect Properties"
-scraped_at: "2026-09-07T21:16:43.732410+00:00"
+scraped_at: "2026-10-04T23:33:22.306919+00:00"
+content_hash: "e1e0635101b1711b7b56258c77f2ae843111f92e3cf4bf2caa4914bae69eb5ba"
 ---
 
 # cargo

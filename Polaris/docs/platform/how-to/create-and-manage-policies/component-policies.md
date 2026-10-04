@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/co
 content_id: "WEH9WFyQ3kk89_Am_VWQ2w"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:57:00.081307+00:00"
-content_hash: "5c27fe2c00dbdcf467250157eef37dc8e4d2c93551c816cfc57609cf96686231"
+scraped_at: "2026-10-04T23:29:20.054830+00:00"
+content_hash: "e802e4a1434bf20dbda9d536aa61d1c5677bca6d2099fee59407e641dab5c50b"
 ---
 
 # Component policies
@@ -45,7 +45,9 @@ Table 1. Actions and action prerequisites
 | --- | --- | --- |
 | Send Notification | Send an email notification to Organization Admins when components with specific properties are found in a test. Each email includes the names of one or more violated component policies, the violated rules in each policy, the total quantity of violating components for each rule, and helpful links. Click a component quantity to view the components that violate the rule in Polaris. Note: Email notifications for issue and component policies are only sent to Organization Admins. One email is sent each time a test's results violate one or more policies, and each email can include components that violate more than one of each policy's rules. If a test's results violate issue and component policies, violated issue and component policies are listed in the same email. | Notifications must be enabled for the organization, and your personal notification settings must allow Policy notifications. |
 | Attempt Build Break | For SCA tests run via Bridge (including the Black Duck Security Scan Extension for Azure DevOps, the GitHub Action, the GitLab Template, and Black Duck Security Scan Plugin for Jenkins), attempt to break a build after components with specific properties are found in a SCA test. | The action only affects SCA tests run using Bridge CLI Bundle 3.2.0 or later, or Bridge CLI Thin Client 3.0.16 or later. Additionally, `polaris.waitForScan` must be set to `true` (default) in your pipeline. |
-| Create a fix pull request (for direct deps. with vulnerabilities) | Automatically create a fix pull request (Fix PR) for components with direct dependency vulnerabilities detected by the SCA scan of SCM-integrated projects based on assignment of this policy and customizable Fix PR settings. | See [Fix Pull Requests (Fix PR)](../fix-pull-requests-fix-pr.md) for prerequisites. |
+| Create a fix pull request (for direct deps. with vulnerabilities) | Automatically create a fix pull request (Fix PR) for components with direct dependency vulnerabilities detected by the SCA scan of SCM-integrated projects based on assignment of this policy and customizable Fix PR settings. | See [SCA Fix Pull Requests](../fix-pull-requests-fix-pr.md) for prerequisites. |
+
+Note: Component policies support SCA Fix PRs only. To automatically create AI-assisted Fix PRs for SAST findings, use an issue policy with the Create a fix pull/merge request (SAST issues only) action. See [Create SAST Fix PRs with a policy](../sast-fix-pull-requests/create-sast-fix-prs-with-a-policy.md).
 
 ### Example component policy
 

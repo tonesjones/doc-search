@@ -1,10 +1,11 @@
 ---
 title: "Rapid Scan aggregate stats view table (scan_rapid_aggregate_stats_view)"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/rapid-scan-aggregate-stats-view-table-scan_rapid_aggregate_stats_view-.html"
-content_id: "YeFt1behovNUEoK0vaztqA"
+content_id: "lb~6dyxHp~KXdAo3vX~2GQ"
 version: "2026.7"
 section: "Reporting Database"
-scraped_at: "2026-08-08T15:34:42.493869+00:00"
+scraped_at: "2026-10-04T23:32:26.990804+00:00"
+content_hash: "0edc0254e7a2d90f53f125436cc3465ff90eafe27778a83f37ec0cdef36994f8"
 ---
 
 # Rapid Scan aggregate stats view table (scan_rapid_aggregate_stats_view)

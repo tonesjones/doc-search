@@ -1,10 +1,11 @@
 ---
 title: "Authentication pod configuration"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/authentication-pod-configuration.html"
-content_id: "RcsMqQhznzK9tkN0RgjLxQ"
+content_id: "wEvQBSdV47Xxs37OTbHx9Q"
 version: "2026.7"
 section: "Installing Black Duck using Kubernetes and OpenShift"
-scraped_at: "2026-08-08T15:33:04.836922+00:00"
+scraped_at: "2026-10-04T23:32:22.721441+00:00"
+content_hash: "2624b809397df37cc8b1208fa0866ac7f7d8edadf67b27a7fbb342f216b28904"
 ---
 
 # Authentication pod configuration

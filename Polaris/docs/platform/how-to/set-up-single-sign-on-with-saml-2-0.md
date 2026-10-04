@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/se
 content_id: "IbW_MspIJgjCYNDx3IKCSw"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:56:00.585502+00:00"
-content_hash: "a6db475be201ec9f8495b0967e85e5d1b63ede783effdbe2e87c3a164c21c98a"
+scraped_at: "2026-10-04T23:29:18.229960+00:00"
+content_hash: "3711eaeac1fb5b198b5f248dbb4993a538649dc49e6450323cd9774e29b1781b"
 ---
 
 # Set up single sign-on (with SAML 2.0)

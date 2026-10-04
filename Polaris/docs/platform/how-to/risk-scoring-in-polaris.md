@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/ri
 content_id: "Abs2P0wg4JZkcqStgCKt1w"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:57:46.210900+00:00"
-content_hash: "aa02512f1be92a813942168d75672bf947e44e61676eabafdd0d400062cd4354"
+scraped_at: "2026-10-04T23:29:22.218849+00:00"
+content_hash: "82c5216eaa34a58cd56520f053e677860a3d511ffe831c1e09d1a2e607e70f47"
 ---
 
 # Risk scoring in Polaris

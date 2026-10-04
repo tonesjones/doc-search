@@ -1,10 +1,11 @@
 ---
 title: "Importing a SBOM file"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/importing-a-sbom-file.html"
-content_id: "haA2fuVKcivLYlQRJYyW~Q"
+content_id: "eobNX5JFeu6iKJK3B0~X9g"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T15:14:55.605266+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:13.799278+00:00"
+content_hash: "7cd0c2b141eadc4c8a2c04a3ebc74688fcb17ad40d0db47c9f96c44cbd18a0fc"
 ---
 
 # Importing a SBOM file
@@ -28,11 +29,7 @@ You can map the scan to a project in the following ways.
 
 **On the Scans page**
 
-1. Click the [image: Options button] button at the end of the scan's row and selecting **Map to
-   Project**. This opens the **Map Scan to Project Version** dialog
-   box.
-2. Enter the project's name in the **Project** field. Alternatively, you can
-   create a new
-   project for this scan.
+1. Click the [image: Options button] button at the end of the scan's row and selecting **Map to Project**. This opens the **Map Scan to Project Version** dialog box.
+2. Enter the project's name in the **Project** field. Alternatively, you can create a new project for this scan.
 3. Enter the project version in the **Version** field. You can also create a new project version for this scan.
 4. Click the **Save** button to complete the mapping.

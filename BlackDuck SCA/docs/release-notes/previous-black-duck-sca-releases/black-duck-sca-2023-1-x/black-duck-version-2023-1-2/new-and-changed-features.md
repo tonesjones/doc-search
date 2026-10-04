@@ -1,18 +1,18 @@
 ---
 title: "New and changed features"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/new-and-changed-features.html"
-content_id: "u4Pbtz7KvBOtgJtBy0FgaQ"
+content_id: "SlampsSCLF8qsZ0YMQ8_hg"
 version: "2026.7"
-section: "Release Notes"
-scraped_at: "2026-08-08T15:37:03.268176+00:00"
+section: "Black Duck SCA Release Notes"
+scraped_at: "2026-10-04T23:32:32.653839+00:00"
+content_hash: "27cc4d0f395936a7d693a3a5463391c0c9fede4008881dd03a392ddb14c6dc22"
 ---
 
 # New and changed features
 
 ## New automatic OAuth Token refresh
 
-Black Duck will now automatically regenerate GitLab and Bitbucket access tokens after
-they expire.
+Black Duck will now automatically regenerate GitLab and Bitbucket access tokens after they expire.
 
 ## Enhanced heatmap functionality
 

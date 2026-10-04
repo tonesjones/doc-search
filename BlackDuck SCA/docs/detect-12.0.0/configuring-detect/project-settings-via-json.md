@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/projec
 content_id: "B1bJzejZZPtJweRVLCffuw"
 version: "12.0.0"
 section: "Configuring Detect"
-scraped_at: "2026-09-07T21:15:17.517860+00:00"
+scraped_at: "2026-10-04T23:33:19.161074+00:00"
+content_hash: "82d834c582fd1ebf0c3195d3877e62a07a45e429788a054fc6bb56a6e3aec627"
 ---
 
 # Project settings via JSON

@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/go.htm
 content_id: "jF8V2O_3Zo89HpCQJFNZ4Q"
 version: "12.0.0"
 section: "Detect Properties"
-scraped_at: "2026-09-07T21:16:48.383966+00:00"
+scraped_at: "2026-10-04T23:33:22.472188+00:00"
+content_hash: "04c4af3b77f82209f88d12cf4378d2706b6d63c04c5377613dfa4ac503e6dc08"
 ---
 
 # go

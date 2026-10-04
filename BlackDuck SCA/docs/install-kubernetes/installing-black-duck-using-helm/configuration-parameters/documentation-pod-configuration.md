@@ -1,10 +1,11 @@
 ---
 title: "Documentation pod configuration"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/documentation-pod-configuration.html"
-content_id: "inv1_CBaPiLnAazoDyV_~A"
+content_id: "FaJcGQxVKXezuGgZPbLDRA"
 version: "2026.7"
 section: "Installing Black Duck using Kubernetes and OpenShift"
-scraped_at: "2026-08-08T15:33:07.120115+00:00"
+scraped_at: "2026-10-04T23:32:22.827123+00:00"
+content_hash: "09562543d26ed107f9492cd938dd765fd63f7413d3564857eecbda928601a9bf"
 ---
 
 # Documentation pod configuration

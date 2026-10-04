@@ -3,8 +3,9 @@ title: "Using the Black Duck Security Scan Plugin with Black Duck SCA"
 source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-scan-plugin-with-black-duck-sca.html"
 content_id: "Q05y_NWq64XNbDVYDabodA"
 version: "latest"
-section: "Jenkins - Black Duck Security Scan Plugin for Jenkins"
-scraped_at: "2026-08-08T23:48:40.591401+00:00"
+section: "Jenkins Integrations"
+scraped_at: "2026-10-04T23:28:30.638353+00:00"
+content_hash: "7e44ce79684f7a34e00a1b6034661f77979f8f9b23327e5c5cc8fae63b93ea39"
 ---
 
 # Using the Black Duck Security Scan Plugin with Black Duck SCA

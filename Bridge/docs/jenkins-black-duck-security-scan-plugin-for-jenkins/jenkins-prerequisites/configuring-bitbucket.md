@@ -3,8 +3,9 @@ title: "Configuring Bitbucket"
 source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/configuring-bitbucket.html"
 content_id: "41WGODcOTgZI1ihz3o7aFQ"
 version: "latest"
-section: "Jenkins - Black Duck Security Scan Plugin for Jenkins"
-scraped_at: "2026-08-08T23:48:32.786593+00:00"
+section: "Jenkins Integrations"
+scraped_at: "2026-10-04T23:28:30.281663+00:00"
+content_hash: "1b3a0bca87c3ff24ac16514bb1fe6fca5d222a1c0e4ba352d23af661d616aafd"
 ---
 
 # Configuring Bitbucket

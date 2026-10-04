@@ -1,10 +1,11 @@
 ---
 title: "Announcements"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/announcements.html"
-content_id: "oGVYiFZc1Cse~C3pd9aJAA"
+content_id: "glxRRZglzajk~1Q6OrKyOQ"
 version: "2026.7"
-section: "Release Notes"
-scraped_at: "2026-08-08T15:37:17.340371+00:00"
+section: "Black Duck SCA Release Notes"
+scraped_at: "2026-10-04T23:32:33.175992+00:00"
+content_hash: "b5082decc66a5b9cc23f1a8c79157c1ad16f38dbef67e1175bdf8127c4c10349"
 ---
 
 # Announcements

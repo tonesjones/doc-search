@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/as
 content_id: "aG92uiiOD7zZggzZovN8_w"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:57:50.850678+00:00"
-content_hash: "cf48375d3c08f0af381ec9c8986bb903b46f279571161a2ed3763f5e55d3b615"
+scraped_at: "2026-10-04T23:29:22.301198+00:00"
+content_hash: "35ab19f2d7eaebd72400d03bc568dc080c8f40b4585a4ebcbbb9294cd9ef3c98"
 ---
 
 # Assign subscriptions to applications
@@ -25,7 +25,7 @@ To update an application's subscriptions, follow these steps:
 
    | Action | Description |
    | --- | --- |
-   | Add a DAST, SAST, SCA, External Analysis, and/or Binary subscription to the application | If you haven't already assigned a subscription to the application, you can do so. Subscriptions:  - DAST. - Concurrent (team member) - the only subscription type that can include Binary. - Applications - individual SAST, SCA (Package Manager or Signature Analysis), and/or External Analysis. After a subscription is assigned to an application, you cannot change or remove it (but you may be able to replace application subscriptions with concurrent subscriptions, described below). |
+   | Add a DAST, SAST, SCA, External Analysis, Binary, and/or Container Analysis subscription to the application | If you haven't already assigned a subscription to the application, you can do so. Subscriptions:  - DAST. - Concurrent (team member) - the only subscription type that can include Binary and Container Analysis. - Applications - individual SAST, SCA (Package Manager or Signature Analysis), and/or External Analysis. After a subscription is assigned to an application, you cannot change or remove it (but you may be able to replace application subscriptions with concurrent subscriptions, described below). |
    | Replace application subscriptions with concurrent (team member) subscriptions | If application and concurrent subscriptions are available in your organization, you can replace application subscriptions with concurrent subscriptions. Important: You cannot replace an application's concurrent subscriptions with application subscriptions. |
 5. Select Save.
 
@@ -49,7 +49,7 @@ To assign a subscription to multiple applications at the same time, follow these
 
    | Action | Description |
    | --- | --- |
-   | Add a DAST, SAST, SCA, External Analysis, and/or Binary subscription to the application | If none of the applications are assigned subscriptions, you can do so. Subscriptions:  - DAST. - Concurrent (team member) - the only subscription type that can include Binary. - Applications - individual SAST, SCA (Package Manager or Signature Analysis), and/or External Analysis. After you assign one or more subscriptions to applications, you cannot change or remove them (but you may be able to replace application subscriptions with concurrent subscriptions, described below). |
+   | Add a DAST, SAST, SCA, External Analysis, Binary, and/or Container Analysis subscription to the application | If none of the applications are assigned subscriptions, you can do so. Subscriptions:  - DAST. - Concurrent (team member) - the only subscription type that can include Binary. - Applications - individual SAST, SCA (Package Manager or Signature Analysis), and/or External Analysis. After you assign one or more subscriptions to applications, you cannot change or remove them (but you may be able to replace application subscriptions with concurrent subscriptions, described below). |
    | Replace application subscriptions with concurrent (team member) subscriptions | If all the applications use the same application subscription (and application and concurrent subscriptions are available in your organization), you can replace application subscriptions with concurrent subscriptions. Important: You cannot replace concurrent subscriptions with application subscriptions. |
 5. Select Save.
 

@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/bitbuck
 content_id: "Ii~0lR5eWIXCsHDy3cQSZQ"
 version: "latest"
 section: "Bitbucket Integrations"
-scraped_at: "2026-08-08T23:48:58.697834+00:00"
+scraped_at: "2026-10-04T23:28:31.523797+00:00"
+content_hash: "efe57d202fd262605894a4eb645d8e33300019f8eeee6fcbd169d8ea3ff1ad5b"
 ---
 
 # Bitbucket – Black Duck Security Scan Pipe

@@ -3,8 +3,9 @@ title: "Create a freestyle job in your Jenkins instance"
 source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/create-a-freestyle-job-in-your-jenkins-instance.html"
 content_id: "s0cFs4NcgZBNWwua7O2EqQ"
 version: "latest"
-section: "Jenkins - Black Duck Security Scan Plugin for Jenkins"
-scraped_at: "2026-08-08T23:48:36.228284+00:00"
+section: "Jenkins Integrations"
+scraped_at: "2026-10-04T23:28:30.416328+00:00"
+content_hash: "ae87f81f0a1aaf6bb8c8a0d48ebd009b44b2861db966091377be73430c53ccb6"
 ---
 
 # Create a freestyle job in your Jenkins instance

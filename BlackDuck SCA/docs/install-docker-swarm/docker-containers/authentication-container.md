@@ -1,17 +1,18 @@
 ---
 title: "Authentication container"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/authentication-container.html"
-content_id: "A~8WXCeBYjcS6~Tg95tLgw"
+content_id: "TyhdTsvCCCBZN5R1twGPMg"
 version: "2026.7"
 section: "Installing Black Duck using Docker Swarm"
-scraped_at: "2026-08-08T15:34:18.738817+00:00"
+scraped_at: "2026-10-04T23:32:25.900111+00:00"
+content_hash: "6a13424a6046ad7e98f10859f8a596f81ea365a01ce8f6081b324938207490dc"
 ---
 
 # Authentication container
 
 | Container Name: blackduck-authentication | |
 | --- | --- |
-| Image Name | blackducksoftware/blackduck-authentication:2026.7.0 |
+| Image Name | blackducksoftware/blackduck-authentication:2026.7.1 |
 | Description | The authentication service is the container that all authentication-related requests are made against. |
 | Scalability | There should only be a single instance of this container. It currently cannot be scaled. |
 | Links/Ports | Nothing external (8443 internally). This container will need to connect to these other containers/services:   - postgres - cfssl - logstash - registration - webapp   The container needs to expose 8443 to other containers that will link to it. |

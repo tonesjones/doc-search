@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/do
 content_id: "axklN1DzHqS4bHdqtPsgyQ"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:56:20.591304+00:00"
-content_hash: "1bc960dd015b93ed37c91d0d2490cb1458e23f258a108f46012d630e09d36565"
+scraped_at: "2026-10-04T23:29:18.846078+00:00"
+content_hash: "a7418efb81b91a59971acaa7f13989a4fe728feb83c5093e296545aad841816d"
 ---
 
 # Download test artifacts

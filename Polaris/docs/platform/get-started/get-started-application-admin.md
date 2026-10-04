@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/ge
 content_id: "4MxwIHiA9LqdaTetpI3Y2g"
 product_key: "polaris-platform-latest"
 section: "Get Started"
-scraped_at: "2026-08-12T19:55:54.635086+00:00"
-content_hash: "2127d9fd0c48027cab161ddd63e7aa25af2a5b6499f5051504f8dc8363717d91"
+scraped_at: "2026-10-04T23:29:17.872999+00:00"
+content_hash: "4f6ccfc3426ec8ad17e8238c006570edbdc53d86bc7104a9177195ce86350574"
 ---
 
 # Get started: Application Admin
@@ -13,16 +13,12 @@ content_hash: "2127d9fd0c48027cab161ddd63e7aa25af2a5b6499f5051504f8dc8363717d91"
 Before you begin, we recommend reading the following:
 
 - Polaris product overview
-- Subscriptions and
-  Entitlements
+- Subscriptions and Entitlements
 - Roles and permissions on Polaris
 - Polaris data model
 - Issue policies, Component policies, and Test scheduling policies
 
-Depending on the size of your organization, the applications and projects might
-already be set up by the Application Manager, or you might still have some work to
-do. This tutorial will give you an overview of all the tasks you might need or want
-to do as an Application Admin.
+Depending on the size of your organization, the applications and projects might already be set up by the Application Manager, or you might still have some work to do. This tutorial will give you an overview of all the tasks you might need or want to do as an Application Admin.
 
 By the end of this tutorial, you will:
 
@@ -37,8 +33,7 @@ By the end of this tutorial, you will:
 
 1. Go to Portfolio on the left sidebar.
 2. Select an application.
-3. Select SAST & SCA from the Test
-   Type dropdown..
+3. Select SAST & SCA from the Test Type dropdown..
 4. Select + Create > New Project(s).
 
    [image: Screenshot of the Add Project button location.]
@@ -53,10 +48,9 @@ By the end of this tutorial, you will:
    | Project Name (required) | Each name must be unique within the organization. | - Length: 255 characters |
    | Project Description (optional) | The description should be useful to users with access to your application. | - Length: 2048 characters |
    | Default Branch Name (optional) | Enter the name of the project's default branch. If you don't specify a branch name, "main" is used. | - Length: 255 characters |
-   | Labels (optional) | Apply labels to the project. - To search for an existing label, enter   matching text and then select the label from the   list. - To create a new label, enter a unique name and   then select the *Create   label* link. | - Length: 256 characters |
+   | Labels (optional) | Apply labels to the project. - To search for an existing label, enter matching text and then select the label from the list. - To create a new label, enter a unique name and then select the *Create label* link. | - Length: 256 characters |
 
-   Note: \*Characters can include alphanumeric,
-   punctuation marks, symbols (e.g., @, #, $) and spaces.
+   Note: \*Characters can include alphanumeric, punctuation marks, symbols (e.g., @, #, $) and spaces.
 6. Click Save.
 
 ## Review policy settings
@@ -161,6 +155,8 @@ You can get to the issues in either of the following ways:
    - A link to training resources in Secure Code Warrior, if available (and after the Secure Code Warrior integration is enabled by your Organization Administrator)
    - A link to the Common Vulnerabilities and Exposures (CVE®) page, if available
    - The Black Duck® Security Advisory (BDSA) code for the issue, if available
+
+     Important: BDSA links open the advisory record on Black Duck Open Hub. It takes 30 days for newly published advisories to appear on Open Hub. Until a newly published advisory is available on Open Hub, the link opens a page without content (even though the issue detected in Polaris is still valid).
    - The name of the tool that discovered the issue
    - The time of the test that discovered the issue
    - A list of branches the issue is also detected in

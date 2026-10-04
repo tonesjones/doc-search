@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/black-
 content_id: "sSya0Y~lxx3lD9hF5CCzeg"
 version: "12.0.0"
 section: "Package Manager information for Detect"
-scraped_at: "2026-09-07T21:16:01.485402+00:00"
+scraped_at: "2026-10-04T23:33:20.647759+00:00"
+content_hash: "f9b9efcf3e9fe26190b724b8e46e85bcd94b845533ab9636a34705f297df5bbc"
 ---
 
 # Black Duck® Detect workflow

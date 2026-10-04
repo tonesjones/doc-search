@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/co
 content_id: "OUf_Ip9d8tnLTfeTRlVkhA"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:57:43.010281+00:00"
-content_hash: "1df025fe7b690cb26a0b1ca048dd8b77ef918c766e76e8e98c427adaf8ed3967"
+scraped_at: "2026-10-04T23:29:22.031112+00:00"
+content_hash: "d68c949539b273c01eaa169ee2792e93f5c6cf6a5131b0d928494871fbad8272"
 ---
 
 # Configure JSON scan settings and authentication profiles

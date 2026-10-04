@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-t
 content_id: "pbImldil4toKmsFDd8LHEQ"
 version: "latest"
 section: "Bitbucket Integrations"
-scraped_at: "2026-08-08T23:48:54.719267+00:00"
+scraped_at: "2026-10-04T23:28:31.327349+00:00"
+content_hash: "501f6738caab66c1a91d688b55144aa59d788a45fc1e16aeb36c7df4b2760c60"
 ---
 
 # Using the Black Duck Security App with Coverity
@@ -53,7 +54,7 @@ Note: Ensure all required Bitbucket variables and secrets are configured before 
 
 It can be seen from the screenshot above that a workflow can be generated with the following scan options:
 
-- **Run analysis locally**: Performs local analysis with the full toolkit. For further details relating to the different Coverity deployment models supported, please refer to [Coverity Deployment Architecture](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/help-center/topics/deployment_architecture.html).
+- **Run analysis locally**: Performs local analysis with the full toolkit. For further details relating to the different Coverity deployment models supported, please refer to [Coverity Deployment Architecture](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/a0caa9e5b240fbee6150f8640240b2a5.topic).
 - **Capture diagnostics information**: When checked, diagnostics will be captured and uploaded as a Bitbucket build artifact.
 
   - **Wait for scan to complete**: When checked, this will block injecting pull request comments until the scan completes.

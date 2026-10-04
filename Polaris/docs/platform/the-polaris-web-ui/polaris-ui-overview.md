@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/po
 content_id: "UYmOc58LBGHjrKcMs207EA"
 product_key: "polaris-platform-latest"
 section: "The Polaris web UI"
-scraped_at: "2026-08-12T19:55:43.449075+00:00"
-content_hash: "ae75863db4016e8d3107d687e28140ae2feb7b18ee3a42af3f2f0421af83dd6d"
+scraped_at: "2026-10-04T23:29:17.235156+00:00"
+content_hash: "0bfe7450707a241f9f867036c02278d205aaa00ed3fafe46125ce270d34488a8"
 ---
 
 # Polaris UI Overview

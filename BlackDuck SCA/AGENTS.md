@@ -37,7 +37,7 @@ Do **not** treat random blog posts or third-party summaries as authoritative whe
 | Help Center (browser SPA) | https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/black-duck-sca-help-center.html |
 | TOC API | `GET https://docs.blackduck.com/api/khub/maps/1WqD3iF0wWDzpOGfy2mr8Q/toc` |
 | Content API | `GET https://docs.blackduck.com/api/khub/maps/1WqD3iF0wWDzpOGfy2mr8Q/topics/{contentId}/content` |
-| Topics | **941** under `docs/help-center/`, `docs/api/`, install, architecture, release-notes, etc. |
+| Topics | **939** under `docs/help-center/`, `docs/api/`, install, architecture, release-notes, etc. |
 | Index | `index.md` |
 
 ### Phase 2 — companions (core done)
@@ -46,8 +46,8 @@ Do **not** treat random blog posts or third-party summaries as authoritative whe
 |---------|-----|---------|--------|-------:|------|-------|
 | Black Duck Detect | `detect-12.0.0` | **12.0.0** (default for unversioned questions) | `j_bSwuxnjHv5ElV~TQrAQg` | **207** | `docs/detect-12.0.0/` | `index-detect.md` → `index-detect-12.0.0.md` |
 | Black Duck Detect | `detect-11.5.1` | **11.5.1** (historical) | `bMVbOgKqSRm_N11~2Mv5gg` | **206** | `docs/detect/` | `index-detect-11.5.1.md` |
-| Black Duck Alert | `alert-8.4.0` | **8.4.0** | `QEB0e_qPG~BdIwQfv5eDZQ` | **45** | `docs/alert/` | `index-alert.md` |
-| Black Duck C/CPP Tool | `c-cpp-tool-latest` | **latest** | `2GUQEgoyKxsQAcOtWsqdDA` | **20** | `docs/c-cpp-tool/` | `index-c-cpp-tool.md` |
+| Black Duck Alert | `alert-8.4.1` | **8.4.1** (default) | `98MkzshzXyzKMqy_yMHrsw` | **46** | `docs/alert-8.4.1/` | `index-alert.md` |
+| Black Duck C/CPP Tool | `c-cpp-tool-latest` | **latest** | `3JcuocdfP6Yh0iupxpNOwQ` | **21 official + 1 local** | `docs/c-cpp-tool/` | `index-c-cpp-tool.md` |
 | Black Duck SCA MCP Server | `sca-mcp-latest` | GitHub `main` snapshot | `blackducksoftware/sca-mcp` | **2** | `docs/sca-mcp/` | `index-sca-mcp.md` |
 | Air-gapped KnowledgeBase | `airgap-kb-latest` | latest | `YsDtm_HKwGM6efkx~2HVvQ` | ~15 **deferred** (not scraped; not needed for current use) | — | — |
 
@@ -63,7 +63,7 @@ Do **not** treat random blog posts or third-party summaries as authoritative whe
 **Intentionally not scraped yet** (user: not needed right now): Air-gapped KB; BDBA; Artifactory; Code Sight; Defensics; Seeker; Sigma; Signal; Portal; older SCA versions; non-English locales. See **`CHECKPOINT.md`**. Do not scrape these unless the user reopens scope.
 
 Hub progress table: **`corpus-status.md`**. Session handoff: **`CHECKPOINT.md`**.  
-**Scrape status:** core scope complete (**1,421** topics). Prefer answering from local Markdown; no pending required scrape work. Bridge CLI documentation (including Bridge SRM-integration topics) is in the sibling `Bridge/` corpus; standalone SRM documentation is in the sibling `SRM/` corpus.
+**Scrape status:** core scope complete (**1,467** topics). Prefer answering from local Markdown; no pending required scrape work. Bridge CLI documentation (including Bridge SRM-integration topics) is in the sibling `Bridge/` corpus; standalone SRM documentation is in the sibling `SRM/` corpus.
 
 The public site is a **JavaScript SPA** (Fluid Topics). A plain page fetch only returns "Loading application...". **Always use the TOC/content APIs** for structure and bodies.
 
@@ -161,7 +161,7 @@ scraped_at: "ISO-8601"
    - SCA server/UI, BOM, policy, install, reporting → `docs/help-center/`, install, architecture, `index.md`
    - Exact SCA REST endpoint contracts → relevant `docs/api/` guidance plus `sources/openapi/<version>/openapi3-public.json`
    - Detect client, detectors, properties, scripts → `index-detect.md`, then `docs/detect-12.0.0/` by default. Use `docs/detect/` only when 11.5.1 is named; use `index-detect-11.5.1-to-12.0.0.md` for a version comparison.
-   - Alert channels / providers → `docs/alert/`, `index-alert.md`
+   - Alert channels / providers → `docs/alert-8.4.1/`, `index-alert.md`
    - Bridge CLI / CI security scan plugins → sibling `Bridge/` corpus (`Bridge/index.md`, `Bridge/docs/`)
    - C/C++ BOM via blackduck-c-cpp / Coverity Build Capture → `docs/c-cpp-tool/`, `index-c-cpp-tool.md`
 3. **Cite paths** when answering (e.g. `docs/detect-12.0.0/planning-and-running-detect.md`) so answers are verifiable.
@@ -220,3 +220,7 @@ When adding or refreshing documentation:
 - Building a full app or vector DB pipeline (describe or scaffold only on request).
 - Changing Black Duck product configuration in a live customer environment.
 - Legal advice on license compliance (document what Black Duck reports; do not replace counsel).
+
+## October 4, 2026 refresh
+
+Alert 8.4.1 is current. Alert 8.4.0 remains at `index-alert-8.4.0.md` with its original documents and source snapshot. SCA remains version 2026.7 with the September 30 documentation edition. The newer Tools map includes SCASS MCP under `docs/scass-mcp/`, separate from the GitHub SCA MCP snapshot. KnowledgeBase Vulnerability Feed Server documents omitted from the new Tools map remain as historical files.

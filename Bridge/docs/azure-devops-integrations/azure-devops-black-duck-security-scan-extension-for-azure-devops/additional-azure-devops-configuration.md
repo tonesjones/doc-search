@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/additio
 content_id: "wsA8K_vVwdOSxGJalg6c3A"
 version: "latest"
 section: "Azure DevOps Integrations"
-scraped_at: "2026-08-08T23:48:30.870685+00:00"
+scraped_at: "2026-10-04T23:28:30.209957+00:00"
+content_hash: "5dc9b9285332ddfad0db9c2bf8615238bbe47326eefd49b36f2c6dd409442470"
 ---
 
 # Additional Azure DevOps configuration

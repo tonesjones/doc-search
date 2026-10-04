@@ -4,16 +4,192 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/po
 content_id: "JqRc8bkNtPpqwwe5LFqzfA"
 product_key: "polaris-platform-latest"
 section: "Reference"
-scraped_at: "2026-08-12T19:57:53.193267+00:00"
-content_hash: "d5e9e54cc98b7826acff8d8c716284934bacb8c63058a5ee756ab0db1b7cc3b3"
+scraped_at: "2026-10-04T23:29:23.137416+00:00"
+content_hash: "6626ec242a421561538eb3c041d0e77bde3264f8e045fc7ea5ca80330a4e0ad3"
 ---
 
 # Polaris release notes
 
 Everything that's new in Polaris
 
+## October 2026
+
+- fAST Dynamic now supports an interactive sitemap view of scanned web applications and APIs, showing all endpoints, links, and resources found by the scanner. Sitemaps are available for successful DAST tests only and data is retained for 30 days. To view a sitemap, open a completed DAST test and then select the Sitemap tab.
+
+  See [Work with DAST issues](../how-to/test-web-applications-and-apis-with-polaris-fast-dynamic/work-with-dast-issues.md) for more information.
+- Polaris now supports GitHub Enterprise Cloud with data residency as a cloud-hosted source code management system, for both repository integration and GitHub Issues tracking integration.
+
+  See GitHub, GitHub Enterprise, and GitHub Enterprise with data residency and Issue tracking integration for GitHub Issues for more information.
+
+## September 2026
+
+- You can now configure when service account tokens and personal access tokens expire. Previously, service account tokens and personal access tokens both expired one year after they were created.
+  - When creating a token, set the token's expiry with the Expiration dropdown. You can select 7 days, 30 days, 60 days, 90 days, 365 days, Custom, or No expiration. The default is 365 days, and custom expiration dates cannot be more than two years out.
+
+    Important: Regardless of the expiration option selected, service account tokens and personal access tokens automatically expire after 30 days of inactivity.
+
+    When this feature is enabled, the expiry date for service account tokens and personal access tokens created before this release will not change.
+
+  See [Service accounts for Polaris](../how-to/service-accounts-for-polaris.md) and Make an access token for more information.
+- Polaris now supports issue tracking integration and two-way status synchronization with GitLab Issues. As with GitHub Issues, and unlike the Azure DevOps, Jira, and ServiceNow integrations, which are configured at the organization level, GitLab Issues is configured through an application's or project's SCM integration. When GitLab issue tracking integration is configured with two-way status synchronization enabled, triage status changes in Polaris automatically update the status of linked GitLab issues, and status changes in GitLab automatically update the triage status of linked Polaris issues.
+  - To add a GitLab Issues integration, select Use SCM Configuration under Auto-configure Bug Tracking System during SCM onboarding, or under Issue Tracker in the integration settings of an existing application or project.
+  - To enable status synchronization, select Automatically sync GitLab and Polaris issue status when either is opened, closed, or dismissed (in all configured branches) under Issue Tracker in an application's or project's integration settings. You can select the direction of synchronization: Bi-Directional (both directions), Polaris to GitLab, or GitLab to Polaris.
+  - Once configured, Polaris creates GitLab issues with the Issue type for SAST and SCA issues you export manually or through issue policies, and can automatically close those issues when the linked Polaris issues are dismissed or become absent in subsequent scans.
+  - Sync events appear in each issue's triage history, attributed to the sync rather than to a specific user.
+  - Projects inherit their parent application's issue tracking configuration by default, and you can choose which branches participate in issue tracking synchronization.
+  - GitLab SaaS is supported. GitLab Self-Managed and DAST issue export are not supported at this time.
+  - Two-way status synchronization is not supported for bundled tickets (bulk exports to a single ticket and tickets created by policy violations). These tickets can still be closed automatically when all issues associated with the ticket are dismissed or absent.
+
+  See [Issue tracking integration for GitLab Issues](../how-to/issue-tracking-integrations/issue-tracking-integration-for-gitlab-issues.md) and Automatically close tickets and synchronize triage statuses for more information.
+- Polaris now supports issue tracking integration and two-way status synchronization with GitHub Issues. Unlike other issue tracking integrations (Azure DevOps, Jira, and ServiceNow), which are configured at the organization level, GitHub Issues is configured through an application's or project's SCM integration. When GitHub issue tracking integration is configured with two-way status synchronization enabled, triage status changes in Polaris automatically update the status of linked GitHub issues, and status changes in GitHub automatically update the triage status of linked Polaris issues.
+  - To add a GitHub Issues integration, select Use SCM Configuration under Auto-configure Bug Tracking System during SCM onboarding, or under Issue Tracker in the integration settings of an existing application or project.
+  - To enable status synchronization, select Automatically sync GitHub and Polaris issue status when either is opened, closed, or dismissed (in all configured branches) under Issue Tracker in an application's or project's integration settings. You can select the direction of synchronization: Bi-Directional (both directions), Polaris to GitHub/GitHub Enterprise, or GitHub/GitHub Enterprise to Polaris.
+  - Once configured, Polaris creates GitHub issues with the Bug type for SAST and SCA issues you export manually or through issue policies, and can automatically close those issues when the linked Polaris issues are dismissed or become absent in subsequent scans.
+  - Sync events appear in each issue's triage history, attributed to the sync rather than to a specific user.
+  - Projects inherit their parent application's issue tracking configuration by default, and you can choose which branches participate in issue tracking synchronization.
+  - GitHub Standard and GitHub Enterprise Cloud are supported. GitHub Enterprise Server and DAST issue export are not supported at this time.
+  - Two-way status synchronization is not supported for bundled tickets (bulk exports to a single ticket and tickets created by policy violations). These tickets can still be closed automatically when all issues associated with the ticket are dismissed or absent.
+
+  See [Issue tracking integration for GitHub Issues](../how-to/issue-tracking-integrations/issue-tracking-integration-for-github-issues.md) and Automatically close tickets and synchronize triage statuses for more information.
+- Azure DevOps issue tracking integration options now support two-way triage status synchronization. When configured, triage status changes in Polaris automatically update the status of linked Azure DevOps work items, and status changes in Azure DevOps automatically update the triage status of linked Polaris issues. Optionally, Polaris fix-by dates and Azure DevOps due dates can be kept in sync. Sync events appear in each issue's triage history, attributed to the sync rather than to a specific user.
+
+  See Automatically close tickets and synchronize triage statuses and Create integration options for Azure DevOps for more information.
+- You can now onboard GitLab Self-Managed projects in bulk to new or existing Polaris applications. To use this feature, you'll need to enable network access to your on-prem GitLab instance (using either IP allowlisting or a secure tunnel) and create an access token. See GitLab Self-Managed for more information.
+- Polaris users can now subscribe to email notifications about new high or critical vulnerabilities:
+  - For each user, these notifications can be configured to trigger on all projects, specific projects, or projects matching specific filters.
+  - After the Black Duck KnowledgeBase™ is updated following discovery of a new vulnerability, users will receive an email containing an overview of the vulnerability and affected components, along with statistics and a link to findings within Polaris.
+  - See [Vulnerability notifications](../how-to/vulnerability-notifications.md) to learn more about this feature.
+- SCA Fix Pull Requests are now supported for self-hosted source code management systems. Polaris creates the pull request on a repository inside your private network over the same Secure Tunnel that carries event monitoring traffic, so a self-hosted SCM integration that already works requires no additional connectivity setup. Both automatic Fix PRs, created through a component policy, and manual Fix PRs are supported. Fix PR settings, limits, inheritance, and permissions are unchanged.
+
+  See [SCA Fix Pull Requests](../how-to/fix-pull-requests-fix-pr.md) for requirements. See [Add and manage secure tunnels in the Polaris UI](../how-to/add-and-manage-secure-tunnels-in-the-polaris-ui.md) for secure tunnel setup.
+- The 2025 CWE™ Top 25 standard is now supported in Polaris. You can filter by this standard wherever standard filters are available, including issue policy rules, reports, and dashboards. The 2021, 2022, 2023, 2024 CWE Top 25 standards remain available.
+- Polaris supports Rapid Scan Static (Sigma) 2026.9.0. This version has the following changes:
+  - **Enhancements and changes to checks and HSS patterns:**
+    - Extended the following existing Java checks to also support Groovy: `basic_auth_enabled_spring_http`, `cors_no_credentials_permissive_origin_spring_httpheaders`, `cors_preflight_age_too_long_core_java`, `cors_preflight_age_too_long_spring_httpheaders`, `cors_with_credentials_all_origin_spring_httpheaders`, `csp_unsafe_inline_spring_http`, `missing_httponly_attribute_core_java`, `no_depth_limit_java_graphql`, `xml_external_entity_enabled_documentbuilder_saxparser`, `xml_external_entity_enabled_dom4j`, `xml_external_entity_enabled_input_factory`, `xml_external_entity_enabled_validator`, `xml_external_entity_enabled_xmlreader`, `xml_external_entity_enabled_xpath`.
+    - Extended the following existing Java and Scala check to also support Groovy: `debug_logging_enabled_reactor_netty`.
+  - **New checks and hardcoded secrets patterns:**
+    - New check `certificate_verification_disabled_node_socket_io_client` added for JavaScript.
+    - New check `cookie_injection_core_javascript` added for JavaScript.
+    - New check `debug_logging_enabled_gradle` added for Groovy, Kotlin.
+    - New check `empty_password_groovy_sql` added for Groovy.
+    - New check `excessive_connection_timeout_apache_http` added for Groovy, Java, Kotlin, Scala.
+    - New check `hsts_http_header_short_max_age_micronaut` added for Groovy, Java, Kotlin.
+    - New check `missing_tls_gradle` added for Groovy.
+    - New check `missing_tls_jenkins_git` added for Groovy.
+    - New check `signature_verification_disabled_gradle_wrapper` added for Groovy, Java, Kotlin.
+    - New check `template_injection_core_javascript` added for JavaScript.
+    - New check `unsafe_dom_access_angular` added for JavaScript.
+    - New check `unsafe_language_feature_node` added for JavaScript.
+    - New hardcoded secrets pattern `Gradle Signing Extension PGP Password` added.
+    - New hardcoded secrets pattern `Gradle Signing Extension SecretKey` added.
+  - **Bug fixes:**
+    - Improved detection accuracy for the insecure file permission, database access, keystore access, shared preferences access, and TLS version checks when insecure flags are combined using a bitwise OR.
+    - Fixed a `hardcoded_secret` false positive by not reporting Angular template reference variables and bound identifiers.
+    - Fixed a `sensitive_data_in_cookie_servlet` false positive by not reporting empty string literals in the `Cookie` constructor.
+- Polaris now supports issue tracking integration with on-premises Jira Data Center instances. Using a secure tunnel, Organization Administrators can connect Polaris to an internal Jira Data Center instance to export issues to Jira tickets and synchronize triage statuses.
+
+  See [Issue tracking integration for Jira Data Center](../how-to/issue-tracking-integrations/issue-tracking-integration-for-jira-data-center.md) for more information.
+- Documentation is now available for SAST Fix Pull Requests, introduced in July 2026. Polaris uses Black Duck Assist to generate AI-assisted code fixes for eligible SAST findings and submit them to your connected source code repository as pull requests. Fix PRs can be created on demand from the Issues tab or automatically through a new issue policy action. Each pull request includes the issue severity, type, and file location, a vulnerability summary, AI-generated code analysis, a confidence rating, and a link back to the Polaris issue. Fix PR settings (including the maximum number of open Fix PRs per branch, shared between SAST and SCA Fix PRs, and a configurable exclusion list for SAST issue types) can be customized at the organization, application, project, or branch level. A new Create SAST Fix PR permission controls on-demand Fix PR creation.
+
+  See [SAST Fix Pull Requests](../how-to/sast-fix-pull-requests.md) for an overview, including requirements and security considerations. See [Create a SAST Fix PR on demand](../how-to/sast-fix-pull-requests/create-a-sast-fix-pr-on-demand.md) and Create SAST Fix PRs with a policy for setup and usage instructions.
+
+  Important: Black Duck® Bridge 4.5.0 or later is required to use this feature.
+
 ## August 2026
 
+- Polaris supports Black Duck® Detect 11.5.1. Changes in the latest version include:
+  - Fixed an `IndexOutOfBoundsException` in component location analysis that was due to space characters within a version string.
+  - In accordance with the requirements and compliance timelines of the EU Cyber Resilience Act (CRA), support for Java 8 is deprecated and will be removed in the Detect 12.0.0 release.
+  - Composition inspection bug fixes and improvements.
+- Polaris supports Rapid Scan Static (Sigma) 2026.8.0. This version has the following changes:
+  - **General enhancements and changes:**
+    - Validated support for TypeScript 7.
+  - **Enhancements and changes to checks and HSS patterns:**
+    - Extended the following existing Java, Kotlin, and Scala checks to also support Groovy: `debug_logging_enabled_logback_classic_api`, `excessive_connection_timeout_pac4j`, `cors_preflight_age_too_long_servlet`, `cors_with_credentials_all_origin_servlet`, `cors_with_credentials_http_origin_servlet`, `cors_with_credentials_null_origin_servlet`, `cors_with_credentials_subdomain_origin_servlet`, `cors_no_credentials_permissive_origin_servlet`, `insecure_samesite_attribute_cookie_servlet`, `sensitive_data_in_cookie_servlet`.
+    - Extended the following existing Java and Scala checks to also support Groovy: `debug_logging_enabled_logback_classic_model`, `jwt_ignored_expiration_time_jose4j`.
+    - Extended the following existing Java checks to also support Groovy: `cors_no_credentials_permissive_origin_spring_annotation`, `cors_preflight_age_too_long_spring_annotation`, `cors_preflight_age_too_long_spring_corsconfiguration`, `cors_preflight_age_too_long_spring_webflux`, `cors_with_credentials_all_origin_spring_annotation`, `insecure_block_cipher_algorithm_core_java`, `empty_password_core_java_sql`, `insecure_block_cipher_mode_core_java`, `insecure_stream_cipher_algorithm_core_java`, `insufficient_asymmetric_key_size_core_java`, `insecure_tls_renegotiation_core_java`, `insecure_tls_version_core_java`, `insecure_tls_version_core_java_tls_client`, `insufficient_symmetric_key_size_core_java`, `null_cipher_used_core_java`, `rsa_no_padding_core_java`, `unspecified_cipher_transformation_core_java`, `weak_hash_core_java`, `missing_tls_pac4j_client`, `missing_tls_core_java_httprequest`, `missing_tls_pac4j_generic_oauth20client`, `missing_tls_pac4j_http`, `http_header_validation_disabled_netty`, `http_header_validation_disabled_reactor_netty`.
+  - **New checks and hardcoded secrets patterns:**
+    - New check `empty_password_groovy_net_http` added for Groovy.
+    - New check `excessive_connection_timeout_groovy_http_builder` added for Groovy.
+    - New check `hsts_http_header_subdomains_disabled_micronaut` added for Groovy.
+    - New check `localstorage_manipulation_core_javascript` added for JavaScript.
+    - New check `missing_target_sdk_version_gradle_android` added for Groovy.
+    - New check `missing_tls_core_groovy_jsonslurper` added for Groovy.
+    - New check `sessionstorage_manipulation_core_javascript` added for JavaScript.
+    - New check `signature_verification_disabled_gradle` added for XML.
+    - New check `weak_hash_gradle` added for XML.
+    - New check `weak_url_sanitization_core_python` added for Python.
+    - New check `xml_external_entity_enabled_groovy_dombuilder` added for Groovy.
+    - New check `xml_external_entity_enabled_groovy_xmlslurper` added for Groovy.
+- Organization Administrators can now upload and manage a central Coverity configuration file in Polaris, eliminating the need for per-repository YAML files. Configuration files can be set at the organization, application, project, or branch level; lower-level configurations take precedence over higher-level ones. When a scan runs, a locally provided YAML file takes priority over the central configuration, which takes priority over CLI defaults.
+
+  See [Centralize your Coverity configuration](../how-to/centralize-your-coverity-configuration.md) for more information.
+- Polaris supports Rapid Scan Static (Sigma) 2026.7.0. This version has the following changes:
+  - **Upgrade considerations:**
+    - Sigma now supports Groovy. Supported file types include Gradle, Groovy, Groovy Server Pages, and Jenkinsfile.
+    - Five checkers were modified to report defects separately instead of merging them. This may result in more defects being reported for the following checks: `missing_global_exception_handler`, `missing_httponly_attribute`, `container_cpu_share_unlimited`, `default_service_account_enabled`, and `graphiql_enabled`.
+    - A bug fix resolves an issue that caused Sigma to skip analyzing certain directories that contained `.gitignore` files. This may result in more defects being reported.
+  - **General enhancements and changes:**
+    - Added support for Groovy 5.0. Supported file types include Gradle, Groovy, Groovy Server Pages, and Jenkinsfile.
+    - Validated support for ECMAScript 2026 (JavaScript).
+    - Fixed a `hardcoded_secret` false positive by not reporting the presence of `secrets.yml` from some technologies.
+  - **Enhancements and changes to checks and HSS patterns:**
+    - Extended the following existing Java checks to also support Groovy: `jwt_untrusted_decode_io_jsonwebtoken`, `jwt_untrusted_decode_jose4j`, `access_control_disabled_spring_security_code_global_method_security`, `access_control_disabled_spring_security_code_method_security`, `allow_self_signed_certificate_netty`, `basic_auth_enabled_apache_http`, `basic_auth_enabled_core_java`, `broad_domain_attribute_cookie_core_java`, `broad_domain_attribute_cookie_servlet`, `broad_domain_attribute_cookie_spring_http`, `broad_domain_attribute_cookie_spring_web_cookiegenerator`, `cbc_insecure_padding_core_java`, `cors_with_credentials_http_origin_core_java`, `cors_with_credentials_null_origin_core_java`, `ldap_entry_poisoning_core_java`, `basic_auth_enabled_micronaut`, `cors_expose_sensitive_data_micronaut`, `cors_no_credentials_permissive_origin_micronaut`, `cors_preflight_age_too_long_micronaut`, `cors_with_credentials_all_origin_micronaut`, `cors_with_credentials_http_origin_micronaut`, `cors_with_credentials_null_origin_micronaut`, `cors_with_credentials_subdomain_origin_micronaut`, `missing_tls_micronaut_http`, `missing_httponly_attribute_servlet`, `unsafe_deserialization_core_java_kryo`, `unsafe_deserialization_jackson_objectmapper`, `jwt_no_claims_validation_jose4j`, `unsafe_deserialization_core_java_xmldecoder`.
+  - **New checks and hardcoded secrets patterns:**
+    - New check `basic_auth_enabled_groovy_http_builder` added for Groovy.
+    - New check `broad_domain_attribute_cookie_micronaut` added for Groovy, Java, Kotlin.
+    - New check `certificate_verification_disabled_ansible_apt_repository` added for YAML.
+    - New check `certificate_verification_disabled_groovy_http_builder` added for Groovy.
+    - New check `certificate_verification_disabled_groovy_sql` added for Groovy.
+    - New check `certificate_verification_disabled_micronaut_properties` added for Properties.
+    - New check `certificate_verification_disabled_micronaut_yaml` added for YAML.
+    - New check `csp_frame_ancestors_disabled_servlet` added for Groovy.
+    - New check `csp_permissive_source_servlet` added for Groovy, Java, Kotlin, Scala.
+    - New check `csp_unsafe_eval_servlet` added for Groovy, Java, Kotlin, Scala.
+    - New check `csp_unsafe_inline_servlet` added for Groovy, Java, Kotlin, Scala.
+    - New check `csrf_protection_disabled_aspnet_mvc_core_code` added for CSharp.
+    - New check `debug_enabled_core_groovy_control` added for Groovy.
+    - New check `deprecated_xss_header_servlet` added for Groovy.
+    - New check `hardcoded_credentials_core_python` added for Python.
+    - New check `hsts_http_header_short_max_age_servlet` added for Groovy.
+    - New check `hsts_http_header_subdomains_disabled_servlet` added for Groovy, Java, Kotlin.
+    - New check `insecure_file_permission_ansible_file` added for YAML.
+    - New check `insecure_random_core_python` added for Python.
+    - New check `least_privilege_violation_ansible_mysql_user` added for YAML.
+    - New check `missing_httponly_attribute_micronaut` added for Groovy, Java, Kotlin.
+    - New check `missing_samesite_attribute_aspnet_core_code` added for CSharp.
+    - New check `missing_samesite_attribute_micronaut` added for Groovy, Java, Kotlin.
+    - New check `missing_secure_attribute_micronaut` added for Groovy, Java, Kotlin.
+    - New check `missing_tls_ansible_apt_repository` added for YAML.
+    - New check `missing_tls_core_groovy_lang` added for Groovy.
+    - New check `missing_tls_groovy_grails_plugins` added for Groovy.
+    - New check `missing_tls_groovy_http_builder` added for Groovy.
+    - New check `missing_tls_groovy_resource_methods` added for Groovy.
+    - New check `missing_tls_groovy_xmlslurper` added for Groovy.
+    - New check `missing_tls_micronaut_properties` added for Properties.
+    - New check `missing_tls_micronaut_yaml` added for YAML.
+    - New check `missing_tls_spring_resttemplate` added for Groovy.
+    - New check `obfuscation_not_enabled_gradle_android` added for Groovy, Kotlin.
+    - New check `persistent_cookie_microsoft_aspnetcore_mvc_responsecookies` added for CSharp.
+    - New check `request_validation_disabled_groovy_http_builder` added for Groovy.
+    - New check `root_path_attribute_cookie_micronaut` added for Groovy, Java, Kotlin.
+    - New check `script_code_injection_core_groovy_control` added for Groovy.
+    - New check `script_timeout_too_long_core_groovy_transform` added for Groovy.
+    - New check `unrestricted_ingress_ansible_ufw` added for YAML.
+    - New check `verbose_error_message_grails_gsp` added for Groovy.
+    - New check `weak_auth_mechanism_ansible_copy` added for YAML.
+  - **Bug fixes:**
+    - Fixed an issue where some checkers set merge keys incorrectly, causing many instances of a defect to be merged. These checkers now report vulnerabilities individually. This may result in more defects being reported for the following checks: `missing_global_exception_handler`, `missing_httponly_attribute`, `container_cpu_share_unlimited`, `default_service_account_enabled`, and `graphiql_enabled`.
+    - The `enabled` field under `analyze.checkers.webapp-security` and `analyze.checkers.checker-config.<name>` is now optional.
+    - Fixed an issue that caused Sigma to skip analyzing certain directories that contained `.gitignore` files. This may result in more defects being reported.
+- Documentation is now available for Container Analysis, introduced in July 2026. Container Analysis is a new, standalone project type in Polaris that enables software composition analysis (SCA) of container images — identifying open-source components and vulnerabilities at the container layer level. Container Analysis results appear alongside other SCA findings in the unified component inventory, and detected components are included in SBOM exports. You can run Container Analysis tests from the Polaris UI or Black Duck® Bridge CLI 4.5.0 or later. A Container Analysis entitlement is required.
+
+  See [Container Analysis](../how-to/container-analysis.md) for an overview, and Create a Container Analysis project to get started.
+- AI-assisted triage is now available on a limited basis. When enabled, users with triage permissions can select up to 20 SAST issues at a time and receive AI-generated triage suggestions, each with a confidence rating. Suggestions can be accepted or rejected individually or in bulk; accepted suggestions enter the standard triage approval workflow. AI-assisted triage requires a minimum Coverity version of 2026.6.0 (including Rapid Scan Static 2026.6.0 or later). To request access for your organization, contact Black Duck Support. See [AI-assisted triage (limited availability)](../how-to/ai-assisted-triage-limited-availability.md) for more information.
+- Polaris now supports issue tracking integration with ServiceNow. Once configured, the issue tracking integration allows Polaris to create incident tickets in ServiceNow for issues captured in Polaris.
+- ServiceNow issue tracking integration options now support two-way triage status synchronization. When configured, triage status changes in Polaris automatically update the status of linked ServiceNow tickets, and status changes in ServiceNow automatically update the triage status of linked Polaris issues. Optionally, Polaris fix-by dates and ServiceNow due dates can be kept in sync. Sync events appear in each issue's triage history, attributed to the sync rather than to a specific user.
+
+  See Automatically close tickets and synchronize triage statuses and Create integration options for ServiceNow for more information.
 - **Important**: The sunset date for deprecated endpoints in Polaris APIs was extended to **November 24, 2026, at 05:00:00 GMT**. Deprecated endpoints in Polaris APIs, versions of the Bridge CLI older than 3.6.0, and versions of Code Sight older than 2025.4.0 will stop functioning on November 24, 2026. To avoid failures:
   - Update your API scripts before November 24, 2026
   - Upgrade to Bridge CLI 3.6.0 (or newer) before November 24, 2026
@@ -36,7 +212,7 @@ Everything that's new in Polaris
   - Map Polaris fields to Jira fields (including custom Jira fields) for one-way export or bi-directional synchronization.
   - Toggle and reorder the Polaris issue details included in the Jira ticket description.
 
-  See Create integration options for Jira for more information.
+  See Create integration options for Jira Cloud for more information.
 
 ## July 2026
 
@@ -71,7 +247,7 @@ Everything that's new in Polaris
     - New hardcoded secrets pattern `Swift Crypto Key` added.
 - Polaris issue tracking integrations now support two-way triage status synchronization for Jira Cloud. When configured, triage status changes in Polaris automatically update the status of linked Jira tickets, and status changes in Jira automatically update the triage status of linked Polaris issues. Optionally, Polaris fix-by dates and Jira due dates can be kept in sync. Sync events appear in each issue's triage history, attributed to the sync rather than to a specific user.
 
-  See Automatically close tickets and synchronize triage statuses and Create integration options for Jira for more information.
+  See Automatically close tickets and synchronize triage statuses and Create integration options for Jira Cloud for more information.
 - You can now share copies of your saved dashboard filters and report configurations with other users and groups in your organization. These shared copies have the following characteristics:
   - Most users can only share with people and groups that have the same set of applications as themselves. Org admins can share with any user or group, but doing this will allow the recipient to see all configuration and filter values in the shared resource, even if they don't have access to what's mentioned. The admin will be warned of this before the resource is shared.
   - Distinct from the original, so making changes to a saved filter or configuration won't affect anyone else who has a copy of it.
@@ -245,7 +421,7 @@ Everything that's new in Polaris
   - **Bug fixes:**
     - Fixed a `jwt_non_expiring_token_io_jsonwebtoken` false positive by recognizing newer API methods for setting the expiration time of the token.
     - Fixed a `hardcoded_secrets` false positive that incorrectly reported an issue with a secret used from an environment variable.
-- Fix Pull Requests can now be created automatically or manually in the Polaris UI for components with direct dependency vulnerabilities detected by the SCA scan of SCM-integrated projects. For more information, see [Fix Pull Requests (Fix PR)](../how-to/fix-pull-requests-fix-pr.md).
+- Fix Pull Requests can now be created automatically or manually in the Polaris UI for components with direct dependency vulnerabilities detected by the SCA scan of SCM-integrated projects. For more information, see [SCA Fix Pull Requests](../how-to/fix-pull-requests-fix-pr.md).
 - Reachability Analysis has been incorporated into Polaris SCA testing to determine whether identified component vulnerabilities are actively reachable from source code. This will make SCA results more actionable and relevant, significantly reducing false positives and directing upgrade efforts towards actively exploitable vulnerabilities.
 
   To enable reachability analysis, contact polaris\_reachability@blackduck.com. Once activated, it is disabled by default. An Organization Admin must enable it at the organization level before it can be enabled for applications, projects, and/or branches. See [Using Reachability Analysis](../how-to/using-reachability-analysis.md) for more information.
@@ -544,7 +720,7 @@ Everything that's new in Polaris
 
   Note: Like other triage actions, ticket links are shared across branches in a project. All ticket link operations are tracked as triage events and appear in the issue's triage history.
 
-  See [Issue tracking integrations](../how-to/issue-tracking-integrations.md), Export an issue to Azure DevOps or Jira, and Ways to triage issues in Polaris for more information.
+  See [Issue tracking integrations](../how-to/issue-tracking-integrations.md), Export an issue to an issue tracking instance, and Ways to triage issues in Polaris for more information.
 - Polaris supports Black Duck® Bridge CLI 4.0.0. Bridge CLI now supports creating and managing GitHub issues from Polaris scan results as part of CI workflows. This feature automatically opens, updates and closes GitHub issues based on the latest security findings, enabling development teams to track remediation work directly in the source code repository.
 
   See [Create External Issues From Polaris Scans](https://docs.blackduck.com/access?ft:originId=cba15d77e1e0a5989f94dbbae8f7dd44/5f7739bee1d044f67b810469f8ea645c.topic) for more information.
@@ -1314,7 +1490,7 @@ Everything that's new in Polaris
   Note: After you open the search panel, you can select the Need additional help or support? button (near the bottom of the panel) to find links to API references, Black Duck Community, and support.
 - After you set up an issue tracking integration, DAST issues can be exported to Azure DevOps or Jira (in addition to SAST and SCA issues).
 
-  Note: See [Export an issue to Azure DevOps or Jira](../how-to/issue-tracking-integrations/export-an-issue-to-azure-devops-or-jira.md) for more information.
+  Note: See [Export an issue to an issue tracking instance](../how-to/issue-tracking-integrations/export-an-issue-to-azure-devops-or-jira.md) for more information.
 - Polaris support Black Duck Detect 10.1.0. It includes the following changes:
 
   - Extends BitBake support to 2.8.0 (Yocto 5.0.3).

@@ -1,18 +1,18 @@
 ---
 title: "New and Changed Features in Version 2021.8.6"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/new-and-changed-features-in-version-2021.8.6.html"
-content_id: "bOsrb6dB2JvjfIHJPQva5A"
+content_id: "e3TcaU9yNR7wKcHOek_FzA"
 version: "2026.7"
-section: "Release Notes"
-scraped_at: "2026-08-08T15:37:58.963715+00:00"
+section: "Black Duck SCA Release Notes"
+scraped_at: "2026-10-04T23:32:35.149487+00:00"
+content_hash: "e3010e073ea990803579395ac6688f28be8b0247e8af007aa28214274e8e7ce9"
 ---
 
 # New and Changed Features in Version 2021.8.6
 
 ## Log4j Update
 
-The Apache Log4j 2 Java library has been updated to 2.15.0 to address the critical
-CVE-2021-44228 vulnerability.
+The Apache Log4j 2 Java library has been updated to 2.15.0 to address the critical CVE-2021-44228 vulnerability.
 
 ## Container versions
 

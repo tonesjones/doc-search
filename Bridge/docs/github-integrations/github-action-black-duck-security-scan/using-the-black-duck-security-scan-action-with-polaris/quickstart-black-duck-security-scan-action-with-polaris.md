@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickst
 content_id: "9c381pgzV7V4ZZmI1ALLvQ"
 version: "latest"
 section: "GitHub Integrations"
-scraped_at: "2026-08-08T23:47:44.994920+00:00"
+scraped_at: "2026-10-04T23:28:27.924985+00:00"
+content_hash: "bc614b9db65cc3eb9082d9151b29cf92a46631964fdad8bc5d30bbee3f0891b5"
 ---
 
 # Quickstart: Black Duck Security Scan Action with Polaris

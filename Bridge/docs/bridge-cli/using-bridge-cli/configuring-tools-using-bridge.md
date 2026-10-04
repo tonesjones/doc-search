@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/configu
 content_id: "SaoNuDEGAhwd0_Q~slkzTA"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:46:52.386899+00:00"
+scraped_at: "2026-10-04T23:28:25.325049+00:00"
+content_hash: "bc65db0e27034a4825a784bb340dc04904ac4c54653a04671efa61384345d087"
 ---
 
 # Configuring tools using Bridge

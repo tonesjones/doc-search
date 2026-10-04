@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/c/c-cl
 content_id: "2HiHBxz4RmIoaoyetVBf1g"
 version: "12.0.0"
 section: "Package Manager information for Detect"
-scraped_at: "2026-09-07T21:15:54.893016+00:00"
+scraped_at: "2026-10-04T23:33:20.408714+00:00"
+content_hash: "4e3d04cab019f5c994478e6dbcedaf5a165422d9ace71b7507be005f4578a30d"
 ---
 
 # C/C++ (Clang) support

@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/gitlab-
 content_id: "vEr4YZrSbEFnyYxynqSzzg"
 version: "latest"
 section: "GitLab Integrations"
-scraped_at: "2026-08-08T23:48:04.709666+00:00"
+scraped_at: "2026-10-04T23:28:28.741628+00:00"
+content_hash: "597e543e6ac4065dc5b5e1b54dbdbad8b77454927e3e61bb2c155dfaadeebbfc"
 ---
 
 # GitLab prerequisites

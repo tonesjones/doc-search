@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/swift.
 content_id: "ltII6zDxju7bur9jXOfW_A"
 version: "12.0.0"
 section: "Detect Properties"
-scraped_at: "2026-09-07T21:17:00.756708+00:00"
+scraped_at: "2026-10-04T23:33:22.883292+00:00"
+content_hash: "fad667fb9d3e1412cfc46677954a64107393a08a47271000589d782ea25f2384"
 ---
 
 # swift

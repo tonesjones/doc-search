@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/cpan-s
 content_id: "ZAXidkE_o4XQuBzXK85iLw"
 version: "12.0.0"
 section: "Package Manager information for Detect"
-scraped_at: "2026-09-07T21:15:57.512939+00:00"
+scraped_at: "2026-10-04T23:33:20.477564+00:00"
+content_hash: "35ee8b0dd4db7c3d7d42f5b47de4dddcd0b27d73224c09f53c90a9cd044067df"
 ---
 
 # CPAN Support

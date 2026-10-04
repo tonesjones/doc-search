@@ -1,35 +1,26 @@
 ---
 title: "Configuring custom volumes for Blackduck Storage"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/configuring-custom-volumes-for-blackduck-storage.html"
-content_id: "NPuvZucm6d7JulFnEmb0fg"
+content_id: "2rQRz~gLnz9RF9Z7O~xQ1A"
 version: "2026.7"
 section: "Installing Black Duck using Kubernetes and OpenShift"
-scraped_at: "2026-08-08T15:33:19.870457+00:00"
+scraped_at: "2026-10-04T23:32:23.418507+00:00"
+content_hash: "c296435766f5a346fc33d1550de1a7e72f3b36aa064f8445d6f018b3babf33e1"
 ---
 
 # Configuring custom volumes for Blackduck Storage
 
-The storage container may be configured to use up to three (3) volumes for the storage of
-file based objects. In addition, the configuration can be set up to migrate objects from
-one volume to another.
+The storage container may be configured to use up to three (3) volumes for the storage of file based objects. In addition, the configuration can be set up to migrate objects from one volume to another.
 
 ## Why more than one volume?
 
-By default, the storage container uses a single volume to store all objects. This
-volume is sized based on typical customer usage for stored objects. As each customer
-is different, it may become necessary to have more space available than the volume
-can provide. Since not all volumes are expandable, it may become necessary to add a
-different, larger volume and migrate the data to the new volume.
+By default, the storage container uses a single volume to store all objects. This volume is sized based on typical customer usage for stored objects. As each customer is different, it may become necessary to have more space available than the volume can provide. Since not all volumes are expandable, it may become necessary to add a different, larger volume and migrate the data to the new volume.
 
-Another reason why multiple volumes may become necessary is if the volume is hosted
-on a remote system (NAS or SAN) and that remote system is due to be decommissioned.
-A second volume hosted on a new system would need to be created and the content
-moved to it.
+Another reason why multiple volumes may become necessary is if the volume is hosted on a remote system (NAS or SAN) and that remote system is due to be decommissioned. A second volume hosted on a new system would need to be created and the content moved to it.
 
 ## Configuring multiple volumes
 
-To configure custom storage providers in Kubernetes, create an override file
-containing the following:
+To configure custom storage providers in Kubernetes, create an override file containing the following:
 
 ```
 storage:
@@ -75,34 +66,28 @@ storage:
       mountPath: "/opt/blackduck/hub/uploads3"
 ```
 
-In the above override file both providers 1 and 2 are enabled with provider 2 having a
-higher priority (lower preference number) and so all new content is directed there.
+In the above override file both providers 1 and 2 are enabled with provider 2 having a higher priority (lower preference number) and so all new content is directed there.
 
 The possible settings for each provider are as follows:
 
 | Setting | Details |
 | --- | --- |
 | `name` | **Default:** none.  **Valid values**: any.  **Notes**: This is a cosmetic label to assist in administration of these providers. |
-| `enabled` | **Default:** `true` for provider 1, `false` for others.  **Valid values**: `true` or `false`.  **Notes**: Indicates if the provider is enabled or not. |
+| `enabled` | **Default:**`true` for provider 1, `false` for others.  **Valid values**: `true` or `false`.  **Notes**: Indicates if the provider is enabled or not. |
 | `index` | **Default:** none.  **Valid values**: `1`, `2`, `3`.  **Notes**: Indication of the provider number. The sequence in the configuration file does not matter. |
-| `type` | **Default:** `file`.  **Valid values**: `file`.  **Notes**: `"file"` is the only supported provider type. |
-| `preference` | **Default:** `index` times 10.  **Valid values**: `0-999`.  **Notes**: Sets the preference of the provider. Providers with the highest priority (lowest preference number) will have new content added to them.  NOTE: All provider preferences must be unique, Two providers cannot share the same value. |
-| `readonly` | **Default:** `false`.  **Valid values**: `true` or `false`.  **Notes**: Indicates a provider is read-only. The highest priority (lowest preference number) provider cannot be read-only or the system cannot function.  A read only provider will not have the storage volume altered by addition of data or removal of data, however metadata in the database will be manipulated to record object deletions and other changes. |
-| `migrationMode` | **Default:** `none`.  **Valid values**: `none`, `drain`, `delete`, `duplicate`.  **Notes**: Configures the migration mode for the provider, Details of what this mode is and how to use it are provided in the migration section of this document. |
-| `existingPersistentVolumeClaimName` | **Default:** `""`.  **Valid values**: any valid k8s identifier.  **Notes**: Allows you to specify a specific persistence volume claim name for this volume. |
-| `pvc.size` | **Default:** `none`.  **Valid values**: any valid size.  **Notes**: Allows you to specify the amount of space available to the volume. |
-| `pvc.storageClass` | **Default:** `""`.  **Valid values**: any valid k8s identifier.  **Notes**: Allows you to specify a specific storage class for this volume. |
-| `pvc.existingPersistentVolumeName` | **Default:** `""`.  **Valid values**: any valid k8s identifier.  **Notes**: Allows you to specify a specific persistence volume name for this volume. |
+| `type` | **Default:**`file`.  **Valid values**: `file`.  **Notes**: `"file"` is the only supported provider type. |
+| `preference` | **Default:**`index` times 10.  **Valid values**: `0-999`.  **Notes**: Sets the preference of the provider. Providers with the highest priority (lowest preference number) will have new content added to them.  NOTE: All provider preferences must be unique, Two providers cannot share the same value. |
+| `readonly` | **Default:**`false`.  **Valid values**: `true` or `false`.  **Notes**: Indicates a provider is read-only. The highest priority (lowest preference number) provider cannot be read-only or the system cannot function.  A read only provider will not have the storage volume altered by addition of data or removal of data, however metadata in the database will be manipulated to record object deletions and other changes. |
+| `migrationMode` | **Default:**`none`.  **Valid values**: `none`, `drain`, `delete`, `duplicate`.  **Notes**: Configures the migration mode for the provider, Details of what this mode is and how to use it are provided in the migration section of this document. |
+| `existingPersistentVolumeClaimName` | **Default:**`""`.  **Valid values**: any valid k8s identifier.  **Notes**: Allows you to specify a specific persistence volume claim name for this volume. |
+| `pvc.size` | **Default:**`none`.  **Valid values**: any valid size.  **Notes**: Allows you to specify the amount of space available to the volume. |
+| `pvc.storageClass` | **Default:**`""`.  **Valid values**: any valid k8s identifier.  **Notes**: Allows you to specify a specific storage class for this volume. |
+| `pvc.existingPersistentVolumeName` | **Default:**`""`.  **Valid values**: any valid k8s identifier.  **Notes**: Allows you to specify a specific persistence volume name for this volume. |
 | `mountPath` | **Default:** specific to index - see notes.  **Valid values**:  /opt/blackduck/hub/uploads  /opt/blackduck/hub/uploads2  /opt/blackduck/hub/uploads3  **Notes**: Sets the mount point for a specific provider. A provider with index one (1) must specify the mount point /opt/blackduck/hub/uploads. A provider with index two (2) must specific the mount point  /opt/blackduck/hub/uploads2. A provider with index three (3) must specify the mount point  /opt/blackduck/hub/uploads3 |
 
 ## Migrating Between Volumes
 
-With multiple volumes configured, it is possible to migrate content from one or more
-provider volumes to a new provider volume. This can only be done for providers that
-are not the highest priority (lowest preference). To do this, configure the volumes
-with one of the following migration modes. Once configured, Black Duck needs to be
-restarted in order to initiate the migration which is performed by a job in the
-background until it is completed.
+With multiple volumes configured, it is possible to migrate content from one or more provider volumes to a new provider volume. This can only be done for providers that are not the highest priority (lowest preference). To do this, configure the volumes with one of the following migration modes. Once configured, Black Duck needs to be restarted in order to initiate the migration which is performed by a job in the background until it is completed.
 
 | Migration Mode | Details |
 | --- | --- |

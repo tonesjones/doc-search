@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/black-d
 content_id: "it6KfZwL8o8~Ark7ZLFiQQ"
 version: "latest"
 section: "Azure DevOps Integrations"
-scraped_at: "2026-08-08T23:48:12.996473+00:00"
+scraped_at: "2026-10-04T23:28:29.215633+00:00"
+content_hash: "14f0a0de74db4a83ee9859c472b2e684f56b0598a0398ccc0af088fe7a58c519"
 ---
 
 # Black Duck Security Bulk Onboarding for Azure DevOps

@@ -1,21 +1,18 @@
 ---
 title: "Providing access to the REST APIs from a non-Black Duck server"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/providing-access-to-the-rest-apis-from-a-non-black-duck-server.html"
-content_id: "4oNeRmMxohjM9mtjbL58Yg"
+content_id: "znfSLS0LOiw~u5McZ0x0BA"
 version: "2026.7"
 section: "Installing Black Duck using Docker Swarm"
-scraped_at: "2026-08-08T15:33:41.991026+00:00"
+scraped_at: "2026-10-04T23:32:24.367024+00:00"
+content_hash: "bdd6b456ae21fbb71605510c65c7a2c0f2ddb461a773e3bfc5cd3435a3041d23"
 ---
 
 # Providing access to the REST APIs from a non-Black Duck server
 
-You may wish to access Black Duck REST APIs from a web page that was
-served from a non-Black Duck server. To enable access to the REST APIs
-from a non-Black Duck server, Cross Origin Resource Sharing (CORS) must
-be enabled.
+You may wish to access Black Duck REST APIs from a web page that was served from a non-Black Duck server. To enable access to the REST APIs from a non-Black Duck server, Cross Origin Resource Sharing (CORS) must be enabled.
 
-The properties used to enable and configure CORS for Black Duck
-installations are:
+The properties used to enable and configure CORS for Black Duck installations are:
 
 | Property | Description |
 | --- | --- |
@@ -26,5 +23,4 @@ installations are:
 | BLACKDUCK_CORS_ALLOWED_​ORIGIN_PATTERNS_PROP_NAME | Alternative to BLACKDUCK_CORS_ALLOWED_ORIGINS_​PROP_NAME*,* that supports origins declared via wildcard patterns. BLACKDUCK_CORS_ALLOWED_ORIGIN_PATTERNS_​PROP_NAME overrides BLACKDUCK_CORS_ALLOWED_ORIGINS_PROP_NAME. |
 | BLACKDUCK_CORS_ALLOW_​CREDENTIALS_PROP_NAME | Specifies whether the browser should send credentials, such as cookies along with cross domain requests, to the annotated endpoint. The configured value is set on the Access-Control-Allow-Credentials response header of preflight requests. It is invalid to configure ALLOW_CREDENTIALS=true and ALLOWED_ORIGIN=*. If the 'ALL' configuration value is required for allowed origins, it should configured using the ALLOWED_ORIGIN_PATTERNS configuration property instead going forward. |
 
-To configure these properties, edit the `blackduck-config.env` file,
-located in the `docker-swarm` directory.
+To configure these properties, edit the `blackduck-config.env` file, located in the `docker-swarm` directory.

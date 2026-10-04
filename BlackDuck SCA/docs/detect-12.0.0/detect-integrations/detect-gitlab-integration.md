@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/detect
 content_id: "q8EtSsQ9h8iawGrJUdFTIw"
 version: "12.0.0"
 section: "Detect Integrations"
-scraped_at: "2026-09-07T21:17:30.007506+00:00"
+scraped_at: "2026-10-04T23:33:23.801986+00:00"
+content_hash: "2a667183192a1f6b7a545848d381a9034cf34167f1d9f52eade15434b6579787"
 ---
 
 # Detect GitLab integration

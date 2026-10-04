@@ -1,17 +1,18 @@
 ---
 title: "Webapp container"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/webapp-container.html"
-content_id: "c2dabwK7mlGS6CTLZ~~1xg"
+content_id: "srkfEl6cDV~Vh0kQ3Qe_Mw"
 version: "2026.7"
 section: "Installing Black Duck using Docker Swarm"
-scraped_at: "2026-08-08T15:34:26.647408+00:00"
+scraped_at: "2026-10-04T23:32:26.274288+00:00"
+content_hash: "0465b2a5941c818fa9445afa31c4d46e22d77bb750bf11f5730fa467e5c63b06"
 ---
 
 # Webapp container
 
 | Container Name: blackduck-webapp | |
 | --- | --- |
-| Image Name | blackducksoftware/blackduck-webapp:2026.7.0 |
+| Image Name | blackducksoftware/blackduck-webapp:2026.7.1 |
 | Description | The webapp container is the container that all Web/UI/API requests are made against. It also processes any UI requests. In the diagram, the ports for the webapp are not exposed outside of the Docker network. There is an NGiNX reverse proxy (as described in the WebServer container) that is exposed outside of the Docker network instead. |
 | Scalability | There should only be a single instance of this container. It should not be scaled. |
 | Links/Ports | The webapp container needs to connect to these containers/services:   - postgres - registration - logstash - cfssl   The container needs to expose port 8443 to other containers that will link to it. |

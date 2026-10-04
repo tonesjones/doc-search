@@ -7,11 +7,11 @@ The public site is a JavaScript SPA. A normal page fetch only returns “Loading
 | Field | Current pin |
 |-------|-------------|
 | Product | Coverity Documentation (English) |
-| Version | **2026.6** |
-| Product key | `coverity-2026.6` |
-| Topics | **4443 / 4443** (complete) |
-| Official help center | https://docs.blackduck.com/r/coverity/2026.6/coverity-documentation/ |
-| Map ID | `Ul9eg_yUOJh8gKU4cs1xrg` |
+| Version | **2026.9** |
+| Product key | `coverity-2026.9` |
+| Topics | **4526 / 4526** (complete) |
+| Official help center | https://docs.blackduck.com/r/coverity/2026.9/coverity-documentation/ |
+| Map ID | `p947~vf~m8~FAAkUVEdBIQ` |
 
 **Out of scope unless someone reopens them:** Coverity on Polaris, non-English locales, older Coverity year versions, Black Duck SCA / Detect / Alert (separate repo), and Bridge CLI (separate `Bridge` corpus).
 
@@ -41,7 +41,7 @@ If you received this repository already populated, you do **not** need Python, n
 | Release notes and upgrade considerations | `docs/release-notes/` |
 | Glossary / legal / misc | `docs/glossary/`, `docs/legal/`, `docs/misc/` |
 
-Do **not** hand-edit topic rows in `index.md`. That file is generated from `sources/coverity-2026.6/manifest.json`.
+Do **not** hand-edit topic rows in `index.md`. That file is generated from `sources/coverity-2026.9/manifest.json`.
 
 Agents that work in this tree should follow [`AGENTS.md`](AGENTS.md): search local Markdown first, cite paths, and do not invent UI paths, checker names, CLI flags, or API endpoints.
 
@@ -63,15 +63,15 @@ Registered keys, map IDs, and scrape flags live in [`scripts/products.py`](scrip
 
 ## Refresh the current version (docs changed, version did not)
 
-Use this when **2026.6** (or whatever is pinned) is updated in place on the official site.
+Use this when **2026.9** (or whatever is pinned) is updated in place on the official site.
 
 ```powershell
-python scripts/build-index.py --product coverity-2026.6 --refresh-toc --hub
-python scripts/scrape-pending.py --product coverity-2026.6 --all-pending
-python scripts/scrape-pending.py --product coverity-2026.6 --refresh-changed
-python scripts/scrape-pending.py --product coverity-2026.6 --retry-errors
-python scripts/build-index.py --product coverity-2026.6 --hub
-python scripts/validate-corpus.py --product coverity-2026.6
+python scripts/build-index.py --product coverity-2026.9 --refresh-toc --hub
+python scripts/scrape-pending.py --product coverity-2026.9 --all-pending
+python scripts/scrape-pending.py --product coverity-2026.9 --refresh-changed
+python scripts/scrape-pending.py --product coverity-2026.9 --retry-errors
+python scripts/build-index.py --product coverity-2026.9 --hub
+python scripts/validate-corpus.py --product coverity-2026.9
 ```
 
 What those flags do:
@@ -94,7 +94,7 @@ After any scrape, rebuild the hub and update `CHECKPOINT.md`.
 
 ## Scrape a future Coverity version
 
-A new Coverity year/release (for example 2026.9) is a **new Fluid Topics map**, not a TOC refresh of 2026.6. Do not point the existing `coverity-2026.6` key at the new map and run `--init` unless you intend to throw away the current pin.
+A new Coverity year/release (for example 2026.9) is a **new Fluid Topics map**, not a TOC refresh of 2026.9. Do not point the existing `coverity-2026.9` key at the new map and run `--init` unless you intend to throw away the current pin.
 
 ### 1. Find the new map ID
 
@@ -125,9 +125,9 @@ Skip Coverity on Polaris maps and non-English titles unless you are deliberately
 
 ### 2. Register the product
 
-Add an entry in `scripts/products.py`. Keep `2026.6` if you still want that corpus on disk.
+Add an entry in `scripts/products.py`. Keep `2026.9` if you still want that corpus on disk.
 
-**Recommended if you keep 2026.6:** give the new version its own `docs_root` and index so paths do not collide with the current `docs/overview/`, `docs/connect/`, … tree (`docs_root` is `None` on the current pin).
+**Recommended if you keep 2026.9:** give the new version its own `docs_root` and index so paths do not collide with the current `docs/overview/`, `docs/connect/`, … tree (`docs_root` is `None` on the current pin).
 
 ```python
 "coverity-2026.9": {
@@ -147,7 +147,7 @@ Add an entry in `scripts/products.py`. Keep `2026.6` if you still want that corp
 },
 ```
 
-**Replace-in-place (drop 2026.6 as the pin):** only do this if you no longer need the old files as the default corpus. Change `map_id`, `version`, `source_dir`, and `DEFAULT_PRODUCT_KEY` on the existing product, then use `--refresh-toc` (not `--init`) so topics that kept the same content id stay `done`. New topics scrape as `pending`; `--refresh-changed` updates bodies that moved. Leftover Markdown for removed TOC nodes is not deleted automatically.
+**Replace-in-place (drop 2026.9 as the pin):** only do this if you no longer need the old files as the default corpus. Change `map_id`, `version`, `source_dir`, and `DEFAULT_PRODUCT_KEY` on the existing product, then use `--refresh-toc` (not `--init`) so topics that kept the same content id stay `done`. New topics scrape as `pending`; `--refresh-changed` updates bodies that moved. Leftover Markdown for removed TOC nodes is not deleted automatically.
 
 ### 3. Init, scrape, validate
 
@@ -161,7 +161,7 @@ python scripts/build-index.py --product coverity-2026.9 --hub
 python scripts/validate-corpus.py --product coverity-2026.9
 ```
 
-A full English Coverity map is on the order of **4,000+** topics. At the default 0.35s delay that is typically **1–2 hours** unattended, or faster if the API is responsive. The 2026.6 remainder pass (1,814 topics) ran in about 21 minutes.
+A full English Coverity map is on the order of **4,000+** topics. At the default 0.35s delay that is typically **1–2 hours** unattended, or faster if the API is responsive. The 2026.9 remainder pass (1,814 topics) ran in about 21 minutes.
 
 Optional first-time smoke test:
 
@@ -169,7 +169,7 @@ Optional first-time smoke test:
 python scripts/scrape-pending.py --product coverity-2026.9 --section "Coverity overview" --limit 5
 ```
 
-Section names must match official TOC roots (see `COVERITY_ROOT_SLUGS` in `scripts/products.py`). Phased commands from the original 2026.6 scrape are in [`PHASE-PLAN.md`](PHASE-PLAN.md).
+Section names must match official TOC roots (see `COVERITY_ROOT_SLUGS` in `scripts/products.py`). Phased commands from the original 2026.9 scrape are in [`PHASE-PLAN.md`](PHASE-PLAN.md).
 
 ### 4. Retarget the pin
 
@@ -186,16 +186,16 @@ If the new version becomes the default corpus:
 
 ```powershell
 python scripts/build-index.py --list-products
-python scripts/build-index.py --product coverity-2026.6 --hub
-python scripts/build-index.py --product coverity-2026.6 --refresh-toc --hub
-python scripts/scrape-pending.py --product coverity-2026.6 --all-pending
-python scripts/scrape-pending.py --product coverity-2026.6 --section "Coverity Connect"
-python scripts/scrape-pending.py --product coverity-2026.6 --path-contains "Customization guides"
-python scripts/scrape-pending.py --product coverity-2026.6 --section "Coverity Analysis" --exclude-path "Customization guides"
-python scripts/scrape-pending.py --product coverity-2026.6 --refresh-changed --limit 100
-python scripts/scrape-pending.py --product coverity-2026.6 --retry-errors
-python scripts/scrape-pending.py --product coverity-2026.6 --repair-empty
-python scripts/validate-corpus.py --product coverity-2026.6
+python scripts/build-index.py --product coverity-2026.9 --hub
+python scripts/build-index.py --product coverity-2026.9 --refresh-toc --hub
+python scripts/scrape-pending.py --product coverity-2026.9 --all-pending
+python scripts/scrape-pending.py --product coverity-2026.9 --section "Coverity Connect"
+python scripts/scrape-pending.py --product coverity-2026.9 --path-contains "Customization guides"
+python scripts/scrape-pending.py --product coverity-2026.9 --section "Coverity Analysis" --exclude-path "Customization guides"
+python scripts/scrape-pending.py --product coverity-2026.9 --refresh-changed --limit 100
+python scripts/scrape-pending.py --product coverity-2026.9 --retry-errors
+python scripts/scrape-pending.py --product coverity-2026.9 --repair-empty
+python scripts/validate-corpus.py --product coverity-2026.9
 ```
 
 PowerShell wrappers for the index script: `.\scripts\build-index.ps1 -ListProducts`, `-Init`, `-RefreshToc`, `-Hub`.
@@ -210,7 +210,7 @@ README.md                 This file
 CHECKPOINT.md             Session handoff
 PHASE-PLAN.md             Original 8-phase scrape plan
 corpus-status.md          Generated progress hub
-index.md                  Generated 2026.6 TOC catalog
+index.md                  Generated 2026.9 TOC catalog
 requirements.txt
 docs/                     Scraped Markdown (one official topic per file)
 sources/<product-key>/    toc.json + manifest.json work queue
@@ -222,3 +222,7 @@ scripts/
 ```
 
 Manifest topic `status` values: `pending` | `done` | `skipped` | `error`. Scrape `pending`, retry `error`, and do not re-fetch `done` unless you pass `--refresh-changed` or the user asked to refresh.
+
+## Version history
+
+Unversioned questions use 2026.9 through `index.md`. The 2026.6 snapshot remains unchanged at `index-coverity-2026.6.md`. Use the historical catalog only for that version or a comparison.

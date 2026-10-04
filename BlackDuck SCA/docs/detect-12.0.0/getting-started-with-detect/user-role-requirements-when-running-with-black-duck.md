@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/user-r
 content_id: "UiQ9jl05zrlcZSeSlF8qUg"
 version: "12.0.0"
 section: "Getting started with Detect"
-scraped_at: "2026-09-07T21:15:13.091334+00:00"
+scraped_at: "2026-10-04T23:33:19.038663+00:00"
+content_hash: "43c062357044d13f8b8a868a977a7b18b13bf989d3650094d83977f06a09f06f"
 ---
 
 # User role requirements when running with Black Duck

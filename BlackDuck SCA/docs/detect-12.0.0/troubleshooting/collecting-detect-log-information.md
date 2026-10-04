@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/collec
 content_id: "4eXDN7~NcehC67tunWUNng"
 version: "12.0.0"
 section: "Troubleshooting"
-scraped_at: "2026-09-07T21:17:06.045931+00:00"
+scraped_at: "2026-10-04T23:33:23.039540+00:00"
+content_hash: "e36df0d074f6b1ab07336a9b2129a79630b7915a0fd1ceeb7b6e9791af9d0dbb"
 ---
 
 # Collecting Detect log information

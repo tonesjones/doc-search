@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/ruby.h
 content_id: "_O44pMYjxWkpA75OhryIdQ"
 version: "12.0.0"
 section: "Detect Properties"
-scraped_at: "2026-09-07T21:16:59.270515+00:00"
+scraped_at: "2026-10-04T23:33:22.840429+00:00"
+content_hash: "e4cacc27e5439bb1e8491470e9e139edde20e766e8b42f4128bac660f8ec25c7"
 ---
 
 # ruby

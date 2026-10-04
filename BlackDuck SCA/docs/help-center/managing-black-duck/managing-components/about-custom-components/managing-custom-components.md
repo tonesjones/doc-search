@@ -1,16 +1,16 @@
 ---
 title: "Managing Custom Components"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/managing-custom-components.html"
-content_id: "MW26qwX8J9~73Aup0xZ2vQ"
+content_id: "j2lfDkdU9mIR8Jk5bj3SYg"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T15:30:13.678927+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:15.227141+00:00"
+content_hash: "f174087f68dea20b6150b2c682f41e220baa5bb0ebe3e2cb3288605f12eb9619"
 ---
 
 # Managing Custom Components
 
-View and manage information about a custom component, including component details,
-versions, tags, approval status, custom fields, and SBOM metadata.
+View and manage information about a custom component, including component details, versions, tags, approval status, custom fields, and SBOM metadata.
 
 ## Before you begin
 
@@ -23,8 +23,7 @@ You must have the **Component Manager** role.
 
 ## Overview tab
 
-The **Overview** tab displays summary information about the custom component and
-its versions.
+The **Overview** tab displays summary information about the custom component and its versions.
 
 The information panel displays:
 
@@ -48,11 +47,9 @@ To create an additional version for the component, click **Create Version**.
 
 ## Settings tab
 
-The custom component **Settings** tab provides access to component-level
-information and configuration settings.
+The custom component **Settings** tab provides access to component-level information and configuration settings.
 
-- The **Component Details** page allows you to view and update component
-  information, including:
+- The **Component Details** page allows you to view and update component information, including:
 
   - Component Name
   - Description
@@ -62,15 +59,8 @@ information and configuration settings.
 
   After making changes, click **Save** to update the component.
 
-  The **Delete Component** section is also available from the Component
-  Details page. You can use this section to delete the custom component when
-  it is no longer needed.
+  The **Delete Component** section is also available from the Component Details page. You can use this section to delete the custom component when it is no longer needed.
 
-  Warning: You cannot delete a custom component that is currently in
-  use.
-- The **Custom
-  Fields** tab displays any custom fields that have been
-  defined for the custom component.
-- The **SBOM
-  Fields** tab displays SBOM-related metadata associated with
-  the custom component.
+  Warning: You cannot delete a custom component that is currently in use.
+- The **Custom Fields** tab displays any custom fields that have been defined for the custom component.
+- The **SBOM Fields** tab displays SBOM-related metadata associated with the custom component.

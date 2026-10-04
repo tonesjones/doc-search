@@ -1,58 +1,44 @@
 ---
 title: "New and changed features in version 2022.7.1"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/new-and-changed-features-in-version-2022.7.1.html"
-content_id: "fQkQUAnmH~Bpagkv582TNg"
+content_id: "iYwvhP5a3s9Ecb~zO~KPXg"
 version: "2026.7"
-section: "Release Notes"
-scraped_at: "2026-08-08T15:37:30.262140+00:00"
+section: "Black Duck SCA Release Notes"
+scraped_at: "2026-10-04T23:32:33.731618+00:00"
+content_hash: "c45ccc2b390d250cad5e189176f9343f9574fb956c497053667ef1d408925e27"
 ---
 
 # New and changed features in version 2022.7.1
 
 ## Git repository SCM integration - Phase 2
 
-Black Duck 2022.7.1 has updated the way users can add repository/branch fields when
-creating a project and version. You now have the ability to add authorized SCM
-providers (GitHub Standard and GitHub Enterprise only at this time) which can then
-be selected when creating a new project. Doing so will automatically pre-populate
-the repository URL and branch version in the Project Settings page for your new
-project.
+Black Duck 2022.7.1 has updated the way users can add repository/branch fields when creating a project and version. You now have the ability to add authorized SCM providers (GitHub Standard and GitHub Enterprise only at this time) which can then be selected when creating a new project. Doing so will automatically pre-populate the repository URL and branch version in the Project Settings page for your new project.
 
-This feature is compatible with Detect 8.x and above, and will take effect with new
-scans.
+This feature is compatible with Detect 8.x and above, and will take effect with new scans.
 
-Please note that SCM integration is not enabled by default in Black Duck and must be
-activated by adding the following in your environment:
+Please note that SCM integration is not enabled by default in Black Duck and must be activated by adding the following in your environment:
 
-For Swarm users, add the following to your `blackduck-config.env`
-file:
+For Swarm users, add the following to your `blackduck-config.env` file:
 
 ```
 blackduck.scan.scm.enableIntegration=true
 ```
 
-For Kubernetes users, add the following to your `values.yaml` file
-under the `environs` section:
+For Kubernetes users, add the following to your `values.yaml` file under the `environs` section:
 
 ```
-environs:
-  blackduck.scan.scm.enableIntegration: "true"
+environs: blackduck.scan.scm.enableIntegration: "true"
 ```
 
 ## New heatmap data download
 
-You now have the ability to download the heatmap data which holds information for
-terminal scans in the system. You can download this information by going to Administration > Diagnostics > System Information. From there, click the **Download Heatmap (.zip)** button. The
-output is a `.csv` file.
+You now have the ability to download the heatmap data which holds information for terminal scans in the system. You can download this information by going to Administration > Diagnostics > System Information. From there, click the **Download Heatmap (.zip)** button. The output is a `.csv` file.
 
 ## Creating reports using UTF8 with BOM
 
-*Please note that this feature was added in Black Duck 2022.7.0 and was
-accidentally omited from that version's release notes.*
+*Please note that this feature was added in Black Duck 2022.7.0 and was accidentally omited from that version's release notes.*
 
-Black Duck 2022.7.0 introduced support for UTF8 with BOM character encoding in
-reports for customers using non-Western characters. To enable this feature, add the
-following to the `blackduck-config.env` file:
+Black Duck 2022.7.0 introduced support for UTF8 with BOM character encoding in reports for customers using non-Western characters. To enable this feature, add the following to the `blackduck-config.env` file:
 
 ```
 USE_CSV_BOM=true
@@ -60,8 +46,7 @@ USE_CSV_BOM=true
 
 ## New bulk actions for project version components
 
-The bulk update feature now supports the following actions on components on the
-project versions page:
+The bulk update feature now supports the following actions on components on the project versions page:
 
 - Ignore/unignore components
 - Set component usage type

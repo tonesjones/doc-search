@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/gi
 content_id: "0TnK6iPnWQY44~W6Pz~s0Q"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:57:23.765282+00:00"
-content_hash: "c6e64147035496cd00875492ccee241e5e6204d6ef3c36fa24eb8bdc5c426e36"
+scraped_at: "2026-10-04T23:29:20.924819+00:00"
+content_hash: "eeabacb5c72a7adc0adf3b22c578dbed4af179ac79352aa382776a1d37513ff2"
 ---
 
 # GitLab SaaS

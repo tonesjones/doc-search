@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickst
 content_id: "RY3ASea6IDMpG00JPMwzig"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:47:25.960289+00:00"
+scraped_at: "2026-10-04T23:28:26.886854+00:00"
+content_hash: "3d9eb64af38f185e9547124efd1ed644357b4580ba60383f4eaba450ea125eac"
 ---
 
 # Quickstart: SRM Bridge CLI in a Bitbucket pipeline

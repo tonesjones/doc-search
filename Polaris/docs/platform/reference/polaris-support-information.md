@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/po
 content_id: "9o4eV3hDO0h1ZTd7qZMDsA"
 product_key: "polaris-platform-latest"
 section: "Reference"
-scraped_at: "2026-08-12T19:57:55.140099+00:00"
-content_hash: "02a27c3e96b5423218de494422f8a7c25083c0f84c44261dfb0cfab47cce7519"
+scraped_at: "2026-10-04T23:29:23.478763+00:00"
+content_hash: "62734791079ed369660d1208369bca821865d8c7e109c2caea41560422108169"
 ---
 
 # Polaris Support Information
@@ -35,12 +35,14 @@ Table 2. Supported tools
 
 | Tool | Supported version(s) |
 | --- | --- |
-| Coverity (with Rapid Scan Static) | - 2026.6.0 (2026.6.1) **Latest, automatic update** - 2026.6.0 (2026.6.0) **Recommended** - 2026.3.0 (2026.3.0) - 2025.12.0 (2026.3.0) - 2025.9.1 (2026.1.0) **Deprecated** |
+| Coverity (with Rapid Scan Static) | - 2026.6.0 (2026.9.0) **Latest, automatic update** - 2026.6.0 (2026.6.0) **Recommended** - 2026.3.0 (2026.3.0) - 2025.12.0 (2026.3.0) - 2025.9.1 (2026.1.0) **Deprecated** |
 | Bridge CLI Bundle | 4.5.0 |
 | Bridge CLI Thin Client | 3.0.18 |
-| Black Duck® Detect | 11.4.2 |
+| Black Duck® Detect | 11.5.1 |
 
 Note: The version of Coverity used for SAST tests on Polaris can be customized. Each supported version of Coverity is paired with a specific version of Rapid Scan Static (Sigma). When you select a specific Coverity version — including the recommended version — both versions are locked. When you select the latest Coverity version, the latest version of Sigma is used automatically. For more information, see [Manage SAST tool versions](../how-to/manage-sast-tool-versions.md).
+
+Important: AI-assisted triage requires a minimum Coverity version of 2026.6.0.
 
 ## Issue tracking integrations
 
@@ -50,8 +52,12 @@ Table 3. Supported platforms
 
 | Platform | Supported version |
 | --- | --- |
-| Azure DevOps | Azure DevOps Services Note: Azure DevOps server is not supported. |
-| Jira | Classic Jira Cloud running the latest long term support release Note: Jira Next-Gen is not supported. |
+| Azure DevOps | Azure DevOps Services. Note: Azure DevOps server is not supported. |
+| GitHub Issues (via SCM import) | GitHub Standard, GitHub Enterprise Cloud, and GitHub Enterprise Cloud with data residency. Note: GitHub Enterprise Server is not supported. |
+| GitLab Issues (via SCM import) | GitLab SaaS. Note: GitLab Self-Managed is not supported, and GitLab Dedicated is conditionally supported. For GitLab Dedicated, if the instance URL is publicly reachable over HTTPS, Polaris issue tracking integration works like GitLab SaaS. |
+| Jira Cloud | Classic Jira Cloud running the latest long term support release. Note: Jira Next-Gen is not supported. |
+| Jira Data Center | Jira Software 8.4.0 or later is required for full API support. Jira Software 10.3.0 is Atlassian's current minimum long term support version. Important: Atlassian has announced end of support for Jira Data Center on March 28, 2029. See Atlassian's migration plan, [Atlassian Ascend](https://www.atlassian.com/migration), for more information. |
+| ServiceNow | All versions/releases are supported. |
 
 ## Supported file types and tests
 
@@ -72,6 +78,7 @@ Table 5. SAST Language Version and Scan Type Support
 | C# \* | Up to C# 14 | Supported | Supported | Supported |
 | Dart \* | Version Agnostic | Supported | Supported | Supported |
 | Go \* | Go 1.25-1.26 | Supported | Supported | Supported |
+| Groovy \* | Version agnostic | Supported | Supported | Supported |
 | Infrastructure as code \* |  | Supported | Supported | Supported |
 | Java \* | Up to Java 26 | Supported | Supported | Supported |
 | JavaScript \* | ECMAScript 2023 | Supported | Supported | Supported |
@@ -98,6 +105,7 @@ Table 6. SAST Capture File Types and Supported Frameworks (Rapid Scan Static)
 | C# | Config  CS | .NET Framework  Bouncy Castle  Akka.NET  Amazon AWSSDK  Apache log4net  ASP.NET Boilerplate  ASP.NET Core  ASP.NET Core MVC  ASP.NET MVC  ASP.NET Web API  Castle Project  Consul.NET  Google Cloud  HtmlAgilityPack  IdentityModel  IdentityServer4  MongoDB  MySQL  Newtonsoft Json.NET  NLog  SendGrid |
 | Dart | Dart  XML | Flutter  Realm |
 | Go | Go | Gorilla |
+| Groovy | Gradle  Groovy  Groovy Server Pages  Jenkinsfile | Gradle  Grails  HTTPBuilder  Micronaut |
 | Docker and Containers | Containerfile  Dockerfile  YAML |  |
 | Infrastructure as Code (IaC) technologies | HCL  JSON  YAML | Ansible  AWS CloudFormation  Azure Resource Manager (ARM)  Docker  Google Cloud Platform (GCP) Deployment Manager  Helm  Kubernetes  Terraform (for AWS, Azure, GCP, Kubernetes) |
 | Java | Java  Java Properties  XML  YAML | ActiveMQ  Android  AndroidX  Apache Cordova  Apache Kafka  Apache Struts  Apache Zookeeper  Cassandra  EJB  Grails® framework  GraphQL  gRPC  Hazelcast  Jackson  Jakarta Server Faces  Java Servlet  Java/Jakarta EE  JWT  MyBatis  MySQL  Netty  Spring  Spring Boot  Spring Roo  Spring Security  Spring WebFlux  Struts  Struts2  Tomcat  Vertx |
@@ -307,11 +315,24 @@ Table 12. Binary upload limitations
 
 Note: For binary file uploads, filenames can include letters, digits, and the characters “.”, “-” and “\_”. No other characters or spaces are allowed.
 
+## Container upload limitations
+
+Limits in the table below apply when you upload a container image archive to start a Container Analysis test.
+
+Table 13. Container upload limitations
+
+| Type | Requirement |
+| --- | --- |
+| Default upload size | Up to 10 GB per upload |
+| Required file format | .tar archive exported with `docker save` |
+
+Note: For container uploads, filenames can include letters, digits, and the characters “.”, “-” and “\_”. No other characters or spaces are allowed.
+
 ## Supported Source Code Management (SCM) systems
 
-Support matrix for SCM repositories that can integrate a single repository integrated into Polaris. Bulk onboarding is only supported for Azure Repos, Bitbucket Cloud (Premium), GitHub, GitHub Enterprise, and GitLab SaaS (Premium and Ultimate). See [Connect Polaris to Multiple SCM Repositories](../how-to/connect-polaris-to-multiple-scm-repositories.md) for more information.
+Support matrix for SCM repositories that can integrate a single repository integrated into Polaris. Bulk onboarding is only supported for Azure Repos, Bitbucket Cloud (Premium), GitHub, GitHub Enterprise, GitHub Enterprise Cloud with data residency, GitLab SaaS, and GitLab Self-Managed. See [Connect Polaris to Multiple SCM Repositories](../how-to/connect-polaris-to-multiple-scm-repositories.md) for more information.
 
-Table 13. Supported SCM systems
+Table 14. Supported SCM systems
 
 | SCM | Offering | Supported versions | Deployment type |
 | --- | --- | --- | --- |
@@ -320,9 +341,10 @@ Table 13. Supported SCM systems
 | Bitbucket Data Center | 8.19-10.0 | Self-hosted |
 | **GitHub** | GitHub Standard (including Free, Pro, free for Organizations, Team) |  | Cloud |
 | GitHub Enterprise Cloud |  | Cloud |
+| GitHub Enterprise Cloud with data residency |  | Cloud |
 | GitHub Enterprise Server | 3.15-3.17 | Self-hosted |
 | **GitLab** | GitLab SaaS (Free, Premium, Ultimate) |  | Cloud |
-| GitLab Self-Managed (Free, Premium, Ultimate) | 16.11-18.4 | Self-hosted |
+| GitLab Self-Managed (group-level auto-detection requires Premium or Ultimate; project-level onboarding works on all editions, including Free) | 16.11-18.4 | Self-hosted |
 
 Note: \*For Azure DevOps
 
@@ -335,7 +357,7 @@ You can import SAST and SCA issue data from any of the following third-party too
 
 Note: You can upload one file (up to 2GB) for each external analysis test. Each file you upload can only include one type of issue data (SAST or SCA).
 
-Table 14. Supported third-party tools
+Table 15. Supported third-party tools
 
 | Tool | Results | File format |
 | --- | --- | --- |

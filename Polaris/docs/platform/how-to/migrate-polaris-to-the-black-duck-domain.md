@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/mi
 content_id: "GoviOv1mz19~IVoa4mOUvg"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:55:57.981648+00:00"
-content_hash: "acce12d751f62b64d3b0c07049b38416268af5b3fbba0ffe810b1a5147ebb58a"
+scraped_at: "2026-10-04T23:29:18.036306+00:00"
+content_hash: "a04115bc86b7f396bab8a8b1e3ec91245bd25150b5b5abe6ae43607ca20b5e4f"
 ---
 
 # Migrate Polaris to the Black Duck domain
@@ -139,8 +139,7 @@ In addition to replacing the token(s) your API scripts use, please update:
 
 ### Upgrade Code Sight
 
-If you use Black Duck®
-Code Sight™ with Polaris, we recommend you upgrade Code Sight after you run the migration.
+If you use Black Duck®Code Sight™ with Polaris, we recommend you upgrade Code Sight after you run the migration.
 
 1. Follow the instructions in Black Duck Community to uninstall older versions of Code Sight and then install the latest version of Code Sight: [HOW TO: Migrating existing Synopsys Code Sight users to the new Black Duck Code Sight](https://community.blackduck.com/s/article/code-sight-black-duck-migration-instructions).
 2. Open the [Polaris tab](https://docs.blackduck.com/access?ft:originId=e5be419b9a362d8c0118eeab3a8ee157/597c4b57b9cf5751d2bbcce1b81a0318.topic&Version=latest) (found in Code Sight's [Authentication preferences](https://docs.blackduck.com/access?ft:originId=e5be419b9a362d8c0118eeab3a8ee157/34dc2f1ddf4312b3c8ca7ac8f9c496b7.topic&Version=latest)).

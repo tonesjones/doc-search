@@ -3,8 +3,9 @@ title: "Pipeline"
 source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/pipeline.html"
 content_id: "pI2wpG9UeoyLTo2eZFdD6Q"
 version: "latest"
-section: "Jenkins - Black Duck Security Scan Plugin for Jenkins"
-scraped_at: "2026-08-08T23:48:44.650141+00:00"
+section: "Jenkins Integrations"
+scraped_at: "2026-10-04T23:28:30.819585+00:00"
+content_hash: "52b34a5d7639eeb063e4ea05d150397a034ec2197c39b240aa7c82845690bd99"
 ---
 
 # Pipeline

@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/includ
 content_id: "WLr2BMQLucmGo5RWcY3oQw"
 version: "12.0.0"
 section: "Planning and running Detect"
-scraped_at: "2026-09-07T21:15:33.929854+00:00"
+scraped_at: "2026-10-04T23:33:19.672769+00:00"
+content_hash: "e79ea241f619c032ad95009b1ccc18c376a0f1ccf52a2af70ffda4fd36aad5f1"
 ---
 
 # Including and excluding Tools, Detectors, and Directories

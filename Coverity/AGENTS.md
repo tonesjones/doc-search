@@ -24,13 +24,13 @@ Do **not** treat random blog posts or third-party summaries as authoritative whe
 | Field | Value |
 |-------|-------|
 | Product | Coverity Documentation |
-| Product key | `coverity-2026.6` |
-| Version | **2026.6** |
-| Map ID | `Ul9eg_yUOJh8gKU4cs1xrg` |
-| Help Center (browser SPA) | https://docs.blackduck.com/r/coverity/2026.6/coverity-documentation/ |
-| TOC API | `GET https://docs.blackduck.com/api/khub/maps/Ul9eg_yUOJh8gKU4cs1xrg/toc` |
-| Content API | `GET https://docs.blackduck.com/api/khub/maps/Ul9eg_yUOJh8gKU4cs1xrg/topics/{contentId}/content` |
-| Topics | **~4,443** under `docs/` (overview, connect, analysis, …) |
+| Product key | `coverity-2026.9` |
+| Version | **2026.9** |
+| Map ID | `p947~vf~m8~FAAkUVEdBIQ` |
+| Help Center (browser SPA) | https://docs.blackduck.com/r/coverity/2026.9/coverity-documentation/ |
+| TOC API | `GET https://docs.blackduck.com/api/khub/maps/p947~vf~m8~FAAkUVEdBIQ/toc` |
+| Content API | `GET https://docs.blackduck.com/api/khub/maps/p947~vf~m8~FAAkUVEdBIQ/topics/{contentId}/content` |
+| Topics | **4,526** under `docs/coverity-2026.9/` (overview, connect, analysis, …) |
 | Index | `index.md` |
 | Phased scrape plan | `PHASE-PLAN.md` |
 | Session handoff | `CHECKPOINT.md` |
@@ -54,7 +54,7 @@ The public site is a **JavaScript SPA** (Fluid Topics). A plain page fetch only 
     overview/ connect/ analysis/ clients-plugins/ connect-apis/
     cloud-native/ checkers/ release-notes/ glossary/ legal/ misc/
   sources/
-    coverity-2026.6/
+    coverity-2026.9/
       toc.json
       manifest.json
   scripts/
@@ -70,8 +70,8 @@ The public site is a **JavaScript SPA** (Fluid Topics). A plain page fetch only 
 - Product index is generated from the manifest. Do not hand-edit topic rows.
 - **`CHECKPOINT.md`** records the last completed phase and next steps.
 - Scrape only `pending` (retry `error`). Never re-fetch `done` unless the user asks to refresh.
-- After scraping: `python scripts/build-index.py --product coverity-2026.6 --hub`
-- Re-pull TOC and merge statuses: `python scripts/build-index.py --product coverity-2026.6 --refresh-toc`
+- After scraping: `python scripts/build-index.py --product coverity-2026.9 --hub`
+- Re-pull TOC and merge statuses: `python scripts/build-index.py --product coverity-2026.9 --refresh-toc`
 - On session start: read **`CHECKPOINT.md`**, then `PHASE-PLAN.md` / `corpus-status.md`, then filter the manifest for pending work.
 
 ### Topic file conventions
@@ -84,7 +84,7 @@ The public site is a **JavaScript SPA** (Fluid Topics). A plain page fetch only 
 title: "..."
 source_url: "https://docs.blackduck.com/..."
 content_id: "..."
-version: "2026.6"
+version: "2026.9"
 section: "..."
 scraped_at: "ISO-8601"
 ---
@@ -103,12 +103,12 @@ scraped_at: "ISO-8601"
 ```powershell
 cd C:\TestCode\Coverity
 python scripts/build-index.py --list-products
-python scripts/build-index.py --product coverity-2026.6 --init --hub
-python scripts/scrape-pending.py --product coverity-2026.6 --section "Coverity overview"
-python scripts/scrape-pending.py --product coverity-2026.6 --section "Coverity Analysis" --exclude-path "Customization guides"
-python scripts/scrape-pending.py --product coverity-2026.6 --all-pending
-python scripts/scrape-pending.py --product coverity-2026.6 --retry-errors
-python scripts/build-index.py --product coverity-2026.6 --hub
+python scripts/build-index.py --product coverity-2026.9 --init --hub
+python scripts/scrape-pending.py --product coverity-2026.9 --section "Coverity overview"
+python scripts/scrape-pending.py --product coverity-2026.9 --section "Coverity Analysis" --exclude-path "Customization guides"
+python scripts/scrape-pending.py --product coverity-2026.9 --all-pending
+python scripts/scrape-pending.py --product coverity-2026.9 --retry-errors
+python scripts/build-index.py --product coverity-2026.9 --hub
 ```
 
 See **`PHASE-PLAN.md`** for the recommended phase order.
@@ -123,3 +123,11 @@ See **`PHASE-PLAN.md`** for the recommended phase order.
 ## Related project
 
 Black Duck SCA / Detect / Alert corpus lives separately at `C:\TestCode\BlackDuck SCA`; Bridge CLI docs live in the sibling `Bridge` corpus. Do not mix Coverity docs into those trees.
+
+## Version history
+
+Unversioned questions use 2026.9 through `index.md`. The 2026.9 snapshot remains unchanged at `index-coverity-2026.9.md`. Use the historical catalog only for that version or a comparison.
+
+## Version history
+
+Unversioned questions use 2026.9 through `index.md`. The 2026.6 snapshot remains unchanged at `index-coverity-2026.6.md`. Use the historical catalog only for that version or a comparison.

@@ -1,10 +1,11 @@
 ---
 title: "User table (user)"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/user-table-user-.html"
-content_id: "NndicSIiIMiG1I2uY1oshA"
+content_id: "16fpTMJ8ZI3tMNomlETIqg"
 version: "2026.7"
 section: "Reporting Database"
-scraped_at: "2026-08-08T15:34:44.248944+00:00"
+scraped_at: "2026-10-04T23:32:27.075969+00:00"
+content_hash: "11eacc497ed3bbef9e4d8c741b199fdeb470c63f7d532b40e5fef49f8f47fddd"
 ---
 
 # User table (user)

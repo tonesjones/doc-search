@@ -3,8 +3,9 @@ title: "Jenkins prerequisites"
 source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/jenkins-prerequisites.html"
 content_id: "PcShe~_tx~T29l3UKxaQcQ"
 version: "latest"
-section: "Jenkins - Black Duck Security Scan Plugin for Jenkins"
-scraped_at: "2026-08-08T23:48:32.086596+00:00"
+section: "Jenkins Integrations"
+scraped_at: "2026-10-04T23:28:30.253322+00:00"
+content_hash: "88cbfb7b8813930e24031be16cf7a23c6cfc9cd55c80302f8f37708810da8075"
 ---
 
 # Jenkins prerequisites

@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/ed
 content_id: "A06KJcW6t3lPr1Dn4tAYqA"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:56:44.902459+00:00"
-content_hash: "e682bed73c43e3e8870b50781c1ea00507d09b4f6d8ba4a6474e0e05128d5064"
+scraped_at: "2026-10-04T23:29:19.463197+00:00"
+content_hash: "cafeae202a7e8071a96eb88b8f6a3a34de09e757d13baad8f2fdf0af40b041ed"
 ---
 
 # Edit and review licenses

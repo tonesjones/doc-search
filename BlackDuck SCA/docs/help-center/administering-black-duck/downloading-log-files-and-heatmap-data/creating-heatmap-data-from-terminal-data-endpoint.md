@@ -1,21 +1,18 @@
 ---
 title: "Creating heatmap data from terminal-data endpoint"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/creating-heatmap-data-from-terminal-data-endpoint.html"
-content_id: "yoXl3Wi9U8ehJ9FPrtLSiA"
+content_id: "VLgJmj36h9JifveTyUc4~A"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T15:31:29.872726+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:18.485588+00:00"
+content_hash: "4fff9b73dd61b4aea0b3c320edcdbd15656a163983ac29e549a479898b283567"
 ---
 
 # Creating heatmap data from terminal-data endpoint
 
-The data contained in the heatmap download link from the **System Information** page
-is in a different format (ISO 861 UTC) as opposed to what is contained in the
-**debug** folder. This means that a heatmap can't be generated easily from that
-data set. To overcome this, follow these steps:
+The data contained in the heatmap download link from the **System Information** page is in a different format (ISO 861 UTC) as opposed to what is contained in the **debug** folder. This means that a heatmap can't be generated easily from that data set. To overcome this, follow these steps:
 
-1. Open the heatmap-scan-terminal csv. You will see something like this - note the hour
-   column is a combined date/time column with a time stamp:
+1. Open the heatmap-scan-terminal csv. You will see something like this - note the hour column is a combined date/time column with a time stamp:
 
    [image: image]
 2. Create new columns to facilitate the data required:
@@ -28,8 +25,7 @@ data set. To overcome this, follow these steps:
    | O1 | year |
    | P1 | month |
    | Q1 | day |
-3. Add the following formulae into these new rows to get the data points
-   desired:
+3. Add the following formulae into these new rows to get the data points desired:
 
    | Column name | Formula |
    | --- | --- |
@@ -43,9 +39,7 @@ data set. To overcome this, follow these steps:
    The end result should end up looking something like this:
 
    [image: image]
-4. Propagate the data into the rest of the rows by double-clicking on the autofill
-   handle (the little green square at the bottom right of the highlighted cell -
-   your cursor will turn into a cross when you're over it):
+4. Propagate the data into the rest of the rows by double-clicking on the autofill handle (the little green square at the bottom right of the highlighted cell - your cursor will turn into a cross when you're over it):
 
    [image: image]
 5. Create a heatmap as usual including the new columns.

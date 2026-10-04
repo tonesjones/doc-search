@@ -7,8 +7,22 @@
       "root": "BlackDuck SCA",
       "skill": "BlackDuck SCA/SKILL.md",
       "verifier": "BlackDuck SCA/verification/verify.py",
-      "versions": ["2026.7", "12.0.0", "11.5.1", "8.4.0", "latest"],
-      "aliases": ["sca", "blackduck", "detect", "alert", "c-cpp-tool", "sca-mcp"]
+      "versions": [
+        "2026.7",
+        "12.0.0",
+        "11.5.1",
+        "8.4.1",
+        "8.4.0",
+        "latest"
+      ],
+      "aliases": [
+        "sca",
+        "blackduck",
+        "detect",
+        "alert",
+        "c-cpp-tool",
+        "sca-mcp"
+      ]
     },
     {
       "id": "bridge",
@@ -16,8 +30,12 @@
       "root": "Bridge",
       "skill": "Bridge/SKILL.md",
       "verifier": "Bridge/verification/verify.py",
-      "versions": ["latest"],
-      "aliases": ["bridge-cli"]
+      "versions": [
+        "latest"
+      ],
+      "aliases": [
+        "bridge-cli"
+      ]
     },
     {
       "id": "coverity",
@@ -25,8 +43,13 @@
       "root": "Coverity",
       "skill": "Coverity/SKILL.md",
       "verifier": "Coverity/verification/verify.py",
-      "versions": ["2026.6"],
-      "aliases": ["cov"]
+      "versions": [
+        "2026.9",
+        "2026.6"
+      ],
+      "aliases": [
+        "cov"
+      ]
     },
     {
       "id": "polaris",
@@ -34,8 +57,12 @@
       "root": "Polaris",
       "skill": "Polaris/SKILL.md",
       "verifier": "Polaris/verification/verify.py",
-      "versions": ["latest"],
-      "aliases": ["polaris-platform"]
+      "versions": [
+        "latest"
+      ],
+      "aliases": [
+        "polaris-platform"
+      ]
     },
     {
       "id": "sigma",
@@ -43,7 +70,10 @@
       "root": "Sigma",
       "skill": "Sigma/SKILL.md",
       "verifier": "Sigma/verification/verify.py",
-      "versions": ["2026.8.0"],
+      "versions": [
+        "2026.9.1",
+        "2026.8.0"
+      ],
       "aliases": []
     },
     {
@@ -52,7 +82,9 @@
       "root": "Signal",
       "skill": "Signal/SKILL.md",
       "verifier": "Signal/verification/verify.py",
-      "versions": ["latest"],
+      "versions": [
+        "latest"
+      ],
       "aliases": []
     },
     {
@@ -61,8 +93,12 @@
       "root": "SRM",
       "skill": "SRM/SKILL.md",
       "verifier": "SRM/verification/verify.py",
-      "versions": ["latest"],
-      "aliases": ["software-risk-manager"]
+      "versions": [
+        "latest"
+      ],
+      "aliases": [
+        "software-risk-manager"
+      ]
     }
   ]
 }

@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/cr
 content_id: "w2RDUs14qaD98Qp2jEzntA"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:56:39.330029+00:00"
-content_hash: "0eb73c4113df0ba47d73ff332caf110e2e9a7570c28455b44b145c2c6201abbb"
+scraped_at: "2026-10-04T23:29:19.361078+00:00"
+content_hash: "3da6431c060a6dd8f2d4c1117ba17471c7c10db157c313bf6968b9987b6f83e6"
 ---
 
 # Create a Fail Pull Request (Fail PR - Warn or Block)

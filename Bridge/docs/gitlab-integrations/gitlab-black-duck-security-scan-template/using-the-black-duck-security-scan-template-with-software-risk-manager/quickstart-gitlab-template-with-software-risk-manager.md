@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickst
 content_id: "j64fe2dvddV8CqJ282qvmw"
 version: "latest"
 section: "GitLab Integrations"
-scraped_at: "2026-08-08T23:48:11.102295+00:00"
+scraped_at: "2026-10-04T23:28:29.136691+00:00"
+content_hash: "4610799a09c9fbcf620a6266232cf662c8e8ff22c9c591613e529219a79960d4"
 ---
 
 # Quickstart: GitLab Template with Software Risk Manager

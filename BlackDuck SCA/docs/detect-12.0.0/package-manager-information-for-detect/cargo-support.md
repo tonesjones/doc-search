@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/cargo-
 content_id: "N9iihHi7b_oUEZiAQXLBNQ"
 version: "12.0.0"
 section: "Package Manager information for Detect"
-scraped_at: "2026-09-07T21:15:53.405236+00:00"
+scraped_at: "2026-10-04T23:33:20.368605+00:00"
+content_hash: "337611b5c439545f1f41b596b67aa9751d0910cf4731f0956bae1433df3833a1"
 ---
 
 # Cargo support

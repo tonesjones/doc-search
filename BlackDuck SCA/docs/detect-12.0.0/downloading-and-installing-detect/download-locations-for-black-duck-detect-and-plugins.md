@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/downlo
 content_id: "CiNJXjR5hbylj4rEVWMrrw"
 version: "12.0.0"
 section: "Downloading and Installing Detect"
-scraped_at: "2026-09-07T21:14:55.951847+00:00"
+scraped_at: "2026-10-04T23:33:18.554250+00:00"
+content_hash: "2a38389bb5e9e0ce046fd8579198f98bdb3213feab29c23b38fe549a9cb87606"
 ---
 
 # Download Locations for Black Duck® Detect & Plugins

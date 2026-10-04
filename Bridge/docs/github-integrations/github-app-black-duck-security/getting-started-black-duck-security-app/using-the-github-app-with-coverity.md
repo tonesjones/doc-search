@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-t
 content_id: "2SbwSoWlZYxvYBaVn9MJew"
 version: "latest"
 section: "GitHub Integrations"
-scraped_at: "2026-08-08T23:47:39.348325+00:00"
+scraped_at: "2026-10-04T23:28:27.591626+00:00"
+content_hash: "8e8219c65ca3fc96905b1917696ffb885ad8481114d95ae9263297164b540c01"
 ---
 
 # Using the GitHub App with Coverity
@@ -49,10 +50,12 @@ Note: Ensure all required GitHub variables and secrets are configured before cli
 
 It can be seen from the screenshot above that a workflow can be generated with the following scan options:
 
-- **Run analysis locally**: Performs local analysis with full toolkit. For further details relating to the different Coverity deployment models supported, please refer to [Coverity Deployment Architecture](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/help-center/topics/deployment_architecture.html).
+- **Run analysis locally**: Performs local analysis with full toolkit. For further details relating to the different Coverity deployment models supported, please refer to [Coverity Deployment Architecture](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/a0caa9e5b240fbee6150f8640240b2a5.topic).
 - **Capture diagnostics information**: When checked, diagnostics will be captured and uploaded as a GitHub build artifact.
   - **Wait for scan to complete**: When checked this will block injecting pull request comments until the scan completes.
   - **Fail build if policy violations are found**: If this option is checked, then if there are policy violations the build will break.
+
+    Note: This option causes the Coverity scan job to fail but does not prevent the pull request from being merged. Preventing the merge of pull requests with policy violations is the responsibility of the repository or organization administrator. It is recommended that a GitHub branch ruleset be configured to require the Coverity status check to pass before merging. For more information, see GitHub's [require status checks to pass before merging](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/available-rules-for-rulesets#require-status-checks-to-pass-before-merging).
 
 **Post scan options**
 

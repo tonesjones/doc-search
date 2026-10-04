@@ -1,23 +1,20 @@
 ---
 title: "Configuring the keepalive setting"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/configuring-the-keepalive-setting.html"
-content_id: "HcHZtTQCN741kXq_OlUGzg"
+content_id: "eQ73NAipj5q4a4p78yyOlQ"
 version: "2026.7"
 section: "Installing Black Duck using Docker Swarm"
-scraped_at: "2026-08-08T15:33:34.599786+00:00"
+scraped_at: "2026-10-04T23:32:24.065180+00:00"
+content_hash: "618122d6f0f5be335327d67a7b6caf10b67973bf0c41e0a858ab7ef764999b6d"
 ---
 
 # Configuring the keepalive setting
 
-The `net.ipv4.tcp_keepalive_time` parameter controls how long an
-application will let an open TCP connection remain idle. By default, this value is 7200
-seconds (2 hours).
+The `net.ipv4.tcp_keepalive_time` parameter controls how long an application will let an open TCP connection remain idle. By default, this value is 7200 seconds (2 hours).
 
-For optimal Black Duck performance, this parameter should have a value
-between 600 and 800 seconds.
+For optimal Black Duck performance, this parameter should have a value between 600 and 800 seconds.
 
-This setting can be configured before or after Black Duck is
-installed.
+This setting can be configured before or after Black Duck is installed.
 
 To edit the value:
 
@@ -28,8 +25,7 @@ To edit the value:
    ```
 
    You can also use the `sysctl` command to modify this file.
-2. Add the `net.ipv4.tcp_keepalive_time` (if the parameter is not in
-   the file) or edit the existing value (if the parameter is in the file).
+2. Add the `net.ipv4.tcp_keepalive_time` (if the parameter is not in the file) or edit the existing value (if the parameter is in the file).
 
    ```
    net.ipv4.tcp_keepalive_time = <value>

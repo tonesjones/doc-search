@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-b
 content_id: "gGZvWW7RDJcqjKddtQOp9Q"
 version: "latest"
 section: "GitLab Integrations"
-scraped_at: "2026-08-08T23:48:01.056038+00:00"
+scraped_at: "2026-10-04T23:28:28.567967+00:00"
+content_hash: "0f3306206186aff7ae17effdd496f30e94b6146c77c43410f04fae876fe9d361"
 ---
 
 # Using Black Duck Security Bulk Onboarding with Black Duck SCA

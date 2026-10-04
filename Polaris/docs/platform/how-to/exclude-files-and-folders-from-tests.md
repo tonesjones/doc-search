@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/ex
 content_id: "hHirShI09y6gPlkrfsUZWw"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:56:10.847072+00:00"
-content_hash: "fb601fa7cbd0a47ed4fd9eb1a231dabe04e0f3edf658093d70c6d229bec98684"
+scraped_at: "2026-10-04T23:29:18.584825+00:00"
+content_hash: "16754be7b016f9a34508f6e3e330a88258f49baffc0fbc9f93446ba9f5f9ade6"
 ---
 
 # Exclude files and folders from tests

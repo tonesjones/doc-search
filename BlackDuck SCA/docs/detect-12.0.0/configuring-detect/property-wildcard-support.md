@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/proper
 content_id: "ZEbYbgeoSK2QRMNlhfLw2g"
 version: "12.0.0"
 section: "Configuring Detect"
-scraped_at: "2026-09-07T21:15:21.222656+00:00"
+scraped_at: "2026-10-04T23:33:19.262507+00:00"
+content_hash: "b264064ca2dc5ea97835940c4312cdc157be8920bdb73a659bcd7cd253d57c98"
 ---
 
 # Property wildcard support

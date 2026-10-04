@@ -1,20 +1,18 @@
 ---
 title: "New and changed features"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/new-and-changed-features.html"
-content_id: "qrnum6f7Svlea0ujWCW5LA"
+content_id: "DtSB4u0LQ6MWLJvVIRwqyQ"
 version: "2026.7"
-section: "Release Notes"
-scraped_at: "2026-08-08T15:36:38.318807+00:00"
+section: "Black Duck SCA Release Notes"
+scraped_at: "2026-10-04T23:32:31.641218+00:00"
+content_hash: "4e2590ec42270ae67449547de11c31b6782fe226dc99841659c1c7eef92c1a32"
 ---
 
 # New and changed features
 
 ## Container versions
 
-**NOTE:** The nginx v2.0.61 and upload-cache v1.0.49 images were created
-specifically for 2023.7.3 to address the curl vulnerability and they should only be
-deployed with 2023.7.3. They are not compatible with Black Duck
-2023.10.0.
+**NOTE:** The nginx v2.0.61 and upload-cache v1.0.49 images were created specifically for 2023.7.3 to address the curl vulnerability and they should only be deployed with 2023.7.3. They are not compatible with Black Duck 2023.10.0.
 
 - blackducksoftware/blackduck-postgres:13-2.29
 - blackducksoftware/blackduck-authentication:2023.7.3

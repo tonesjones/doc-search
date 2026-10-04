@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickst
 content_id: "lhv1OV1yiNnMnTgy3a8iQQ"
 version: "latest"
 section: "GitLab Integrations"
-scraped_at: "2026-08-08T23:48:06.432333+00:00"
+scraped_at: "2026-10-04T23:28:28.878287+00:00"
+content_hash: "a35c1c38eb07045ddbb0a51587b4be893fdaa8df199c174ca6d275e94b2f7ee0"
 ---
 
 # Quickstart: GitLab Template with Polaris

@@ -1,10 +1,11 @@
 ---
 title: "Managing license term categories"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/managing-license-term-categories.html"
-content_id: "J0_YMm~D77LBos9EI4mqUQ"
+content_id: "uc~USU2BRuXFU2JJT9F3IA"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T15:30:50.659291+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:16.664660+00:00"
+content_hash: "db7d2d0bb7a056bd56c266d0218e4f33d1fcdc4782967237225f50f0185e81fe"
 ---
 
 # Managing license term categories
@@ -13,11 +14,9 @@ Categories help you manage and organize your license terms.
 
 You must assign a license term to a category when you create the license term.
 
-You can create or delete custom license term categories. License terms from Black Duck KnowledgeBase are in the KnowledgeBase category. You cannot delete this
-category or add custom licenses to it.
+You can create or delete custom license term categories. License terms from Black Duck KnowledgeBase are in the KnowledgeBase category. You cannot delete this category or add custom licenses to it.
 
-Only users with the License Manager role can
-create or delete categories.
+Only users with the License Manager role can create or delete categories.
 
 To create a category:
 
@@ -38,10 +37,7 @@ You can also create a category when creating a license term.
 
      
     [image: License Term Categories dialog box]
-4. Click **Create** to display the field to enter the category name. Type the
-   name of the new category in the field and select it (**Add**
-   *Category Name*) located below the field. Click **Create** to create
-   additional categories.
+4. Click **Create** to display the field to enter the category name. Type the name of the new category in the field and select it (**Add***Category Name*) located below the field. Click **Create** to create additional categories.
 5. Click **Close** when you have finished creating categories.
 
 To delete a category:

@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/common
 content_id: "2QP7cY8GzEOaz3SMPJYFXw"
 version: "12.0.0"
 section: "Troubleshooting"
-scraped_at: "2026-09-07T21:17:06.787024+00:00"
+scraped_at: "2026-10-04T23:33:23.064252+00:00"
+content_hash: "f602f03930adcc7738848d2a655e5c4e5865b27e45cc6a8891e5aea44f31f959"
 ---
 
 # Common Detect complications

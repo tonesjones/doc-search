@@ -1,27 +1,22 @@
 ---
 title: "New and changed features"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/new-and-changed-features.html"
-content_id: "~XvJ2DDP0ATzj1VRKkmpCw"
+content_id: "q9GzR8DvHaFRSEuXHQ7Tpw"
 version: "2026.7"
-section: "Release Notes"
-scraped_at: "2026-08-08T15:35:43.621379+00:00"
+section: "Black Duck SCA Release Notes"
+scraped_at: "2026-10-04T23:32:29.456252+00:00"
+content_hash: "1d8f8cc987c1db6fc9746098a11ac8eed55377378ef189fddfb1d5acb48aa01d"
 ---
 
 # New and changed features
 
 ## Added support for IPv6 ingress and egress communication
 
-Black Duck now supports IPv6-exclusive networks for both internal and external
-communication. This enhancement ensures compatibility with IPv6-only environments,
-enabling seamless communication between Black Duck components, the KnowledgeBase,
-customer systems, and internet-facing networking pods.
+Black Duck now supports IPv6-exclusive networks for both internal and external communication. This enhancement ensures compatibility with IPv6-only environments, enabling seamless communication between Black Duck components, the KnowledgeBase, customer systems, and internet-facing networking pods.
 
 ## Added `justification` field to the `component_vulnerability` table
 
-A new `justification` field has been added to the
-`component_vulnerability` table in the reporting database. This
-field store the justification details for vulnerabilities, providing additional
-context for remediation decisions and analysis.
+A new `justification` field has been added to the `component_vulnerability` table in the reporting database. This field store the justification details for vulnerabilities, providing additional context for remediation decisions and analysis.
 
 ## Container versions
 

@@ -1,10 +1,11 @@
 ---
 title: "Webserver pod configuration"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/webserver-pod-configuration.html"
-content_id: "CnFMzCRSkMJCk489A7HYWQ"
+content_id: "0t590dQEMqMMOIpaZTdneg"
 version: "2026.7"
 section: "Installing Black Duck using Kubernetes and OpenShift"
-scraped_at: "2026-08-08T15:33:15.790693+00:00"
+scraped_at: "2026-10-04T23:32:23.233044+00:00"
+content_hash: "64bc894e621e7ba2460232b174686fdc693edda56c6678ee305d2fd8d79d35cc"
 ---
 
 # Webserver pod configuration

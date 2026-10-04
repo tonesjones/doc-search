@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-b
 content_id: "aQUbyCwfvaXW3nOBHZz2yg"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:47:17.486245+00:00"
+scraped_at: "2026-10-04T23:28:26.502767+00:00"
+content_hash: "39062e334b120dd8c8efbd9379a55d680eee70ea01882b011be318d97ec091de"
 ---
 
 # Using Bridge CLI with Coverity
@@ -145,7 +146,7 @@ For more details, see the Complete List of Bridge CLI Arguments.
 
 For Coverity Connect workflows, you need to provide the user name and password as input to Bridge. Coverity Connect provides a way for users to generate the auth keys, which can be used for authentication / access to Connect APIs. Although Bridge does not support accepting an auth key file as input, you can still use the auth key with Bridge by passing it directly in the CLI.
 
-- Generate auth keys from Coverity Connect - ( [Black Duck Documentation Portal](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/Chunk1186420026.html)).
+- Generate auth keys from Coverity Connect - ( [Black Duck Documentation Portal](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/5f2e8ae7b3cc45509742c766d437509e.topic)).
 - Open generated auth key file, read the key field from it, and pass it as the password to Bridge.
 
 ## Creating Coverity Fail Pull Requests

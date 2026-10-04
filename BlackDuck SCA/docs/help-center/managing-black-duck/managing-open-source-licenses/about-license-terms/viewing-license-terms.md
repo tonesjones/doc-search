@@ -1,20 +1,18 @@
 ---
 title: "Viewing license terms"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/viewing-license-terms.html"
-content_id: "~V8I9UJkmaeruvhWRehcyg"
+content_id: "HUqP3cP3u38NbfID9t4PVg"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T15:30:46.578387+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:16.507040+00:00"
+content_hash: "da1c5cd204e5392c6fdaf077dc2d421e62fd0f153f887861dcb30423e830c016"
 ---
 
 # Viewing license terms
 
-License terms are categorized into things you are permitted to do (rights), things you
-are forbidden to do (restrictions), and things you are required to do (obligations) to
-comply with the license.
+License terms are categorized into things you are permitted to do (rights), things you are forbidden to do (restrictions), and things you are required to do (obligations) to comply with the license.
 
-You can view license terms using the License Management page and when viewing license
-information in the BOM.
+You can view license terms using the License Management page and when viewing license information in the BOM.
 
 Note: License obligation will not appear in the UI, if the information is unavailable from [OpenHub](https://www.openhub.net/),
 
@@ -27,8 +25,7 @@ To view the license terms from the License Management page:
 
      
     [image: License Management page]
-3. Select a license from the **License** tab to display the *License Name*
-   page.
+3. Select a license from the **License** tab to display the *License Name* page.
 4. Select the **License Terms** tab to view the obligations for this license.
 
      
@@ -40,14 +37,10 @@ To view the license term information in a BOM:
 
 Only users with the appropriate role can view this information in the BOM.
 
-1. Select the project name using the **Watching** or **My Projects**
-   dashboard. The *Project Name* page appears.
+1. Select the project name using the **Watching** or **My Projects** dashboard. The *Project Name* page appears.
 2. Select the version name to open the **Components** tab and view the BOM.
-3. Select the license name to open the *Component Name Version* Component
-   License dialog box.
+3. Select the license name to open the *Component Name Version* Component License dialog box.
 
      
     [image: image]
-4. Select the license you wish to view the license obligation information. The
-   dialog box expands to show the obligations and license text for the selected
-   license.
+4. Select the license you wish to view the license obligation information. The dialog box expands to show the obligations and license text for the selected license.

@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/cr
 content_id: "XrLiLXqcxYs7TeAruxqJHA"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:57:36.402241+00:00"
-content_hash: "371a7eb4bec14aaebbcda7b437524430e16f871903eb8c85129f1f90814486ed"
+scraped_at: "2026-10-04T23:29:21.581119+00:00"
+content_hash: "a79da30c132e0c03ea1445386fe10d7d3184dd99c66c20e5d67a790365e9b0c8"
 ---
 
 # Create a report
@@ -107,7 +107,7 @@ See [Create and manage report configurations](create-a-report/create-and-manage-
    - Specific project branches/profiles: Select specific applications, projects, and branches to include in the report. After you select this option, select Manage Scope. Use the options on the Manage Scope window to select the branches to include in the report. If using branch labels, you can use the checkboxes under Labels to refine your selection. After you adjust a filter, use the checkboxes in the Branch/Profile column to select branches to include in the report. Click Save.
 7. Use the Tools checkboxes to select DAST, External Analysis, SAST, and/or SCA (depending on the report) to include found by these tools in the report.
 
-   Note: By default, reports that have Tools include all the results for the test type, unless you have the option to select specific test types and you use it. For example, SCA results include all types of SCA Tests (**Package Manager**, **Signature Analysis** and **Binary Analysis**), unless you can select one test type.
+   Note: By default, reports that have Tools include all the results for the test type, unless you have the option to select specific test types and you use it. For example, SCA results include all types of SCA Tests (**Package Manager**, **Signature Analysis**, **Binary Analysis**, and **Container Analysis**), unless you can select one test type.
 8. Use the Severity Levels checkboxes to select the severity of issues to include in the report.
 
    For a Security Audit, Issue Overview or Executive Summary Report, all severity levels are automatically selected.
@@ -152,7 +152,7 @@ To customize what is included in the report, see [Ways to triage components in P
 5. From the **Export Format** dropdown menu, select **SPDX V2.3 Report**, **CycloneDX V1.4 Report**, or **CycloneDX V1.6 Report**.
 6. Use the **Tools** checkboxes to include or exclude components detected in different SCA tests.
 
-   Note: By default, the SBOM report includes components detected in all types of SCA tests (**Package Manager**, **Signature Analysis** and **Binary Analysis**).
+   Note: By default, the SBOM report includes components detected in all types of SCA tests (**Package Manager**, **Signature Analysis**, **Binary Analysis**, and **Container Analysis**).
 7. Select Run > Run. 
 
    Tip: You can create a report configuration when you run the report. Doing so allows you to quickly regenerate the report later on using the same settings. To do so, select Run > Run and Save Configuration. You can also create a report configuration without running the report (Run > Save Configuration).

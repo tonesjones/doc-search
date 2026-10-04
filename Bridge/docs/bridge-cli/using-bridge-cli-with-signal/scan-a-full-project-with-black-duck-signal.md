@@ -4,14 +4,15 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/scan-a-
 content_id: "xEDE0q25HmGtsyKiKJDP4g"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:46:53.677032+00:00"
+scraped_at: "2026-10-04T23:28:25.382150+00:00"
+content_hash: "fd5b540f4c7624ff199b54def21ecfa07c42e2a80ddd44ceab95cf1cc3742f3b"
 ---
 
 # Scan a full project with Black Duck Signal
 
 Bridge CLI can be used to run Signal to perform an AI assessment of all files in a project directory, with findings uploaded to Polaris .
 
-Black Duck Signal provides a PROJECT scan mode that performs an AI assessment of every file in the project directory. The scanned files and folders can be controlled an optional exclude path list. When configured with an upload platform, scan findings are uploaded to the configured platform on scan completion. Currently, Polaris is supported as an upload platform.
+Black Duck Signal provides a PROJECT scan mode that performs an AI assessment of every file in the project directory. The scanned files and folders can be controlled by an optional exclude path list. When configured with an upload platform, scan findings are uploaded to the configured platform on scan completion. Currently, Polaris is supported as an upload platform.
 
 ## Run full project scan without upload
 
@@ -26,7 +27,7 @@ The following prerequisites are required:
 1. Download the latest version of Bridge, if you haven't installed it already.
 
    ```
-   https://repo.blackduck.com/bds-integrations-release/com/blackduck/integration/bridge/binaries/bridge
+   https://repo.blackduck.com/bds-integrations-release/com/blackduck/integration/bridge/binaries
    ```
 2. Add Bridge to your `$PATH` variable.
 3. Save a valid LLM API key in the `BRIDGE_SIGNAL_LLM_KEY` environment variable.
@@ -64,7 +65,7 @@ The following prerequisites are required:
 1. Download the latest version of Bridge, if you haven't installed it already.
 
    ```
-   https://repo.blackduck.com/bds-integrations-release/com/blackduck/integration/bridge/binaries/bridge
+   https://repo.blackduck.com/bds-integrations-release/com/blackduck/integration/bridge/binaries
    ```
 2. Add Bridge to your `$PATH` variable.
 3. Save a valid LLM API key in the `BRIDGE_SIGNAL_LLM_KEY` environment variable.
@@ -110,4 +111,4 @@ The following parameters enable further customization. Use the related links inf
 
 **Related information**  
 
-- Black Duck Signal reference guide
+- Bridge CLI Reference Guide

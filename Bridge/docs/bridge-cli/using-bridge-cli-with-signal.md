@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-b
 content_id: "bU_BVNTVI0dPIcoVQJ4QDQ"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:46:53.045183+00:00"
+scraped_at: "2026-10-04T23:28:25.352040+00:00"
+content_hash: "1d1e4b9142fb3c489c5486bb45ce13cf9fda5320b1e1187005df4a79b74f1524"
 ---
 
 # Using Bridge CLI with Signal
@@ -23,7 +24,7 @@ Bridge Signal supports three scan modes. The scan mode determines what content S
 
 | Mode | Description |
 | --- | --- |
-| Files | Signal analyzes a specific set of files or directories. Scanned files and folders can controlled by specifying Include paths and optional exclude paths.  Use this mode when the relevant content is known and can be enumerated directly, independent of git history. |
+| Files | Signal analyzes a specific set of files or directories. Scanned files and folders can be controlled by specifying Include paths and optional exclude paths.  Use this mode when the relevant content is known and can be enumerated directly, independent of git history. |
 | Uncommitted changes | Signal analyzes files that have been modified in a git working copy but have not yet been committed.  Use this mode for pre-commit or local development workflows where only in-progress changes should be scanned. |
 | Reference branch | Signal analyzes the differences between the current branch and a specified reference branch in a git repository.  Use this mode for Pull Request workflows where only the changes introduced on the current branch are relevant. |
 | Project mode | Use this mode to analyze the entire source code in a repository. Note: This will consume more LLM tokens and is recommended for use with Signal Enterprise.  If `signal.platform` is provided, scan results will also be available on the Black Duck platform. Currently, upload to Polaris is supported. |
@@ -43,7 +44,7 @@ Bridge Signal produces the following outputs that downstream tools and pipeline 
 
 **Related information**  
 
-- Scan local files with Black Duck Signal
-- Perform a diff scan with Black Duck Signal
-- Perform a diff scan against a reference branch with Black Duck Signal
-- Black Duck Signal reference guide
+- Scan local files
+- Scan uncommitted changes
+- Scan changes against a reference branch
+- Bridge CLI Reference Guide

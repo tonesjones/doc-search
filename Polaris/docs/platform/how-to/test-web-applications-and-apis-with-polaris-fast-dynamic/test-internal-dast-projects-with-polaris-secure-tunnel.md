@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/te
 content_id: "3NFnv5cw5RtBgkh9NOkusw"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:57:40.641137+00:00"
-content_hash: "afe57a2a99098d593a152a6154f9b9d5144d998ebcf1bcb6da9d4f0c7dc5fc4b"
+scraped_at: "2026-10-04T23:29:21.833910+00:00"
+content_hash: "071e42d7c0f4051265405359bec0215d376fb7316ead1d1e35292e3c9ef50cd5"
 ---
 
 # Test internal DAST projects with Polaris Secure Tunnel

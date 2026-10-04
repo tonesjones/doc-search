@@ -16,6 +16,31 @@
     "children": []
   },
   {
+    "tocId": "U9MmtY38Mn8UMJ_HfJ1pJw",
+    "contentId": "TNST3gCZTGzs4WGTR7O_bA",
+    "title": "How-to",
+    "prettyUrl": "/r/bridge/latest/bridge-cli-guide/how-to.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "vQRw1zswDQlNCPmmebb5Yg",
+        "contentId": "ueQZXEHhm6pihfoXwypNvA",
+        "title": "Exclude files from SAST scans",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/exclude-files-from-sast-scans.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "iAMlAoaOGuCRWD8V~VU4hg",
+        "contentId": "CBO3sFp3VibvYuuuNycJZA",
+        "title": "Using Rapid Scan Static for pull request workflows",
+        "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-rapid-scan-static-for-pull-request-workflows.html",
+        "hasRating": false,
+        "children": []
+      }
+    ]
+  },
+  {
     "tocId": "6WkWsrzcPmpwH74hQxOszQ",
     "contentId": "XXWcReElxhPsW9A9y8RBYQ",
     "title": "Bridge CLI",
@@ -54,6 +79,14 @@
             "children": []
           },
           {
+            "tocId": "vkep1bLmCP_~x7m0N9RQFg",
+            "contentId": "9dlLegLeeUU0Vr2OHp95~g",
+            "title": "Passing Arguments using environment variables",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/passing-arguments-using-environment-variables.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
             "tocId": "I7xr76TgYOpx_L70HsM59w",
             "contentId": "SaoNuDEGAhwd0_Q~slkzTA",
             "title": "Configuring tools using Bridge",
@@ -81,32 +114,32 @@
           {
             "tocId": "l~BjILfU~pTplwx_F3Hf5g",
             "contentId": "oW33tu8l5H9~3rummnuG4A",
-            "title": "Perform a diff scan with Black Duck Signal",
-            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/perform-a-diff-scan-with-black-duck-signal.html",
+            "title": "Scan uncommitted changes",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/scan-uncommitted-changes.html",
             "hasRating": false,
             "children": []
           },
           {
             "tocId": "Dz2l~uXXMpp9n64Aat4SEw",
             "contentId": "9Sk4~KOiDSe~mxNYwxp8aA",
-            "title": "Perform a diff scan against a reference branch with Black Duck Signal",
-            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/perform-a-diff-scan-against-a-reference-branch-with-black-duck-signal.html",
+            "title": "Scan changes against a reference branch",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/scan-changes-against-a-reference-branch.html",
             "hasRating": false,
             "children": []
           },
           {
             "tocId": "IFdEVc0rw5b3dfUU~QdZtQ",
             "contentId": "4WBiYOds7Y_1FXGKdw8eAA",
-            "title": "Scan local files with Black Duck Signal",
-            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/scan-local-files-with-black-duck-signal.html",
+            "title": "Scan local files",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/scan-local-files.html",
             "hasRating": false,
             "children": []
           },
           {
             "tocId": "FmPlCf7rmab97KIWgR5FLQ",
             "contentId": "umhhqHihgvnCKpSEJNC2ng",
-            "title": "Black Duck Signal reference guide",
-            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/black-duck-signal-reference-guide.html",
+            "title": "Bridge CLI Reference Guide",
+            "prettyUrl": "/r/bridge/latest/bridge-cli-guide/bridge-cli-reference-guide.html",
             "hasRating": false,
             "children": []
           }
@@ -1030,8 +1063,8 @@
   {
     "tocId": "MEmDAn9GTjvoOg6Ngg2ENA",
     "contentId": "zAv0lvHqHiEx3PqXIiB~kg",
-    "title": "Jenkins - Black Duck Security Scan Plugin for Jenkins",
-    "prettyUrl": "/r/bridge/latest/bridge-cli-guide/jenkins-black-duck-security-scan-plugin-for-jenkins.html",
+    "title": "Jenkins Integrations",
+    "prettyUrl": "/r/bridge/latest/bridge-cli-guide/jenkins-integrations.html",
     "hasRating": true,
     "children": [
       {

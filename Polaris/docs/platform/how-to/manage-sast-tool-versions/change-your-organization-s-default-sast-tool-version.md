@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/ch
 content_id: "6eY9ZrhMT6gr72IZq9ms9Q"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:56:12.817982+00:00"
-content_hash: "b5777fb1316b1716b37e5bbed588319fb3ea5581eddfbc1745e445705ed7a7a0"
+scraped_at: "2026-10-04T23:29:18.620158+00:00"
+content_hash: "559da37a359158cd3d6568c32ce07d10167c9e5292dffb66daf3f105673616d6"
 ---
 
 # Change your organization's default SAST tool version
@@ -13,6 +13,8 @@ content_hash: "b5777fb1316b1716b37e5bbed588319fb3ea5581eddfbc1745e445705ed7a7a0"
 The version of Coverity used for static analysis can be modified at the organization, application, project, and branch level. To change your organization's default Coverity version, follow these steps:
 
 Note: Only Organization Administrators can complete these steps.
+
+Important: AI-assisted triage requires a minimum Coverity version of 2026.6.0.
 
 1. Go to My Organization > Analysis.
 2. Under SAST Analysis, select Edit.

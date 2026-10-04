@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/autono
 content_id: "Brvnd6uFkt8IrslOsklqtw"
 version: "12.0.0"
 section: "Planning and running Detect"
-scraped_at: "2026-09-07T21:15:43.143824+00:00"
+scraped_at: "2026-10-04T23:33:19.982734+00:00"
+content_hash: "3c026b2567616ae77911087ec84517b2a26793ee6c9148b66ee7a7ce935ff3fc"
 ---
 
 # Autonomous Scanning

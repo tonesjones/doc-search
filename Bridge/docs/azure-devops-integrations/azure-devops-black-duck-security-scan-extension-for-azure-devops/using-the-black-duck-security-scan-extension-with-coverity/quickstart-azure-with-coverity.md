@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickst
 content_id: "Iw9Ymue26epLx_uBvG6y6Q"
 version: "latest"
 section: "Azure DevOps Integrations"
-scraped_at: "2026-08-08T23:48:28.247536+00:00"
+scraped_at: "2026-10-04T23:28:30.098687+00:00"
+content_hash: "fb8656bd9c0546f382fb9f278cf8ac1901aa5eb3a124617d1e28c7b8c7db4841"
 ---
 
 # Quickstart: Azure with Coverity
@@ -115,7 +116,7 @@ Follow the steps below to integrate Coverity with the Azure DevOps pipeline for 
          mark_build_status: "SucceededWithIssues"
    ```
 
-   Important: For deployments with [scan_services](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/cnc/topics/scan_service.html) disabled the `coverity_local` line in the example should be uncommented. Subsequently, the full Coverity client will be used to enable a local analysis to be performed. This will override the default behavior that uses the Coverity thin client to capture and upload artifacts, with analysis being performed on the server.
+   Important: For deployments with [scan_services](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/0a69325e186c9bec20342e8d19ab1fb4.topic) disabled the `coverity_local` line in the example should be uncommented. Subsequently, the full Coverity client will be used to enable a local analysis to be performed. This will override the default behavior that uses the Coverity thin client to capture and upload artifacts, with analysis being performed on the server.
 
    In the example above a `Coverity Scan` task runs whenever code is pushed to any branch in the `triggers` list, or when a Pull Request targets one of those branches. The scan type is automatically determined by the Black Duck Security Scan Extension depending on the context in which the pipeline was triggered. The scan behaviour is explained below.
 
@@ -123,7 +124,7 @@ Follow the steps below to integrate Coverity with the Azure DevOps pipeline for 
 
    The Coverity stream stores a snapshot of the issues identified during the scan, ready for review in Coverity Connect.
 
-   For full scans the `coverity_policy_view` parameter will break the build if new or outstanding issues are detected as defined by the `Outstanding Issues` [policy view](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/coverity-platform/topics/view_issues_by_snapshot.html). Consult [View Management](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/coverity-platform/topics/view_management.html) within the Coverity documentation for further details.
+   For full scans the `coverity_policy_view` parameter will break the build if new or outstanding issues are detected as defined by the `Outstanding Issues` [policy view](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/bf31a35839bf6ab49773e9063d5bda88.topic). Consult [View Management](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/f90e1c0212f2dc46cdbd0c29650065af.topic) within the Coverity documentation for further details.
 
    Each time code is committed to a Pull Request branch that targets one of the specified base branches, a comparison is performed between the scan of the Pull Request branch and the latest full scan of its parent branch. Any new issues introduced by the Pull Request are automatically added as review comments.
 
@@ -147,13 +148,13 @@ If an error is encountered similar to the example below, then the `coverity_loca
 
 Attention: ERROR: Failed to retrieve tool information details: Fetch tool information: received unexpected response status code '500' from Connect API
 
-In this scenario either [scan services](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/cnc/topics/scan_service.html) are not enabled or a Coverity version prior to 2022.3 is deployed. The default behavior is that the workflow uses the Coverity thin client to upload artifacts, with the analysis performed at the server.
+In this scenario either [scan services](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/0a69325e186c9bec20342e8d19ab1fb4.topic) are not enabled or a Coverity version prior to 2022.3 is deployed. The default behavior is that the workflow uses the Coverity thin client to upload artifacts, with the analysis performed at the server.
 
-Setting the `coverity_local` parameter to `true` enables the full analysis at the client. Subsequently, the scan and analysis will be performed locally by the pipeline. For further details relating to the different Coverity deployment models supported, please refer to [Coverity Deployment Architecture](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/help-center/topics/deployment_architecture.html).
+Setting the `coverity_local` parameter to `true` enables the full analysis at the client. Subsequently, the scan and analysis will be performed locally by the pipeline. For further details relating to the different Coverity deployment models supported, please refer to [Coverity Deployment Architecture](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/a0caa9e5b240fbee6150f8640240b2a5.topic).
 
 ## Useful resources
 
-- [Coverity product documentation](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/webhelp-files/help_center_start.html)
+- [Coverity product documentation](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/65af71645148476f0c3da0e6b8552214.topic)
 - Bridge product overview
 - [Bridge CLI Download](https://repo.blackduck.com/bds-integrations-release/com/blackduck/integration/bridge/binaries/bridge-cli-bundle/latest/)
 - Coverity Black Duck Security Scan Extension academy resources

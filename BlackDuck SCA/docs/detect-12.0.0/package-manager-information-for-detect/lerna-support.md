@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/lerna-
 content_id: "SO0xs1s4RKlDSpDuqIavzA"
 version: "12.0.0"
 section: "Package Manager information for Detect"
-scraped_at: "2026-09-07T21:16:13.547946+00:00"
+scraped_at: "2026-10-04T23:33:21.035580+00:00"
+content_hash: "03deca1cfa8135d088a2651a077d22f7a2d98e130692417b01926defe0648a5f"
 ---
 
 # Lerna support

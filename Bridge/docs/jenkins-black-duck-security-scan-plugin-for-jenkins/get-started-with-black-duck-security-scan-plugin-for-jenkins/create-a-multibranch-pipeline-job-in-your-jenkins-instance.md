@@ -3,8 +3,9 @@ title: "Create a multibranch pipeline job in your Jenkins instance"
 source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/create-a-multibranch-pipeline-job-in-your-jenkins-instance.html"
 content_id: "qyeJCmOFIODUwLZsaRPs6g"
 version: "latest"
-section: "Jenkins - Black Duck Security Scan Plugin for Jenkins"
-scraped_at: "2026-08-08T23:48:35.607099+00:00"
+section: "Jenkins Integrations"
+scraped_at: "2026-10-04T23:28:30.388766+00:00"
+content_hash: "d1b08a05234f81ad692c69e59846a319b04802462c18faf79ebdc40a7b383797"
 ---
 
 # Create a multibranch pipeline job in your Jenkins instance

@@ -1,10 +1,11 @@
 ---
 title: "PostgreSQL pod configuration"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/postgresql-pod-configuration.html"
-content_id: "PCJdxgfWumSYHH7M3GN0RA"
+content_id: "Xj94A2E6~1Ywh~YE8ZOhog"
 version: "2026.7"
 section: "Installing Black Duck using Kubernetes and OpenShift"
-scraped_at: "2026-08-08T15:33:10.619131+00:00"
+scraped_at: "2026-10-04T23:32:22.991928+00:00"
+content_hash: "da1f8d328204635e8937271fc125ea86122c75216a8e5e842d273476bbbdc208"
 ---
 
 # PostgreSQL pod configuration

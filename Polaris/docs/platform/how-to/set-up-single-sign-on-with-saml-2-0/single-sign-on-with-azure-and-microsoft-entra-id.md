@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/si
 content_id: "Z4HAT06MGp0wdqET710bLg"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:56:02.176629+00:00"
-content_hash: "2732e3f1b4b64763f94ee687623e573382ecf108f7ae9201f1b3bf5f68097d62"
+scraped_at: "2026-10-04T23:29:18.334394+00:00"
+content_hash: "34bd6b2c0fe7b2c76c7474908ba8bd64094926242e401115d4667ef93072ed25"
 ---
 
 # Single sign-on with Azure and Microsoft Entra ID

@@ -182,6 +182,8 @@ def select_topics(manifest: dict, args: argparse.Namespace) -> list[dict]:
     excludes = [e for e in (args.exclude_path or []) if e]
     out: list[dict] = []
     for t in manifest["topics"]:
+        if str(t.get("id", "")).startswith("local-"):
+            continue
         if t.get("status") not in statuses:
             continue
         joined = path_joined(t)

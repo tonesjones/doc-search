@@ -442,13 +442,9 @@ def write_hub_index() -> None:
     companions = [r for r in rows if r["phase"] == 2 and r["status"] == "ready"]
     sca = next((r for r in rows if r["key"] == DEFAULT_PRODUCT_KEY), None)
 
-    if not companions:
-        # Leave monoproduct SCA index alone (written by build for blackduck)
-        return
-
     lines: list[str] = []
     a = lines.append
-    a("# Black Duck Documentation Corpus")
+    a("# Bridge CLI Documentation Corpus")
     a("")
     a(
         "> Multi-product local knowledge base for RAG. "
@@ -485,17 +481,16 @@ def write_hub_index() -> None:
     a("## How to scrape")
     a("")
     a("```powershell")
-    a("python scripts/build-index.py --product detect-12.0.0 --init")
-    a("python scripts/scrape-pending.py --product detect-12.0.0 --all-pending")
-    a("python scripts/build-index.py --product detect-12.0.0")
+    a(f"python scripts/build-index.py --product {DEFAULT_PRODUCT_KEY} --refresh-toc")
+    a(f"python scripts/scrape-pending.py --product {DEFAULT_PRODUCT_KEY} --all-pending")
+    a(f"python scripts/build-index.py --product {DEFAULT_PRODUCT_KEY} --hub")
     a("```")
     a("")
     a("Registered product keys: `" + "`, `".join(PRODUCTS.keys()) + "`.")
     a("")
     a("---")
     a("")
-    a(f"*Primary SCA detail index: "
-      f"[index.md → see also monoproduct builds]({sca['index'] if sca else 'index.md'}).*")
+    a("*Full topic catalog: [index.md](index.md).*")
     a("")
 
     # When companions exist, SCA detail lives in index-blackduck.md if we rename —

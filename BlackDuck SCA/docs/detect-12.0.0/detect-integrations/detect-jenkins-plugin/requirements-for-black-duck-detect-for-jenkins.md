@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/requir
 content_id: "Pm5WQC5TeozmGR27qSiLRA"
 version: "12.0.0"
 section: "Detect Integrations"
-scraped_at: "2026-09-07T21:17:13.665685+00:00"
+scraped_at: "2026-10-04T23:33:23.300512+00:00"
+content_hash: "e0e707f1073ee755e07e9102e493e1893bd99f867b6d1e55f0c483d6c03cb19a"
 ---
 
 # Requirements for Black Duck® Detect for Jenkins

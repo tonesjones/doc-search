@@ -1,10 +1,11 @@
 ---
 title: "Webapp pod configuration"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/webapp-pod-configuration.html"
-content_id: "CeYeiFDJgOkllAJBr8hasg"
+content_id: "8cf6dZR_qE84ywimJmQb3w"
 version: "2026.7"
 section: "Installing Black Duck using Kubernetes and OpenShift"
-scraped_at: "2026-08-08T15:33:15.240772+00:00"
+scraped_at: "2026-10-04T23:32:23.207609+00:00"
+content_hash: "9466d14c0bd9edd08d54453c8acaa79fd4525d455881e5198d46daba3500e509"
 ---
 
 # Webapp pod configuration

@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/bdio.h
 content_id: "s~Xy3QXERV0O7QI8C8VDcA"
 version: "12.0.0"
 section: "Getting started with Detect"
-scraped_at: "2026-09-07T21:15:01.994551+00:00"
+scraped_at: "2026-10-04T23:33:18.758412+00:00"
+content_hash: "d268fdf0135d2736640240c4a7e6fb67528fe9a972eaacda0cb33adea683c49b"
 ---
 
 # BDIO

@@ -1,16 +1,16 @@
 ---
 title: "Command Line Status Codes"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/command-line-status-codes.html"
-content_id: "r4Tz~iWZ1hMTPI6HsLRL_Q"
+content_id: "4N3GX7dxy17XSn69kLu9Nw"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T14:53:38.686561+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:10.739331+00:00"
+content_hash: "b883143f0ecd1e4d410afd34352db3dab4719089a43d1bc173a3343deaa2d66a"
 ---
 
 # Command Line Status Codes
 
-When a signature scan completes, it returns one of
-the following status codes to indicate the result.
+When a signature scan completes, it returns one of the following status codes to indicate the result.
 
 ## Success Codes
 

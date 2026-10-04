@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/ho
 content_id: "4cj_DQ~mQ~J34eKbMpb4Ww"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:55:59.642498+00:00"
-content_hash: "685bde447f7195791bfe0c2855169a5593835ddfe039c31fb0868bb90220b78a"
+scraped_at: "2026-10-04T23:29:18.153120+00:00"
+content_hash: "891119315d6eca0d5a131711c25a95ee726c0fe158715a076309219211ac9a8a"
 ---
 
 # How-do-I
@@ -34,7 +34,7 @@ View short instructions for a number of things that you might want to do in Pola
 | Delete a project | - Org Admin - Org Application Manager - Application Admin - Contributors | Portfolio > (Select an application) > Projects | 1. Find project. Click ellipse menu. 2. Select Delete. 3. Click OK on "Are you sure you want to delete the project? This action cannot be undone" popup. |
 | Monitor tests | - Org Admin - Org Application Manager - Application Admins - Contributors - Members - Observers | Tests | 1. Use filters to see the test or tests you are interested in. 2. Click a completed test to see results. |
 | Filter and review issues from a test | - Org Admin - Org Application Manager - Application Admins - Contributors - Members - Observers | Tests | 1. Select the test for which you'd like to see results. 2. Use pulldown menus to filter issues. 3. Click any issue for more detailed information. |
-| Triage one or more issues | - Org Admin - Org Application Manager - Application Admins - Contributors - Members | **Portfolio** > (Select an application) > (Select a project) > **Issues** | See [Ways to triage issues in Polaris](ways-to-triage-issues-in-polaris.md). |
+| Triage one or more issues (or use AI-assisted triage on up to 20 SAST issues) | - Org Admin - Org Application Manager - Application Admins - Contributors - Members | **Portfolio** > (Select an application) > (Select a project) > **Issues** | See [Ways to triage issues in Polaris](ways-to-triage-issues-in-polaris.md). |
 | Triage one or more components | - Org Admin - Org Application Manager - Application Admins - Contributors - Members | **Portfolio** > (Select an application) > (Select a project) > **Components** | See [Ways to triage components in Polaris](ways-to-triage-components-in-polaris.md). |
 | Upload files for testing | - Org Admin - Org Application Manager - Application Admins - Contributors - Members | Portfolio > (Select an application) > Projects | 1. In the list of projects, find the project you want to scan and select Test this project. 2. Use checkboxes to select test types. (The options depend on what your App Admin has made available for the project.) 3. Submit the files you want to test by dragging and dropping into the browser window. Or click Browse Files and use the file chooser in your operating system to select files. 4. After the upload completes, click Begin Test. |
 | Make a token | - Any user | Profile > Account > Access Tokens | See [Make an access token](make-an-access-token.md). |

@@ -1,0 +1,379 @@
+[
+  {
+    "tocId": "tb0uWkirLqentiX~rv20Bw",
+    "contentId": "D5jJkGFn8zSJUw2hhpKhAA",
+    "title": "Black Duck Alert Overview",
+    "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/black-duck-alert-overview.html",
+    "hasRating": true,
+    "children": []
+  },
+  {
+    "tocId": "f512hOSo6B~_YUXQFPHPjA",
+    "contentId": "eyKrnaGD5jEFodWtx0NY6Q",
+    "title": "Alert Release Notes",
+    "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/alert-release-notes.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "yjmdwrezBPi9OErjU~~_SQ",
+        "contentId": "MMBNgh4hDO_pEIZk08QYjw",
+        "title": "Current Alert Release Notes",
+        "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/current-alert-release-notes.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "RaqBu~Ud4qEDYNYWtM1LAA",
+        "contentId": "6o6FxYJM1Vr8ZXtHmS6LfQ",
+        "title": "Previous Alert Release Notes",
+        "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/previous-alert-release-notes.html",
+        "hasRating": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "tocId": "evGb3732D6N26pIxslfgng",
+    "contentId": "ZyHWtxj8nmyqe2HqC6acTQ",
+    "title": "Alert Concepts and Terms",
+    "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/alert-concepts-and-terms.html",
+    "hasRating": true,
+    "children": []
+  },
+  {
+    "tocId": "AqnnCdg4NVN8WqjSNAHwfA",
+    "contentId": "1XW3OmKRFwlYniv5~E_jow",
+    "title": "Installing and Upgrading Alert",
+    "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/installing-and-upgrading-alert.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "r8k9Rvex9LZNbt1t3CBMew",
+        "contentId": "Tl6DKdoVE0S4yeVlqfsPGg",
+        "title": "Alert System Requirements",
+        "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/alert-system-requirements.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "GemBu_pee2OxEaLApiNMdQ",
+        "contentId": "_2zCKus6vzpOQPHWfrPtqQ",
+        "title": "Docker Swarm Install",
+        "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/docker-swarm-install.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "x2oYHfu1jPW1f5lutl5VZA",
+        "contentId": "Oc7eyFOG5V6u~Oc0b~h7ZA",
+        "title": "Helm Install",
+        "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/helm-install.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "m8RdK4uTWSC73geWeWlFjQ",
+        "contentId": "f7OHiv3W3CBIacoFOQfWxQ",
+        "title": "Upgrading Black Duck Alert",
+        "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/upgrading-black-duck-alert.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "dG4OwIr8TNiB_F6EOJcDxA",
+        "contentId": "xw6eKyHAw4p3AQjI4YFCVg",
+        "title": "Alert Installation Quickstart Guides",
+        "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/alert-installation-quickstart-guides.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "Nmgq8qGy1TBya32jLT2Naw",
+            "contentId": "uNDy0j2lh2LXZSwhTgxQgQ",
+            "title": "Alert Quickstart: Docker Deployment",
+            "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/alert-quickstart-docker-deployment.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "~DlwKkNunn0Fk0RVfFWzSQ",
+                "contentId": "zKMoodCgQW2dKJgBw3N6Zg",
+                "title": "Black Duck Alert Quickstart (Docker Swarm)",
+                "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/black-duck-alert-quickstart-docker-swarm-.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "UnFwC0ojSjvXTu_NwZy5oA",
+                "contentId": "oKFMKICwmQ1B6yx7Q76oqg",
+                "title": "Black Duck Alert Quickstart (Docker Swarm - standalone)",
+                "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/black-duck-alert-quickstart-docker-swarm-standalone-.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "9PZEiEFK7fvDO3lkwpNNuw",
+                "contentId": "HuKpZdt5Lg5lVUnRT203cQ",
+                "title": "Black Duck Alert Quickstart (Docker Swarm - External Database)",
+                "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/black-duck-alert-quickstart-docker-swarm-external-database-.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "tocId": "Hi~JhD_VI_DnQlpCGNsFZQ",
+            "contentId": "~oS4WmKdBmhkU3Z58solNA",
+            "title": "Alert Quickstart: Helm Deployment",
+            "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/alert-quickstart-helm-deployment.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "4YYmkTEXBzycE1hc133hpA",
+                "contentId": "T~OW7OCJrto4LGeq2J6PQA",
+                "title": "Black Duck Alert Quickstart (Helm)",
+                "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/black-duck-alert-quickstart-helm-.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "yg3UD1OaXh29j0Licjim~A",
+                "contentId": "6ho9gK~KRNaQOLQ2vJ2iLQ",
+                "title": "Black Duck Alert Quickstart (Helm - Standalone)",
+                "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/black-duck-alert-quickstart-helm-standalone-.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "Lkpw4jPeNic0cX8IctUzjQ",
+                "contentId": "57JO8eo0qZEHhdy8AZnjOw",
+                "title": "Black Duck Alert Quickstart (Helm - External Database)",
+                "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/black-duck-alert-quickstart-helm-external-database-.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tocId": "Dq6MTzPA5WDv1qildcThuw",
+    "contentId": "fPamOmAd8CdlPz0HGrNfDQ",
+    "title": "Installation References",
+    "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/installation-references.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "oP3caITQk_Tz8AxxsScTGw",
+        "contentId": "1QG8D2yDKkVjKm7nwGgZtA",
+        "title": "Configuring Persistent Storage",
+        "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/configuring-persistent-storage.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "jGQv2ZQCFhb7V3IoPuRCgA",
+        "contentId": "G1fqMts4JOs4HRrHmQa2CA",
+        "title": "External Postgres Database Requirements",
+        "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/external-postgres-database-requirements.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "iQU5zMvMdzXOG8JCsCzL8Q",
+        "contentId": "0GtG0Kfua~7dfK9xf45Gtw",
+        "title": "Black Duck Alert Environment Variables",
+        "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/black-duck-alert-environment-variables.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "i8MhG_CNba~HA9Y9Sl2gMg",
+        "contentId": "kXwYs_LcsN5j5SP0U2PIbQ",
+        "title": "Changing the default server port",
+        "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/changing-the-default-server-port.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "ea6RB2LV~x3ctoPiGRxK7g",
+        "contentId": "9H6lDC2byYyaHKRMaeFuDg",
+        "title": "Cloud Vendor Specific Database Considerations",
+        "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/cloud-vendor-specific-database-considerations.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "2mNYydlHBYHKyKC0fMtC6w",
+        "contentId": "jdsBZaCOaiJyFWEKTB_1gQ",
+        "title": "Using Custom SSL Certificates",
+        "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/using-custom-ssl-certificates.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "ZS5jKPtRrAB2vOvzBMSZrw",
+        "contentId": "Dfwjt7U_QkprjGUh3KWM3w",
+        "title": "Black Duck Alert Helm Chart Configuration",
+        "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/black-duck-alert-helm-chart-configuration.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "XKIg81wFx2IyZFDJCo9~Gg",
+        "contentId": "8tspIXWhN71Be4o~QeFCtg",
+        "title": "Alert Issue Property Indexer",
+        "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/alert-issue-property-indexer.html",
+        "hasRating": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "tocId": "hPrnHkyQk5tB6T_7BYIOxA",
+    "contentId": "jotrgY5wkAW~cKaryxEsgg",
+    "title": "Post Installation Configuration",
+    "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/post-installation-configuration.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "xIFCCHjPvSb4IMZzgsR2Cg",
+        "contentId": "CSzin8tszMJEcU~oTjUhWw",
+        "title": "Configuring Black Duck Alert",
+        "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/configuring-black-duck-alert.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "23~cieYy2xBsm~jcjOwEnA",
+        "contentId": "JBF7BqT7nhelgZ7MCN1ygQ",
+        "title": "Configuring Black Duck Providers",
+        "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/configuring-black-duck-providers.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "rCaysw70~9HxBPGxmzk5HQ",
+        "contentId": "ey4jJvnHZ4Dyy0W~l~klsw",
+        "title": "Configuring Channels in Alert",
+        "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/configuring-channels-in-alert.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "Gy1~EFB63mXA5Ec9y5m_fg",
+        "contentId": "BP~_6fvY_TGN4cu_Im2GNA",
+        "title": "Configuring Distribution Jobs",
+        "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/configuring-distribution-jobs.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "yUg8qM0P2ejw9Sx8Mw_Q0w",
+        "contentId": "PLvIb4uk1tv9JcGqZzT2DQ",
+        "title": "Scheduling Notifications",
+        "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/scheduling-notifications.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "diW4F5x201BO8mkoQDiJQQ",
+        "contentId": "sz55AHU4DBHK3Le1gUfmyA",
+        "title": "Auditing Notification Failures",
+        "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/auditing-notification-failures.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "B4yS0~edVw0msIo8mdfy_g",
+        "contentId": "pQ0HOzIZkxURlTzm0UIDhA",
+        "title": "Encryption and Proxy Configuration",
+        "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/encryption-and-proxy-configuration.html",
+        "hasRating": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "tocId": "jVaCqtHsniXJ8uZWtYPepA",
+    "contentId": "azaZGW4EWDzLIlAY4tMSfA",
+    "title": "System and Task Management",
+    "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/system-and-task-management.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "YxTLYrmk75Jzly9JszEBTg",
+        "contentId": "aqKqsRB6KmRSkyC_fkhYMQ",
+        "title": "Managing Certificates in Alert",
+        "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/managing-certificates-in-alert.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "WwwQLCiVCdAZTGMWq6v3bQ",
+        "contentId": "5zskaR~ExvZl9wEg2QKaOQ",
+        "title": "Alert Task Management",
+        "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/alert-task-management.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "99XaqvHu83zim6GczcxfZA",
+        "contentId": "CncDy8O~vvaoGXa3Pg31Kg",
+        "title": "Authentication - Configuring LDAP or SAML",
+        "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/authentication-configuring-ldap-or-saml.html",
+        "hasRating": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "tocId": "Rx7eq~c0L~~A1OPgGNhMaA",
+    "contentId": "c2mDZ_Qjfjy94qo6~Ew5TQ",
+    "title": "User and Role Management",
+    "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/user-and-role-management.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "ZPYRGCnUFW6n6CN5vxn1VQ",
+        "contentId": "pD4_QypU_IBcj~tPXdfiig",
+        "title": "Alert Users and Roles",
+        "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/alert-users-and-roles.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "LrlMNAGQleSGlFnkL~RmTg",
+        "contentId": "8bdYmhHxki0n~dofU3dvtg",
+        "title": "Alert User Management",
+        "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/alert-user-management.html",
+        "hasRating": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "tocId": "vLwF6WSIe9gdXGsrL~4b7g",
+    "contentId": "pYLB0i4B~WNtpIyjlZlCPQ",
+    "title": "Troubleshooting Alert",
+    "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/troubleshooting-alert.html",
+    "hasRating": true,
+    "children": []
+  },
+  {
+    "tocId": "OqGiEc4hDNAgZtPfGCh8cg",
+    "contentId": "_4x2nGOxFeYN6IlCi1snbg",
+    "title": "Proprietary Statement",
+    "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/proprietary-statement.html",
+    "hasRating": true,
+    "children": []
+  },
+  {
+    "tocId": "UeOfOG0ByXHRgrjvYl9Jog",
+    "contentId": "~RsFLwzXxhrW0WAbR7YA~w",
+    "title": "Black Duck Statement on Inclusivity and Diversity",
+    "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/black-duck-statement-on-inclusivity-and-diversity.html",
+    "hasRating": true,
+    "children": []
+  }
+]

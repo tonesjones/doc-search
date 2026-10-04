@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/scans-
 content_id: "O_v_hAoQQ7X_XbjD_HjCLw"
 version: "12.0.0"
 section: "Getting started with Detect"
-scraped_at: "2026-09-07T21:15:07.914096+00:00"
+scraped_at: "2026-10-04T23:33:18.898892+00:00"
+content_hash: "da47282b5694a6bb9bd82765a15a7b1a470923cfa63b3102ef61924ecffa7654"
 ---
 
 # Scans and projects

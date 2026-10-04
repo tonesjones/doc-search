@@ -1,16 +1,16 @@
 ---
 title: "New and Changed Features in Version 2021.6.2"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/new-and-changed-features-in-version-2021.6.2.html"
-content_id: "CIXGINMCQOMAdYOSaxdKhA"
+content_id: "X_iPgBRcxDE0G2rQoKXXdg"
 version: "2026.7"
-section: "Release Notes"
-scraped_at: "2026-08-08T15:38:08.532169+00:00"
+section: "Black Duck SCA Release Notes"
+scraped_at: "2026-10-04T23:32:35.536128+00:00"
+content_hash: "0c101a1d54d93df0a90a782d46dda8ac94c6f97b3dfdf1b043dce2746740f15d"
 ---
 
 # New and Changed Features in Version 2021.6.2
 
-Black Duck version 2021.6.2 is a maintenance release and contains no
-new or changed features.
+Black Duck version 2021.6.2 is a maintenance release and contains no new or changed features.
 
 ## Container versions
 

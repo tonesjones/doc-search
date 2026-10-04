@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/runnin
 content_id: "Wm9ENZ2Id3cvlkmtdcuUaw"
 version: "12.0.0"
 section: "Planning and running Detect"
-scraped_at: "2026-09-07T21:15:30.934502+00:00"
+scraped_at: "2026-10-04T23:33:19.583230+00:00"
+content_hash: "195799c60ee6e36ad6a81c9dcb31ab611cd27484ae813a195bb056c1a34dcb82"
 ---
 
 # Running the Detect .jar

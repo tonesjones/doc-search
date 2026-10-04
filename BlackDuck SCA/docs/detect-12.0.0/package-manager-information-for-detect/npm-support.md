@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/npm-su
 content_id: "R971ROvkjoMBwB7VV4s9ZQ"
 version: "12.0.0"
 section: "Package Manager information for Detect"
-scraped_at: "2026-09-07T21:16:15.016775+00:00"
+scraped_at: "2026-10-04T23:33:21.080860+00:00"
+content_hash: "ee04b2f78b3eb79f06758268a6a5d15a73260ee389d991c525aa169df821639d"
 ---
 
 # NPM support

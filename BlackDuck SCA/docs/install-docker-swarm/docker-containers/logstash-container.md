@@ -1,10 +1,11 @@
 ---
 title: "Logstash container"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/logstash-container.html"
-content_id: "shlSqGaCK2P6SjltlSlcAQ"
+content_id: "9cz8umQO1p494OrOMrztJw"
 version: "2026.7"
 section: "Installing Black Duck using Docker Swarm"
-scraped_at: "2026-08-08T15:34:23.234695+00:00"
+scraped_at: "2026-10-04T23:32:26.103363+00:00"
+content_hash: "419447739c26f5a5a1ac0cc53a2214594f7875b6366d67b6d8908fc9ea69f9fd"
 ---
 
 # Logstash container

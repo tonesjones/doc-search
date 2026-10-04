@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/bi
 content_id: "ArBGRPjEkuR2~SX2xT2Uww"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:57:20.271770+00:00"
-content_hash: "ce79b66040c286f3fb39d629bc187044b389074b66a4126a168a7ab26cdfd9fb"
+scraped_at: "2026-10-04T23:29:20.796910+00:00"
+content_hash: "e057d190a8914ae410ca2b9dcad965407dab4c6ac642faac3f8a9f9450d4f94e"
 ---
 
 # Bitbucket Cloud

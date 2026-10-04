@@ -19,7 +19,7 @@ TOC/content APIs recorded in `sources/bridge-latest/manifest.json`.
 | Product key | `bridge-latest` |
 | Documentation version | latest |
 | Map ID | `ilBVZr_kR5v3KVjK1p~wbw` |
-| Topics | 174/174 |
+| Topics | 178/178 |
 | Index | `index.md` |
 
 ## Working rules

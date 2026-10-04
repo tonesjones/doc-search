@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/gradle
 content_id: "JZdjl0psLGpJ3_VvsWzgjQ"
 version: "12.0.0"
 section: "Package Manager information for Detect"
-scraped_at: "2026-09-07T21:16:11.342832+00:00"
+scraped_at: "2026-10-04T23:33:20.972383+00:00"
+content_hash: "c00355d9a038d93f8fdd680809fbc5f630d4c697e22ce28dca62e12a3dcb186e"
 ---
 
 # Gradle support

@@ -1,10 +1,11 @@
 ---
 title: "Match engine pod configuration"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/match-engine-pod-configuration.html"
-content_id: "WjoFvWWt30O7wivMXrpgBA"
+content_id: "qub6sXZ6qqrk2EUcFQvhXg"
 version: "2026.7"
 section: "Installing Black Duck using Kubernetes and OpenShift"
-scraped_at: "2026-08-08T15:33:09.952541+00:00"
+scraped_at: "2026-10-04T23:32:22.958739+00:00"
+content_hash: "9740b884f132cc77f1aabbea7cd50f0a6cd8e692fe1e4ebcdf615cb1bf441c13"
 ---
 
 # Match engine pod configuration

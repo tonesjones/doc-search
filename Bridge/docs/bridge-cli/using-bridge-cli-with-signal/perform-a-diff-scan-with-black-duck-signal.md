@@ -1,35 +1,33 @@
 ---
-title: "Perform a diff scan with Black Duck Signal"
-source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/perform-a-diff-scan-with-black-duck-signal.html"
+title: "Scan uncommitted changes"
+source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/scan-uncommitted-changes.html"
 content_id: "oW33tu8l5H9~3rummnuG4A"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:46:54.302108+00:00"
+scraped_at: "2026-10-04T23:28:25.407765+00:00"
+content_hash: "28eac019f3427c30e56102c59cf928923336a46e5b4999f66fdf412ab71c4c7b"
 ---
 
-# Perform a diff scan with Black Duck Signal
+# Scan uncommitted changes
 
-Bridge CLI can be used to run Signal to perform a diff scan of uncommitted, tracked files in a Git project directory.
+Bridge CLI can be used to run Signal to perform a diff scan of uncommitted, tracked files in a Git project directory. This task is for Bridge CLI users. For more details, see [Bridge CLI Overview](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/bridge-product-overview.html).
 
-Black Duck Signal provides the `UNCOMMITTED` scan mode to perform a diff scan of uncommitted tracked files. The Signal adapter configures Git diff-based analysis for the Git repository located at the project directory.
+Black Duck Signal provides the uncommitted scan mode to perform a diff scan of uncommitted tracked files. The Signal adapter configures Git diff-based analysis for the Git repository located at the project directory.
 
 ## Prerequisites
 
 The following prerequisites are required to run a diff scan:
 
 - Bridge CLI is installed and available on the system PATH.
-- Access to a `Git` project directory.
+- Access to a Git project directory.
 - There are changes in uncommitted, tracked files.
 - A valid Signal LLM API key.
+- A Signal Enterprise or Developer subscription.
 
-## Running a diff scan
+Follow the steps to run a diff scan:
 
-1. Download the latest version of Bridge, if you haven't installed it already.
-
-   ```
-   https://repo.blackduck.com/bds-integrations-release/com/blackduck/integration/bridge/binaries/bridge
-   ```
-2. Add Bridge to your `$PATH` variable.
+1. Download the latest version of Bridge CLI, if you haven't installed it already. To download, see [Bridge Binaries Download](https://repo.blackduck.com/bds-integrations-release/com/blackduck/integration/bridge/binaries).
+2. Add Bridge CLI to your `$PATH` variable.
 3. Save a valid LLM API key in the `BRIDGE_SIGNAL_LLM_KEY` environment variable.
 
    ```
@@ -49,7 +47,7 @@ The following prerequisites are required to run a diff scan:
 
 ## Signal CLI commands quick reference
 
-The following parameters enable further customization. Use the related links information section to access the reference guide for the commands.
+The following parameters enable further customization. Use the related links information section to access the reference guide for the commands. For additional support, see Reference Guide.
 
 | CLI Argument | Description |
 | --- | --- |
@@ -60,10 +58,6 @@ The following parameters enable further customization. Use the related links inf
 
 **Related information**  
 
-- [Signal Documentation](https://docs.blackduck.com/access?ft:originId=45e1f8ccc6ea016432347cf25486b012/2979c4f15f66905a89407ab942b98586.topic)
-
-**Related information**  
-
-- Perform a diff scan against a reference branch with Black Duck Signal
-- Scan local files with Black Duck Signal
-- Black Duck Signal reference guide
+- Scan changes against a reference branch
+- Scan local files
+- Bridge CLI Reference Guide

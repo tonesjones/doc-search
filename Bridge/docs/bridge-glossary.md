@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/bridge-
 content_id: "0uoNRIyirxOsddxqimFiYQ"
 version: "latest"
 section: "Bridge glossary"
-scraped_at: "2026-08-08T23:49:09.648033+00:00"
+scraped_at: "2026-10-04T23:28:32.058846+00:00"
+content_hash: "087ad3b579d88b85e4d9b093e4171881546d4e4f54617044ccf662758a4892dd"
 ---
 
 # Bridge glossary

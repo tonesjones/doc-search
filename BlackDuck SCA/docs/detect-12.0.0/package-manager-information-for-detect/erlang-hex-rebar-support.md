@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/erlang
 content_id: "iXx2grr8bN_Q7eHJWnfoOw"
 version: "12.0.0"
 section: "Package Manager information for Detect"
-scraped_at: "2026-09-07T21:16:12.077174+00:00"
+scraped_at: "2026-10-04T23:33:20.993192+00:00"
+content_hash: "014c1ebf23ac9aa4032b378ef8f99d1d14e078b3bdd46a8ab332619f678fefc5"
 ---
 
 # Erlang/Hex/Rebar support

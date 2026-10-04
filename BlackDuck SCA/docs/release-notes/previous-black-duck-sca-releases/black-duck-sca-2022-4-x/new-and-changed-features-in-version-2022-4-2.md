@@ -1,18 +1,18 @@
 ---
 title: "New and Changed Features in Version 2022.4.2"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/new-and-changed-features-in-version-2022.4.2.html"
-content_id: "Qt6jk3YRi1Xsix7pqEQzwg"
+content_id: "IfpYqcQtmwFkdV2nDx96xQ"
 version: "2026.7"
-section: "Release Notes"
-scraped_at: "2026-08-08T15:37:35.493498+00:00"
+section: "Black Duck SCA Release Notes"
+scraped_at: "2026-10-04T23:32:33.939727+00:00"
+content_hash: "8774ccd1288a106beac892dab135e75b11ba2f145378f44b9b9416220907dbc6"
 ---
 
 # New and Changed Features in Version 2022.4.2
 
 ## Improved performance on database migration script
 
-Performance improvements have been made to the database migration script used
-when upgrading Black Duck versions resulting in faster installation times.
+Performance improvements have been made to the database migration script used when upgrading Black Duck versions resulting in faster installation times.
 
 ## Container versions
 

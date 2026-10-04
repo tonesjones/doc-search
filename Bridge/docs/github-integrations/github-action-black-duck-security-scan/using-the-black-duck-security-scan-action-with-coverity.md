@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-t
 content_id: "dPEl2ehUTaTVSXGo76rtPg"
 version: "latest"
 section: "GitHub Integrations"
-scraped_at: "2026-08-08T23:47:47.356723+00:00"
+scraped_at: "2026-10-04T23:28:28.052295+00:00"
+content_hash: "c353eb7aba41ca06e2948dded77b9520d61f14cac4780d394f7505b193dd4315"
 ---
 
 # Using the Black Duck Security Scan Action with Coverity

@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/cr
 content_id: "cZCjgcYMtGhd8ThTn7Y0yQ"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:57:26.053017+00:00"
-content_hash: "1d44c9f2c6e2439349e77ba6320cfbe6db8c6af3b09c98fe977c9488a0354bc1"
+scraped_at: "2026-10-04T23:29:21.010447+00:00"
+content_hash: "0036b6d9192ce3b065f69f7c936a9f5cc97e66b17202e6a19f22271ad7af1913"
 ---
 
 # Create and manage branches in a project
@@ -91,7 +91,7 @@ Follow these steps to modify a branch from a SCM integration.
    - Change **Test Automation** for this branch. See [Event-Based Test Automation in Polaris for SCM Integrations](event-based-test-automation-in-polaris-for-scm-integrations.md).
    - Enable, disable, or customize a branch's policies.
    - Include or exclude this branch in issue tracking synchronization. When enabled, this branch will be considered when determining if issues should be automatically closed in external issue trackers. See Automatically close tickets and synchronize triage statuses for more information.
-   - Manage the Fix Pull Request settings for the branch including maximum number of Fix PRs and upgrade guidance, if applicable (see [Fix Pull Requests (Fix PR)](fix-pull-requests-fix-pr.md)).
+   - Manage the Fix Pull Request settings for the branch, including maximum number of Fix PRs and upgrade guidance (see [SCA Fix Pull Requests](fix-pull-requests-fix-pr.md) for SCA Fix PRs and SAST Fix Pull Requests for SAST Fix PRs).
 4. Select Save.
 
 ## Change a project's default branch

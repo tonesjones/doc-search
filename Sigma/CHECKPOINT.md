@@ -1,3 +1,13 @@
+# Current corpus checkpoint
+
+Updated October 4, 2026.
+
+Sigma 2026.9.1: 59/59 topics, zero pending or errors. Versioned documents are under docs/sigma-2026.9.1/. The 2026.8.0 snapshot remains unchanged at index-sigma-2026.8.0.md.
+
+The current catalog is `index.md`; companion catalogs are linked from `corpus-status.md`. The refresh report is `../docs/corpus-refresh-check-2026-10-04.md`.
+
+## Previous checkpoint history
+
 # Session checkpoint — Sigma corpus
 
 **Last updated:** 2026-08-12  

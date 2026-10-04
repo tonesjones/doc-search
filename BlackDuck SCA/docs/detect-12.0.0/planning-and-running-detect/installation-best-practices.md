@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/instal
 content_id: "E96obnvwDl_TPzcspbSUKA"
 version: "12.0.0"
 section: "Planning and running Detect"
-scraped_at: "2026-09-07T21:15:27.948201+00:00"
+scraped_at: "2026-10-04T23:33:19.479766+00:00"
+content_hash: "13990f509711a69e1a2a7b35de1a955cfabb110085401b7a7503cf46669a38c9"
 ---
 
 # Installation Best Practices

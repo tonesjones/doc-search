@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/on-the
 content_id: "8ZJ~jlJdhtjz1BIp2H2Whw"
 version: "12.0.0"
 section: "Configuring Detect"
-scraped_at: "2026-09-07T21:15:15.300277+00:00"
+scraped_at: "2026-10-04T23:33:19.094820+00:00"
+content_hash: "998b9c248bd657af0b750e8bbb2d65a6003aee55ef859f8a3e75c64b1b8a5607"
 ---
 
 # On the command line

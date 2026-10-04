@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-b
 content_id: "9WQjns46Kq7_mizxDQN8kA"
 version: "latest"
 section: "Azure DevOps Integrations"
-scraped_at: "2026-08-08T23:51:12.232283+00:00"
+scraped_at: "2026-10-04T23:28:29.575214+00:00"
+content_hash: "5eb90c21af6d4c7802ab95dfd2691c83eb8516aafbe006c0b5c3060ab6ac7f3e"
 ---
 
 # Using Black Duck Security Bulk Onboarding for Azure DevOps with Coverity
@@ -48,7 +49,7 @@ Note: Ensure all required variable group secrets are configured before clicking 
 
 A pipeline can be generated with the following scan options:
 
-- **Run analysis locally**: Performs local analysis with the full toolkit. For further details relating to the different Coverity deployment models supported, see [Coverity deployment architecture](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/deploy-install-guide/topics/deployment_planning1.html).
+- **Run analysis locally**: Performs local analysis with the full toolkit. For further details relating to the different Coverity deployment models supported, see [Coverity deployment architecture](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/13a4d9c483319e4eca8ec2aa49e2fa32.topic).
 - **Capture diagnostics information**: When checked, diagnostics will be captured and uploaded as a build artifact.
 - **Wait for scan to complete**: When checked, this will block injecting pull request comments until the scan completes.
 - **Fail build if policy violations are found**: If this option is checked, then if there are policy violations, the build status will be marked as `SucceededWithIssues`.

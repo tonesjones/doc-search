@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/releas
 content_id: "cw98W6bXF8O9JmLkHqHJ~Q"
 version: "12.0.0"
 section: "Detect Integrations"
-scraped_at: "2026-09-07T21:17:12.903759+00:00"
+scraped_at: "2026-10-04T23:33:23.276624+00:00"
+content_hash: "8ff6df0f9dbb09eb3eab087a5fee9c97cd4531459e936e10e359ad5a781ddfbd"
 ---
 
 # Release Notes for Jenkins Plugin

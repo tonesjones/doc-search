@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/downlo
 content_id: "EPui4bTOMHllximjrmxrFA"
 version: "12.0.0"
 section: "Detect Integrations"
-scraped_at: "2026-09-07T21:17:14.412099+00:00"
+scraped_at: "2026-10-04T23:33:23.324676+00:00"
+content_hash: "05f8f78f65e33cb1b98323858ab097e2a489112e7920c05e149ff7322019ede8"
 ---
 
 # Downloading, Installing, and Updating the Plugin

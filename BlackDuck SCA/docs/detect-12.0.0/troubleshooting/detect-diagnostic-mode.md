@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/detect
 content_id: "WxG7GVQAYGUyewpKhZHoNQ"
 version: "12.0.0"
 section: "Troubleshooting"
-scraped_at: "2026-09-07T21:17:07.521653+00:00"
+scraped_at: "2026-10-04T23:33:23.086105+00:00"
+content_hash: "1cb10fc24756d8121b85b093690761bf467a349839eb0a319199f2428e71a7d1"
 ---
 
 # Detect Diagnostic mode

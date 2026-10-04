@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/exit-co
 content_id: "zOU23U2KJp8SsxjxXcSIJA"
 version: "latest"
 section: "Bridge CLI reference"
-scraped_at: "2026-08-08T23:47:33.858052+00:00"
+scraped_at: "2026-10-04T23:28:27.287557+00:00"
+content_hash: "9a9fd19d8d017be0d53b515262e4ab574932f1239ee062c7bfc8d55cd37e49e5"
 ---
 
 # Exit codes

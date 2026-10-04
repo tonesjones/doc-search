@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/mi
 content_id: "4EFncLncLYFaw2HsfB42gg"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:55:58.887764+00:00"
-content_hash: "b1b0605098c32aed3a48a62ad812eb05745c7d6be86d72a1a9976d8b193badf8"
+scraped_at: "2026-10-04T23:29:18.086493+00:00"
+content_hash: "d6928d0ca7775894f0dd2fb0f9a884a8905741826ab78f3d1226c4fe426203d4"
 ---
 
 # Migrate your tenant to Black Duck (with single sign-on)

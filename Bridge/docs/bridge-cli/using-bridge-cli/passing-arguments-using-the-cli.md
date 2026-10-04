@@ -4,23 +4,19 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/passing
 content_id: "K_E1OK0VY_txDjPNqiqQGg"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:46:51.754097+00:00"
+scraped_at: "2026-10-04T23:28:25.291682+00:00"
+content_hash: "84838a6eba4866d438128c7fc959a7fead0a21f10212d0a366486ec490cfa77b"
 ---
 
 # Passing Arguments using the CLI
 
-You can also pass arguments on the command line as an alternative to passing arguments
-using a JSON file.
+You can also pass arguments on the command line as an alternative to passing arguments using a JSON file.
 
 Here are the steps:
 
 1. Create an access token in the web interface of the Black Duck security product you are integrating with.
-2. Use environment variable(s) to pass sensitive information such as password or
-   access token to Bridge CLI (recommended for security
-   purposes). Bridge CLI automatically picks up values
-   passed through these variables.
-   - Example: `export
-     BRIDGE_POLARIS_ACCESSTOKEN=<POLARIS_ACCESSTOKEN>`
+2. Use environment variable(s) to pass sensitive information such as password or access token to Bridge CLI (recommended for security purposes). Bridge CLI automatically picks up values passed through these variables.
+   - Example: `export BRIDGE_POLARIS_ACCESSTOKEN=<POLARIS_ACCESSTOKEN>`
 3. Pass the necessary command line arguments as shown in the example below.
 
 ```
@@ -31,10 +27,7 @@ polaris.assessment.types=SAST,SCA \
 polaris.serverurl="<POLARIS_SERVERURL>"
 ```
 
-For a complete list of environment variables and command line arguments, see Complete list of Bridge arguments.
-
-See Schema Resources and Extensions for Bridge CLI
-resources.
+For a complete list of command line arguments, see Complete list of Bridge arguments.
 
 For tool specific information and examples, see:
 

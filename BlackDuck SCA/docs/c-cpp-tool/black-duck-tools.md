@@ -1,11 +1,11 @@
 ---
 title: "Black Duck Tools"
 source_url: "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/black-duck-tools.html"
-content_id: "fgx1N4o02iAq4vSWoMZEXw"
+content_id: "pnAqMhNxl0OIbILlyk2Cow"
 version: "latest"
 section: "Black Duck Tools"
-scraped_at: "2026-09-08T21:26:25.942898+00:00"
-content_hash: "ae936525bae3d8eb907c21897d718d5bfc738b306e9cd231f2522796150aa864"
+scraped_at: "2026-10-04T23:32:43.951428+00:00"
+content_hash: "460de7d23d95f2185e48bb829172aaad75095f4f265df9a2703a54a01424eb6f"
 ---
 
 # Black Duck Tools
@@ -22,10 +22,11 @@ binary files involved, and then delivering a BDIO and signatures to Black Duck S
 - Explore the Black Duck
   C/CPP Tool
 
-## KnowledgeBase Vulnerability Feed Server
+## SCASS MCP Server
 
-The KnowledgeBase Vulnerability Feed is a CSAF API interface that provides
-vulnerability data, allowing for headless use of Black Duck SCA.
+The Black Duck SCA MCP Server connects AI coding assistants to your Black Duck
+Software Composition Analysis (SCA) instance using the Model Context Protocol
+(MCP).
 
-- Discover the KnowledgeBase
-  Vulnerability Feed Server
+- Learn more
+  about the SCASS MCP Server.

@@ -1,10 +1,11 @@
 ---
 title: "Project Version table (project_version)"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/project-version-table-project_version-.html"
-content_id: "akDO_SLetEUIHG60Z8R1Bw"
+content_id: "mHOqRkrNv~2TlSJeNh~e6A"
 version: "2026.7"
 section: "Reporting Database"
-scraped_at: "2026-08-08T15:34:40.696768+00:00"
+scraped_at: "2026-10-04T23:32:26.906240+00:00"
+content_hash: "a61c940dcd55f32a6f3aa8673c95b0f36090d008ec40a78b69dc44d6e73740fb"
 ---
 
 # Project Version table (project_version)

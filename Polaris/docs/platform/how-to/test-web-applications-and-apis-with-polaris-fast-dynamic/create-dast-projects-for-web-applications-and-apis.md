@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/cr
 content_id: "00~Vg~_q601Ny4PQo2OUjA"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:57:39.803786+00:00"
-content_hash: "bd561b21c34ee1ad7091bb00795d33049ec6e251c4213d53f153b3fb1b875f37"
+scraped_at: "2026-10-04T23:29:21.774341+00:00"
+content_hash: "2e19ad5fa24ec061618c7d0b3956a309567b1cce4cddb725038f2fa412f445f6"
 ---
 
 # Create DAST projects for web applications and APIs

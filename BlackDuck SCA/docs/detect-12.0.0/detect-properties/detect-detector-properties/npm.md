@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/npm.ht
 content_id: "YoplzFVIzX4JCqsO2SuiKw"
 version: "12.0.0"
 section: "Detect Properties"
-scraped_at: "2026-09-07T21:16:52.387188+00:00"
+scraped_at: "2026-10-04T23:33:22.624933+00:00"
+content_hash: "414d322281aa01e6d38e7f9392101cb8c667f80e0e0ac20bbf79a50763b3937e"
 ---
 
 # npm

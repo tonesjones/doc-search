@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/prerequ
 content_id: "71eAaBKTbMo6XPLCdtY~Jw"
 version: "latest"
 section: "GitHub Integrations"
-scraped_at: "2026-08-08T23:47:36.965036+00:00"
+scraped_at: "2026-10-04T23:28:27.401374+00:00"
+content_hash: "5d7712e40cfee540c8b533827b0096aa6cc75b82d36671cfca864269416795c7"
 ---
 
 # Prerequisites: GitHub Black Duck Security App

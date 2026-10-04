@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/prerequ
 content_id: "uocGvKIzKWDtfbyxHCAsCA"
 version: "latest"
 section: "Azure DevOps Integrations"
-scraped_at: "2026-08-08T23:48:13.731272+00:00"
+scraped_at: "2026-10-04T23:28:29.248594+00:00"
+content_hash: "014fd783859c3b5a964944b06e4933447763b85aaf8b755b9d62283325945058"
 ---
 
 # Prerequisites: Azure Black Duck Security Bulk Onboarding

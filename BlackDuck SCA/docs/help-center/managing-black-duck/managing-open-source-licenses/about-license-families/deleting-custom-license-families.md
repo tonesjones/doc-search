@@ -1,10 +1,11 @@
 ---
 title: "Deleting custom license families"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/deleting-custom-license-families.html"
-content_id: "f6rMLxzJLamrFvNFzI4IaQ"
+content_id: "eE1WJ5kjs8yLx_Yc6wXteQ"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T15:30:30.403612+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:15.869299+00:00"
+content_hash: "29608de1cef945430bdf1f1c6ba2bb3d71d7644c84c3cb41116622058dbe263d"
 ---
 
 # Deleting custom license families
@@ -21,9 +22,7 @@ You also cannot delete licenses provided by Black Duck KnowledgeBase.
 
      
     [image: License Families tab]
-4. Click [image: Down arrow] and select **Delete** in the row of the custom license family that
-   you want to delete to display a confirmation dialog box.
+4. Click [image: Down arrow] and select **Delete** in the row of the custom license family that you want to delete to display a confirmation dialog box.
 
-   An error message appears if you try to delete a custom license family that is
-   currently being used by a license.
+   An error message appears if you try to delete a custom license family that is currently being used by a license.
 5. Click **Delete** to confirm.

@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/quack-
 content_id: "T9mAvvzMixwImplZOU9DIA"
 version: "12.0.0"
 section: "Detect Properties"
-scraped_at: "2026-09-07T21:16:38.152391+00:00"
+scraped_at: "2026-10-04T23:33:22.098954+00:00"
+content_hash: "c452ca6ed65b245032a62dbdd9ace600aace5560a66c52baa00d64f5ef60349b"
 ---
 
 # quack-patch

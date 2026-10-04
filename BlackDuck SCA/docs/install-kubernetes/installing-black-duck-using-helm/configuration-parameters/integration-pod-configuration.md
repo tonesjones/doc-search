@@ -1,10 +1,11 @@
 ---
 title: "Integration pod configuration"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/integration-pod-configuration.html"
-content_id: "WAuhWu0oEu3y~v4Jj_aV6g"
+content_id: "JUMNv9CN3Ck2Qw7oXZQu7A"
 version: "2026.7"
 section: "Installing Black Duck using Kubernetes and OpenShift"
-scraped_at: "2026-08-08T15:33:07.682618+00:00"
+scraped_at: "2026-10-04T23:32:22.853824+00:00"
+content_hash: "b4ab877901040614ce4cbd743e20314f1a51d0b2e54c87d9fdeea73bbb02a6e5"
 ---
 
 # Integration pod configuration

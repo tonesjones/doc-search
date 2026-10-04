@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/ro
 content_id: "px4H6Xj8K9wJmlNa5lPcvw"
 product_key: "polaris-platform-latest"
 section: "Reference"
-scraped_at: "2026-08-12T19:57:58.571931+00:00"
-content_hash: "74703e92229cf3197b9887de32d7eb61b74d834a30bc227e3e88de0ac7178d79"
+scraped_at: "2026-10-04T23:29:25.158564+00:00"
+content_hash: "864d437f66bf285b1a6439505429bbd33535a528d3e8bc4eb47f64a9769458ef"
 ---
 
 # Roles and permissions
@@ -22,7 +22,7 @@ Note: You can assign organization-level roles to users or groups. Most users don
 ## Application-level roles
 
 - Application Admin: The owner of one or more applications.
-- Contributor: A user with access to an application who can create and manage projects, run test, and triage issues.
+- Contributor: A user with access to an application who can create and manage projects, run tests, and triage issues (including use of AI-assisted triage).
 - Member: A user with access to an application who can do everything a contributor can do, except create, update, or delete projects.
 - Observer: A user with access to an application who can view projects, test results, and issues, but cannot run tests or triage issues.
 
@@ -106,6 +106,7 @@ Table 1. Roles and permissions
 | Pause scan (update) | Yes | Yes | Yes | Yes | Yes | No |
 | Cancel scan (delete) | Yes | Yes | Yes | Yes | Yes | No |
 | Download test artifacts | Yes | Yes | Yes | Yes | Yes | Yes |
+| View DAST sitemap | Yes | Yes | Yes | Yes | Yes | Yes |
 | **Secure Tunnels** | | | | | | |
 | Add a secure tunnel to the Polaris UI | Yes | No | No | No | No | No |
 | **SAST tool version customization** | | | | | | |
@@ -117,6 +118,14 @@ Table 1. Roles and permissions
 | Update project-level SAST tool version | Yes | Yes | Yes | Yes | No | No |
 | View branch-level SAST tool version | Yes | Yes | Yes | Yes | Yes | Yes |
 | Update branch-level SAST tool version | Yes | Yes | Yes | Yes | Yes | No |
+| **Coverity Configuration** | | | | | | |
+| View organization-level Coverity configuration | Yes | No | No | No | No | No |
+| Update organization-level Coverity configuration | Yes | No | No | No | No | No |
+| View application-level Coverity configuration | Yes | Yes | Yes | Yes | Yes | Yes |
+| Update application-level Coverity configuration | Yes | Yes | No | No | No | No |
+| View project-level Coverity configuration | Yes | Yes | Yes | Yes | Yes | Yes |
+| Update project-level Coverity configuration | Yes | Yes | Yes | Yes | No | No |
+| View branch-level Coverity configuration | Yes | Yes | Yes | Yes | Yes | Yes |
 | **File and Folder Exclusion** | | | | | | |
 | View organization-level exclusion rules | Yes | No | No | No | No | No |
 | Update organization-level exclusion rules | Yes | No | No | No | No | No |
@@ -139,18 +148,23 @@ Table 1. Roles and permissions
 | **Black Duck Assist** | | | | | | |
 | Enable/disable Black Duck Assist | Yes | No | No | No | No | No |
 | Use Black Duck Assist | Yes | Yes | Yes | Yes | Yes | Yes |
+| Create SAST Fix PR | Yes | Yes | Yes | Yes | Yes | No |
 | **Issue tracking integrations** | | | | | | |
 | Create organization-level issue tracking connections | Yes | No | No | No | No | No |
 | View organization-level issue tracking connections | Yes | No | No | No | No | No |
 | Update organization-level issue tracking connections | Yes | No | No | No | No | No |
+| Delete organization-level issue tracking connections | Yes | No | No | No | No | No |
 | Create issue tracking integration options | Yes | No | No | No | No | No |
 | Update issue tracking integration options | Yes | No | No | No | No | No |
 | Delete issue tracking integration options | Yes | No | No | No | No | No |
-| Delete organization-level issue tracking connections | Yes | No | No | No | No | No |
+| Create application-level issue tracking connections (during SCM bulk onboarding) | Yes | Yes | No | No | No | No |
+| Create application-level issue tracking connections (via application settings) | Yes | Yes | Yes | No | No | No |
+| View application-level issue tracking connections | Yes | Yes | Yes | Yes | Yes | Yes |
+| Update application-level issue tracking connections | Yes | Yes | Yes | No | No | No |
 | Create project-level issue tracking connection | Yes | Yes | Yes | No | No | No |
 | View project-level issue tracking connection | Yes | Yes | Yes | Yes | Yes | Yes |
 | Update project-level issue tracking connection | Yes | Yes | Yes | No | No | No |
-| Export issues to Azure DevOps/Jira | Yes | Yes | Yes | Yes | Yes | No |
+| Export issues to Azure DevOps, Jira, ServiceNow, GitHub Issues, or GitLab Issues | Yes | Yes | Yes | Yes | Yes | No |
 | View links to exported issues | Yes | Yes | Yes | Yes | Yes | Yes |
 | **Secure Code Warrior Integration** | | | | | | |
 | Enable/disable integration | Yes | No | No | No | No | No |

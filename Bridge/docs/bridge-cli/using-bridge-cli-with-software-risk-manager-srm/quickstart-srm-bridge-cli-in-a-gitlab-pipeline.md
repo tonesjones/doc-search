@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickst
 content_id: "UYVanktAPBINQ8VA3VRNEw"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:47:27.364628+00:00"
+scraped_at: "2026-10-04T23:28:26.947809+00:00"
+content_hash: "a2d15d5981fd690a2264786bba568ef74184a0e416e6e4b6e78103f77cdbc368"
 ---
 
 # Quickstart: SRM Bridge CLI in a GitLab pipeline

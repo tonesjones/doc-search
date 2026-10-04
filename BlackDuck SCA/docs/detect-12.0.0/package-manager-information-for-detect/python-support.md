@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/python
 content_id: "2FxVx9OjRs90hVHFwEyXMQ"
 version: "12.0.0"
 section: "Package Manager information for Detect"
-scraped_at: "2026-09-07T21:16:18.126607+00:00"
+scraped_at: "2026-10-04T23:33:21.182934+00:00"
+content_hash: "6f95a891d1934b84e41c36d4b8cce944249e3fb2f523f46fa6bacae04ff822c6"
 ---
 
 # Python support

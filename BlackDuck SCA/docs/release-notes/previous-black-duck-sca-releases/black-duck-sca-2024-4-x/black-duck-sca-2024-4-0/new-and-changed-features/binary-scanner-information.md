@@ -1,10 +1,11 @@
 ---
 title: "Binary scanner information"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/binary-scanner-information.html"
-content_id: "obEt4h8k9HJwMR2XVKGr6w"
+content_id: "~eRgLf7Lt15tzIoVTqRUDQ"
 version: "2026.7"
-section: "Release Notes"
-scraped_at: "2026-08-08T15:36:17.469022+00:00"
+section: "Black Duck SCA Release Notes"
+scraped_at: "2026-10-04T23:32:30.782663+00:00"
+content_hash: "e634087ee6ada290f4ba167f729d11d771e44c7751031101d4252cf084670850"
 ---
 
 # Binary scanner information

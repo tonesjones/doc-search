@@ -4,14 +4,45 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/do
 content_id: "hO6GEndHou6qFOfRPuSJEQ"
 product_key: "polaris-platform-latest"
 section: "Reference"
-scraped_at: "2026-08-12T19:57:54.105308+00:00"
-content_hash: "5b6ae7efaae67507ff1d5287ba1a6c9a4b1e0baedd7a33e9bd865c57aa88ef11"
+scraped_at: "2026-10-04T23:29:23.289743+00:00"
+content_hash: "df85848bf34afd8035cc1833f62f77ae3583ce7e64e145e837f92cbafca391cd"
 ---
 
 # Documentation change log
 
+## October 2026
+
+- fAST Dynamic now supports an interactive sitemap view. (POLDOCS-1680)
+- Polaris now supports GitHub Enterprise Cloud with data residency for repository integration and GitHub Issues tracking integration. (POLDOCS-2143)
+
+## September 2026
+
+- You can now configure when service account tokens and personal access tokens expire. (POLDOCS-1775)
+- Issue tracking integration with GitLab Issues is now available and supports two-way triage status synchronization. (POLDOCS-1440, POLDOCS-1455)
+- Clarified that triage status changes triggered by two-way synchronization with an external issue tracker bypass triage approval workflows. (POLDOCS-2207)
+- Issue tracking integration with GitHub Issues is now available and supports two-way triage status synchronization. (POLDOCS-1445, POLDOCS-1457)
+- Azure DevOps issue tracking integration options now support two-way triage status synchronization. (POLDOCS-1458)
+- Polaris now supports bulk onboarding of GitLab Self-Managed (on-prem) projects. (POLDOCS-1645)
+- Polaris now enables users to subscribe to email notifications for new high or critical vulnerabilities. (POLDOCS-1636)
+- Clarified label limits. (POLDOCS-2188)
+- SCA Fix Pull Requests are now supported for self-hosted SCM integrations. (POLDOCS-2032)
+- The 2025 CWE™ Top 25 standard is now supported in Polaris. (POLDOCS-2152)
+- Polaris supports Rapid Scan Static (Sigma) 2026.9.0. (POLDOCS-2142)
+- It takes 30 days for newly published Black Duck® Security Advisories (BDSA) to appear on Black Duck Open Hub. (POLDOCS-2121)
+- Polaris now supports issue tracking integration with on-premises Jira Data Center instances via secure tunnel. (POLDOCS-1621)
+- Documentation is now available for SAST Fix Pull Requests, introduced in July 2026. (POLDOCS-1609)
+
 ## August 2026
 
+- Polaris supports Black Duck® Detect 11.5.1. (POLDOCS-2040)
+- Polaris supports Rapid Scan Static (Sigma) 2026.8.0. (POLDOCS-2127)
+- Organization Administrators can now upload and manage a central Coverity configuration file in Polaris. (POLDOCS-1606)
+- Small fixes and adjustments, no content changes. (POLDOCS-2130)
+- Polaris supports Rapid Scan Static (Sigma) 2026.7.0. (POLDOCS-2092)
+- Container Analysis for Polaris. (POLDOCS-1463)
+- New topic for initial release of AI-assisted triage, with mentions across various topics about issues, triaging, roles, settings, and logs. (POLDOCS-1590).
+- ServiceNow issue tracking integrations now support two-way triage synchronization. (POLDOCS-1904)
+- Issue tracking integration for ServiceNow is available. (POLDOCS-1454)
 - Remove outdated policy tutorial. (POLDOCS-2122)
 - The sunset date for deprecated endpoints in Polaris APIs was extended to November 24, 2026, at 05:00:00 GMT. (POLDOCS-2115)
 - Updated fAST Dynamic checkers list. Includes four previously undocumented checkers, new class names for four other checkers, one checker code change (to `BOLA`), and various detail updates to existing entries. (POLDOCS-2072)

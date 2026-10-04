@@ -4,13 +4,13 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/ap
 content_id: "GR~5G6OtUrSxmHgUmpP4qw"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:56:51.123368+00:00"
-content_hash: "bab2785b7127424ef64bf8803d23f82cd4e839fedd1d2439eac44c4a781e940c"
+scraped_at: "2026-10-04T23:29:19.715367+00:00"
+content_hash: "1a0a3467944d0d4d990b816236be5bcaf786daeb9095fcac87eefeecf4ff5944"
 ---
 
 # Approve or reject issue triage requests
 
-Learn how to approve or reject issue triage requests.
+Learn how to approve or reject issue triage requests, including those raised through AI-assisted triage.
 
 To approve or reject an issue triage request, follow these steps:
 
@@ -21,11 +21,9 @@ Note: Only Organization Administrators, Organization Application Managers, Appli
 
    Tip: Open the filters panel and use the Pending Approvals > Pending Requests filter to show issues with pending approvals.
 3. Approve or reject changes, as required.
-   - To approve or reject a single change (like a fix-by date), select the pending approval [image: triage icon pending] icon next to it, and then select Approve or Reject.
-       
+   - To approve or reject a single change (like a fix-by date), select the pending approval [image: triage icon pending] icon next to it, and then select Approve or Reject.   
       [image: Screenshot of the approval menu that appears when you select the pending approval icon.]
-   - To approve or reject all changes for one or more issues, select issues with the checkboxes on the left side of the table, and then select Pending Approvals > Approve or Pending Approvals > Reject.
-       
+   - To approve or reject all changes for one or more issues, select issues with the checkboxes on the left side of the table, and then select Pending Approvals > Approve or Pending Approvals > Reject.   
       [image: Screenshot of the approval menu used for multiple issues.]
 
    Depending on your selection, the Request: Approved or Request: Rejected window opens.

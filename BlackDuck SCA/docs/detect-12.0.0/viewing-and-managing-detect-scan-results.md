@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/viewin
 content_id: "rClJVcucnm2Y9KFmxVkTcg"
 version: "12.0.0"
 section: "Viewing and managing Detect scan results"
-scraped_at: "2026-09-07T21:17:03.815544+00:00"
+scraped_at: "2026-10-04T23:33:22.985885+00:00"
+content_hash: "38e1a71094824871a5119d354279c7ec97736421272078a5f3a3ef1225b006c0"
 ---
 
 # Viewing and managing Detect scan results

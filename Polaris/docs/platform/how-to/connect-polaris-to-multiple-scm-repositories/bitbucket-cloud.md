@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/bi
 content_id: "f73t5SPqRysqX0VWVFKZdQ"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:57:09.154859+00:00"
-content_hash: "061c575c278a1ec8c91007a0597ee319fbcd873d89ed0172e276ef4a4cac98ef"
+scraped_at: "2026-10-04T23:29:20.324168+00:00"
+content_hash: "1e0a0e1617a94365c2e769f5f61e00964ef255f215158809e7ed34f5c81ec505"
 ---
 
 # Bitbucket Cloud
@@ -114,7 +114,7 @@ See General Prerequisites before starting.
    Click Cancel to cancel the import. Any repository in the process of being imported at the time of cancellation will complete in the background after the cancel is accepted. Then all onboarding will be stopped immediately. For example, if you import ten repositories and cancel at 50%, five repositories would be imported and five repositories would not.
 5. You can now set up event-based test automation. See [Event-Based Test Automation in Polaris for SCM Integrations](../event-based-test-automation-in-polaris-for-scm-integrations.md).
 
-   Note: To enable Fix Pull Requests for all onboarded applications, create a component policy (see [Component policies](../create-and-manage-policies/component-policies.md)) and assign it to the applications after onboarding. See [Fix Pull Requests (Fix PR)](../fix-pull-requests-fix-pr.md).
+   Note: To enable Fix Pull Requests for all onboarded applications, create a component policy (see [Component policies](../create-and-manage-policies/component-policies.md)) and assign it to the applications after onboarding. See [SCA Fix Pull Requests](../fix-pull-requests-fix-pr.md).
 
 ## SCM bulk onboarding projects into an application
 

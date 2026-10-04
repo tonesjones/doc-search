@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/ge
 content_id: "4bjLQ9dz4k6MSQHcvla0cw"
 product_key: "polaris-platform-latest"
 section: "Get Started"
-scraped_at: "2026-08-12T19:55:55.614020+00:00"
-content_hash: "e04c3a83f6124a5f478f5f1e454ec104a3775bab4f4508e71dfc977d6c9adeb6"
+scraped_at: "2026-10-04T23:29:17.926451+00:00"
+content_hash: "4e097bba59c266b37d7700242ba837a7ebbd959ad1248df0621465b589c296cc"
 ---
 
 # Get started: Contributor or Member
@@ -98,6 +98,8 @@ You can get to the issues in either of the following ways:
    - A link to training resources in Secure Code Warrior, if available (and after the Secure Code Warrior integration is enabled by your Organization Administrator)
    - A link to the Common Vulnerabilities and Exposures (CVE®) page, if available
    - The Black Duck® Security Advisory (BDSA) code for the issue, if available
+
+     Important: BDSA links open the advisory record on Black Duck Open Hub. It takes 30 days for newly published advisories to appear on Open Hub. Until a newly published advisory is available on Open Hub, the link opens a page without content (even though the issue detected in Polaris is still valid).
    - The name of the tool that discovered the issue
    - The time of the test that discovered the issue
    - A list of branches the issue is also detected in

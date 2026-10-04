@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/co
 content_id: "u044TqFWChDjKBIafTJESQ"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:57:38.145052+00:00"
-content_hash: "b581ab436fbdeb3bdc2db41ad66be4b9547d2fbef13ec89faeae17b7936992a7"
+scraped_at: "2026-10-04T23:29:21.641261+00:00"
+content_hash: "3eddfcab65a3d557db180f7a55d8aba441415abd99ddc27954272e5232003fc0"
 ---
 
 # Connect Code Sight to Polaris

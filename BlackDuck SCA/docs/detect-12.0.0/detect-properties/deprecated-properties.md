@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/deprec
 content_id: "bGEf0T0mivmwBXYI3fcytw"
 version: "12.0.0"
 section: "Detect Properties"
-scraped_at: "2026-09-07T21:17:03.063680+00:00"
+scraped_at: "2026-10-04T23:33:22.965006+00:00"
+content_hash: "030dfcf9b6872ca2eaf8763c7b8149438dba753c100894ecb6bc45fbd46dfa23"
 ---
 
 # Deprecated Properties

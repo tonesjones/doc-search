@@ -1,27 +1,20 @@
 ---
 title: "New and changed features"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/new-and-changed-features.html"
-content_id: "7qEhHFiAY7ofKhqUPcRfrA"
+content_id: "6CCSaMs0zVcnJ6x_QoLxEA"
 version: "2026.7"
-section: "Release Notes"
-scraped_at: "2026-08-08T15:36:01.557383+00:00"
+section: "Black Duck SCA Release Notes"
+scraped_at: "2026-10-04T23:32:30.172195+00:00"
+content_hash: "260b6ed8f3e56c10f622a1b2716512537f537275d78098a548dbde98d14cf744"
 ---
 
 # New and changed features
 
 ## New secure JWT key pair provisioning
 
-We have enhanced our JWT handling by allowing the secure provisioning of
-public/private key pairs, improving overall security and operational efficiency.
-This provisioning is optional and not a requirement for deployment. Instead of
-automatically generating and storing these key pairs in the database, you can now
-securely provide them to the services that require them.
+We have enhanced our JWT handling by allowing the secure provisioning of public/private key pairs, improving overall security and operational efficiency. This provisioning is optional and not a requirement for deployment. Instead of automatically generating and storing these key pairs in the database, you can now securely provide them to the services that require them.
 
-Currently, only RSA keys (PEM encoded) are supported. Specifically, public keys must
-be in X.509 format, and private keys must be in PKCS#8 format. The private key is
-primarily needed by services that issue JWTs, such as the Authentication service,
-while the public key is required by any service offering public APIs that require
-authorized access.
+Currently, only RSA keys (PEM encoded) are supported. Specifically, public keys must be in X.509 format, and private keys must be in PKCS#8 format. The private key is primarily needed by services that issue JWTs, such as the Authentication service, while the public key is required by any service offering public APIs that require authorized access.
 
 ## Container versions
 
