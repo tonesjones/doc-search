@@ -14,16 +14,23 @@ The [DS-04 inventory](docs/ds-04-reconciliation.md) records experimental work th
 
 ## Product entry points
 
-| Product | Folder | Status | Start with |
+| Product | Folder | Last refreshed | Start with |
 |---|---|---|---|
-| Black Duck SCA, Detect, Alert, and C/C++ Tool | `BlackDuck SCA/` | Corpus, skill, and offline verifier | `README.md`, `AGENTS.md`, `CHECKPOINT.md`, `index.md` |
-| Code Sight | `CodeSight/` | 2026.9.0 corpus complete, 233/233 topics | `README.md`, `AGENTS.md`, `CHECKPOINT.md`, `index.md` |
-| Bridge | `Bridge/` | Documentation corpus | `README.md`, `AGENTS.md`, `CHECKPOINT.md`, `index.md` |
-| Coverity | `Coverity/` | Documentation corpus | `README.md`, `AGENTS.md`, `index.md` |
-| Polaris Platform | `Polaris/` | Documentation corpus | `README.md`, `AGENTS.md`, `index.md` |
-| Software Risk Manager | `SRM/` | Documentation corpus | `README.md`, `AGENTS.md`, `index.md` |
-| Sigma | `Sigma/` | Documentation corpus | `README.md`, `AGENTS.md`, `index.md` |
-| Signal | `Signal/` | Documentation corpus | `README.md`, `AGENTS.md`, `index.md` |
+| Black Duck SCA 2026.7 | `BlackDuck SCA/` | [2026-10-04](BlackDuck%20SCA/sources/blackduck-2026.7/manifest.json) | [README.md](BlackDuck%20SCA/README.md), `AGENTS.md`, `CHECKPOINT.md`, `index.md` |
+| Detect 12.0.0 | `BlackDuck SCA/` | [2026-10-04](BlackDuck%20SCA/sources/detect-12.0.0/manifest.json) | [README.md](BlackDuck%20SCA/README.md), `AGENTS.md`, `CHECKPOINT.md`, `index.md` |
+| Alert 8.4.1 | `BlackDuck SCA/` | [2026-10-04](BlackDuck%20SCA/sources/alert-8.4.1/manifest.json) | [README.md](BlackDuck%20SCA/README.md), `AGENTS.md`, `CHECKPOINT.md`, `index.md` |
+| C/C++ Tool | `BlackDuck SCA/` | [2026-10-04](BlackDuck%20SCA/sources/c-cpp-tool-latest/manifest.json) | [README.md](BlackDuck%20SCA/README.md), `AGENTS.md`, `CHECKPOINT.md`, `index.md` |
+| Bridge | `Bridge/` | [2026-10-04](Bridge/sources/bridge-latest/manifest.json) | [README.md](Bridge/README.md), `AGENTS.md`, `CHECKPOINT.md`, `index.md` |
+| Coverity 2026.9 | `Coverity/` | [2026-10-04](Coverity/sources/coverity-2026.9/manifest.json) | [README.md](Coverity/README.md), `AGENTS.md`, `CHECKPOINT.md`, `index.md` |
+| Polaris Platform | `Polaris/` | [2026-10-04](Polaris/sources/polaris-platform-latest/manifest.json) | [README.md](Polaris/README.md), `AGENTS.md`, `CHECKPOINT.md`, `index.md` |
+| Software Risk Manager | `SRM/` | [2026-09-08](SRM/sources/srm-latest/manifest.json) | [README.md](SRM/README.md), `AGENTS.md`, `CHECKPOINT.md`, `index.md` |
+| Sigma 2026.9.1 | `Sigma/` | [2026-10-04](Sigma/sources/sigma-2026.9.1/manifest.json) | [README.md](Sigma/README.md), `AGENTS.md`, `CHECKPOINT.md`, `index.md` |
+| Signal | `Signal/` | [2026-10-04](Signal/sources/signal-latest/manifest.json) | [README.md](Signal/README.md), `AGENTS.md`, `CHECKPOINT.md`, `index.md` |
+| Black Duck Code Sight 2026.9.0 | `CodeSight/` | [2026-10-06](CodeSight/sources/codesight-2026.9.0/manifest.json) | [README.md](CodeSight/README.md), `AGENTS.md`, `CHECKPOINT.md`, `index.md` |
+
+Dates use `YYYY-MM-DD` and come from each current manifest's `scrapedAt` field, or `lastScrapeAt` for Polaris. Each date links to its source manifest. A date records the last local scrape, including an initial import. It does not indicate a product release date or confirm that upstream documentation is still unchanged. Historical versions and separate snapshots, such as the GitHub SCA MCP documentation, are outside this table.
+
+The [October 4 refresh report](docs/corpus-refresh-check-2026-10-04.md) records the bulk refresh and its source limitations. Code Sight was added on October 6. SRM retains its September 8 snapshot.
 
 ## Code Sight 2026.9.0
 
@@ -111,7 +118,7 @@ The documentation corpora follow the same basic rules:
 - Validate the corpus after a scrape or refresh.
 - Keep `AGENTS.md`, `CHECKPOINT.md`, and related status files up to date so another agent can resume the work.
 
-Reading an existing corpus requires only the repository files. Python and network access are needed for scraping, refreshing, or validation.
+Reading an existing corpus requires only the repository files. Offline validation requires Python. Scraping and refreshing also require network access and the documented scraper dependencies.
 
 ## Use the repository with an agent
 
