@@ -1,10 +1,11 @@
 ---
 title: "Scan pod configuration"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/scan-pod-configuration.html"
-content_id: "9o3wRamdE8WxAFPw_p9uAA"
+content_id: "a1CZuADRX0Ec2M3q3KoYHA"
 version: "2026.7"
 section: "Installing Black Duck using Kubernetes and OpenShift"
-scraped_at: "2026-08-08T15:33:14.034894+00:00"
+scraped_at: "2026-10-04T23:32:23.147692+00:00"
+content_hash: "88735b6261d0deab43b0659c90c35bc9a6a73109304f0adbc391c4c7cbb464a3"
 ---
 
 # Scan pod configuration

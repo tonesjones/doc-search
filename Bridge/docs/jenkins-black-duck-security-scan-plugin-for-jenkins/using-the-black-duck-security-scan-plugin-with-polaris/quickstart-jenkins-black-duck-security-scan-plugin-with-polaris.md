@@ -3,8 +3,9 @@ title: "Quickstart: Jenkins Black Duck Security Scan Plugin with Polaris"
 source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickstart-jenkins-black-duck-security-scan-plugin-with-polaris.html"
 content_id: "xdcjg22VAMpPXrRrY9MGBw"
 version: "latest"
-section: "Jenkins - Black Duck Security Scan Plugin for Jenkins"
-scraped_at: "2026-08-08T23:48:39.872707+00:00"
+section: "Jenkins Integrations"
+scraped_at: "2026-10-04T23:28:30.597245+00:00"
+content_hash: "0e9e99b715d67d2272eef5c0a1244b41ddefa11e017ef0953190b8a33fb15dc0"
 ---
 
 # Quickstart: Jenkins Black Duck Security Scan Plugin with Polaris

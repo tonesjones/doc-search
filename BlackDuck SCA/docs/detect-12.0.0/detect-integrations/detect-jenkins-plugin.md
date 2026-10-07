@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/detect
 content_id: "osFQOeISkf4iSUUa_KHODg"
 version: "12.0.0"
 section: "Detect Integrations"
-scraped_at: "2026-09-07T21:17:12.060969+00:00"
+scraped_at: "2026-10-04T23:33:23.226536+00:00"
+content_hash: "a8fdbcfdb7b441d56ee6360c0e9949ba387c9d8fb46d84ac247e6eaec0f46bd3"
 ---
 
 # Detect Jenkins Plugin

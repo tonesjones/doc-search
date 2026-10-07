@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/is
 content_id: "xksQiquDuySuB2qFkyxbog"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:56:58.307180+00:00"
-content_hash: "1c580a27aac4fd2be60dd6dc757d81a5f224afd61801001fec4dcaed9dc38cdd"
+scraped_at: "2026-10-04T23:29:19.934660+00:00"
+content_hash: "1868ba966d292ea993aa90e634ce0341f1cc36edd27bac4a56e436d78018ac6a"
 ---
 
 # Issue policies
@@ -53,7 +53,8 @@ Table 2. Actions and action prerequisites
 | --- | --- | --- |
 | Send Notification | Send an email notification to Organization Admins when issues with specific properties are found in a test. Each email includes the names of one or more violated issue policies, the violated rules in each policy, the total quantity of violating issues for each rule, and helpful links. Click an issue quantity to view the issues that violate the rule in Polaris. Note: Email notifications for issue and component policies are only sent to Organization Admins. One email is sent each time a test's results violate one or more policies, and each email can include issues that violate more than one of each policy's rules. If a test's results violate issue and component policies, violated issue and component policies are listed in the same email. | Notifications must be enabled for the organization, and your personal notification settings must allow Policy notifications. |
 | Attempt Build Break | For tests run via Bridge (including the Black Duck Security Scan Extension for Azure DevOps, the GitHub Action, the GitLab Template, and Black Duck Security Scan Plugin for Jenkins), attempt to break a build after issues with specific properties are found in a test. | The action only affects tests run using Bridge. Additionally, `polaris.waitForScan` must be set to `true` (default) in your pipeline. |
-| Create and bundle to 1 external issue tracker ticket | When issues with specific properties are found in a test of a project's default branch, create a ticket. Each ticket includes the name of a violated policy, the violated rules in the policy, and helpful links. Click the name of a violated rule to view the issues that violate the rule in Polaris. Note: Tickets are only created for the default branch of a project. One ticket is created for each violated policy. The links to tickets created by issue policies can be modified. See [Ways to triage issues in Polaris](../ways-to-triage-issues-in-polaris.md) for more information.  Note: Synchronizing issue triage statuses with Jira ticket statuses is not supported for tickets created by this action. Synchronization only works for individually exported issues with a 1:1 link between a Polaris issue and a Jira ticket. See Create integration options for Jira for more information. | The project must be connected to Azure DevOps or Jira via a issue tracking integration. Note: For more information, see [Issue tracking integrations](../issue-tracking-integrations.md). |
+| Create and bundle to 1 external issue tracker ticket | When issues with specific properties are found in a test of a project's default branch, create a ticket. Each ticket includes the name of a violated policy, the violated rules in the policy, and helpful links. Click the name of a violated rule to view the issues that violate the rule in Polaris. Note: Tickets are only created for the default branch of a project. One ticket is created for each violated policy. The links to tickets created by issue policies can be modified. See [Ways to triage issues in Polaris](../ways-to-triage-issues-in-polaris.md) for more information.  Note: Synchronizing issue triage statuses with external issue tracker ticket statuses is not supported for tickets created by this action. Synchronization only works for individually exported issues with a 1:1 link between a Polaris issue and an external ticket. See Automatically close tickets and synchronize triage statuses for more information. | The project must be connected to an external issue tracker via an issue tracking integration. Note: For more information, see [Issue tracking integrations](../issue-tracking-integrations.md). |
+| Create a fix pull/merge request (SAST issues only) | Creates a SAST Fix PR for each eligible SAST finding after a scan. Ineligible issues and issues found in PR scans are skipped. For details, see [SAST Fix Pull Requests](../sast-fix-pull-requests.md). | A supported SCM integration (GitHub, GitLab, Azure DevOps, or Bitbucket) connected to Polaris. CI scans must run in Remote or Hybrid mode via Bridge. Local scans are not supported. |
 
 ### Fix-by dates
 
@@ -89,7 +90,7 @@ In this example, fix-by dates are applied to all critical, high, and medium seve
 
 Note: After you add fix-by dates to a policy, the policy's fix-by dates are not automatically applied to issues in your portfolio. Instead, you must re-test the projects that are subject to the policy to apply the policy's fix-by dates.
 
-Note: If the project's Jira integration options include fix-by date synchronization, fix-by dates applied by issue policies are synchronized with the due date on linked Jira tickets. See Create integration options for Jira for more information.
+Note: If the project is configured with an Azure DevOps, Jira, or ServiceNow issue tracking integration option with fix-by date synchronization enabled, the fix-by dates applied by issue policies are synchronized with the due date on the linked tickets. See Create integration options for Azure DevOps, Create integration options for Jira Cloud, and Create integration options for ServiceNow for more information. Fix-by date synchronization is not available for GitHub Issues or GitLab Issues.
 
 ### Multiple rule violations, multiple policy violations
 
@@ -132,7 +133,7 @@ In tests subject to this example issue policy:
   - Issues that were triaged and dismissed after an earlier test do not trigger actions.
   - For tests run using Bridge, builds will break when new and existing critical or high severity issues are detected.
   - An email notification is sent to Organization Admins when new critical or high severity issues are detected.
-  - A ticket is created (in Azure DevOps or Jira, depending on the project's settings) when new critical severity issues are detected in a project's default branch.
+  - A ticket is created in the external issue tracking instance when new critical severity issues are detected in a project's default branch.
 - Fix-by dates are applied to critical, high, and medium severity issues that don't already have fix-by dates.
 
 ## View an issue policy's details
@@ -174,13 +175,14 @@ Tip: Instead of creating a new issue policy, you can use a preexisting policy as
 
         Note: We recommend adding Not Triaged and To Be Fixed properties to most rules. Doing so prevents issues you dismiss from being flagged as violations.
       - On CISA KEV List: Select Yes to match issues that are on the CISA KEV list, or No to match issues that are not on the list.
-      - Standard: Select one or more standard issue lists (OWASP Top 10 API Security Risks 2023,OWASP Web Top Ten 2017, OWASP Web Top Ten 2021, 2021 CWE Top 25, PCI DSS 2018, 2022 CWE Top 25, or 2023 CWE Top 25), and then one or more issues from the selected lists.
+      - Standard: Select one or more standard issue lists (OWASP Top 10 API Security Risks 2023, OWASP Web Top Ten 2017, OWASP Web Top Ten 2021, 2021 CWE Top 25, PCI DSS 2018, 2022 CWE Top 25, 2023 CWE Top 25, 2024 CWE Top 25, or 2025 CWE Top 25), and then one or more issues from the selected lists.
       - CWE: Set a numerical range for weaknesses found. Separate entries with commas (`256, 5-10, CWE-5, <300, >=400`).
    3. Select the actions to perform when issues with matching properties are detected in a test with the dropdown in the then... column:
 
       - Send notification
       - Attempt Build Break
       - Create and bundle to 1 external issue tracker ticket
+      - Create a fix pull/merge request (SAST issues only)
    4. To add additional rules to the policy, repeat these steps.
 
       Note: You can add up to five rules to each issue policy. You can deactivate rules with the slider in the Status column. Dropdown menus in the If... and then... cannot be empty.

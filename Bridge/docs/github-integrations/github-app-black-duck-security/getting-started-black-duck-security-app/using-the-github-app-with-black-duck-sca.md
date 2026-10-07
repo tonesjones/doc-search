@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-t
 content_id: "7~8Z5RF~RGZk7QMxGcX7iw"
 version: "latest"
 section: "GitHub Integrations"
-scraped_at: "2026-08-08T23:47:40.572430+00:00"
+scraped_at: "2026-10-04T23:28:27.664956+00:00"
+content_hash: "28a79d0b61484b594d3b5c576e83fa3ed463a1d940ea36bb2f0cc32062789654"
 ---
 
 # Using the GitHub App with Black Duck SCA
@@ -50,6 +51,8 @@ A workflow can be generated with the following scan options:
 - **Capture diagnostics information**: When checked, diagnostics will be captured and uploaded as a GitHub build artifact.
 - **Wait for scan to complete**: If checked the wait operation will block post scan actions until the scan is complete. This ensures that subsequent post scan steps (such as creating a SARIF file or injecting Pull Request comments) will only be executed once the analysis is fully finished.
 - **Fail build if policy violations are found**: If this option is checked, then if there are policy violations the build will break.
+
+  Note: This option causes the Black Duck® SCA scan job to fail but does not prevent the pull request from being merged. Preventing the merge of pull requests with policy violations is the responsibility of the repository or organization administrator. It is recommended that a GitHub branch ruleset be configured to require the Black Duck® SCA status check to pass before merging. For more information, see GitHub's [require status checks to pass before merging](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/available-rules-for-rulesets#require-status-checks-to-pass-before-merging).
 
 **Post scan options**
 

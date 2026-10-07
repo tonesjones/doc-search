@@ -1,10 +1,11 @@
 ---
 title: "Managing user group projects"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/managing-user-group-projects.html"
-content_id: "bIzQJchmKm6XlHwrCu46~g"
+content_id: "pv7QCSm6AvptMqsBSBqmYQ"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T15:31:49.754216+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:19.430741+00:00"
+content_hash: "71c88f38e277091b2df068d5e55c37844207ae01b7f5177f81f8bc1d2c75b60a"
 ---
 
 # Managing user group projects
@@ -33,6 +34,5 @@ To assign or remove a project from a user group:
 
    Alternatively, to remove a project from a user group:
 
-   - Click [image: image] in the row of the
-     project you want to remove from the user group.
+   - Click [image: image] in the row of the project you want to remove from the user group.
    - Click **Delete Direct Access** to remove the project.

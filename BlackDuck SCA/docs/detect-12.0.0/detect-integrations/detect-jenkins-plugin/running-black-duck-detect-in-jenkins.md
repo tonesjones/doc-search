@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/runnin
 content_id: "G2WQimZfpS_iSzHZSdF7lg"
 version: "12.0.0"
 section: "Detect Integrations"
-scraped_at: "2026-09-07T21:17:16.908016+00:00"
+scraped_at: "2026-10-04T23:33:23.404782+00:00"
+content_hash: "64ac40aa752bcceb533f2cdaf8c4e44bb78e144a56f743d3c185248e0bf34caa"
 ---
 
 # Running Black Duck® Detect in Jenkins

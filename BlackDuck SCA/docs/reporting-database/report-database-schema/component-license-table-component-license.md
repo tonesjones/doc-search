@@ -1,10 +1,11 @@
 ---
 title: "Component License table (component_license)"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/component-license-table-component_license-.html"
-content_id: "ILhgxoeRUmJT7WJrN83wAA"
+content_id: "nFk4cI3ClnokMw17BHpV9w"
 version: "2026.7"
 section: "Reporting Database"
-scraped_at: "2026-08-08T15:34:35.463615+00:00"
+scraped_at: "2026-10-04T23:32:26.674047+00:00"
+content_hash: "7ddac111bb3cc9954027dac37875b32b2da11ada6b4b54f4c0bf4642a0693722"
 ---
 
 # Component License table (component_license)

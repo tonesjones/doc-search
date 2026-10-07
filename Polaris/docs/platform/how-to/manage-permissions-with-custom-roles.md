@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/ma
 content_id: "AUW9syQP3nM7lXYbWFxf3A"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:56:04.394820+00:00"
-content_hash: "629fc26faf420b5cbf0ee18df90d33a0e34ddfd3417ad1305bead02c8ba074b8"
+scraped_at: "2026-10-04T23:29:18.400322+00:00"
+content_hash: "bb83fd8d836ef573a867e222de179e653d54f0b5579ffbf8905225a72f01b3f0"
 ---
 
 # Manage permissions with custom roles
@@ -39,7 +39,8 @@ Table 1. Available permissions for custom roles
 | Create and manage Fix Pull Requests | - Create automatic and manual Fix PRs - Customize maximum number of Fix PRs per branch and upgrade guidance |
 | Issues | Approve issue triage requests | - Approve triage requests for issues - Reject triage requests for issues |
 | Bug tracking system export | - Export an issue via issue tracking integration |
-| Triage issue | - Update issue (not triaged/to be fixed) triage status - Delete issue (dismissed) - Change other issue properties |
+| Create and manage fix pull requests (SAST issues only) | - Create AI-assisted SAST Fix PRs on demand |
+| Triage issue (or initialize AI-assisted triage) | - Update issue (not triaged/to be fixed) triage status - Delete issue (dismissed) - Change other issue properties |
 | Reports | Create and manage reports | - Create and download reports |
 | Labels | Create and manage labels | - Create labels - Update labels |
 | View labels | - View labels |

@@ -1,22 +1,20 @@
 ---
 title: "New and changed features"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/new-and-changed-features.html"
-content_id: "dvKsUdeLCCcoC9aEnqYaPg"
+content_id: "1~syJDVX8ChrvJ_460mRGA"
 version: "2026.7"
-section: "Release Notes"
-scraped_at: "2026-08-08T15:36:45.138590+00:00"
+section: "Black Duck SCA Release Notes"
+scraped_at: "2026-10-04T23:32:31.912786+00:00"
+content_hash: "f0a2f109a8f648e52b6afe9b9cb1bacaab6b1e1f75d0f9cb287dd7a23b90d40c"
 ---
 
 # New and changed features
 
 ## New Artifactory configuration management
 
-You can now manage your Artifactory Integration configurations within the Black Duck
-UI. To do so, log in as a Integration Manager user, click the Admin button, and then
-select Integrations.
+You can now manage your Artifactory Integration configurations within the Black Duck UI. To do so, log in as a Integration Manager user, click the Admin button, and then select Integrations.
 
-As a result, a number of environment properties have been removed and are now
-configurable in the Black Duck UI. The following properties have been removed:
+As a result, a number of environment properties have been removed and are now configurable in the Black Duck UI. The following properties have been removed:
 
 - `BLACKDUCK_SCAAAS_ARTIFACTORY_ANNOTATE_VIOLATING_POLICY_RULES`
 - `BLACKDUCK_SCAAAS_ARTIFACTORY_EXCLUDE_FILETYPES`
@@ -44,15 +42,11 @@ configurable in the Black Duck UI. The following properties have been removed:
 
 ## New Docker image/container for Artifactory Integration service
 
-A new Docker image/container has been added for use with Artifactory Integration.
-Hosted Black Duck customers must have Artifactory Integration enabled with their
-registration key before deploying this image/container.
+A new Docker image/container has been added for use with Artifactory Integration. Hosted Black Duck customers must have Artifactory Integration enabled with their registration key before deploying this image/container.
 
 ## New SCA Engine properties for Artifactory Integration
 
-The following `environs` properties must now be added to Black Duck's
-`values.yaml` file in order for Black Duck and
-sca-engine-as-a-service to talk to each other:
+The following `environs` properties must now be added to Black Duck's `values.yaml` file in order for Black Duck and sca-engine-as-a-service to talk to each other:
 
 ```
 BLACKDUCK_SCA_ENGINE_SCHEME:
@@ -60,37 +54,25 @@ BLACKDUCK_SCA_ENGINE_HOST:
 BLACKDUCK_SCA_ENGINE_PORT:
 ```
 
-**NOTE**: While these properties must be added to the `values.yaml`
-file, their values are not required to be set immediately and can be left blank as
-in the example above. The value of `BLACKDUCK_SCA_ENGINE_HOST`
-changes based on what you plan to name the sca-engine-as-a-service deployment.
+**NOTE**: While these properties must be added to the `values.yaml` file, their values are not required to be set immediately and can be left blank as in the example above. The value of `BLACKDUCK_SCA_ENGINE_HOST` changes based on what you plan to name the sca-engine-as-a-service deployment.
 
 ## New user roles
 
 New user roles have been added to the list of overall roles:
 
-- Integration Manager: This role grants the ability to manage all
-  integrations.
-- Lightweight BOM Code Scanner: This role grants administration privileges to a
-  Lightweight BOM.
-- Lightweight BOM Project Manager: This role grants administration privileges to a
-  Lightweight BOM Project.
-- Lightweight BOM Project Version Manager: This role grants administration
-  privileges to a Lightweight BOM Project Version.
+- Integration Manager: This role grants the ability to manage all integrations.
+- Lightweight BOM Code Scanner: This role grants administration privileges to a Lightweight BOM.
+- Lightweight BOM Project Manager: This role grants administration privileges to a Lightweight BOM Project.
+- Lightweight BOM Project Version Manager: This role grants administration privileges to a Lightweight BOM Project Version.
 
 ## Updated full snippet scanning functionality
 
-With increased usage of snippet scanning we are starting to see performance and
-scalability issues with snippet scanning. To help mitigate these issues, we are
-implementing tactical restrictions and optimizations to manage the throughput and
-reduce redundant re-work for snippet matching:
+With increased usage of snippet scanning we are starting to see performance and scalability issues with snippet scanning. To help mitigate these issues, we are implementing tactical restrictions and optimizations to manage the throughput and reduce redundant re-work for snippet matching:
 
-- Reduced the allowed range of maximum snippet file size to 1 - 4MB (from 1 -
-  16MB)
+- Reduced the allowed range of maximum snippet file size to 1 - 4MB (from 1 - 16MB)
 - Changed the default value of maximum snippet file size to 1MB (from 2MB)
 
-In addition, full snippet scanning options must now be activated on your registration
-key. Affected Detect parameters are:
+In addition, full snippet scanning options must now be activated on your registration key. Affected Detect parameters are:
 
 [detect.blackduck.signature.scanner.snippet.matching](https://docs.blackduck.com/access?ft:originId=9c0814dc6c47bd8e1b015657cf47a869/62c4c406cd41875f23cf0a8c2848be66.topic)
 

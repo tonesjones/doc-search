@@ -1,10 +1,11 @@
 ---
 title: "The BOM"
 source_url: "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/the-bom.html"
-content_id: "D7LtuVm19vILSkpbazvpYw"
+content_id: "XHR6qfzkA8224QAUMbvjtg"
 version: "latest"
 section: "Black Duck C/CPP Tool"
-scraped_at: "2026-08-13T16:16:58.246511+00:00"
+scraped_at: "2026-10-04T23:32:44.255255+00:00"
+content_hash: "6be31e91b276c2518cbbe308b00ca1d3a75ade16d4e9c7ac9137ed3d2b57e63a"
 ---
 
 # The BOM

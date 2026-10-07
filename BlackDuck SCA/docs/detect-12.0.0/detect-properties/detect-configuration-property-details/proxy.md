@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/proxy.
 content_id: "u9exgvIZYDuPrkasn8m1ew"
 version: "12.0.0"
 section: "Detect Properties"
-scraped_at: "2026-09-07T21:16:37.395805+00:00"
+scraped_at: "2026-10-04T23:33:22.069834+00:00"
+content_hash: "37a2b079d3cd504e091b5e5ec30616b470605bdd292a6ab8b08ed99b758f405a"
 ---
 
 # proxy

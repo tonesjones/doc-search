@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/auto-e
 content_id: "a5HYUdaxYY0cwIhiBJHefA"
 version: "12.0.0"
 section: "Detect Integrations"
-scraped_at: "2026-09-07T21:17:19.882940+00:00"
+scraped_at: "2026-10-04T23:33:23.485749+00:00"
+content_hash: "457845cf2d2fd7bdf4be1c6d3cc0b57fb6eb03bd983fc12e759263b019a80cb2"
 ---
 
 # Auto-escaping Parameters

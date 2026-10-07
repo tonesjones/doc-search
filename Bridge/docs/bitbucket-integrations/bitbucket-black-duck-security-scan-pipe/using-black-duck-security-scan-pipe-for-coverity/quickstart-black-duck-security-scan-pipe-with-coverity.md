@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickst
 content_id: "KLqDnDbC2AdQNyrP5LPEdA"
 version: "latest"
 section: "Bitbucket Integrations"
-scraped_at: "2026-08-08T23:49:06.366989+00:00"
+scraped_at: "2026-10-04T23:28:31.934588+00:00"
+content_hash: "acbcafe69e87385d3b9b64eccae1bdf9a581fb3acae9b9f038d9590c1d16dc63"
 ---
 
 # Quickstart: Black Duck Security Scan Pipe with Coverity
@@ -130,7 +131,7 @@ Follow the steps below to configure the Black Duck Security Scan Pipe to run a f
          - step: *blackduck-security-scan
    ```
 
-   Important: For deployments with [scan_services](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/cnc/topics/scan_service.html) disabled the `BRIDGE_COVERITY_LOCAL` line in the example should be uncommented. Subsequently, the full Coverity client will be used to enable a local analysis to be performed. This will override the default behavior that uses the Coverity thin client to capture and upload artifacts, with analysis being performed on the server.
+   Important: For deployments with [scan_services](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/0a69325e186c9bec20342e8d19ab1fb4.topic) disabled the `BRIDGE_COVERITY_LOCAL` line in the example should be uncommented. Subsequently, the full Coverity client will be used to enable a local analysis to be performed. This will override the default behavior that uses the Coverity thin client to capture and upload artifacts, with analysis being performed on the server.
 
    In the example above a `Coverity Black Duck Security` step runs whenever code is pushed to the `main`, `master`, `develop`, `stage` or `release` branches, or when a Pull Request is created. The scan type is automatically determined by the Black Duck Security Scan Pipe depending on the context in which the pipeline was triggered. The scan behavior is explained below.
 
@@ -140,7 +141,7 @@ Follow the steps below to configure the Black Duck Security Scan Pipe to run a f
 
    The Coverity stream is named using the format `repository-name-branch-name` and stores a snapshot of the issues identified during the scan, ready for review in Coverity Connect.
 
-   For full scans the `BRIDGE_COVERITY_CONNECT_POLICY_VIEW` parameter will break the build if new or outstanding issues are detected as defined by the `Outstanding Issues` [policy view](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/coverity-platform/topics/view_issues_by_snapshot.html). Consult [View Management](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/coverity-platform/topics/view_management.html) within the Coverity documentation for further details.
+   For full scans the `BRIDGE_COVERITY_CONNECT_POLICY_VIEW` parameter will break the build if new or outstanding issues are detected as defined by the `Outstanding Issues` [policy view](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/bf31a35839bf6ab49773e9063d5bda88.topic). Consult [View Management](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/f90e1c0212f2dc46cdbd0c29650065af.topic) within the Coverity documentation for further details.
 
    Each time code is committed to a Pull Request branch that targets one of the specified base branches, a comparison is performed between the scan of the Pull Request branch and the latest full scan of its parent branch. Any new issues introduced by the Pull Request are automatically added as review comments. Coverity Fail Pull Requests are enabled by setting the `BRIDGE_COVERITY_PRCOMMENT_ENABLED` parameter to *true*. Use the `BRIDGE_COVERITY_PRCOMMENT_IMPACTS` parameter to add comments filtered by impact, with a default of `High` if unset. The source code management token created in the prerequisites is required to inject Pull Request review comments.
 
@@ -165,14 +166,14 @@ If an error is encountered similar to the example below, then the `BRIDGE_COVERI
 
 Attention: ERROR: Failed to retrieve tool information details: Fetch tool information: received unexpected response status code '500' from Connect API
 
-In this scenario either [scan services](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/cnc/topics/scan_service.html) are not enabled or a Coverity version prior to 2022.3 is deployed. The default behavior is that the workflow uses the Coverity thin client to upload artifacts, with the analysis performed at the server. Setting the `BRIDGE_COVERITY_LOCAL` parameter to `true` enables the full analysis at the client. Subsequently, the scan and analysis will be performed locally by the workflow. For further details relating to the different Coverity deployment models supported, please refer to [Coverity Deployment Architecture](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/help-center/topics/deployment_architecture.html).
+In this scenario either [scan services](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/0a69325e186c9bec20342e8d19ab1fb4.topic) are not enabled or a Coverity version prior to 2022.3 is deployed. The default behavior is that the workflow uses the Coverity thin client to upload artifacts, with the analysis performed at the server. Setting the `BRIDGE_COVERITY_LOCAL` parameter to `true` enables the full analysis at the client. Subsequently, the scan and analysis will be performed locally by the workflow. For further details relating to the different Coverity deployment models supported, please refer to [Coverity Deployment Architecture](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/a0caa9e5b240fbee6150f8640240b2a5.topic).
 
 ## Useful resources
 
-- [Coverity Product Documentation](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/webhelp-files/help_center_start.html)
+- [Coverity Product Documentation](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/65af71645148476f0c3da0e6b8552214.topic)
 - [Coverity Tutorials](https://community.blackduck.com/s/article/coverity-tutorials)
 - [Coverity Projects and Streams Tutorial](https://community.blackduck.com/s/article/Coverity-Tutorial-Projects-and-Streams)
-- [Coverity Deployment Architecture](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/help-center/topics/deployment_architecture.html)
+- [Coverity Deployment Architecture](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/a0caa9e5b240fbee6150f8640240b2a5.topic)
 - [Black Duck Security Scan Pipe Repository](https://bitbucket.org/blackduck-inc/blackduck-security-scan/src/master/)
 - Bridge Overview
 - [Bridge CLI Download](https://repo.blackduck.com/bds-integrations-release/com/blackduck/integration/bridge/binaries/bridge-cli-bundle/latest/)

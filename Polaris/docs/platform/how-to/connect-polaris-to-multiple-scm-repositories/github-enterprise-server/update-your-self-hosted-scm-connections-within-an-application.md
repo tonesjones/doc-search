@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/up
 content_id: "_fo2B9EqTQVTH54NNvnXyA"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:57:11.520629+00:00"
-content_hash: "4ba3a23220a793655ed6319fe6343a35394ee24bb26dc6e462b94d6a92b4ea18"
+scraped_at: "2026-10-04T23:29:20.480974+00:00"
+content_hash: "e942a80ea84a518de637ed239d90d7eb56de8d51342c51409f8dd32723d28da2"
 ---
 
 # Update your self-hosted SCM connections within an application

@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/rapid-
 content_id: "_cd6HvlH9MTO71VBTR0HXw"
 version: "12.0.0"
 section: "Planning and running Detect"
-scraped_at: "2026-09-07T21:15:45.598400+00:00"
+scraped_at: "2026-10-04T23:33:20.063938+00:00"
+content_hash: "d04ad0ef913af6bcec8fc7e3f1d2b2935baf3d8a2fdcb32284f07349795c989b"
 ---
 
 # Rapid Scan

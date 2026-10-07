@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/quotin
 content_id: "UN1pCVybdfBRgvZ7nWWvWA"
 version: "12.0.0"
 section: "Configuring Detect"
-scraped_at: "2026-09-07T21:15:23.522006+00:00"
+scraped_at: "2026-10-04T23:33:19.347349+00:00"
+content_hash: "3aad564aff4e78d1d3d66ff976dfc2feb2f51e3be5a28e85cfa53840e7838ee4"
 ---
 
 # Quoting and escaping shell script arguments

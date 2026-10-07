@@ -3,8 +3,9 @@ title: "Get started with Black Duck Security Scan Plugin for Jenkins"
 source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/get-started-with-black-duck-security-scan-plugin-for-jenkins.html"
 content_id: "agoBKU5RlQQuyulDeyqdog"
 version: "latest"
-section: "Jenkins - Black Duck Security Scan Plugin for Jenkins"
-scraped_at: "2026-08-08T23:48:34.993561+00:00"
+section: "Jenkins Integrations"
+scraped_at: "2026-10-04T23:28:30.365118+00:00"
+content_hash: "934ae9b1e4289863338c802a47dd113bd5a4d6130b29331cf6e03f4a5932d78a"
 ---
 
 # Get started with Black Duck Security Scan Plugin for Jenkins

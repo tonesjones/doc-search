@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/runnin
 content_id: "fiejezghcCGSNUvG6~Qs7Q"
 version: "12.0.0"
 section: "Planning and running Detect"
-scraped_at: "2026-09-07T21:15:41.476161+00:00"
+scraped_at: "2026-10-04T23:33:19.918692+00:00"
+content_hash: "049fdce9e7d6c7b4a8eff4cbb54fae3fcdb95d5a7981bb552bf5780cdd98d8dd"
 ---
 
 # Running Detect in air gap mode

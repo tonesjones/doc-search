@@ -8,9 +8,10 @@
   "contentApiTemplate": "https://docs.blackduck.com/api/khub/maps/ilBVZr_kR5v3KVjK1p~wbw/topics/{contentId}/content",
   "baseReaderUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/",
   "docsRoot": null,
-  "lastIndexBuild": "2026-08-08T23:51:15.401303+00:00",
-  "lastTocFetch": "2026-08-08T23:43:43.137392+00:00",
-  "scrapedAt": "2026-08-08T23:51:15.162930+00:00",
+  "sectionDocsRoots": {},
+  "lastIndexBuild": "2026-10-04T23:27:41.942249+00:00",
+  "lastTocFetch": "2026-10-04T23:27:41.942249+00:00",
+  "scrapedAt": "2026-10-04T23:28:32.098671+00:00",
   "statusValues": [
     "pending",
     "done",
@@ -18,20 +19,20 @@
     "error"
   ],
   "stats": {
-    "total": 174,
+    "total": 178,
     "pending": 0,
-    "done": 174,
+    "done": 178,
     "skipped": 0,
     "error": 0
   },
   "rootSections": [
     {
-      "title": "Central Integrations release notes",
-      "slug": "central-integrations-release-notes"
+      "title": "Azure DevOps Integrations",
+      "slug": "azure-devops-integrations"
     },
     {
-      "title": "Bridge product overview",
-      "slug": "bridge-product-overview"
+      "title": "Bitbucket Integrations",
+      "slug": "bitbucket-integrations"
     },
     {
       "title": "Bridge CLI",
@@ -42,6 +43,26 @@
       "slug": "bridge-cli-reference"
     },
     {
+      "title": "Bridge glossary",
+      "slug": "bridge-glossary"
+    },
+    {
+      "title": "Bridge product overview",
+      "slug": "bridge-product-overview"
+    },
+    {
+      "title": "Bridge support matrix",
+      "slug": "bridge-support-matrix"
+    },
+    {
+      "title": "Central Integrations release notes",
+      "slug": "central-integrations-release-notes"
+    },
+    {
+      "title": "Configuring proxy for Bridge",
+      "slug": "configuring-proxy-for-bridge"
+    },
+    {
       "title": "GitHub Integrations",
       "slug": "github-integrations"
     },
@@ -50,32 +71,12 @@
       "slug": "gitlab-integrations"
     },
     {
-      "title": "Azure DevOps Integrations",
-      "slug": "azure-devops-integrations"
-    },
-    {
       "title": "Jenkins - Black Duck Security Scan Plugin for Jenkins",
       "slug": "jenkins-black-duck-security-scan-plugin-for-jenkins"
     },
     {
-      "title": "Bitbucket Integrations",
-      "slug": "bitbucket-integrations"
-    },
-    {
       "title": "Troubleshooting",
       "slug": "troubleshooting"
-    },
-    {
-      "title": "Configuring proxy for Bridge",
-      "slug": "configuring-proxy-for-bridge"
-    },
-    {
-      "title": "Bridge glossary",
-      "slug": "bridge-glossary"
-    },
-    {
-      "title": "Bridge support matrix",
-      "slug": "bridge-support-matrix"
     }
   ],
   "topics": [
@@ -95,8 +96,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:46:47.600024+00:00",
-      "bytes": 48898
+      "scrapedAt": "2026-10-04T23:28:25.081332+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:25.081332+00:00",
+      "contentHash": "28e3b40f80fe8677566a6af1ef9425f61afdcb37835d3485a6d62310d8e87060",
+      "bytes": 54911
     },
     {
       "id": "iQXSk~S0hNK2YPe60lwDgw",
@@ -114,8 +117,75 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:46:48.492565+00:00",
-      "bytes": 8472
+      "scrapedAt": "2026-10-04T23:28:25.127720+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:25.127720+00:00",
+      "contentHash": "af97384aa5aaa58622e49126985d4fa983f0bda0984630a5f36160be55026a40",
+      "bytes": 8428
+    },
+    {
+      "id": "TNST3gCZTGzs4WGTR7O_bA",
+      "tocId": "U9MmtY38Mn8UMJ_HfJ1pJw",
+      "title": "How-to",
+      "path": [
+        "How-to"
+      ],
+      "section": "How-to",
+      "prettyUrl": "/r/bridge/latest/bridge-cli-guide/how-to.html",
+      "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/how-to.html",
+      "localPath": "docs/how-to/how-to.md",
+      "depth": 1,
+      "hasChildren": true,
+      "directChildren": 2,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:28:24.904092+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:24.904092+00:00",
+      "contentHash": "e741bb7dbb77feb6f263f783179adea0ff72a75ab5eff24aa3adb28fc5fbbc1d",
+      "bytes": 350
+    },
+    {
+      "id": "ueQZXEHhm6pihfoXwypNvA",
+      "tocId": "vQRw1zswDQlNCPmmebb5Yg",
+      "title": "Exclude files from SAST scans",
+      "path": [
+        "How-to",
+        "Exclude files from SAST scans"
+      ],
+      "section": "How-to",
+      "prettyUrl": "/r/bridge/latest/bridge-cli-guide/exclude-files-from-sast-scans.html",
+      "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/exclude-files-from-sast-scans.html",
+      "localPath": "docs/how-to/exclude-files-from-sast-scans.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:28:24.943506+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:24.943506+00:00",
+      "contentHash": "fb4e810096f42970fa7fd2ee1e481d0d94bb464ccb0153037d602bbb3a5b69ad",
+      "bytes": 10131
+    },
+    {
+      "id": "CBO3sFp3VibvYuuuNycJZA",
+      "tocId": "iAMlAoaOGuCRWD8V~VU4hg",
+      "title": "Using Rapid Scan Static for pull request workflows",
+      "path": [
+        "How-to",
+        "Using Rapid Scan Static for pull request workflows"
+      ],
+      "section": "How-to",
+      "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-rapid-scan-static-for-pull-request-workflows.html",
+      "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-rapid-scan-static-for-pull-request-workflows.html",
+      "localPath": "docs/how-to/using-rapid-scan-static-for-pull-request-workflows.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:28:24.971773+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:24.971773+00:00",
+      "contentHash": "922dbf8d881cc6f7ab274e9bd5986d3921d7796294d6fb9b15e4f3864c7ed167",
+      "bytes": 13593
     },
     {
       "id": "XXWcReElxhPsW9A9y8RBYQ",
@@ -133,8 +203,10 @@
       "directChildren": 11,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:46:49.278317+00:00",
-      "bytes": 3773
+      "scrapedAt": "2026-10-04T23:28:25.180610+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:25.180610+00:00",
+      "contentHash": "04dcda08749134ad7e370f7abbf5378645ce75e3743873cde40b169943e2346a",
+      "bytes": 3807
     },
     {
       "id": "N6ht5MB9qNia93RVsekK1g",
@@ -153,8 +225,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:46:49.883825+00:00",
-      "bytes": 3889
+      "scrapedAt": "2026-10-04T23:28:25.207879+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:25.207879+00:00",
+      "contentHash": "71ac3dd8efcec3f8901b6b4c1b5a6e0c1db9a09e7ab92ef70d4e3e6ed50c7aa6",
+      "bytes": 3885
     },
     {
       "id": "QJ68CctbsHRI5L3S3CX1NA",
@@ -170,11 +244,13 @@
       "localPath": "docs/bridge-cli/using-bridge-cli.md",
       "depth": 2,
       "hasChildren": true,
-      "directChildren": 3,
+      "directChildren": 4,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:46:50.501448+00:00",
-      "bytes": 724
+      "scrapedAt": "2026-10-04T23:28:25.228301+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:25.228301+00:00",
+      "contentHash": "dbb1e2e4c56b65741c5ebaa6659c13e3e92b34613873076f8d0a963d288af66f",
+      "bytes": 833
     },
     {
       "id": "u~RnWn2KcypS~G90P0S3Kw",
@@ -194,8 +270,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:46:51.144570+00:00",
-      "bytes": 2241
+      "scrapedAt": "2026-10-04T23:28:25.254854+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:25.254854+00:00",
+      "contentHash": "e2bf163ead00dd0adfe95503be962a906ac5e0fe64d99c57cecfbe3a732fbe85",
+      "bytes": 2220
     },
     {
       "id": "K_E1OK0VY_txDjPNqiqQGg",
@@ -215,8 +293,33 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:46:51.754097+00:00",
-      "bytes": 1621
+      "scrapedAt": "2026-10-04T23:28:25.291682+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:25.291682+00:00",
+      "contentHash": "84838a6eba4866d438128c7fc959a7fead0a21f10212d0a366486ec490cfa77b",
+      "bytes": 1555
+    },
+    {
+      "id": "9dlLegLeeUU0Vr2OHp95~g",
+      "tocId": "vkep1bLmCP_~x7m0N9RQFg",
+      "title": "Passing Arguments using environment variables",
+      "path": [
+        "Bridge CLI",
+        "Using Bridge CLI",
+        "Passing Arguments using environment variables"
+      ],
+      "section": "Bridge CLI",
+      "prettyUrl": "/r/bridge/latest/bridge-cli-guide/passing-arguments-using-environment-variables.html",
+      "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/passing-arguments-using-environment-variables.html",
+      "localPath": "docs/bridge-cli/using-bridge-cli/passing-arguments-using-environment-variables.md",
+      "depth": 3,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:28:24.990245+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:24.990245+00:00",
+      "contentHash": "bd358e5857bdce7b02ad87c81b74fe477a7d7487918877514697e4ea92326e9f",
+      "bytes": 1152
     },
     {
       "id": "SaoNuDEGAhwd0_Q~slkzTA",
@@ -236,8 +339,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:46:52.386899+00:00",
-      "bytes": 3727
+      "scrapedAt": "2026-10-04T23:28:25.325049+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:25.325049+00:00",
+      "contentHash": "bc65db0e27034a4825a784bb340dc04904ac4c54653a04671efa61384345d087",
+      "bytes": 3615
     },
     {
       "id": "bU_BVNTVI0dPIcoVQJ4QDQ",
@@ -256,8 +361,10 @@
       "directChildren": 5,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:46:53.045183+00:00",
-      "bytes": 3650
+      "scrapedAt": "2026-10-04T23:28:25.352040+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:25.352040+00:00",
+      "contentHash": "1d1e4b9142fb3c489c5486bb45ce13cf9fda5320b1e1187005df4a79b74f1524",
+      "bytes": 3607
     },
     {
       "id": "xEDE0q25HmGtsyKiKJDP4g",
@@ -277,92 +384,102 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:46:53.677032+00:00",
-      "bytes": 5152
+      "scrapedAt": "2026-10-04T23:28:25.382150+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:25.382150+00:00",
+      "contentHash": "fd5b540f4c7624ff199b54def21ecfa07c42e2a80ddd44ceab95cf1cc3742f3b",
+      "bytes": 5102
     },
     {
       "id": "oW33tu8l5H9~3rummnuG4A",
       "tocId": "l~BjILfU~pTplwx_F3Hf5g",
-      "title": "Perform a diff scan with Black Duck Signal",
+      "title": "Scan uncommitted changes",
       "path": [
         "Bridge CLI",
         "Using Bridge CLI with Signal",
-        "Perform a diff scan with Black Duck Signal"
+        "Scan uncommitted changes"
       ],
       "section": "Bridge CLI",
-      "prettyUrl": "/r/bridge/latest/bridge-cli-guide/perform-a-diff-scan-with-black-duck-signal.html",
-      "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/perform-a-diff-scan-with-black-duck-signal.html",
+      "prettyUrl": "/r/bridge/latest/bridge-cli-guide/scan-uncommitted-changes.html",
+      "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/scan-uncommitted-changes.html",
       "localPath": "docs/bridge-cli/using-bridge-cli-with-signal/perform-a-diff-scan-with-black-duck-signal.md",
       "depth": 3,
       "hasChildren": false,
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:46:54.302108+00:00",
-      "bytes": 3317
+      "scrapedAt": "2026-10-04T23:28:25.407765+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:25.407765+00:00",
+      "contentHash": "28eac019f3427c30e56102c59cf928923336a46e5b4999f66fdf412ab71c4c7b",
+      "bytes": 3346
     },
     {
       "id": "9Sk4~KOiDSe~mxNYwxp8aA",
       "tocId": "Dz2l~uXXMpp9n64Aat4SEw",
-      "title": "Perform a diff scan against a reference branch with Black Duck Signal",
+      "title": "Scan changes against a reference branch",
       "path": [
         "Bridge CLI",
         "Using Bridge CLI with Signal",
-        "Perform a diff scan against a reference branch with Black Duck Signal"
+        "Scan changes against a reference branch"
       ],
       "section": "Bridge CLI",
-      "prettyUrl": "/r/bridge/latest/bridge-cli-guide/perform-a-diff-scan-against-a-reference-branch-with-black-duck-signal.html",
-      "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/perform-a-diff-scan-against-a-reference-branch-with-black-duck-signal.html",
+      "prettyUrl": "/r/bridge/latest/bridge-cli-guide/scan-changes-against-a-reference-branch.html",
+      "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/scan-changes-against-a-reference-branch.html",
       "localPath": "docs/bridge-cli/using-bridge-cli-with-signal/perform-a-diff-scan-against-a-reference-branch-with-black-duck-signal.md",
       "depth": 3,
       "hasChildren": false,
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:46:54.928760+00:00",
-      "bytes": 3670
+      "scrapedAt": "2026-10-04T23:28:25.432514+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:25.432514+00:00",
+      "contentHash": "4e2f352394fd90a08474e507a514a68b16e9ad991b896d16f661fc30c68a3a60",
+      "bytes": 3602
     },
     {
       "id": "4WBiYOds7Y_1FXGKdw8eAA",
       "tocId": "IFdEVc0rw5b3dfUU~QdZtQ",
-      "title": "Scan local files with Black Duck Signal",
+      "title": "Scan local files",
       "path": [
         "Bridge CLI",
         "Using Bridge CLI with Signal",
-        "Scan local files with Black Duck Signal"
+        "Scan local files"
       ],
       "section": "Bridge CLI",
-      "prettyUrl": "/r/bridge/latest/bridge-cli-guide/scan-local-files-with-black-duck-signal.html",
-      "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/scan-local-files-with-black-duck-signal.html",
+      "prettyUrl": "/r/bridge/latest/bridge-cli-guide/scan-local-files.html",
+      "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/scan-local-files.html",
       "localPath": "docs/bridge-cli/using-bridge-cli-with-signal/scan-local-files-with-black-duck-signal.md",
       "depth": 3,
       "hasChildren": false,
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:46:55.553179+00:00",
-      "bytes": 3078
+      "scrapedAt": "2026-10-04T23:28:25.464008+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:25.464008+00:00",
+      "contentHash": "0815c9b9e2832871e07823032d8936402d1a894e78b1f7b06d36f3c66bdf589d",
+      "bytes": 3031
     },
     {
       "id": "umhhqHihgvnCKpSEJNC2ng",
       "tocId": "FmPlCf7rmab97KIWgR5FLQ",
-      "title": "Black Duck Signal reference guide",
+      "title": "Bridge CLI Reference Guide",
       "path": [
         "Bridge CLI",
         "Using Bridge CLI with Signal",
-        "Black Duck Signal reference guide"
+        "Bridge CLI Reference Guide"
       ],
       "section": "Bridge CLI",
-      "prettyUrl": "/r/bridge/latest/bridge-cli-guide/black-duck-signal-reference-guide.html",
-      "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/black-duck-signal-reference-guide.html",
+      "prettyUrl": "/r/bridge/latest/bridge-cli-guide/bridge-cli-reference-guide.html",
+      "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/bridge-cli-reference-guide.html",
       "localPath": "docs/bridge-cli/using-bridge-cli-with-signal/black-duck-signal-reference-guide.md",
       "depth": 3,
       "hasChildren": false,
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:46:56.281847+00:00",
-      "bytes": 6945
+      "scrapedAt": "2026-10-04T23:28:25.503184+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:25.503184+00:00",
+      "contentHash": "77d89c6e86c485211d985930bb02c6102d4855ad1d58dbf4524ffa0f52157c2d",
+      "bytes": 6961
     },
     {
       "id": "DB3mniWSJB2WPCpqg3ByGA",
@@ -381,8 +498,10 @@
       "directChildren": 12,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:46:56.985780+00:00",
-      "bytes": 14778
+      "scrapedAt": "2026-10-04T23:28:25.541867+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:25.541867+00:00",
+      "contentHash": "4a3987905387fa29b18ed7747541bb88b8d2eb5c6702222a9291075d536a8e07",
+      "bytes": 15262
     },
     {
       "id": "~U27n0Nuq3p3rhWPibQicA",
@@ -402,8 +521,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:46:57.602384+00:00",
-      "bytes": 2268
+      "scrapedAt": "2026-10-04T23:28:25.567150+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:25.567150+00:00",
+      "contentHash": "e46e363e471e52ed115468905eccbe6a09f2292f8f7f12690a1002b36697b8e6",
+      "bytes": 2322
     },
     {
       "id": "RN3nfETJUbRGslM3NWdeAA",
@@ -423,8 +544,10 @@
       "directChildren": 5,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:46:58.211239+00:00",
-      "bytes": 300
+      "scrapedAt": "2026-10-04T23:28:25.582893+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:25.582893+00:00",
+      "contentHash": "a7911e4257352de3caffc4955c976b737d80431cacb94b86beeab85f4080f7c5",
+      "bytes": 369
     },
     {
       "id": "Y4m~TGnh8oT5T3FXYe1giQ",
@@ -445,8 +568,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:46:58.926234+00:00",
-      "bytes": 8052
+      "scrapedAt": "2026-10-04T23:28:25.611378+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:25.611378+00:00",
+      "contentHash": "df67f2d16ecf151225f857f2250b6c072eeedd43342b516a1a47e2cb09941b91",
+      "bytes": 7999
     },
     {
       "id": "I9iSeNJAMd3FweRG7JnJrQ",
@@ -467,8 +592,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:46:59.787437+00:00",
-      "bytes": 9494
+      "scrapedAt": "2026-10-04T23:28:25.654599+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:25.654599+00:00",
+      "contentHash": "1ece68d2575a0d5b386f7743a79b4baf004fdd6e2561bda8f532413e56d9a09c",
+      "bytes": 9422
     },
     {
       "id": "uoEvtoRlNAihuTseBI84ZQ",
@@ -489,8 +616,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:00.515586+00:00",
-      "bytes": 13279
+      "scrapedAt": "2026-10-04T23:28:25.712244+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:25.712244+00:00",
+      "contentHash": "c893180095551b70ec248d3222d47bcddd379103245cf9132d2b67653c488863",
+      "bytes": 13182
     },
     {
       "id": "incuyObq1r6MXCPrzaD2~Q",
@@ -511,8 +640,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:01.227842+00:00",
-      "bytes": 6696
+      "scrapedAt": "2026-10-04T23:28:25.761921+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:25.761921+00:00",
+      "contentHash": "ea12118c0b0b51c6b6e0b32f307cd78ae6f1b1aec027da87a0fe7f42b7e59df3",
+      "bytes": 6676
     },
     {
       "id": "awDfyMHa01fVMXoYt9X5aA",
@@ -533,8 +664,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:02.275816+00:00",
-      "bytes": 13228
+      "scrapedAt": "2026-10-04T23:28:25.812858+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:25.812858+00:00",
+      "contentHash": "ec1bad7d1e62576e76218504c09a8c23fdd55b473a39d1c5ff925539179f3440",
+      "bytes": 13118
     },
     {
       "id": "gnkQZukNM96vB6kcuVRgTA",
@@ -554,8 +687,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:02.985309+00:00",
-      "bytes": 9315
+      "scrapedAt": "2026-10-04T23:28:25.852595+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:25.852595+00:00",
+      "contentHash": "2c0c8f0fd1b401969a0fcf1972ad9d740f3bb99e0361914397afa2f524efaf9e",
+      "bytes": 9195
     },
     {
       "id": "mJXuqqevpdNQu8yjbbc6tA",
@@ -575,8 +710,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:03.626909+00:00",
-      "bytes": 6641
+      "scrapedAt": "2026-10-04T23:28:25.892034+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:25.892034+00:00",
+      "contentHash": "9f2600e52b769ac3f0b920a0211bf7edbae7b0ac84d2b131ddbc773cf847a05d",
+      "bytes": 6550
     },
     {
       "id": "0IvGwwAyU2P4qSw~cyZ2OQ",
@@ -596,8 +733,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:04.265795+00:00",
-      "bytes": 5079
+      "scrapedAt": "2026-10-04T23:28:25.924670+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:25.924670+00:00",
+      "contentHash": "c8617d856bed2cb44461c3581e028cecba6f6492322154f38304f6cce8e22947",
+      "bytes": 7278
     },
     {
       "id": "ujTpwayr_6ZR9fvYpIti0g",
@@ -617,8 +756,10 @@
       "directChildren": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:04.874343+00:00",
-      "bytes": 3255
+      "scrapedAt": "2026-10-04T23:28:25.949911+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:25.949911+00:00",
+      "contentHash": "4a03fe569e044099a3f75a4656ce57fac99bcbb579c2a76ddae6ce7064c08069",
+      "bytes": 3295
     },
     {
       "id": "tQT0QGztOhw9W7eNtpI2fA",
@@ -639,8 +780,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:05.500668+00:00",
-      "bytes": 3215
+      "scrapedAt": "2026-10-04T23:28:25.974394+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:25.974394+00:00",
+      "contentHash": "0b6d3e9a138a37d2f2993ccb1a6ee63755be566ebe04d53297290d953e5f5430",
+      "bytes": 3242
     },
     {
       "id": "LAqlJet_AOwzEjLu0kJVpQ",
@@ -661,8 +804,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:06.119486+00:00",
-      "bytes": 3396
+      "scrapedAt": "2026-10-04T23:28:26.000001+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:26.000001+00:00",
+      "contentHash": "28517dcc6131d21b79d0ccefd4ba3b60737e98ec12b96547c04ad63fd85e47f2",
+      "bytes": 3439
     },
     {
       "id": "~QzaxYmKZdMJQxWcQzKboQ",
@@ -682,8 +827,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:06.730263+00:00",
-      "bytes": 692
+      "scrapedAt": "2026-10-04T23:28:26.021238+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:26.021238+00:00",
+      "contentHash": "cef17a2c4597280d759556816060fcd33539603268bfa39ecdd6e3f9025aed70",
+      "bytes": 759
     },
     {
       "id": "R1nVYpGOerTE7Z4tM8rqKw",
@@ -703,8 +850,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:07.344629+00:00",
-      "bytes": 4942
+      "scrapedAt": "2026-10-04T23:28:26.049176+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:26.049176+00:00",
+      "contentHash": "0fdf7008d414a6566d35c45ae2018345c014ecb46bdadb9336092c0611724db1",
+      "bytes": 4946
     },
     {
       "id": "k7Y0kayJ8woegUzveJC67Q",
@@ -724,8 +873,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:08.060855+00:00",
-      "bytes": 7168
+      "scrapedAt": "2026-10-04T23:28:26.082859+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:26.082859+00:00",
+      "contentHash": "d71406a8c4171a3207493455942c7e4feb717a2dd0daeb5b79d9e9d32998dc02",
+      "bytes": 7167
     },
     {
       "id": "R07wexfykgJYgFGVVbHYsQ",
@@ -745,8 +896,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:08.773319+00:00",
-      "bytes": 8933
+      "scrapedAt": "2026-10-04T23:28:26.114672+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:26.114672+00:00",
+      "contentHash": "01243a77070e8119e562521036f48f1574965c2cf5e4bf5599ffd18589934f84",
+      "bytes": 8839
     },
     {
       "id": "Z6G03zHl6mufvly7tIubvw",
@@ -766,8 +919,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:09.398840+00:00",
-      "bytes": 4291
+      "scrapedAt": "2026-10-04T23:28:26.146035+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:26.146035+00:00",
+      "contentHash": "cdd83e3d14bec196e2e0fdbba6ec1f931595362d4056cf0e3a990f80faa011eb",
+      "bytes": 4290
     },
     {
       "id": "UBfUyYK9U4b4HEsgOLqXtA",
@@ -787,8 +942,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:10.100193+00:00",
-      "bytes": 7142
+      "scrapedAt": "2026-10-04T23:28:26.174917+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:26.174917+00:00",
+      "contentHash": "044344277bbcbb7d882fa4bc06cf26f0fcbec94eab1c8ae5d8a5f9e82416bd8d",
+      "bytes": 7125
     },
     {
       "id": "pvId1aJA7Q7KEz6MVGV4jg",
@@ -807,8 +964,10 @@
       "directChildren": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:10.810031+00:00",
-      "bytes": 9922
+      "scrapedAt": "2026-10-04T23:28:26.206135+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:26.206135+00:00",
+      "contentHash": "e9cd66c605dd4c1d5f145fdb54176d4c6ef3a50d40d23731b20c4638b6356f65",
+      "bytes": 9523
     },
     {
       "id": "9AikRbnKAHgNrGl_MMtzvw",
@@ -828,8 +987,10 @@
       "directChildren": 5,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:11.422209+00:00",
-      "bytes": 300
+      "scrapedAt": "2026-10-04T23:28:26.221316+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:26.221316+00:00",
+      "contentHash": "a7911e4257352de3caffc4955c976b737d80431cacb94b86beeab85f4080f7c5",
+      "bytes": 369
     },
     {
       "id": "ciwUJzw7pa1UrIfDJvYLog",
@@ -850,8 +1011,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:12.323911+00:00",
-      "bytes": 10383
+      "scrapedAt": "2026-10-04T23:28:26.257629+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:26.257629+00:00",
+      "contentHash": "7edcbe9421fe7f8874cf1acf53769a1b101efe065e58e199c6193b035b83aa78",
+      "bytes": 10305
     },
     {
       "id": "7j8H5xerlHJ8jlahPYThjw",
@@ -872,8 +1035,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:13.219120+00:00",
-      "bytes": 8660
+      "scrapedAt": "2026-10-04T23:28:26.298150+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:26.298150+00:00",
+      "contentHash": "3fb719995cf6c2fcb94e6b4039872504f42f8953e7eaa462266ae8e7d2d12038",
+      "bytes": 8604
     },
     {
       "id": "FTbnmGEIkHdZaZnu67Cf5g",
@@ -894,8 +1059,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:14.178899+00:00",
-      "bytes": 11517
+      "scrapedAt": "2026-10-04T23:28:26.343312+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:26.343312+00:00",
+      "contentHash": "9b823d77cbd3e01e8ad1268fba560bd590d98adbfe855aa36151057b3b7b0b07",
+      "bytes": 11421
     },
     {
       "id": "NcDZM_K0VSPqoJiY~_yTSw",
@@ -916,8 +1083,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:15.116528+00:00",
-      "bytes": 9160
+      "scrapedAt": "2026-10-04T23:28:26.382783+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:26.382783+00:00",
+      "contentHash": "b685cc41e047b79eb149cfe63e28771eb2fe14680f0390ba0dacc9a4eacf40b5",
+      "bytes": 9076
     },
     {
       "id": "ZZ18N3gkVdEMzPGDxSM58Q",
@@ -938,8 +1107,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:16.064551+00:00",
-      "bytes": 12141
+      "scrapedAt": "2026-10-04T23:28:26.426248+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:26.426248+00:00",
+      "contentHash": "8d5a4eeaa2d4aba6733a70c2f60264f3139411729ff5aeebfcc3de9c8effa24a",
+      "bytes": 12046
     },
     {
       "id": "kY8KPhxWve~9AOxaEIMAng",
@@ -959,8 +1130,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:16.759833+00:00",
-      "bytes": 6978
+      "scrapedAt": "2026-10-04T23:28:26.466991+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:26.466991+00:00",
+      "contentHash": "b46e052f6cb8ac726507194144422fda548b0b580d5319b8e7c92baafa220ca3",
+      "bytes": 6916
     },
     {
       "id": "aQUbyCwfvaXW3nOBHZz2yg",
@@ -979,8 +1152,10 @@
       "directChildren": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:17.486245+00:00",
-      "bytes": 11325
+      "scrapedAt": "2026-10-04T23:28:26.502767+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:26.502767+00:00",
+      "contentHash": "39062e334b120dd8c8efbd9379a55d680eee70ea01882b011be318d97ec091de",
+      "bytes": 11186
     },
     {
       "id": "nke0JpbisrvWxSPPVNxdRA",
@@ -1000,8 +1175,10 @@
       "directChildren": 5,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:18.093524+00:00",
-      "bytes": 300
+      "scrapedAt": "2026-10-04T23:28:26.518114+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:26.518114+00:00",
+      "contentHash": "a7911e4257352de3caffc4955c976b737d80431cacb94b86beeab85f4080f7c5",
+      "bytes": 369
     },
     {
       "id": "6FSuOWHbNByNFERehWXD1g",
@@ -1022,8 +1199,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:18.966402+00:00",
-      "bytes": 12091
+      "scrapedAt": "2026-10-04T23:28:26.553857+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:26.553857+00:00",
+      "contentHash": "79c80c556cacf121012947a3bbd52a0198b9d9d1e73bee26c63525c4d825a5c6",
+      "bytes": 12027
     },
     {
       "id": "NxPOiPDW3AkW1floKQxlyw",
@@ -1044,8 +1223,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:19.840545+00:00",
-      "bytes": 10863
+      "scrapedAt": "2026-10-04T23:28:26.600007+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:26.600007+00:00",
+      "contentHash": "0e45953062e20bba4b8de4a0b477ef716097462e3cf67de6770b9142c28ca618",
+      "bytes": 10805
     },
     {
       "id": "_FLikXu3acsHkkgdHXL7yg",
@@ -1066,8 +1247,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:20.784010+00:00",
-      "bytes": 11677
+      "scrapedAt": "2026-10-04T23:28:26.649406+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:26.649406+00:00",
+      "contentHash": "80aa2ca8abebc515f87c04e2aaf0b5ddbdb271bc94de4c7c3e3e408694f07f12",
+      "bytes": 11627
     },
     {
       "id": "soatkYyjc6vQ1azDjrmv4g",
@@ -1088,8 +1271,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:21.730342+00:00",
-      "bytes": 11488
+      "scrapedAt": "2026-10-04T23:28:26.692096+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:26.692096+00:00",
+      "contentHash": "f5458d869151c55b5065b0b5d27e76816c5f70e42f0527dffefb31b8b13acf66",
+      "bytes": 11416
     },
     {
       "id": "D_ymOD7ePOPDqiji8LrA3w",
@@ -1110,8 +1295,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:22.597905+00:00",
-      "bytes": 14092
+      "scrapedAt": "2026-10-04T23:28:26.736134+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:26.736134+00:00",
+      "contentHash": "e2f6f4968dd0c21be929349fead703a40f44456e5034ca1963cfe8f0e588abed",
+      "bytes": 14010
     },
     {
       "id": "27NYrjFir1wLqz7QPEKkEQ",
@@ -1131,8 +1318,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:23.221385+00:00",
-      "bytes": 4140
+      "scrapedAt": "2026-10-04T23:28:26.765726+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:26.765726+00:00",
+      "contentHash": "b2c644caa182bc3651bc6e883b17d4a7ba1bf0202852bdd9382886744227ca09",
+      "bytes": 4150
     },
     {
       "id": "sz7~CMkUQuL7ivEPEjnOTw",
@@ -1152,8 +1341,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:23.920989+00:00",
-      "bytes": 7627
+      "scrapedAt": "2026-10-04T23:28:26.797071+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:26.797071+00:00",
+      "contentHash": "4b6405a732f8f50084bba6ba428892e5214a4066454f6171e724504a2f2e38dd",
+      "bytes": 8268
     },
     {
       "id": "3SlkM2ZuAE6KeyGWJy1OBQ",
@@ -1172,8 +1363,10 @@
       "directChildren": 5,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:24.532178+00:00",
-      "bytes": 3718
+      "scrapedAt": "2026-10-04T23:28:26.824382+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:26.824382+00:00",
+      "contentHash": "fea9b5c4f1e1dba87da407e49393096bb51bcbe001ce56a08e79ff884ead949b",
+      "bytes": 3689
     },
     {
       "id": "vM1t4rCUpsqE2qJuvytlzQ",
@@ -1193,8 +1386,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:25.249343+00:00",
-      "bytes": 8862
+      "scrapedAt": "2026-10-04T23:28:26.853944+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:26.853944+00:00",
+      "contentHash": "28a5312336706ae8c07c53fb456aa96dc3bee04a70de20ccdc71d0192c7341ad",
+      "bytes": 8803
     },
     {
       "id": "RY3ASea6IDMpG00JPMwzig",
@@ -1214,8 +1409,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:25.960289+00:00",
-      "bytes": 7489
+      "scrapedAt": "2026-10-04T23:28:26.886854+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:26.886854+00:00",
+      "contentHash": "3d9eb64af38f185e9547124efd1ed644357b4580ba60383f4eaba450ea125eac",
+      "bytes": 7448
     },
     {
       "id": "GSs5IaWi52PrO8rDKtvw4Q",
@@ -1235,8 +1432,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:26.667031+00:00",
-      "bytes": 8156
+      "scrapedAt": "2026-10-04T23:28:26.917114+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:26.917114+00:00",
+      "contentHash": "3c282d1ce0af7db5fed185d98ae2478d706875729b0fb8f04be5219019443df3",
+      "bytes": 8111
     },
     {
       "id": "UYVanktAPBINQ8VA3VRNEw",
@@ -1256,8 +1455,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:27.364628+00:00",
-      "bytes": 7977
+      "scrapedAt": "2026-10-04T23:28:26.947809+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:26.947809+00:00",
+      "contentHash": "a2d15d5981fd690a2264786bba568ef74184a0e416e6e4b6e78103f77cdbc368",
+      "bytes": 7905
     },
     {
       "id": "eZIBNcbcaLZFkh6roQhMOw",
@@ -1277,8 +1478,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:28.081140+00:00",
-      "bytes": 9466
+      "scrapedAt": "2026-10-04T23:28:26.981292+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:26.981292+00:00",
+      "contentHash": "d40f05690d44826415039dd3b8d58a86cfe75f0c166a78edbb78a1917157d5a0",
+      "bytes": 9377
     },
     {
       "id": "dPW9FWt2CpejHsEMI4Cg1w",
@@ -1297,8 +1500,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:28.692238+00:00",
-      "bytes": 2945
+      "scrapedAt": "2026-10-04T23:28:27.009627+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:27.009627+00:00",
+      "contentHash": "66a1921afa8bcca472a45d390d77404e4bbbfa3687bec5ca9ced42911149c6d9",
+      "bytes": 3239
     },
     {
       "id": "X6MIwVxAqwC5eTWzpb8XqA",
@@ -1317,8 +1522,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:29.320248+00:00",
-      "bytes": 4195
+      "scrapedAt": "2026-10-04T23:28:27.033663+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:27.033663+00:00",
+      "contentHash": "b9c18890ff90c90a9117f1eda73a85d97ed666c0efdf61f0c2c5a7a262b8e67c",
+      "bytes": 4220
     },
     {
       "id": "5HNCy~xif8rlYcKWiJdLXg",
@@ -1337,8 +1544,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:30.388891+00:00",
-      "bytes": 5726
+      "scrapedAt": "2026-10-04T23:28:27.077522+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:27.077522+00:00",
+      "contentHash": "5d75b5b9517d8ed1005e0263b419d1074bd938a056a8e86db53cd621efaaad54",
+      "bytes": 5699
     },
     {
       "id": "w5zWAv2oq7bEe0nsJd~4iw",
@@ -1357,8 +1566,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:31.002253+00:00",
-      "bytes": 2578
+      "scrapedAt": "2026-10-04T23:28:27.104232+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:27.104232+00:00",
+      "contentHash": "ce7f74689a02e351ce805b0f739fadf4cd5a83860bebc494641c4640f90b6d39",
+      "bytes": 2602
     },
     {
       "id": "euJWvjjgrvlPZZCGtUnURg",
@@ -1376,8 +1587,10 @@
       "directChildren": 5,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:31.610576+00:00",
-      "bytes": 337
+      "scrapedAt": "2026-10-04T23:28:27.118426+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:27.118426+00:00",
+      "contentHash": "15e3075cab07ae99386f1cd14bec35b528afecf5e4197154295f62f4a629a849",
+      "bytes": 406
     },
     {
       "id": "eHpDl6VDN6Uv9tKf_r3phw",
@@ -1396,8 +1609,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:32.606899+00:00",
-      "bytes": 52657
+      "scrapedAt": "2026-10-04T23:28:27.238306+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:27.238306+00:00",
+      "contentHash": "b9c64e1fcc0aec5904e226f9d3e80657d426eeb4da458c66d8cc25cb6bb43f17",
+      "bytes": 43327
     },
     {
       "id": "SFMWFXZ6gwFEM78yR_9iFg",
@@ -1416,8 +1631,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:33.237561+00:00",
-      "bytes": 4284
+      "scrapedAt": "2026-10-04T23:28:27.263579+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:27.263579+00:00",
+      "contentHash": "1951a4ba1f6e3e7112994f63cd267ece92b00c9e3ebe2fc10f67ecc2b7a12227",
+      "bytes": 4251
     },
     {
       "id": "zOU23U2KJp8SsxjxXcSIJA",
@@ -1436,8 +1653,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:33.858052+00:00",
-      "bytes": 1235
+      "scrapedAt": "2026-10-04T23:28:27.287557+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:27.287557+00:00",
+      "contentHash": "9a9fd19d8d017be0d53b515262e4ab574932f1239ee062c7bfc8d55cd37e49e5",
+      "bytes": 1293
     },
     {
       "id": "HZ56eqeQEx7vSS1NUCU5uQ",
@@ -1456,8 +1675,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:34.459882+00:00",
-      "bytes": 1623
+      "scrapedAt": "2026-10-04T23:28:27.309591+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:27.309591+00:00",
+      "contentHash": "c64d9d6c63ba91963dee0763e8ca6d8b91b8faafda29de3742b1d28e1b14f897",
+      "bytes": 1658
     },
     {
       "id": "M~WZ67m_J7DZBiK6_hxlkA",
@@ -1476,8 +1697,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:35.079161+00:00",
-      "bytes": 1214
+      "scrapedAt": "2026-10-04T23:28:27.329797+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:27.329797+00:00",
+      "contentHash": "4b53cda8c03e264080ccb64b9eb9de8a7ee46036990e5beed7942631bdeb7191",
+      "bytes": 1268
     },
     {
       "id": "a6v0vURaEcio7ua5wkS6TA",
@@ -1495,8 +1718,10 @@
       "directChildren": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:35.698783+00:00",
-      "bytes": 998
+      "scrapedAt": "2026-10-04T23:28:27.349063+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:27.349063+00:00",
+      "contentHash": "85d8442283c599c2451716a0632179820c0d5a6855fa55fd7baeba2d86e4e977",
+      "bytes": 1064
     },
     {
       "id": "W6jvpOFaRlQEXXpEJlnt7Q",
@@ -1515,8 +1740,10 @@
       "directChildren": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:36.320821+00:00",
-      "bytes": 1097
+      "scrapedAt": "2026-10-04T23:28:27.373167+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:27.373167+00:00",
+      "contentHash": "d3815167d94c1c20f2849580f34d526956a020718334c79c8eb44663c50fa399",
+      "bytes": 1157
     },
     {
       "id": "71eAaBKTbMo6XPLCdtY~Jw",
@@ -1536,8 +1763,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:36.965036+00:00",
-      "bytes": 2577
+      "scrapedAt": "2026-10-04T23:28:27.401374+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:27.401374+00:00",
+      "contentHash": "5d7712e40cfee540c8b533827b0096aa6cc75b82d36671cfca864269416795c7",
+      "bytes": 2599
     },
     {
       "id": "YsrE0ygoBLMbJ0aB6tfQDw",
@@ -1557,8 +1786,10 @@
       "directChildren": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:38.305228+00:00",
-      "bytes": 19549
+      "scrapedAt": "2026-10-04T23:28:27.530387+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:27.530387+00:00",
+      "contentHash": "16f04089d6922916d68a63916b6fc5c4a9ab6aca8dbf1c55bd0300d1758a980e",
+      "bytes": 19326
     },
     {
       "id": "2SbwSoWlZYxvYBaVn9MJew",
@@ -1579,8 +1810,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:39.348325+00:00",
-      "bytes": 14523
+      "scrapedAt": "2026-10-04T23:28:27.591626+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:27.591626+00:00",
+      "contentHash": "8e8219c65ca3fc96905b1917696ffb885ad8481114d95ae9263297164b540c01",
+      "bytes": 14981
     },
     {
       "id": "7~8Z5RF~RGZk7QMxGcX7iw",
@@ -1601,8 +1834,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:40.572430+00:00",
-      "bytes": 20395
+      "scrapedAt": "2026-10-04T23:28:27.664956+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:27.664956+00:00",
+      "contentHash": "28a79d0b61484b594d3b5c576e83fa3ed463a1d940ea36bb2f0cc32062789654",
+      "bytes": 20773
     },
     {
       "id": "yFJ7LeTwqoeTxVYm4yRl6g",
@@ -1623,8 +1858,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:41.863107+00:00",
-      "bytes": 17724
+      "scrapedAt": "2026-10-04T23:28:27.759339+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:27.759339+00:00",
+      "contentHash": "aa8cbd314e90773a773573189345deef5d8f03d32baf888bb9893284c4d27743",
+      "bytes": 18764
     },
     {
       "id": "QXM08KfUhulA7evxm6pJYQ",
@@ -1643,8 +1880,10 @@
       "directChildren": 6,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:42.498560+00:00",
-      "bytes": 1267
+      "scrapedAt": "2026-10-04T23:28:27.785904+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:27.785904+00:00",
+      "contentHash": "55f3166ced2b4ce36281d9ffdce827f0b2acbc7c0975023f6672e714e6d839cd",
+      "bytes": 1324
     },
     {
       "id": "KqzrEvf~ynFYzojnsV6QLg",
@@ -1664,8 +1903,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:43.138895+00:00",
-      "bytes": 2890
+      "scrapedAt": "2026-10-04T23:28:27.810328+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:27.810328+00:00",
+      "contentHash": "f472f248a2bba520eea603d3b331f6146bca1b5101d8983863fe94a152f0e5d1",
+      "bytes": 3757
     },
     {
       "id": "d3p4Yewl9PEUoAJn9oR~Sw",
@@ -1685,8 +1926,10 @@
       "directChildren": 1,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:43.958136+00:00",
-      "bytes": 24646
+      "scrapedAt": "2026-10-04T23:28:27.875855+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:27.875855+00:00",
+      "contentHash": "5b583ff4be8a4ee8948ed35b0b28d11a57304a1938d1183a6e4ac0fd6c82825f",
+      "bytes": 25367
     },
     {
       "id": "9c381pgzV7V4ZZmI1ALLvQ",
@@ -1707,8 +1950,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:44.994920+00:00",
-      "bytes": 13141
+      "scrapedAt": "2026-10-04T23:28:27.924985+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:27.924985+00:00",
+      "contentHash": "bc614b9db65cc3eb9082d9151b29cf92a46631964fdad8bc5d30bbee3f0891b5",
+      "bytes": 13057
     },
     {
       "id": "dGFOn2~mTPj53ttEFdBQNA",
@@ -1728,8 +1973,10 @@
       "directChildren": 1,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:45.687954+00:00",
-      "bytes": 18013
+      "scrapedAt": "2026-10-04T23:28:27.969529+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:27.969529+00:00",
+      "contentHash": "c058116ec61e47201f98969a5af11aec96d0cbc8e50489a2d9978bbb37595400",
+      "bytes": 17819
     },
     {
       "id": "700kuerTqlyFnaByt1Bx3Q",
@@ -1750,8 +1997,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:46.656266+00:00",
-      "bytes": 11240
+      "scrapedAt": "2026-10-04T23:28:28.015597+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:28.015597+00:00",
+      "contentHash": "f6058e2611d76902bfcfa630a56b55e8f13a63a7cf0681cba0ae4b4b8804e3bd",
+      "bytes": 11166
     },
     {
       "id": "dPEl2ehUTaTVSXGo76rtPg",
@@ -1771,8 +2020,10 @@
       "directChildren": 1,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:47.356723+00:00",
-      "bytes": 10917
+      "scrapedAt": "2026-10-04T23:28:28.052295+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:28.052295+00:00",
+      "contentHash": "c353eb7aba41ca06e2948dded77b9520d61f14cac4780d394f7505b193dd4315",
+      "bytes": 10810
     },
     {
       "id": "Ucb9PwMLEc03_l8gKEa5Yg",
@@ -1793,8 +2044,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:48.324388+00:00",
-      "bytes": 10985
+      "scrapedAt": "2026-10-04T23:28:28.099942+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:28.099942+00:00",
+      "contentHash": "44fba4c7bb40a5fe3832b46aa1788d224312d1b9b90c9fa5a4b399bf7f2a49a0",
+      "bytes": 10942
     },
     {
       "id": "GtOc_csY7NqtdUYPDS8MIQ",
@@ -1814,8 +2067,10 @@
       "directChildren": 1,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:48.960748+00:00",
-      "bytes": 4999
+      "scrapedAt": "2026-10-04T23:28:28.129015+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:28.129015+00:00",
+      "contentHash": "1a67d27fc90f1dc698975f36c1eecd0aeb6c485a566de7157e2322c122b24492",
+      "bytes": 4970
     },
     {
       "id": "k5FSWYxSWRa0gm_5FwCV~w",
@@ -1836,8 +2091,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:49.577365+00:00",
-      "bytes": 5781
+      "scrapedAt": "2026-10-04T23:28:28.157554+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:28.157554+00:00",
+      "contentHash": "fe05ad3bcb43ba5dce13b8bcf3bf2a237782b24f11a037f090d18904bf3ab4a0",
+      "bytes": 5762
     },
     {
       "id": "XGKfOvc9ABeKvPDpPrb2Bw",
@@ -1857,8 +2114,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:50.298544+00:00",
-      "bytes": 6162
+      "scrapedAt": "2026-10-04T23:28:28.197040+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:28.197040+00:00",
+      "contentHash": "ce5358b454ca288549910f95b62c79a00e6e253f480bd7642cf6b96b2b1cbc79",
+      "bytes": 6161
     },
     {
       "id": "iQRzb_UjEioIEq~Ab9vgqA",
@@ -1876,8 +2135,10 @@
       "directChildren": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:50.908071+00:00",
-      "bytes": 1049
+      "scrapedAt": "2026-10-04T23:28:28.221946+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:28.221946+00:00",
+      "contentHash": "8aed10519f29391b4a9b09b0f54df255c330885ba8f1408d8cd49515033b0300",
+      "bytes": 1115
     },
     {
       "id": "_1wDL1my_AaKDp~O2J4yeA",
@@ -1896,8 +2157,10 @@
       "directChildren": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:51.542735+00:00",
-      "bytes": 1010
+      "scrapedAt": "2026-10-04T23:28:28.239897+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:28.239897+00:00",
+      "contentHash": "7600f906fe339919c12d63a7cd7994a301dd5945160428332b1580a3941ee9cf",
+      "bytes": 1072
     },
     {
       "id": "BERthcYuD_buVxKdCNYYwQ",
@@ -1917,8 +2180,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:52.172809+00:00",
-      "bytes": 1194
+      "scrapedAt": "2026-10-04T23:28:28.259209+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:28.259209+00:00",
+      "contentHash": "d73b36cbf0bc06916727a01da3c35e8b792cd1d577b9e1cfc70514a401ded0c6",
+      "bytes": 1246
     },
     {
       "id": "8R1aCX26R7LClWR~u9zyaA",
@@ -1938,8 +2203,10 @@
       "directChildren": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:56.893062+00:00",
-      "bytes": 17165
+      "scrapedAt": "2026-10-04T23:28:28.393340+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:28.393340+00:00",
+      "contentHash": "c4826d75a76eaa9b126a9c90cf2d6ccae54851760bd89f07fabfb2ff2be97111",
+      "bytes": 17011
     },
     {
       "id": "gqiMobU4ULgUBn4Ajk0WhQ",
@@ -1960,8 +2227,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:47:58.973212+00:00",
-      "bytes": 12751
+      "scrapedAt": "2026-10-04T23:28:28.480217+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:28.480217+00:00",
+      "contentHash": "99eb7d0639183a7037468b7b5db1fef3d26a92409554111100df4a4802666f79",
+      "bytes": 12613
     },
     {
       "id": "gGZvWW7RDJcqjKddtQOp9Q",
@@ -1982,8 +2251,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:01.056038+00:00",
-      "bytes": 13898
+      "scrapedAt": "2026-10-04T23:28:28.567967+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:28.567967+00:00",
+      "contentHash": "0f3306206186aff7ae17effdd496f30e94b6146c77c43410f04fae876fe9d361",
+      "bytes": 13748
     },
     {
       "id": "Iw324xH3zW4TMJQZBckrtw",
@@ -2004,8 +2275,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:03.462171+00:00",
-      "bytes": 14853
+      "scrapedAt": "2026-10-04T23:28:28.688983+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:28.688983+00:00",
+      "contentHash": "e6d6a0d00e01997c52ca3f399c29c583a177ce6e1a000ff5a4fd1e2bb6a5a418",
+      "bytes": 15297
     },
     {
       "id": "bfTbPgIts6V2mCceUbL6vA",
@@ -2024,8 +2297,10 @@
       "directChildren": 6,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:04.076334+00:00",
-      "bytes": 1048
+      "scrapedAt": "2026-10-04T23:28:28.713700+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:28.713700+00:00",
+      "contentHash": "394a330dede2448529f445a5af79107b567784a4a519b5ed23bf08b9352fc471",
+      "bytes": 1103
     },
     {
       "id": "vEr4YZrSbEFnyYxynqSzzg",
@@ -2045,8 +2320,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:04.709666+00:00",
-      "bytes": 7022
+      "scrapedAt": "2026-10-04T23:28:28.741628+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:28.741628+00:00",
+      "contentHash": "597e543e6ac4065dc5b5e1b54dbdbad8b77454927e3e61bb2c155dfaadeebbfc",
+      "bytes": 7000
     },
     {
       "id": "f2zGV_v5_yTOMY8WeMUeyw",
@@ -2066,8 +2343,10 @@
       "directChildren": 1,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:05.437177+00:00",
-      "bytes": 21394
+      "scrapedAt": "2026-10-04T23:28:28.810846+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:28.810846+00:00",
+      "contentHash": "fec9c27949597956ae4225e9c7e867c258e247e81dc1dbe10120fa95b0a6c6d0",
+      "bytes": 21454
     },
     {
       "id": "lhv1OV1yiNnMnTgy3a8iQQ",
@@ -2088,8 +2367,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:06.432333+00:00",
-      "bytes": 13561
+      "scrapedAt": "2026-10-04T23:28:28.878287+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:28.878287+00:00",
+      "contentHash": "a35c1c38eb07045ddbb0a51587b4be893fdaa8df199c174ca6d275e94b2f7ee0",
+      "bytes": 13449
     },
     {
       "id": "chYvhUEMaCkHVaZETnX1cw",
@@ -2109,8 +2390,10 @@
       "directChildren": 1,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:07.154703+00:00",
-      "bytes": 13514
+      "scrapedAt": "2026-10-04T23:28:28.935810+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:28.935810+00:00",
+      "contentHash": "8a25aac0a3407d8944836ee000ace47f05a5d9e6f6ce5240aa190db30fd517b1",
+      "bytes": 13386
     },
     {
       "id": "C7VZ8BRfyKyiCgBJ1FnQiQ",
@@ -2131,8 +2414,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:08.101347+00:00",
-      "bytes": 11243
+      "scrapedAt": "2026-10-04T23:28:28.982804+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:28.982804+00:00",
+      "contentHash": "e09bc6a3fcd4566512f77e125236e907ed6b3fc9891a23b8d7b64feff9ab1abe",
+      "bytes": 11165
     },
     {
       "id": "3QO4fKpI7QGppwJAdC_oUQ",
@@ -2152,8 +2437,10 @@
       "directChildren": 1,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:08.815839+00:00",
-      "bytes": 10975
+      "scrapedAt": "2026-10-04T23:28:29.029559+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:29.029559+00:00",
+      "contentHash": "c5adfecc27e9ba03d2c4c1410ce6938f6d2e1e5ff610d4b4c37063e1cf868497",
+      "bytes": 10877
     },
     {
       "id": "ln~l1Ogf~wIMEl06k2Ivxg",
@@ -2174,8 +2461,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:09.766947+00:00",
-      "bytes": 13166
+      "scrapedAt": "2026-10-04T23:28:29.071589+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:29.071589+00:00",
+      "contentHash": "acb6f6ea5fcd5eb1f5ebf63bb5d1203eac6dd3f8309c00a162ca5cf9aabbe378",
+      "bytes": 13090
     },
     {
       "id": "sOLCcTu0DQmnYQnzok7Zag",
@@ -2195,8 +2484,10 @@
       "directChildren": 1,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:10.386197+00:00",
-      "bytes": 6173
+      "scrapedAt": "2026-10-04T23:28:29.104743+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:29.104743+00:00",
+      "contentHash": "c80aaaaeeb33b9780a64767af1dc5772d8bf5473436afd733ea9ce5e206624b4",
+      "bytes": 6125
     },
     {
       "id": "j64fe2dvddV8CqJ282qvmw",
@@ -2217,8 +2508,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:11.102295+00:00",
-      "bytes": 7900
+      "scrapedAt": "2026-10-04T23:28:29.136691+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:29.136691+00:00",
+      "contentHash": "4610799a09c9fbcf620a6266232cf662c8e8ff22c9c591613e529219a79960d4",
+      "bytes": 7830
     },
     {
       "id": "QaUepVRb9NsYmMamWxQvtg",
@@ -2238,8 +2531,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:11.746184+00:00",
-      "bytes": 6018
+      "scrapedAt": "2026-10-04T23:28:29.173651+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:29.173651+00:00",
+      "contentHash": "4739c588c29c84e71fb1bf53e7bff935541f21eac9a0843c5efc5ff7c013f8a8",
+      "bytes": 6003
     },
     {
       "id": "xFF8dmU2ReSqA4Gl4QUmYw",
@@ -2257,8 +2552,10 @@
       "directChildren": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:12.375160+00:00",
-      "bytes": 1078
+      "scrapedAt": "2026-10-04T23:28:29.197074+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:29.197074+00:00",
+      "contentHash": "9326199e8395471eb2c007ee288f9adcb01d0838bf60db2c009ceb03773dee41",
+      "bytes": 1144
     },
     {
       "id": "it6KfZwL8o8~Ark7ZLFiQQ",
@@ -2277,8 +2574,10 @@
       "directChildren": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:12.996473+00:00",
-      "bytes": 1189
+      "scrapedAt": "2026-10-04T23:28:29.215633+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:29.215633+00:00",
+      "contentHash": "14f0a0de74db4a83ee9859c472b2e684f56b0598a0398ccc0af088fe7a58c519",
+      "bytes": 1249
     },
     {
       "id": "uocGvKIzKWDtfbyxHCAsCA",
@@ -2298,8 +2597,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:13.731272+00:00",
-      "bytes": 7718
+      "scrapedAt": "2026-10-04T23:28:29.248594+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:29.248594+00:00",
+      "contentHash": "014fd783859c3b5a964944b06e4933447763b85aaf8b755b9d62283325945058",
+      "bytes": 7675
     },
     {
       "id": "f~4Cdg1hZugZkc1IBU6KTg",
@@ -2319,8 +2620,10 @@
       "directChildren": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:16.615933+00:00",
-      "bytes": 17204
+      "scrapedAt": "2026-10-04T23:28:29.510272+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:29.510272+00:00",
+      "contentHash": "e474e0816c8eaee2ed0a2a2b630fe291b0a998f92012735815477cf23c9a27a1",
+      "bytes": 17034
     },
     {
       "id": "9WQjns46Kq7_mizxDQN8kA",
@@ -2341,8 +2644,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:51:12.232283+00:00",
-      "bytes": 11060
+      "scrapedAt": "2026-10-04T23:28:29.575214+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:29.575214+00:00",
+      "contentHash": "5eb90c21af6d4c7802ab95dfd2691c83eb8516aafbe006c0b5c3060ab6ac7f3e",
+      "bytes": 10922
     },
     {
       "id": "F3eJYFQ7i7aYYMYefPRpng",
@@ -2363,8 +2668,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:51:13.545281+00:00",
-      "bytes": 10516
+      "scrapedAt": "2026-10-04T23:28:29.651094+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:29.651094+00:00",
+      "contentHash": "f6a8fd224a294edfad570a60e5646a28f8c42cb4b30b43b9890a23ec5fbbed1c",
+      "bytes": 10390
     },
     {
       "id": "Xt8r~qIfj0LHHEfLYiRXOw",
@@ -2385,8 +2692,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:51:14.810530+00:00",
-      "bytes": 12126
+      "scrapedAt": "2026-10-04T23:28:29.727607+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:29.727607+00:00",
+      "contentHash": "ba5712ac3648a9c6fcb958a0fb267290f1ef0d07db50d003a8ec15bb2d988cff",
+      "bytes": 12580
     },
     {
       "id": "4yDI7g0nupyTjYF8a_C8_g",
@@ -2405,8 +2714,10 @@
       "directChildren": 6,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:21.218429+00:00",
-      "bytes": 1232
+      "scrapedAt": "2026-10-04T23:28:29.751792+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:29.751792+00:00",
+      "contentHash": "1baa6f70cf3aa84dd8e3d04b6d7cd6e7c6bd56bb0df6c01480b529338ab8329c",
+      "bytes": 1288
     },
     {
       "id": "WYO_33ZWrl5SagC0bfg2cQ",
@@ -2426,8 +2737,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:21.935847+00:00",
-      "bytes": 12045
+      "scrapedAt": "2026-10-04T23:28:29.791344+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:29.791344+00:00",
+      "contentHash": "920f0c2b0ba4d2875dad847cba9fc85ececee7391b0a446f629ede13ae5f74a4",
+      "bytes": 11951
     },
     {
       "id": "vHXxGhhAyXCi9TyA84do~w",
@@ -2447,8 +2760,10 @@
       "directChildren": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:22.730543+00:00",
-      "bytes": 25323
+      "scrapedAt": "2026-10-04T23:28:29.844211+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:29.844211+00:00",
+      "contentHash": "fa79a01dc37f302fae2299485308c5d1c38f7a16daddca4bd0b363c5ef980d01",
+      "bytes": 26011
     },
     {
       "id": "HrMeUNswHZgiZKoURhNKgA",
@@ -2469,8 +2784,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:23.612605+00:00",
-      "bytes": 11593
+      "scrapedAt": "2026-10-04T23:28:29.888752+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:29.888752+00:00",
+      "contentHash": "f4ced3e2604de5694e7db474b34608fff6ee227b5a31a81f6e4c230f29a18553",
+      "bytes": 11506
     },
     {
       "id": "iLxbDGWLqUXP73b7~sVVCQ",
@@ -2491,8 +2808,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:24.234140+00:00",
-      "bytes": 2155
+      "scrapedAt": "2026-10-04T23:28:29.915027+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:29.915027+00:00",
+      "contentHash": "198757297798c20d00070e9cb906cc12c279433948f1bab1001af476ff18df65",
+      "bytes": 2202
     },
     {
       "id": "Vogk8UFLaKNiLhwRVR7hIg",
@@ -2512,8 +2831,10 @@
       "directChildren": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:25.045145+00:00",
-      "bytes": 16150
+      "scrapedAt": "2026-10-04T23:28:29.958021+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:29.958021+00:00",
+      "contentHash": "063473ee266b5dfcc0ed5658e865c5679917a482b8e7f4dcac7c1d4f54aa6745",
+      "bytes": 15938
     },
     {
       "id": "rmrEvYiPwOAyo0t1eVaJ5w",
@@ -2534,8 +2855,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:25.941379+00:00",
-      "bytes": 8669
+      "scrapedAt": "2026-10-04T23:28:29.994922+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:29.994922+00:00",
+      "contentHash": "dde2dfe991f60a47ab89b7c96ab5dad0ccd99a67fc682fe58c101733b992e22e",
+      "bytes": 8624
     },
     {
       "id": "saAsqcp_GaAPD~XwTZwvCw",
@@ -2556,8 +2879,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:26.563222+00:00",
-      "bytes": 1377
+      "scrapedAt": "2026-10-04T23:28:30.018708+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:30.018708+00:00",
+      "contentHash": "a8db62c3f3229e5ba1a02fabb223618b36a211350f733e148b254a2227150321",
+      "bytes": 1432
     },
     {
       "id": "EHp9b_mEnoivm_8zBR94Ew",
@@ -2577,8 +2902,10 @@
       "directChildren": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:27.369571+00:00",
-      "bytes": 12829
+      "scrapedAt": "2026-10-04T23:28:30.060475+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:30.060475+00:00",
+      "contentHash": "a77ca606c1b16e0982e5594249cdbebf0b4efa3fe59953e64e41a19d524557b9",
+      "bytes": 12681
     },
     {
       "id": "Iw9Ymue26epLx_uBvG6y6Q",
@@ -2599,8 +2926,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:28.247536+00:00",
-      "bytes": 11848
+      "scrapedAt": "2026-10-04T23:28:30.098687+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:30.098687+00:00",
+      "contentHash": "fb8656bd9c0546f382fb9f278cf8ac1901aa5eb3a124617d1e28c7b8c7db4841",
+      "bytes": 11797
     },
     {
       "id": "hNzwHRP2ZF1qW5UXQaGNUw",
@@ -2621,8 +2950,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:28.887352+00:00",
-      "bytes": 1561
+      "scrapedAt": "2026-10-04T23:28:30.123021+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:30.123021+00:00",
+      "contentHash": "684f5210b9a0f6e1b2450dc56e4973266ed38ebf40521f4f214b04f79dba1cf3",
+      "bytes": 1615
     },
     {
       "id": "QP7DhnK0me9Si8QutqBYZQ",
@@ -2642,8 +2973,10 @@
       "directChildren": 1,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:29.487814+00:00",
-      "bytes": 5079
+      "scrapedAt": "2026-10-04T23:28:30.146924+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:30.146924+00:00",
+      "contentHash": "3885d6c212ba4e78d9f3261151e3ac76abfc39d307c52f5db1b697e6a31846e5",
+      "bytes": 5038
     },
     {
       "id": "Doq~ovl5hDKZHjdfgEzcgg",
@@ -2664,8 +2997,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:30.194286+00:00",
-      "bytes": 9267
+      "scrapedAt": "2026-10-04T23:28:30.180265+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:30.180265+00:00",
+      "contentHash": "283b149cc48b5eb89440a87c5c2ed051f0df745b174721a8f02207d9bf5aa7e6",
+      "bytes": 9217
     },
     {
       "id": "wsA8K_vVwdOSxGJalg6c3A",
@@ -2685,37 +3020,41 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:30.870685+00:00",
-      "bytes": 6372
+      "scrapedAt": "2026-10-04T23:28:30.209957+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:30.209957+00:00",
+      "contentHash": "5dc9b9285332ddfad0db9c2bf8615238bbe47326eefd49b36f2c6dd409442470",
+      "bytes": 6375
     },
     {
       "id": "zAv0lvHqHiEx3PqXIiB~kg",
       "tocId": "MEmDAn9GTjvoOg6Ngg2ENA",
-      "title": "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+      "title": "Jenkins Integrations",
       "path": [
-        "Jenkins - Black Duck Security Scan Plugin for Jenkins"
+        "Jenkins Integrations"
       ],
-      "section": "Jenkins - Black Duck Security Scan Plugin for Jenkins",
-      "prettyUrl": "/r/bridge/latest/bridge-cli-guide/jenkins-black-duck-security-scan-plugin-for-jenkins.html",
-      "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/jenkins-black-duck-security-scan-plugin-for-jenkins.html",
+      "section": "Jenkins Integrations",
+      "prettyUrl": "/r/bridge/latest/bridge-cli-guide/jenkins-integrations.html",
+      "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/jenkins-integrations.html",
       "localPath": "docs/jenkins-black-duck-security-scan-plugin-for-jenkins.md",
       "depth": 1,
       "hasChildren": true,
       "directChildren": 7,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:31.476285+00:00",
-      "bytes": 1402
+      "scrapedAt": "2026-10-04T23:28:30.233753+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:30.233753+00:00",
+      "contentHash": "e916609ac246ce6ae6e20c1a047ef81e8ab5868461c7452f4d2fe86559bde3c6",
+      "bytes": 1361
     },
     {
       "id": "PcShe~_tx~T29l3UKxaQcQ",
       "tocId": "D6K4hPp2_UsFZ7d82g~g4w",
       "title": "Jenkins prerequisites",
       "path": [
-        "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+        "Jenkins Integrations",
         "Jenkins prerequisites"
       ],
-      "section": "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+      "section": "Jenkins Integrations",
       "prettyUrl": "/r/bridge/latest/bridge-cli-guide/jenkins-prerequisites.html",
       "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/jenkins-prerequisites.html",
       "localPath": "docs/jenkins-black-duck-security-scan-plugin-for-jenkins/jenkins-prerequisites.md",
@@ -2724,19 +3063,21 @@
       "directChildren": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:32.086596+00:00",
-      "bytes": 933
+      "scrapedAt": "2026-10-04T23:28:30.253322+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:30.253322+00:00",
+      "contentHash": "88cbfb7b8813930e24031be16cf7a23c6cfc9cd55c80302f8f37708810da8075",
+      "bytes": 955
     },
     {
       "id": "41WGODcOTgZI1ihz3o7aFQ",
       "tocId": "rcs5dUREhfrQWsZXFBLsPg",
       "title": "Configuring Bitbucket",
       "path": [
-        "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+        "Jenkins Integrations",
         "Jenkins prerequisites",
         "Configuring Bitbucket"
       ],
-      "section": "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+      "section": "Jenkins Integrations",
       "prettyUrl": "/r/bridge/latest/bridge-cli-guide/configuring-bitbucket.html",
       "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/configuring-bitbucket.html",
       "localPath": "docs/jenkins-black-duck-security-scan-plugin-for-jenkins/jenkins-prerequisites/configuring-bitbucket.md",
@@ -2745,19 +3086,21 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:32.786593+00:00",
-      "bytes": 5229
+      "scrapedAt": "2026-10-04T23:28:30.281663+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:30.281663+00:00",
+      "contentHash": "1b3a0bca87c3ff24ac16514bb1fe6fca5d222a1c0e4ba352d23af661d616aafd",
+      "bytes": 5196
     },
     {
       "id": "_s3hCdcRFHJdV_Jf6jO1tA",
       "tocId": "6qgJbgFiHQ9Dj03ye8o3QA",
       "title": "Configuring GitHub",
       "path": [
-        "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+        "Jenkins Integrations",
         "Jenkins prerequisites",
         "Configuring GitHub"
       ],
-      "section": "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+      "section": "Jenkins Integrations",
       "prettyUrl": "/r/bridge/latest/bridge-cli-guide/configuring-github.html",
       "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/configuring-github.html",
       "localPath": "docs/jenkins-black-duck-security-scan-plugin-for-jenkins/jenkins-prerequisites/configuring-github.md",
@@ -2766,19 +3109,21 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:33.399842+00:00",
-      "bytes": 1680
+      "scrapedAt": "2026-10-04T23:28:30.304278+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:30.304278+00:00",
+      "contentHash": "cf3b064ef4db953504732d478002e11d3240b1ae554bc5f929d6854a784d5cb3",
+      "bytes": 1689
     },
     {
       "id": "OMwtry3pg7r_hQuxgno82w",
       "tocId": "sjc5EU_6DI7RElqjz2lIBA",
       "title": "Configuring GitLab",
       "path": [
-        "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+        "Jenkins Integrations",
         "Jenkins prerequisites",
         "Configuring GitLab"
       ],
-      "section": "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+      "section": "Jenkins Integrations",
       "prettyUrl": "/r/bridge/latest/bridge-cli-guide/configuring-gitlab.html",
       "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/configuring-gitlab.html",
       "localPath": "docs/jenkins-black-duck-security-scan-plugin-for-jenkins/jenkins-prerequisites/configuring-gitlab.md",
@@ -2787,18 +3132,20 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:34.024552+00:00",
-      "bytes": 1646
+      "scrapedAt": "2026-10-04T23:28:30.324513+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:30.324513+00:00",
+      "contentHash": "31147db677bb0383575a6e2ac3f3cb33fa9db5a4c40ee8b9c904d0cf8dd0f35e",
+      "bytes": 1653
     },
     {
       "id": "agoBKU5RlQQuyulDeyqdog",
       "tocId": "x5FFmZ52ALfpKTJXxocVIw",
       "title": "Get started with Black Duck Security Scan Plugin for Jenkins",
       "path": [
-        "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+        "Jenkins Integrations",
         "Get started with Black Duck Security Scan Plugin for Jenkins"
       ],
-      "section": "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+      "section": "Jenkins Integrations",
       "prettyUrl": "/r/bridge/latest/bridge-cli-guide/get-started-with-black-duck-security-scan-plugin-for-jenkins.html",
       "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/get-started-with-black-duck-security-scan-plugin-for-jenkins.html",
       "localPath": "docs/jenkins-black-duck-security-scan-plugin-for-jenkins/get-started-with-black-duck-security-scan-plugin-for-jenkins.md",
@@ -2807,19 +3154,21 @@
       "directChildren": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:34.993561+00:00",
-      "bytes": 6398
+      "scrapedAt": "2026-10-04T23:28:30.365118+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:30.365118+00:00",
+      "contentHash": "934ae9b1e4289863338c802a47dd113bd5a4d6130b29331cf6e03f4a5932d78a",
+      "bytes": 6313
     },
     {
       "id": "qyeJCmOFIODUwLZsaRPs6g",
       "tocId": "g2ldPDgyqKHA_cnI9i56Jw",
       "title": "Create a multibranch pipeline job in your Jenkins instance",
       "path": [
-        "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+        "Jenkins Integrations",
         "Get started with Black Duck Security Scan Plugin for Jenkins",
         "Create a multibranch pipeline job in your Jenkins instance"
       ],
-      "section": "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+      "section": "Jenkins Integrations",
       "prettyUrl": "/r/bridge/latest/bridge-cli-guide/create-a-multibranch-pipeline-job-in-your-jenkins-instance.html",
       "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/create-a-multibranch-pipeline-job-in-your-jenkins-instance.html",
       "localPath": "docs/jenkins-black-duck-security-scan-plugin-for-jenkins/get-started-with-black-duck-security-scan-plugin-for-jenkins/create-a-multibranch-pipeline-job-in-your-jenkins-instance.md",
@@ -2828,19 +3177,21 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:35.607099+00:00",
-      "bytes": 3026
+      "scrapedAt": "2026-10-04T23:28:30.388766+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:30.388766+00:00",
+      "contentHash": "d1b08a05234f81ad692c69e59846a319b04802462c18faf79ebdc40a7b383797",
+      "bytes": 2990
     },
     {
       "id": "s0cFs4NcgZBNWwua7O2EqQ",
       "tocId": "LihH50BzhsxlZx2L5nZlyg",
       "title": "Create a freestyle job in your Jenkins instance",
       "path": [
-        "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+        "Jenkins Integrations",
         "Get started with Black Duck Security Scan Plugin for Jenkins",
         "Create a freestyle job in your Jenkins instance"
       ],
-      "section": "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+      "section": "Jenkins Integrations",
       "prettyUrl": "/r/bridge/latest/bridge-cli-guide/create-a-freestyle-job-in-your-jenkins-instance.html",
       "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/create-a-freestyle-job-in-your-jenkins-instance.html",
       "localPath": "docs/jenkins-black-duck-security-scan-plugin-for-jenkins/get-started-with-black-duck-security-scan-plugin-for-jenkins/create-a-freestyle-job-in-your-jenkins-instance.md",
@@ -2849,19 +3200,21 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:36.228284+00:00",
-      "bytes": 3011
+      "scrapedAt": "2026-10-04T23:28:30.416328+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:30.416328+00:00",
+      "contentHash": "ae87f81f0a1aaf6bb8c8a0d48ebd009b44b2861db966091377be73430c53ccb6",
+      "bytes": 3000
     },
     {
       "id": "CTM6UmVhuMa7WiKO_UN~2g",
       "tocId": "XSsQyXy8oeXA6HO4LVsxKA",
       "title": "Create a pipeline job in your Jenkins instance",
       "path": [
-        "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+        "Jenkins Integrations",
         "Get started with Black Duck Security Scan Plugin for Jenkins",
         "Create a pipeline job in your Jenkins instance"
       ],
-      "section": "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+      "section": "Jenkins Integrations",
       "prettyUrl": "/r/bridge/latest/bridge-cli-guide/create-a-pipeline-job-in-your-jenkins-instance.html",
       "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/create-a-pipeline-job-in-your-jenkins-instance.html",
       "localPath": "docs/jenkins-black-duck-security-scan-plugin-for-jenkins/get-started-with-black-duck-security-scan-plugin-for-jenkins/create-a-pipeline-job-in-your-jenkins-instance.md",
@@ -2870,18 +3223,20 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:36.848848+00:00",
-      "bytes": 2579
+      "scrapedAt": "2026-10-04T23:28:30.444780+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:30.444780+00:00",
+      "contentHash": "20b516fe51addc6d17016f96a29268f29baf22a1b3a7eb631397662b999cbb8f",
+      "bytes": 2562
     },
     {
       "id": "xbq1NjuyLXf2Xv9EM1M0yw",
       "tocId": "d9uZrNI40RhKGG~r9GsLRw",
       "title": "Using the Black Duck Security Scan Plugin with Polaris",
       "path": [
-        "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+        "Jenkins Integrations",
         "Using the Black Duck Security Scan Plugin with Polaris"
       ],
-      "section": "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+      "section": "Jenkins Integrations",
       "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-scan-plugin-with-polaris.html",
       "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-scan-plugin-with-polaris.html",
       "localPath": "docs/jenkins-black-duck-security-scan-plugin-for-jenkins/using-the-black-duck-security-scan-plugin-with-polaris.md",
@@ -2890,19 +3245,21 @@
       "directChildren": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:37.563272+00:00",
-      "bytes": 12287
+      "scrapedAt": "2026-10-04T23:28:30.495651+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:30.495651+00:00",
+      "contentHash": "34fdb7dab556d1f44ac3d97521c8de17d66eb10992b967cd35e380587941ea24",
+      "bytes": 14466
     },
     {
       "id": "psQK~~k9LjK05YhztV468g",
       "tocId": "Nf6gCpFI_AQyi8lhtwDSRg",
       "title": "Multibranch pipeline",
       "path": [
-        "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+        "Jenkins Integrations",
         "Using the Black Duck Security Scan Plugin with Polaris",
         "Multibranch pipeline"
       ],
-      "section": "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+      "section": "Jenkins Integrations",
       "prettyUrl": "/r/bridge/latest/bridge-cli-guide/multibranch-pipeline.html",
       "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/multibranch-pipeline.html",
       "localPath": "docs/jenkins-black-duck-security-scan-plugin-for-jenkins/using-the-black-duck-security-scan-plugin-with-polaris/multibranch-pipeline.md",
@@ -2911,19 +3268,21 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:38.274584+00:00",
-      "bytes": 13631
+      "scrapedAt": "2026-10-04T23:28:30.521280+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:30.521280+00:00",
+      "contentHash": "0d4bbaa55a20174511ac1b87f1edb0d60a55bf9d33115c869818d6e0cd289839",
+      "bytes": 15396
     },
     {
       "id": "DArwSyn0S1rUURa1nSf4aQ",
       "tocId": "pErk1hi~HOP9izegj6VhpQ",
       "title": "Pipeline",
       "path": [
-        "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+        "Jenkins Integrations",
         "Using the Black Duck Security Scan Plugin with Polaris",
         "Pipeline"
       ],
-      "section": "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+      "section": "Jenkins Integrations",
       "prettyUrl": "/r/bridge/latest/bridge-cli-guide/pipeline.html",
       "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/pipeline.html",
       "localPath": "docs/jenkins-black-duck-security-scan-plugin-for-jenkins/using-the-black-duck-security-scan-plugin-with-polaris/pipeline.md",
@@ -2932,19 +3291,21 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:38.928230+00:00",
-      "bytes": 5682
+      "scrapedAt": "2026-10-04T23:28:30.552781+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:30.552781+00:00",
+      "contentHash": "83953fd4d214690ae8b1c1c02ab39854ed429842696e54af7648a6022f519589",
+      "bytes": 6566
     },
     {
       "id": "xdcjg22VAMpPXrRrY9MGBw",
       "tocId": "~CoSjLIpVhAM81Ke49wk0A",
       "title": "Quickstart: Jenkins Black Duck Security Scan Plugin with Polaris",
       "path": [
-        "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+        "Jenkins Integrations",
         "Using the Black Duck Security Scan Plugin with Polaris",
         "Quickstart: Jenkins Black Duck Security Scan Plugin with Polaris"
       ],
-      "section": "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+      "section": "Jenkins Integrations",
       "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-jenkins-black-duck-security-scan-plugin-with-polaris.html",
       "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickstart-jenkins-black-duck-security-scan-plugin-with-polaris.html",
       "localPath": "docs/jenkins-black-duck-security-scan-plugin-for-jenkins/using-the-black-duck-security-scan-plugin-with-polaris/quickstart-jenkins-black-duck-security-scan-plugin-with-polaris.md",
@@ -2953,18 +3314,20 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:39.872707+00:00",
-      "bytes": 10069
+      "scrapedAt": "2026-10-04T23:28:30.597245+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:30.597245+00:00",
+      "contentHash": "0e9e99b715d67d2272eef5c0a1244b41ddefa11e017ef0953190b8a33fb15dc0",
+      "bytes": 9981
     },
     {
       "id": "Q05y_NWq64XNbDVYDabodA",
       "tocId": "0FcDnlf~SfZ0Zg~UFgSBaw",
       "title": "Using the Black Duck Security Scan Plugin with Black Duck SCA",
       "path": [
-        "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+        "Jenkins Integrations",
         "Using the Black Duck Security Scan Plugin with Black Duck SCA"
       ],
-      "section": "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+      "section": "Jenkins Integrations",
       "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-scan-plugin-with-black-duck-sca.html",
       "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-scan-plugin-with-black-duck-sca.html",
       "localPath": "docs/jenkins-black-duck-security-scan-plugin-for-jenkins/using-the-black-duck-security-scan-plugin-with-black-duck-sca.md",
@@ -2973,19 +3336,21 @@
       "directChildren": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:40.591401+00:00",
-      "bytes": 7495
+      "scrapedAt": "2026-10-04T23:28:30.638353+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:30.638353+00:00",
+      "contentHash": "7e44ce79684f7a34e00a1b6034661f77979f8f9b23327e5c5cc8fae63b93ea39",
+      "bytes": 7482
     },
     {
       "id": "LPnnyVxe_LZkQtddIVhp4A",
       "tocId": "eC1bteo0GR_IgRSTIamH3w",
       "title": "Multibranch pipeline",
       "path": [
-        "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+        "Jenkins Integrations",
         "Using the Black Duck Security Scan Plugin with Black Duck SCA",
         "Multibranch pipeline"
       ],
-      "section": "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+      "section": "Jenkins Integrations",
       "prettyUrl": "/r/bridge/latest/bridge-cli-guide/multibranch-pipeline.html",
       "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/multibranch-pipeline.html",
       "localPath": "docs/jenkins-black-duck-security-scan-plugin-for-jenkins/using-the-black-duck-security-scan-plugin-with-black-duck-sca/multibranch-pipeline.md",
@@ -2994,19 +3359,21 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:41.213545+00:00",
-      "bytes": 10070
+      "scrapedAt": "2026-10-04T23:28:30.663017+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:30.663017+00:00",
+      "contentHash": "8adae7c225b3a4fbfdbe857862d830de6a9d4fe704875ddeeb6713e515839f76",
+      "bytes": 9899
     },
     {
       "id": "g8Q3~NtOVq7shGyCsJWbdA",
       "tocId": "jHgEYdHdLwLpSgPHY~9D1Q",
       "title": "Pipeline",
       "path": [
-        "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+        "Jenkins Integrations",
         "Using the Black Duck Security Scan Plugin with Black Duck SCA",
         "Pipeline"
       ],
-      "section": "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+      "section": "Jenkins Integrations",
       "prettyUrl": "/r/bridge/latest/bridge-cli-guide/pipeline.html",
       "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/pipeline.html",
       "localPath": "docs/jenkins-black-duck-security-scan-plugin-for-jenkins/using-the-black-duck-security-scan-plugin-with-black-duck-sca/pipeline.md",
@@ -3015,19 +3382,21 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:41.820579+00:00",
-      "bytes": 2763
+      "scrapedAt": "2026-10-04T23:28:30.692877+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:30.692877+00:00",
+      "contentHash": "f2bd60b892c54e421d59b7756699d0a8cd698a64b75f6cd3f3421012c3961642",
+      "bytes": 2743
     },
     {
       "id": "0VGNuu08vFBAN~c4AhmRPw",
       "tocId": "UQ_YNwnpX8C5R2ZwXRfCTQ",
       "title": "Quickstart: Jenkins Black Duck Security Scan Plugin with Black Duck SCA",
       "path": [
-        "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+        "Jenkins Integrations",
         "Using the Black Duck Security Scan Plugin with Black Duck SCA",
         "Quickstart: Jenkins Black Duck Security Scan Plugin with Black Duck SCA"
       ],
-      "section": "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+      "section": "Jenkins Integrations",
       "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-jenkins-black-duck-security-scan-plugin-with-black-duck-sca.html",
       "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickstart-jenkins-black-duck-security-scan-plugin-with-black-duck-sca.html",
       "localPath": "docs/jenkins-black-duck-security-scan-plugin-for-jenkins/using-the-black-duck-security-scan-plugin-with-black-duck-sca/quickstart-jenkins-black-duck-security-scan-plugin-with-black-duck-sca.md",
@@ -3036,18 +3405,20 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:42.699347+00:00",
-      "bytes": 8636
+      "scrapedAt": "2026-10-04T23:28:30.729811+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:30.729811+00:00",
+      "contentHash": "1514fb02a346bd7370f17937661fc754be5f645cb34c73097de88fc927f6fb52",
+      "bytes": 8574
     },
     {
       "id": "d9GyXZQD6xmHZ9UncmbR0w",
       "tocId": "51h_8ItZQ3uvohsjalJFGg",
       "title": "Using the Black Duck Security Scan Plugin with Coverity",
       "path": [
-        "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+        "Jenkins Integrations",
         "Using the Black Duck Security Scan Plugin with Coverity"
       ],
-      "section": "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+      "section": "Jenkins Integrations",
       "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-scan-plugin-with-coverity.html",
       "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-scan-plugin-with-coverity.html",
       "localPath": "docs/jenkins-black-duck-security-scan-plugin-for-jenkins/using-the-black-duck-security-scan-plugin-with-coverity.md",
@@ -3056,19 +3427,21 @@
       "directChildren": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:43.424547+00:00",
-      "bytes": 7451
+      "scrapedAt": "2026-10-04T23:28:30.768087+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:30.768087+00:00",
+      "contentHash": "f9237e18940f80004d3760c99eda80a01177c2119f2772e0f80f04f0ceae8ad9",
+      "bytes": 7421
     },
     {
       "id": "p8PejMeUgUQ0m8mjluq8iA",
       "tocId": "iEw3MLMRmWJvWmtuGY67_Q",
       "title": "Multibranch pipeline",
       "path": [
-        "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+        "Jenkins Integrations",
         "Using the Black Duck Security Scan Plugin with Coverity",
         "Multibranch pipeline"
       ],
-      "section": "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+      "section": "Jenkins Integrations",
       "prettyUrl": "/r/bridge/latest/bridge-cli-guide/multibranch-pipeline.html",
       "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/multibranch-pipeline.html",
       "localPath": "docs/jenkins-black-duck-security-scan-plugin-for-jenkins/using-the-black-duck-security-scan-plugin-with-coverity/multibranch-pipeline.md",
@@ -3077,19 +3450,21 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:44.037791+00:00",
-      "bytes": 9231
+      "scrapedAt": "2026-10-04T23:28:30.792251+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:30.792251+00:00",
+      "contentHash": "25d3fb4dc54a50c65bc082a0d96f7285f19897b47a480a200851035f0d8061d5",
+      "bytes": 9094
     },
     {
       "id": "pI2wpG9UeoyLTo2eZFdD6Q",
       "tocId": "7pF_Fmrae6hx08tqF4GF8Q",
       "title": "Pipeline",
       "path": [
-        "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+        "Jenkins Integrations",
         "Using the Black Duck Security Scan Plugin with Coverity",
         "Pipeline"
       ],
-      "section": "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+      "section": "Jenkins Integrations",
       "prettyUrl": "/r/bridge/latest/bridge-cli-guide/pipeline.html",
       "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/pipeline.html",
       "localPath": "docs/jenkins-black-duck-security-scan-plugin-for-jenkins/using-the-black-duck-security-scan-plugin-with-coverity/pipeline.md",
@@ -3098,19 +3473,21 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:44.650141+00:00",
-      "bytes": 3112
+      "scrapedAt": "2026-10-04T23:28:30.819585+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:30.819585+00:00",
+      "contentHash": "52b34a5d7639eeb063e4ea05d150397a034ec2197c39b240aa7c82845690bd99",
+      "bytes": 3092
     },
     {
       "id": "t9zP9noMBs_q34xmF57Xeg",
       "tocId": "R~Tx9KzoIFyp2w9jiMJm7w",
       "title": "Quickstart: Jenkins Black Duck Security Scan Plugin with Coverity",
       "path": [
-        "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+        "Jenkins Integrations",
         "Using the Black Duck Security Scan Plugin with Coverity",
         "Quickstart: Jenkins Black Duck Security Scan Plugin with Coverity"
       ],
-      "section": "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+      "section": "Jenkins Integrations",
       "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-jenkins-black-duck-security-scan-plugin-with-coverity.html",
       "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickstart-jenkins-black-duck-security-scan-plugin-with-coverity.html",
       "localPath": "docs/jenkins-black-duck-security-scan-plugin-for-jenkins/using-the-black-duck-security-scan-plugin-with-coverity/quickstart-jenkins-black-duck-security-scan-plugin-with-coverity.md",
@@ -3119,18 +3496,20 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:45.579416+00:00",
-      "bytes": 11426
+      "scrapedAt": "2026-10-04T23:28:30.859828+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:30.859828+00:00",
+      "contentHash": "56481befe0746c2dd56e306c800aa1f7fcf362dd1fcf8af523dd0e419f48cbba",
+      "bytes": 11367
     },
     {
       "id": "9sS4cFPWQ6rUm3Qrn1DUeA",
       "tocId": "KbcgPjrZ8AyotVm3OmJV9w",
       "title": "Using the Black Duck Security Scan Plugin with Software Risk Manager",
       "path": [
-        "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+        "Jenkins Integrations",
         "Using the Black Duck Security Scan Plugin with Software Risk Manager"
       ],
-      "section": "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+      "section": "Jenkins Integrations",
       "prettyUrl": "/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-scan-plugin-with-software-risk-manager.html",
       "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-scan-plugin-with-software-risk-manager.html",
       "localPath": "docs/jenkins-black-duck-security-scan-plugin-for-jenkins/using-the-black-duck-security-scan-plugin-with-software-risk-manager.md",
@@ -3139,19 +3518,21 @@
       "directChildren": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:46.198138+00:00",
-      "bytes": 3480
+      "scrapedAt": "2026-10-04T23:28:30.894195+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:30.894195+00:00",
+      "contentHash": "2593c8454646e9b0c660b8c58862035977aafb0093454a1f2e0d63f06bd6a8a2",
+      "bytes": 3486
     },
     {
       "id": "OJcdt6hP_lgTUDjFktBHQg",
       "tocId": "Dx~a9caCXU46KRSrCMUbeA",
       "title": "Multibranch pipeline",
       "path": [
-        "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+        "Jenkins Integrations",
         "Using the Black Duck Security Scan Plugin with Software Risk Manager",
         "Multibranch pipeline"
       ],
-      "section": "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+      "section": "Jenkins Integrations",
       "prettyUrl": "/r/bridge/latest/bridge-cli-guide/multibranch-pipeline.html",
       "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/multibranch-pipeline.html",
       "localPath": "docs/jenkins-black-duck-security-scan-plugin-for-jenkins/using-the-black-duck-security-scan-plugin-with-software-risk-manager/multibranch-pipeline.md",
@@ -3160,19 +3541,21 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:46.823573+00:00",
-      "bytes": 6611
+      "scrapedAt": "2026-10-04T23:28:30.915813+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:30.915813+00:00",
+      "contentHash": "e801bc13756d9547b6af63f27c49717b8dcc10767dca10149ff6beada34bef88",
+      "bytes": 6491
     },
     {
       "id": "HpnPe0Dsdiy1hnnll3WOoA",
       "tocId": "4e6Ll7gCNc500QeFCgyD7w",
       "title": "Pipeline",
       "path": [
-        "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+        "Jenkins Integrations",
         "Using the Black Duck Security Scan Plugin with Software Risk Manager",
         "Pipeline"
       ],
-      "section": "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+      "section": "Jenkins Integrations",
       "prettyUrl": "/r/bridge/latest/bridge-cli-guide/pipeline.html",
       "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/pipeline.html",
       "localPath": "docs/jenkins-black-duck-security-scan-plugin-for-jenkins/using-the-black-duck-security-scan-plugin-with-software-risk-manager/pipeline.md",
@@ -3181,19 +3564,21 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:47.438077+00:00",
-      "bytes": 1684
+      "scrapedAt": "2026-10-04T23:28:30.942566+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:30.942566+00:00",
+      "contentHash": "931dfa6895e82cae0b7f08c35ebd8418b66dcade9541c901f3f815e09b58aa80",
+      "bytes": 1682
     },
     {
       "id": "rUzKTr2ruGYBZhX~LoEyIg",
       "tocId": "EAuHtMtqiIar7lueLzzXnQ",
       "title": "Quickstart: Jenkins Black Duck Security Scan Plugin with Software Risk Manager",
       "path": [
-        "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+        "Jenkins Integrations",
         "Using the Black Duck Security Scan Plugin with Software Risk Manager",
         "Quickstart: Jenkins Black Duck Security Scan Plugin with Software Risk Manager"
       ],
-      "section": "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+      "section": "Jenkins Integrations",
       "prettyUrl": "/r/bridge/latest/bridge-cli-guide/quickstart-jenkins-black-duck-security-scan-plugin-with-software-risk-manager.html",
       "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickstart-jenkins-black-duck-security-scan-plugin-with-software-risk-manager.html",
       "localPath": "docs/jenkins-black-duck-security-scan-plugin-for-jenkins/using-the-black-duck-security-scan-plugin-with-software-risk-manager/quickstart-jenkins-black-duck-security-scan-plugin-with-software-risk-manager.md",
@@ -3202,18 +3587,20 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:48.067240+00:00",
-      "bytes": 6162
+      "scrapedAt": "2026-10-04T23:28:30.976791+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:30.976791+00:00",
+      "contentHash": "faf413b86050489edbe4ee032e0068957ecbeabe5af09c589a85bd78ad42f204",
+      "bytes": 6108
     },
     {
       "id": "~Ulu5ax3LXOw3pSQsF3O_A",
       "tocId": "g4gWTugqmB5abqGqnM631Q",
       "title": "Additional Jenkins configuration",
       "path": [
-        "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+        "Jenkins Integrations",
         "Additional Jenkins configuration"
       ],
-      "section": "Jenkins - Black Duck Security Scan Plugin for Jenkins",
+      "section": "Jenkins Integrations",
       "prettyUrl": "/r/bridge/latest/bridge-cli-guide/additional-jenkins-configuration.html",
       "sourceUrl": "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/additional-jenkins-configuration.html",
       "localPath": "docs/jenkins-black-duck-security-scan-plugin-for-jenkins/additional-jenkins-configuration.md",
@@ -3222,8 +3609,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:48.775830+00:00",
-      "bytes": 8892
+      "scrapedAt": "2026-10-04T23:28:31.016856+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:31.016856+00:00",
+      "contentHash": "2d4c58d7d7c57041bdaeb4ae9700f6dcccb711fa619137b5975d37fea27c56b6",
+      "bytes": 8790
     },
     {
       "id": "L8CfExJg8HC8I065Zh7Ihg",
@@ -3241,8 +3630,10 @@
       "directChildren": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:49.385667+00:00",
-      "bytes": 1017
+      "scrapedAt": "2026-10-04T23:28:31.037339+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:31.037339+00:00",
+      "contentHash": "fd83d7a66486da64fc35503ea1a8834e735777511c85eab7355bf442dba989e1",
+      "bytes": 1083
     },
     {
       "id": "5_mzNu_EEa1wLKNNBs6yrw",
@@ -3261,8 +3652,10 @@
       "directChildren": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:49.992151+00:00",
-      "bytes": 959
+      "scrapedAt": "2026-10-04T23:28:31.054995+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:31.054995+00:00",
+      "contentHash": "0edc381b918e08c276baf469bdad6731087b19ea4a94b5a37d8e4d9929c925be",
+      "bytes": 1021
     },
     {
       "id": "y5_gfuJ~qZqQ4MBvsfHGuw",
@@ -3282,8 +3675,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:50.602449+00:00",
-      "bytes": 1113
+      "scrapedAt": "2026-10-04T23:28:31.074063+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:31.074063+00:00",
+      "contentHash": "1702a50701caed1a23a7659078aeccdce17325eb0033a9e17e85cac144cc0816",
+      "bytes": 1170
     },
     {
       "id": "LKph49o8X8rIwX0qSrZFwQ",
@@ -3303,8 +3698,10 @@
       "directChildren": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:53.160796+00:00",
-      "bytes": 19495
+      "scrapedAt": "2026-10-04T23:28:31.244283+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:31.244283+00:00",
+      "contentHash": "8d4df901079e42f5bba3328818ca9a12659c55b50681958ab40d640ebdfdb4fc",
+      "bytes": 19310
     },
     {
       "id": "pbImldil4toKmsFDd8LHEQ",
@@ -3325,8 +3722,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:54.719267+00:00",
-      "bytes": 11851
+      "scrapedAt": "2026-10-04T23:28:31.327349+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:31.327349+00:00",
+      "contentHash": "501f6738caab66c1a91d688b55144aa59d788a45fc1e16aeb36c7df4b2760c60",
+      "bytes": 11717
     },
     {
       "id": "h20ONq1_wEvYxskddDVm1g",
@@ -3347,8 +3746,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:56.284169+00:00",
-      "bytes": 12150
+      "scrapedAt": "2026-10-04T23:28:31.410735+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:31.410735+00:00",
+      "contentHash": "a4c8e09ccdc8c003076e57f96962f86ec08ad79498a53d348b18c0a88ffde5c4",
+      "bytes": 12019
     },
     {
       "id": "Q~oHkrQW2wlF~2B84GCaDQ",
@@ -3369,8 +3770,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:58.063616+00:00",
-      "bytes": 13321
+      "scrapedAt": "2026-10-04T23:28:31.500389+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:31.500389+00:00",
+      "contentHash": "01822d332565ba08cbbd8fe70d383b1db3afd68632092407e4039211832995df",
+      "bytes": 13789
     },
     {
       "id": "Ii~0lR5eWIXCsHDy3cQSZQ",
@@ -3389,8 +3792,10 @@
       "directChildren": 7,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:58.697834+00:00",
-      "bytes": 1379
+      "scrapedAt": "2026-10-04T23:28:31.523797+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:31.523797+00:00",
+      "contentHash": "efe57d202fd262605894a4eb645d8e33300019f8eeee6fcbd169d8ea3ff1ad5b",
+      "bytes": 1429
     },
     {
       "id": "cirZ13ZsgavAgCq7gxzp3w",
@@ -3410,8 +3815,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:48:59.402730+00:00",
-      "bytes": 5103
+      "scrapedAt": "2026-10-04T23:28:31.552253+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:31.552253+00:00",
+      "contentHash": "55dc1e61a124793387a6391b3b0ed5b3cd42a7891b08c3b3c0f3d13f64f550a2",
+      "bytes": 5107
     },
     {
       "id": "KWKxORuBJ7h7U0KHzEzuXQ",
@@ -3431,8 +3838,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:49:00.195293+00:00",
-      "bytes": 24590
+      "scrapedAt": "2026-10-04T23:28:31.593219+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:31.593219+00:00",
+      "contentHash": "206879c1fc4e09d825300a4d5ec05bc04ccbb68cc762688930133bb7662dd056",
+      "bytes": 25278
     },
     {
       "id": "RRTcCxjLsVQRPmCI1qrONQ",
@@ -3452,8 +3861,10 @@
       "directChildren": 1,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:49:00.914442+00:00",
-      "bytes": 21581
+      "scrapedAt": "2026-10-04T23:28:31.646996+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:31.646996+00:00",
+      "contentHash": "495197f2f344ae9f42b514a07da457b842947a469dd0046266f34ac55ac5e09a",
+      "bytes": 24928
     },
     {
       "id": "XyofGonTANhZYCBnHqAhaQ",
@@ -3474,8 +3885,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:49:01.868002+00:00",
-      "bytes": 13190
+      "scrapedAt": "2026-10-04T23:28:31.696529+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:31.696529+00:00",
+      "contentHash": "26d76def65c2ba430aab78e8b21788ce8f8e337868afbbf2d1576351a6ca201c",
+      "bytes": 13104
     },
     {
       "id": "aFejma_DnSfQITYn34Up8w",
@@ -3495,8 +3908,10 @@
       "directChildren": 1,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:49:02.496365+00:00",
-      "bytes": 7552
+      "scrapedAt": "2026-10-04T23:28:31.727601+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:31.727601+00:00",
+      "contentHash": "2fd475d8e198da0e573a616df11f276fea7171a2c9932e00a3a6e00136b2bd0a",
+      "bytes": 7498
     },
     {
       "id": "Pn~buBS5wrHMvJRVZwA0oQ",
@@ -3517,8 +3932,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:49:03.209411+00:00",
-      "bytes": 9360
+      "scrapedAt": "2026-10-04T23:28:31.763038+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:31.763038+00:00",
+      "contentHash": "ae4b0b9571340e9c80bf33061aeb48158f2aa0deea0149c8c48058bd19a352ca",
+      "bytes": 9304
     },
     {
       "id": "lGjG8IIJi6zlaZGr81COtw",
@@ -3538,8 +3955,10 @@
       "directChildren": 1,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:49:03.912093+00:00",
-      "bytes": 15032
+      "scrapedAt": "2026-10-04T23:28:31.804882+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:31.804882+00:00",
+      "contentHash": "d96a76e42defc7ff5da419b44e3bb5b544a09568cb26c1b2d133b612a1c0030e",
+      "bytes": 14888
     },
     {
       "id": "BL6eoshBryv2ScLo5_EpTg",
@@ -3560,8 +3979,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:49:04.794893+00:00",
-      "bytes": 11183
+      "scrapedAt": "2026-10-04T23:28:31.849885+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:31.849885+00:00",
+      "contentHash": "5564de32a016bdbb0f5149b04fe2554d5f59be24a86086d4fa87a39274bb1ec6",
+      "bytes": 11111
     },
     {
       "id": "GssxTBFDd10pv2sxg1Nonw",
@@ -3581,8 +4002,10 @@
       "directChildren": 1,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:49:05.495927+00:00",
-      "bytes": 13319
+      "scrapedAt": "2026-10-04T23:28:31.888395+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:31.888395+00:00",
+      "contentHash": "7627b3615ef20ef7fb17a55cbb4ac0de98cbf41f1bafd2c5a91195b61aeb9b05",
+      "bytes": 13205
     },
     {
       "id": "KLqDnDbC2AdQNyrP5LPEdA",
@@ -3603,8 +4026,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:49:06.366989+00:00",
-      "bytes": 14258
+      "scrapedAt": "2026-10-04T23:28:31.934588+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:31.934588+00:00",
+      "contentHash": "acbcafe69e87385d3b9b64eccae1bdf9a581fb3acae9b9f038d9590c1d16dc63",
+      "bytes": 14185
     },
     {
       "id": "BkX4Uh9D8LPV41JBSU3jkQ",
@@ -3624,8 +4049,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:49:07.068511+00:00",
-      "bytes": 16051
+      "scrapedAt": "2026-10-04T23:28:31.968803+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:31.968803+00:00",
+      "contentHash": "7e36d62ebe020d348a7b260f59b2d14e3bc85a7bc06950d441f550e0818f915e",
+      "bytes": 15776
     },
     {
       "id": "TKgvJ5VaG47lZyvRLEdK9A",
@@ -3643,8 +4070,10 @@
       "directChildren": 1,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:49:07.683573+00:00",
-      "bytes": 317
+      "scrapedAt": "2026-10-04T23:28:31.986371+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:31.986371+00:00",
+      "contentHash": "e3aaf9aa016d3cbd259c831bb1825403fbb062484f3aeb9d5377a343b16ebeb4",
+      "bytes": 386
     },
     {
       "id": "f5qJcvAkPB9HCuaTC3v72A",
@@ -3663,8 +4092,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:49:08.327044+00:00",
-      "bytes": 2302
+      "scrapedAt": "2026-10-04T23:28:32.010286+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:32.010286+00:00",
+      "contentHash": "c59a1e03da12783b7185946d8571dfda7cf697fea4a0221f6ed98f3c7194c68c",
+      "bytes": 2359
     },
     {
       "id": "ePKQqFFFn9gDdoLeb6tjZQ",
@@ -3682,8 +4113,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:49:08.936211+00:00",
-      "bytes": 851
+      "scrapedAt": "2026-10-04T23:28:32.031153+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:32.031153+00:00",
+      "contentHash": "70dfd32b08b4670987dd8cd39d937ccf457f4111680c1899409db57de3386f47",
+      "bytes": 914
     },
     {
       "id": "0uoNRIyirxOsddxqimFiYQ",
@@ -3701,8 +4134,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:49:09.648033+00:00",
-      "bytes": 5124
+      "scrapedAt": "2026-10-04T23:28:32.058846+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:32.058846+00:00",
+      "contentHash": "087ad3b579d88b85e4d9b093e4171881546d4e4f54617044ccf662758a4892dd",
+      "bytes": 5155
     },
     {
       "id": "JLcDtzhRetUzUofAxL8hAQ",
@@ -3720,8 +4155,10 @@
       "directChildren": 0,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-08T23:49:10.272475+00:00",
-      "bytes": 2050
+      "scrapedAt": "2026-10-04T23:28:32.084653+00:00",
+      "lastCheckedAt": "2026-10-04T23:28:32.084653+00:00",
+      "contentHash": "3c7ba18620069183d9ab26a4000932cf0997641730df8e97eb10f6d6e13dac5a",
+      "bytes": 2165
     }
   ]
 }

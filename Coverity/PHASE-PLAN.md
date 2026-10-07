@@ -1,3 +1,5 @@
+> Historical import plan for 2026.6. The current 2026.9 snapshot uses `index.md` and separate versioned paths.
+
 # Coverity corpus — phased scrape plan
 
 **Pinned product:** `coverity-2026.6`  

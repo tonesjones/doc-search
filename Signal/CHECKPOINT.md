@@ -1,3 +1,13 @@
+# Current corpus checkpoint
+
+Updated October 4, 2026.
+
+September 28 edition: 31 official topics plus one preserved local CLI note, zero pending or errors. Old topics removed from the official TOC remain as historical files. Retrieve current guidance through index.md.
+
+The current catalog is `index.md`; companion catalogs are linked from `corpus-status.md`. The refresh report is `../docs/corpus-refresh-check-2026-10-04.md`.
+
+## Previous checkpoint history
+
 # Session checkpoint — Signal corpus
 
 **Last updated:** 2026-08-12  

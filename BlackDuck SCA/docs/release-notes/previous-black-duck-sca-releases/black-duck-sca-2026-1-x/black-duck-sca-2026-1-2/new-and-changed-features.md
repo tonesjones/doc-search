@@ -1,16 +1,16 @@
 ---
 title: "New and Changed Features"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/new-and-changed-features.html"
-content_id: "5xzpHVxjjLea3F468KYKsQ"
+content_id: "aCUvnhJJs1uLZ1GUG0Q2rw"
 version: "2026.7"
-section: "Release Notes"
-scraped_at: "2026-08-08T15:35:02.925713+00:00"
+section: "Black Duck SCA Release Notes"
+scraped_at: "2026-10-04T23:32:27.847624+00:00"
+content_hash: "cb58fc3ca29691c7d696768487438b5783d64ac2df35d61a31316f17b353e088"
 ---
 
 # New and Changed Features
 
-There are no new or changed features in Black Duck SCA
-2026.1.2.
+There are no new or changed features in Black Duck SCA 2026.1.2.
 
 ## Container versions
 

@@ -1,16 +1,16 @@
 ---
 title: "Viewing your user groups"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/viewing-your-user-groups.html"
-content_id: "yCR~Z9Q5QCAdGIZ5Dhs_Yg"
+content_id: "JJ8IvV8Z38k1G_0uZsnfNA"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T15:31:47.414609+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:19.330512+00:00"
+content_hash: "5cb6c00f7280556d03a02e7860a99424eb153c1ace43754286d073749f604d14"
 ---
 
 # Viewing your user groups
 
-HUB-6592You can view the user groups you belong to, and the
-source, status, and roles associated with each user group.
+HUB-6592You can view the user groups you belong to, and the source, status, and roles associated with each user group.
 
 To view your user groups:
 
@@ -26,5 +26,4 @@ To view your user groups:
      
     [image: User Groups Tab]
 
-You can view the user groups
-associated with a particular user.
+You can view the user groups associated with a particular user.

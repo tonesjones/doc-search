@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-b
 content_id: "gqiMobU4ULgUBn4Ajk0WhQ"
 version: "latest"
 section: "GitLab Integrations"
-scraped_at: "2026-08-08T23:47:58.973212+00:00"
+scraped_at: "2026-10-04T23:28:28.480217+00:00"
+content_hash: "99eb7d0639183a7037468b7b5db1fef3d26a92409554111100df4a4802666f79"
 ---
 
 # Using Black Duck Security Bulk Onboarding with Coverity
@@ -53,7 +54,7 @@ Note: Ensure all required GitLab variables are configured before clicking **Next
 
 It can be seen from the screenshot above that a workflow can be generated with the following scan options:
 
-- **Run analysis locally**: Performs local analysis with the full toolkit. For further details relating to the different Coverity deployment models supported, please refer to [Coverity Deployment Architecture](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/help-center/topics/deployment_architecture.html).
+- **Run analysis locally**: Performs local analysis with the full toolkit. For further details relating to the different Coverity deployment models supported, please refer to [Coverity Deployment Architecture](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/a0caa9e5b240fbee6150f8640240b2a5.topic).
 - **Capture diagnostics information**: When checked, diagnostics will be captured and uploaded as a GitLab build artifact.
   - **Wait for scan to complete**: When checked, this will block injecting Pull Request comments until the scan completes.
   - **Fail build if policy violations are found**: If this option is checked, then if there are policy violations, the build will break.

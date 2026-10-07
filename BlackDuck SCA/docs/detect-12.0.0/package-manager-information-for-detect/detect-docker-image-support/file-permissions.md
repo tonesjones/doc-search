@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/file-p
 content_id: "PRWfrzoPrw5kJTshA2sHKA"
 version: "12.0.0"
 section: "Package Manager information for Detect"
-scraped_at: "2026-09-07T21:16:02.221289+00:00"
+scraped_at: "2026-10-04T23:33:20.665980+00:00"
+content_hash: "bedd25868cab717fbc45fde7c91ce144a188c1cedf6917629dae2740e55274fe"
 ---
 
 # File permissions

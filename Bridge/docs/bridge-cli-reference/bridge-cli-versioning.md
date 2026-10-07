@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/bridge-
 content_id: "SFMWFXZ6gwFEM78yR_9iFg"
 version: "latest"
 section: "Bridge CLI reference"
-scraped_at: "2026-08-08T23:47:33.237561+00:00"
+scraped_at: "2026-10-04T23:28:27.263579+00:00"
+content_hash: "1951a4ba1f6e3e7112994f63cd267ece92b00c9e3ebe2fc10f67ecc2b7a12227"
 ---
 
 # Bridge CLI versioning

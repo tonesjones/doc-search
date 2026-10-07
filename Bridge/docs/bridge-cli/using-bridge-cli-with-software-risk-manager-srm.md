@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-b
 content_id: "3SlkM2ZuAE6KeyGWJy1OBQ"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:47:24.532178+00:00"
+scraped_at: "2026-10-04T23:28:26.824382+00:00"
+content_hash: "fea9b5c4f1e1dba87da407e49393096bb51bcbe001ce56a08e79ff884ead949b"
 ---
 
 # Using Bridge CLI with Software Risk Manager (SRM)

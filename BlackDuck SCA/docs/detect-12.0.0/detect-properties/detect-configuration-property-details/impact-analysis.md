@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/impact
 content_id: "YcHr7WGc2XchtmTqWM4pGg"
 version: "12.0.0"
 section: "Detect Properties"
-scraped_at: "2026-09-07T21:16:33.275101+00:00"
+scraped_at: "2026-10-04T23:33:21.832015+00:00"
+content_hash: "963adf624de947be6e2013895f6cf3c66d7910ee42b90e69f46d3ac0402bb9aa"
 ---
 
 # impact-analysis

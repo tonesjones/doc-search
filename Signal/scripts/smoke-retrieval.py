@@ -12,7 +12,7 @@ CHECKS = (
     (
         "overview",
         ROOT / "docs/overview/overview-of-black-duck-signal.md",
-        ("Signal Developer", "Signal Enterprise", "Black Duck MCP", "Polaris"),
+        ("Signal Developer", "Signal Enterprise", "Language support"),
     ),
     (
         "claude",
@@ -20,19 +20,24 @@ CHECKS = (
         ("claude mcp add", "@black-duck/mcp-server", "BLACKDUCK_MCP_GATEWAY_KEY"),
     ),
     (
-        "cli-diff",
-        ROOT / "docs/scan-changes/from-the-command-line/perform-a-diff-scan.md",
-        ("UNCOMMITTED", "BRIDGE_SIGNAL_LLM_KEY", "Bridge CLI"),
+        "bridge-scans",
+        ROOT / "docs/get-started/using-bridge-cli-with-signal.md",
+        ("Project mode", "Polaris", "SARIF"),
     ),
     (
-        "polaris",
-        ROOT / "docs/scan-project/full-project-scan-and-send-results-to-polaris.md",
-        ("BRIDGE_POLARIS_SERVERURL", "BRIDGE_SIGNAL_LLM_KEY", "Signal Enterprise"),
+        "codex",
+        ROOT / "docs/get-started/coding-assistants/signal-and-codex-cli.md",
+        ("Codex", "BLACKDUCK_MCP_GATEWAY_KEY", "@blackducksoftware/mcp-server"),
     ),
     (
         "reference",
-        ROOT / "docs/reference/reference-guide.md",
-        ("BRIDGE_SIGNAL_LLM_KEY", "signal.mode", "UNCOMMITTED", "REFERENCE", "PROJECT"),
+        ROOT / "docs/reference/signal-reference-guide.md",
+        ("BYOLLM", "UNCOMMITTED", "REFERENCE", "PROJECT", "Polaris Flags"),
+    ),
+    (
+        "byollm",
+        ROOT / "docs/byollm/byollm.md",
+        ("Bring Your Own Large Language Model", "Azure", "Vertex AI"),
     ),
     (
         "ai-security",
@@ -44,7 +49,10 @@ CHECKS = (
 
 def main() -> int:
     failures: list[str] = []
+    catalog = (ROOT / "index.md").read_text(encoding="utf-8")
     for name, path, needles in CHECKS:
+        if f"]({path.relative_to(ROOT).as_posix()})" not in catalog:
+            failures.append(f"{name}: topic is absent from the current index")
         if not path.exists():
             failures.append(f"{name}: missing {path.relative_to(ROOT)}")
             continue

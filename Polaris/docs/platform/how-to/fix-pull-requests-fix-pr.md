@@ -1,27 +1,30 @@
 ---
-title: "Fix Pull Requests (Fix PR)"
-source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/fix-pull-requests-fix-pr-.html"
+title: "SCA Fix Pull Requests"
+source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/sca-fix-pull-requests.html"
 content_id: "XUOflzc228XydyNCLuBjuA"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:56:35.999037+00:00"
-content_hash: "b2eca9fef827d6371af236ef19a2b2dc92a6da493d5ef30f36b6d85b7cb6dbca"
+scraped_at: "2026-10-04T23:29:19.226883+00:00"
+content_hash: "a9e23432a2943f697a3cfef06e2ff9ecc8011a19c1edc8f515e2322ece71be0b"
 ---
 
-# Fix Pull Requests (Fix PR)
+# SCA Fix Pull Requests
 
-A guide to creating Fix PRs automatically or manually to resolve open-source vulnerabilities detected by SCA scans in SCM-integrated projects.
+A guide to creating SCA Fix PRs automatically or manually to resolve direct dependency vulnerabilities detected by SCA scans in SCM-integrated projects.
 
-Fix PRs are created on your SCM integration — either automatically or manually — to help resolve direct dependency vulnerabilities detected by SCA scans. There are two ways to create Fix PRs:
+SCA Fix PRs are created on your SCM integration — either automatically or manually — to help resolve direct dependency vulnerabilities detected by SCA scans. There are two ways to create SCA Fix PRs:
+
+Note: For AI-assisted Fix PRs for SAST findings, see [SAST Fix Pull Requests](sast-fix-pull-requests.md).
 
 - **Automatic:** Polaris automatically generates Fix PRs for qualifying issues once a test completes, and they appear immediately on the SCM side. The workflow is: create a policy → apply it to the project → run a test → Fix PRs appear on the SCM.
 - **Manual:** After a test has run, navigate to the Components tab, select a component, and, if it meets the criteria, manually create a Fix PR. The Fix PR will appear on the SCM side.
 
 ## Requirements
 
-- An SCM integration connected to Polaris. Source uploads and CLI-based projects are not supported.
+- A supported SCM integration (GitHub, GitLab, Azure DevOps, or Bitbucket) connected to Polaris. Both cloud-hosted and self-hosted SCM deployments are supported. Source uploads and CLI-based projects are not supported.
+- For a self-hosted SCM, a Secure Tunnel in the Connected state. Polaris reaches a repository in your private network over the same tunnel that carries event monitoring traffic, so a self-hosted integration that already works requires no additional connectivity setup. See [Add and manage secure tunnels in the Polaris UI](add-and-manage-secure-tunnels-in-the-polaris-ui.md).
 - An SCA entitlement, or a bundled test type that includes SCA.
-- For automatic Fix PRs, a component policy with the Fix PR action configured and applied at the project or application level.
+- For automatic Fix PRs, a component policy with the Create a fix pull request (for direct deps. with vulnerabilities) action configured and applied at the organization, application, project, or branch level.
 
 ## Overview
 
@@ -42,7 +45,7 @@ An SCA Fix PR will not be created in the following cases:
 - There is already an open PR
 - No security vulnerabilities found
 - No upgrade guidance available
-- Number of PRs has exceeded the allowed limit for automatic Fix PR (see [Create and manage automatic Fix PRs](fix-pull-requests-fix-pr/create-and-manage-automatic-fix-prs.md))
+- The number of open SAST and SCA Fix PRs created by Polaris on the branch has reached the configured limit.
 
 ## Automatic Fix PRs Inheritance
 

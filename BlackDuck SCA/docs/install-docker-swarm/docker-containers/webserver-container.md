@@ -1,10 +1,11 @@
 ---
 title: "Webserver container"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/webserver-container.html"
-content_id: "HmscEquFw6kZT1omF2eJkQ"
+content_id: "zFmbftBM6Td0OGcxaryOZw"
 version: "2026.7"
 section: "Installing Black Duck using Docker Swarm"
-scraped_at: "2026-08-08T15:34:27.223164+00:00"
+scraped_at: "2026-10-04T23:32:26.299986+00:00"
+content_hash: "6f2d7bca72446a18403ffd3a80a612c2545b87798bd6adea39a1bcf3090de847"
 ---
 
 # Webserver container

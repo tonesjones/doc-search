@@ -1,10 +1,11 @@
 ---
 title: "Executing the Black Duck C/CPP tool"
 source_url: "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/executing-the-black-duck-c/cpp-tool.html"
-content_id: "Mkt31q4CrCHqlkWvzXQ0DA"
+content_id: "tzNElET0zvNhv~S0ml595w"
 version: "latest"
 section: "Black Duck C/CPP Tool"
-scraped_at: "2026-08-13T16:16:55.004292+00:00"
+scraped_at: "2026-10-04T23:32:44.140342+00:00"
+content_hash: "e0188bf837413fc2c026699ca2b4f77e4a6f00d2bd26d1714a4a084648438570"
 ---
 
 # Executing the Black Duck C/CPP tool
@@ -92,14 +93,14 @@ the signature scanner using:
 ```
 
 See [Running a component scan using the Signature
-Scanner command line](https://documentation.blackduck.com/bundle/bd-hub/page/ComponentDiscovery/CommandLine.html) in the Black Duck Help Guide for more details.
+Scanner command line](https://docs.blackduck.com/access?ft:originId=15d58471b77447204402338a6f412512/0afd70d7e6a0e74e019b339f07f98938.topic) in the Black Duck Help Guide for more details.
 
 ## Accessing Black Duck SCA via a proxy
 
 To access the Black Duck SCA server via a proxy, you must set a
 `SCAN_CLI_OPTS` environment variable prior to running the scan.
 See [Accessing the Black Duck server via a
-proxy](https://documentation.blackduck.com/bundle/bd-hub/page/ComponentDiscovery/Proxy_Information.html) in the Black Duck Help Guide for details.
+proxy](https://docs.blackduck.com/access?ft:originId=15d58471b77447204402338a6f412512/86ee24f4336cdd66615cfd88a4d9bf9e.topic) in the Black Duck Help Guide for details.
 
 ## Scans exceeding 5GB
 

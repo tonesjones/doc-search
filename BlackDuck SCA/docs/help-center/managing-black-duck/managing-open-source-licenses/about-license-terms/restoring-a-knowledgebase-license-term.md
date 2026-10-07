@@ -1,10 +1,11 @@
 ---
 title: "Restoring a KnowledgeBase license term"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/restoring-a-knowledgebase-license-term.html"
-content_id: "oqp5Nzzx5SyF8HxCWINXCA"
+content_id: "E9vMlDpi5JS2pptQY6RtRA"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T15:30:59.351030+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:17.005299+00:00"
+content_hash: "71b48de72d77b5b13ecd05ca2c2c479543d7b53a3f60945718c4232c3b7b256e"
 ---
 
 # Restoring a KnowledgeBase license term
@@ -33,11 +34,9 @@ To restore a KnowledgeBase license term when viewing all terms:
 
      
     [image: License Terms tab]
-3. Click [image: image] in the row of the
-   KnowledgeBase license term and select **License Association**.
+3. Click [image: image] in the row of the KnowledgeBase license term and select **License Association**.
 
-   The License Association dialog box appears showing all licenses that have this
-   license terms associated to it.
+   The License Association dialog box appears showing all licenses that have this license terms associated to it.
 
      
     [image: License Association dialog box]
@@ -57,22 +56,17 @@ To restore a KnowledgeBase license term when viewing a license:
 
      
     [image: License Management page]
-3. In the **Licenses** tab, select the license name to display the *License
-   Name*
-   **Settings** tab.
+3. In the **Licenses** tab, select the license name to display the *License Name***Settings** tab.
 
      
     [image: image]
-4. Select the **License Terms** tab to view the terms associated with this
-   tab.
+4. Select the **License Terms** tab to view the terms associated with this tab.
 
      
     [image: License Terms tab]
-5. Click [image: image] next to the
-   KnowledgeBase license term you wish to activate and select **Restore**.
+5. Click [image: image] next to the KnowledgeBase license term you wish to activate and select **Restore**.
 
-   The **License Terms** tab displays the terms for this license with the term
-   restored.
+   The **License Terms** tab displays the terms for this license with the term restored.
 
      
     [image: image]

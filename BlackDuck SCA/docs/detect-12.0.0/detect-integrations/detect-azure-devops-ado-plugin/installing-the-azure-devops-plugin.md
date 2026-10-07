@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/instal
 content_id: "yGWtQwrezZuPgkLbEYechg"
 version: "12.0.0"
 section: "Detect Integrations"
-scraped_at: "2026-09-07T21:17:25.287568+00:00"
+scraped_at: "2026-10-04T23:33:23.650115+00:00"
+content_hash: "7391a43c0da70d699423d3469c5800d15c3df49d28117c43ce1567196eb43660"
 ---
 
 # Installing the Azure DevOps plugin

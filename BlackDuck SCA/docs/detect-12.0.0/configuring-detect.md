@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/config
 content_id: "VPnpgaOAFpGjhyWqJO5gTA"
 version: "12.0.0"
 section: "Configuring Detect"
-scraped_at: "2026-09-07T21:15:14.564584+00:00"
+scraped_at: "2026-10-04T23:33:19.076741+00:00"
+content_hash: "2d160805f22cab5ab609d2f9a46ab64930bcfbb8dbd1c5b3456d18cb52c6ad48"
 ---
 
 # Configuring Detect

@@ -1,10 +1,11 @@
 ---
 title: "Component table (Ignored components only) (component_ignored)"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/component-table-ignored-components-only-component_ignored-.html"
-content_id: "i7VIktBBmtbTkomR3KRnHA"
+content_id: "3fOdscmiydnFfPjr5pY~CA"
 version: "2026.7"
 section: "Reporting Database"
-scraped_at: "2026-08-08T15:34:33.779512+00:00"
+scraped_at: "2026-10-04T23:32:26.603980+00:00"
+content_hash: "c271733edd87aa46b7eb1c8286feff2a000f8b7d46deb6c0db5b999c9a758368"
 ---
 
 # Component table (Ignored components only) (component_ignored)

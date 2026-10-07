@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/pnpm.h
 content_id: "q_87Gx6MubZjvvu6ITuVJw"
 version: "12.0.0"
 section: "Detect Properties"
-scraped_at: "2026-09-07T21:16:57.040639+00:00"
+scraped_at: "2026-10-04T23:33:22.780013+00:00"
+content_hash: "c06ad21e4bd59c00b027acce25fd061ec98807d585b769679056d7b47c40bbab"
 ---
 
 # pnpm

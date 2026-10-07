@@ -1,10 +1,11 @@
 ---
 title: "Scan stats view table (scan_stats_view)"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/scan-stats-view-table-scan_stats_view-.html"
-content_id: "hNMnD30Xstr4nlQ8wZv5Og"
+content_id: "WgllG2GsKG4LmIlJDMd4aA"
 version: "2026.7"
 section: "Reporting Database"
-scraped_at: "2026-08-08T15:34:43.056627+00:00"
+scraped_at: "2026-10-04T23:32:27.020300+00:00"
+content_hash: "65a022952c614298f553dc6f8e0998d6eb32c7b830f5b9f20932d33e098969fa"
 ---
 
 # Scan stats view table (scan_stats_view)

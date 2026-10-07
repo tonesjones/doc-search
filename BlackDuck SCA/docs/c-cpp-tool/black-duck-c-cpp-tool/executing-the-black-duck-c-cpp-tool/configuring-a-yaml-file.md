@@ -1,10 +1,11 @@
 ---
 title: "Configuring a yaml file"
 source_url: "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/configuring-a-yaml-file.html"
-content_id: "TcX8XARTF1rjFFw0caD7wA"
+content_id: "UUGaZJOzxoLogSXyAfTgNw"
 version: "latest"
 section: "Black Duck C/CPP Tool"
-scraped_at: "2026-08-13T16:16:55.631336+00:00"
+scraped_at: "2026-10-04T23:32:44.159440+00:00"
+content_hash: "8b4c13f7cded6516b7d2f00cd26ddcd06970580d53a9a7e545ebc4b1ff435f23"
 ---
 
 # Configuring a yaml file

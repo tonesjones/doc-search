@@ -1,19 +1,18 @@
 ---
 title: "New and Changed Features in Version 2021.10.1"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/new-and-changed-features-in-version-2021.10.1.html"
-content_id: "NDCXILh5pHMAX3W94AhAfQ"
+content_id: "nEkxF~78g7vMovNSrf0GVw"
 version: "2026.7"
-section: "Release Notes"
-scraped_at: "2026-08-08T15:37:51.564935+00:00"
+section: "Black Duck SCA Release Notes"
+scraped_at: "2026-10-04T23:32:34.757131+00:00"
+content_hash: "d197294b8ff9aae1eefef000a7a75443880c6a4fb9ec5ba026acf76b2c77d67a"
 ---
 
 # New and Changed Features in Version 2021.10.1
 
 ## RestResponseErrorHandler Improvement
 
-RestResponseErrorHandle now more gracefully accommodates unexpected responses from
-the KnowledgeBase and other servers within the network to improve the reliability of
-Black Duck features.
+RestResponseErrorHandle now more gracefully accommodates unexpected responses from the KnowledgeBase and other servers within the network to improve the reliability of Black Duck features.
 
 ## Container versions
 

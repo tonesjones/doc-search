@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/advanc
 content_id: "9ihq_kHmdnFkXoYQfJCjig"
 version: "12.0.0"
 section: "Package Manager information for Detect"
-scraped_at: "2026-09-07T21:16:06.713541+00:00"
+scraped_at: "2026-10-04T23:33:20.810734+00:00"
+content_hash: "48df5abeb93a59ed9d669c42d922119fe2dc5f7107220698043a9b37568a9097"
 ---
 
 # Advanced Detect topics

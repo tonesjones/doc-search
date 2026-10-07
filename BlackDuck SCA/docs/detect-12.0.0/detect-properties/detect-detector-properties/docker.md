@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/docker
 content_id: "Y2HPtopKAGoG81QIe4rHtA"
 version: "12.0.0"
 section: "Detect Properties"
-scraped_at: "2026-09-07T21:16:47.561500+00:00"
+scraped_at: "2026-10-04T23:33:22.443582+00:00"
+content_hash: "891fe64d99c9fd377e691fee1e7a45a5aca3f8ac551290bd79b62cbbfcb3e715"
 ---
 
 # docker

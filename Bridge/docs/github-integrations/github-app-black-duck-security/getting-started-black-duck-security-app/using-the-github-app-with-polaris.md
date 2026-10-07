@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-t
 content_id: "yFJ7LeTwqoeTxVYm4yRl6g"
 version: "latest"
 section: "GitHub Integrations"
-scraped_at: "2026-08-08T23:47:41.863107+00:00"
+scraped_at: "2026-10-04T23:28:27.759339+00:00"
+content_hash: "aa8cbd314e90773a773573189345deef5d8f03d32baf888bb9893284c4d27743"
 ---
 
 # Using the GitHub App with Polaris
@@ -54,6 +55,8 @@ It can be seen from the screenshot above that for the Polaris platform a workflo
   - **Wait for scan to complete**: When checked this will block post scan operations until the scan completes, e.g. injecting Pull Request comments and creating a SARIF file.
   - **Fail build if policy violations are found**: If this option is checked, then if there are policy violations the build will break.
 
+    Note: This option causes the Polaris scan job to fail but does not prevent the pull request from being merged. Preventing the merge of pull requests with policy violations is the responsibility of the repository or organization administrator. It is recommended that a GitHub branch ruleset is configured to require the Polaris status check to pass before merging. For more information, see GitHub's [require status checks to pass before merging](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/available-rules-for-rulesets#require-status-checks-to-pass-before-merging).
+
 **Post scan options**
 
 The following post scan options, illustrated in the screenshot below, can be configured and require a GitHub Token to be created as outlined in the prerequisites:
@@ -61,7 +64,9 @@ The following post scan options, illustrated in the screenshot below, can be con
 [image: image]
 
 - **Decorate pull requests with comments**: When checked, adds automated comments on Pull Requests highlighting newly detected security issues introduced by the Pull Request branch. This helps developers review security findings directly in the Pull Request before merging.
-- **Automatically create fix pull requests:**When checked, SCA package assessments will automatically open Fix Pull Requests for a default maximum count of 5 dependency upgrades and vulnerabilities.This uses `${{ secrets.GITHUB_TOKEN }}` for authentication.
+- **Automatically create fix pull requests**: When checked, Polaris automatically creates Fix Pull Requests for eligible issues in the configured assessment types. SCA assessments create dependency upgrade Pull Requests, while SAST assessments create AI-generated code fix Pull Requests. By default, up to five Fix Pull Requests can be raised across all configured assessment types.
+
+  The default shared limit is five Fix Pull Requests across all configured assessment types. Polaris evaluates SCA and SAST issues that match the configured Fix PR severity filter, which is `CRITICAL,HIGH` by default. If eligible SCA and SAST issues have the same severity and timestamp for detection then SAST issues are prioritized. When the number of eligible issues exceeds the limit, some issues may not receive a Fix Pull Request. This uses `${{ secrets.GITHUB_TOKEN }}` for authentication.
 - **Create SARIF file**: When checked a SARIF file will be created. An additional checkbox will be displayed to provide the option to enable upload of the SARIF file to GitHub Advanced Security (requires GitHub Code Security).
 - **Upload and display issues in GitHub**: Polaris provides two options for integrating scan results with GitHub:
   - **GitHub Issues (default)**: Select this option to have Polaris create issues directly in a GitHub repository. To support this workflow, enable **Create SARIF file** so that a SARIF report is generated and used to populate GitHub Issues.

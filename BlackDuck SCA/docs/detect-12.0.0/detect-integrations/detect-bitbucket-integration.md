@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/detect
 content_id: "ZoOsd~2_NgcPIOvlk42PMg"
 version: "12.0.0"
 section: "Detect Integrations"
-scraped_at: "2026-09-07T21:17:30.959122+00:00"
+scraped_at: "2026-10-04T23:33:23.833668+00:00"
+content_hash: "ca536daf495e596a1e07c25461689c7174e777f05184d94be02b7c609682172e"
 ---
 
 # Detect Bitbucket integration

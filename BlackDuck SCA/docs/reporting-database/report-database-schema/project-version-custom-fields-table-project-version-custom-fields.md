@@ -1,10 +1,11 @@
 ---
 title: "Project Version Custom Fields table (project_version_custom_fields)"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/project-version-custom-fields-table-project_version_custom_fields-.html"
-content_id: "rYgaT5OqwzNx5y3MauzULQ"
+content_id: "K_P19lyDoRZRDbw5RW1NQw"
 version: "2026.7"
 section: "Reporting Database"
-scraped_at: "2026-08-08T15:34:41.836887+00:00"
+scraped_at: "2026-10-04T23:32:26.952971+00:00"
+content_hash: "0f610d964075aac6b0a33167fe682983a3ec256e514d1f73f609515710ab4f53"
 ---
 
 # Project Version Custom Fields table (project_version_custom_fields)

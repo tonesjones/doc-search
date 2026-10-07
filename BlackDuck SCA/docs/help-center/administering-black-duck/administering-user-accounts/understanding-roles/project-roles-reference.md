@@ -1,18 +1,16 @@
 ---
 title: "Project Roles Reference"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/project-roles-reference.html"
-content_id: "ofeskJQ7jKkI4~LKVCdYng"
+content_id: "WLzggbiie0kvxe8LrtbjFA"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T15:31:36.947083+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:18.845908+00:00"
+content_hash: "d02aad0ddd0dc003406d9136b79f7f794d17c00febd346b95576b8576bcc4392"
 ---
 
 # Project Roles Reference
 
-Project roles apply only to the projects to which a user has been assigned.
-These roles provide access to project-specific activities such as BOM
-management, vulnerability remediation, policy review, reporting, and project
-administration.
+Project roles apply only to the projects to which a user has been assigned. These roles provide access to project-specific activities such as BOM management, vulnerability remediation, policy review, reporting, and project administration.
 
 | Role | Description | Key capabilities |
 | --- | --- | --- |
@@ -29,7 +27,5 @@ administration.
 
 - Understanding roles
 - Global roles reference
-- Project group roles
-  reference
-- Black Duck SCA user role
-  matrix
+- Project group roles reference
+- Black Duck SCA user role matrix

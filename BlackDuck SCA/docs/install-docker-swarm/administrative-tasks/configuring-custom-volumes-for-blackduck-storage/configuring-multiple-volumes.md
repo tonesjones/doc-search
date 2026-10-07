@@ -1,33 +1,24 @@
 ---
 title: "Configuring multiple volumes"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/configuring-multiple-volumes.html"
-content_id: "p_WWLzAr75sQANCER25D~g"
+content_id: "uS8~CjVsU9Hc4GSFW2YaQg"
 version: "2026.7"
 section: "Installing Black Duck using Docker Swarm"
-scraped_at: "2026-08-08T15:34:07.661785+00:00"
+scraped_at: "2026-10-04T23:32:25.451351+00:00"
+content_hash: "defb04460234d2084920b2465c982707a12435be21a3cee209f1abce4eb5a1c3"
 ---
 
 # Configuring multiple volumes
 
-The swarm deployment files contain a file named
-`docker-compose.storage-overrides.yml`. This file is a template that
-must be customized and included in the deployment in order to override the default
-storage configuration to use more volumes.
+The swarm deployment files contain a file named `docker-compose.storage-overrides.yml`. This file is a template that must be customized and included in the deployment in order to override the default storage configuration to use more volumes.
 
 This file has three sections: Environment, Storage Volumes and Service Volumes.
 
 ## Why more than one volume?
 
-By default, the storage container uses a single volume to store all objects. This
-volume is sized based on typical customer usage for stored objects. As each customer
-is different, it may become necessary to have more space available than the volume
-can provide. Since not all volumes are expandable, it may become necessary to add a
-different, larger volume and migrate the data to the new volume.
+By default, the storage container uses a single volume to store all objects. This volume is sized based on typical customer usage for stored objects. As each customer is different, it may become necessary to have more space available than the volume can provide. Since not all volumes are expandable, it may become necessary to add a different, larger volume and migrate the data to the new volume.
 
-Another reason why multiple volumes may become necessary is if the volume is hosted
-on a remote system (NAS or SAN) and that remote system is due to be decommissioned.
-A second volume hosted on a new system would need to be created and the content
-moved to it.
+Another reason why multiple volumes may become necessary is if the volume is hosted on a remote system (NAS or SAN) and that remote system is due to be decommissioned. A second volume hosted on a new system would need to be created and the content moved to it.
 
 ## Environment
 
@@ -55,12 +46,9 @@ services:
                 ...
 ```
 
-These settings enable or disable each of the three storage providers. The
-configuration in the file is shipped with the same configuration as the default.
-(provider 1 enabled, 2 and 3 disabled).
+These settings enable or disable each of the three storage providers. The configuration in the file is shipped with the same configuration as the default. (provider 1 enabled, 2 and 3 disabled).
 
-To configure a provider, change the settings for the given provider. The settings
-are:
+To configure a provider, change the settings for the given provider. The settings are:
 
 | Setting | Details |
 | --- | --- |
@@ -71,11 +59,7 @@ are:
 
 ## Storage volumes
 
-This section assigns named storage volumes with specific mount points on the system
-where the software expects them to be. The volume for provider one is named
-"storage-volume" and is defined elsewhere. It will always exist, even if storage
-provider 1 is not enabled. The storage volume section of the overrides file is as
-follows:
+This section assigns named storage volumes with specific mount points on the system where the software expects them to be. The volume for provider one is named "storage-volume" and is defined elsewhere. It will always exist, even if storage provider 1 is not enabled. The storage volume section of the overrides file is as follows:
 
 ```
 services:
@@ -95,9 +79,7 @@ services:
                 ...
 ```
 
-For the other providers, you should merely uncomment the sections out for each
-provider you have enabled. For example if provider two (2) is enabled, this section
-of the file should look like:
+For the other providers, you should merely uncomment the sections out for each provider you have enabled. For example if provider two (2) is enabled, this section of the file should look like:
 
 ```
 ...
@@ -110,10 +92,7 @@ of the file should look like:
 
 ## Service volumes
 
-This section defines the volumes by name and their configuration. The configuration
-provided uses Docker Swarm's default volume driver. Similar to the Service Volume
-section, you only need to uncomment the appropriate pieces based on which providers
-are enabled. The service volume section of the file looks like this:
+This section defines the volumes by name and their configuration. The configuration provided uses Docker Swarm's default volume driver. Similar to the Service Volume section, you only need to uncomment the appropriate pieces based on which providers are enabled. The service volume section of the file looks like this:
 
 ```
 services:
@@ -135,8 +114,4 @@ services:
                 }
 ```
 
-Note: Configurations other than the default storage driver are possible here. A
-storage volume named "storage-volume2" could be created backed by NFS, a NAS or a
-SAN. These configurations would need to be worked out based on standard docker swarm
-params in conjunction with the vendors settings or extensions as appropriate to the
-customer's environment, and so cannot be documented here.
+Note: Configurations other than the default storage driver are possible here. A storage volume named "storage-volume2" could be created backed by NFS, a NAS or a SAN. These configurations would need to be worked out based on standard docker swarm params in conjunction with the vendors settings or extensions as appropriate to the customer's environment, and so cannot be documented here.

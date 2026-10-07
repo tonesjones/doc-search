@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-b
 content_id: "Iw324xH3zW4TMJQZBckrtw"
 version: "latest"
 section: "GitLab Integrations"
-scraped_at: "2026-08-08T23:48:03.462171+00:00"
+scraped_at: "2026-10-04T23:28:28.688983+00:00"
+content_hash: "e6d6a0d00e01997c52ca3f399c29c583a177ce6e1a000ff5a4fd1e2bb6a5a418"
 ---
 
 # Using Black Duck Security Bulk Onboarding with Polaris
@@ -65,7 +66,9 @@ It can be seen from the screenshot above that a workflow can be generated with t
 The following post scan options can be configured and require a GitLab User Token to be created as outlined in the prerequisites.
 
 - **Decorate pull requests with comments**: When checked, then each new policy violation introduced within a Pull Request will be summarized within a review comment.
-- **Automatically create fix pull requests:** When checked, SCA package assessments will automatically open Fix Pull Requests for a default maximum count of 5 dependency upgrades and vulnerabilities.This uses `$GITLAB_USER_TOKEN` secret by default for authentication.
+- **Automatically create fix pull requests:** When checked, Polaris automatically creates Fix Pull Requests for eligible issues in the configured assessment types. SCA assessments create dependency upgrade Pull Requests, while SAST assessments create AI-generated code fix Pull Requests. By default, up to five Fix Pull Requests can be raised across all configured assessment types .
+
+  The default shared limit is five Fix Pull Requests across all configured assessment types. Polaris evaluates SCA and SAST issues that match the configured Fix PR severity filter, which is `CRITICAL,HIGH` by default. If eligible SCA and SAST issues have the same severity and timestamp for detection then SAST issues are prioritized. When the number of eligible issues exceeds the limit, some issues may not receive a Fix Pull Request. This uses `${{ secrets.GITHUB_TOKEN }}` for authentication.
 - **Create SARIF file**: When checked, a SARIF file will be created. An additional checkbox will be displayed to provide the option to upload and display issues in GitLab security dashboard.
 - **Create and upload GitLab Security Report**: When checked, a GitLab Security Report will be created and uploaded into GitLab Security.
 

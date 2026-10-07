@@ -1,10 +1,11 @@
 ---
 title: "About Black Duck Detect Desktop"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/about-black-duck-detect-desktop.html"
-content_id: "26bJksLhAF1UbhvjiWv0kA"
+content_id: "~gT~8QiHZwdX91GlvW0~TQ"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T14:53:27.939056+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:10.208238+00:00"
+content_hash: "d4191f14f91bcb80920523602dc83432a869698087d05f10e56be5635c55da99"
 ---
 
 # About Black Duck Detect Desktop
@@ -13,21 +14,16 @@ Detect Desktop provides an interface to make it easier to scan code.
 
 With Detect Desktop, you can:
 
-- Scan source directories, binaries and
-  executables, and docker images and distributions.
-- Create a scan
-  file to be uploaded at a later time.
+- Scan source directories, binaries and executables, and docker images and distributions.
+- Create a scan file to be uploaded at a later time.
 - Manage scan files.
 - View uploaded scans.
 
 To get started with Detect Desktop:
 
-1. Download
-   Detect Desktop
-2. Install
-   Detect Desktop.
-3. Configure
-   Detect Desktop with your Black Duck SCA server settings and complete the installation process.
+1. DownloadDetect Desktop
+2. InstallDetect Desktop.
+3. ConfigureDetect Desktop with your Black Duck SCA server settings and complete the installation process.
 
 ## System Requirements
 
@@ -53,11 +49,8 @@ Ensure that your system complies with the requirements for Black Duck Detect.
 ## Downloading Detect Desktop
 
 1. Log in to Black Duck SCA.
-2. Navigate to the drop-down menu under your username and select
-   **Tools**.
-3. Select the operating system you wish to use in the **Downloads**
-   **Black Duck Detect (Desktop)** section to download the
-   executable from Google Cloud Storage.
+2. Navigate to the drop-down menu under your username and select **Tools**.
+3. Select the operating system you wish to use in the **Downloads****Black Duck Detect (Desktop)** section to download the executable from Google Cloud Storage.
 
 ## Installing Detect Desktop
 
@@ -66,25 +59,14 @@ Ensure that your system complies with the requirements for Black Duck Detect.
    Run the executable downloaded above to install Black Duck Detect Desktop.
 2. **Data Migration (if applicable)**
 
-   If you are upgrading from a previous version of Black Duck Detect Desktop, an option
-   will appear to migrate data from the earlier version.
+   If you are upgrading from a previous version of Black Duck Detect Desktop, an option will appear to migrate data from the earlier version.
 
 ## Important Notes
 
-- **Uninstallation of Previous Versions**: The installer will not automatically uninstall
-  previous versions of Black Duck Detect Desktop or versions installed
-  in non-default directories. You must manually uninstall all previous
-  versions and fix or delete any shortcuts as necessary.
-- **Sandbox Configuration Error**: If you encounter the following error
-  after installation:
+- **Uninstallation of Previous Versions**: The installer will not automatically uninstall previous versions of Black Duck Detect Desktop or versions installed in non-default directories. You must manually uninstall all previous versions and fix or delete any shortcuts as necessary.
+- **Sandbox Configuration Error**: If you encounter the following error after installation:
 
-  **"The SUID sandbox helper binary was found, but is not configured
-  correctly. Rather than run without sandboxing I'm aborting now. You need
-  to make sure that /opt/Black Duck Detect/chrome-sandbox is owned by root
-  and has mode 4755."** This indicates that your operating system does
-  not support the Sandbox at the kernel layer. To run Black Duck Detect
-  (Desktop) with the Sandbox disabled, enter the following command in the
-  terminal:
+  **"The SUID sandbox helper binary was found, but is not configured correctly. Rather than run without sandboxing I'm aborting now. You need to make sure that /opt/Black Duck Detect/chrome-sandbox is owned by root and has mode 4755."** This indicates that your operating system does not support the Sandbox at the kernel layer. To run Black Duck Detect (Desktop) with the Sandbox disabled, enter the following command in the terminal:
 
   ```
   blackduck-detect --no-sandbox
@@ -94,8 +76,7 @@ Ensure that your system complies with the requirements for Black Duck Detect.
 
 - **Unattended (Silent) Install**
 
-  To perform a silent installation of Black Duck Detect, use the following
-  command:
+  To perform a silent installation of Black Duck Detect, use the following command:
 
   ```
   ./blackduck-detect-latest.exe /S

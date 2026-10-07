@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/conan-
 content_id: "~qn79eHFZuImKjE7JD5I6Q"
 version: "12.0.0"
 section: "Package Manager information for Detect"
-scraped_at: "2026-09-07T21:15:56.044668+00:00"
+scraped_at: "2026-10-04T23:33:20.434597+00:00"
+content_hash: "ac3b75ddc6cdb9ffe6f7e0a2df9fa3c0c5bd5de9c9c510414dfe84841c5b86e2"
 ---
 
 # Conan support

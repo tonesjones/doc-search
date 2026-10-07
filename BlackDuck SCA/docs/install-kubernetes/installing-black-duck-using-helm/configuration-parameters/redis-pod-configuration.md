@@ -1,10 +1,11 @@
 ---
 title: "Redis pod configuration"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/redis-pod-configuration.html"
-content_id: "s~iNaYzetYY1DITKuF870w"
+content_id: "2iQYprsAcI0wu9YB48pgoA"
 version: "2026.7"
 section: "Installing Black Duck using Kubernetes and OpenShift"
-scraped_at: "2026-08-08T15:33:12.896800+00:00"
+scraped_at: "2026-10-04T23:32:23.096303+00:00"
+content_hash: "d604b5729f0dafd7d2aa95e57ce31c81204ad5f65614d91eca5522a30f3b2f66"
 ---
 
 # Redis pod configuration

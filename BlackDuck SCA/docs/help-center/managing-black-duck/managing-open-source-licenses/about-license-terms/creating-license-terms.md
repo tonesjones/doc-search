@@ -1,16 +1,16 @@
 ---
 title: "Creating license terms"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/creating-license-terms.html"
-content_id: "rmAa_JB6gqX07cFgaYr3xg"
+content_id: "CujprXkdgu6ueU2_z6MmiA"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T15:30:49.529281+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:16.621000+00:00"
+content_hash: "ab1ded118b1b4c25754acd8b7696d11fc9c0f1c0ed51ca4f869a59d94b775417"
 ---
 
 # Creating license terms
 
-You can create a license term when viewing all available license terms or when viewing
-the terms that apply to a specific license.
+You can create a license term when viewing all available license terms or when viewing the terms that apply to a specific license.
 
 Only users with the License Manager role can create license terms.
 
@@ -32,20 +32,11 @@ To create a license term:
 4. Complete the information in the dialog box:
    - **Name**.
    - **Description**.
-   - **Responsibility**. Select whether this responsibility is required,
-     forbidden, or permitted.
-   - **Category**. Select a category for this license term. Optionally,
-     create a new category by entering text in the field and selecting to add
-     this new category. The new category will be automatically
-     created.
+   - **Responsibility**. Select whether this responsibility is required, forbidden, or permitted.
+   - **Category**. Select a category for this license term. Optionally, create a new category by entering text in the field and selecting to add this new category. The new category will be automatically created.
 5. Do one of the following:
-   - Click **Create and Associate with License**. The License Association
-     dialog box appears. Select the licenses to associate to this license
-     term, optionally select whether this term requires fulfillment, and
-     click **Add**. Click here for more information about associating a term to a
-     license.
-   - Click **Create**. The new license term appears in the table in the
-     **License Terms** tab.
+   - Click **Create and Associate with License**. The License Association dialog box appears. Select the licenses to associate to this license term, optionally select whether this term requires fulfillment, and click **Add**. Click here for more information about associating a term to a license.
+   - Click **Create**. The new license term appears in the table in the **License Terms** tab.
 
 To create a license term for a specific license:
 
@@ -56,19 +47,15 @@ To create a license term for a specific license:
 
      
     [image: License Management page]
-3. In the **Licenses** tab, select the license name to display the *License
-   Name*
-   **Settings** tab.
+3. In the **Licenses** tab, select the license name to display the *License Name***Settings** tab.
 
      
     [image: image]
-4. Select the **License Terms** tab to view the terms associated with this
-   tab.
+4. Select the **License Terms** tab to view the terms associated with this tab.
 
      
     [image: image]
-5. Select **New** to create a new term. The Add Term dialog box displays the
-   fields you need to complete to create a new term.
+5. Select **New** to create a new term. The Add Term dialog box displays the fields you need to complete to create a new term.
 
      
     [image: Add Term dialog box]
@@ -76,17 +63,12 @@ To create a license term for a specific license:
 
    - **Name**.
    - **Description**.
-   - **Responsibility**. Select whether this responsibility is required,
-     forbidden, or permitted.
-   - **Category**. Select a category for this license term. Optionally,
-     create a new category by entering text in the field and selecting to add
-     this new category. The new category will be automatically created.
+   - **Responsibility**. Select whether this responsibility is required, forbidden, or permitted.
+   - **Category**. Select a category for this license term. Optionally, create a new category by entering text in the field and selecting to add this new category. The new category will be automatically created.
    - **Fulfillment**. Indicate whether this term must be fulfilled.
 7. Click **Add**. The new term is added to this license.
 
      
     [image: License Terms tab]   
 
-   The new license term is also listed in the **License Terms** table. You can
-   then associate this term to other licenses and specify whether the term
-   must be fulfilled for those licenses.
+   The new license term is also listed in the **License Terms** table. You can then associate this term to other licenses and specify whether the term must be fulfilled for those licenses.

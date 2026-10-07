@@ -1,17 +1,16 @@
 ---
 title: "Software requirements"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/software-requirements.html"
-content_id: "Caio0XYw94ag0ZBc2BsNDA"
+content_id: "hDHA9YPS9PIjLy9tYvdk7A"
 version: "2026.7"
 section: "Installing Black Duck using Docker Swarm"
-scraped_at: "2026-08-08T15:33:29.474029+00:00"
+scraped_at: "2026-10-04T23:32:23.834496+00:00"
+content_hash: "6e4085079689f524a0fd96cb613f6bf3cb57995b436be49ac0137f9cee842235"
 ---
 
 # Software requirements
 
-Black Duck is a web application that has an HTML interface.
-You access the application via a web browser. The following web browser versions have
-been tested with Black Duck:
+Black Duck is a web application that has an HTML interface. You access the application via a web browser. The following web browser versions have been tested with Black Duck:
 
 - Safari Version 17.4.1
 
@@ -28,7 +27,4 @@ been tested with Black Duck:
 
 Note that Black Duck does not support compatibility mode.
 
-Note: These browser versions are the currently-released versions on which Black Duck Software has tested Black Duck. Newer browser
-versions may be available after Black Duck is released and may or may
-not work as expected. Older browser versions may work as expected but have not been
-tested and may not be supported.
+Note: These browser versions are the currently-released versions on which Black Duck Software has tested Black Duck. Newer browser versions may be available after Black Duck is released and may or may not work as expected. Older browser versions may work as expected but have not been tested and may not be supported.

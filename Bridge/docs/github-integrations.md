@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/github-
 content_id: "a6v0vURaEcio7ua5wkS6TA"
 version: "latest"
 section: "GitHub Integrations"
-scraped_at: "2026-08-08T23:47:35.698783+00:00"
+scraped_at: "2026-10-04T23:28:27.349063+00:00"
+content_hash: "85d8442283c599c2451716a0632179820c0d5a6855fa55fd7baeba2d86e4e977"
 ---
 
 # GitHub Integrations

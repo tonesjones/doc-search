@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/isolat
 content_id: "P5ipxntvustQn~7uY4zBMw"
 version: "12.0.0"
 section: "Package Manager information for Detect"
-scraped_at: "2026-09-07T21:16:03.690081+00:00"
+scraped_at: "2026-10-04T23:33:20.705263+00:00"
+content_hash: "38e62e72d8799c093fe9ec02511cb7239ac1e8b84190cd03ea8edf581571ece7"
 ---
 
 # Isolating application components

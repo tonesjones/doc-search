@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/runnin
 content_id: "VejYElKO~RbeK1p7FEBU7A"
 version: "12.0.0"
 section: "Planning and running Detect"
-scraped_at: "2026-09-07T21:15:39.993081+00:00"
+scraped_at: "2026-10-04T23:33:19.869220+00:00"
+content_hash: "f25e3da4c1ef6b82a4f1ac26777cdffaab065d90c5a8c00179086a2184f1b1b7"
 ---
 
 # Running behind a proxy

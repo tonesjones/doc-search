@@ -12,7 +12,7 @@
 | Map ID | `j_bSwuxnjHv5ElV~TQrAQg` |
 | TOC nodes | **207** |
 | Progress | **207/207 done** (100.0%) · 0 pending · 0 skipped · 0 error |
-| Last index build | 2026-09-07T21:17:36.336417+00:00 |
+| Last index build | 2026-10-04T23:27:44.893047+00:00 |
 | Manifest | [sources/detect-12.0.0/manifest.json](sources/detect-12.0.0/manifest.json) |
 | Raw TOC | [sources/detect-12.0.0/toc.json](sources/detect-12.0.0/toc.json) |
 | Docs roots | `docs/detect-12.0.0/` |

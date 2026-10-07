@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/upgrad
 content_id: "Wl8kLNbai0FJvLQn1b_JeQ"
 version: "12.0.0"
 section: "Downloading and Installing Detect"
-scraped_at: "2026-09-07T21:14:56.684924+00:00"
+scraped_at: "2026-10-04T23:33:18.577599+00:00"
+content_hash: "7a17eee2b3b9857fafb055db81961c00156a95d8ec6180ae074c12e89b4c3c79"
 ---
 
 # Upgrading Detect

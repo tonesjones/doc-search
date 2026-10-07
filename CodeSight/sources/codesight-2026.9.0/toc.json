@@ -1,0 +1,1924 @@
+[
+  {
+    "tocId": "A5c_V9aPk9gZoFjzgwclCQ",
+    "contentId": "3q72oBnec7SNEe~yYIK_cQ",
+    "title": "Welcome to Code Sight",
+    "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/welcome-to-code-sight.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "UlMs97_VeHQM8vTG357nyA",
+        "contentId": "xoScVrUuwP65ZnwMXypsQg",
+        "title": "Code Sight interactive tours",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-interactive-tours.html",
+        "hasRating": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "tocId": "8b9W2Nez9GsMwOFw7tMBWw",
+    "contentId": "0kqP6U_2oDcsl0tLlOiLBA",
+    "title": "Code Sight Support Matrix",
+    "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-support-matrix.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "7WPxuvYABVsF2hJrDfrR3A",
+        "contentId": "QIkjoAJcV38mKlB~ji1rGw",
+        "title": "Supported Languages, Frameworks, and Package Managers for Black Duck Products",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/supported-languages-frameworks-and-package-managers-for-black-duck-products.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "GjkyRIvMm5CT3IareCAR5g",
+        "contentId": "UtzFLhzepemiHVVSE1DTLA",
+        "title": "Supported IDEs",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/supported-ides.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "gESbsZNgi6PSj9JBNKen0g",
+        "contentId": "kuL8rH8fo82g~JyxXcD5gA",
+        "title": "Supported Platforms",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/supported-platforms.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "KcMgVv7u48UsOonk_S7xmg",
+        "contentId": "bhz76ngzHT5bsTy5fAlkNw",
+        "title": "Supported Products and Servers",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/supported-products-and-servers.html",
+        "hasRating": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "tocId": "1wA4vqF2TL6Jui5UMP6kIg",
+    "contentId": "~nOYR7w9~lUwFMp7GFWQAg",
+    "title": "Installing Code Sight",
+    "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/installing-code-sight.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "yK2V1tEIolvNjvsYtdXEDA",
+        "contentId": "QkbqCLmPFgp7RFrcX4q4bA",
+        "title": "Installing Code Sight in Eclipse",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/installing-code-sight-in-eclipse.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "QIjhosBcFwew2evmEulgGw",
+            "contentId": "WzqRZZvWus4t3gamNJFkGA",
+            "title": "Prerequisites for installing Code Sight in Eclipse",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/prerequisites-for-installing-code-sight-in-eclipse.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "PVoFr5gDlGl5UG6FXAqVEQ",
+            "contentId": "0zEF4Jj0dR8mnjhm_NHJnA",
+            "title": "To install the Code Sight plug-in in Eclipse",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/to-install-the-code-sight-plug-in-in-eclipse.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "SvIyE8YgmPuKREXra431GQ",
+            "contentId": "eG4NArTkuiJz4LciLP2nzQ",
+            "title": "To install the Code Sight plug-in on an Eclipse system not connected to the Internet",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/to-install-the-code-sight-plug-in-on-an-eclipse-system-not-connected-to-the-internet.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "mPwqxO4qQO2W57dHXf904A",
+            "contentId": "Ag~TZ5FeBQuq6uKfla0rOQ",
+            "title": "Code Sight within Eclipse",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-within-eclipse.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "IDXhDVXiB95cNcIxqw32pA",
+            "contentId": "ZrEKUk~G2w09NvdVsUiJ~g",
+            "title": "To uninstall the Code Sight plug-in from Eclipse",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/to-uninstall-the-code-sight-plug-in-from-eclipse.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "D~YXoegxja436DqNbu3RTg",
+                "contentId": "Y2TfDxeQZUsLxvgBQwXBbg",
+                "title": "To clean up the Code Sight configuration files (Eclipse)",
+                "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/to-clean-up-the-code-sight-configuration-files-eclipse-.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tocId": "ZlvNApGR7DoCqQxm0UG1bw",
+        "contentId": "irYijqSTl_cowU9CBWNyvg",
+        "title": "Installing Code Sight in IntelliJ",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/installing-code-sight-in-intellij.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "nMXg9Q1sRvgGclcpGaOL9g",
+            "contentId": "iiXQdqObaXI2iTNphiq89w",
+            "title": "Prerequisites for installing Code Sight in IntelliJ",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/prerequisites-for-installing-code-sight-in-intellij.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "V7~wwhMsx1jSfQGXBi7QqQ",
+            "contentId": "lrmOZIw9_0TBWdsiA4s7Og",
+            "title": "To install the Code Sight plug-in in IntelliJ",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/to-install-the-code-sight-plug-in-in-intellij.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "_S3saV7XpTK5Bs9awM_ZDQ",
+            "contentId": "zqDhRpSSO~6FApGaPSTvZQ",
+            "title": "To install the Code Sight plug-in on an IntelliJ system not connected to the Internet",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/to-install-the-code-sight-plug-in-on-an-intellij-system-not-connected-to-the-internet.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "imcrCaxNHt1_NPP~89_2lQ",
+            "contentId": "S_awgVtapGJPa~gfEKYnXA",
+            "title": "Code Sight within IntelliJ",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-within-intellij.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "syxqmAgjJ6R0budJfu3~Ew",
+            "contentId": "56rmXyXSFgoASHhO2~RBjQ",
+            "title": "To uninstall the Code Sight plug-in from IntelliJ",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/to-uninstall-the-code-sight-plug-in-from-intellij.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "KA8SwQT1wiIR5~pAlOqGeQ",
+                "contentId": "Z4Nlzy3ildDf_PglCseMJQ",
+                "title": "To clean up the Code Sight configuration files (IntelliJ)",
+                "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/to-clean-up-the-code-sight-configuration-files-intellij-.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tocId": "1dDjQRxvD0LjNVbDo2JrYg",
+        "contentId": "0_Vpyjb8L~1sucQ0b~MYXg",
+        "title": "Installing Code Sight in Visual Studio",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/installing-code-sight-in-visual-studio.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "2ey8V_D3PzrH9kB5yUfnlw",
+            "contentId": "rySCEToNDEpIbqFgVMWqdg",
+            "title": "Prerequisites for installing Code Sight in Visual Studio",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/prerequisites-for-installing-code-sight-in-visual-studio.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "Ebtf7fUHClrQfd8yRiL2Rw",
+            "contentId": "1HlBt3FuuiNRmo2jVyvDZg",
+            "title": "To install the Code Sight extension in Visual Studio",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/to-install-the-code-sight-extension-in-visual-studio.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "3~UVRAdeO1njFapQyG_ZxQ",
+            "contentId": "WjpDsNUUQzXN69UMeyanCg",
+            "title": "To install the Code Sight extension on a Visual Studio system not connected to the Internet",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/to-install-the-code-sight-extension-on-a-visual-studio-system-not-connected-to-the-internet.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "gxmEI3bqrKxHkTKuanK1PA",
+            "contentId": "qb4USg_XgMzOiJzeZMsJJA",
+            "title": "Code Sight within Visual Studio",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-within-visual-studio.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "cpdrwUTFe8KhYS0iWK0qeA",
+            "contentId": "DfQ_1RAlYwQZnRwCsB_rXQ",
+            "title": "To uninstall the Code Sight extension from Visual Studio",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/to-uninstall-the-code-sight-extension-from-visual-studio.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "kDsf7V0qF75repCfb~jqVA",
+                "contentId": "ivIQfGio2egRVJm~3YbbnA",
+                "title": "To clean up the Code Sight configuration files (Visual Studio)",
+                "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/to-clean-up-the-code-sight-configuration-files-visual-studio-.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tocId": "yF_s7wm~bNDRKd5MFfhuww",
+        "contentId": "_iVKJFtm2Q_HTWz0Kg20Zw",
+        "title": "Installing Code Sight in Visual Studio Code",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/installing-code-sight-in-visual-studio-code.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "P4UM3m4jAJ5dhK3M7hoWEg",
+            "contentId": "7ZQJqE8tfhB24mVJXIAPxg",
+            "title": "Prerequisites for installing Code Sight in Visual Studio Code",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/prerequisites-for-installing-code-sight-in-visual-studio-code.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "Yj4nvNbZP12GEUex6CfDVA",
+                "contentId": "KCyUX37XWBWKguAGN2Vy~w",
+                "title": "How do I enable Coverity (SAST) scans within Visual Studio Code?",
+                "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/how-do-i-enable-coverity-sast-scans-within-visual-studio-code-.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "tocId": "ynQWFhxQ~aeuanY_~~Vivw",
+            "contentId": "mQEmhHnOm7b4VyHGzDTraA",
+            "title": "To install the Code Sight extension in Visual Studio Code",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/to-install-the-code-sight-extension-in-visual-studio-code.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "QOK~rJgf~TTPq9D6tDyqwQ",
+            "contentId": "h0je3r230nGOlQ1G43Uk4A",
+            "title": "To install the Code Sight extension on a Visual Studio Code system not connected to the Internet",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/to-install-the-code-sight-extension-on-a-visual-studio-code-system-not-connected-to-the-internet.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "QPPKwoh9~OT0hPRJ4sZWQg",
+            "contentId": "4mYWxr2pl7~Mdi~biII9dQ",
+            "title": "Code Sight within Visual Studio Code",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-within-visual-studio-code.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "X0_QerVT5zYDfDQ8a7Lo3w",
+            "contentId": "3A89zO7Bh_rcROs~R5N~cw",
+            "title": "To uninstall the Code Sight extension from Visual Studio Code",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/to-uninstall-the-code-sight-extension-from-visual-studio-code.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "zU63inefhs~7rLWKFRncKg",
+                "contentId": "hS46T4veImgGiAd__ZSNLA",
+                "title": "To clean up the Code Sight configuration files (Visual Studio Code)",
+                "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/to-clean-up-the-code-sight-configuration-files-visual-studio-code-.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tocId": "89ZLJJZq_4ePZyuhNWBCmw",
+    "contentId": "oCWYw_mfOJyWw543VbtxJw",
+    "title": "Authenticating to Servers in Code Sight",
+    "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/authenticating-to-servers-in-code-sight.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "MvrK5BJS3jmQE6UqTr5RaA",
+        "contentId": "3wyiVeCmLtQnyvJZx3N60g",
+        "title": "Authenticating and installing: Products and Licenses panel",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/authenticating-and-installing-products-and-licenses-panel.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "h0aNiIx5NZnnSt5rJcOP8Q",
+        "contentId": "TlDk6QlwNJyv_DafdjccCw",
+        "title": "To authenticate Black Duck SCA within Code Sight",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/to-authenticate-black-duck-sca-within-code-sight.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "yLLcwGjEmBkEND6GF7uagQ",
+        "contentId": "9Y86Lps4mT5MPMr38rRNIA",
+        "title": "To authenticate Coverity within Code Sight",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/to-authenticate-coverity-within-code-sight.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "4qq6ucp9_wvjnpgwV1mv6w",
+        "contentId": "bpCpM4EuE_SZ~vVX8ssAfw",
+        "title": "To authenticate Polaris within Code Sight",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/to-authenticate-polaris-within-code-sight.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "bOtEHz2SeEF2p0ZV4amHdg",
+        "contentId": "8pNlWjp7A6nJLoQFNi6mUw",
+        "title": "Adding or removing a scanning tool from your Code Sight configuration",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/adding-or-removing-a-scanning-tool-from-your-code-sight-configuration.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "g5L3McEh~yizw4BxCUxjRQ",
+            "contentId": "l0pQSPrp6MhbOXb9uMnwfQ",
+            "title": "To add a scanning tool that has not yet been authenticated",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/to-add-a-scanning-tool-that-has-not-yet-been-authenticated.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "kLeUrEHlc_QSw4AQDZH8SA",
+            "contentId": "eL9ConCQc3E0AQ5ExsrExA",
+            "title": "To remove an engine so that Code Sight stops running it",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/to-remove-an-engine-so-that-code-sight-stops-running-it.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tocId": "YVlrA19F2E3ycklGZUeZbA",
+    "contentId": "Yw4bYpSXzAjsYs4SBJiV4w",
+    "title": "Viewing Issues in Code Sight",
+    "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/viewing-issues-in-code-sight.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "aRVlhrruClOXNKGtSje4QQ",
+        "contentId": "rTP8NEAt0jJw2pKDTZw9TA",
+        "title": "Local View",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/local-view.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "UZIdKUTgEiWpdIB3AtfIiw",
+            "contentId": "4d4eHXTLZttlRTwwsNLn0w",
+            "title": "Scan mode",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/scan-mode.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "4nB9gInq4ldarjYS6qrUqA",
+                "contentId": "IoVW14d_q_7~4LV~4GK3tw",
+                "title": "Automatic / Incremental scanning",
+                "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/automatic/incremental-scanning.html",
+                "hasRating": false,
+                "children": [
+                  {
+                    "tocId": "iq2vBMAAvHHbOrDUQEy0Xg",
+                    "contentId": "2ZPfaKy8pcAuVQrTU7SbfA",
+                    "title": "Snippet Analysis (VS Code only)",
+                    "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/snippet-analysis-vs-code-only-.html",
+                    "hasRating": false,
+                    "children": []
+                  },
+                  {
+                    "tocId": "LzWaUVQFUIaroSpEODPKbQ",
+                    "contentId": "3mSYNibNcyVcJ2ESyBoAog",
+                    "title": "Analyze while you type",
+                    "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/analyze-while-you-type.html",
+                    "hasRating": false,
+                    "children": []
+                  },
+                  {
+                    "tocId": "BmKxgaB7zbWFPD5P37Zplw",
+                    "contentId": "V9bfpwPmCzudutZtbVFzow",
+                    "title": "Incremental Scan Configuration tab for VS Code",
+                    "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/incremental-scan-configuration-tab-for-vs-code.html",
+                    "hasRating": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "tocId": "~nzqCdFBvusVNmYfeSv2Ig",
+                "contentId": "yNP083K~YE~7jyxWVI18DA",
+                "title": "Manual / Project Scanning",
+                "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/manual/project-scanning.html",
+                "hasRating": false,
+                "children": [
+                  {
+                    "tocId": "xQ5sPyoLZTLNZuIPIMHVhw",
+                    "contentId": "wj_4W6rJe1gqSFg7MhzK5w",
+                    "title": "Creating a scan configuration",
+                    "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/creating-a-scan-configuration.html",
+                    "hasRating": false,
+                    "children": [
+                      {
+                        "tocId": "FjBFS3Bh1vjPQWk_~beEYg",
+                        "contentId": "mYczEvSwATcrog1NH9IJYg",
+                        "title": "Manual scanning workflow",
+                        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/manual-scanning-workflow.html",
+                        "hasRating": false,
+                        "children": []
+                      },
+                      {
+                        "tocId": "1_7I6eCID0MDQUgg31yvPQ",
+                        "contentId": "EnyUPfcRgbrSVY2uXLVh_Q",
+                        "title": "Coverity scan configurations and custom scan settings",
+                        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/coverity-scan-configurations-and-custom-scan-settings.html",
+                        "hasRating": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "tocId": "zqiI5mcLdMGtPf12lYNsrA",
+                    "contentId": "2d1oZWVsIsnxqFpBNWjeyw",
+                    "title": "Exporting Scan Results",
+                    "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/exporting-scan-results.html",
+                    "hasRating": false,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tocId": "fkOp7lt~N_pq1Hs87WebYg",
+        "contentId": "iKJTUfVSB26u~hM5Te1WRQ",
+        "title": "Team View",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/team-view.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "WxdtYvlezMUjN4d6w02iHg",
+            "contentId": "q3WLhkqgB0djPr5AH5FcLQ",
+            "title": "Triaging issues in Team View",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/triaging-issues-in-team-view.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tocId": "Bn82gOAieUseQfsHGGerpQ",
+    "contentId": "p5dWXf2caGHqe~1zySZkEw",
+    "title": "Signal and Code Sight VS Code Extension",
+    "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/signal-and-code-sight-vs-code-extension.html",
+    "hasRating": true,
+    "children": []
+  },
+  {
+    "tocId": "HaAF8v0SMB0pgwK9s2B0zA",
+    "contentId": "2cIKLZNz5jpXJp1HxKEDOQ",
+    "title": "Coverity with Code Sight",
+    "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/coverity-with-code-sight.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "NMsCnI4mXZxRdj4tjGPU3A",
+        "contentId": "OwQeK2syECV25dBfhL5Jig",
+        "title": "Code Sight QuickStart for Coverity (SAST) customers",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-quickstart-for-coverity-sast-customers.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "SDb3VzTTjdcleHtfrEnNRw",
+        "contentId": "7OPo0OaeZYexnuBSbkoCCw",
+        "title": "Setting up Coverity for Code Sight",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/setting-up-coverity-for-code-sight.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "ddddzggNkl~S8~ieXlNizw",
+            "contentId": "vrV0idIuIHKAh47at5KRTA",
+            "title": "Configuring a local scan engine",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/configuring-a-local-scan-engine.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "VHhM6z0bU5w_2ZeGwr~k6g",
+                "contentId": "TAeoWatPXJXJXz2qIUDFrQ",
+                "title": "Configure Coverity Analysis to use Coverity on Polaris",
+                "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/configure-coverity-analysis-to-use-coverity-on-polaris.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "2VM7ixEWh3mM7K4zNLxIzw",
+                "contentId": "O4P6OrwlOU4sQLeGg6cSqA",
+                "title": "Configure Coverity Analysis to use Coverity Connect",
+                "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/configure-coverity-analysis-to-use-coverity-connect.html",
+                "hasRating": false,
+                "children": [
+                  {
+                    "tocId": "SMX8RGi~EQazSXZL2~lnig",
+                    "contentId": "~QSgTTSQ0juSo~YGV2lesg",
+                    "title": "Preliminaries: Server-side configuration for Coverity Connect",
+                    "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/preliminaries-server-side-configuration-for-coverity-connect.html",
+                    "hasRating": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "tocId": "bqUk7K6Zj4iSj0nZVSOh0g",
+                "contentId": "DD5YnWinIYvZ01gUuXAhPw",
+                "title": "‘coverity.conf’ configuration files",
+                "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/coverity.conf-configuration-files.html",
+                "hasRating": false,
+                "children": [
+                  {
+                    "tocId": "~KIAa1wm8lE4UN2FYWP4_g",
+                    "contentId": "QVWUODc8u6vQ8YDz7_Z00Q",
+                    "title": "The user-specific ‘coverity.conf’ file",
+                    "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/the-user-specific-coverity.conf-file.html",
+                    "hasRating": false,
+                    "children": []
+                  },
+                  {
+                    "tocId": "4wkGiU_v39GPyBUlbUieyw",
+                    "contentId": "9cJy2XlL2jm_ioOP~qEjzg",
+                    "title": "Project-specific ‘coverity.conf’ files",
+                    "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/project-specific-coverity.conf-files.html",
+                    "hasRating": false,
+                    "children": [
+                      {
+                        "tocId": "sw0MsGpKWfokEJOUkiiQvA",
+                        "contentId": "12VWcvkmBktx9lf4_~qwTg",
+                        "title": "Special-purpose compiler configurations",
+                        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/special-purpose-compiler-configurations.html",
+                        "hasRating": false,
+                        "children": []
+                      },
+                      {
+                        "tocId": "SS3wSiN_q0JOnjMY29XqXQ",
+                        "contentId": "hnB_RY7Q4izY~w2wgiU3Rg",
+                        "title": "Specifying custom build tools",
+                        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/specifying-custom-build-tools.html",
+                        "hasRating": false,
+                        "children": []
+                      },
+                      {
+                        "tocId": "koY9zln5Ilu_STnQOSwbCA",
+                        "contentId": "jsxpzQagFU18qvEE1rqG2g",
+                        "title": "Building with Bazel",
+                        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/building-with-bazel.html",
+                        "hasRating": false,
+                        "children": []
+                      },
+                      {
+                        "tocId": "mZqCbRTFSRslnV4qLgxSrw",
+                        "contentId": "e4STs7do8dI3bnOisOv6uQ",
+                        "title": "Exclude files or directories from Coverity Analysis",
+                        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/exclude-files-or-directories-from-coverity-analysis.html",
+                        "hasRating": false,
+                        "children": []
+                      },
+                      {
+                        "tocId": "P7A56qVZnsOM3DGUfJreMw",
+                        "contentId": "rKSjIOLjh7mQtX~RWrKixw",
+                        "title": "Set up Kotlin analysis for Android Studio",
+                        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/set-up-kotlin-analysis-for-android-studio.html",
+                        "hasRating": false,
+                        "children": []
+                      },
+                      {
+                        "tocId": "xvrLe~_NVrXeXhC2GgDilw",
+                        "contentId": "BQm8QI9B~ywaboSDUTktDA",
+                        "title": "Set up Kotlin analysis for Eclipse, IntelliJ, or Visual Studio Code",
+                        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/set-up-kotlin-analysis-for-eclipse-intellij-or-visual-studio-code.html",
+                        "hasRating": false,
+                        "children": []
+                      },
+                      {
+                        "tocId": "dqSxPFfgAMPOoZD8st0NKA",
+                        "contentId": "rCGIyT4dWBRTyBPw6gesIA",
+                        "title": "Enabling MISRA compliance testing",
+                        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/enabling-misra-compliance-testing.html",
+                        "hasRating": false,
+                        "children": []
+                      },
+                      {
+                        "tocId": "6T9Mq8GP29~MMEnkw4bf_A",
+                        "contentId": "L33w2buynVzlYxtT4l8g0g",
+                        "title": "Custom analysis settings",
+                        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/custom-analysis-settings.html",
+                        "hasRating": false,
+                        "children": []
+                      },
+                      {
+                        "tocId": "g7U9wEmjfZSdYlGKb8f~xQ",
+                        "contentId": "LzWYcxJ_oAyFs9Xb8ZvHGQ",
+                        "title": "Coverity on Polaris and ‘coverity.conf’",
+                        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/coverity-on-polaris-and-coverity.conf-.html",
+                        "hasRating": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tocId": "8pVHozQBgbZfDLuu4ztQhQ",
+                "contentId": "hfeMfer1FNtxw__g_sKIbg",
+                "title": "Coverity setup for Code Sight: Frequently asked questions",
+                "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/coverity-setup-for-code-sight-frequently-asked-questions.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "tocId": "dKuv9DXuWQ4HQmXGHdZD9A",
+            "contentId": "~HYAxVUtDTBC10xjnK57sg",
+            "title": "Configuring Code Sight to view remote Coverity issues",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/configuring-code-sight-to-view-remote-coverity-issues.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "Y7AST19JwqVJsuAwalKAAA",
+        "contentId": "Cim8FssSr73SmQjx7mTzyw",
+        "title": "Viewing Code Analysis Issues",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/viewing-code-analysis-issues.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "VWDKQRF6e4z9RIMLGvyVFQ",
+            "contentId": "vsAaCbCxq4X~RFUxksc9SQ",
+            "title": "Filtering Coverity Connect issues",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/filtering-coverity-connect-issues.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "yrdt_wb5oLBQiOR7sG~7bg",
+            "contentId": "jlmMLz9sTHJWtDo26FR~EA",
+            "title": "Triage panel (MS Visual Studio)",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/triage-panel-ms-visual-studio-.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "XdMuhkRG2U_jpugVldDSLw",
+            "contentId": "V~R12WoBqnD2hXL_z_px8g",
+            "title": "Comparing Coverity Local Scan Results with a Coverity Connect Stream",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/comparing-coverity-local-scan-results-with-a-coverity-connect-stream.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "SdsFTOdLriD0hFyV2ch~NQ",
+        "contentId": "xYr3aVcuvxJP1uT5Qvug8g",
+        "title": "Static Application Security Testing (SAST) overview",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/static-application-security-testing-sast-overview.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "pbjHrl4TA~9J67uQ4GLVNw",
+            "contentId": "Owdj_WXzgs3_6EaT123Y8Q",
+            "title": "Rapid Scan Static",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/rapid-scan-static.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "y3_r3eZSVGlSvZIrAPx3PQ",
+                "contentId": "mpxmqhUiR9K2BP9Cst9Gsw",
+                "title": "Issue details: Rapid Scan Static",
+                "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/issue-details-rapid-scan-static.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "tocId": "zfvfsmvKO6DYfK4ttdCKsg",
+            "contentId": "Rfet7VXWvV6EhcQ2AHJjVQ",
+            "title": "Coverity Analysis",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/coverity-analysis.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "jM5mAAfVaEZNgBUdFb8LHA",
+                "contentId": "glbhaB24WfGM08kJTZKa8A",
+                "title": "How does Coverity manage static analysis?",
+                "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/how-does-coverity-manage-static-analysis-.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "eM__nyIsGgZboWlh57KDXw",
+                "contentId": "8k6peOcEUwWojPin~4tJwA",
+                "title": "Issue details: Coverity (SAST)",
+                "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/issue-details-coverity-sast-.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "fDzi7QAHidLifwHZ0JGx8w",
+                "contentId": "pKrF3qXIZQlemW0iJacpVQ",
+                "title": "Enhancing Single-File Scans with Central Scan Results",
+                "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/enhancing-single-file-scans-with-central-scan-results.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "e5bJpncc4KsfQdRomBwNxg",
+                "contentId": "Ee8oDSMPIj2x3ocg0Va_FA",
+                "title": "Contributing Details: Coverity (SAST)",
+                "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/contributing-details-coverity-sast-.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "ged7HOvgRZlxmqoEC4EJ9A",
+                "contentId": "MIzN80q3oVNvBhomq5owcw",
+                "title": "Synchronizing Coverity Analysis with a server",
+                "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/synchronizing-coverity-analysis-with-a-server.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "t2JEpX8pk3YotCYQUCmnvg",
+                "contentId": "xY3VTK9TlrKcJXkvBZyglQ",
+                "title": "Multiple occurrences of an issue",
+                "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/multiple-occurrences-of-an-issue.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tocId": "QigCphRbthTQcr_I6NWjMA",
+    "contentId": "lz3zpvWvUEcuTpypRnTIag",
+    "title": "Black Duck SCA with Code Sight",
+    "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/black-duck-sca-with-code-sight.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "PhzMCy7N3tyrxsC5AG655w",
+        "contentId": "rGV0q_bgcoEGviORyip0AA",
+        "title": "Code Sight QuickStart for Black Duck SCA customers",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-quickstart-for-black-duck-sca-customers.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "8MA4tscdmGHpDTPia1CC7g",
+        "contentId": "Y9B7668P4~xQljnygNKjeg",
+        "title": "Setting Up Black Duck SCA for Code Sight",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/setting-up-black-duck-sca-for-code-sight.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "JLGq7C1x5qEeQUHv9ADL_g",
+            "contentId": "cODpQc9qy6CUJ17MZag3Ig",
+            "title": "Black Duck SCA setup considerations",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/black-duck-sca-setup-considerations.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "oncs_4ZnQy8iOag5VtDSQA",
+            "contentId": "Qe8_LrjchYrhSZ4GzxR3rw",
+            "title": "Specify a custom download location for Black Duck Detect",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/specify-a-custom-download-location-for-black-duck-detect.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "YBhT0Dy0glzAsDQk0rEeDg",
+            "contentId": "i53KzQp1Zr7ntJCgMLILFA",
+            "title": "Build tools and package managers",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/build-tools-and-package-managers.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "doLpzWW1~I2VlrTwazzcwg",
+        "contentId": "g8NRttHbKqUCYn2fkGSd8w",
+        "title": "Viewing Open Source Analysis issues",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/viewing-open-source-analysis-issues.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "cxEy0Os3CeY9S84djdCPlA",
+        "contentId": "Y8O1Mh_7KJ_eSQv4IX2nrQ",
+        "title": "Software Composition Analysis (SCA) overview",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/software-composition-analysis-sca-overview.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "kctJbkDC6G_m_38i4dErYQ",
+            "contentId": "BjWNIkNC9~qvM6jF6g_chA",
+            "title": "Rapid Scan SCA",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/rapid-scan-sca.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "e_GTrzfbiDNsmYEFJnXLCQ",
+            "contentId": "kkjRCIPcUg3E4WFjVRjzaA",
+            "title": "Black Duck SCA",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/black-duck-sca.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "SYdZQcJ0GJ9RmNwofUm5Wg",
+                "contentId": "3jXtooOVif6W1T5SQAgeAw",
+                "title": "How does Black Duck SCA manage composition analysis?",
+                "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/how-does-black-duck-sca-manage-composition-analysis-.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "vfbYXmvGus_fxIDsq2cMLw",
+                "contentId": "_yOy3snhN2rG_rP~S9p72g",
+                "title": "Issue details: Black Duck SCA",
+                "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/issue-details-black-duck-sca.html",
+                "hasRating": false,
+                "children": []
+              },
+              {
+                "tocId": "MpnQ92fQKhV7y3uuuvMZ4w",
+                "contentId": "Km_PDCyQjKhHNwjRepMbbw",
+                "title": "View dependencies: Black Duck SCA",
+                "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/view-dependencies-black-duck-sca.html",
+                "hasRating": false,
+                "children": [
+                  {
+                    "tocId": "YCsHoWSIlYSNUGJoEo_KVw",
+                    "contentId": "ouHA3_UZMzk7HixBUyfEDA",
+                    "title": "To view duplicate dependencies",
+                    "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/to-view-duplicate-dependencies.html",
+                    "hasRating": false,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tocId": "llDzd_qHPP2azOmqwED36g",
+    "contentId": "eOXDhbxlYo1usRRkG3mmxQ",
+    "title": "Polaris with Code Sight",
+    "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/polaris-with-code-sight.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "o_rAzuoVKM3YgrZIfY8Qow",
+        "contentId": "ShnEvEZzCthRz4E7Ecf~jA",
+        "title": "Code Sight QuickStart for Polaris issues",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-quickstart-for-polaris-issues.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "Fv6jn6lKl~ZjtvRE3lgI6Q",
+        "contentId": "I0ecvnoEJTgpHU6wg95bog",
+        "title": "Black Duck Assist in Code Sight (VS Code)",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/black-duck-assist-in-code-sight-vs-code-.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "Fpi~S0I55wxlfUISYru90w",
+        "contentId": "588L8w3QAH5z4086FoT72w",
+        "title": "Viewing local Polaris issues",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/viewing-local-polaris-issues.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "8JFhfWF9MP1koJt63lCDbw",
+            "contentId": "iwFL1pWLyF_Xy3mhYKgNdQ",
+            "title": "Comparing Polaris scans",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/comparing-polaris-scans.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "9TebwyBd3zlM1IKARTjm0w",
+        "contentId": "BNFDVJlVglR792mV2EIUew",
+        "title": "Viewing Polaris issues on the server",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/viewing-polaris-issues-on-the-server.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "_0tksTvHs5OYYSrQD6W1gg",
+        "contentId": "zcjO9sZoyqtG6U55RwDReg",
+        "title": "Filtering Polaris Issues",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/filtering-polaris-issues.html",
+        "hasRating": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "tocId": "UrAPoJHPoTUShGEYTatXSQ",
+    "contentId": "TeYpuX_GOOX9yjg0kAFhOQ",
+    "title": "Software Risk Manager with Code Sight",
+    "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/software-risk-manager-with-code-sight.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "gtvr7SjEeLSshmkQ4huNkw",
+        "contentId": "yoA2pgOLt9WfHRGz9BZAhQ",
+        "title": "Code Sight QuickStart for Software Risk Manager issues",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-quickstart-for-software-risk-manager-issues.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "jk4F4HVhZN5ZUMnYjaEEVQ",
+        "contentId": "KfXpo~Blol4Jhi7lnO6cDA",
+        "title": "Viewing Software Risk Manager issues on the server",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/viewing-software-risk-manager-issues-on-the-server.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "ukTdmc2EoDgH9nJeXc~21A",
+            "contentId": "bDbkoeHyojyAT90FTQXK8Q",
+            "title": "Filtering Software Risk Manager issues",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/filtering-software-risk-manager-issues.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tocId": "9XGvKRlc7LrN9iqVulpkXw",
+    "contentId": "dqZo1sv2GQFmi2WFF0RDNQ",
+    "title": "Code Sight Standard Edition",
+    "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-standard-edition.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "_NUGLYDInha65G4~BDhrxA",
+        "contentId": "_DMZQLXS8S6kU19C6onudg",
+        "title": "QuickStart for the Code Sight Standard Edition",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/quickstart-for-the-code-sight-standard-edition.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "MZI6JBVgsoieBatKUMXZug",
+            "contentId": "unfi8gQGxoJnsL2WRcC1Kg",
+            "title": "Connectivity and the Standard Edition",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/connectivity-and-the-standard-edition.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "MWsQDw6Yr5m23uIccy4crA",
+        "contentId": "i~blG12SxVgj2x91zC2umw",
+        "title": "Setting up the Rapid Scan engines",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/setting-up-the-rapid-scan-engines.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "u0tqJcJaZelfx~PhhsNDhw",
+            "contentId": "cfXbzvFJpluswPebdK8v3A",
+            "title": "Code Sight Standard Edition and the Coverity Cloud Deployment",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-standard-edition-and-the-coverity-cloud-deployment.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "qW_mszfGwi3zF4ICDQ9WEQ",
+        "contentId": "u69OOJFEXV4AeqoEDWZR7A",
+        "title": "Viewing Rapid Scan issues",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/viewing-rapid-scan-issues.html",
+        "hasRating": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "tocId": "6F6FmddgFpqbjpawzoCzRg",
+    "contentId": "ktZcpJQNl1rYRvPpMiVwXw",
+    "title": "Code Sight: Preferences and Troubleshooting",
+    "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-preferences-and-troubleshooting.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "QM3UhNAXe8f_AfHfhSXQQw",
+        "contentId": "f4JmXvemgx5L9i2_gJpmKw",
+        "title": "Preference Options by IDE",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/preference-options-by-ide.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "c58yE4JTI5CBy0YBDqBSYw",
+            "contentId": "my48hlLVPR8iFSGOtNthjA",
+            "title": "Eclipse Preferences",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/eclipse-preferences.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "AkKIPBgQQCWBVA4Gw0~IDw",
+            "contentId": "krBDdGDiJ_gQirfIaEIzaQ",
+            "title": "IntelliJ Preferences",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/intellij-preferences.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "wCkNOvBXJBMKNfV4WsIs0Q",
+            "contentId": "Xq2vakjkCF0gxVgY5BLDag",
+            "title": "Visual Studio Preferences",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/visual-studio-preferences.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "1ciV4oiyGKPqq65ePhl0HQ",
+            "contentId": "o2Fl2zI2KpV1HdoKSOuG8A",
+            "title": "VS Code Preferences",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/vs-code-preferences.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "QbXPyUrgNiM0~0IiG8vCCQ",
+        "contentId": "6b83S5zBJMnDg2jKBscNmg",
+        "title": "Preference Panels",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/preference-panels.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "In6kvGVamTBfr~hVStO0Vw",
+            "contentId": "g3w3bzF8ecTa17v430EeTg",
+            "title": "Server Settings",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/server-settings.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "D66J1KkTkt2sIOY7gRnj~Q",
+                "contentId": "ZfWnxWcuAiuTYXHnoBxG4Q",
+                "title": "Authentication preferences",
+                "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/authentication-preferences.html",
+                "hasRating": false,
+                "children": [
+                  {
+                    "tocId": "fD2BzcuYYnQ0EVm_0cKHkg",
+                    "contentId": "Rq8bafLILjmiEHR4n64anQ",
+                    "title": "Polaris tab",
+                    "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/polaris-tab.html",
+                    "hasRating": false,
+                    "children": []
+                  },
+                  {
+                    "tocId": "JpauME6pg1ofRyid1d9JCw",
+                    "contentId": "4YD5Eap1w9UkjxPUMJXlSA",
+                    "title": "Software Risk Manager tab",
+                    "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/software-risk-manager-tab.html",
+                    "hasRating": false,
+                    "children": []
+                  },
+                  {
+                    "tocId": "hJM3Iv2Vc8BXmeSLT4rmVQ",
+                    "contentId": "fHB_It0uYaIk3wq_78A4kw",
+                    "title": "Coverity on Polaris / Coverity Connect tab",
+                    "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/coverity-on-polaris/coverity-connect-tab.html",
+                    "hasRating": false,
+                    "children": []
+                  },
+                  {
+                    "tocId": "c8wEtpMS7ymG55uTvzcxZA",
+                    "contentId": "wpW6KUWfUuCKZvbCezsG7g",
+                    "title": "Black Duck SCA tab",
+                    "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/black-duck-sca-tab.html",
+                    "hasRating": false,
+                    "children": []
+                  },
+                  {
+                    "tocId": "~ZW6TpKVi2oppiaD3lh0_g",
+                    "contentId": "61tJX2lEZsrXe7c89poPrA",
+                    "title": "Authenticating a server that uses a self-signed certificate",
+                    "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/authenticating-a-server-that-uses-a-self-signed-certificate.html",
+                    "hasRating": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "tocId": "nHQ5tdn0vs9zMCgF3L0~kQ",
+                "contentId": "w4SomROJr3JH1F~ZTiIpKA",
+                "title": "Sources configuration",
+                "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/sources-configuration.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "tocId": "XK_pd5Ii0h_TBYfk2cBDRQ",
+            "contentId": "7leA~OJl2Y5fi0pfy2PVsA",
+            "title": "General Settings Panel / Telemetry Panel",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/general-settings-panel/telemetry-panel.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "2U7MNjE0J9nASkeu5aU_Fg",
+                "contentId": "1hMTPTt~zEEcsfgVnzsU1Q",
+                "title": "IDE preferences and customizing colors or keyboard shortcuts",
+                "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/ide-preferences-and-customizing-colors-or-keyboard-shortcuts.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "tocId": "9NGQ6D026y9AEJvP8NUh1w",
+            "contentId": "_Vc1W~1kDp00Mhd2BWazXw",
+            "title": "Proxy settings",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/proxy-settings.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "JWgJlF7H5Knihhw9Nbvztg",
+                "contentId": "rEhw5ir9840yJmGt4cMbOg",
+                "title": "System proxy management",
+                "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/system-proxy-management.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "tocId": "6aSqcPRTm0zySgrjLXy22Q",
+            "contentId": "8aZFy0IZVTdVNMONbBMu5A",
+            "title": "Analysis (scan engine) settings",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/analysis-scan-engine-settings.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "ulv4ZCne1HbASDhdaLsm8g",
+                "contentId": "2PP~n3DyDgCmf9JqdIU~~w",
+                "title": "Analysis settings for Eclipse, IntelliJ, and Visual Studio",
+                "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/analysis-settings-for-eclipse-intellij-and-visual-studio.html",
+                "hasRating": false,
+                "children": [
+                  {
+                    "tocId": "t4BshS6yKyDBNcoHcya9Fg",
+                    "contentId": "pIZzcT1WshO9q9JMDAVdeQ",
+                    "title": "Rapid Scan Static settings (Eclipse, IntelliJ, and Visual Studio)",
+                    "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/rapid-scan-static-settings-eclipse-intellij-and-visual-studio-.html",
+                    "hasRating": false,
+                    "children": []
+                  },
+                  {
+                    "tocId": "vH2hgOZPT3i6wsi5AUSTdA",
+                    "contentId": "Yyb8~6hE1J8rOe_ErG9~rw",
+                    "title": "Rapid Scan SCA settings (Eclipse, IntelliJ, and Visual Studio)",
+                    "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/rapid-scan-sca-settings-eclipse-intellij-and-visual-studio-.html",
+                    "hasRating": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "tocId": "V78HwD9lOS6gEO86eSjpLQ",
+                "contentId": "OTgHXz1ojztrpY_lVJsKxA",
+                "title": "Analysis settings for VS Code",
+                "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/analysis-settings-for-vs-code.html",
+                "hasRating": false,
+                "children": [
+                  {
+                    "tocId": "qXKGhkt6SDnaTNhLdPcPVw",
+                    "contentId": "jhZlvOYrF4e7cl59GH0Y7A",
+                    "title": "Rapid Scan Static installation location (VS Code)",
+                    "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/rapid-scan-static-installation-location-vs-code-.html",
+                    "hasRating": false,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tocId": "s21VTwEJ6zvUGfKTuBayew",
+            "contentId": "MwSJfquwzy0fDaa~JoAtaA",
+            "title": "Environment Variables",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/environment-variables.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "SelVr_ioEWCMHX2QNDGSOg",
+            "contentId": "AJrP5AlUHqVlUNkit2AbXA",
+            "title": "Troubleshooting / Export Logs",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/troubleshooting/export-logs.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tocId": "O7qjXzH2J8oMOx7q3N0fjA",
+    "contentId": "8BHyQiirwqyI7eg62bn7Ew",
+    "title": "Code Sight Release Notes and Known Issues",
+    "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-release-notes-and-known-issues.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "dmgs9NlcBUkcry9EPMyE_w",
+        "contentId": "iwNF56y6wypcYu7hhhLKWA",
+        "title": "Code Sight version 2026.9.0",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2026.9.0.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "mpC67AHMEzbIJJYLRK9BWw",
+        "contentId": "wY4khsnE_hv3UpV36zzZuA",
+        "title": "Code Sight Known Issues",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-known-issues.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "asG1KNcgUHrk9L~lue21og",
+        "contentId": "vb8bGx7c2O5lhxwsXytxgQ",
+        "title": "Release Notes Archive for Code Sight",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/release-notes-archive-for-code-sight.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "nsTwdvLwpFcoh0g9ONsAvw",
+            "contentId": "AmmunIciQLJlcuL2Bl4eYQ",
+            "title": "Code Sight version 2026.8.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2026.8.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "0H4Sd4sWisYUZ6bSGGDvpg",
+            "contentId": "YjwVyor2eMR4KXiABBnFUw",
+            "title": "Code Sight version 2026.7.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2026.7.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "oob5wmqUUVRrJEAIlb6OtQ",
+            "contentId": "B9zRfJIu41N26rEZsbyqSg",
+            "title": "Code Sight version 2026.6.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2026.6.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "F_noqsfcSjlN_LEIA61J6Q",
+            "contentId": "94TqDL0IU_dCScsiIC19uA",
+            "title": "Code Sight version 2026.5.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2026.5.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "Ky05eMKR5KlpcHGfmlq5Lw",
+            "contentId": "SuVMUZwxyN87tCuQLrE2VA",
+            "title": "Code Sight version 2026.4.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2026.4.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "7~zk_zm8ogJkt2rlxTtROg",
+            "contentId": "KV1mlM0NIG~6ekD1DN0cag",
+            "title": "Code Sight version 2026.2.1",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2026.2.1.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "nPOsIRXlqvyryG603hFOHQ",
+            "contentId": "ZAGjWyT6PPtzvR_x2EKIOQ",
+            "title": "Code Sight version 2026.2.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2026.2.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "zmhyCmkGWg7wnj9bfBsWIA",
+            "contentId": "TjOtKbibW1x4EoN3IfJlWQ",
+            "title": "Code Sight version 2026.1.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2026.1.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "KOe~0kxlQhOmsZ~jZ0DIHw",
+            "contentId": "wsJXAHViZsRI_9d5FoqnTQ",
+            "title": "Code Sight version 2025.11.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2025.11.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "ZZJCc_qx6JtAng7zdLBa8Q",
+            "contentId": "6o_qUA9OYtYVPG9uo4y57A",
+            "title": "Code Sight version 2025.10.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2025.10.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "UNtH3QiioVBfxxohDhFFEQ",
+            "contentId": "MnB9QPh4OMis_0L7royDNQ",
+            "title": "Code Sight version 2025.9.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2025.9.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "YjnwJz3~6~blkzTIqbwgEw",
+            "contentId": "_IlfbaMc4I0OQ_6cIP4PTg",
+            "title": "Code Sight version 2025.8.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2025.8.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "VVAx79Zul0K4xZxZqdbPFQ",
+            "contentId": "ulTRXS3Nu2fyYaNs8jo~qA",
+            "title": "Code Sight version 2025.7.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2025.7.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "G38Fn4Lt7wQVWkj2t5e4Hw",
+            "contentId": "TTZRcHmgTWLU100czZpVTw",
+            "title": "Code Sight version 2025.6.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2025.6.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "H88leiFifAty89JPjmje2w",
+            "contentId": "RilQ1DNC8XwmW7kaIr1Ctg",
+            "title": "Code Sight version 2025.5.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2025.5.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "llEl8QTuTPbh8CcHF19NQA",
+            "contentId": "hm_PllghVCw4HbSmRKckxQ",
+            "title": "Code Sight version 2025.4.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2025.4.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "p2RM6s2y~LZc_Py3mayWww",
+            "contentId": "Bp9mvjTc0Bur9dYLirn_uw",
+            "title": "Code Sight version 2025.3.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2025.3.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "Zz9VbtyxYaFvsoajmNuGCA",
+            "contentId": "lF9KJd90Xtad8INc88_gUA",
+            "title": "Code Sight version 2025.2.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2025.2.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "40FGjI27kqfHxDFfrImJgg",
+            "contentId": "Cup_INMU67huJ9LTe~oJ8A",
+            "title": "Code Sight version 2025.1.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2025.1.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "O6biSqOLkI_PbUQxK72Pdg",
+            "contentId": "C2XcUPG7O~A30VaiUB5p5w",
+            "title": "Code Sight version 2024.11.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2024.11.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "9diV_EkupkLH2bL~ooTuOQ",
+            "contentId": "yuXmm56MQTSou31djr_D5Q",
+            "title": "Code Sight version 2024.10.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2024.10.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "p~956z4OnAAKDiwdmdzu9A",
+            "contentId": "zPXdjqufFsKJZgMLtD37yw",
+            "title": "Code Sight version 2024.9.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2024.9.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "H~BR4aO5AspP98ZjDnqlhQ",
+            "contentId": "2KprEMLzUUoZj46nYpRLqQ",
+            "title": "Code Sight version 2024.8.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2024.8.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "zKdbaD_IfClHyD1eb9kdjw",
+            "contentId": "YusEWcv1TiNi33hOAMA3zg",
+            "title": "Code Sight version 2024.7.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2024.7.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "1LFNvBeU57qu6bzsWExH3g",
+            "contentId": "AZJzPWH11udxhm5Ays~11A",
+            "title": "Code Sight version 2024.6.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2024.6.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "Tr8dDXsGb3Y79ZtbDjgCaA",
+            "contentId": "2EChbXxT6tVdtLDJgHAQzA",
+            "title": "Code Sight version 2024.5.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2024.5.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "le42WriK5NtcPngpyox~NA",
+            "contentId": "2~tC3u01XIW6TbYOuE18Gw",
+            "title": "Code Sight version 2024.4.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2024.4.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "1xnFcpdfjjB_B8zy9XdpAA",
+            "contentId": "KksUDu4NYo7kZwZxpBQzrg",
+            "title": "Code Sight version 2024.3.1",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2024.3.1.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "JAfq0lsopAD3UONZc~~z6Q",
+            "contentId": "THomzIPxMl0GTSHOeUXr2w",
+            "title": "Code Sight version 2024.3.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2024.3.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "QNgRVT9jzSF8AoHLCxD9IA",
+            "contentId": "YUHTXIBaWue6WBB9mVR7JA",
+            "title": "Code Sight version 2024.2.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2024.2.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "6vwEetMuBDTxjgfAoMwS1w",
+            "contentId": "F7V28dxxOerUxfXOwTDfMw",
+            "title": "Code Sight version 2024.1.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2024.1.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "lzVB8Q53o8nETyIKewin7A",
+            "contentId": "fCLd1t9J_ltcPJ_dUS4Dag",
+            "title": "Code Sight version 2023.11.1",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2023.11.1.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "wOFbGzJaHYXMoe9lw0W0Ug",
+            "contentId": "IDG0OST~tt2EOCvwaAApbA",
+            "title": "Code Sight version 2023.11.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2023.11.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "UGCoDNWwnSP5LFZ6Jg4Tcw",
+            "contentId": "ouPuagmUPFuGUvIbgVuZFw",
+            "title": "Code Sight version 2023.10.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2023.10.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "ahp5mKxhJfs61BvV2gHdTg",
+            "contentId": "YrtEd397y1KdkiYr6VaL7Q",
+            "title": "Code Sight version 2023.9.0 (all IDEs)",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2023.9.0-all-ides-.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "HMyiCISVC9MPKUn~4pgJVQ",
+            "contentId": "2zACRlzKCjTDqD50~_GmLQ",
+            "title": "Code Sight version 2023.7.1 (JetBrains and VS Code)",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2023.7.1-jetbrains-and-vs-code-.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "iUE_GrMm85J_3BgoolOfEA",
+            "contentId": "lcBZmt7W6I5_ltYYryZG7g",
+            "title": "Code Sight version 2023.7.0 (Eclipse, JetBrains, and VS Code)",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2023.7.0-eclipse-jetbrains-and-vs-code-.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "aauR7_Dv4li4j~xrIVdFVQ",
+            "contentId": "8M~XdaaMJ_R0LibDVsGCiA",
+            "title": "Code Sight version 2023.6.0 (Eclipse, JetBrains, and VS Code)",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2023.6.0-eclipse-jetbrains-and-vs-code-.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "sp9O~8_FSTA0y0x8IK2T6A",
+            "contentId": "eO9ECq1rJzzkhjM~r2PY4w",
+            "title": "Code Sight version 2022.8.3 (Visual Studio)",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2022.8.3-visual-studio-.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "nnCnJiaweZgtvzM~vBUdWA",
+            "contentId": "Y2SsueJNUyfJp3gG_lM0~A",
+            "title": "Code Sight version 2023.4.0 (Eclipse, JetBrains, and VS Code)",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2023.4.0-eclipse-jetbrains-and-vs-code-.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "xYZ_scawvRlxy~WZ50K6Jg",
+            "contentId": "7KOPdSIrqR_~P_g_LcgmHw",
+            "title": "Code Sight version 2023.3.1 (IntelliJ)",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2023.3.1-intellij-.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "gLEaVqokNocZc4ZFB4EnMw",
+            "contentId": "lWSls_O8tCQ9oakXPe~j8Q",
+            "title": "Code Sight version 2023.3.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2023.3.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "I6zfRS_Vu4RBuCKtWoarwg",
+            "contentId": "Olkm~jHUdJIWxQT0aZrmsg",
+            "title": "Code Sight version 2023.1.0 (JetBrains and VS Code)",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2023.1.0-jetbrains-and-vs-code-.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "ITGFaPPMNAk0uDbbqWT6Fw",
+            "contentId": "snQ9Px5dbDhGk0NFCBZEFA",
+            "title": "Code Sight version 2022.8.2 (Eclipse and Visual Studio)",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2022.8.2-eclipse-and-visual-studio-.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "BQwyM4diLO1XRqPA45yq9A",
+            "contentId": "iSkDG2uk0yafnNdzmytcvg",
+            "title": "Code Sight version 2022.9.0 (JetBrains and VS Code)",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2022.9.0-jetbrains-and-vs-code-.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "ZZJyHlDhZQ5aGkV_FjSUNg",
+            "contentId": "OPj_C8RTPbcGJGkpE6ZB6Q",
+            "title": "Code Sight version 2022.8.1 (Eclipse and Visual Studio)",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2022.8.1-eclipse-and-visual-studio-.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "QrpUa8u7~cC5rAkqIuMmmw",
+            "contentId": "36sUAr1dHEM4YGZP8VgNmQ",
+            "title": "Code Sight version 2022.8.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2022.8.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "xt0d_KDOTOogWe_nN12ECw",
+            "contentId": "z5A8Eo8w5_0xu9x7j8DjoQ",
+            "title": "Code Sight version 2022.6.1",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2022.6.1.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "eJ26ziRLb9IBpMV6qBPZ4A",
+            "contentId": "CMO22lfpxl_VVv763XZQnA",
+            "title": "Code Sight version 2022.6.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2022.6.0.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "K5jzaE9EejDHXqeNBqbjug",
+                "contentId": "L1CXcNFGA8kZzg4K8zVjmQ",
+                "title": "Proxy settings when upgrading to Code Sight 2022.6.0 or later",
+                "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/proxy-settings-when-upgrading-to-code-sight-2022.6.0-or-later.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "tocId": "IT~nXVf0qH3dZdTU0dOmEQ",
+            "contentId": "FA8tKx~4qCcq4JCdaUuFsQ",
+            "title": "Code Sight version 2022.4.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2022.4.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "SO9YJXKhIqSutcw3yPXYLw",
+            "contentId": "XoVMnS8Hjbk0WRrSWLnPLg",
+            "title": "Code Sight version 2022.1.1",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2022.1.1.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "qUXyblI_0lV_Xc25pG8nqQ",
+            "contentId": "i~0db1EZ10WEoqDZyrizWw",
+            "title": "Code Sight version 2022.1.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2022.1.0.html",
+            "hasRating": false,
+            "children": [
+              {
+                "tocId": "82fz4OraKHlpnpPAg9y13Q",
+                "contentId": "OynYcWQsqvD9yzU_TNY5AA",
+                "title": "Remove old Sigma (SAST) processes",
+                "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/remove-old-sigma-sast-processes.html",
+                "hasRating": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "tocId": "nbLthcqGWJLpJaek1WnIYw",
+            "contentId": "9gnRI0A83nAMP~WEa7~1dw",
+            "title": "Code Sight version 2021.8.1",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2021.8.1.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "W6KMm2QNRKAsJtHYlPiVGg",
+            "contentId": "axfPueTqSZXTMiEJ~~VVJA",
+            "title": "Code Sight version 2021.8.0",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2021.8.0.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "lZ4HLH4aI5YsxBGcNUzteA",
+            "contentId": "5hZ_8P_1g_uvzkQ9JSJB7g",
+            "title": "Code Sight version 2021.5",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2021.5.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "4NsjfT8~jTBZcdspVb96SA",
+            "contentId": "qbOO66EBs2pJeObsttmTdA",
+            "title": "Code Sight version 2021.3",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2021.3.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "ZRIzGQzLGhoWQ1jrmok9SQ",
+            "contentId": "Cz80eHqU2OF0rWdKuvhKCw",
+            "title": "Code Sight version 2021.1",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2021.1.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "qDryFT8cDbZXHsl482tF8g",
+            "contentId": "aL7cGiuyU3lvX659tj4dSA",
+            "title": "Code Sight version 2020.11",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2020.11.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "AHS9HgmYfcFcKd16srmDSg",
+            "contentId": "VM6rDTjYKJy3yt8rNYVYPA",
+            "title": "Code Sight version 2020.8.1",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2020.8.1.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "DZmUP6JVvYuH_gG3RuQw2A",
+            "contentId": "N2ZedHlyhcnOoRuL8le0dQ",
+            "title": "Code Sight version 2020.8",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2020.8.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "Y8vKcgsOJ3AX57T~yttNTw",
+            "contentId": "UiNeaoJWognfD1mvIoRmnw",
+            "title": "Code Sight version 2020.6",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2020.6.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "j7KL58bAzayf4jGu8sjOaA",
+            "contentId": "fnyDIvkutXWrCHmCPqDGKg",
+            "title": "Code Sight version 2020.4",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2020.4.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "XHjFXIDFHj~VwGncZl54yA",
+            "contentId": "LgVioCZgugwpK0XuoreO8A",
+            "title": "Code Sight version 2020.2",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2020.2.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "6WFmKsAJfEjf_ptXAX1j4g",
+            "contentId": "kUupWw5tVALWsfPBfZSE5Q",
+            "title": "Code Sight version 2020.1",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2020.1.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "y68wEc4d47bZXmFXOgL8kQ",
+            "contentId": "iEdotpt98C0oWyb_0oPG~Q",
+            "title": "Code Sight version 2019.11",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2019.11.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "5amyLC5iBGMIXphgJWrOPw",
+            "contentId": "ob7WiGDo0X3018280zLe6Q",
+            "title": "Code Sight version 2019.9",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2019.9.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "X62de86kWuvKReWozJ8bWA",
+            "contentId": "gQwvGCM87iYQVp6qBULD3A",
+            "title": "Code Sight version 2019.7",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2019.7.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "pkG802WudVwk4xsUNcWobA",
+            "contentId": "az5I0vq55HpZImqQcCKczw",
+            "title": "Code Sight version 2019.6",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2019.6.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "V0LOqSsg4u00jKjur2qI1g",
+            "contentId": "G0di52iNMc70CsvhyHwM4Q",
+            "title": "Code Sight version 2019.4",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2019.4.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "0NkFPbmZpyLVTDh0dtJk0A",
+            "contentId": "THJ2gn1EhAgikXLwEWA~6w",
+            "title": "Code Sight version 2019.3: Features of the plug-in",
+            "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-version-2019.3-features-of-the-plug-in.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tocId": "O2Ma4fUpp3IF5O8cRveDqg",
+    "contentId": "R19leKjbtRKvLkhDayPu6A",
+    "title": "General Information",
+    "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/general-information.html",
+    "hasRating": true,
+    "children": [
+      {
+        "tocId": "Ure9MvHIRBYENwgGZCMY3A",
+        "contentId": "m8wX9WrV6m~mjsB86edNPQ",
+        "title": "Black Duck Statement on Inclusivity and Diversity",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/black-duck-statement-on-inclusivity-and-diversity.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "k3xgc3msIE4Wyskbxq7KVw",
+        "contentId": "JcP1maYt_vC8vUleXmYx3g",
+        "title": "Telemetry in Code Sight",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/telemetry-in-code-sight.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "0Ky7dzhOkgYBIq3nJk4obw",
+        "contentId": "~BSwg2SKzQSv354JqURk2w",
+        "title": "Code Sight Proprietary Statement",
+        "prettyUrl": "/r/codesight/2026.9.0/code-sight-documentation/code-sight-proprietary-statement.html",
+        "hasRating": false,
+        "children": []
+      }
+    ]
+  }
+]

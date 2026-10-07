@@ -1,20 +1,16 @@
 ---
 title: "Migrating between volumes"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/migrating-between-volumes.html"
-content_id: "sem3tNvapYLvRoly_Iurew"
+content_id: "S4ZQ3g0Cfo7GsH5zZ~P~GA"
 version: "2026.7"
 section: "Installing Black Duck using Docker Swarm"
-scraped_at: "2026-08-08T15:34:08.224524+00:00"
+scraped_at: "2026-10-04T23:32:25.477333+00:00"
+content_hash: "f68c38fd0cc915b38b31a6a6e642f82c3f024f43c8042187c7b9a669eba99d5e"
 ---
 
 # Migrating between volumes
 
-With multiple volumes configured, it is possible to migrate content from one or more
-provider volumes to a new provider volume. This can only be done for providers that
-are not the highest priority (lowest preference). To do this, configure the volumes
-with one of the following migration modes. Once configured, Black Duck needs to be
-restarted in order to initiate the migration which is performed by a job in the
-background until it is completed.
+With multiple volumes configured, it is possible to migrate content from one or more provider volumes to a new provider volume. This can only be done for providers that are not the highest priority (lowest preference). To do this, configure the volumes with one of the following migration modes. Once configured, Black Duck needs to be restarted in order to initiate the migration which is performed by a job in the background until it is completed.
 
 | Migration Mode | Details |
 | --- | --- |

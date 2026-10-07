@@ -1,10 +1,11 @@
 ---
 title: "Editing a custom license term"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/editing-a-custom-license-term.html"
-content_id: "04L67UlhvfzUUgTkPiw45A"
+content_id: "ceH0YeWAin8x1b_Cl87f0A"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T15:30:52.996704+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:16.753799+00:00"
+content_hash: "50a2ebbd44d38ffac6c223e02f449b23f0ff0b32c40201d6ec97a5218aacf45d"
 ---
 
 # Editing a custom license term

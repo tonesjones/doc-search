@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickst
 content_id: "Y4m~TGnh8oT5T3FXYe1giQ"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:46:58.926234+00:00"
+scraped_at: "2026-10-04T23:28:25.611378+00:00"
+content_hash: "df67f2d16ecf151225f857f2250b6c072eeedd43342b516a1a47e2cb09941b91"
 ---
 
 # Quickstart: Polaris Bridge CLI in an Azure DevOps pipeline
@@ -39,7 +40,7 @@ Important: Confirm System.AccessToken has Contribute to PR permissions. In A
    | `BRIDGECLI_LINUX64` | Variable | Bridge CLI URL | `https://repo.blackduck.com/bds-integrations-release/com/blackduck/integration/bridge/binaries/bridge-cli-bundle/latest/bridge-cli-bundle-linux64.zip` |
 
    Warning: For security reasons please be sure to add `POLARIS_ACCESS_TOKEN` as a secret to avoid exposing it in CI logs
-2. Add a [coverity.yaml](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/cli/topics/options_reference.html) file in the project repository. (Uncompiled languages are detected and configured automatically).
+2. Add a [coverity.yaml](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/13c0022b163195f4d305d9453a097d69.topic) file in the project repository. (Uncompiled languages are detected and configured automatically).
 
    ```
    capture:

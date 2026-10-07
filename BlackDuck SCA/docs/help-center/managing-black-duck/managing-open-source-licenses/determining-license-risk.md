@@ -1,97 +1,65 @@
 ---
 title: "Determining license risk"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/determining-license-risk.html"
-content_id: "2T32GO2TQB0tGQZPDjzRBQ"
+content_id: "gbJ6V_vBcqXqUoVoAhrOwg"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T15:30:35.444397+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:16.084062+00:00"
+content_hash: "1a0215e19f628e628b8705e062836b9bc6916f6631a19c1099de3256afa4e67d"
 ---
 
 # Determining license risk
 
-License Risk is determined by the license risk of the components and subprojects in the project
-version's BOM.
+License Risk is determined by the license risk of the components and subprojects in the project version's BOM.
 
-There are four levels of overall license risk (high, medium, low, and none), based on the license family declared by the
-component, the type of distribution for the project (external, internal, SaaS, or open
-source) and the usage (statically linked, dynamically linked, source code, dev.
-tool/excluded, implementation of standard, merely aggregated, prerequisite, separate
-work, and unspecified).
+There are four levels of overall license risk (high, medium, low, and none), based on the license family declared by the component, the type of distribution for the project (external, internal, SaaS, or open source) and the usage (statically linked, dynamically linked, source code, dev. tool/excluded, implementation of standard, merely aggregated, prerequisite, separate work, and unspecified).
 
-Note: Other licenses include "Unknown" which indicates that the OSS component version's license is
-not known; "License Not Found" which indicates that although researched by Black Duck, no
-declared license was found for the component; and "No License" which indicates that
-Black Duck found a declaration of 'No License' for the component.
+Note: Other licenses include "Unknown" which indicates that the OSS component version's license is not known; "License Not Found" which indicates that although researched by Black Duck, no declared license was found for the component; and "No License" which indicates that Black Duck found a declaration of 'No License' for the component.
 
-These licenses are
-included in the Unknown license family in the tables below.
+These licenses are included in the Unknown license family in the tables below.
 
 For components with multiple licenses:
 
-- "AND" licenses: license risk is determined by the license with the highest
-  risk.
-- "OR" licenses: license risk is determined by the license with the lowest
-  risk.
+- "AND" licenses: license risk is determined by the license with the highest risk.
+- "OR" licenses: license risk is determined by the license with the lowest risk.
 
-Risk calculations assume that your project is being distributed under a proprietary
-license.
+Risk calculations assume that your project is being distributed under a proprietary license.
 
 ## Subproject license risk
 
-If your project contains subprojects, the license risk is determined the subproject's license
-risk. A subproject's license is determined when it is added to the
-project.
+If your project contains subprojects, the license risk is determined the subproject's license risk. A subproject's license is determined when it is added to the project.
 
-Notice: Black Duck 2023.10.0 introduces Enhanced license risk aggregation as a
-Limited Customer Availability Feature which improves the way subproject risk is
-determined. When enabled, the License Risk displayed for a subproject in your
-project's BOM will be determined by the subproject's license risk and the highest
-license risk of its components which reduces the possibility that license risk could
-be missed when using subproject hierarchies.
+Notice: Black Duck 2023.10.0 introduces Enhanced license risk aggregation as a Limited Customer Availability Feature which improves the way subproject risk is determined. When enabled, the License Risk displayed for a subproject in your project's BOM will be determined by the subproject's license risk and the highest license risk of its components which reduces the possibility that license risk could be missed when using subproject hierarchies.
 
-Important: When modifying a subproject's distribution type after it has been added to a project, the license risk
-of the parent project may not necessarily change to reflect the modification. The
-parent project's distribution takes precedence when calculating license risk.
+Important: When modifying a subproject's distribution type after it has been added to a project, the license risk of the parent project may not necessarily change to reflect the modification. The parent project's distribution takes precedence when calculating license risk.
 
 ## Estimated licenses
 
-A default license may be assigned to components with an unknown version found during
-a scan. This is an estimated license based on greatest number of times it shows up
-across the top 1,000 versions of the component.
+A default license may be assigned to components with an unknown version found during a scan. This is an estimated license based on greatest number of times it shows up across the top 1,000 versions of the component.
 
-When viewing the BOM for a project, components with unknown versions will have a
-question mark next to the component name.
+When viewing the BOM for a project, components with unknown versions will have a question mark next to the component name.
 
   
  [image: image]   
 
-Clicking the license in the License column will open the Modify License
-window which will display the following warning banner:
+Clicking the license in the License column will open the Modify License window which will display the following warning banner:
 
   
  [image: image]   
 
-It is recommended that you review these components and manually specify a version for
-more accurate results.
+It is recommended that you review these components and manually specify a version for more accurate results.
 
 ## Default license risk
 
-The following tables show the license risk for the default (KnowledgeBase) license
-families. Users with the License Manager role
-can create
-custom license families and define the license risk by usage and
-distribution for those custom license families.
+The following tables show the license risk for the default (KnowledgeBase) license families. Users with the License Manager role can create custom license families and define the license risk by usage and distribution for those custom license families.
 
-Note: If your License Manager created a custom license family labeled "Restrictive Third Party
-Proprietary" or "Internal Proprietary" before the 2019.10.0 release, the number
-"(1)" is appended to those custom license family names.
+Note: If your License Manager created a custom license family labeled "Restrictive Third Party Proprietary" or "Internal Proprietary" before the 2019.10.0 release, the number "(1)" is appended to those custom license family names.
 
 ## License risk - by usage
 
 ### Statically linked
 
-The following table lists the license risk when the component's usage is
-**Statically Linked**.
+The following table lists the license risk when the component's usage is **Statically Linked**.
 
 | License Family | External Projects | SaaS Projects | Internal Projects | Open Source Projects |
 | --- | --- | --- | --- | --- |
@@ -105,8 +73,7 @@ The following table lists the license risk when the component's usage is
 
 ### Dynamically linked
 
-The following table lists the license risk when the component's usage is
-**Dynamically Linked**.
+The following table lists the license risk when the component's usage is **Dynamically Linked**.
 
 | License Family | External Projects | SaaS Projects | Internal Projects | Open Source Projects |
 | --- | --- | --- | --- | --- |
@@ -120,8 +87,7 @@ The following table lists the license risk when the component's usage is
 
 ### Source code
 
-The following table lists the license risk when the component's usage is
-**Source Code**.
+The following table lists the license risk when the component's usage is **Source Code**.
 
 | License Family | External Projects | SaaS Projects | Internal Projects | Open Source Projects |
 | --- | --- | --- | --- | --- |
@@ -135,8 +101,7 @@ The following table lists the license risk when the component's usage is
 
 ### Dev. tool / excluded
 
-The following table lists the license risk when the component is not distributed
-with your product. (Usage value is **Dev. Tool / Excluded**).
+The following table lists the license risk when the component is not distributed with your product. (Usage value is **Dev. Tool / Excluded**).
 
 | License Family | External Projects | SaaS Projects | Internal Projects | Open Source Projects |
 | --- | --- | --- | --- | --- |
@@ -150,8 +115,7 @@ with your product. (Usage value is **Dev. Tool / Excluded**).
 
 ### Implementation of Standard
 
-The following table lists the license risk when the component usage is
-**Implementation of Standard**.
+The following table lists the license risk when the component usage is **Implementation of Standard**.
 
 | License Family | External Projects | SaaS Projects | Internal Projects | Open Source Projects |
 | --- | --- | --- | --- | --- |
@@ -165,8 +129,7 @@ The following table lists the license risk when the component usage is
 
 ### Separate Work
 
-The following table lists the license risk when the component usage is
-**Separate Work**.
+The following table lists the license risk when the component usage is **Separate Work**.
 
 | License Family | External Projects | SaaS Projects | Internal Projects | Open Source Projects |
 | --- | --- | --- | --- | --- |
@@ -180,8 +143,7 @@ The following table lists the license risk when the component usage is
 
 ### Merely aggregated
 
-The following table lists the license risk when the component's usage is
-**Merely aggregated**.
+The following table lists the license risk when the component's usage is **Merely aggregated**.
 
 | License Family | External Projects | SaaS Projects | Internal Projects | Open Source Projects |
 | --- | --- | --- | --- | --- |
@@ -195,8 +157,7 @@ The following table lists the license risk when the component's usage is
 
 ### Prerequisite
 
-The following table lists the license risk when the component's usage is
-**Prerequisite**.
+The following table lists the license risk when the component's usage is **Prerequisite**.
 
 | License Family | External Projects | SaaS Projects | Internal Projects | Open Source Projects |
 | --- | --- | --- | --- | --- |
@@ -210,8 +171,7 @@ The following table lists the license risk when the component's usage is
 
 ### Unspecified
 
-The following table lists the license risk when the component's usage is
-**Unspecified**.
+The following table lists the license risk when the component's usage is **Unspecified**.
 
 | License Family | External Projects | SaaS Projects | Internal Projects | Open Source Projects |
 | --- | --- | --- | --- | --- |

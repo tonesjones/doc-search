@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/using-
 content_id: "ffX6GHIQf6NoSbVFaU8KEw"
 version: "12.0.0"
 section: "Configuring Detect"
-scraped_at: "2026-09-07T21:15:16.037012+00:00"
+scraped_at: "2026-10-04T23:33:19.115594+00:00"
+content_hash: "547be37d7f42319f6a850269e36ae47563a26e7a54aafa31a729e26c0758a979"
 ---
 
 # Using environment variables

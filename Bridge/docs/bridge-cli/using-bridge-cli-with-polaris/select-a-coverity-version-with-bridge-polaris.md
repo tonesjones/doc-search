@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/select-
 content_id: "k7Y0kayJ8woegUzveJC67Q"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:47:08.060855+00:00"
+scraped_at: "2026-10-04T23:28:26.082859+00:00"
+content_hash: "d71406a8c4171a3207493455942c7e4feb717a2dd0daeb5b79d9e9d32998dc02"
 ---
 
 # Select a Coverity version with Bridge Polaris

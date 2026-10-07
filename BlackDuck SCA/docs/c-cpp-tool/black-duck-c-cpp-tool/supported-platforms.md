@@ -1,10 +1,11 @@
 ---
 title: "Supported platforms"
 source_url: "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/supported-platforms.html"
-content_id: "FyYgakeoWulkUW30v2l4Ow"
+content_id: "UkxSF7iGlDi0YqPrXtsjMw"
 version: "latest"
 section: "Black Duck C/CPP Tool"
-scraped_at: "2026-08-13T16:16:53.558260+00:00"
+scraped_at: "2026-10-04T23:32:44.069067+00:00"
+content_hash: "1ac1707485be32c16a40b23712658b739100f65b88577c9912ee507e864f92e4"
 ---
 
 # Supported platforms

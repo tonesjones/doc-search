@@ -1,10 +1,11 @@
 ---
 title: "Component Custom Fields table (component_custom_fields)"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/component-custom-fields-table-component_custom_fields-.html"
-content_id: "aIs7wA18Ezhu5tcQIJouAg"
+content_id: "K5b62OWs2ZD8vB6quoUTZQ"
 version: "2026.7"
 section: "Reporting Database"
-scraped_at: "2026-08-08T15:34:34.907394+00:00"
+scraped_at: "2026-10-04T23:32:26.651832+00:00"
+content_hash: "affe861fbff26191196f87cfd2d9d44fb8896936d05a43eea1152ba2bb9fea08"
 ---
 
 # Component Custom Fields table (component_custom_fields)

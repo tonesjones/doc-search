@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/co
 content_id: "aFTyAon711OJf4p16_5g~A"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:57:07.151989+00:00"
-content_hash: "d494cf2ad9f0a988995bc7b1c8a6b1f1a242a60a975aed7140e9d32a3b148dc3"
+scraped_at: "2026-10-04T23:29:20.200555+00:00"
+content_hash: "0771ac2672030beb4d821d5afc2e71b2720c3f1be1e940b0196bbc38b1f5da16"
 ---
 
 # Connect Polaris to Multiple SCM Repositories
@@ -56,9 +56,10 @@ Within the Polaris UI, SCM repository bulk integration is supported for:
 
 - Azure Repos
 - Bitbucket Cloud (Premium)
-- GitHub and GitHub Enterprise
+- GitHub, GitHub Enterprise, and GitHub Enterprise with data residency (including GitHub Enterprise with data residency)
 - GitHub Enterprise Server
 - GitLab SaaS (Premium and Ultimate)
+- GitLab Self-Managed
 
 ### Update your SCM connections within an application
 

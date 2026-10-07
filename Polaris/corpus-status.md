@@ -4,4 +4,4 @@
 
 | Product | Version | Progress | Index |
 |---|---|---|---|
-| Black Duck Polaris Platform | latest | 182/182 done · 0 pending | [index-polaris-platform-latest.md](index-polaris-platform-latest.md) |
+| Black Duck Polaris Platform | latest | 205/205 done · 0 pending | [index-polaris-platform-latest.md](index-polaris-platform-latest.md) |

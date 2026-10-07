@@ -1,10 +1,11 @@
 ---
 title: "Rabbitmq container"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/rabbitmq-container.html"
-content_id: "D27tBpA~E6SMm6CMQFyyxw"
+content_id: "sbBTA6xh_CNm7g_aIkSK7Q"
 version: "2026.7"
 section: "Installing Black Duck using Docker Swarm"
-scraped_at: "2026-08-08T15:34:23.811158+00:00"
+scraped_at: "2026-10-04T23:32:26.128044+00:00"
+content_hash: "9f686468d4c1b29db9002285fdbb4763b4f92c7ef4e4b7d006a7c8eec295c7cf"
 ---
 
 # Rabbitmq container

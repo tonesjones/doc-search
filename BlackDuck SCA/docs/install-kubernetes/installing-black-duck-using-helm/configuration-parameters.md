@@ -1,16 +1,16 @@
 ---
 title: "Configuration parameters"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/configuration-parameters.html"
-content_id: "WApkyZM0_1Bbc9txTDdjnw"
+content_id: "ZXhBnq7gcKu5LK5BoNnIRw"
 version: "2026.7"
 section: "Installing Black Duck using Kubernetes and OpenShift"
-scraped_at: "2026-08-08T15:33:03.635624+00:00"
+scraped_at: "2026-10-04T23:32:22.663372+00:00"
+content_hash: "9595b54090946165a60ac6ae48f2cc61e2a11f75182ad534cb2b036bc7374d0c"
 ---
 
 # Configuration parameters
 
-The following tables list the configurable parameters of the Black Duck chart and their
-default values.
+The following tables list the configurable parameters of the Black Duck chart and their default values.
 
 - Common configuration
 - Authentication pod
@@ -22,10 +22,8 @@ default values.
 - Logstash pod
 - Match engine pod
 - PostgreSQL pod
-- PostgreSQL
-  readiness init container
-- PostgreSQL upgrade
-  job
+- PostgreSQL readiness init container
+- PostgreSQL upgrade job
 - RabbitMQ pod
 - Redis pod
 - Registration pod
@@ -34,8 +32,7 @@ default values.
 - Webapp pod
 - Webserver pod
 
-Note: Do not set the following parameters in the environs flag. Instead, use their
-respective flags.
+Note: Do not set the following parameters in the environs flag. Instead, use their respective flags.
 
 ```
 Use dataRetentionInDays, enableSourceCodeUpload and maxTotalSourceSizeinMB for the following:

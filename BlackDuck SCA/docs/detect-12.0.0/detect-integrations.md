@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/detect
 content_id: "HtXDKubHAXbATMYP_jM3qw"
 version: "12.0.0"
 section: "Detect Integrations"
-scraped_at: "2026-09-07T21:17:11.320368+00:00"
+scraped_at: "2026-10-04T23:33:23.205773+00:00"
+content_hash: "5098931a800937281acc53f436539a28756a709e9722a46af0f795038cacbf11"
 ---
 
 # Detect Integrations

@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/projec
 content_id: "Svfa8TJxEC0KkKzHMC_pEQ"
 version: "12.0.0"
 section: "Configuring Detect"
-scraped_at: "2026-09-07T21:15:24.258580+00:00"
+scraped_at: "2026-10-04T23:33:19.383669+00:00"
+content_hash: "e473d498de2869f4eb01507117bf4fa07c3792691b82e219c1ad90fa6a0daaa5"
 ---
 
 # Project, Version, and Code Location Naming

@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/ho
 content_id: "sGPJ~h3_OYJ_ZiV8I5Ma0Q"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:56:18.372579+00:00"
-content_hash: "b0eb5b0f65bf769fedf78e2a1c8a0a7ffecd7e40b2902a8e64ce6bce5daadc96"
+scraped_at: "2026-10-04T23:29:18.766313+00:00"
+content_hash: "b887582b9b11c100cf61eb38aae8ff5645d0d4c41deb283f32e6c697ed080ef9"
 ---
 
 # How to test from the web UI
@@ -25,6 +25,7 @@ From the Polaris user interface, you can:
   - Binary files you upload manually.
 
     Note: Before uploading, see the limitations for uploads here: Binary upload limitations.
+- Run Container Analysis scans by uploading a container image archive (.tar file) exported with `docker save`.
 - Run External Analysis tests to import SAST and SCA issues captured in third-party tools.
 
   Note: You can upload one file (up to 2GB) for each external analysis test. Each file you upload can only include one type of issue data (SAST or SCA). Different file formats are accepted for different third-party tools. See Supported third-party tools for a full list of supported tools, along with accepted file formats for each.
@@ -102,6 +103,25 @@ Monitor test progress on the Tests page (accessible from the left-hand navbar). 
 Note: Unlike other SCA scans, binary scans of compiled executables/libraries often generate component names, but may be unable to identify the exact version/origin. In this case, a “?.?” is after the component name. Edit the component (see [Edit a component](add-or-modify-components/edit-a-component.md)) if you know the version, to get a more complete and accurate vulnerability and license information.
 
 Note: When you scan a project for the first time (using built-in test types), you may receive email communications from the Black Duck team that require a response in order for testing to finish.
+
+## Run a Container Analysis scan
+
+Follow these steps to run a Container Analysis scan from the Polaris user interface:
+
+1. There's more than one way to start this procedure:
+   - Go to Portfolio, select an application, click the options icon at the end of the Container Analysis project's row, and select New Test.
+   - Go to Tests and select New Test.
+2. Use the Application, Project, and Container dropdown menus to select the container to scan.
+
+   Note: Depending on how you started the test, some of these fields may already be filled in.
+3. Upload the container image .tar file by dragging and dropping it into the upload zone, or by selecting Browse Files.
+
+   Important: The file must be a .tar archive exported with `docker save`. Uploading an invalid archive will result in an error.
+4. Select Begin Test.
+
+   Note: The Begin Test button is locked until the file upload completes.
+
+Monitor test progress on the Tests page (accessible from the left-hand navbar). Newer tests appear near the top of the page. Filter tests by date, type, mode, status, and the application, project, or container tested.
 
 ## Test a DAST project
 

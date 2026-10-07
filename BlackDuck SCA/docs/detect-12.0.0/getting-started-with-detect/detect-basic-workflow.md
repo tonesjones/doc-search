@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/detect
 content_id: "acSpQ3fRWt1tDOkUqDUv6w"
 version: "12.0.0"
 section: "Getting started with Detect"
-scraped_at: "2026-09-07T21:15:10.866566+00:00"
+scraped_at: "2026-10-04T23:33:18.981251+00:00"
+content_hash: "c10462297c22322ef1f5bf1d6cb0c24ebd81057040717bf17725b264b0d0fef9"
 ---
 
 # Detect basic workflow

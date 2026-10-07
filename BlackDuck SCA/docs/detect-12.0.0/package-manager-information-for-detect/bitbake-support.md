@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/bitbak
 content_id: "y6N4zLCl3UxSpDT4JahPjA"
 version: "12.0.0"
 section: "Package Manager information for Detect"
-scraped_at: "2026-09-07T21:15:52.659440+00:00"
+scraped_at: "2026-10-04T23:33:20.341058+00:00"
+content_hash: "ff1ad3f8df96f68f2a5013d9df21cf0ac5b8c4e07a3eefebc0aa7839d9030061"
 ---
 
 # BitBake support

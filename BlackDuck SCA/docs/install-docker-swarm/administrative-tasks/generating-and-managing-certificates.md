@@ -1,16 +1,16 @@
 ---
 title: "Generating and Managing Certificates"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/generating-and-managing-certificates.html"
-content_id: "3oQeQJYxCYM1nH18NlditQ"
+content_id: "ftE~x_QaQzuQwByss~YmuQ"
 version: "2026.7"
 section: "Installing Black Duck using Docker Swarm"
-scraped_at: "2026-08-08T15:33:43.677488+00:00"
+scraped_at: "2026-10-04T23:32:24.436162+00:00"
+content_hash: "cb5fe2eb987569e709a02e27ec628151f3cb0808f2c150a91b0270f471981b6d"
 ---
 
 # Generating and Managing Certificates
 
-Managing certificates is essential for secure communication between Black Duck SCA and its clients. This guide outlines the steps needed to
-generate and manage required certificates efficiently.
+Managing certificates is essential for secure communication between Black Duck SCA and its clients. This guide outlines the steps needed to generate and manage required certificates efficiently.
 
 ## Before You Begin
 
@@ -22,15 +22,13 @@ generate and manage required certificates efficiently.
 
 1. **Create Your Certificate Files**
 
-   Run this single command to generate both your private key and certificate
-   signing request:
+   Run this single command to generate both your private key and certificate signing request:
 
    ```
    openssl req -new -newkey rsa:2048 -nodes -keyout privateKey.key -out certificateSigningRequest.csr
    ```
 
-   You'll be prompted to enter information for your certificate. Complete each
-   field as requested.
+   You'll be prompted to enter information for your certificate. Complete each field as requested.
 2. **Get Your Certificate Signed**
 
    Choose one option:
@@ -40,14 +38,11 @@ generate and manage required certificates efficiently.
      ```
      openssl x509 -req -days 365 -in certificateSigningRequest.csr -signkey privateKey.key -out certificate.crt
      ```
-   - Option B: CA-signed certificate (recommended for production) Submit
-     your CSR file to your Certificate Authority and follow their
-     process.
+   - Option B: CA-signed certificate (recommended for production) Submit your CSR file to your Certificate Authority and follow their process.
 3. **Install Your Certificate**
 
    1. Place your certificate files in the appropriate directory
-   2. Update your Black Duck SCA configuration to reference
-      these files:
+   2. Update your Black Duck SCA configuration to reference these files:
 
       ```
       # Example configuration entry

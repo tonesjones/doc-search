@@ -1,3 +1,13 @@
+# Current corpus checkpoint
+
+Updated October 4, 2026.
+
+SCA 2026.7: 939 topics; Detect 12.0.0: 207; Alert 8.4.1: 46; Tools: 21 official topics plus one local reference note. Historical Detect 11.5.1 and Alert 8.4.0 remain unchanged.
+
+The current catalog is `index.md`; companion catalogs are linked from `corpus-status.md`. The refresh report is `../docs/corpus-refresh-check-2026-10-04.md`.
+
+## Previous checkpoint history
+
 # Session checkpoint
 
 **Last updated:** 2026-09-18 (Bridge moved to a standalone sibling corpus)

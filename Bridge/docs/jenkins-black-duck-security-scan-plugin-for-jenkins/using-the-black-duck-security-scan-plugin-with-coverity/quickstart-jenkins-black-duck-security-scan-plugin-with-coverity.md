@@ -3,8 +3,9 @@ title: "Quickstart: Jenkins Black Duck Security Scan Plugin with Coverity"
 source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickstart-jenkins-black-duck-security-scan-plugin-with-coverity.html"
 content_id: "t9zP9noMBs_q34xmF57Xeg"
 version: "latest"
-section: "Jenkins - Black Duck Security Scan Plugin for Jenkins"
-scraped_at: "2026-08-08T23:48:45.579416+00:00"
+section: "Jenkins Integrations"
+scraped_at: "2026-10-04T23:28:30.859828+00:00"
+content_hash: "56481befe0746c2dd56e306c800aa1f7fcf362dd1fcf8af523dd0e419f48cbba"
 ---
 
 # Quickstart: Jenkins Black Duck Security Scan Plugin with Coverity
@@ -106,7 +107,7 @@ The full scan will be triggered by push and merge events on specified branches. 
    }
    ```
 
-   Warning: For deployments with [scan_services](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/cnc/topics/scan_service.html) disabled or Coverity versions < 2022.3 the `coverity_local` line in the example should be uncommented. Subsequently, the full Coverity client will be used to enable a local analysis to be performed. This will override the default behavior that uses the Coverity thin client to capture and upload artifacts, with analysis being performed on the server.
+   Warning: For deployments with [scan_services](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/0a69325e186c9bec20342e8d19ab1fb4.topic) disabled or Coverity versions < 2022.3 the `coverity_local` line in the example should be uncommented. Subsequently, the full Coverity client will be used to enable a local analysis to be performed. This will override the default behavior that uses the Coverity thin client to capture and upload artifacts, with analysis being performed on the server.
 
    In the example above the Black Duck Security Scan Plugin will download and use the Coverity CLI to scan the codebase of the branch that triggered the pipeline. Branches are defined in the `FULLSCAN` environment variable. Any issues that violate the *Outstanding Issues* policy view will be uploaded to a Coverity stream within a Coverity Connect project that is named after the repository. If the project doesn’t already exist, it is created automatically.
 
@@ -127,14 +128,14 @@ If a pipeline error is encountered similar to the example below, then the `cover
 
 Attention: ERROR: Failed to retrieve tool information details: Fetch tool information: received unexpected response status code '500' from Connect API
 
-In this scenario either [scan services](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/cnc/topics/scan_service.html) are not enabled or a Coverity version prior to 2022.3 is deployed. The default behavior is that the pipeline uses the Coverity thin client to upload artifacts, with the analysis performed at the server. Setting the `coverity_local` parameter to `true` enables the full analysis at the client. Subsequently, the scan and analysis will be performed locally on the Jenkins build agent. For further details relating to the different Coverity deployment models supported, please refer to [Coverity Deployment Architecture](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/help-center/topics/deployment_architecture.html).
+In this scenario either [scan services](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/0a69325e186c9bec20342e8d19ab1fb4.topic) are not enabled or a Coverity version prior to 2022.3 is deployed. The default behavior is that the pipeline uses the Coverity thin client to upload artifacts, with the analysis performed at the server. Setting the `coverity_local` parameter to `true` enables the full analysis at the client. Subsequently, the scan and analysis will be performed locally on the Jenkins build agent. For further details relating to the different Coverity deployment models supported, please refer to [Coverity Deployment Architecture](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/a0caa9e5b240fbee6150f8640240b2a5.topic).
 
 ## Useful resources
 
-- [Coverity Product Documentation](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/webhelp-files/help_center_start.html)
+- [Coverity Product Documentation](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/65af71645148476f0c3da0e6b8552214.topic)
 - [Coverity Tutorials](https://community.blackduck.com/s/article/coverity-tutorials)
 - [Coverity Projects and Streams Tutorial](https://community.blackduck.com/s/article/Coverity-Tutorial-Projects-and-Streams)
-- [Coverity Deployment Architecture](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/help-center/topics/deployment_architecture.html)
+- [Coverity Deployment Architecture](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/a0caa9e5b240fbee6150f8640240b2a5.topic)
 - [Black Duck Security Scan Plugin for Jenkins](https://plugins.jenkins.io/blackduck-security-scan/)
 - Jenkins - Black Duck Security Scan Plugin for Jenkins
 - Using Bridge CLI

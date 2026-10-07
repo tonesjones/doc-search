@@ -1,16 +1,16 @@
 ---
 title: "Authenticating with the API"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/authenticating-with-the-api.html"
-content_id: "dRQZ8kbNy06MPUwhy3g6_Q"
+content_id: "8GZyeSEahyCK0KxOSGc6mg"
 version: "2026.7"
 section: "Getting Started with the Black Duck API"
-scraped_at: "2026-08-08T15:32:38.619296+00:00"
+scraped_at: "2026-10-04T23:32:21.646387+00:00"
+content_hash: "4bdaac159dee936a47358cc8055ef853e3d2f3cd666678103acd12a68785d1ba"
 ---
 
 # Authenticating with the API
 
-Black Duck uses API tokens for authentication. This approach improves
-security and makes it easier to integrate with external tools.
+Black Duck uses API tokens for authentication. This approach improves security and makes it easier to integrate with external tools.
 
 ## Step 1: Generate an API token
 
@@ -41,8 +41,7 @@ curl -X POST \
     -H "Authorization: token <your-api-token>"
 ```
 
-This returns a **Bearer token**, which you use to authorize all subsequent API
-requests.
+This returns a **Bearer token**, which you use to authorize all subsequent API requests.
 
 ## Step 3: Use the Bearer token in your requests
 
@@ -57,17 +56,8 @@ curl -X GET \
 
 ## Changing the expiration time for a bearer token
 
-To extend the expiration time of a bearer token used in REST API, use the
-`docker-compose.local-overrides.yml` file to override the
-default setting by configuring the
-`HUB_AUTHENTICATION_ACCESS_TOKEN_EXPIRE` environment variable
-with the new expiration value in seconds.
+To extend the expiration time of a bearer token used in REST API, use the `docker-compose.local-overrides.yml` file to override the default setting by configuring the `HUB_AUTHENTICATION_ACCESS_TOKEN_EXPIRE` environment variable with the new expiration value in seconds.
 
-The `HUB_AUTHENTICATION_ACCESS_TOKEN_EXPIRE` property is the
-number of seconds that the access tokens take to expire.
+The `HUB_AUTHENTICATION_ACCESS_TOKEN_EXPIRE` property is the number of seconds that the access tokens take to expire.
 
-Note: The expiration configuration change only works for API tokens that are created after you
-change the setting in the `docker-compose.local-overrides.yml`
-file. The expiration time that you configure isn't updated for existing database
-records/API tokens when the setting is changed and the service is
-restarted.
+Note: The expiration configuration change only works for API tokens that are created after you change the setting in the `docker-compose.local-overrides.yml` file. The expiration time that you configure isn't updated for existing database records/API tokens when the setting is changed and the service is restarted.

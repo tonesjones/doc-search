@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/golang
 content_id: "fxTae3ZD911Ft0TbuARWjA"
 version: "12.0.0"
 section: "Package Manager information for Detect"
-scraped_at: "2026-09-07T21:16:10.598251+00:00"
+scraped_at: "2026-10-04T23:33:20.946587+00:00"
+content_hash: "1e4a93163cf9ca27e6955e0d429a005a2cb3857caff05dfd758f7255d6d1198f"
 ---
 
 # GoLang support

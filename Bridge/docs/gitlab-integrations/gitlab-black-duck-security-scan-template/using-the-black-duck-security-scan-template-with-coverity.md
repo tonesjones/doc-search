@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-t
 content_id: "3QO4fKpI7QGppwJAdC_oUQ"
 version: "latest"
 section: "GitLab Integrations"
-scraped_at: "2026-08-08T23:48:08.815839+00:00"
+scraped_at: "2026-10-04T23:28:29.029559+00:00"
+content_hash: "c5adfecc27e9ba03d2c4c1410ce6938f6d2e1e5ff610d4b4c37063e1cf868497"
 ---
 
 # Using the Black Duck Security Scan Template with Coverity

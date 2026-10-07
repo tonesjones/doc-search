@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/ad
 content_id: "zXYe4JB_T63r75Sv8kXOSQ"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:56:24.480233+00:00"
-content_hash: "2b507fa1d67ce3310732e46f498def15d445fd380805ee8ff335fec607f13750"
+scraped_at: "2026-10-04T23:29:18.969647+00:00"
+content_hash: "710e5771ad93958a831e7e4f20315745167c47f566fe3f84a9652380a7795111"
 ---
 
 # Add the Issue Management MCP server to an AI assistant

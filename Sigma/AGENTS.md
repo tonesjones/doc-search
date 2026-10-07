@@ -24,13 +24,13 @@ Do **not** treat random blog posts or third-party summaries as authoritative whe
 | Field | Value |
 |-------|-------|
 | Product | Sigma Documentation (Rapid Scan Static) |
-| Product key | `sigma-2026.8.0` |
-| Version | **2026.8.0** |
-| Map ID | `S_R7XSLfKPN3q6kGpp1eHQ` |
-| Help Center (browser SPA) | https://docs.blackduck.com/r/sigma/2026.8.0/sigma-documentation/ |
-| TOC API | `GET https://docs.blackduck.com/api/khub/maps/S_R7XSLfKPN3q6kGpp1eHQ/toc` |
-| Content API | `GET https://docs.blackduck.com/api/khub/maps/S_R7XSLfKPN3q6kGpp1eHQ/topics/{contentId}/content` |
-| Topics | **59** under `docs/user-guide/` |
+| Product key | `sigma-2026.9.1` |
+| Version | **2026.9.1** |
+| Map ID | `HDJ_IfD4RK593mgPPhyrnw` |
+| Help Center (browser SPA) | https://docs.blackduck.com/r/sigma/2026.9.1/sigma-documentation/ |
+| TOC API | `GET https://docs.blackduck.com/api/khub/maps/HDJ_IfD4RK593mgPPhyrnw/toc` |
+| Content API | `GET https://docs.blackduck.com/api/khub/maps/HDJ_IfD4RK593mgPPhyrnw/topics/{contentId}/content` |
+| Topics | **59** under `docs/sigma-2026.9.1/sigma-user-guide/` |
 | Index | `index.md` |
 | Phased scrape plan | `PHASE-PLAN.md` |
 | Session handoff | `CHECKPOINT.md` |
@@ -55,7 +55,7 @@ The public site is a **JavaScript SPA** (Fluid Topics). A plain page fetch only 
   docs/
     user-guide/             # Introducing, download, config, CI/CD, CLI, support, checkers
   sources/
-    sigma-2026.8.0/
+    sigma-2026.9.1/
       toc.json
       manifest.json
   scripts/
@@ -73,8 +73,8 @@ The public site is a **JavaScript SPA** (Fluid Topics). A plain page fetch only 
 - Product index is generated from the manifest. Do not hand-edit topic rows.
 - **`CHECKPOINT.md`** records the last completed work and next steps.
 - Scrape only `pending` (retry `error`). Never re-fetch `done` unless the user asks to refresh.
-- After scraping: `python scripts/build-index.py --product sigma-2026.8.0 --hub`
-- Re-pull TOC and merge statuses: `python scripts/build-index.py --product sigma-2026.8.0 --refresh-toc`
+- After scraping: `python scripts/build-index.py --product sigma-2026.9.1 --hub`
+- Re-pull TOC and merge statuses: `python scripts/build-index.py --product sigma-2026.9.1 --refresh-toc`
 - On session start: read **`CHECKPOINT.md`**, then `PHASE-PLAN.md` / `corpus-status.md`, then filter the manifest for pending work.
 
 ### Topic file conventions
@@ -87,7 +87,7 @@ The public site is a **JavaScript SPA** (Fluid Topics). A plain page fetch only 
 title: "..."
 source_url: "https://docs.blackduck.com/..."
 content_id: "..."
-version: "2026.8.0"
+version: "2026.9.1"
 section: "..."
 scraped_at: "ISO-8601"
 ---
@@ -97,15 +97,15 @@ scraped_at: "ISO-8601"
 
 1. **Search this repo first** — `index.md` / `corpus-status.md`, then open relevant `docs/**/*.md` (grep / read).
 2. **Route by topic:**
-   - What Sigma is / Rapid Scan Static overview → `docs/user-guide/introducing-sigma.md`
-   - Binary / Docker download → `docs/user-guide/downloading-sigma/`
-   - Config methods, options, output, `coverity.yml`, `.sigma-config.yml`, env vars, AI checker plug-in → `docs/user-guide/configuring-sigma/`
-   - Jenkins plugin, freestyle/pipeline, quality-gate policies → `docs/user-guide/running-sigma-in-ci-cd/`
-   - `sigma` CLI and subcommands (`analyze`, `checkers`, `config`, `docs`, `explain`, `metadata`) → `docs/user-guide/command-reference/`
-   - Languages, OS, CI systems, hardware → `docs/user-guide/sigma-support-matrix/`
-   - Release notes → `docs/user-guide/release-notes.md`
-   - Checker catalog → `docs/user-guide/sigma-checkers.md`
-3. **Cite paths** when answering (e.g. `docs/user-guide/command-reference/the-analyze-subcommand.md`) so answers are verifiable.
+   - What Sigma is / Rapid Scan Static overview → `docs/sigma-2026.9.1/sigma-user-guide/introducing-sigma.md`
+   - Binary / Docker download → `docs/sigma-2026.9.1/sigma-user-guide/downloading-sigma/`
+   - Config methods, options, output, `coverity.yml`, `.sigma-config.yml`, env vars, AI checker plug-in → `docs/sigma-2026.9.1/sigma-user-guide/configuring-sigma/`
+   - Jenkins plugin, freestyle/pipeline, quality-gate policies → `docs/sigma-2026.9.1/sigma-user-guide/running-sigma-in-ci-cd/`
+   - `sigma` CLI and subcommands (`analyze`, `checkers`, `config`, `docs`, `explain`, `metadata`) → `docs/sigma-2026.9.1/sigma-user-guide/command-reference/`
+   - Languages, OS, CI systems, hardware → `docs/sigma-2026.9.1/sigma-user-guide/sigma-support-matrix/`
+   - Release notes → `docs/sigma-2026.9.1/sigma-user-guide/release-notes.md`
+   - Checker catalog → `docs/sigma-2026.9.1/sigma-user-guide/sigma-checkers.md`
+3. **Cite paths** when answering (e.g. `docs/sigma-2026.9.1/sigma-user-guide/command-reference/the-analyze-subcommand.md`) so answers are verifiable.
 4. **Quote or paraphrase carefully** — distinguish product facts from interpretation.
 5. **If the corpus is silent or conflicting**, say so; offer to scrape pending topics or fetch official content.
 6. **Do not invent** Sigma CLI flags, Jenkins plugin steps, policy YAML keys, environment variable names, or checker IDs.
@@ -115,12 +115,12 @@ scraped_at: "ISO-8601"
 ```powershell
 cd "C:\TestCode\Product Docs\Sigma"
 python scripts/build-index.py --list-products
-python scripts/build-index.py --product sigma-2026.8.0 --init --hub
-python scripts/scrape-pending.py --product sigma-2026.8.0 --path-contains "Introducing Sigma"
-python scripts/scrape-pending.py --product sigma-2026.8.0 --all-pending
-python scripts/scrape-pending.py --product sigma-2026.8.0 --retry-errors
-python scripts/build-index.py --product sigma-2026.8.0 --hub
-python scripts/validate-corpus.py --product sigma-2026.8.0
+python scripts/build-index.py --product sigma-2026.9.1 --init --hub
+python scripts/scrape-pending.py --product sigma-2026.9.1 --path-contains "Introducing Sigma"
+python scripts/scrape-pending.py --product sigma-2026.9.1 --all-pending
+python scripts/scrape-pending.py --product sigma-2026.9.1 --retry-errors
+python scripts/build-index.py --product sigma-2026.9.1 --hub
+python scripts/validate-corpus.py --product sigma-2026.9.1
 python scripts/smoke-retrieval.py
 ```
 
@@ -144,3 +144,7 @@ Do not mix Sigma docs into sibling trees, and do not scrape those maps here:
 | Coverity | `C:\TestCode\Product Docs\Coverity` |
 | Polaris | `C:\TestCode\Product Docs\Polaris` |
 | Signal | `C:\TestCode\Product Docs\Signal` |
+
+## Version history
+
+Unversioned questions use 2026.9.1 through `index.md`. The 2026.8.0 snapshot remains unchanged at `index-sigma-2026.8.0.md`. Use the historical catalog only for that version or a comparison.

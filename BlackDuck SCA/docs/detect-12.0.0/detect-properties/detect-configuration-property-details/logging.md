@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/loggin
 content_id: "rMnDdqIWu1CvY0kGL79f6A"
 version: "12.0.0"
 section: "Detect Properties"
-scraped_at: "2026-09-07T21:16:34.003145+00:00"
+scraped_at: "2026-10-04T23:33:21.852473+00:00"
+content_hash: "dbfc2e202f38f279792d1eeeb3ff17bed8a454f06de0dcf4e8b2ae3ce888dbfd"
 ---
 
 # logging

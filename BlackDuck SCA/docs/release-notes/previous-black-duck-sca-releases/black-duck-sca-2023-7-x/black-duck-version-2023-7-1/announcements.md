@@ -1,19 +1,18 @@
 ---
 title: "Announcements"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/announcements.html"
-content_id: "ppfh_cFJAuu_JHaD4d2Bzw"
+content_id: "6OZhXg9Qk2x08IKjGplJJg"
 version: "2026.7"
-section: "Release Notes"
-scraped_at: "2026-08-08T15:36:44.572235+00:00"
+section: "Black Duck SCA Release Notes"
+scraped_at: "2026-10-04T23:32:31.880964+00:00"
+content_hash: "12acc34932922e8ffe80b457233cbd8861207b7caa50a98cad580936a5ed243b"
 ---
 
 # Announcements
 
 ## Upcoming scanning hardware requirements changes
 
-Black Duck 2023.10.0 will see a number of changes in scanning hardware requirements
-therefore Black Duck customers will need to update their environments and allocate
-additional hardware resources where necessary per the guidance below.
+Black Duck 2023.10.0 will see a number of changes in scanning hardware requirements therefore Black Duck customers will need to update their environments and allocate additional hardware resources where necessary per the guidance below.
 
 Table 1. Hardware Scaling Guidelines
 

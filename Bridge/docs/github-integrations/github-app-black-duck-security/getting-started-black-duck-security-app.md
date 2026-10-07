@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/getting
 content_id: "YsrE0ygoBLMbJ0aB6tfQDw"
 version: "latest"
 section: "GitHub Integrations"
-scraped_at: "2026-08-08T23:47:38.305228+00:00"
+scraped_at: "2026-10-04T23:28:27.530387+00:00"
+content_hash: "16f04089d6922916d68a63916b6fc5c4a9ab6aca8dbf1c55bd0300d1758a980e"
 ---
 
 # Getting started: Black Duck Security App

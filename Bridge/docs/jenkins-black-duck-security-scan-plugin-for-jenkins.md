@@ -1,15 +1,16 @@
 ---
-title: "Jenkins - Black Duck Security Scan Plugin for Jenkins"
-source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/jenkins-black-duck-security-scan-plugin-for-jenkins.html"
+title: "Jenkins Integrations"
+source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/jenkins-integrations.html"
 content_id: "zAv0lvHqHiEx3PqXIiB~kg"
 version: "latest"
-section: "Jenkins - Black Duck Security Scan Plugin for Jenkins"
-scraped_at: "2026-08-08T23:48:31.476285+00:00"
+section: "Jenkins Integrations"
+scraped_at: "2026-10-04T23:28:30.233753+00:00"
+content_hash: "e916609ac246ce6ae6e20c1a047ef81e8ab5868461c7452f4d2fe86559bde3c6"
 ---
 
-# Jenkins - Black Duck Security Scan Plugin for Jenkins
+# Jenkins Integrations
 
-This plug-in allows Black Duck® SCA, Coverity and Polaris scans to run in your Jenkins pipeline.
+The Black Duck Security Scan Plugin for Jenkins allows Black Duck® SCA, Coverity and Polaris scans to run in your Jenkins pipeline.
 
 ## How it works
 

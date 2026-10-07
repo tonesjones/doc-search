@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/runnin
 content_id: "DRRHh96_8kty1cLyQ1FL6g"
 version: "12.0.0"
 section: "Detect Integrations"
-scraped_at: "2026-09-07T21:17:28.916266+00:00"
+scraped_at: "2026-10-04T23:33:23.757214+00:00"
+content_hash: "c0603a627228842a36af2d5f28953cd858a30e69cb38c2370304ac2aaf21ed63"
 ---
 
 # Running the Task

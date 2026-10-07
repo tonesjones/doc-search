@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/dart.h
 content_id: "7E2ClUlZjYHIHNtemJrUBA"
 version: "12.0.0"
 section: "Detect Properties"
-scraped_at: "2026-09-07T21:16:46.722619+00:00"
+scraped_at: "2026-10-04T23:33:22.405833+00:00"
+content_hash: "a5d4a98ceb7c81d3dd0b8ca475a791dac950d9cafd8b27e11a3c8d422de7026b"
 ---
 
 # dart

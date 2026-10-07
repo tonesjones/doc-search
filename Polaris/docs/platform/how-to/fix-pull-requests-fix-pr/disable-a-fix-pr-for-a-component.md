@@ -4,13 +4,13 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/di
 content_id: "j04aqhLqeaLnoDBxBAFr7w"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:56:37.895953+00:00"
-content_hash: "26af05a7a7bcce60f7fb858ca185729f11e72699fefa975ee9816cb1efe8dcce"
+scraped_at: "2026-10-04T23:29:19.280066+00:00"
+content_hash: "168dd520a6d63fe7af6c16fee0e59c96176645681f5deb951ec1ca89b26ca3ee"
 ---
 
 # Disable a Fix PR for a Component
 
-For overview, prerequisites and inheritance, see [Fix Pull Requests (Fix PR)](../fix-pull-requests-fix-pr.md).
+For overview, prerequisites, and inheritance, see [SCA Fix Pull Requests](../fix-pull-requests-fix-pr.md).
 
 If needed, you can disable Fix PR creation for a specific component.
 

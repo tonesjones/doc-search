@@ -1,10 +1,11 @@
 ---
 title: "Registration pod configuration"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/registration-pod-configuration.html"
-content_id: "0ERCamBwPhaHcP2sFZas6Q"
+content_id: "PALIVlGunHwmuzPymY22uw"
 version: "2026.7"
 section: "Installing Black Duck using Kubernetes and OpenShift"
-scraped_at: "2026-08-08T15:33:13.462972+00:00"
+scraped_at: "2026-10-04T23:32:23.121729+00:00"
+content_hash: "b28238cc9b91ba3e061bb51077885e51a44a30200915f8fb1cac095003dece8d"
 ---
 
 # Registration pod configuration

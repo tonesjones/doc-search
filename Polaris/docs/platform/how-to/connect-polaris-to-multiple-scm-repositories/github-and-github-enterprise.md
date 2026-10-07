@@ -1,14 +1,14 @@
 ---
-title: "GitHub and GitHub Enterprise"
-source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/github-and-github-enterprise.html"
+title: "GitHub, GitHub Enterprise, and GitHub Enterprise with data residency"
+source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/github-github-enterprise-and-github-enterprise-with-data-residency.html"
 content_id: "v5NFypuxAG_Tssy4Sjl_~A"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:57:10.161463+00:00"
-content_hash: "5af567d9f344ff7abc86baa5d8e7d8727bbf22ed68ef1d87cc1f003dfaff50a5"
+scraped_at: "2026-10-04T23:29:20.390254+00:00"
+content_hash: "4ed8245ecf16760625c74ea40bdd5fee529a6c223696b86102ab28dec9011337"
 ---
 
-# GitHub and GitHub Enterprise
+# GitHub, GitHub Enterprise, and GitHub Enterprise with data residency
 
 ## Prerequisites
 
@@ -42,11 +42,14 @@ See General Prerequisites before starting.
 1. On the Portfolio page, select + Create > New Application(s) with SCM.
 2. Connect to your SCM:
    1. Select the type of server that is hosting your repository: Cloud-hosted.
-   2. Select GitHub or GitHub Enterprise.
-   3. Enter the personal access token created in GitHub (see Prerequisites ) under Repository Access Token.
+   2. Select the source of your repository: GitHub, GitHub Enterprise, or GitHub Enterprise (with data residency).
+   3. If you selected GitHub Enterprise (with data residency), enter your tenant's SCM URL (for example, `https://<company>.ghe.com`).
+
+      Note: The SCM URL field only appears when you select GitHub Enterprise (with data residency).
+   4. Enter the personal access token created in GitHub (see Prerequisites ) under Repository Access Token.
 
       Note: The personal access token provided here will be used to complete the onboarding process and will be subject to rate limits enforced by GitHub.
-   4. Click Connect.
+   5. Click Connect.
 
       You should receive a Connection Successful message and the Quick Start options should be visible. If your connection test is unsuccessful, check the following:
 
@@ -99,7 +102,7 @@ See General Prerequisites before starting.
    Click Cancel to cancel the import. Any repository in the process of being imported at the time of cancellation will complete in the background after the cancel is accepted. Then all onboarding will be stopped immediately. For example, if you import ten repositories and cancel at 50%, five repositories would be imported and five repositories would not.
 5. You can now set up event-based test automation. See [Event-Based Test Automation in Polaris for SCM Integrations](../event-based-test-automation-in-polaris-for-scm-integrations.md).
 
-   Note: To enable Fix Pull Requests for all onboarded applications, create a component policy (see [Component policies](../create-and-manage-policies/component-policies.md)) and assign it to the applications after onboarding. See [Fix Pull Requests (Fix PR)](../fix-pull-requests-fix-pr.md).
+   Note: To enable Fix Pull Requests for all onboarded applications, create a component policy (see [Component policies](../create-and-manage-policies/component-policies.md)) and assign it to the applications after onboarding. See [SCA Fix Pull Requests](../fix-pull-requests-fix-pr.md).
 
 ## SCM bulk onboarding projects into an application
 
@@ -109,11 +112,14 @@ See General Prerequisites before starting.
 2. On the Application page, select + Create > New Project(s) with SCM.
 3. Connect to your SCM:
    1. Select the type of server that is hosting your repository: Cloud-hosted.
-   2. Select GitHub or GitHub Enterprise.
-   3. Enter the personal access token created in GitHub (see Prerequisites ) under Repository Access Token.
+   2. Select the source of your repository: GitHub, GitHub Enterprise, or GitHub Enterprise (with data residency).
+   3. If you selected GitHub Enterprise (with data residency), enter your tenant's SCM URL (for example, `https://<company>.ghe.com`).
+
+      Note: The SCM URL field only appears when you select GitHub Enterprise (with data residency).
+   4. Enter the personal access token created in GitHub (see Prerequisites ) under Repository Access Token.
 
       Note: The personal access token provided here will be used to complete the onboarding process and will be subject to rate limits enforced by GitHub.
-   4. Click Connect.
+   5. Click Connect.
 
       You should receive a Connection Successful message. If your connection test is unsuccessful, check the following:
 

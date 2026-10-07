@@ -1,16 +1,16 @@
 ---
-title: "GitHub and GitHub Enterprise Cloud"
-source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/github-and-github-enterprise-cloud.html"
+title: "GitHub, GitHub Enterprise, and GitHub Enterprise with data residency"
+source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/github-github-enterprise-and-github-enterprise-with-data-residency.html"
 content_id: "7zCqxPvjbXHSNhNCLapPBQ"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:57:21.962391+00:00"
-content_hash: "563cf4ff48fa6fc3e4edb29269f30b264f026eab6049b0e6eadf89a99fc6cac0"
+scraped_at: "2026-10-04T23:29:20.857114+00:00"
+content_hash: "bf19f2931ab2b8da101d9302bff8e7332c799149841928c337b5fb5deaca5f89"
 ---
 
-# GitHub and GitHub Enterprise Cloud
+# GitHub, GitHub Enterprise, and GitHub Enterprise with data residency
 
-How to connect a Polaris project to a repository in GitHub or GitHub Enterprise (Cloud).
+How to connect a Polaris project to a repository in GitHub, GitHub Enterprise, or GitHub Enterprise with data residency.
 
 Note: Follow the steps on this page to connect a single project to a single GitHub repository. Alternatively, GitHub repositories can be imported into Polaris in bulk. For more information, see [Connect Polaris to Multiple SCM Repositories](../connect-polaris-to-multiple-scm-repositories.md).
 
@@ -31,14 +31,14 @@ When creating an access token:
 
 Important: Store your token in a secure location. Each time you modify a project's SCM integration, you'll need to reenter the token to save your changes.
 
-## Connect to a repository hosted in GitHub or GitHub Enterprise (Cloud)
+## Connect to a repository hosted in GitHub or GitHub Enterprise
 
-To connect a project in Polaris to a repository in GitHub or GitHub Enterprise (Cloud), follow these steps:
+To connect a project in Polaris to a repository in GitHub, GitHub Enterprise, or GitHub Enterprise with data residency, follow these steps:
 
 1. In Polaris, open the project you wish to connect to a repository (go to Portfolio, select an application, and select a project).
 2. Go to Settings > Integrations.
 3. Select Cloud-hosted.
-4. Select the source of your repository: GitHub or GitHub Enterprise.
+4. Select the source of your repository: GitHub, GitHub Enterprise, or GitHub Enterprise (with data residency).
 5. Enter the Repository URL.
 
    To obtain the repository's URL, open the GitHub repository in a browser and select Code. Copy the HTTPS URL (SSH is not supported).   

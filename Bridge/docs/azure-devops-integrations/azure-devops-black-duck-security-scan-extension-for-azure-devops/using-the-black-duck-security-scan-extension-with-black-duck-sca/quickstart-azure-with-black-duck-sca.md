@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickst
 content_id: "rmrEvYiPwOAyo0t1eVaJ5w"
 version: "latest"
 section: "Azure DevOps Integrations"
-scraped_at: "2026-08-08T23:48:25.941379+00:00"
+scraped_at: "2026-10-04T23:28:29.994922+00:00"
+content_hash: "dde2dfe991f60a47ab89b7c96ab5dad0ccd99a67fc682fe58c101733b992e22e"
 ---
 
 # Quickstart: Azure with Black Duck SCA

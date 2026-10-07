@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/prerequ
 content_id: "BERthcYuD_buVxKdCNYYwQ"
 version: "latest"
 section: "GitLab Integrations"
-scraped_at: "2026-08-08T23:47:52.172809+00:00"
+scraped_at: "2026-10-04T23:28:28.259209+00:00"
+content_hash: "d73b36cbf0bc06916727a01da3c35e8b792cd1d577b9e1cfc70514a401ded0c6"
 ---
 
 # Prerequisites: GitLab Black Duck Security Bulk Onboarding

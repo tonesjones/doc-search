@@ -1,36 +1,26 @@
 ---
 title: "About Custom Components"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/about-custom-components.html"
-content_id: "PqcDcvyPRvvB7yZK4Tbi0Q"
+content_id: "TtinQHBGzQ9U4kQSB_gHJg"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T15:30:12.435731+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:15.165393+00:00"
+content_hash: "688ee0d57b101f23023f9d4c282d24c194e57e0e0aa3761f18a851fad7d4e300"
 ---
 
 # About Custom Components
 
-Custom components enable you to represent software components in your BOM that are
-not available from the KnowledgeBase, such as proprietary, commercial, internal, or
-otherwise untracked components. Users with the Component Manager role can create and
-manage custom components and add them to project BOMs.
+Custom components enable you to represent software components in your BOM that are not available from the KnowledgeBase, such as proprietary, commercial, internal, or otherwise untracked components. Users with the Component Manager role can create and manage custom components and add them to project BOMs.
 
-Users with the **Component Manager** role can create and manage custom components and
-their versions, and then add them to project BOMs.This helps ensure that your BOM
-accurately reflects all software used by your project.
+Users with the **Component Manager** role can create and manage custom components and their versions, and then add them to project BOMs.This helps ensure that your BOM accurately reflects all software used by your project.
 
-Custom components can contain information such as version details, licensing information,
-and descriptive metadata. Depending on how a custom component version is configured, it
-can also be associated with known security vulnerabilities. Custom component
-vulnerabilities are included in BOM risk calculations, policy evaluation, notifications,
-and reports when vulnerability data is available for that component version.
+Custom components can contain information such as version details, licensing information, and descriptive metadata. Depending on how a custom component version is configured, it can also be associated with known security vulnerabilities. Custom component vulnerabilities are included in BOM risk calculations, policy evaluation, notifications, and reports when vulnerability data is available for that component version.
 
-If you require a version of an open source component that is not available in the
-KnowledgeBase, contact Customer Support.
+If you require a version of an open source component that is not available in the KnowledgeBase, contact Customer Support.
 
 ## Managing custom components
 
-Component Managers can use the following pages to manage custom components and custom
-component versions.
+Component Managers can use the following pages to manage custom components and custom component versions.
 
 | Page | Description |
 | --- | --- |
@@ -41,13 +31,11 @@ component versions.
 | **Custom Component Version Origin IDs** | View and manage origin identifiers associated with a custom component version. Origin IDs can be used to automatically match scan results to the component version. |
 | **Custom Component Version Settings** | View and update component version details, manage licenses, custom fields, SBOM metadata, origin identifiers, and CPE values, and delete a custom component version. |
 
-Note: Component Managers must have permission to view projects before they appear on the
-Custom Component Version Overview page.
+Note: Component Managers must have permission to view projects before they appear on the Custom Component Version Overview page.
 
 ## Understanding risk for custom components
 
-Black Duck SCA evaluates custom components differently from KnowledgeBase
-components.
+Black Duck SCA evaluates custom components differently from KnowledgeBase components.
 
 **License risk**
 
@@ -55,9 +43,7 @@ Custom components display license risk based on the license assigned to the comp
 
 **Security risk**
 
-Custom component versions can display security risk when vulnerabilities are
-associated with the version. Associated vulnerabilities can be viewed from the
-custom component version's Vulnerabilities page.
+Custom component versions can display security risk when vulnerabilities are associated with the version. Associated vulnerabilities can be viewed from the custom component version's Vulnerabilities page.
 
 **Operational risk**
 
@@ -69,19 +55,14 @@ When a custom component is added to a BOM:
 
 - The match type is **Manually Added**.
 - Policy Managers can create policy rules that apply to custom components.
-- You can search for custom components by using the **Component Source** filter
-  and selecting **Custom Component**.
-- Project Version reports identify custom components separately from
-  KnowledgeBase-managed components.
+- You can search for custom components by using the **Component Source** filter and selecting **Custom Component**.
+- Project Version reports identify custom components separately from KnowledgeBase-managed components.
 - Custom components do not have origins.
 
-Project Version reports include a **Source/Type** field that identifies whether a
-component is a custom component or a KnowledgeBase-managed component.
+Project Version reports include a **Source/Type** field that identifies whether a component is a custom component or a KnowledgeBase-managed component.
 
 ## Related tasks
 
-- Create a custom component or custom component
-  versions
+- Create a custom component or custom component versions
 - Managing custom components
-- Manage custom component
-  versions
+- Manage custom component versions

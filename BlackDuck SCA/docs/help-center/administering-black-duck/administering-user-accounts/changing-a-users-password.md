@@ -1,16 +1,16 @@
 ---
 title: "Changing a user's password"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/changing-a-user-s-password.html"
-content_id: "na4AlyMPj0kVMrseHr~Xag"
+content_id: "KFxRnU97DYQFAkRQ4w0oaw"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T15:31:44.978965+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:19.235633+00:00"
+content_hash: "7352a071d7b1da52a8813c880aa0e8018a271c23a143786344bcc4986917ed79"
 ---
 
 # Changing a user's password
 
-Note: If you have enabled LDAP authentication, user account passwords are managed by LDAP. You
-will not be able to change passwords in Black Duck.
+Note: If you have enabled LDAP authentication, user account passwords are managed by LDAP. You will not be able to change passwords in Black Duck.
 
 To change a user's password:
 
@@ -22,18 +22,11 @@ To change a user's password:
     [image: image]
 4. Find the name of the user whose password you want to reset:
    - Filter the users that appear on the page.
-   - Sort the list of users by selecting any of the column names. An arrow
-     next to the column name indicates the direction the list is
-     sorted.
-   - Use the pagination bar at the bottom of the list to go to the appropriate
-     page if there are more users than are listed on this page.
-5. Select the username to open the *Username* page and click **Reset Password for
-   User**.
-6. In the Reset Password for User dialog box, type the new password in the
-   **Password** field.
+   - Sort the list of users by selecting any of the column names. An arrow next to the column name indicates the direction the list is sorted.
+   - Use the pagination bar at the bottom of the list to go to the appropriate page if there are more users than are listed on this page.
+5. Select the username to open the *Username* page and click **Reset Password for User**.
+6. In the Reset Password for User dialog box, type the new password in the **Password** field.
 
-   If there are password requirements, those requirements are listed in this dialog
-   box. Black Duck notes when each requirement is met. You will not be able to save
-   this password if it does not meet *all* requirements.
+   If there are password requirements, those requirements are listed in this dialog box. Black Duck notes when each requirement is met. You will not be able to save this password if it does not meet *all* requirements.
 7. Type the same password in the **Confirm Password** field.
 8. Click **Save**.

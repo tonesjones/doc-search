@@ -1,10 +1,11 @@
 ---
 title: "BOM engine pod configuration"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/bom-engine-pod-configuration.html"
-content_id: "z1_Izcw6W6O3CsC7T_0XbA"
+content_id: "arcXtewFjEpAgn7vtGmnTg"
 version: "2026.7"
 section: "Installing Black Duck using Kubernetes and OpenShift"
-scraped_at: "2026-08-08T15:33:05.970995+00:00"
+scraped_at: "2026-10-04T23:32:22.775218+00:00"
+content_hash: "ad0854362e11717608efcfcbfe32e5ba1550cbd1e0fa8b4c07154a49a3ecf7a8"
 ---
 
 # BOM engine pod configuration

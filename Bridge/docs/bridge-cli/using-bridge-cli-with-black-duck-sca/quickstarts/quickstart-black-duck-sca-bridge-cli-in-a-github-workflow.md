@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickst
 content_id: "FTbnmGEIkHdZaZnu67Cf5g"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:47:14.178899+00:00"
+scraped_at: "2026-10-04T23:28:26.343312+00:00"
+content_hash: "9b823d77cbd3e01e8ad1268fba560bd590d98adbfe855aa36151057b3b7b0b07"
 ---
 
 # Quickstart: Black Duck SCA Bridge CLI in a GitHub workflow

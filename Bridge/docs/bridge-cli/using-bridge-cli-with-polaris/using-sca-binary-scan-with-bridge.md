@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-s
 content_id: "Z6G03zHl6mufvly7tIubvw"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:47:09.398840+00:00"
+scraped_at: "2026-10-04T23:28:26.146035+00:00"
+content_hash: "cdd83e3d14bec196e2e0fdbba6ec1f931595362d4056cf0e3a990f80faa011eb"
 ---
 
 # Using SCA Binary Scan with Bridge

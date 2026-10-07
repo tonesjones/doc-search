@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/th
 content_id: "7bEQtYTDtAfMscsxh57eQw"
 product_key: "polaris-platform-latest"
 section: "Understand Polaris"
-scraped_at: "2026-08-12T19:55:41.072096+00:00"
-content_hash: "0be04be16d17d2d253a75e2e54e56965869f66acee9c2a6820296c902a7e77e3"
+scraped_at: "2026-10-04T23:29:17.164128+00:00"
+content_hash: "b5f8464d4ad4aae398d318b824d411fa2cbd020ce4429a660f9f1f0bcf29107f"
 ---
 
 # The data model: applications and projects in Polaris
@@ -18,12 +18,13 @@ The application can be called the organizing principle of Polaris, because proje
 
 ## Projects
 
-There are two types of projects in Polaris:
+There are three types of projects in Polaris:
 
 | Project type | Description |
 | --- | --- |
 | SAST & SCA | A SAST & SCA project is a discrete body of code associated with a parent application. It can contain the entire application or can be one submodule in a larger application. It might correspond to one repository, but doesn't have to. Each SAST & SCA project includes a default branch, and may include more (non-default) branches. SAST and SCA tests (including external analysis tests used to import issues from third-party tools) always run on a single branch of a project (and issues captured in tests are linked to the branch and project). |
 | DAST | A DAST project is a target web application or API, which can be web-accessible or internal, that you wish to test with the fAST Dynamic analysis engine. Generally, the target uses source code from an application's SAST & SCA projects, but it doesn't have to. Note: See [Test web applications and APIs with Polaris fAST Dynamic](../how-to/test-web-applications-and-apis-with-polaris-fast-dynamic.md) for more information. |
+| Container Analysis | A Container Analysis project is a standalone project type for scanning container images for open source risk. Each project contains one or more containers. Tests run by uploading a container image archive (.tar) exported with `docker save`. Container Analysis projects cannot be combined with other project types or scan methods. Note: See [Container Analysis](../how-to/container-analysis.md) for more information. |
 
 ### Branches
 

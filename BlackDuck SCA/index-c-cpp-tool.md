@@ -9,13 +9,13 @@
 | Product | Black Duck C/CPP Tool |
 | Product key | `c-cpp-tool-latest` |
 | Version | **latest** |
-| Map ID | `2GUQEgoyKxsQAcOtWsqdDA` |
-| TOC nodes | **21** (20 official + 1 local addition) |
-| Progress | **21/21 done** (100.0%) · 0 pending · 0 skipped · 0 error |
-| Last index build | 2026-08-13T16:17:07.357586+00:00 |
+| Map ID | `3JcuocdfP6Yh0iupxpNOwQ` |
+| TOC nodes | **22** |
+| Progress | **22/22 done** (100.0%) · 0 pending · 0 skipped · 0 error |
+| Last index build | 2026-10-04T23:27:44.353213+00:00 |
 | Manifest | [sources/c-cpp-tool-latest/manifest.json](sources/c-cpp-tool-latest/manifest.json) |
 | Raw TOC | [sources/c-cpp-tool-latest/toc.json](sources/c-cpp-tool-latest/toc.json) |
-| Docs roots | `docs/c-cpp-tool/`, `docs/knowledgebase-vulnerability-feed-server/` |
+| Docs roots | `docs/c-cpp-tool/`, `docs/knowledgebase-vulnerability-feed-server/`, `docs/scass-mcp/` |
 
 ### Status legend
 
@@ -35,7 +35,7 @@
 **Content API template:**
 
 ```
-https://docs.blackduck.com/api/khub/maps/2GUQEgoyKxsQAcOtWsqdDA/topics/{contentId}/content
+https://docs.blackduck.com/api/khub/maps/3JcuocdfP6Yh0iupxpNOwQ/topics/{contentId}/content
 ```
 
 ## Section overview
@@ -43,13 +43,14 @@ https://docs.blackduck.com/api/khub/maps/2GUQEgoyKxsQAcOtWsqdDA/topics/{contentI
 | Section | Topics | Pending | Done | Skipped | Error | Local root |
 |---------|--------|---------|------|---------|-------|------------|
 | Black Duck C/CPP Tool | 15 | 0 | 15 | 0 | 0 | `docs/c-cpp-tool/black-duck-c-cpp-tool/` |
-| KnowledgeBase Vulnerability Feed Server | 5 | 0 | 5 | 0 | 0 | `docs/knowledgebase-vulnerability-feed-server/` |
+| SCASS MCP Server | 6 | 0 | 6 | 0 | 0 | `docs/scass-mcp/` |
 | Black Duck Tools | 1 | 0 | 1 | 0 | 0 | `docs/c-cpp-tool/black-duck-tools/` |
 
 ## Table of contents
 
 - [x] [Black Duck Tools](docs/c-cpp-tool/black-duck-tools.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/black-duck-tools.html)
 - [x] [Black Duck C/CPP Tool](docs/c-cpp-tool/black-duck-c-cpp-tool.md) _(+9)_ · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/black-duck-c/cpp-tool.html)
+  - [x] [Black Duck C/CPP tool release notes](docs/c-cpp-tool/black-duck-c-cpp-tool/black-duck-c-cpp-tool-release-notes.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/black-duck-c/cpp-tool-release-notes.html)
   - [x] [Black Duck C/CPP tool overview](docs/c-cpp-tool/black-duck-c-cpp-tool/black-duck-c-cpp-tool-overview.md) _(+2)_ · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/black-duck-c/cpp-tool-overview.html)
     - [x] [Black Duck C/CPP tool quickstart guide](docs/c-cpp-tool/black-duck-c-cpp-tool/black-duck-c-cpp-tool-overview/black-duck-c-cpp-tool-quickstart-guide.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/black-duck-c/cpp-tool-quickstart-guide.html)
     - [x] [How does the tool run?](docs/c-cpp-tool/black-duck-c-cpp-tool/black-duck-c-cpp-tool-overview/how-does-the-tool-run.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/how-does-the-tool-run-.html)
@@ -62,14 +63,14 @@ https://docs.blackduck.com/api/khub/maps/2GUQEgoyKxsQAcOtWsqdDA/topics/{contentI
     - [x] [Bazel setup](docs/c-cpp-tool/black-duck-c-cpp-tool/bazel/bazel-setup.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/bazel-setup.html)
   - [x] [The BOM](docs/c-cpp-tool/black-duck-c-cpp-tool/the-bom.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/the-bom.html)
   - [x] [Frequently asked questions](docs/c-cpp-tool/black-duck-c-cpp-tool/frequently-asked-questions.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/frequently-asked-questions.html)
-  - [x] [Black Duck C/CPP tool release notes](docs/c-cpp-tool/black-duck-c-cpp-tool/black-duck-c-cpp-tool-release-notes.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/black-duck-c/cpp-tool-release-notes.html)
-  - [x] [Local notes: command-line flags and workflows (community reference)](docs/c-cpp-tool/black-duck-c-cpp-tool/local-notes-command-line-flags-and-workflows.md) · **local addition, not scraped** — source: `C:\TestCode\bdsca-c-cpp-demo\bd-ccpp-scanner.md`
-- [x] [KnowledgeBase Vulnerability Feed Server](docs/knowledgebase-vulnerability-feed-server/knowledgebase-vulnerability-feed-server.md) _(+4)_ · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/knowledgebase-vulnerability-feed-server.html)
-  - [x] [Common Security Advisory Framework (CSAF)](docs/knowledgebase-vulnerability-feed-server/common-security-advisory-framework-csaf.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/common-security-advisory-framework-csaf-.html)
-  - [x] [Usage Guide](docs/knowledgebase-vulnerability-feed-server/usage-guide.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/usage-guide.html)
-  - [x] [Authentication](docs/knowledgebase-vulnerability-feed-server/authentication.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/authentication.html)
-  - [x] [Rate Limiting](docs/knowledgebase-vulnerability-feed-server/rate-limiting.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/rate-limiting.html)
+- [x] [SCASS MCP Server](docs/scass-mcp/scass-mcp-server.md) _(+5)_ · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/scass-mcp-server.html)
+  - [x] [Overview & Capabilities](docs/scass-mcp/overview-and-capabilities.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/overview-capabilities.html)
+  - [x] [Prerequisites & Installation](docs/scass-mcp/prerequisites-and-installation.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/prerequisites-installation.html)
+  - [x] [Configuration & Security](docs/scass-mcp/configuration-and-security.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/configuration-security.html)
+  - [x] [Using the MCP Server](docs/scass-mcp/using-the-mcp-server.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/using-the-mcp-server.html)
+  - [x] [Troubleshooting](docs/scass-mcp/troubleshooting.md) · [source](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/troubleshooting.html)
+  - [x] [Local notes: command-line flags and workflows (community reference)](docs/c-cpp-tool/black-duck-c-cpp-tool/local-notes-command-line-flags-and-workflows.md) · [source](local:///C:/TestCode/bdsca-c-cpp-demo/bd-ccpp-scanner.md)
 
 ---
 
-*Generated from Fluid Topics map `2GUQEgoyKxsQAcOtWsqdDA` (latest). Official docs: [Black Duck C/CPP Tool](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/).*
+*Generated from Fluid Topics map `3JcuocdfP6Yh0iupxpNOwQ` (latest). Official docs: [Black Duck C/CPP Tool](https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/).*

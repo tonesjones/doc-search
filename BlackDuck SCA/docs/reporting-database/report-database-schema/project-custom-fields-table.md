@@ -1,10 +1,11 @@
 ---
 title: "Project Custom Fields table"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/project-custom-fields-table.html"
-content_id: "Nug5VqkBp_Vd8Zkdo2pa0g"
+content_id: "EqqDq_TXBapJpiWSkLE5ug"
 version: "2026.7"
 section: "Reporting Database"
-scraped_at: "2026-08-08T15:34:39.499035+00:00"
+scraped_at: "2026-10-04T23:32:26.853421+00:00"
+content_hash: "90a10f519966819407eb63cf8b1d6353fff3ce9a1a76e139ae5d920ec81721fa"
 ---
 
 # Project Custom Fields table

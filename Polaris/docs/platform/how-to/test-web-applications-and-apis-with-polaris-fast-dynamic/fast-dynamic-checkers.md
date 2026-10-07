@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/fa
 content_id: "sEzVdIh0efZ0S6n93cPByQ"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:57:44.595496+00:00"
-content_hash: "89af4407743cc9950d29d82a4e060cbe10e424af059a353767346ace047c91e5"
+scraped_at: "2026-10-04T23:29:22.161969+00:00"
+content_hash: "12a5b153eaf360707fa55176871cf7bbb9c75e39f3293f56536366d2b79ba446"
 ---
 
 # fAST Dynamic checkers

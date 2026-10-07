@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/rush-s
 content_id: "iSawpIeOPruXgUlWEdyLBw"
 version: "12.0.0"
 section: "Package Manager information for Detect"
-scraped_at: "2026-09-07T21:16:18.856826+00:00"
+scraped_at: "2026-10-04T23:33:21.205848+00:00"
+content_hash: "84c3a698151bf570562c1d932e0a9a7111467f95a9617371fb8523a9f80fbfe3"
 ---
 
 # Rush support

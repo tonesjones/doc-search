@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/positi
 content_id: "TeKHB_FVtk8JLtDHXtmuKQ"
 version: "12.0.0"
 section: "Planning and running Detect"
-scraped_at: "2026-09-07T21:15:27.196519+00:00"
+scraped_at: "2026-10-04T23:33:19.456461+00:00"
+content_hash: "4e447fc39134dd4ffe3eb9f2cb76d33f7d8b687b97472f5e92c29e3ac241bce3"
 ---
 
 # Positioning Detect in the build process

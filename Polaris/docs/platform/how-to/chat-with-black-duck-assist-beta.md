@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/ch
 content_id: "YRTPA9xAReyNBIxUAmKtnQ"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:56:23.203680+00:00"
-content_hash: "7975113520eea2ef9c2b51a6076e5f7fde0a2cac57949876f97d230ae0adca9c"
+scraped_at: "2026-10-04T23:29:18.910620+00:00"
+content_hash: "d07db24be5715eea0ca8f6ece12e3e3b733bae19eaa9ed3f457b76f14df2c873"
 ---
 
 # Chat with Black Duck Assist (Beta)

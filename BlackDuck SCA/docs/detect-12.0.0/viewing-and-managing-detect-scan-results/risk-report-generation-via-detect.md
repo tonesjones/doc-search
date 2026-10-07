@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/risk-r
 content_id: "xNMRY8q_3dMKg1lTzELM8A"
 version: "12.0.0"
 section: "Viewing and managing Detect scan results"
-scraped_at: "2026-09-07T21:17:04.562865+00:00"
+scraped_at: "2026-10-04T23:33:23.006285+00:00"
+content_hash: "e02314f4872e3000ed1fad364a884240a0e7659e61b93f5e0c219afd9d51e9b9"
 ---
 
 # Risk Report generation via Detect

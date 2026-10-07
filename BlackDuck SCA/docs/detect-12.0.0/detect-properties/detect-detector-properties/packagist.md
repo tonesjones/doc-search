@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/packag
 content_id: "XxnX6FwWuiC_l1ruvHFRdg"
 version: "12.0.0"
 section: "Detect Properties"
-scraped_at: "2026-09-07T21:16:54.665990+00:00"
+scraped_at: "2026-10-04T23:33:22.701768+00:00"
+content_hash: "d679cac3669d39fadf82969d04bac8238c35588504bdf787dc14e6b4b03c8812"
 ---
 
 # packagist

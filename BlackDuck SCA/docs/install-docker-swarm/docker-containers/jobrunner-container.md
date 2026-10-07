@@ -1,17 +1,18 @@
 ---
 title: "Jobrunner container"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/jobrunner-container.html"
-content_id: "eVgHm~y1BoNvwxOfxc3WEg"
+content_id: "CeNyByvsm_Z8LtPyVR8T9w"
 version: "2026.7"
 section: "Installing Black Duck using Docker Swarm"
-scraped_at: "2026-08-08T15:34:22.670957+00:00"
+scraped_at: "2026-10-04T23:32:26.078703+00:00"
+content_hash: "c99ab7f7f67071747f97b01cca894ca0c13f962b54a55d5d37c4f4e3b1ab24b0"
 ---
 
 # Jobrunner container
 
 | Container Name: blackduck-Jobrunner | |
 | --- | --- |
-| Image Name | blackducksoftware/blackduck-jobrunner:2026.7.0 |
+| Image Name | blackducksoftware/blackduck-jobrunner:2026.7.1 |
 | Description | The Job Runner container is the container that is responsible for running all of the application's jobs. This includes matching, BOM building, reports, data updates, and so on. This container does not have any exposed ports. |
 | Scalability | This container can be scaled. |
 | Links/Ports | The Job Runner container needs to connect to these containers/services:   - postgres - registration - logstash - cfssl |

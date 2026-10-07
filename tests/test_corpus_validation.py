@@ -1,6 +1,7 @@
 import hashlib
 import json
 import os
+import runpy
 import shutil
 import subprocess
 import sys
@@ -25,7 +26,8 @@ class CorpusValidationTests(unittest.TestCase):
             scripts.mkdir()
             for name in ("validate-corpus.py", "corpus_utils.py", "products.py"):
                 shutil.copyfile(ROOT / corpus / "scripts" / name, scripts / name)
-            manifest_source = next((ROOT / corpus / "sources").glob("*/manifest.json"))
+            cfg = runpy.run_path(str(ROOT / corpus / "scripts/products.py"))["get_product"]()
+            manifest_source = ROOT / corpus / cfg["source_dir"] / "manifest.json"
             manifest = json.loads(manifest_source.read_text(encoding="utf-8"))
             local = "docs/topic.md"
             if long_path:

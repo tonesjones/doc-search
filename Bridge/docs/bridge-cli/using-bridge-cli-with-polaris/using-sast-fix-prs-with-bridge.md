@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-s
 content_id: "gnkQZukNM96vB6kcuVRgTA"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:47:02.985309+00:00"
+scraped_at: "2026-10-04T23:28:25.852595+00:00"
+content_hash: "2c0c8f0fd1b401969a0fcf1972ad9d740f3bb99e0361914397afa2f524efaf9e"
 ---
 
 # Using SAST Fix PRs with Bridge

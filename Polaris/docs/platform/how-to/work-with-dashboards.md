@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/wo
 content_id: "v4XJ9XEZEsiuKdX7WRE4Wg"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:57:35.626053+00:00"
-content_hash: "14d475852e52d6b11f7a5d38b1204cdabbd107782cd9de1765c2b119ae09b0e5"
+scraped_at: "2026-10-04T23:29:21.497062+00:00"
+content_hash: "2957c61dd81fb1971304a7e9e3210eb02151b7e6e4bba0c997d5e305e446e4f9"
 ---
 
 # Work with dashboards
@@ -97,7 +97,7 @@ Table 1. Dashboard reference
 | Policy Overview Dashboard | View the quantity of issues in your portfolio that violate your organization's policies. Includes charts that show applications and projects with the most policy violations, and widgets that show the quantity of applications and projects using your organization's default policies. Tip: Apply the Policy Name filter to limit results to issues that violate specific policies. |
 | Portfolio ROI Dashboard | View the impact of Polaris on your portfolio's security profile over time. Includes charts that show open, detected, reintroduced, and absent issues in your portfolio over time. It includes an exposure filter to view reachability and/or undetermined component vulnerabilities found in SCA testing. By default, results are limited to issues first detected in the last 12 months. You can extend or shorten this duration with the Issues First Detected in filter. |
 | Remediation Dashboard | Shows the average time (in days) it takes to remediate issues (that is, from the time an issue is detected, the time it takes for the issue to be triaged and dismissed *or* no longer detected in tests) in your portfolio. Includes charts that show the 10 applications with the longest/shortest average remediation times in your portfolio, along with tables that show per-application, per-issue-type, and per-issue-severity remediation times. While the default (out-of-the-box) filters are active, the dashboard includes data from all the applications you have access to, and all issue severities. |
-| Table - Component Search | View all the components used in your organization's applications and projects, along with the license each component is subject to. It includes an exposure filter to view reachability and/or undetermined component vulnerabilities found in SCA testing. |
+| Table - Component Search | View all the components used in your organization's applications and projects, along with the license each component is subject to. It includes an exposure filter to view reachability and/or undetermined component vulnerabilities found in SCA testing.  If you subscribe to vulnerability notification emails and you click the View Details link from one of those emails, you'll be shown this dashboard with a filter applied to display information relevant to the vulnerability described in the email. See [Vulnerability notifications](vulnerability-notifications.md) for more information. |
 | Table - License Search | View all the licenses your organization's applications and projects are subject to, along with a description of each license, and each license's family. |
 | Test Summary | Visualize the quantity of tests run against applications and projects in your organization. Note: To include DAST test results, the Display Default Branch filter must be set to Include all (default) or true. |
 | Triage Approval Overview Dashboard | Provides a centralized view of triage approval requests across applications and projects. Includes widgets that show the total number of pending, approved, and rejected triage requests, along with a detailed table of individual triage approval requests. While the default (out-of-the-box) filters are active, the dashboard includes data from all applications you have access to. Tip: Use the Triage Status filter to view requests by their approval state (Pending, Approved, or Rejected). Use the Approver filter to view requests assigned to specific approvers. |

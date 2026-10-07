@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/gi
 content_id: "2CI8mQhgGXzHBkAJK4fnqA"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:57:17.013912+00:00"
-content_hash: "577e3e18aa61bc2805ff5086c114cf547a3c9a1b7e323fb199a96a7d6a767830"
+scraped_at: "2026-10-04T23:29:20.670089+00:00"
+content_hash: "8a2f9a31905ec2e817418694f5758922edc76da5bd9036cf50c97cec6c60b32c"
 ---
 
 # GitHub Tokens for SCM Bulk Integration and/or Monitoring

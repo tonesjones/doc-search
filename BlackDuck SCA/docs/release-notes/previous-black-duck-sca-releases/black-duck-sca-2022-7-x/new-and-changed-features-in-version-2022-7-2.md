@@ -1,10 +1,11 @@
 ---
 title: "New and changed features in version 2022.7.2"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/new-and-changed-features-in-version-2022.7.2.html"
-content_id: "F6DUCZ6N~TZW5Q0WidJ7lA"
+content_id: "1438lX2r34FlcgpOZ47rBA"
 version: "2026.7"
-section: "Release Notes"
-scraped_at: "2026-08-08T15:37:28.061591+00:00"
+section: "Black Duck SCA Release Notes"
+scraped_at: "2026-10-04T23:32:33.625858+00:00"
+content_hash: "f432b87bb9455e799dda306919047383cc0cdc9b20f19459cda96eb5bf2f1985"
 ---
 
 # New and changed features in version 2022.7.2

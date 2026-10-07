@@ -1,10 +1,11 @@
 ---
 title: "Snippet extensions"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/snippet-extensions.html"
-content_id: "EseXBnQ~y1Q5dFIEkCkJXg"
+content_id: "v9G2aOJN~T8F3W8rpKLcQQ"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T14:53:47.143672+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:11.117823+00:00"
+content_hash: "2c41f6501e28e8505014a978a980ef927076903f470133d7c67a97049e2cca83"
 ---
 
 # Snippet extensions

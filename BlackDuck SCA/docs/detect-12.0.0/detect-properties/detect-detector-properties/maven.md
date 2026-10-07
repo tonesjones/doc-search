@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/maven.
 content_id: "dhW7fWxJwgRvSjQSnb2XJw"
 version: "12.0.0"
 section: "Detect Properties"
-scraped_at: "2026-09-07T21:16:51.563144+00:00"
+scraped_at: "2026-10-04T23:33:22.593970+00:00"
+content_hash: "c5f7c1f0a02fdf9d72676d687f969d5f9fd89e8934c2b69cebc350533837babd"
 ---
 
 # maven

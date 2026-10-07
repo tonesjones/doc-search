@@ -1,118 +1,70 @@
 ---
 title: "New and changed features"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/new-and-changed-features.html"
-content_id: "Bf96TVKL4HxbSFIuAJg1GA"
+content_id: "cIzcdSnYWI~t36qwBoRTtQ"
 version: "2026.7"
-section: "Release Notes"
-scraped_at: "2026-08-08T15:36:16.335473+00:00"
+section: "Black Duck SCA Release Notes"
+scraped_at: "2026-10-04T23:32:30.734775+00:00"
+content_hash: "a55a06c59282762e516c4104cada84af12eebb285ba7d7a0406c051a7e65c96a"
 ---
 
 # New and changed features
 
 ## Preliminary support for PostgreSQL 16
 
-Black Duck 2024.4.0 adds preliminary support for using PostgreSQL 16 as an external
-database. This support is for *testing only*; production use IS NOT
-SUPPORTED.
+Black Duck 2024.4.0 adds preliminary support for using PostgreSQL 16 as an external database. This support is for *testing only*; production use IS NOT SUPPORTED.
 
 ## New malware scans
 
-scans allow you to get access to enhanced malware and
-threat intel data via our  partnership. Using complex
-binary analysis powered by , developers and DevOps teams can analyze
-first party, open source, and commercial software to identify the presence of
-threats such as malware, maldocs, suspicious files, potentially unwanted
-applications (PUAs), protestware, and suspicious file structure malformations to
-help avoid dangerous software supply chain attacks.
+scans allow you to get access to enhanced malware and threat intel data via our  partnership. Using complex binary analysis powered by , developers and DevOps teams can analyze first party, open source, and commercial software to identify the presence of threats such as malware, maldocs, suspicious files, potentially unwanted applications (PUAs), protestware, and suspicious file structure malformations to help avoid dangerous software supply chain attacks.
 
 ## New Unmatched component auto-creation
 
-In an SBOM management workflow, the SBOM is the input and all of the components
-included in the SBOM need to be persisted in the SBOM management solution so that
-visibility isn't lost, regardless if there is a match to the KnowledgeBase. This
-feature provides the option to automatically create unmatched components in the BOM
-with custom components of the same name in an SBOM import as long as the component
-has an associated PURL in the SBOM.
+In an SBOM management workflow, the SBOM is the input and all of the components included in the SBOM need to be persisted in the SBOM management solution so that visibility isn't lost, regardless if there is a match to the KnowledgeBase. This feature provides the option to automatically create unmatched components in the BOM with custom components of the same name in an SBOM import as long as the component has an associated PURL in the SBOM.
 
-In addition, you also have the ability to configure the default license applied to
-auto-created components where the SBOM license tag value is NOASSERTION.
+In addition, you also have the ability to configure the default license applied to auto-created components where the SBOM license tag value is NOASSERTION.
 
 ## New SBOM templates
 
-SBOM Templates is a new feature that effectively replaces and enhances the ability to
-determine what is included in an SBOM report. The SBOM Template allows users to
-select which of those fields they want to include in the generated SBOM as well as
-some other configuration items like whether to include vulnerability info (for
-CycloneDX) or Dev/Build tools. SBOM templates can then be selected when creating
-SBOM reports to generate desired outputs.
+SBOM Templates is a new feature that effectively replaces and enhances the ability to determine what is included in an SBOM report. The SBOM Template allows users to select which of those fields they want to include in the generated SBOM as well as some other configuration items like whether to include vulnerability info (for CycloneDX) or Dev/Build tools. SBOM templates can then be selected when creating SBOM reports to generate desired outputs.
 
-Please note, some SBOM field configurations were moved from project group settings to
-the SBOM template configuration. Customers are encouraged to review and configure
-SBOM templates after upgrading to Black Duck 2024.4.0 before
-generating new SBOM reports.
+Please note, some SBOM field configurations were moved from project group settings to the SBOM template configuration. Customers are encouraged to review and configure SBOM templates after upgrading to Black Duck 2024.4.0 before generating new SBOM reports.
 
 ## Added new CLI command line option for project groups
 
-You can now add the `--project-group` option to the Signature Scan
-command line which sets the 'Project Group' to assign the project to. If the project
-doesn't already exist, a new project will be created in the corresponding project
-group.
+You can now add the `--project-group` option to the Signature Scan command line which sets the 'Project Group' to assign the project to. If the project doesn't already exist, a new project will be created in the corresponding project group.
 
-This parameter has no effect if the project already exists or if the specified
-project group does not exist.
+This parameter has no effect if the project already exists or if the specified project group does not exist.
 
 ## Added support for CycloneDX 1.5
 
-You can now export the Software Bill of Materials report for your projects in
-CycloneDX v1.5 format. This can be done by viewing a project version, clicking the
-Reports tab, clicking the Create Report button, and then selecting CycloneDX v1.5 -
-JSON. For more information on CycloneDX v1.5, please visit the [CycloneDX v1.5 reference page](https://cyclonedx.org/docs/1.5/json/).
+You can now export the Software Bill of Materials report for your projects in CycloneDX v1.5 format. This can be done by viewing a project version, clicking the Reports tab, clicking the Create Report button, and then selecting CycloneDX v1.5 - JSON. For more information on CycloneDX v1.5, please visit the [CycloneDX v1.5 reference page](https://cyclonedx.org/docs/1.5/json/).
 
 ## Enhanced missing container scan registration error handling
 
-Container scans will now fail with an appropriate message if your Black Duck
-registration key does not have Container Scanning enabled.
+Container scans will now fail with an appropriate message if your Black Duck registration key does not have Container Scanning enabled.
 
 ## Enhanced SBOM import error handling
 
-SBOM import error handling has been improved to provide better visibility as to why
-an SBOM import may have failed, including specific lines/fields that failed the
-validation. In addition, you can export the failure to a log file so that it can be
-researched outside of the Black Duck UI and re-import attempted
-after the necessary updates have been made to the SBOM.
+SBOM import error handling has been improved to provide better visibility as to why an SBOM import may have failed, including specific lines/fields that failed the validation. In addition, you can export the failure to a log file so that it can be researched outside of the Black Duck UI and re-import attempted after the necessary updates have been made to the SBOM.
 
 ## Updated method of setting HUB_MAX_MEMORY
 
-Starting with Black Duck 2024.4.0, the configuration parameter
-`HUB_MAX_MEMORY` is automatically set for relevant containers in
-Kubernetes-based deployments. The value is computed as a percentage of the memory
-limit, with 90% being the default. In the gen04 deployment sizings, the
-`hubMaxMemory` setting has been replaced with
-`maxRamPercentage` to control the percentage used; the values for
-this setting were chosen so that `HUB_MAX_MEMORY` has the same values
-as before.
+Starting with Black Duck 2024.4.0, the configuration parameter `HUB_MAX_MEMORY` is automatically set for relevant containers in Kubernetes-based deployments. The value is computed as a percentage of the memory limit, with 90% being the default. In the gen04 deployment sizings, the `hubMaxMemory` setting has been replaced with `maxRamPercentage` to control the percentage used; the values for this setting were chosen so that `HUB_MAX_MEMORY` has the same values as before.
 
 This change does not apply to Swarm-based deployments.
 
 ## Updated match score confidence for components imported via SBOM
 
-When viewing a project version's BOM where components were imported from a SBOM file,
-the match score displayed will always be 100% and the match type will indicate SBOM
-as the origin.
+When viewing a project version's BOM where components were imported from a SBOM file, the match score displayed will always be 100% and the match type will indicate SBOM as the origin.
 
 ## Updated binary match type results with BDBA package manager support
 
-Previously, all container and binary scans produced a single binary match type. With
-the expanded package manager support from BDBA, we can now identify additional match
-types based on the BDBA matching method. As a result, you will see changes in your
-BOM, with components identified through binary and container scanning gaining or
-changing their match types.
+Previously, all container and binary scans produced a single binary match type. With the expanded package manager support from BDBA, we can now identify additional match types based on the BDBA matching method. As a result, you will see changes in your BOM, with components identified through binary and container scanning gaining or changing their match types.
 
 ## Removal of the blackduck-webui container
 
-The blackduck-webui container has been removed and its builds are now included in the
-blackduck-nginx container. The blackduck-nginx container will now follow the same
-release cadence as the rest of the blackduck stack.
+The blackduck-webui container has been removed and its builds are now included in the blackduck-nginx container. The blackduck-nginx container will now follow the same release cadence as the rest of the blackduck stack.
 
 ## Supported browser versions
 

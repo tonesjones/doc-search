@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/vi
 content_id: "snUr2rgonifA7R2LtEVdlQ"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:56:55.924360+00:00"
-content_hash: "c1b28c17982ba26cbc975dab5abc0201a884d8f779173a670adb24003e1fed98"
+scraped_at: "2026-10-04T23:29:19.793926+00:00"
+content_hash: "904d7890a9fcf597016d843b8195060fb136a146f6b986303cb9cc2801dc0171"
 ---
 
 # View issue history
@@ -21,7 +21,7 @@ Note: Triage history is not branch-specific. All of the triage events for an iss
    Note: Issue history does not appear when you select multiple issues.
 2. Click Triage Selected or (if you only have observer access to the application) View Issue History.
 
-   The Issue History panel appears withTriage information displayed.
+   The Issue History panel appears with Triage information displayed.
 
    [image: triage history]
 
@@ -33,12 +33,13 @@ Note: Triage history is not branch-specific. All of the triage events for an iss
    - An issue's fix-by date changes.
    - An issue's severity changes.
    - An issue's bug tracking ID changes.
-   - Polaris closes (or attempts to close) the ticket linked to the issue in Azure DevOps.
-   - A triage status change in Polaris affects the status of a ticket in Jira, or vice versa.
-   - A fix-by date in Polaris is synchronized with the due date on a linked Jira ticket, or vice versa.
-   - Synchronizing statuses between Jira and Polaris fails. The reason for the failure is included in the event; for example, an expired token or a Jira workflow restriction.
+   - An AI-assisted triage suggestion is accepted or rejected. Entries for accepted suggestions include the classification (such as Bug, False Positive, or Intentional) and confidence level of the suggestion.
+   - Polaris closes (or attempts to close) the ticket linked to the issue in an external issue tracker. See [Issue tracking integrations](issue-tracking-integrations.md) for more information.
+   - A triage status change in Polaris affects the status of a ticket in an external issue tracker, or vice versa.
+   - A fix-by date in Polaris is synchronized with the due date on a linked Azure DevOps, Jira, or ServiceNow ticket, or vice versa. Fix-by date synchronization is not available for GitHub Issues or GitLab Issues.
+   - Synchronizing statuses between an external issue tracker and Polaris fails. The reason for the failure is included in the event; for example, an expired token or a workflow restriction.
 
-   Note: Triage status and fix-by date synchronization events only appear in triage history if those features are configured in the project's integration options. See Create integration options for Jira for more information.
+   Note: Triage status and fix-by date synchronization events only appear in triage history if those features are configured in the project's integration options. See Automatically close tickets and synchronize triage statuses for more information.
 
    Select Show More + (near the bottom of the panel) to load up to 100 more triage events.
 
@@ -59,4 +60,4 @@ Note: Triage history is not branch-specific. All of the triage events for an iss
 
    Note: Detection history is branch-specific. Detection events for the same issue can vary between branches.
 
-   Note: Detection events are only added to the list when an issue's detections status changes. For example, if an issue is absent in three consecutive tests, only one absent event appears in the issue's detection history—with completed date and time of the earliest test.
+   Note: Detection events are only added to the list when an issue's detection status changes. For example, if an issue is absent in three consecutive tests, only one absent event appears in the issue's detection history—with completed date and time of the earliest test.

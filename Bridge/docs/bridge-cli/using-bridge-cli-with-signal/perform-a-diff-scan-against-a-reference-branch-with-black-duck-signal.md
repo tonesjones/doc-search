@@ -1,35 +1,31 @@
 ---
-title: "Perform a diff scan against a reference branch with Black Duck Signal"
-source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/perform-a-diff-scan-against-a-reference-branch-with-black-duck-signal.html"
+title: "Scan changes against a reference branch"
+source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/scan-changes-against-a-reference-branch.html"
 content_id: "9Sk4~KOiDSe~mxNYwxp8aA"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:46:54.928760+00:00"
+scraped_at: "2026-10-04T23:28:25.432514+00:00"
+content_hash: "4e2f352394fd90a08474e507a514a68b16e9ad991b896d16f661fc30c68a3a60"
 ---
 
-# Perform a diff scan against a reference branch with Black Duck Signal
+# Scan changes against a reference branch
 
-Bridge CLI can be used to run Signal to perform an AI assessment of changes in the current branch relative to a selected reference branch within a Git project directory.
+Bridge CLI can be used to run Signal to perform an AI assessment of changes in the current branch relative to a selected reference branch within a Git project directory. This task is for Bridge CLI users. For more details, see [Bridge CLI Overview](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/bridge-product-overview.html).
 
-Black Duck Signal provides a REFERENCE scan mode that compares the current branch against a specified reference branch in the project's Git directory. In this mode, the Signal adapter uses a diff-based analysis to evaluate the changes relative to the chosen reference branch. Only your latest changes in tracked files are scanned.
+Black Duck Signal provides a reference scan mode that compares the current branch against a specified reference branch in the project's Git directory. In this mode, the Signal adapter uses a diff-based analysis to evaluate the changes relative to the chosen reference branch. Only your latest changes in tracked files are scanned. For additional support, see Reference Guide.
 
 ## Prerequisites
 
-The following prerequisites are required to run a diff branch scan:
-
 - Bridge CLI is installed and available on the system PATH.
-- Access to a `Git` project directory.
+- Access to a Git project directory.
 - The branch to scan exists and is resolvable by Git.
 - A valid Signal LLM API key.
+- A Signal Enterprise or Developer subscription.
 
-## Running a diff branch scan
+Follow the steps to run a diff branch scan:
 
-1. Download the latest version of Bridge, if you haven't installed it already.
-
-   ```
-   https://repo.blackduck.com/bds-integrations-release/com/blackduck/integration/bridge/binaries/bridge
-   ```
-2. Add Bridge to your `$PATH` variable.
+1. Download the latest version of Bridge, if you haven't installed it already. To download, see [Bridge Binaries Download](https://repo.blackduck.com/bds-integrations-release/com/blackduck/integration/bridge/binaries).
+2. Add Bridge CLI to your `$PATH` variable.
 3. Save a valid LLM API key in the `BRIDGE_SIGNAL_LLM_KEY` environment variable.
 
    ```
@@ -61,11 +57,7 @@ The following parameters enable further customization. Use the related links inf
 
 **Related information**  
 
-- [Signal Documentation](https://docs.blackduck.com/access?ft:originId=45e1f8ccc6ea016432347cf25486b012/2979c4f15f66905a89407ab942b98586.topic)
-
-**Related information**  
-
 - Using Bridge CLI with Signal
-- Scan local files with Black Duck Signal
-- Perform a diff scan with Black Duck Signal
-- Black Duck Signal reference guide
+- Scan local files
+- Scan uncommitted changes
+- Bridge CLI Reference Guide

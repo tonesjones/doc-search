@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickst
 content_id: "GSs5IaWi52PrO8rDKtvw4Q"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:47:26.667031+00:00"
+scraped_at: "2026-10-04T23:28:26.917114+00:00"
+content_hash: "3c282d1ce0af7db5fed185d98ae2478d706875729b0fb8f04be5219019443df3"
 ---
 
 # Quickstart: SRM Bridge CLI in a GitHub Actions workflow

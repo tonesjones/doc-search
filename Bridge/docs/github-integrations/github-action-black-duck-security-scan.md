@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/github-
 content_id: "QXM08KfUhulA7evxm6pJYQ"
 version: "latest"
 section: "GitHub Integrations"
-scraped_at: "2026-08-08T23:47:42.498560+00:00"
+scraped_at: "2026-10-04T23:28:27.785904+00:00"
+content_hash: "55f3166ced2b4ce36281d9ffdce827f0b2acbc7c0975023f6672e714e6d839cd"
 ---
 
 # GitHub Action – Black Duck Security Scan

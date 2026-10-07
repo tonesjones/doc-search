@@ -1,26 +1,20 @@
 ---
 title: "Registration service"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/registration-service.html"
-content_id: "AmpOJCVcj5da0QZRNh7BAg"
+content_id: "KE9VvRAMPSnSHdiKAB1XaQ"
 version: "2026.7"
 section: "Architecture and Network Communications"
-scraped_at: "2026-08-08T15:32:44.361336+00:00"
+scraped_at: "2026-10-04T23:32:21.893655+00:00"
+content_hash: "8f5b88bea9913cc13e3c7e3f1e598770a4dbaeea0a3f0ace1c34e4e122d8dc14"
 ---
 
 # Registration service
 
-The registration service provides product activation and is used to authenticate the
-customer’s license key and the associated entitlements. It also collects aggregate,
-high-level operational metrics that are used to improve services delivered to the
-customer.
+The registration service provides product activation and is used to authenticate the customer’s license key and the associated entitlements. It also collects aggregate, high-level operational metrics that are used to improve services delivered to the customer.
 
-To perform this function, information such as the registration code, and license
-expiration date is exchanged between the installed product(s) at the customer's site and
-the Black Duck registration server.
+To perform this function, information such as the registration code, and license expiration date is exchanged between the installed product(s) at the customer's site and the Black Duck registration server.
 
-The list of metrics collected for each license key consist of the items listed below.
-Usage data explicitly excludes anything related to specific vulnerabilities or
-components detected, project or file names, or other sensitive information.
+The list of metrics collected for each license key consist of the items listed below. Usage data explicitly excludes anything related to specific vulnerabilities or components detected, project or file names, or other sensitive information.
 
 ## Server/System Information
 
@@ -161,8 +155,7 @@ These fields track unmatched files and their retention or purging status.
 
 ## Storage & File System Usage
 
-These fields relate to storage usage and file counts across different storage
-types.
+These fields relate to storage usage and file counts across different storage types.
 
 *(Grouped by storage type and action: UPLOAD, DOWNLOAD, DELETE)*
 

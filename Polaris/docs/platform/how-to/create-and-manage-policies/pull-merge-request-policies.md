@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/pu
 content_id: "KbFY26G77gxRLYd04Jve~A"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:56:59.176843+00:00"
-content_hash: "1d2a3117420d332f1fa450ba6675e7f42d7cb60f5589854fd2321a9ae9c41097"
+scraped_at: "2026-10-04T23:29:19.990839+00:00"
+content_hash: "c3095b138642c591adc168ae02ce326e57d3337deda18a427b43d2ea898c4d0a"
 ---
 
 # Pull/merge request policies
@@ -26,11 +26,11 @@ Note: Pull request comments are also available with integration via the Bridge. 
 
 The following prerequisites must be met to use pull/merge request policies:
 
-- Using Azure Repos, Bitbucket Cloud (Premium), GitHub, GitHub Enterprise, or GitLab SaaS (Premium or Ultimate).
+- Using Azure Repos, Bitbucket Cloud (Premium), GitHub, GitHub Enterprise, GitLab SaaS, or GitLab Self-Managed.
 - Onboarded to Polaris using SCM Integrations and Event-Based Test Automation has been enabled. See [Event-Based Test Automation in Polaris for SCM Integrations](../event-based-test-automation-in-polaris-for-scm-integrations.md).
 - “A new pull request is created or updated” has been selected (either default or non-IDE branches) in your test automation.
 - For Fail PRs:
-  - Correct configuration of your SCM Integration, see [Fix Pull Requests (Fix PR)](../fix-pull-requests-fix-pr.md)
+  - Correct configuration of your SCM Integration, see [SCA Fix Pull Requests](../fix-pull-requests-fix-pr.md)
   - For Block PR, organization or application settings under Event-Based Test Automation must include block setting.
 
 Note: For the first test, or when you run a full analysis after a rapid scan, expect a high number of pull request comments.
@@ -97,7 +97,7 @@ Note: You can add any action to a rule, but actions only function as expected wh
 
         Note: We recommend adding Not Triaged and To Be Fixed properties to most rules. Doing so prevents issues you dismiss from being flagged as violations.
       - On CISA KEV List: Select Yes to match issues that are on the CISA KEV list, or No to match issues that are not on the list.
-      - Standard: Select one or more standard issue lists (OWASP Top 10 API Security Risks 2023,OWASP Web Top Ten 2017, OWASP Web Top Ten 2021, 2021 CWE Top 25, PCI DSS 2018, 2022 CWE Top 25, or 2023 CWE Top 25), and then one or more issues from the selected lists.
+      - Standard: Select one or more standard issue lists (OWASP Top 10 API Security Risks 2023, OWASP Web Top Ten 2017, OWASP Web Top Ten 2021, 2021 CWE Top 25, PCI DSS 2018, 2022 CWE Top 25, 2023 CWE Top 25, 2024 CWE Top 25, or 2025 CWE Top 25), and then one or more issues from the selected lists.
       - CWE: Set a numerical range for weaknesses found. Separate entries with commas (`256, 5-10, CWE-5, <300, >=400`).
    3. Select the actions to perform when issues with matching properties are detected in a test with the dropdown in the then... column:
 

@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/detect
 content_id: "HwDOsOlW4MhPmunlgRU7gA"
 version: "12.0.0"
 section: "Detect requirements and release information"
-scraped_at: "2026-09-07T21:14:54.245102+00:00"
+scraped_at: "2026-10-04T23:33:18.505683+00:00"
+content_hash: "a7a9725dfbfb3d3cc7e8f05cc7e630a9b3970ed81c7dcfc62139ccac97e348b9"
 ---
 
 # Detect requirements and release information

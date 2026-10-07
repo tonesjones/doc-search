@@ -4,13 +4,13 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/th
 content_id: "FHxdcKe_LlmPSz3IKSPlOg"
 product_key: "polaris-platform-latest"
 section: "The Polaris web UI"
-scraped_at: "2026-08-12T19:55:48.249550+00:00"
-content_hash: "51f01c04cfa84d76de9c161e084178ac3d2d46eb2fc088da834c94a12c89343c"
+scraped_at: "2026-10-04T23:29:17.550393+00:00"
+content_hash: "3fadb11a3b2f94c95403982a482589411853dd9a420c4327db1cd5fb876fed5e"
 ---
 
 # The Reporting page
 
-Create a customized downloadable report of your SAST, SCA, and DAST test results.
+Create a customized downloadable report of your SAST, SCA, DAST, and Container Analysis test results.
 
 Issues you import from third-party tools appear in reports, but the components and licenses associated with issues you import do not.
 

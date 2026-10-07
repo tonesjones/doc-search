@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/passing
 content_id: "u~RnWn2KcypS~G90P0S3Kw"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:46:51.144570+00:00"
+scraped_at: "2026-10-04T23:28:25.254854+00:00"
+content_hash: "e2bf163ead00dd0adfe95503be962a906ac5e0fe64d99c57cecfbe3a732fbe85"
 ---
 
 # Passing Arguments using a JSON file
@@ -66,7 +67,7 @@ long as it has a `.json` extension.
 
 Note: You can use different JSON files for different use cases.
 
-For a complete list of environment variables and command line arguments, see Complete list of Bridge arguments.
+For a complete list of command line arguments, see Complete list of Bridge arguments.
 
 For tool specific information and examples, see:
 

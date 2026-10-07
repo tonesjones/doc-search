@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/compon
 content_id: "lzp1dyN_smcThhr2sknNLw"
 version: "12.0.0"
 section: "Planning and running Detect"
-scraped_at: "2026-09-07T21:15:37.721876+00:00"
+scraped_at: "2026-10-04T23:33:19.789174+00:00"
+content_hash: "0e41b67e8e78fb1dbbb7e806fee9b72eb38fb499c4cba7451a60c41cdb8e9ced"
 ---
 
 # Component Location Analysis

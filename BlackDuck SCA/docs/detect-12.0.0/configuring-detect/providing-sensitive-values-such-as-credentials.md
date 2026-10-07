@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/provid
 content_id: "Oqs5Dfzb4buT~pTy6oClgQ"
 version: "12.0.0"
 section: "Configuring Detect"
-scraped_at: "2026-09-07T21:15:19.721905+00:00"
+scraped_at: "2026-10-04T23:33:19.221266+00:00"
+content_hash: "c48b4b06dcc08507856e5d6f527deddba9a407784e8c46ab901f69b007638a28"
 ---
 
 # Providing sensitive values such as credentials

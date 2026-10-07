@@ -3,8 +3,9 @@ title: "Quickstart: Jenkins Black Duck Security Scan Plugin with Software Risk M
 source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickstart-jenkins-black-duck-security-scan-plugin-with-software-risk-manager.html"
 content_id: "rUzKTr2ruGYBZhX~LoEyIg"
 version: "latest"
-section: "Jenkins - Black Duck Security Scan Plugin for Jenkins"
-scraped_at: "2026-08-08T23:48:48.067240+00:00"
+section: "Jenkins Integrations"
+scraped_at: "2026-10-04T23:28:30.976791+00:00"
+content_hash: "faf413b86050489edbe4ee032e0068957ecbeabe5af09c589a85bd78ad42f204"
 ---
 
 # Quickstart: Jenkins Black Duck Security Scan Plugin with Software Risk Manager

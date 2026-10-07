@@ -1,0 +1,1091 @@
+{
+  "mapId": "98MkzshzXyzKMqy_yMHrsw",
+  "version": "8.4.1",
+  "product": "alert",
+  "productKey": "alert-8.4.1",
+  "title": "Black Duck Alert",
+  "tocApi": "https://docs.blackduck.com/api/khub/maps/98MkzshzXyzKMqy_yMHrsw/toc",
+  "contentApiTemplate": "https://docs.blackduck.com/api/khub/maps/98MkzshzXyzKMqy_yMHrsw/topics/{contentId}/content",
+  "baseReaderUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/",
+  "docsRoot": "alert-8.4.1",
+  "sectionDocsRoots": {},
+  "lastIndexBuild": "2026-10-04T23:27:43.227721+00:00",
+  "lastTocFetch": "2026-10-04T23:27:43.227721+00:00",
+  "scrapedAt": "2026-10-04T23:29:44.918289+00:00",
+  "statusValues": [
+    "pending",
+    "done",
+    "skipped",
+    "error"
+  ],
+  "stats": {
+    "total": 46,
+    "pending": 0,
+    "done": 46,
+    "skipped": 0,
+    "error": 0
+  },
+  "rootSections": [
+    {
+      "title": "Black Duck Alert Overview",
+      "slug": "black-duck-alert-overview"
+    },
+    {
+      "title": "Alert Release Notes",
+      "slug": "alert-release-notes"
+    },
+    {
+      "title": "Alert Concepts and Terms",
+      "slug": "alert-concepts-and-terms"
+    },
+    {
+      "title": "Installing and Upgrading Alert",
+      "slug": "installing-and-upgrading-alert"
+    },
+    {
+      "title": "Installation References",
+      "slug": "installation-references"
+    },
+    {
+      "title": "Post Installation Configuration",
+      "slug": "post-installation-configuration"
+    },
+    {
+      "title": "System and Task Management",
+      "slug": "system-and-task-management"
+    },
+    {
+      "title": "User and Role Management",
+      "slug": "user-and-role-management"
+    },
+    {
+      "title": "Troubleshooting Alert",
+      "slug": "troubleshooting-alert"
+    },
+    {
+      "title": "Proprietary Statement",
+      "slug": "proprietary-statement"
+    },
+    {
+      "title": "Black Duck Statement on Inclusivity and Diversity",
+      "slug": "black-duck-statement-on-inclusivity-and-diversity"
+    }
+  ],
+  "topics": [
+    {
+      "id": "D5jJkGFn8zSJUw2hhpKhAA",
+      "tocId": "tb0uWkirLqentiX~rv20Bw",
+      "title": "Black Duck Alert Overview",
+      "path": [
+        "Black Duck Alert Overview"
+      ],
+      "section": "Black Duck Alert Overview",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/black-duck-alert-overview.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/black-duck-alert-overview.html",
+      "localPath": "docs/alert-8.4.1/black-duck-alert-overview.md",
+      "depth": 1,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:43.637672+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:43.637672+00:00",
+      "contentHash": "43a104cf58d73c38f567538fcf63afdb72ad0b08de6f610e0fc623d8bd04f45d",
+      "bytes": 1527
+    },
+    {
+      "id": "eyKrnaGD5jEFodWtx0NY6Q",
+      "tocId": "f512hOSo6B~_YUXQFPHPjA",
+      "title": "Alert Release Notes",
+      "path": [
+        "Alert Release Notes"
+      ],
+      "section": "Alert Release Notes",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/alert-release-notes.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/alert-release-notes.html",
+      "localPath": "docs/alert-8.4.1/alert-release-notes.md",
+      "depth": 1,
+      "hasChildren": true,
+      "directChildren": 2,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:43.645815+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:43.645815+00:00",
+      "contentHash": "abd7d9c8864b1ac21d3389bc3eb52e0cef88f6f213cc2d93fe7bb60c4b642f88",
+      "bytes": 499
+    },
+    {
+      "id": "MMBNgh4hDO_pEIZk08QYjw",
+      "tocId": "yjmdwrezBPi9OErjU~~_SQ",
+      "title": "Current Alert Release Notes",
+      "path": [
+        "Alert Release Notes",
+        "Current Alert Release Notes"
+      ],
+      "section": "Alert Release Notes",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/current-alert-release-notes.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/current-alert-release-notes.html",
+      "localPath": "docs/alert-8.4.1/alert-release-notes/current-alert-release-notes.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:43.666067+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:43.666067+00:00",
+      "contentHash": "06f1ce462af6318de45f26466bb4d6c2164b7cb8053390dd03a9a1d79b8abe16",
+      "bytes": 5687
+    },
+    {
+      "id": "6o6FxYJM1Vr8ZXtHmS6LfQ",
+      "tocId": "RaqBu~Ud4qEDYNYWtM1LAA",
+      "title": "Previous Alert Release Notes",
+      "path": [
+        "Alert Release Notes",
+        "Previous Alert Release Notes"
+      ],
+      "section": "Alert Release Notes",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/previous-alert-release-notes.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/previous-alert-release-notes.html",
+      "localPath": "docs/alert-8.4.1/alert-release-notes/previous-alert-release-notes.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:43.789195+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:43.789195+00:00",
+      "contentHash": "217f8c0330fe06581dddb04a23e6d2adbb3fa82ed2bc85c37b0687ddc528d90e",
+      "bytes": 85829
+    },
+    {
+      "id": "ZyHWtxj8nmyqe2HqC6acTQ",
+      "tocId": "evGb3732D6N26pIxslfgng",
+      "title": "Alert Concepts and Terms",
+      "path": [
+        "Alert Concepts and Terms"
+      ],
+      "section": "Alert Concepts and Terms",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/alert-concepts-and-terms.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/alert-concepts-and-terms.html",
+      "localPath": "docs/alert-8.4.1/alert-concepts-and-terms.md",
+      "depth": 1,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:43.809099+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:43.809099+00:00",
+      "contentHash": "a39366b208d4eaae3e24ebc424722f03b327c06bb1a246f3af0819323901d577",
+      "bytes": 3073
+    },
+    {
+      "id": "1XW3OmKRFwlYniv5~E_jow",
+      "tocId": "AqnnCdg4NVN8WqjSNAHwfA",
+      "title": "Installing and Upgrading Alert",
+      "path": [
+        "Installing and Upgrading Alert"
+      ],
+      "section": "Installing and Upgrading Alert",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/installing-and-upgrading-alert.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/installing-and-upgrading-alert.html",
+      "localPath": "docs/alert-8.4.1/installing-and-upgrading-alert.md",
+      "depth": 1,
+      "hasChildren": true,
+      "directChildren": 5,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:43.822862+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:43.822862+00:00",
+      "contentHash": "260ccfa75bf8fc1719ecf25c62790042b9582a54a9c91be92141ce4aae3d4824",
+      "bytes": 666
+    },
+    {
+      "id": "Tl6DKdoVE0S4yeVlqfsPGg",
+      "tocId": "r8k9Rvex9LZNbt1t3CBMew",
+      "title": "Alert System Requirements",
+      "path": [
+        "Installing and Upgrading Alert",
+        "Alert System Requirements"
+      ],
+      "section": "Installing and Upgrading Alert",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/alert-system-requirements.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/alert-system-requirements.html",
+      "localPath": "docs/alert-8.4.1/installing-and-upgrading-alert/alert-system-requirements.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:43.846181+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:43.846181+00:00",
+      "contentHash": "87323de6df8678e1e5a0051c993dbf6f05d00e95552a7c860426c20384f7a07e",
+      "bytes": 3970
+    },
+    {
+      "id": "_2zCKus6vzpOQPHWfrPtqQ",
+      "tocId": "GemBu_pee2OxEaLApiNMdQ",
+      "title": "Docker Swarm Install",
+      "path": [
+        "Installing and Upgrading Alert",
+        "Docker Swarm Install"
+      ],
+      "section": "Installing and Upgrading Alert",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/docker-swarm-install.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/docker-swarm-install.html",
+      "localPath": "docs/alert-8.4.1/installing-and-upgrading-alert/docker-swarm-install.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:43.884138+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:43.884138+00:00",
+      "contentHash": "4b503f953917a1cab1cd2fc075d3e408aaf2614bc34a0dc88ff9075a6c98d855",
+      "bytes": 23612
+    },
+    {
+      "id": "Oc7eyFOG5V6u~Oc0b~h7ZA",
+      "tocId": "x2oYHfu1jPW1f5lutl5VZA",
+      "title": "Helm Install",
+      "path": [
+        "Installing and Upgrading Alert",
+        "Helm Install"
+      ],
+      "section": "Installing and Upgrading Alert",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/helm-install.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/helm-install.html",
+      "localPath": "docs/alert-8.4.1/installing-and-upgrading-alert/helm-install.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:43.951657+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:43.951657+00:00",
+      "contentHash": "bdb4a133213f50cedb64fb63b27e343fec117eb2708ed10391bf15b29893620c",
+      "bytes": 29149
+    },
+    {
+      "id": "f7OHiv3W3CBIacoFOQfWxQ",
+      "tocId": "m8RdK4uTWSC73geWeWlFjQ",
+      "title": "Upgrading Black Duck Alert",
+      "path": [
+        "Installing and Upgrading Alert",
+        "Upgrading Black Duck Alert"
+      ],
+      "section": "Installing and Upgrading Alert",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/upgrading-black-duck-alert.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/upgrading-black-duck-alert.html",
+      "localPath": "docs/alert-8.4.1/installing-and-upgrading-alert/upgrading-black-duck-alert.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:43.981412+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:43.981412+00:00",
+      "contentHash": "b1b715242dc55b8e3d1a7a1fdbf838f325aa2cbcd857dc8c1bd5f6761346ea2b",
+      "bytes": 10784
+    },
+    {
+      "id": "xw6eKyHAw4p3AQjI4YFCVg",
+      "tocId": "dG4OwIr8TNiB_F6EOJcDxA",
+      "title": "Alert Installation Quickstart Guides",
+      "path": [
+        "Installing and Upgrading Alert",
+        "Alert Installation Quickstart Guides"
+      ],
+      "section": "Installing and Upgrading Alert",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/alert-installation-quickstart-guides.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/alert-installation-quickstart-guides.html",
+      "localPath": "docs/alert-8.4.1/installing-and-upgrading-alert/alert-installation-quickstart-guides.md",
+      "depth": 2,
+      "hasChildren": true,
+      "directChildren": 2,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:43.996129+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:43.996129+00:00",
+      "contentHash": "55cbec4d2558c8451dc21c3a032543f98c9b0efc799b236dace210b12f6f5fcc",
+      "bytes": 1357
+    },
+    {
+      "id": "uNDy0j2lh2LXZSwhTgxQgQ",
+      "tocId": "Nmgq8qGy1TBya32jLT2Naw",
+      "title": "Alert Quickstart: Docker Deployment",
+      "path": [
+        "Installing and Upgrading Alert",
+        "Alert Installation Quickstart Guides",
+        "Alert Quickstart: Docker Deployment"
+      ],
+      "section": "Installing and Upgrading Alert",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/alert-quickstart-docker-deployment.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/alert-quickstart-docker-deployment.html",
+      "localPath": "docs/alert-8.4.1/installing-and-upgrading-alert/alert-installation-quickstart-guides/alert-quickstart-docker-deployment.md",
+      "depth": 3,
+      "hasChildren": true,
+      "directChildren": 3,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.009141+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.009141+00:00",
+      "contentHash": "114fca0c4a463f425c47608d3f4863e704353c30b215b68fbeac2b00f7e9bb68",
+      "bytes": 1089
+    },
+    {
+      "id": "zKMoodCgQW2dKJgBw3N6Zg",
+      "tocId": "~DlwKkNunn0Fk0RVfFWzSQ",
+      "title": "Black Duck Alert Quickstart (Docker Swarm)",
+      "path": [
+        "Installing and Upgrading Alert",
+        "Alert Installation Quickstart Guides",
+        "Alert Quickstart: Docker Deployment",
+        "Black Duck Alert Quickstart (Docker Swarm)"
+      ],
+      "section": "Installing and Upgrading Alert",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/black-duck-alert-quickstart-docker-swarm-.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/black-duck-alert-quickstart-docker-swarm-.html",
+      "localPath": "docs/alert-8.4.1/installing-and-upgrading-alert/alert-installation-quickstart-guides/alert-quickstart-docker-deployment/black-duck-alert-quickstart-docker-swarm.md",
+      "depth": 4,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.031879+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.031879+00:00",
+      "contentHash": "cbab6177b641375443ba1e618f03a0ec81a664e4c8cceb42b829681179a996ec",
+      "bytes": 8092
+    },
+    {
+      "id": "oKFMKICwmQ1B6yx7Q76oqg",
+      "tocId": "UnFwC0ojSjvXTu_NwZy5oA",
+      "title": "Black Duck Alert Quickstart (Docker Swarm - standalone)",
+      "path": [
+        "Installing and Upgrading Alert",
+        "Alert Installation Quickstart Guides",
+        "Alert Quickstart: Docker Deployment",
+        "Black Duck Alert Quickstart (Docker Swarm - standalone)"
+      ],
+      "section": "Installing and Upgrading Alert",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/black-duck-alert-quickstart-docker-swarm-standalone-.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/black-duck-alert-quickstart-docker-swarm-standalone-.html",
+      "localPath": "docs/alert-8.4.1/installing-and-upgrading-alert/alert-installation-quickstart-guides/alert-quickstart-docker-deployment/black-duck-alert-quickstart-docker-swarm-standalone.md",
+      "depth": 4,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.053886+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.053886+00:00",
+      "contentHash": "873597cd3749c373579f237879838b9cd43fc73b609c66aa68123090bb47e6ed",
+      "bytes": 5029
+    },
+    {
+      "id": "HuKpZdt5Lg5lVUnRT203cQ",
+      "tocId": "9PZEiEFK7fvDO3lkwpNNuw",
+      "title": "Black Duck Alert Quickstart (Docker Swarm - External Database)",
+      "path": [
+        "Installing and Upgrading Alert",
+        "Alert Installation Quickstart Guides",
+        "Alert Quickstart: Docker Deployment",
+        "Black Duck Alert Quickstart (Docker Swarm - External Database)"
+      ],
+      "section": "Installing and Upgrading Alert",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/black-duck-alert-quickstart-docker-swarm-external-database-.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/black-duck-alert-quickstart-docker-swarm-external-database-.html",
+      "localPath": "docs/alert-8.4.1/installing-and-upgrading-alert/alert-installation-quickstart-guides/alert-quickstart-docker-deployment/black-duck-alert-quickstart-docker-swarm-external-database.md",
+      "depth": 4,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.080043+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.080043+00:00",
+      "contentHash": "04431d906f2a8462f7cc9cac1abdd1d6ed70a69f8f4944cea31d67c11eafe811",
+      "bytes": 9795
+    },
+    {
+      "id": "~oS4WmKdBmhkU3Z58solNA",
+      "tocId": "Hi~JhD_VI_DnQlpCGNsFZQ",
+      "title": "Alert Quickstart: Helm Deployment",
+      "path": [
+        "Installing and Upgrading Alert",
+        "Alert Installation Quickstart Guides",
+        "Alert Quickstart: Helm Deployment"
+      ],
+      "section": "Installing and Upgrading Alert",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/alert-quickstart-helm-deployment.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/alert-quickstart-helm-deployment.html",
+      "localPath": "docs/alert-8.4.1/installing-and-upgrading-alert/alert-installation-quickstart-guides/alert-quickstart-helm-deployment.md",
+      "depth": 3,
+      "hasChildren": true,
+      "directChildren": 3,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.093590+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.093590+00:00",
+      "contentHash": "238d1c2912a4b34d31dd8b6f03d5245d281dc197354a21ce13e64cef13b71aff",
+      "bytes": 950
+    },
+    {
+      "id": "T~OW7OCJrto4LGeq2J6PQA",
+      "tocId": "4YYmkTEXBzycE1hc133hpA",
+      "title": "Black Duck Alert Quickstart (Helm)",
+      "path": [
+        "Installing and Upgrading Alert",
+        "Alert Installation Quickstart Guides",
+        "Alert Quickstart: Helm Deployment",
+        "Black Duck Alert Quickstart (Helm)"
+      ],
+      "section": "Installing and Upgrading Alert",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/black-duck-alert-quickstart-helm-.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/black-duck-alert-quickstart-helm-.html",
+      "localPath": "docs/alert-8.4.1/installing-and-upgrading-alert/alert-installation-quickstart-guides/alert-quickstart-helm-deployment/black-duck-alert-quickstart-helm.md",
+      "depth": 4,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.116942+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.116942+00:00",
+      "contentHash": "b683dbd97b1d8e150881d6fbe2390a6a79de240c77eb623236259392275cd426",
+      "bytes": 6505
+    },
+    {
+      "id": "6ho9gK~KRNaQOLQ2vJ2iLQ",
+      "tocId": "yg3UD1OaXh29j0Licjim~A",
+      "title": "Black Duck Alert Quickstart (Helm - Standalone)",
+      "path": [
+        "Installing and Upgrading Alert",
+        "Alert Installation Quickstart Guides",
+        "Alert Quickstart: Helm Deployment",
+        "Black Duck Alert Quickstart (Helm - Standalone)"
+      ],
+      "section": "Installing and Upgrading Alert",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/black-duck-alert-quickstart-helm-standalone-.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/black-duck-alert-quickstart-helm-standalone-.html",
+      "localPath": "docs/alert-8.4.1/installing-and-upgrading-alert/alert-installation-quickstart-guides/alert-quickstart-helm-deployment/black-duck-alert-quickstart-helm-standalone.md",
+      "depth": 4,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.139364+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.139364+00:00",
+      "contentHash": "0eab774b7c9475f2da3208ec330bf4c9c34970e9c81b8472bec18ffad0c80f42",
+      "bytes": 4425
+    },
+    {
+      "id": "57JO8eo0qZEHhdy8AZnjOw",
+      "tocId": "Lkpw4jPeNic0cX8IctUzjQ",
+      "title": "Black Duck Alert Quickstart (Helm - External Database)",
+      "path": [
+        "Installing and Upgrading Alert",
+        "Alert Installation Quickstart Guides",
+        "Alert Quickstart: Helm Deployment",
+        "Black Duck Alert Quickstart (Helm - External Database)"
+      ],
+      "section": "Installing and Upgrading Alert",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/black-duck-alert-quickstart-helm-external-database-.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/black-duck-alert-quickstart-helm-external-database-.html",
+      "localPath": "docs/alert-8.4.1/installing-and-upgrading-alert/alert-installation-quickstart-guides/alert-quickstart-helm-deployment/black-duck-alert-quickstart-helm-external-database.md",
+      "depth": 4,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.168092+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.168092+00:00",
+      "contentHash": "6fe126b042c39f1070a8395fe2557fd0e62862722ff2cba7bc8e1ac596aa275f",
+      "bytes": 9533
+    },
+    {
+      "id": "fPamOmAd8CdlPz0HGrNfDQ",
+      "tocId": "Dq6MTzPA5WDv1qildcThuw",
+      "title": "Installation References",
+      "path": [
+        "Installation References"
+      ],
+      "section": "Installation References",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/installation-references.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/installation-references.html",
+      "localPath": "docs/alert-8.4.1/installation-references.md",
+      "depth": 1,
+      "hasChildren": true,
+      "directChildren": 8,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.183173+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.183173+00:00",
+      "contentHash": "afd6beea3b05468c471ff7bbe179ccf03f7b9d97bbf5731b3b9b70d33713eea9",
+      "bytes": 1043
+    },
+    {
+      "id": "1QG8D2yDKkVjKm7nwGgZtA",
+      "tocId": "oP3caITQk_Tz8AxxsScTGw",
+      "title": "Configuring Persistent Storage",
+      "path": [
+        "Installation References",
+        "Configuring Persistent Storage"
+      ],
+      "section": "Installation References",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/configuring-persistent-storage.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/configuring-persistent-storage.html",
+      "localPath": "docs/alert-8.4.1/installation-references/configuring-persistent-storage.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.204321+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.204321+00:00",
+      "contentHash": "9460b91e03f082119f86c2aa06ab96f2c3835ce74b28ac1472665d7b112e5c4c",
+      "bytes": 6221
+    },
+    {
+      "id": "G1fqMts4JOs4HRrHmQa2CA",
+      "tocId": "jGQv2ZQCFhb7V3IoPuRCgA",
+      "title": "External Postgres Database Requirements",
+      "path": [
+        "Installation References",
+        "External Postgres Database Requirements"
+      ],
+      "section": "Installation References",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/external-postgres-database-requirements.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/external-postgres-database-requirements.html",
+      "localPath": "docs/alert-8.4.1/installation-references/external-postgres-database-requirements.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.222153+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.222153+00:00",
+      "contentHash": "90ce3e20818995c1cdeeec68d5b8f2975d348949551078949fe74f51c0f1e2f4",
+      "bytes": 2068
+    },
+    {
+      "id": "0GtG0Kfua~7dfK9xf45Gtw",
+      "tocId": "iQU5zMvMdzXOG8JCsCzL8Q",
+      "title": "Black Duck Alert Environment Variables",
+      "path": [
+        "Installation References",
+        "Black Duck Alert Environment Variables"
+      ],
+      "section": "Installation References",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/black-duck-alert-environment-variables.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/black-duck-alert-environment-variables.html",
+      "localPath": "docs/alert-8.4.1/installation-references/black-duck-alert-environment-variables.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.280325+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.280325+00:00",
+      "contentHash": "ea1bc7833028919a183b3b90203f52a719815cdd895abf6f5ae942d32424d48d",
+      "bytes": 15281
+    },
+    {
+      "id": "kXwYs_LcsN5j5SP0U2PIbQ",
+      "tocId": "i8MhG_CNba~HA9Y9Sl2gMg",
+      "title": "Changing the default server port",
+      "path": [
+        "Installation References",
+        "Changing the default server port"
+      ],
+      "section": "Installation References",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/changing-the-default-server-port.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/changing-the-default-server-port.html",
+      "localPath": "docs/alert-8.4.1/installation-references/changing-the-default-server-port.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.297745+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.297745+00:00",
+      "contentHash": "2e6e4f5034532fef1eb6c18f05aa7fd8282b85e105c4afa69f642223189b5d46",
+      "bytes": 3569
+    },
+    {
+      "id": "9H6lDC2byYyaHKRMaeFuDg",
+      "tocId": "ea6RB2LV~x3ctoPiGRxK7g",
+      "title": "Cloud Vendor Specific Database Considerations",
+      "path": [
+        "Installation References",
+        "Cloud Vendor Specific Database Considerations"
+      ],
+      "section": "Installation References",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/cloud-vendor-specific-database-considerations.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/cloud-vendor-specific-database-considerations.html",
+      "localPath": "docs/alert-8.4.1/installation-references/cloud-vendor-specific-database-considerations.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.312029+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.312029+00:00",
+      "contentHash": "e18603b94c4937e39b942a9c218af5dbfdea1a67a15e1e7aac543c6dddb2a445",
+      "bytes": 1316
+    },
+    {
+      "id": "jdsBZaCOaiJyFWEKTB_1gQ",
+      "tocId": "2mNYydlHBYHKyKC0fMtC6w",
+      "title": "Using Custom SSL Certificates",
+      "path": [
+        "Installation References",
+        "Using Custom SSL Certificates"
+      ],
+      "section": "Installation References",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/using-custom-ssl-certificates.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/using-custom-ssl-certificates.html",
+      "localPath": "docs/alert-8.4.1/installation-references/using-custom-ssl-certificates.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.333126+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.333126+00:00",
+      "contentHash": "4f27c80f6be8e8999eaf0335d66a5ae793924c61595c49db8415c6b7213a58f4",
+      "bytes": 3672
+    },
+    {
+      "id": "Dfwjt7U_QkprjGUh3KWM3w",
+      "tocId": "ZS5jKPtRrAB2vOvzBMSZrw",
+      "title": "Black Duck Alert Helm Chart Configuration",
+      "path": [
+        "Installation References",
+        "Black Duck Alert Helm Chart Configuration"
+      ],
+      "section": "Installation References",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/black-duck-alert-helm-chart-configuration.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/black-duck-alert-helm-chart-configuration.html",
+      "localPath": "docs/alert-8.4.1/installation-references/black-duck-alert-helm-chart-configuration.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.384214+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.384214+00:00",
+      "contentHash": "3b47dff6a869f53344d055e49f5fc979abb65500ee85202248b09edf078121e0",
+      "bytes": 10000
+    },
+    {
+      "id": "8tspIXWhN71Be4o~QeFCtg",
+      "tocId": "XKIg81wFx2IyZFDJCo9~Gg",
+      "title": "Alert Issue Property Indexer",
+      "path": [
+        "Installation References",
+        "Alert Issue Property Indexer"
+      ],
+      "section": "Installation References",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/alert-issue-property-indexer.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/alert-issue-property-indexer.html",
+      "localPath": "docs/alert-8.4.1/installation-references/alert-issue-property-indexer.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.410646+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.410646+00:00",
+      "contentHash": "8f02257ea169af8eb79050e2160ad043049eb93fcdede075b1f724d8aef8e68a",
+      "bytes": 10349
+    },
+    {
+      "id": "jotrgY5wkAW~cKaryxEsgg",
+      "tocId": "hPrnHkyQk5tB6T_7BYIOxA",
+      "title": "Post Installation Configuration",
+      "path": [
+        "Post Installation Configuration"
+      ],
+      "section": "Post Installation Configuration",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/post-installation-configuration.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/post-installation-configuration.html",
+      "localPath": "docs/alert-8.4.1/post-installation-configuration.md",
+      "depth": 1,
+      "hasChildren": true,
+      "directChildren": 7,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.424076+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.424076+00:00",
+      "contentHash": "c3b4db12fea265fe9931bd9a3d7c216810fcf459f0b220b2100e98dd295b8721",
+      "bytes": 1024
+    },
+    {
+      "id": "CSzin8tszMJEcU~oTjUhWw",
+      "tocId": "xIFCCHjPvSb4IMZzgsR2Cg",
+      "title": "Configuring Black Duck Alert",
+      "path": [
+        "Post Installation Configuration",
+        "Configuring Black Duck Alert"
+      ],
+      "section": "Post Installation Configuration",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/configuring-black-duck-alert.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/configuring-black-duck-alert.html",
+      "localPath": "docs/alert-8.4.1/post-installation-configuration/configuring-black-duck-alert.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.441658+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.441658+00:00",
+      "contentHash": "b54103ea28d15676f3d77eb4ce48e85fd9cf2c1900d836d948c797856c2bb8aa",
+      "bytes": 4669
+    },
+    {
+      "id": "JBF7BqT7nhelgZ7MCN1ygQ",
+      "tocId": "23~cieYy2xBsm~jcjOwEnA",
+      "title": "Configuring Black Duck Providers",
+      "path": [
+        "Post Installation Configuration",
+        "Configuring Black Duck Providers"
+      ],
+      "section": "Post Installation Configuration",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/configuring-black-duck-providers.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/configuring-black-duck-providers.html",
+      "localPath": "docs/alert-8.4.1/post-installation-configuration/configuring-black-duck-providers.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.459764+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.459764+00:00",
+      "contentHash": "89d75f26f73d8eeb6c0bf637c6606f5339b3ca7d38ad6e85bceaf5c0772599bc",
+      "bytes": 2671
+    },
+    {
+      "id": "ey4jJvnHZ4Dyy0W~l~klsw",
+      "tocId": "rCaysw70~9HxBPGxmzk5HQ",
+      "title": "Configuring Channels in Alert",
+      "path": [
+        "Post Installation Configuration",
+        "Configuring Channels in Alert"
+      ],
+      "section": "Post Installation Configuration",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/configuring-channels-in-alert.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/configuring-channels-in-alert.html",
+      "localPath": "docs/alert-8.4.1/post-installation-configuration/configuring-channels-in-alert.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.509797+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.509797+00:00",
+      "contentHash": "fa6629d12dea2a462af1998697fbc5d2e9e0b8fa9b652ad2d8406d4567519e2d",
+      "bytes": 12388
+    },
+    {
+      "id": "BP~_6fvY_TGN4cu_Im2GNA",
+      "tocId": "Gy1~EFB63mXA5Ec9y5m_fg",
+      "title": "Configuring Distribution Jobs",
+      "path": [
+        "Post Installation Configuration",
+        "Configuring Distribution Jobs"
+      ],
+      "section": "Post Installation Configuration",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/configuring-distribution-jobs.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/configuring-distribution-jobs.html",
+      "localPath": "docs/alert-8.4.1/post-installation-configuration/configuring-distribution-jobs.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.592386+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.592386+00:00",
+      "contentHash": "36e1457c3ebe97ede0fbe43be011f79cc16167ec16d3d4a2b13cf63b4b8ce006",
+      "bytes": 26074
+    },
+    {
+      "id": "PLvIb4uk1tv9JcGqZzT2DQ",
+      "tocId": "yUg8qM0P2ejw9Sx8Mw_Q0w",
+      "title": "Scheduling Notifications",
+      "path": [
+        "Post Installation Configuration",
+        "Scheduling Notifications"
+      ],
+      "section": "Post Installation Configuration",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/scheduling-notifications.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/scheduling-notifications.html",
+      "localPath": "docs/alert-8.4.1/post-installation-configuration/scheduling-notifications.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.612627+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.612627+00:00",
+      "contentHash": "205359ab94193d718a50d71588c7a8baa80b6b2ce168c77431bf001dfcce231c",
+      "bytes": 1696
+    },
+    {
+      "id": "sz55AHU4DBHK3Le1gUfmyA",
+      "tocId": "diW4F5x201BO8mkoQDiJQQ",
+      "title": "Auditing Notification Failures",
+      "path": [
+        "Post Installation Configuration",
+        "Auditing Notification Failures"
+      ],
+      "section": "Post Installation Configuration",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/auditing-notification-failures.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/auditing-notification-failures.html",
+      "localPath": "docs/alert-8.4.1/post-installation-configuration/auditing-notification-failures.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.638200+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.638200+00:00",
+      "contentHash": "17ac4364f4fb787d496e84568bc2d3fbba3505280ec0837a77e57aa06502ae44",
+      "bytes": 3309
+    },
+    {
+      "id": "pQ0HOzIZkxURlTzm0UIDhA",
+      "tocId": "B4yS0~edVw0msIo8mdfy_g",
+      "title": "Encryption and Proxy Configuration",
+      "path": [
+        "Post Installation Configuration",
+        "Encryption and Proxy Configuration"
+      ],
+      "section": "Post Installation Configuration",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/encryption-and-proxy-configuration.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/encryption-and-proxy-configuration.html",
+      "localPath": "docs/alert-8.4.1/post-installation-configuration/encryption-and-proxy-configuration.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.667330+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.667330+00:00",
+      "contentHash": "e4fecfad1df59f643437b43f81db3ea6bccc381e9363da98c3dbe881bfbc7a65",
+      "bytes": 4766
+    },
+    {
+      "id": "azaZGW4EWDzLIlAY4tMSfA",
+      "tocId": "jVaCqtHsniXJ8uZWtYPepA",
+      "title": "System and Task Management",
+      "path": [
+        "System and Task Management"
+      ],
+      "section": "System and Task Management",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/system-and-task-management.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/system-and-task-management.html",
+      "localPath": "docs/alert-8.4.1/system-and-task-management.md",
+      "depth": 1,
+      "hasChildren": true,
+      "directChildren": 3,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.681267+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.681267+00:00",
+      "contentHash": "b583e60019a7ef6cad3267d56d9b310a4dc7f63607a70e9256c5ae113a13e4e4",
+      "bytes": 853
+    },
+    {
+      "id": "aqKqsRB6KmRSkyC_fkhYMQ",
+      "tocId": "YxTLYrmk75Jzly9JszEBTg",
+      "title": "Managing Certificates in Alert",
+      "path": [
+        "System and Task Management",
+        "Managing Certificates in Alert"
+      ],
+      "section": "System and Task Management",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/managing-certificates-in-alert.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/managing-certificates-in-alert.html",
+      "localPath": "docs/alert-8.4.1/system-and-task-management/managing-certificates-in-alert.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.707790+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.707790+00:00",
+      "contentHash": "ab01fc4e42093d16161d2c3eb64517f251650afc8030760fab2df707234fa800",
+      "bytes": 2658
+    },
+    {
+      "id": "5zskaR~ExvZl9wEg2QKaOQ",
+      "tocId": "WwwQLCiVCdAZTGMWq6v3bQ",
+      "title": "Alert Task Management",
+      "path": [
+        "System and Task Management",
+        "Alert Task Management"
+      ],
+      "section": "System and Task Management",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/alert-task-management.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/alert-task-management.html",
+      "localPath": "docs/alert-8.4.1/system-and-task-management/alert-task-management.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.727410+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.727410+00:00",
+      "contentHash": "bf5bd7ce69caff317f724a43358f9126527895977a983dca868c6ce94d71c44d",
+      "bytes": 2272
+    },
+    {
+      "id": "CncDy8O~vvaoGXa3Pg31Kg",
+      "tocId": "99XaqvHu83zim6GczcxfZA",
+      "title": "Authentication - Configuring LDAP or SAML",
+      "path": [
+        "System and Task Management",
+        "Authentication - Configuring LDAP or SAML"
+      ],
+      "section": "System and Task Management",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/authentication-configuring-ldap-or-saml.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/authentication-configuring-ldap-or-saml.html",
+      "localPath": "docs/alert-8.4.1/system-and-task-management/authentication-configuring-ldap-or-saml.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.776918+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.776918+00:00",
+      "contentHash": "a8e8688e95a2b7b3b80b9b39fca3ce5dbfda72bd44e5b8ccfca3be9513de17da",
+      "bytes": 10747
+    },
+    {
+      "id": "c2mDZ_Qjfjy94qo6~Ew5TQ",
+      "tocId": "Rx7eq~c0L~~A1OPgGNhMaA",
+      "title": "User and Role Management",
+      "path": [
+        "User and Role Management"
+      ],
+      "section": "User and Role Management",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/user-and-role-management.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/user-and-role-management.html",
+      "localPath": "docs/alert-8.4.1/user-and-role-management.md",
+      "depth": 1,
+      "hasChildren": true,
+      "directChildren": 2,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.790927+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.790927+00:00",
+      "contentHash": "38774d9a734c70455ef99e27149e6a5a9998563cf69add3b252dde4c5572b208",
+      "bytes": 767
+    },
+    {
+      "id": "pD4_QypU_IBcj~tPXdfiig",
+      "tocId": "ZPYRGCnUFW6n6CN5vxn1VQ",
+      "title": "Alert Users and Roles",
+      "path": [
+        "User and Role Management",
+        "Alert Users and Roles"
+      ],
+      "section": "User and Role Management",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/alert-users-and-roles.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/alert-users-and-roles.html",
+      "localPath": "docs/alert-8.4.1/user-and-role-management/alert-users-and-roles.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.831066+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.831066+00:00",
+      "contentHash": "df52c554d2ab0dccff644982a27eab373d7056332dbbd2113e745e641e7b6cfc",
+      "bytes": 7071
+    },
+    {
+      "id": "8bdYmhHxki0n~dofU3dvtg",
+      "tocId": "LrlMNAGQleSGlFnkL~RmTg",
+      "title": "Alert User Management",
+      "path": [
+        "User and Role Management",
+        "Alert User Management"
+      ],
+      "section": "User and Role Management",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/alert-user-management.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/alert-user-management.html",
+      "localPath": "docs/alert-8.4.1/user-and-role-management/alert-user-management.md",
+      "depth": 2,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.852616+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.852616+00:00",
+      "contentHash": "15a2e8e96684e8d46b893ceeaa211a65d80a0f1f5305d79eb5ed27d7ffd18097",
+      "bytes": 3023
+    },
+    {
+      "id": "pYLB0i4B~WNtpIyjlZlCPQ",
+      "tocId": "vLwF6WSIe9gdXGsrL~4b7g",
+      "title": "Troubleshooting Alert",
+      "path": [
+        "Troubleshooting Alert"
+      ],
+      "section": "Troubleshooting Alert",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/troubleshooting-alert.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/troubleshooting-alert.html",
+      "localPath": "docs/alert-8.4.1/troubleshooting-alert.md",
+      "depth": 1,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.882525+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.882525+00:00",
+      "contentHash": "c73f173c7ac1bddbacbe02f8dd469e3dcb163c82540d95b04ee5248fca2076c5",
+      "bytes": 12561
+    },
+    {
+      "id": "_4x2nGOxFeYN6IlCi1snbg",
+      "tocId": "OqGiEc4hDNAgZtPfGCh8cg",
+      "title": "Proprietary Statement",
+      "path": [
+        "Proprietary Statement"
+      ],
+      "section": "Proprietary Statement",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/proprietary-statement.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/proprietary-statement.html",
+      "localPath": "docs/alert-8.4.1/proprietary-statement.md",
+      "depth": 1,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.897140+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.897140+00:00",
+      "contentHash": "8be398fb651c5735746bf7df91b4d3e9f392acc485ba0d2cf565af1a048c1f0c",
+      "bytes": 1851
+    },
+    {
+      "id": "~RsFLwzXxhrW0WAbR7YA~w",
+      "tocId": "UeOfOG0ByXHRgrjvYl9Jog",
+      "title": "Black Duck Statement on Inclusivity and Diversity",
+      "path": [
+        "Black Duck Statement on Inclusivity and Diversity"
+      ],
+      "section": "Black Duck Statement on Inclusivity and Diversity",
+      "prettyUrl": "/r/alert/8.4.1/black-duck-alert-user-guide/black-duck-statement-on-inclusivity-and-diversity.html",
+      "sourceUrl": "https://docs.blackduck.com/r/alert/8.4.1/black-duck-alert-user-guide/black-duck-statement-on-inclusivity-and-diversity.html",
+      "localPath": "docs/alert-8.4.1/black-duck-statement-on-inclusivity-and-diversity.md",
+      "depth": 1,
+      "hasChildren": false,
+      "directChildren": 0,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:44.910421+00:00",
+      "lastCheckedAt": "2026-10-04T23:29:44.910421+00:00",
+      "contentHash": "a3f66b9b016842d0efdd0a50760e76671a7131f189a70952804f9efe7b8b2e56",
+      "bytes": 1253
+    }
+  ]
+}

@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/iac-sc
 content_id: "O~UPsPaCFo6hzijzgvY~PQ"
 version: "12.0.0"
 section: "Planning and running Detect"
-scraped_at: "2026-09-07T21:15:44.851361+00:00"
+scraped_at: "2026-10-04T23:33:20.036945+00:00"
+content_hash: "91f1c092834be93ca09ea9a93fef3b9522986585701035fe36b9733669f2b5df"
 ---
 
 # IaC Scan

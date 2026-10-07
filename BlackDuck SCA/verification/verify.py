@@ -22,7 +22,7 @@ CASES = (
     ("SCA project creation", "index.md", "docs/help-center/understanding-projects-in-black-duck/creating-a-project.md", "2026.7", "project"),
     ("Detect 12 rapid scan", "index-detect-12.0.0.md", "docs/detect-12.0.0/planning-and-running-detect/rapid-scan.md", "12.0.0", "--detect.blackduck.scan.mode=RAPID"),
     ("Detect 11 historical rapid scan", "index-detect-11.5.1.md", "docs/detect/planning-and-running-detect/rapid-scan.md", "11.5.1", "--detect.blackduck.scan.mode=RAPID"),
-    ("Alert distribution jobs", "index-alert.md", "docs/alert/post-installation-configuration/configuring-distribution-jobs.md", "8.4.0", "Distribution"),
+    ("Alert distribution jobs", "index-alert.md", "docs/alert-8.4.1/post-installation-configuration/configuring-distribution-jobs.md", "8.4.1", "Distribution"),
 )
 
 

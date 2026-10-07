@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/depreca
 content_id: "w5zWAv2oq7bEe0nsJd~4iw"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:47:31.002253+00:00"
+scraped_at: "2026-10-04T23:28:27.104232+00:00"
+content_hash: "ce7f74689a02e351ce805b0f739fadf4cd5a83860bebc494641c4640f90b6d39"
 ---
 
 # Deprecated resources

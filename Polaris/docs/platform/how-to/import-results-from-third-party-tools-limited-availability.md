@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/im
 content_id: "T9BQ4xhsYVUwctAFmzxLRQ"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:56:25.506748+00:00"
-content_hash: "c10d6db5d4cbc6e1fc8c1033a0052c939e22f3e18ab72d6882d6d2573051ea30"
+scraped_at: "2026-10-04T23:29:19.058314+00:00"
+content_hash: "d0105d44dd609f931cff47115af16f4a08ad4d526cd831fb49c8fed92c5c8cc9"
 ---
 
 # Import results from third-party tools (limited availability)

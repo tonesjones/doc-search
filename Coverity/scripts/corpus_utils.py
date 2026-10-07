@@ -5,6 +5,7 @@ from __future__ import annotations
 import hashlib
 import os
 import tempfile
+import time
 from pathlib import Path
 
 
@@ -32,7 +33,15 @@ def atomic_write_text(path: Path, text: str) -> None:
             handle.write(text)
             handle.flush()
             os.fsync(handle.fileno())
-        os.replace(temp_path, path)
+        # Windows readers can briefly deny replacement of an open manifest.
+        for attempt in range(5):
+            try:
+                os.replace(temp_path, path)
+                break
+            except PermissionError:
+                if attempt == 4:
+                    raise
+                time.sleep(0.1 * (attempt + 1))
     except Exception:
         temp_path.unlink(missing_ok=True)
         raise

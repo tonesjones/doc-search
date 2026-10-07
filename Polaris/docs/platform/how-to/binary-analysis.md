@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/bi
 content_id: "5z2yLiNk690AYG5Xcqcv~w"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:56:18.984975+00:00"
-content_hash: "93a5e40aedd920cdbc5fcb6b175825b5725be1dedfce9cbe58f740e6e32095b7"
+scraped_at: "2026-10-04T23:29:18.787699+00:00"
+content_hash: "11fc2b2005c6ae10a0040c19031bd9328f764d8f3ee479c4354ecbd3732dea9d"
 ---
 
 # Binary Analysis
@@ -43,7 +43,7 @@ Binary scans surface the following security data in Polaris:
 - Component Origins: Additional vulnerability streams like Linux distribution backport patches, Node.js and NuGet.
 - Operational risk information (update guidance and transitive upgrade guidance).
 
-  Note: Operational risk data powered by OpenHub is captured in results but not yet displayed in the Polaris UI.
+  Note: Operational risk data powered by Black Duck Open Hub is captured in results but not yet displayed in the Polaris UI.
 
 **Data Not Shown**
 

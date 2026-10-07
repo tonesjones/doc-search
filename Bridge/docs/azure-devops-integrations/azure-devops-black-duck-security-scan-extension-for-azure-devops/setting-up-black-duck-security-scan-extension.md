@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/setting
 content_id: "WYO_33ZWrl5SagC0bfg2cQ"
 version: "latest"
 section: "Azure DevOps Integrations"
-scraped_at: "2026-08-08T23:48:21.935847+00:00"
+scraped_at: "2026-10-04T23:28:29.791344+00:00"
+content_hash: "920f0c2b0ba4d2875dad847cba9fc85ececee7391b0a446f629ede13ae5f74a4"
 ---
 
 # Setting up Black Duck Security Scan Extension

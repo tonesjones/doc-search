@@ -3,8 +3,9 @@ title: "Pipeline"
 source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/pipeline.html"
 content_id: "DArwSyn0S1rUURa1nSf4aQ"
 version: "latest"
-section: "Jenkins - Black Duck Security Scan Plugin for Jenkins"
-scraped_at: "2026-08-08T23:48:38.928230+00:00"
+section: "Jenkins Integrations"
+scraped_at: "2026-10-04T23:28:30.552781+00:00"
+content_hash: "83953fd4d214690ae8b1c1c02ab39854ed429842696e54af7648a6022f519589"
 ---
 
 # Pipeline
@@ -26,8 +27,14 @@ pipeline {
                       // polaris_reports_sarif_create: true,
                       // mark_build_status: 'UNSTABLE',
                       // polaris_test_sca_type: "SCA-SIGNATURE",
-                      // Uncomment this if you configure polaris_test_sca_type: "SCA-BINARY"
-                      // polaris_artifactToUpload: "/path/to/binary-file"
+                      // Uncomment for Binary analysis scan: requires polaris_assessment_types set to SCA only
+                      // polaris_test_sca_type: 'SCA-BINARY',
+                      // polaris_artifactToUpload: '/path/to/binary-file',
+                      // Uncomment for SCA container scan: requires polaris_assessment_types set to SCA only
+                      // polaris_test_sca_type: 'SCA-CONTAINER',
+                      // polaris_artifactToUpload: '/path/to/container.tar.gz',
+                      // polaris_container_name: 'unique-container-name', // use for filtering
+                      // Uncomment for RAPID SAST scan 
                       // polaris_test_sast_type: "SAST_RAPID",
                       // Uncomment this to use Source Upload method. Default value is hybrid (build based)
                       // polaris_test_sast_location: 'remote',
@@ -65,8 +72,14 @@ node {
                 // polaris_reports_sarif_create: true,
                 // mark_build_status: 'UNSTABLE',
                 // polaris_test_sca_type: "SCA-SIGNATURE",
-                // Uncomment this if you configure polaris_test_sca_type: "SCA-BINARY"
-                // polaris_artifactToUpload: "/path/to/binary-file"
+                // Uncomment for Binary analysis scan: requires polaris_assessment_types set to SCA only
+                // polaris_test_sca_type: 'SCA-BINARY',
+                // polaris_artifactToUpload: '/path/to/binary-file',
+                // Uncomment for SCA container scan: requires polaris_assessment_types set to SCA only
+                // polaris_test_sca_type: 'SCA-CONTAINER',
+                // polaris_artifactToUpload: '/path/to/container.tar.gz',
+                // polaris_container_name: 'unique-container-name', // use for filtering
+                // Uncomment for RAPID SAST scan
                 // polaris_test_sast_type: "SAST_RAPID",
                 // Uncomment this to use Source Upload method. Default value is hybrid (build based)
                 // polaris_test_sast_location: 'remote',

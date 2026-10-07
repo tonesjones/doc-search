@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/dart-s
 content_id: "aDPsNbAnUmZSRzrHPnvrCw"
 version: "12.0.0"
 section: "Package Manager information for Detect"
-scraped_at: "2026-09-07T21:15:58.273512+00:00"
+scraped_at: "2026-10-04T23:33:20.497878+00:00"
+content_hash: "f39bddbcadaf5ec06f800a7adee81157b79d828740c9ef924d50f69994b2d7bd"
 ---
 
 # Dart Support

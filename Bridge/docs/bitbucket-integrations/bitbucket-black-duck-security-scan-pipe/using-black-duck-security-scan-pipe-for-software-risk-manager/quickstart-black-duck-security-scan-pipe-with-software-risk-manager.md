@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickst
 content_id: "Pn~buBS5wrHMvJRVZwA0oQ"
 version: "latest"
 section: "Bitbucket Integrations"
-scraped_at: "2026-08-08T23:49:03.209411+00:00"
+scraped_at: "2026-10-04T23:28:31.763038+00:00"
+content_hash: "ae4b0b9571340e9c80bf33061aeb48158f2aa0deea0149c8c48058bd19a352ca"
 ---
 
 # Quickstart: Black Duck Security Scan Pipe with Software Risk Manager

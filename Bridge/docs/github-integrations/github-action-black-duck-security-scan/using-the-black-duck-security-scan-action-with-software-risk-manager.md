@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-t
 content_id: "GtOc_csY7NqtdUYPDS8MIQ"
 version: "latest"
 section: "GitHub Integrations"
-scraped_at: "2026-08-08T23:47:48.960748+00:00"
+scraped_at: "2026-10-04T23:28:28.129015+00:00"
+content_hash: "1a67d27fc90f1dc698975f36c1eecd0aeb6c485a566de7157e2322c122b24492"
 ---
 
 # Using the Black Duck Security Scan Action with Software Risk Manager

@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/yarn.h
 content_id: "4O_OpUaqTEtK9ciJwT7Gng"
 version: "12.0.0"
 section: "Detect Properties"
-scraped_at: "2026-09-07T21:17:02.315955+00:00"
+scraped_at: "2026-10-04T23:33:22.940933+00:00"
+content_hash: "e064924c75bbf9b384f9bf28d2bf4b86e86db23978d605957201307168320f58"
 ---
 
 # yarn

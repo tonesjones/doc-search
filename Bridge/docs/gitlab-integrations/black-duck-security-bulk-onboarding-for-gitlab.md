@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/black-d
 content_id: "_1wDL1my_AaKDp~O2J4yeA"
 version: "latest"
 section: "GitLab Integrations"
-scraped_at: "2026-08-08T23:47:51.542735+00:00"
+scraped_at: "2026-10-04T23:28:28.239897+00:00"
+content_hash: "7600f906fe339919c12d63a7cd7994a301dd5945160428332b1580a3941ee9cf"
 ---
 
 # Black Duck Security Bulk Onboarding for GitLab

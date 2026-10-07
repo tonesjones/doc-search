@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/te
 content_id: "F6JRhs0B6zpQUoQRA5KkhQ"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:57:38.951264+00:00"
-content_hash: "8cbc819a21304226bf8662145b3573e85864cc435ecc8af81434abd43f2f9246"
+scraped_at: "2026-10-04T23:29:21.670905+00:00"
+content_hash: "10dd651f17537bdf0ad141d9f3fbd0411ab34264b4e2a35efcefbdef1af3ac18"
 ---
 
 # Test web applications and APIs with Polaris fAST Dynamic
@@ -34,7 +34,8 @@ Polaris fAST Dynamic is a dynamic analysis engine and UI that brings self-servic
 - Scales to accommodate a large number of DAST projects without compromising on performance.
 - View DAST issues alongside SAST and SCA issues and triage by severity.
 - Run DAST tests from pipelines using the Bridge CLI, including on internal applications.
-- Developer Detail Dynamic report gives an overview of all DAST issues in the selected application scope.
+- Developer Detail Dynamic report gives an overview of all DAST issues captured in the selected application scope.
+- Explore sitemaps of completed DAST tests to verify test coverage.
 
 CAUTION:
 

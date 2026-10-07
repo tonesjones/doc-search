@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/sbt-su
 content_id: "P~LPjKIGQSPULIJMd9Vc6Q"
 version: "12.0.0"
 section: "Package Manager information for Detect"
-scraped_at: "2026-09-07T21:16:19.603480+00:00"
+scraped_at: "2026-10-04T23:33:21.227108+00:00"
+content_hash: "8cc81039636d2790e22a2572eb9cb958c4d7c605bd54bb123a44c79ebf1262d4"
 ---
 
 # SBT support

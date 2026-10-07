@@ -1,18 +1,16 @@
 ---
 title: "Generating global reports"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/generating-global-reports.html"
-content_id: "JfnGJi640ubzKU28YE1XQw"
+content_id: "me1O4ejbJIcugUpGPvp1ig"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T15:25:37.112864+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:14.898471+00:00"
+content_hash: "91479271fcefe1a3ea0002bdc13104b256f7de8148f0b7984e7fe82942dc3682"
 ---
 
 # Generating global reports
 
-The **Reports** page provides the means of generating reports, granting critical
-insights into the security status of your organization's projects, specifically
-addressing known vulnerabilities and their remediation. These reports are essential for
-tracking and managing vulnerabilities effectively.
+The **Reports** page provides the means of generating reports, granting critical insights into the security status of your organization's projects, specifically addressing known vulnerabilities and their remediation. These reports are essential for tracking and managing vulnerabilities effectively.
 
 To access the Reports page:
 
@@ -27,7 +25,6 @@ The following options are available:
 - Vulnerability Status
 - Vulnerability Update
 
-Tip: Reporting schemas in the PostgreSQL database provide access to Black Duck data for reporting purposes. See the Report Database guide
-which contains information on using the report database.
+Tip: Reporting schemas in the PostgreSQL database provide access to Black Duck data for reporting purposes. See the Report Database guide which contains information on using the report database.
 
 Note: Reports include subproject information *if* you have permission to the subproject.

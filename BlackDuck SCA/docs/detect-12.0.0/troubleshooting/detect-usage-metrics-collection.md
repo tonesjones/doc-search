@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/detect
 content_id: "H0kDTMSyogGSN4xhJCv~Ag"
 version: "12.0.0"
 section: "Troubleshooting"
-scraped_at: "2026-09-07T21:17:09.847513+00:00"
+scraped_at: "2026-10-04T23:33:23.169575+00:00"
+content_hash: "255e09dbd83d358f068cf8f7e82fa157ac082611c5ca8174b96cbace102fb20e"
 ---
 
 # Detect usage metrics collection

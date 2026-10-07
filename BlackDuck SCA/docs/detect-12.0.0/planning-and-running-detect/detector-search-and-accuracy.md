@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/detect
 content_id: "ntW__L7OoCFB_yq7_RThMg"
 version: "12.0.0"
 section: "Planning and running Detect"
-scraped_at: "2026-09-07T21:15:39.248424+00:00"
+scraped_at: "2026-10-04T23:33:19.844258+00:00"
+content_hash: "fd32573123fad6e71d71ec77db956f96ad98aca863e00cdff4fb32d74ac955fd"
 ---
 
 # Detector search and accuracy

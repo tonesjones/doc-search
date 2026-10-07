@@ -3,8 +3,9 @@ title: "Multibranch pipeline"
 source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/multibranch-pipeline.html"
 content_id: "LPnnyVxe_LZkQtddIVhp4A"
 version: "latest"
-section: "Jenkins - Black Duck Security Scan Plugin for Jenkins"
-scraped_at: "2026-08-08T23:48:41.213545+00:00"
+section: "Jenkins Integrations"
+scraped_at: "2026-10-04T23:28:30.663017+00:00"
+content_hash: "8adae7c225b3a4fbfdbe857862d830de6a9d4fe704875ddeeb6713e515839f76"
 ---
 
 # Multibranch pipeline

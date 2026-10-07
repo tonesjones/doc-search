@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/signat
 content_id: "sjIE1jjGD~QxFTu4oeg64g"
 version: "12.0.0"
 section: "Detect Properties"
-scraped_at: "2026-09-07T21:16:40.552279+00:00"
+scraped_at: "2026-10-04T23:33:22.195862+00:00"
+content_hash: "1c8106fb1fe5b889afd7fd0bbf511417681178d50e18f53bce11bb2d9025f800"
 ---
 
 # signature-scanner

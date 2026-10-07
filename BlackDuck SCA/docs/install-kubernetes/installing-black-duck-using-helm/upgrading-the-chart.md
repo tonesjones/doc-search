@@ -1,16 +1,16 @@
 ---
 title: "Upgrading the chart"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/upgrading-the-chart.html"
-content_id: "w6xPhXqVCTsC0R2o0tEubw"
+content_id: "h2c56MJ1s1UGxX2c7AZH3g"
 version: "2026.7"
 section: "Installing Black Duck using Kubernetes and OpenShift"
-scraped_at: "2026-08-08T15:33:03.075998+00:00"
+scraped_at: "2026-10-04T23:32:22.636711+00:00"
+content_hash: "6ef01fa1727895c65defaa15ddd75a3b850e31b325a14b0f208d9d183fcffabf"
 ---
 
 # Upgrading the chart
 
-Before upgrading to new version, please make sure to run the following command to pull
-the latest version of charts from chart museum:
+Before upgrading to new version, please make sure to run the following command to pull the latest version of charts from chart museum:
 
 ```
 $ helm repo update

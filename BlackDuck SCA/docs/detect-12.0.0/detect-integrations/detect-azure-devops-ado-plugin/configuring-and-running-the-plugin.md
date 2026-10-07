@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/config
 content_id: "uAPcqiFYL0TGBKDDk0x89g"
 version: "12.0.0"
 section: "Detect Integrations"
-scraped_at: "2026-09-07T21:17:26.326715+00:00"
+scraped_at: "2026-10-04T23:33:23.689450+00:00"
+content_hash: "46afb976220d57a4ff29ef0fd19408f8bd3d416d42c61526dae9135ce97c5ea0"
 ---
 
 # Configuring and Running the Plugin

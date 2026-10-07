@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/featur
 content_id: "OaYesGDupP_lcfdONt1RYw"
 version: "12.0.0"
 section: "Planning and running Detect"
-scraped_at: "2026-09-07T21:15:33.175858+00:00"
+scraped_at: "2026-10-04T23:33:19.655213+00:00"
+content_hash: "c242b1cb6705f70c337ff3d3e7dd58a43976268731fbd0bb3a0d702c6cfc0744"
 ---
 
 # Feature availability in online and offline Detect scanning

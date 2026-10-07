@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/is
 content_id: "Tqp0gNcIJcroDco7RSu3Ow"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:56:23.841310+00:00"
-content_hash: "aa7ad61e0ce9edd8851ad83350c8d17c7e481b4923ecb1b1dfe6b906b7350180"
+scraped_at: "2026-10-04T23:29:18.937636+00:00"
+content_hash: "a16a8588de1be2deaa202f8fe703e81bca7967c752f5794a468d40a3a7341c2a"
 ---
 
 # Issue Management MCP server

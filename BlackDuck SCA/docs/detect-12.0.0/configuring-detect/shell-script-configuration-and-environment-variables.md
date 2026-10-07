@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/shell-
 content_id: "cRTX5LamgSL5Psah57EB4A"
 version: "12.0.0"
 section: "Configuring Detect"
-scraped_at: "2026-09-07T21:15:22.790190+00:00"
+scraped_at: "2026-10-04T23:33:19.312406+00:00"
+content_hash: "633cf3b06cf13b1caa7a54e04a4edf3a4d76a18db96f18a11e219f8378ba70be"
 ---
 
 # Shell script configuration and environment variables

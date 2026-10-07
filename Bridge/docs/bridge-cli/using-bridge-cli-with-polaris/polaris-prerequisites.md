@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/polaris
 content_id: "~U27n0Nuq3p3rhWPibQicA"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:46:57.602384+00:00"
+scraped_at: "2026-10-04T23:28:25.567150+00:00"
+content_hash: "e46e363e471e52ed115468905eccbe6a09f2292f8f7f12690a1002b36697b8e6"
 ---
 
 # Polaris prerequisites

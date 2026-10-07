@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/curren
 content_id: "hpkc4_tDlAR2mPi5vJMIYg"
 version: "12.0.0"
 section: "Release Notes"
-scraped_at: "2026-09-07T21:14:51.404000+00:00"
+scraped_at: "2026-10-04T23:33:18.227893+00:00"
+content_hash: "cbc794a3c831b173ae3352f55f1732fce6f7122e23cb42509ff0a9326eb5f0bc"
 ---
 
 # Current Detect release notes

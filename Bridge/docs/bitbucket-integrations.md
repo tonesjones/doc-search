@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/bitbuck
 content_id: "L8CfExJg8HC8I065Zh7Ihg"
 version: "latest"
 section: "Bitbucket Integrations"
-scraped_at: "2026-08-08T23:48:49.385667+00:00"
+scraped_at: "2026-10-04T23:28:31.037339+00:00"
+content_hash: "fd83d7a66486da64fc35503ea1a8834e735777511c85eab7355bf442dba989e1"
 ---
 
 # Bitbucket Integrations

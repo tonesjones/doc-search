@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/introd
 content_id: "S8kyQwUfDP5OiJX4IFHUwg"
 version: "12.0.0"
 section: "Introduction to Black Duck® Detect"
-scraped_at: "2026-09-07T21:14:49.927219+00:00"
+scraped_at: "2026-10-04T23:33:18.190820+00:00"
+content_hash: "6c1d3136fe2e02d463d361c3beb6115c12d8224eae4e1b42d959c7142045873e"
 ---
 
 # Introduction to Black Duck® Detect

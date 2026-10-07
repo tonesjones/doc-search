@@ -1,10 +1,11 @@
 ---
 title: "Component Matches table (component_matches)"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/component-matches-table-component_matches-.html"
-content_id: "WD5ujpK2sL2GPtzJFsUskw"
+content_id: "jHloXgOOIgDq1KtrmRz7sw"
 version: "2026.7"
 section: "Reporting Database"
-scraped_at: "2026-08-08T15:34:36.585602+00:00"
+scraped_at: "2026-10-04T23:32:26.724714+00:00"
+content_hash: "d091ed3ba1153462853cd621122445acea5bdc048b279718d0195cedee677692"
 ---
 
 # Component Matches table (component_matches)

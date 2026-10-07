@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickst
 content_id: "uoEvtoRlNAihuTseBI84ZQ"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:47:00.515586+00:00"
+scraped_at: "2026-10-04T23:28:25.712244+00:00"
+content_hash: "c893180095551b70ec248d3222d47bcddd379103245cf9132d2b67653c488863"
 ---
 
 # Quickstart: Polaris Bridge CLI in a GitHub workflow
@@ -51,7 +52,7 @@ Note: You can use Black Duck Security Scan Action (recommended) for your workflo
    | `BRIDGE_POLARIS_EXTERNALISSUES_TYPES` | Comma-separated list of scan types for which external issues should be created. Accepted values: `SAST`, `SCA` | `SAST,SCA` |
    | `BRIDGE_POLARIS_EXTERNALISSUES_MAXCOUNT` | Set the maximum number number of issues that can be created. Default: `10` | `20` |
    | `BRIDGE_POLARIS_EXTERNALISSUES_GROUPSCAISSUES` | Set to `true` to group SCA issues by vulnerabilities of a component-version pair when creating repository issues. Set to `false` to create separate issues for each vulnerability. Default: `true`. | `true` |
-3. Add a [coverity.yaml](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/cli/topics/options_reference.html) file in the project repository. (Uncompiled languages are detected and configured automatically).
+3. Add a [coverity.yaml](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/13c0022b163195f4d305d9453a097d69.topic) file in the project repository. (Uncompiled languages are detected and configured automatically).
 
    ```
    capture:

@@ -1,37 +1,45 @@
 [
   {
-    "tocId": "OP_uZvvmefwcAiSKVXmAlA",
-    "contentId": "fgx1N4o02iAq4vSWoMZEXw",
+    "tocId": "2c7_iq8xFNX3cxj6FuecjQ",
+    "contentId": "pnAqMhNxl0OIbILlyk2Cow",
     "title": "Black Duck Tools",
     "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/black-duck-tools.html",
     "hasRating": true,
     "children": []
   },
   {
-    "tocId": "iztbRYgPD2ucqs1QJg3fAA",
-    "contentId": "8PfQx1P_PcooVPsEC6Pc_g",
+    "tocId": "aIEmGcJ4DYXCifzkLNWDzg",
+    "contentId": "jOjthWSQjFx~IM8wL9WUmw",
     "title": "Black Duck C/CPP Tool",
     "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/black-duck-c/cpp-tool.html",
     "hasRating": true,
     "children": [
       {
-        "tocId": "T~MslmQuaLrjayB3~DyICg",
-        "contentId": "czazY~fEsIGqBzRimoHsxA",
+        "tocId": "QVqfYshwWVPQ5qFKfdOCgw",
+        "contentId": "vbVDofkB4wSWPp5pA3ry0Q",
+        "title": "Black Duck C/CPP tool release notes",
+        "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/black-duck-c/cpp-tool-release-notes.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "UyZ1CrHqxriot28u~iTZpg",
+        "contentId": "CSiLxhxW_VEYL8BSIX8QMg",
         "title": "Black Duck C/CPP tool overview",
         "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/black-duck-c/cpp-tool-overview.html",
         "hasRating": false,
         "children": [
           {
-            "tocId": "MgPHor5n2akjt~oVc7XUBg",
-            "contentId": "wr73B8IOKgNMXm_rzT_f4A",
+            "tocId": "oUtrLnbIxSkPs7TxnKPnYQ",
+            "contentId": "0srW4O_agivlsh6QavfU6w",
             "title": "Black Duck C/CPP tool quickstart guide",
             "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/black-duck-c/cpp-tool-quickstart-guide.html",
             "hasRating": false,
             "children": []
           },
           {
-            "tocId": "k0NUcUP0_n3PaQNgtOxqDg",
-            "contentId": "y8V_SQ48DovNtm3pFlg3HA",
+            "tocId": "fxmHfon~QmKQG2pSmjIQVw",
+            "contentId": "A7qlMj6BJAUEU0txQeEfgA",
             "title": "How does the tool run?",
             "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/how-does-the-tool-run-.html",
             "hasRating": false,
@@ -40,31 +48,31 @@
         ]
       },
       {
-        "tocId": "nOGTc1ZDyNYgPr9h3d~CYw",
-        "contentId": "FyYgakeoWulkUW30v2l4Ow",
+        "tocId": "oejZIjhXdLaN3N2n3DK5jA",
+        "contentId": "UkxSF7iGlDi0YqPrXtsjMw",
         "title": "Supported platforms",
         "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/supported-platforms.html",
         "hasRating": false,
         "children": []
       },
       {
-        "tocId": "dhiBSaK6yC2N9x_FNrewZg",
-        "contentId": "fDBFGrlIxrnHRHKkMaQxVQ",
+        "tocId": "x4V7cgvLur6ofs5i4UgNcA",
+        "contentId": "ZI5Tfcf4UhfuCqHY7lub5Q",
         "title": "Installation",
         "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/installation.html",
         "hasRating": false,
         "children": []
       },
       {
-        "tocId": "tSmw238nBCkTKTYKTYfeDw",
-        "contentId": "Mkt31q4CrCHqlkWvzXQ0DA",
+        "tocId": "Cdx2T_3vBzb70CffR9S5Uw",
+        "contentId": "tzNElET0zvNhv~S0ml595w",
         "title": "Executing the Black Duck C/CPP tool",
         "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/executing-the-black-duck-c/cpp-tool.html",
         "hasRating": false,
         "children": [
           {
-            "tocId": "pCdsdE1k4_kg8GanKVpOvQ",
-            "contentId": "TcX8XARTF1rjFFw0caD7wA",
+            "tocId": "zwbaE7TaSRZ9dJJtHeWgIg",
+            "contentId": "UUGaZJOzxoLogSXyAfTgNw",
             "title": "Configuring a yaml file",
             "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/configuring-a-yaml-file.html",
             "hasRating": false,
@@ -73,23 +81,23 @@
         ]
       },
       {
-        "tocId": "M_0azZIemUpvJG1Ob9VnNg",
-        "contentId": "s0SBRCBnmNmySHLNhnVb1g",
+        "tocId": "cVe8g8AEui~HGBD7gXcEhA",
+        "contentId": "ctSzsdTwSTUuw3kUi4tEaA",
         "title": "API token",
         "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/api-token.html",
         "hasRating": false,
         "children": []
       },
       {
-        "tocId": "125ZsfX_u0Kd2zyMDgSIwA",
-        "contentId": "2sGxbfdqFY0BAUhRq7iWlA",
+        "tocId": "FLaXsZXNqkcK9ZQS2jxG9A",
+        "contentId": "36hwELg6tOcPBz9AEAZAXw",
         "title": "Bazel",
         "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/bazel.html",
         "hasRating": false,
         "children": [
           {
-            "tocId": "5uFW8wgYM_OfnlA5TRnCgQ",
-            "contentId": "KUsit7e57btUfByP7lW10g",
+            "tocId": "ySxZPoKBFSYvav8cguud7g",
+            "contentId": "v9E2WX~pl0~MlMTeG0vSjA",
             "title": "Bazel setup",
             "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/bazel-setup.html",
             "hasRating": false,
@@ -98,67 +106,67 @@
         ]
       },
       {
-        "tocId": "AhdcPp7gVPBO82B6mjQEig",
-        "contentId": "D7LtuVm19vILSkpbazvpYw",
+        "tocId": "5PJwiO~PAzb7hkiQ567SGA",
+        "contentId": "XHR6qfzkA8224QAUMbvjtg",
         "title": "The BOM",
         "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/the-bom.html",
         "hasRating": false,
         "children": []
       },
       {
-        "tocId": "MqZlK_zXo6Om3pX13i~RPg",
-        "contentId": "PTZp6Ld~U~dRqLEHGmQVTw",
+        "tocId": "GEOLTxWo~v9tBgZh~rwVrQ",
+        "contentId": "og9caAm52~1u0PLXnkrfng",
         "title": "Frequently asked questions",
         "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/frequently-asked-questions.html",
-        "hasRating": false,
-        "children": []
-      },
-      {
-        "tocId": "qMAfiX7S8Q1r125qNjmoig",
-        "contentId": "DoyaIoG42XkKIOJv5HicvQ",
-        "title": "Black Duck C/CPP tool release notes",
-        "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/black-duck-c/cpp-tool-release-notes.html",
         "hasRating": false,
         "children": []
       }
     ]
   },
   {
-    "tocId": "hV23nLXqJ~PpxDKySfgYsw",
-    "contentId": "sLkOpJDMZgMnXghflBSlFg",
-    "title": "KnowledgeBase Vulnerability Feed Server",
-    "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/knowledgebase-vulnerability-feed-server.html",
+    "tocId": "Ufq4IJx9vn3miffaLYX6vA",
+    "contentId": "TMxiY_4VIAdrKLdMNkwTOQ",
+    "title": "SCASS MCP Server",
+    "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/scass-mcp-server.html",
     "hasRating": true,
     "children": [
       {
-        "tocId": "cG1w5YXJclTihoaSOljNHA",
-        "contentId": "BK4a02MrgCPrDgsnyT10GA",
-        "title": "Common Security Advisory Framework (CSAF)",
-        "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/common-security-advisory-framework-csaf-.html",
+        "tocId": "aqbDgFullvq4YrKzDrx6Dg",
+        "contentId": "ZM1iT7d3OevNipW6Y498_g",
+        "title": "Overview & Capabilities",
+        "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/overview-capabilities.html",
         "hasRating": false,
         "children": []
       },
       {
-        "tocId": "dpYy1XIVxyv9lsPxCUY47w",
-        "contentId": "BIpGXXaxk0H4CU3Gql0Q9Q",
-        "title": "Usage Guide",
-        "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/usage-guide.html",
+        "tocId": "ZqOoQilXbqiq2zEpsmBFBw",
+        "contentId": "DgJGMtjH38Eb8y0N~7n4vg",
+        "title": "Prerequisites & Installation",
+        "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/prerequisites-installation.html",
         "hasRating": false,
         "children": []
       },
       {
-        "tocId": "WV8d4XX9puGccSEzfVqYGQ",
-        "contentId": "hg1VFply9O1gIoklRlQbJA",
-        "title": "Authentication",
-        "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/authentication.html",
+        "tocId": "3IRXKVc7kc0dJel6SDeIBg",
+        "contentId": "vAaNiREaj50BF07qlYS60g",
+        "title": "Configuration & Security",
+        "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/configuration-security.html",
         "hasRating": false,
         "children": []
       },
       {
-        "tocId": "eEj7JnRaTSFk5Efb7JyyLQ",
-        "contentId": "6cy_rP3UMuVs~PQtfUcphg",
-        "title": "Rate Limiting",
-        "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/rate-limiting.html",
+        "tocId": "XFVXL68_JV~KGxmCimo4uw",
+        "contentId": "kaETQdGvZx1O4DW3EpLjzw",
+        "title": "Using the MCP Server",
+        "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/using-the-mcp-server.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "_2nRKQBI49D2DLUXfefQtw",
+        "contentId": "MO6IoRzd3dHcAvHmMblppw",
+        "title": "Troubleshooting",
+        "prettyUrl": "/r/blackduck-tools/latest/black-duck-tools/troubleshooting.html",
         "hasRating": false,
         "children": []
       }

@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickst
 content_id: "BL6eoshBryv2ScLo5_EpTg"
 version: "latest"
 section: "Bitbucket Integrations"
-scraped_at: "2026-08-08T23:49:04.794893+00:00"
+scraped_at: "2026-10-04T23:28:31.849885+00:00"
+content_hash: "5564de32a016bdbb0f5149b04fe2554d5f59be24a86086d4fa87a39274bb1ec6"
 ---
 
 # Quickstart: Black Duck Security Scan Pipe with Black Duck SCA

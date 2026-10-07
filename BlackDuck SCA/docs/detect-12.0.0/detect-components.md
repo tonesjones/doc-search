@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/detect
 content_id: "J7hHBARvgOFyNAAVKT5P5g"
 version: "12.0.0"
 section: "Detect Components"
-scraped_at: "2026-09-07T21:15:47.906168+00:00"
+scraped_at: "2026-10-04T23:33:20.138232+00:00"
+content_hash: "4b624da5bd045b1140f28b9e7f57bb6e9eec7375bef4e44aec84ebd67475448f"
 ---
 
 # Detect Components

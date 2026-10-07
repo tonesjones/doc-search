@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/logging
 content_id: "M~WZ67m_J7DZBiK6_hxlkA"
 version: "latest"
 section: "Bridge CLI reference"
-scraped_at: "2026-08-08T23:47:35.079161+00:00"
+scraped_at: "2026-10-04T23:28:27.329797+00:00"
+content_hash: "4b53cda8c03e264080ccb64b9eb9de8a7ee46036990e5beed7942631bdeb7191"
 ---
 
 # Logging and diagnostics

@@ -1,10 +1,11 @@
 ---
 title: "Component table (component)"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/component-table-component-.html"
-content_id: "~eTNVFwzuj7PONNugvrI9g"
+content_id: "gk1FkR642mt6LqvVBQPN9A"
 version: "2026.7"
 section: "Reporting Database"
-scraped_at: "2026-08-08T15:34:33.130044+00:00"
+scraped_at: "2026-10-04T23:32:26.572318+00:00"
+content_hash: "b6755802d302a9b812a2495365ef2508faf71e9ecfcde1a2fb83cce3d90334f4"
 ---
 
 # Component table (component)

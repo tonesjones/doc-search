@@ -3,8 +3,9 @@ title: "Additional Jenkins configuration"
 source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/additional-jenkins-configuration.html"
 content_id: "~Ulu5ax3LXOw3pSQsF3O_A"
 version: "latest"
-section: "Jenkins - Black Duck Security Scan Plugin for Jenkins"
-scraped_at: "2026-08-08T23:48:48.775830+00:00"
+section: "Jenkins Integrations"
+scraped_at: "2026-10-04T23:28:31.016856+00:00"
+content_hash: "2d4c58d7d7c57041bdaeb4ae9700f6dcccb711fa619137b5975d37fea27c56b6"
 ---
 
 # Additional Jenkins configuration

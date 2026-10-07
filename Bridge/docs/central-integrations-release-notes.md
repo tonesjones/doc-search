@@ -4,12 +4,25 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/central
 content_id: "DGzGhA5zGE2c9VhXWt_lzA"
 version: "latest"
 section: "Central Integrations release notes"
-scraped_at: "2026-08-08T23:46:47.600024+00:00"
+scraped_at: "2026-10-04T23:28:25.081332+00:00"
+content_hash: "28e3b40f80fe8677566a6af1ef9425f61afdcb37835d3485a6d62310d8e87060"
 ---
 
 # Central Integrations release notes
 
 Everything that's new in Bridge CLI and integrations.
+
+## Jenkins Black Duck Security Scan Plugin 2.11.0 released
+
+For further details refer to the release note included in September 2026
+
+## Polaris SAST Fix Pull Requests in Black Duck Onboarding Solutions
+
+Polaris Fix Pull Requests now support SAST assessments in Black Duck Onboarding Solutions. This enhancement extends the existing Fix Pull Request workflow beyond SCA package assessments to include AI-generated code fixes for eligible SAST vulnerabilities. Refer to the release notes in September 2026 for release versions and configuration details.
+
+## Support for Polaris Central Coverity Configuration
+
+Polaris now provides support for centrally managed Coverity SAST configurations. This is available in Bridge versions 4.0.0 and later, enabling Bridge CLI to automatically retrieve and apply administrator-defined scan settings during analysis. For further details refer to the release notes included in June 2026.
 
 ## Integrations support for Polaris SAST Fix Pull Requests
 
@@ -112,6 +125,19 @@ As part of the transition to Black Duck Software, we will begin transitioning [s
 
 List of deprecated Bridge CLI resources: Deprecated resources These resources will be backwards compatible until March 2025. For more information, see [migrating to new Black Duck integrations (CI/CD, CLI)](https://community.blackduck.com/s/article/integrations-black-duck-migration-instructions#Polaris)
 
+## September 2026
+
+- Jenkins | Black Duck Security Scan Plugin 2.11.0 - Updated the plugin to ensure full compatibility with Jenkins versions 2.579 and above.
+
+- Support added for SAST Fix Pull Requests in Black Duck Bulk Onboarding solutions
+
+  - Depending on the configured assessment types, Polaris can automatically create dependency upgrade Pull Requests for eligible SCA issues and AI-generated code fix Pull Requests for eligible SAST vulnerabilities. When both SAST and SCA assessment types are enabled, the existing Fix Pull Request workflow applies to both assessment types. Support for SAST Fix Pull Requests is available in the following Black Duck Bulk Onboarding solutions:
+
+    - Azure DevOps | Azure Security Onboarding Solution - For more information see Using Black Duck Security Bulk Onboarding for Azure DevOps with Polaris.
+    - Bitbucket | Black Duck Security Scan App - For more information see Using the Black Duck Security App with Polaris.
+    - GitHub | Black Duck Security Scan App - For more information see Using the GitHub App with Polaris.
+    - GitLab | GitLab Security Onboarding Solution - For more information see Using Black Duck Security Bulk Onboarding with Polaris.
+
 ## August 2026
 
 - Polaris SCA Container Analysis
@@ -120,16 +146,28 @@ List of deprecated Bridge CLI resources: Deprecated resources These resources wi
     When using `SCA-CONTAINER`, set `POLARIS_ASSESSMENT_TYPES` to `SCA` and provide a container name using `POLARIS_CONTAINER_NAME`.
 
     In the Azure DevOps Classic editor, a new `SCA-CONTAINER` value is available in the *Polaris Test Type* field. A new *Container Name* field is also available for specifying a unique name to associate with the uploaded container image archive. For more information, refer to Using the Black Duck Security Scan Extension with Polaris.
+  - Bitbucket | Bitbucket Security Scan Pipe 1.6.0 - Added support for SCA container scans. A new `SCA-CONTAINER` value is available for the `BRIDGE_POLARIS_TEST_SCA_TYPE` parameter. Bridge CLI uploads a container image archive to Polaris for analysis. To enable this capability, specify the path to the container image archive using the `BRIDGE_POLARIS_ARTIFACTTOUPLOAD` parameter. The `SCA_CONTAINER` test type must be used as a standalone option and cannot be combined with other SCA test types.
+
+    When using `SCA-CONTAINER`, set `BRIDGE_POLARIS_ASSESSMENT_TYPES` to `SCA` and provide a container name using `BRIDGE_POLARIS_CONTAINER_NAME`. For more information, refer to Using the Black Duck Security Scan Pipe with Polaris.
   - GitHub | Black Duck Security Scan Action 2.11.0 - Added support for SCA container scans. A new `SCA-CONTAINER` value is available for the `polaris_test_sca_type` parameter. Bridge CLI uploads a container image archive to Polaris for analysis. To enable this capability, specify the path to the container image archive using the `polaris_artifactToUpload` parameter. The `SCA_CONTAINER` test type must be used as a standalone option and cannot be combined with other SCA test types.
 
     When using `SCA-CONTAINER`, set `polaris_assessment_types` to `SCA` and provide a container name using `polaris_container_name`. For more information, refer to Using the Black Duck Security Scan Action with Polaris.
   - GitLab | GitLab Template 2.7.0 - Added support for SCA container scans. A new `SCA-CONTAINER` value is available for the `BRIDGE_POLARIS_TEST_SCA_TYPE` parameter. Bridge CLI uploads a container image archive to Polaris for analysis. To enable this capability, specify the path to the container image archive using the `BRIDGE_POLARIS_ARTIFACTTOUPLOAD` parameter. The `SCA_CONTAINER` test type must be used as a standalone option and cannot be combined with other SCA test types.
 
     When using `SCA-CONTAINER`, set `BRIDGE_POLARIS_ASSESSMENT_TYPES` to `SCA` and provide a container name using `BRIDGE_POLARIS_CONTAINER_NAME`. For more information, refer to Using the Black Duck Security Scan Template with Polaris.
+  - Jenkins | Black Duck Security Scan Plugin 2.10.0 - Added support for SCA container scans. A new `SCA-CONTAINER` value is available for the `polaris_test_sca_type` parameter. Bridge CLI uploads a container image archive to Polaris for analysis. To enable this capability, specify the path to the container image archive using the `polaris_artifactToUpload` parameter. The `SCA_CONTAINER` test type must be used as a standalone option and cannot be combined with other SCA test types.
+
+    When using `SCA-CONTAINER`, set `polaris_assessment_types` to `SCA` and provide a container name using `polaris_container_name`.
+
+    In the Jenkins Freestyle UI for Polaris projects, the new `SCA-CONTAINER` value is available in the *SCA Test Type* field. A new *Container Name* field is also available for specifying a unique name to associate with the uploaded container image archive.
+
+    For more information, refer to Using the Black Duck Security Scan Plugin with Polaris.
 - Polaris SAST Fix Pull Requests
   - Azure DevOps | Black Duck Security Scan Extension 2.9.0 - Added support for creating SAST Fix Pull Requests from Polaris SAST scan results. When enabled, Bridge CLI can create Fix Pull Requests containing AI-generated code fixes for eligible SAST vulnerabilities detected by full baseline SAST scans on monitored branches. This capability is configured by setting `POLARIS_FIXPRR_ENABLED` to `true` and configuring `POLARIS_ASSESSMENT_TYPES` to include `SAST`. Fix Pull Request creation can be filtered by severity using  `POLARIS_FIXPR_FILTER_SEVERITIES` and limited using `POLARIS_FIX_PR_MAXCOUNT`. SAST Fix Pull Requests are available only for full baseline SAST scans on monitored branches using hybrid or remote scan modes. They are not available for Pull Request scans or scans using local scan mode. Consult Using the Black Duck Security Scan Extension with Polaris for further details.
+  - Bitbucket | Bitbucket Security Scan Pipe 1.6.0 - When Polaris Fix Pull Requests are enabled, Bridge CLI can create Fix Pull Requests containing AI-generated code fixes for eligible SAST vulnerabilities detected by full baseline SAST scans on monitored branches. This capability is configured by setting `BRIDGE_POLARIS_FIXPR_ENABLED` to true and configuring `BRIDGE_POLARIS_ASSESSMENT_TYPES` to include SAST. Fix Pull Request creation can be filtered by severity using `BRIDGE_POLARIS_FIXPR_FILTER_SEVERITIES` and limited using `BRIDGE_POLARIS_FIX_PR_MAXCOUNT`. SAST Fix Pull Requests are available only for full baseline SAST scans on monitored branches using hybrid or remote scan modes. They are not available for Pull Request scans or scans using local scan mode. Consult Using the Black Duck Security Scan Pipe with Polaris for futher details.
   - GitHub | Black Duck Security Scan Action 2.11.0 - Added support for for Polaris SAST Fix Pull Requests. When enabled, Bridge CLI can create Fix Pull Requests containing AI-generated code fixes for eligible SAST vulnerabilities detected by full baseline SAST scans on monitored branches. This capability is configured by setting `polaris_fixpr_enabled` to `true` and configuring `polaris_assessment_types` to include `SAST`. Fix Pull Requests creation can be filtered by severity using `polaris_fixpr_filter_severities` and limited using `polaris_fixpr_maxCount`. SAST Fix Pull Requests are available only for full baseline SAST scans on monitored branches using hybrid or remote scan modes. They are not available for Pull Request scans or scans using local scan mode. Consult Using the Black Duck Security Scan Action with Polaris for further details.
   - GitLab | GitLab Template 2.7.0 - When Polaris Fix Pull Requests are enabled, Bridge CLI can create Fix Pull Requests containing AI-generated code fixes for eligible SAST vulnerabilities detected by full baseline SAST scans on monitored branches. This capability is configured by setting `BRIDGE_POLARIS_FIXPR_ENABLED` to true and configuring `BRIDGE_POLARIS_ASSESSMENT_TYPES` to include `SAST`. Fix Pull Request creation can be filtered by severity using `BRIDGE_POLARIS_FIXPR_FILTER_SEVERITIES` and limited using `BRIDGE_POLARIS_FIX_PR_MAXCOUNT`. SAST Fix Pull Requests are available only for full baseline SAST scans on monitored branches using hybrid or remote scan modes. They are not available for Pull Request scans or scans using local scan mode. Consult Using the Black Duck Security Scan Template with Polaris for further details.
+  - Jenkins | 2.10.0 - Added support for for Polaris SAST Fix Pull Requests. When enabled, Bridge CLI can create Fix Pull Requests containing AI-generated code fixes for eligible SAST vulnerabilities detected by full baseline SAST scans on monitored branches. This capability is configured by setting `polaris_fixpr_enabled` to `true` and configuring `polaris_assessment_types` to include `SAST`. Fix Pull Requests creation can be filtered by severity using `polaris_fixpr_filter_severities` and limited using `polaris_fixpr_maxCount`. SAST Fix Pull Requests are available only for full baseline SAST scans on monitored branches using hybrid or remote scan modes. They are not available for Pull Request scans or scans using local scan mode. Consult Using the Black Duck Security Scan Plugin with Polaris for further details.
 
 ## July 2026
 
@@ -154,6 +192,9 @@ List of deprecated Bridge CLI resources: Deprecated resources These resources wi
 - Azure DevOps | Azure Security Onboarding Solution 1.0.0 - The Black Duck Security Onboarding Solution is a new integration for Azure DevOps. The app will generate and deploy a workflow file to selected repositories within a workspace for conducting scans for supported Black Duck platforms: Black Duck® SCA, Coverity and Polaris. For more information, see Getting started: Black Duck Security Bulk Onboarding for Azure DevOps.
 - Bridge 4.4.0
   - Bug fixes and technical improvements.
+  - Support for centralized configuration for SAST scans using a Coverity configuration file managed in the Polaris Web UI. Administrators upload the configuration file to Polaris. During a scan, Bridge CLI retrieves it and passes it to Coverity for analysis.
+
+    A locally specified configuration, using `coverity.config.path` or `--config` or `-c` in `coverity.args`, takes precedence over the centrally managed configuration. If no configuration is available in Polaris or locally, Coverity uses the default CLI and analyzer behavior (see [default analysis documentation](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/48a0a223f2d3132fc578c1a4f7c67eac.topic))
 - Support added for a Fix PR post scan option for onboarding Polaris SCA workflows:
   - Bitbucket | Black Duck Security Scan App 1.0.2
   - GitHub | Black Duck Security Scan App 1.3.1
@@ -168,12 +209,13 @@ List of deprecated Bridge CLI resources: Deprecated resources These resources wi
 
 ## April 2026
 
-- Bridge 4.2.1 - Minor bug fixes and technical improvements.
+- Bridge 4.2.1 - Minor bug fixes and technical improvements. All x86_64 Linux binaries are now statically linked with CGO disabled. Consequently, Bridge 4.2.1 and later have no minimum glibc version requirement.
 - GitLab | GitLab Security Onboarding Solution 1.0.0 - The Black Duck Security Onboarding Solution is a new integration for GitLab. The app will generate and deploy a workflow file to selected repositories within a workspace for conducting scans for supported Black Duck platforms: Black Duck® SCA, Coverity and Polaris.
 - Bitbucket | Black Duck Security Scan Pipe 1.6.0 - Added support for Fix Pull Request creation for Polaris
-- Bridge 4.2
+- Bridge 4.2.0
   - Support added for Signal Enterprise.
   - Use Bridge to upload a binary or archive for SCA scanning with Polaris, enabling detection of open source and license risk even when source code is not available.
+  - Bridge 4.2.0 (Linux x86_64) requires glibc 2.34 or later.
   - Minor bug fixes and technical improvements.
 - Azure DevOps | Black Duck Security Scan Extension 2.7.0 - Added support for Fix Pull Request creation for Polaris
 - Bitbucket | Black Duck Security Scan App 1.0.1 - Support has been added to specify test locations for SAST (hybrid, local or remote) and SCA (hybrid or remote) assessment types in Black Duck Security Scan App for Polaris.

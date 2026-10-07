@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/pnpm-s
 content_id: "ZvBEQiFMwU7FXujOuBpCOA"
 version: "12.0.0"
 section: "Package Manager information for Detect"
-scraped_at: "2026-09-07T21:16:17.310037+00:00"
+scraped_at: "2026-10-04T23:33:21.154463+00:00"
+content_hash: "29924f9444544420247a83cc7b3c15fe49f094543088be200f1e2a7463fe2386"
 ---
 
 # pnpm support

@@ -1,10 +1,11 @@
 ---
 title: "Bazel"
 source_url: "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/bazel.html"
-content_id: "2sGxbfdqFY0BAUhRq7iWlA"
+content_id: "36hwELg6tOcPBz9AEAZAXw"
 version: "latest"
 section: "Black Duck C/CPP Tool"
-scraped_at: "2026-08-13T16:16:56.980679+00:00"
+scraped_at: "2026-10-04T23:32:44.215463+00:00"
+content_hash: "f24739dc2825eacb8eaf74f324f571c20fe7151b9a41e4a3de92f9b58d18c4e4"
 ---
 
 # Bazel

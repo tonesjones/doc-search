@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/create-
 content_id: "kY8KPhxWve~9AOxaEIMAng"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:47:16.759833+00:00"
+scraped_at: "2026-10-04T23:28:26.466991+00:00"
+content_hash: "b46e052f6cb8ac726507194144422fda548b0b580d5319b8e7c92baafa220ca3"
 ---
 
 # Create external issues from Black Duck SCA scans

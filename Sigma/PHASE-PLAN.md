@@ -1,3 +1,5 @@
+> Historical import plan for 2026.8.0. The current 2026.9.1 snapshot uses `index.md` and separate versioned paths.
+
 # Sigma corpus — phased scrape plan
 
 **Pinned product:** `sigma-2026.8.0`  

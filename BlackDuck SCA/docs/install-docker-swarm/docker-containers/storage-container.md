@@ -1,17 +1,18 @@
 ---
 title: "Storage container"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/storage-container.html"
-content_id: "s3LDi8TV8gZy_~BwauLhIg"
+content_id: "4w5m76LXHCkEYJZY8Wap_Q"
 version: "2026.7"
 section: "Installing Black Duck using Docker Swarm"
-scraped_at: "2026-08-08T15:34:26.073752+00:00"
+scraped_at: "2026-10-04T23:32:26.249540+00:00"
+content_hash: "cf67c540d181d6c6e4cf4fe282ca0b4728d1d24a7118648ed6eab5c24504d3aa"
 ---
 
 # Storage container
 
 | Container Name: blackduck-storage | |
 | --- | --- |
-| Image Name | blackducksoftware/blackduck-storage:2026.7.0 |
+| Image Name | blackducksoftware/blackduck-storage:2026.7.1 |
 | Description | The storage service provides functionality for many users with the ability to upload files, download files, and define the default file when a file has multiple available versions. |
 | Scalability | This container can be scaled. |
 | Links/Ports | This container needs to connect to these containers/services:   - postgres - registration - rabbitmq - logstash - cfssl |

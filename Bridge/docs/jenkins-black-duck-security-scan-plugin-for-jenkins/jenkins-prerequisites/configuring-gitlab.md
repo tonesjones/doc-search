@@ -3,8 +3,9 @@ title: "Configuring GitLab"
 source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/configuring-gitlab.html"
 content_id: "OMwtry3pg7r_hQuxgno82w"
 version: "latest"
-section: "Jenkins - Black Duck Security Scan Plugin for Jenkins"
-scraped_at: "2026-08-08T23:48:34.024552+00:00"
+section: "Jenkins Integrations"
+scraped_at: "2026-10-04T23:28:30.324513+00:00"
+content_hash: "31147db677bb0383575a6e2ac3f3cb33fa9db5a4c40ee8b9c904d0cf8dd0f35e"
 ---
 
 # Configuring GitLab

@@ -1,10 +1,11 @@
 ---
 title: "Fixed Issues in 2022.7.1"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/fixed-issues-in-2022.7.1.html"
-content_id: "Jd6CLDQq6YJmXUW4cOfdEA"
+content_id: "QiRhRWqCYZ4oqE3eufxeVQ"
 version: "2026.7"
-section: "Release Notes"
-scraped_at: "2026-08-08T15:37:31.385164+00:00"
+section: "Black Duck SCA Release Notes"
+scraped_at: "2026-10-04T23:32:33.781056+00:00"
+content_hash: "b2f236976ae5f0dd028c8f315aded8d55d2a53672f228d91ed74e9b4361fbad5"
 ---
 
 # Fixed Issues in 2022.7.1

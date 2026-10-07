@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/bi
 content_id: "TMT1Dh3XyS3AW1qqGZsV~A"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:57:16.060829+00:00"
-content_hash: "c824dca5885a1aacdd85512e3326afd386b036ffae339ae846ba3335598959bb"
+scraped_at: "2026-10-04T23:29:20.633321+00:00"
+content_hash: "9121276e2d27e914eb040755cd314dcce8bdf7abb932f546f0c035eb9b0f46e2"
 ---
 
 # Bitbucket Tokens for SCM Bulk Integration and/or Monitoring

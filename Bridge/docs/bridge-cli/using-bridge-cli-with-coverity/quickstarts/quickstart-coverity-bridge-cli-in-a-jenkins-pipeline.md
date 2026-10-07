@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickst
 content_id: "D_ymOD7ePOPDqiji8LrA3w"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:47:22.597905+00:00"
+scraped_at: "2026-10-04T23:28:26.736134+00:00"
+content_hash: "e2f6f4968dd0c21be929349fead703a40f44456e5034ca1963cfe8f0e588abed"
 ---
 
 # Quickstart: Coverity Bridge CLI in a Jenkins pipeline
@@ -151,11 +152,11 @@ Follow the steps below to configure a Jenkins pipeline that invokes Bridge CLI f
    }
    ```
 
-   Note: For deployments with [scan_services](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/cnc/topics/scan_service.html) disabled the `BRIDGE_COVERITY_LOCAL` environment variable should be uncommented. Subsequently, the full Coverity client will be used to enable a local analysis to be performed with the full toolkit. This will override the default behaviour that uses the Coverity thin client to capture and upload artifacts, with analysis being performed on the server.
+   Note: For deployments with [scan_services](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/0a69325e186c9bec20342e8d19ab1fb4.topic) disabled the `BRIDGE_COVERITY_LOCAL` environment variable should be uncommented. Subsequently, the full Coverity client will be used to enable a local analysis to be performed with the full toolkit. This will override the default behaviour that uses the Coverity thin client to capture and upload artifacts, with analysis being performed on the server.
 
    In the example above it can be observed that the pipeline downloads and executes the Bridge CLI directly for running full scans and Pull Request scans.
 
-   A full scan is performed when code is pushed or merged to the `main`, `master`, `develop`, `stage` or `release` branches. The Coverity analysis is tagged with the Jenkins build identifier, providing build traceability for security findings. The `coverity.connect.policy.view` parameter is configured to break the build if new or outstanding issues are detected as defined by the Outstanding Issues [policy view](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/coverity-platform/topics/view_issues_by_snapshot.html) (see [View Management](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/coverity-platform/topics/view_management.html) for details).
+   A full scan is performed when code is pushed or merged to the `main`, `master`, `develop`, `stage` or `release` branches. The Coverity analysis is tagged with the Jenkins build identifier, providing build traceability for security findings. The `coverity.connect.policy.view` parameter is configured to break the build if new or outstanding issues are detected as defined by the Outstanding Issues [policy view](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/bf31a35839bf6ab49773e9063d5bda88.topic) (see [View Management](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/f90e1c0212f2dc46cdbd0c29650065af.topic) for details).
 
    For Pull Requests targeting those branches, Bridge CLI is invoked directly to perform a Pull Request scan to inject Pull Request comments for new issues introduced in the feature branch. Uncomment the `coverity.prcomment.impacts` parameter to inject comments filtered by impact level, with a default of "High" if unset.
 
@@ -181,10 +182,10 @@ If a pipeline error is encountered similar to the example below, then the `BRIDG
 
 Attention: ERROR: Failed to retrieve tool information details: Fetch tool information: received unexpected response status code '500' from Connect API
 
-In this scenario either [scan services](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/cnc/topics/scan_service.html) are not enabled or a Coverity version prior to 2022.3 is deployed. The default behavior is that the pipeline uses the Coverity thin client to upload artifacts, with the analysis performed at the server. Setting the `BRIDGE_COVERITY_LOCAL` environment variable to `true` enables the full analysis at the client. Subsequently, the scan and analysis will be performed locally by the workflow. For further details relating to the different Coverity deployment models supported, please refer to [Coverity Deployment Architecture](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/help-center/topics/deployment_architecture.html).
+In this scenario either [scan services](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/0a69325e186c9bec20342e8d19ab1fb4.topic) are not enabled or a Coverity version prior to 2022.3 is deployed. The default behavior is that the pipeline uses the Coverity thin client to upload artifacts, with the analysis performed at the server. Setting the `BRIDGE_COVERITY_LOCAL` environment variable to `true` enables the full analysis at the client. Subsequently, the scan and analysis will be performed locally by the workflow. For further details relating to the different Coverity deployment models supported, please refer to [Coverity Deployment Architecture](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/a0caa9e5b240fbee6150f8640240b2a5.topic).
 
 ## Useful resources
 
-- [Coverity Product Documentation](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/webhelp-files/help_center_start.html)
+- [Coverity Product Documentation](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/65af71645148476f0c3da0e6b8552214.topic)
 - Bridge product overview
 - Jenkins Security Scan Plugin for Coverity

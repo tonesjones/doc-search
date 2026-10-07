@@ -1,17 +1,18 @@
 ---
 title: "Registration container"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/registration-container.html"
-content_id: "1dcQYq4gkz5Q0IIOw1TqyA"
+content_id: "b4hlDR6Uzgh3B5j7gV6Nmw"
 version: "2026.7"
 section: "Installing Black Duck using Docker Swarm"
-scraped_at: "2026-08-08T15:34:24.942362+00:00"
+scraped_at: "2026-10-04T23:32:26.178748+00:00"
+content_hash: "89c92917dba774e5d3badfc230a4ebe1ff7fc71775ce2895f426c2300ea1eb25"
 ---
 
 # Registration container
 
 | Container Name: blackduck-registration | |
 | --- | --- |
-| Image Name | blackducksoftware/blackduck-registration:2026.7.0 |
+| Image Name | blackducksoftware/blackduck-registration:2026.7.1 |
 | Description | The container is a small service that handles registration requests from the other containers. At periodic intervals, this container connects to the Black Duck Registration Service and obtains registration updates. |
 | Scalability | The container should not be scaled. |
 | Links/Ports | The Registration container needs to connect to this containers/services:   - logstash - cfssl   The container needs to expose port 8443 to other containers that link to it. |

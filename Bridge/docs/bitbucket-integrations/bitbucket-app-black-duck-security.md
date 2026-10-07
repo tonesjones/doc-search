@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/bitbuck
 content_id: "5_mzNu_EEa1wLKNNBs6yrw"
 version: "latest"
 section: "Bitbucket Integrations"
-scraped_at: "2026-08-08T23:48:49.992151+00:00"
+scraped_at: "2026-10-04T23:28:31.054995+00:00"
+content_hash: "0edc381b918e08c276baf469bdad6731087b19ea4a94b5a37d8e4d9929c925be"
 ---
 
 # Bitbucket App - Black Duck Security

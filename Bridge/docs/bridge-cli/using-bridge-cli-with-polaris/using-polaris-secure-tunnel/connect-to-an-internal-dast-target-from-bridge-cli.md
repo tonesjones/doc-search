@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/connect
 content_id: "LAqlJet_AOwzEjLu0kJVpQ"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:47:06.119486+00:00"
+scraped_at: "2026-10-04T23:28:26.000001+00:00"
+content_hash: "28517dcc6131d21b79d0ccefd4ba3b60737e98ec12b96547c04ad63fd85e47f2"
 ---
 
 # Connect to an internal DAST target from Bridge CLI

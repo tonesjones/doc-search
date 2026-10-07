@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/detect
 content_id: "~senNQqZziBX21Ydk5Hh_A"
 version: "12.0.0"
 section: "Downloading and Installing Detect"
-scraped_at: "2026-09-07T21:14:58.963887+00:00"
+scraped_at: "2026-10-04T23:33:18.649646+00:00"
+content_hash: "7470ce4d997e22c7eafcb5c9e0ee42c2cddb18065c81dd89223fb619f9e569a4"
 ---
 
 # Detect Air Gap mode

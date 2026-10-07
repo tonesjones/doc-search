@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/troubl
 content_id: "eq1fpx~9qhyJrVdEBgYhrQ"
 version: "12.0.0"
 section: "Package Manager information for Detect"
-scraped_at: "2026-09-07T21:16:09.122534+00:00"
+scraped_at: "2026-10-04T23:33:20.900310+00:00"
+content_hash: "6f498b9799b37e1fdcf8e972036f4a96eaea2c653ff7aae20aac1abbbd40033e"
 ---
 
 # Troubleshooting Docker Inspector

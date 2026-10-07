@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/th
 content_id: "UIaJKQ6VgZb_qrqxjYgSVQ"
 product_key: "polaris-platform-latest"
 section: "The Polaris web UI"
-scraped_at: "2026-08-12T19:55:46.391156+00:00"
-content_hash: "b5ccf11b7af907d39f2368fcbbe1b309bd762657acc0711952f6437d48e17a45"
+scraped_at: "2026-10-04T23:29:17.514108+00:00"
+content_hash: "840d3d085f3b6bb3b44d67219c25864685f6b07795ed16fc92bcde24c1e100e4"
 ---
 
 # The Licenses page

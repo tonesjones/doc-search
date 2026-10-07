@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/wa
 content_id: "VDpqzlQJabOCG04bXwvyvQ"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:56:48.509158+00:00"
-content_hash: "6af4e8cf8803a6eed1ae306aca4ffeceb3d23d2e33e653adf57b95154610c6db"
+scraped_at: "2026-10-04T23:29:19.602453+00:00"
+content_hash: "7460d8cbb8d238a55b34ac1d353c0e3ac28485117df24463be68708b865cd382"
 ---
 
 # Ways to triage issues in Polaris
@@ -15,6 +15,7 @@ In the issue list you can triage issues in several ways:
 - Triage individual issues
 - Batch triage by manually selecting multiple issues
 - Batch triage by filtering
+- Use AI-assisted triage on up to 20 SAST issues at a time
 - Triage all
 
 You'll need to use all of these, so we explain each approach on this page.
@@ -35,7 +36,7 @@ Note the following when triaging issues:
 
   See [Set up triage approval workflows](set-up-triage-approval-workflows.md) and Work with dashboards for more information.
 - Dismissed issues and excluded components (via issue and component triage) are not included in reports. Dismissed issues and excluded components are typically hidden on dashboards that show issues and components; adjusting filters may allow you to see them. After you triage an issue (and approve the change, if required), it can take up to 60 minutes for the change to affect reports and dashboards.
-- When you dismiss an issue linked to a ticket in Azure DevOps or Jira, the ticket may close automatically. See Automatically close tickets and synchronize triage statuses for more information.
+- If your project is connected to an issue tracking integration, when you dismiss an issue linked to a ticket in an external issue tracking instance, the ticket may close automatically. If your project is configured with two-way status synchronization, status changes in the external issue tracker ticket bypass triage approval workflows and immediately update the triage status of the linked issue(s) in Polaris. See Automatically close tickets and synchronize triage statuses for more information.
 
 ## Tutorial: Triage issues in Polaris
 
@@ -70,9 +71,9 @@ You might decide to review an issue independently to decide whether to dismiss i
 
         Note: When you manually set or change an issue's fix-by date, the fix-by time is set to 5:00 PM in your local timezone.
       - To clear the issue's fix-by date, select No Date with the Fix-By Date dropdown menu.
-   6. (Optional) Update the Azure DevOps or Jira ticket the issue is linked to using the Bug Tracking ID field.
+   6. (Optional) Update the external ticket the issue is linked to using the Bug Tracking ID field.
 
-      Important: The Bug Tracking ID field only appears when triaging issues in a project connected to Azure DevOps or Jira. For more information, see [Issue tracking integrations](issue-tracking-integrations.md).
+      Important: The Bug Tracking ID field only appears when triaging issues in a project connected to an external issue tracking instance. For more information, see [Issue tracking integrations](issue-tracking-integrations.md).
 
       To unlink the issue from the ticket, clear the Bug Tracking ID field. To change the ticket the issue is linked to, enter a new ticket ID or key in the field.
 3. Click Save.
@@ -100,9 +101,9 @@ You can triage multiple issues you select manually.
    4. (Optional) To change the issues' fix-by date, select Fix-By Date, and then select a date from the picker.
 
       Note: When you manually set or change an issue's fix-by date, the fix-by time is set to 5:00 PM in your local timezone.
-   5. (Optional) To update the Azure DevOps or Jira ticket the issues are linked to, select Bug Tracking ID.
+   5. (Optional) To update the external ticket the issues are linked to, select Bug Tracking ID.
 
-      Important: The Bug Tracking ID field only appears when triaging issues in a project connected to Azure DevOps or Jira. For more information, see [Issue tracking integrations](issue-tracking-integrations.md).
+      Important: The Bug Tracking ID field only appears when triaging issues in a project connected to an external issue tracking instance. For more information, see [Issue tracking integrations](issue-tracking-integrations.md).
 
       To unlink the issues from the tickets they're linked to, select Clear all values. To link the issues to a single ticket, select Assign new value, and enter the ticket's key or ID in the field.
    6. Enter a comment that describes the change you made in the Comment field.
@@ -143,9 +144,9 @@ You can triage multiple issues you select with filters.
    4. (Optional) To change the issues' fix-by date, select Fix-By Date, and then select a date from the picker.
 
       Note: When you manually set or change an issue's fix-by date, the fix-by time is set to 5:00 PM in your local timezone.
-   5. (Optional) To update the Azure DevOps or Jira ticket the issues are linked to, select Bug Tracking ID.
+   5. (Optional) To update the external ticket the issues are linked to, select Bug Tracking ID.
 
-      Important: The Bug Tracking ID field only appears when triaging issues in a project connected to Azure DevOps or Jira. For more information, see [Issue tracking integrations](issue-tracking-integrations.md).
+      Important: The Bug Tracking ID field only appears when triaging issues in a project connected to an external issue tracking instance. For more information, see [Issue tracking integrations](issue-tracking-integrations.md).
 
       To unlink the issues from the tickets they're linked to, select Clear all values. To link the issues to a single ticket, select Assign new value, and enter the ticket's key or ID in the field.
    6. Enter a comment that describes the change you made in the Comment field.

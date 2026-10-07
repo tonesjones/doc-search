@@ -1,20 +1,18 @@
 ---
 title: "Creating user groups"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/creating-user-groups.html"
-content_id: "goEOP2hBtBnPYji0xatoag"
+content_id: "UUCCgjK~diG~pPEOg4CydA"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T15:31:48.145673+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:19.360668+00:00"
+content_hash: "d9f0f16fd3c753ab827b71bdc3a455db5dcaa554c6a075bc86d98fbc023cc9a7"
 ---
 
 # Creating user groups
 
-You can create and configure a group with specific roles that will be granted to all
-members of the group.
+You can create and configure a group with specific roles that will be granted to all members of the group.
 
-If you create a default group, subsequent new users are automatically added to this group
-and are granted all roles and access to all projects configured for this group. Note
-that:
+If you create a default group, subsequent new users are automatically added to this group and are granted all roles and access to all projects configured for this group. Note that:
 
 - You can have more than one default group.
 - Default groups have a status of *Status* - Default.
@@ -35,12 +33,9 @@ To create a group:
    1. Type the name of the group in the **Group Name** field.
    2. Select whether this group is active or inactive.
    3. Select whether this group is a default group.
-   4. Click **Create**. The Group Management page updates to display the new
-      group.
+   4. Click **Create**. The Group Management page updates to display the new group.
 
 You can now:
 
-- Add members to the
-  group.
-- Assign roles to
-  the group.
+- Add members to the group.
+- Assign roles to the group.

@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/script
 content_id: "ZvmabLzKGT4yZx5ngTdy7w"
 version: "12.0.0"
 section: "Getting started with Detect"
-scraped_at: "2026-09-07T21:15:08.669390+00:00"
+scraped_at: "2026-10-04T23:33:18.919855+00:00"
+content_hash: "1ee38c0a6d6f21ba7ea2ca8ca4c77241f254d4a88aaa3003ff58e0c19940f8cd"
 ---
 
 # Script

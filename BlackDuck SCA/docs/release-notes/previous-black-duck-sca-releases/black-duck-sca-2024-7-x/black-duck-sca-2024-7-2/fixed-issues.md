@@ -1,10 +1,11 @@
 ---
 title: "Fixed issues"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/fixed-issues.html"
-content_id: "D3Swe_Oy_12ciWtTYLQAGw"
+content_id: "Pgq5YhmjFiPnWzOqLL5Aog"
 version: "2026.7"
-section: "Release Notes"
-scraped_at: "2026-08-08T15:36:03.250076+00:00"
+section: "Black Duck SCA Release Notes"
+scraped_at: "2026-10-04T23:32:30.231189+00:00"
+content_hash: "0e8bc529992cc8a7554e365d20f629a6464098b495cb71f62f25bd0f84211ecd"
 ---
 
 # Fixed issues

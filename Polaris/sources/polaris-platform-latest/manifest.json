@@ -5,8 +5,8 @@
   "mapId": "5MMaMfDebQ2sCji2eI3ezg",
   "readerUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/",
   "tocUrl": "https://docs.blackduck.com/api/khub/maps/5MMaMfDebQ2sCji2eI3ezg/toc",
-  "lastTocFetch": "2026-08-12T19:11:16.839767+00:00",
-  "lastIndexBuild": "2026-08-12T19:58:45.875748+00:00",
+  "lastTocFetch": "2026-10-04T23:27:42.429109+00:00",
+  "lastIndexBuild": "2026-10-04T23:35:12.434071+00:00",
   "topics": [
     {
       "id": "taeL7mR~5faLfq3dTmpRjA",
@@ -42,9 +42,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:55:39.763297+00:00",
-      "contentHash": "764a5a15cd2206b1f06f66dec33c05ccaa7264c0fb342009bba2f0fa8010b951",
-      "bytes": 3997,
+      "scrapedAt": "2026-10-04T23:29:17.132877+00:00",
+      "contentHash": "019278e99a9c2b96bec43955fa9eba7abdba3f5df1abc686e3bdd40a8547bb38",
+      "bytes": 4337,
       "hasChildren": false
     },
     {
@@ -82,9 +82,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:55:41.072096+00:00",
-      "contentHash": "0be04be16d17d2d253a75e2e54e56965869f66acee9c2a6820296c902a7e77e3",
-      "bytes": 4282,
+      "scrapedAt": "2026-10-04T23:29:17.164128+00:00",
+      "contentHash": "b5f8464d4ad4aae398d318b824d411fa2cbd020ce4429a660f9f1f0bcf29107f",
+      "bytes": 4726,
       "hasChildren": false
     },
     {
@@ -102,9 +102,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:55:41.948299+00:00",
-      "contentHash": "4c82fb580262eb132859bcc8e92a4d5497f4af7a3551a2a212c4f6eca980aca7",
-      "bytes": 3097,
+      "scrapedAt": "2026-10-04T23:29:17.190508+00:00",
+      "contentHash": "d24cf5ffab10dea0933f9f95ee7d9cd3d397268e54ad0f5b5381f593aa615b15",
+      "bytes": 3194,
       "hasChildren": false
     },
     {
@@ -141,8 +141,8 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:55:43.449075+00:00",
-      "contentHash": "ae75863db4016e8d3107d687e28140ae2feb7b18ee3a42af3f2f0421af83dd6d",
+      "scrapedAt": "2026-10-04T23:29:17.235156+00:00",
+      "contentHash": "0bfe7450707a241f9f867036c02278d205aaa00ed3fafe46125ce270d34488a8",
       "bytes": 3031,
       "hasChildren": false
     },
@@ -161,9 +161,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:55:44.698812+00:00",
-      "contentHash": "56eb32441b4fc4db314e3e9370942f6abaab654e989f8141aed904d373f1b48f",
-      "bytes": 30283,
+      "scrapedAt": "2026-10-04T23:29:17.442646+00:00",
+      "contentHash": "274e3902d631a6d1002bbf8599e7c883b3984bdfa9a40a85e73c4038c917c5e4",
+      "bytes": 31850,
       "hasChildren": false
     },
     {
@@ -181,9 +181,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:55:45.599607+00:00",
-      "contentHash": "769bbc94b4f612a33a582894595d35ec99456012668194019bf4c3f192543832",
-      "bytes": 6833,
+      "scrapedAt": "2026-10-04T23:29:17.494511+00:00",
+      "contentHash": "a0f5195f1fb7ebb5133502df8249baffd337df17f338d5e3ce8a14a7c3702d4c",
+      "bytes": 6858,
       "hasChildren": false
     },
     {
@@ -201,8 +201,8 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:55:46.391156+00:00",
-      "contentHash": "b5ccf11b7af907d39f2368fcbbe1b309bd762657acc0711952f6437d48e17a45",
+      "scrapedAt": "2026-10-04T23:29:17.514108+00:00",
+      "contentHash": "840d3d085f3b6bb3b44d67219c25864685f6b07795ed16fc92bcde24c1e100e4",
       "bytes": 1810,
       "hasChildren": false
     },
@@ -241,9 +241,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:55:48.249550+00:00",
-      "contentHash": "51f01c04cfa84d76de9c161e084178ac3d2d46eb2fc088da834c94a12c89343c",
-      "bytes": 1874,
+      "scrapedAt": "2026-10-04T23:29:17.550393+00:00",
+      "contentHash": "3fadb11a3b2f94c95403982a482589411853dd9a420c4327db1cd5fb876fed5e",
+      "bytes": 1894,
       "hasChildren": false
     },
     {
@@ -261,9 +261,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:55:49.143889+00:00",
-      "contentHash": "ae8db9e76c48d5d445a63670b7a97ba643cf3b7fcf05085b75db7f492eb2486b",
-      "bytes": 4294,
+      "scrapedAt": "2026-10-04T23:29:17.598162+00:00",
+      "contentHash": "d1181153fc33382546534d36d8db22e66aff2a0e91734517489a8a5299b6930d",
+      "bytes": 4228,
       "hasChildren": false
     },
     {
@@ -281,9 +281,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:55:49.964600+00:00",
-      "contentHash": "fa39d56cea0c8c75b4cb4720d1299c60cb0e597dcbd0661687f0a0595fdadab0",
-      "bytes": 5705,
+      "scrapedAt": "2026-10-04T23:29:17.638898+00:00",
+      "contentHash": "e4aeca7884b25620fbd897d778a571c098290967dab8cb98dcb84cf85cc411a8",
+      "bytes": 6526,
       "hasChildren": false
     },
     {
@@ -301,8 +301,8 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:55:50.765881+00:00",
-      "contentHash": "80850ad27d925c2ad8e5e8a6c9b235001f3c6fd21f9aa7e6a8b405b725fd925b",
+      "scrapedAt": "2026-10-04T23:29:17.657476+00:00",
+      "contentHash": "e534d02e56e80b35b82c309ce3b352fe078dd984a1096758c4edd2053d3178da",
       "bytes": 1411,
       "hasChildren": false
     },
@@ -340,8 +340,8 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:55:52.357579+00:00",
-      "contentHash": "5aed808eb43677f15adcc2470475046589fba0964ebe7b2265b3b00eeb8af437",
+      "scrapedAt": "2026-10-04T23:29:17.701665+00:00",
+      "contentHash": "19613a549b5bf704226c2e8ddf1c697ad0330c29c4a7474435d1d7e9efcb7359",
       "bytes": 4283,
       "hasChildren": false
     },
@@ -360,9 +360,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:55:53.538979+00:00",
-      "contentHash": "303a3a6c9bd982a9e2cab20652b22557b471da2e122a21753d1e4b2d199660dd",
-      "bytes": 11537,
+      "scrapedAt": "2026-10-04T23:29:17.792564+00:00",
+      "contentHash": "0111e8a4ab46b59d6df36c1e1f48b9735a35426597ec26158f9574f50cf501b0",
+      "bytes": 11844,
       "hasChildren": false
     },
     {
@@ -380,9 +380,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:55:54.635086+00:00",
-      "contentHash": "2127d9fd0c48027cab161ddd63e7aa25af2a5b6499f5051504f8dc8363717d91",
-      "bytes": 9986,
+      "scrapedAt": "2026-10-04T23:29:17.872999+00:00",
+      "contentHash": "4f6ccfc3426ec8ad17e8238c006570edbdc53d86bc7104a9177195ce86350574",
+      "bytes": 10271,
       "hasChildren": false
     },
     {
@@ -400,9 +400,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:55:55.614020+00:00",
-      "contentHash": "e04c3a83f6124a5f478f5f1e454ec104a3775bab4f4508e71dfc977d6c9adeb6",
-      "bytes": 6346,
+      "scrapedAt": "2026-10-04T23:29:17.926451+00:00",
+      "contentHash": "4e097bba59c266b37d7700242ba837a7ebbd959ad1248df0621465b589c296cc",
+      "bytes": 6653,
       "hasChildren": false
     },
     {
@@ -420,9 +420,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:55:56.578435+00:00",
-      "contentHash": "828de6640bdfb2072182a3672385cd9b2e583c85f27d181bd9f86bf465cebd37",
-      "bytes": 4137,
+      "scrapedAt": "2026-10-04T23:29:17.967080+00:00",
+      "contentHash": "5c5c84df0532127631d82da6a33d605c34b7df598d31a54de5ec3dc7a2a05553",
+      "bytes": 4444,
       "hasChildren": false
     },
     {
@@ -459,9 +459,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:55:57.981648+00:00",
-      "contentHash": "acce12d751f62b64d3b0c07049b38416268af5b3fbba0ffe810b1a5147ebb58a",
-      "bytes": 12527,
+      "scrapedAt": "2026-10-04T23:29:18.036306+00:00",
+      "contentHash": "a04115bc86b7f396bab8a8b1e3ec91245bd25150b5b5abe6ae43607ca20b5e4f",
+      "bytes": 12525,
       "hasChildren": true
     },
     {
@@ -480,8 +480,8 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:55:58.887764+00:00",
-      "contentHash": "b1b0605098c32aed3a48a62ad812eb05745c7d6be86d72a1a9976d8b193badf8",
+      "scrapedAt": "2026-10-04T23:29:18.086493+00:00",
+      "contentHash": "d6928d0ca7775894f0dd2fb0f9a884a8905741826ab78f3d1226c4fe426203d4",
       "bytes": 7029,
       "hasChildren": false
     },
@@ -500,9 +500,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:55:59.642498+00:00",
-      "contentHash": "685bde447f7195791bfe0c2855169a5593835ddfe039c31fb0868bb90220b78a",
-      "bytes": 10962,
+      "scrapedAt": "2026-10-04T23:29:18.153120+00:00",
+      "contentHash": "891119315d6eca0d5a131711c25a95ee726c0fe158715a076309219211ac9a8a",
+      "bytes": 11014,
       "hasChildren": false
     },
     {
@@ -520,8 +520,8 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:00.585502+00:00",
-      "contentHash": "a6db475be201ec9f8495b0967e85e5d1b63ede783effdbe2e87c3a164c21c98a",
+      "scrapedAt": "2026-10-04T23:29:18.229960+00:00",
+      "contentHash": "3711eaeac1fb5b198b5f248dbb4993a538649dc49e6450323cd9774e29b1781b",
       "bytes": 16101,
       "hasChildren": true
     },
@@ -541,8 +541,8 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:01.327975+00:00",
-      "contentHash": "dc28095931fb3650b75017d081816e27cc54058eea11a0ad36081d8f1ff070bd",
+      "scrapedAt": "2026-10-04T23:29:18.279494+00:00",
+      "contentHash": "9e02fbdfdb07bb8010db04f1e87005edf2ab6a8220b540bee9fe2a28b83225b4",
       "bytes": 8253,
       "hasChildren": false
     },
@@ -562,8 +562,8 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:02.176629+00:00",
-      "contentHash": "2732e3f1b4b64763f94ee687623e573382ecf108f7ae9201f1b3bf5f68097d62",
+      "scrapedAt": "2026-10-04T23:29:18.334394+00:00",
+      "contentHash": "34bd6b2c0fe7b2c76c7474908ba8bd64094926242e401115d4667ef93072ed25",
       "bytes": 9582,
       "hasChildren": false
     },
@@ -623,9 +623,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:04.394820+00:00",
-      "contentHash": "629fc26faf420b5cbf0ee18df90d33a0e34ddfd3417ad1305bead02c8ba074b8",
-      "bytes": 6773,
+      "scrapedAt": "2026-10-04T23:29:18.400322+00:00",
+      "contentHash": "bb83fd8d836ef573a867e222de179e653d54f0b5579ffbf8905225a72f01b3f0",
+      "bytes": 6914,
       "hasChildren": false
     },
     {
@@ -643,9 +643,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:05.386486+00:00",
-      "contentHash": "94b36cc0496e76fb0458ec4680250a53e654e0942086b399c0e030378dfc0c88",
-      "bytes": 2904,
+      "scrapedAt": "2026-10-04T23:29:18.430756+00:00",
+      "contentHash": "aeaa3ed2936d37fefe8fc48832d70c2451754fe2838680f0051ea84f411c9775",
+      "bytes": 3503,
       "hasChildren": true
     },
     {
@@ -664,9 +664,9 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:06.286929+00:00",
-      "contentHash": "c1a73807963dc14f5f6e9b277f6d0617c72bc47e86cfe5832180a58f9a705e4b",
-      "bytes": 2578,
+      "scrapedAt": "2026-10-04T23:29:18.462804+00:00",
+      "contentHash": "8a790185530b95b35ced815de168f8c35962168e9a0d14a6441e55345c0bccf2",
+      "bytes": 3141,
       "hasChildren": false
     },
     {
@@ -685,9 +685,9 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:06.920471+00:00",
-      "contentHash": "e2f1ea96decd49d9a46f40ba1c655ade0db51482d2edae97594257a1558e90b3",
-      "bytes": 2565,
+      "scrapedAt": "2026-10-04T23:29:18.492870+00:00",
+      "contentHash": "1a6b2fb7dbb744ec3248c2b5458146beb228ce76c1d0f167fd2edf73f4ce2e65",
+      "bytes": 3710,
       "hasChildren": false
     },
     {
@@ -809,8 +809,8 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:10.847072+00:00",
-      "contentHash": "fb601fa7cbd0a47ed4fd9eb1a231dabe04e0f3edf658093d70c6d229bec98684",
+      "scrapedAt": "2026-10-04T23:29:18.584825+00:00",
+      "contentHash": "16754be7b016f9a34508f6e3e330a88258f49baffc0fbc9f93446ba9f5f9ade6",
       "bytes": 9146,
       "hasChildren": false
     },
@@ -871,9 +871,9 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:12.817982+00:00",
-      "contentHash": "b5777fb1316b1716b37e5bbed588319fb3ea5581eddfbc1745e445705ed7a7a0",
-      "bytes": 2240,
+      "scrapedAt": "2026-10-04T23:29:18.620158+00:00",
+      "contentHash": "559da37a359158cd3d6568c32ce07d10167c9e5292dffb66daf3f105673616d6",
+      "bytes": 2322,
       "hasChildren": false
     },
     {
@@ -997,9 +997,9 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:16.676695+00:00",
-      "contentHash": "726605c55bf9652e315c5d5a7ae418e1252841d32dc2974a138c466b59d27cfe",
-      "bytes": 1480,
+      "scrapedAt": "2026-10-04T23:29:18.668120+00:00",
+      "contentHash": "8b082c852952eef2b32af8586f2d03758143629ef701b759fc2c718febcc7ab0",
+      "bytes": 1623,
       "hasChildren": false
     },
     {
@@ -1024,6 +1024,152 @@
       "hasChildren": false
     },
     {
+      "id": "xIT7D7YHNn_8euJvc~aj3Q",
+      "tocId": "QcUX2UF_rSaGDccT8qfavQ",
+      "title": "Centralize your Coverity configuration",
+      "path": [
+        "How-to",
+        "Centralize your Coverity configuration"
+      ],
+      "section": "How-to",
+      "prettyUrl": "/r/polaris/black-duck-polaris-platform/centralize-your-coverity-configuration.html",
+      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/centralize-your-coverity-configuration.html",
+      "localPath": "docs/platform/how-to/centralize-your-coverity-configuration.md",
+      "depth": 2,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:16.215331+00:00",
+      "contentHash": "f73f9b476d636ba0df735fa79af126d1f904894d920362cf7bb1069047847fa5",
+      "bytes": 3103,
+      "hasChildren": true
+    },
+    {
+      "id": "9s6beSd1Ihsm5xHX3XTJ~g",
+      "tocId": "EbdEa8pr5Me_NtbI4qohyw",
+      "title": "Update your organization's Coverity configuration",
+      "path": [
+        "How-to",
+        "Centralize your Coverity configuration",
+        "Update your organization's Coverity configuration"
+      ],
+      "section": "How-to",
+      "prettyUrl": "/r/polaris/black-duck-polaris-platform/update-your-organization-s-coverity-configuration.html",
+      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/update-your-organization-s-coverity-configuration.html",
+      "localPath": "docs/platform/how-to/centralize-your-coverity-configuration/update-your-organization-s-coverity-configuration.md",
+      "depth": 3,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:16.248247+00:00",
+      "contentHash": "7a2de438c74f661bb87112970b6baf8f47243fde55215a990809234e6eea1e58",
+      "bytes": 1580,
+      "hasChildren": false
+    },
+    {
+      "id": "qL1t2M2v2fTyHtujXM2s3w",
+      "tocId": "nXHGgQxSpYddhrsKv0EUFg",
+      "title": "Update an application's Coverity configuration",
+      "path": [
+        "How-to",
+        "Centralize your Coverity configuration",
+        "Update an application's Coverity configuration"
+      ],
+      "section": "How-to",
+      "prettyUrl": "/r/polaris/black-duck-polaris-platform/update-an-application-s-coverity-configuration.html",
+      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/update-an-application-s-coverity-configuration.html",
+      "localPath": "docs/platform/how-to/centralize-your-coverity-configuration/update-an-application-s-coverity-configuration.md",
+      "depth": 3,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:16.266442+00:00",
+      "contentHash": "3a1b42e117c70cccc02a680c80396b967502015e9d7e7eeb8eec0e4901dfa821",
+      "bytes": 1678,
+      "hasChildren": false
+    },
+    {
+      "id": "h2Z1KHcz59qQS81L3XOTHg",
+      "tocId": "osNy4cCxJXjvCocK8fUuaQ",
+      "title": "Update a project's Coverity configuration",
+      "path": [
+        "How-to",
+        "Centralize your Coverity configuration",
+        "Update a project's Coverity configuration"
+      ],
+      "section": "How-to",
+      "prettyUrl": "/r/polaris/black-duck-polaris-platform/update-a-project-s-coverity-configuration.html",
+      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/update-a-project-s-coverity-configuration.html",
+      "localPath": "docs/platform/how-to/centralize-your-coverity-configuration/update-a-project-s-coverity-configuration.md",
+      "depth": 3,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:16.285394+00:00",
+      "contentHash": "72a9a2c0b46a73e517bd88e95dff4b8a58878bf9aefb27cf3b84a086b1363cf1",
+      "bytes": 1622,
+      "hasChildren": false
+    },
+    {
+      "id": "d9Q7KsoE4pPn90zEic1e_g",
+      "tocId": "tktvYFPCysCdxpqfVsLFKA",
+      "title": "Update a branch's Coverity configuration",
+      "path": [
+        "How-to",
+        "Centralize your Coverity configuration",
+        "Update a branch's Coverity configuration"
+      ],
+      "section": "How-to",
+      "prettyUrl": "/r/polaris/black-duck-polaris-platform/update-a-branch-s-coverity-configuration.html",
+      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/update-a-branch-s-coverity-configuration.html",
+      "localPath": "docs/platform/how-to/centralize-your-coverity-configuration/update-a-branch-s-coverity-configuration.md",
+      "depth": 3,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:16.300374+00:00",
+      "contentHash": "c151431c54cc585e3392d987ca1fc6957bb74bc6bf35d3894f8924e959693bec",
+      "bytes": 1407,
+      "hasChildren": false
+    },
+    {
+      "id": "clEJ8DPH17tbJHnlxYoEqg",
+      "tocId": "OzycR0YAtYaSppbrAKjNoQ",
+      "title": "Reset an application or project's Coverity configuration",
+      "path": [
+        "How-to",
+        "Centralize your Coverity configuration",
+        "Reset an application or project's Coverity configuration"
+      ],
+      "section": "How-to",
+      "prettyUrl": "/r/polaris/black-duck-polaris-platform/reset-an-application-or-project-s-coverity-configuration.html",
+      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/reset-an-application-or-project-s-coverity-configuration.html",
+      "localPath": "docs/platform/how-to/centralize-your-coverity-configuration/reset-an-application-or-project-s-coverity-configuration.md",
+      "depth": 3,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:16.314941+00:00",
+      "contentHash": "78fa3684a65c84262d2210c5045d71218e9c07613541e8d080a6f7aa91a5cad8",
+      "bytes": 1603,
+      "hasChildren": false
+    },
+    {
+      "id": "7rylFqEhOOXEgs71EvRoWw",
+      "tocId": "DmU5eeQH7hpTJnDmO7bvQw",
+      "title": "Reset a branch's Coverity configuration",
+      "path": [
+        "How-to",
+        "Centralize your Coverity configuration",
+        "Reset a branch's Coverity configuration"
+      ],
+      "section": "How-to",
+      "prettyUrl": "/r/polaris/black-duck-polaris-platform/reset-a-branch-s-coverity-configuration.html",
+      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/reset-a-branch-s-coverity-configuration.html",
+      "localPath": "docs/platform/how-to/centralize-your-coverity-configuration/reset-a-branch-s-coverity-configuration.md",
+      "depth": 3,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:16.328195+00:00",
+      "contentHash": "bbb5ba8aa4cf05d8416f16d6abfad7563450954e4a5cb1aba93d65b83fe94967",
+      "bytes": 1165,
+      "hasChildren": false
+    },
+    {
       "id": "sGPJ~h3_OYJ_ZiV8I5Ma0Q",
       "tocId": "qWFAHmHeg~P7Q5grLSyscw",
       "title": "How to test from the web UI",
@@ -1038,9 +1184,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:18.372579+00:00",
-      "contentHash": "b0eb5b0f65bf769fedf78e2a1c8a0a7ffecd7e40b2902a8e64ce6bce5daadc96",
-      "bytes": 10483,
+      "scrapedAt": "2026-10-04T23:29:18.766313+00:00",
+      "contentHash": "b887582b9b11c100cf61eb38aae8ff5645d0d4c41deb283f32e6c697ed080ef9",
+      "bytes": 11725,
       "hasChildren": false
     },
     {
@@ -1058,9 +1204,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:18.984975+00:00",
-      "contentHash": "93a5e40aedd920cdbc5fcb6b175825b5725be1dedfce9cbe58f740e6e32095b7",
-      "bytes": 3208,
+      "scrapedAt": "2026-10-04T23:29:18.787699+00:00",
+      "contentHash": "11fc2b2005c6ae10a0040c19031bd9328f764d8f3ee479c4354ecbd3732dea9d",
+      "bytes": 3220,
       "hasChildren": true
     },
     {
@@ -1079,9 +1225,113 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:19.784594+00:00",
-      "contentHash": "f5270ddbebeffdd941d1241a8313fe23315cae7d071224b2562fd9a256e3a00a",
+      "scrapedAt": "2026-10-04T23:29:18.813948+00:00",
+      "contentHash": "befa5398b77dadc586fe1a4e5cd19db9bed6ec5b1813736391d924ded9411b07",
       "bytes": 2857,
+      "hasChildren": false
+    },
+    {
+      "id": "9ZmfvRxknA7x7HcsehuRnw",
+      "tocId": "bIdYOXY3bO586xHt71tuaQ",
+      "title": "Container Analysis",
+      "path": [
+        "How-to",
+        "Container Analysis"
+      ],
+      "section": "How-to",
+      "prettyUrl": "/r/polaris/black-duck-polaris-platform/container-analysis.html",
+      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/container-analysis.html",
+      "localPath": "docs/platform/how-to/container-analysis.md",
+      "depth": 2,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:16.350716+00:00",
+      "contentHash": "01643a0a76b133f42562c168938522ce71e3bcdedbe2b423e36fdad3e4ceb793",
+      "bytes": 3820,
+      "hasChildren": true
+    },
+    {
+      "id": "w4T7X9~fWlzpfiswgEyCjQ",
+      "tocId": "LBaEfpDrJRU5mBcrn~TVew",
+      "title": "Create a Container Analysis project",
+      "path": [
+        "How-to",
+        "Container Analysis",
+        "Create a Container Analysis project"
+      ],
+      "section": "How-to",
+      "prettyUrl": "/r/polaris/black-duck-polaris-platform/create-a-container-analysis-project.html",
+      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/create-a-container-analysis-project.html",
+      "localPath": "docs/platform/how-to/container-analysis/create-a-container-analysis-project.md",
+      "depth": 3,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:16.367107+00:00",
+      "contentHash": "4203eb7a40b42eb353f450008688bede8503a52d234937cdf9bb1d1ee5a1ca3d",
+      "bytes": 1815,
+      "hasChildren": false
+    },
+    {
+      "id": "j~VqoiGu9l1a~2wthfeMMA",
+      "tocId": "~anIzXTyS0uLWL~8w5VEFA",
+      "title": "Add a container to a Container Analysis project",
+      "path": [
+        "How-to",
+        "Container Analysis",
+        "Add a container to a Container Analysis project"
+      ],
+      "section": "How-to",
+      "prettyUrl": "/r/polaris/black-duck-polaris-platform/add-a-container-to-a-container-analysis-project.html",
+      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/add-a-container-to-a-container-analysis-project.html",
+      "localPath": "docs/platform/how-to/container-analysis/add-a-container-to-a-container-analysis-project.md",
+      "depth": 3,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:16.379771+00:00",
+      "contentHash": "572232a868fa4720fb54268a9be4e0616ca7ebeb0c924e1c1e36a40048c1cbb1",
+      "bytes": 877,
+      "hasChildren": false
+    },
+    {
+      "id": "~cJ_LtvjxMx5JCyeJichSQ",
+      "tocId": "exhhsH3EHvGZc0ZHbz8RAg",
+      "title": "Delete a container from a Container Analysis project",
+      "path": [
+        "How-to",
+        "Container Analysis",
+        "Delete a container from a Container Analysis project"
+      ],
+      "section": "How-to",
+      "prettyUrl": "/r/polaris/black-duck-polaris-platform/delete-a-container-from-a-container-analysis-project.html",
+      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/delete-a-container-from-a-container-analysis-project.html",
+      "localPath": "docs/platform/how-to/container-analysis/delete-a-container-from-a-container-analysis-project.md",
+      "depth": 3,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:16.393165+00:00",
+      "contentHash": "2697b22c9d488829ef0a2edff6deabc9a9166a1b38eaa38241a8df5f7b32a922",
+      "bytes": 1014,
+      "hasChildren": false
+    },
+    {
+      "id": "f2O5v4f8zAorOgMSrmfytA",
+      "tocId": "awN9ADmLvN07Di3uXyFm~w",
+      "title": "How to run Container Analysis",
+      "path": [
+        "How-to",
+        "Container Analysis",
+        "How to run Container Analysis"
+      ],
+      "section": "How-to",
+      "prettyUrl": "/r/polaris/black-duck-polaris-platform/how-to-run-container-analysis.html",
+      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/how-to-run-container-analysis.html",
+      "localPath": "docs/platform/how-to/container-analysis/how-to-run-container-analysis.md",
+      "depth": 3,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:16.411760+00:00",
+      "contentHash": "cc1acf05a8f62636843d78b3f505626c0d8cb15a8fdefb36be4ec79eac0c8136",
+      "bytes": 2437,
       "hasChildren": false
     },
     {
@@ -1099,8 +1349,8 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:20.591304+00:00",
-      "contentHash": "1bc960dd015b93ed37c91d0d2490cb1458e23f258a108f46012d630e09d36565",
+      "scrapedAt": "2026-10-04T23:29:18.846078+00:00",
+      "contentHash": "a7418efb81b91a59971acaa7f13989a4fe728feb83c5093e296545aad841816d",
       "bytes": 2275,
       "hasChildren": false
     },
@@ -1159,8 +1409,8 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:23.203680+00:00",
-      "contentHash": "7975113520eea2ef9c2b51a6076e5f7fde0a2cac57949876f97d230ae0adca9c",
+      "scrapedAt": "2026-10-04T23:29:18.910620+00:00",
+      "contentHash": "d07db24be5715eea0ca8f6ece12e3e3b733bae19eaa9ed3f457b76f14df2c873",
       "bytes": 4330,
       "hasChildren": false
     },
@@ -1179,8 +1429,8 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:23.841310+00:00",
-      "contentHash": "aa7ad61e0ce9edd8851ad83350c8d17c7e481b4923ecb1b1dfe6b906b7350180",
+      "scrapedAt": "2026-10-04T23:29:18.937636+00:00",
+      "contentHash": "a16a8588de1be2deaa202f8fe703e81bca7967c752f5794a468d40a3a7341c2a",
       "bytes": 4723,
       "hasChildren": true
     },
@@ -1200,8 +1450,8 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:24.480233+00:00",
-      "contentHash": "2b507fa1d67ce3310732e46f498def15d445fd380805ee8ff335fec607f13750",
+      "scrapedAt": "2026-10-04T23:29:18.969647+00:00",
+      "contentHash": "710e5771ad93958a831e7e4f20315745167c47f566fe3f84a9652380a7795111",
       "bytes": 5677,
       "hasChildren": false
     },
@@ -1220,8 +1470,8 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:25.506748+00:00",
-      "contentHash": "c10d6db5d4cbc6e1fc8c1033a0052c939e22f3e18ab72d6882d6d2573051ea30",
+      "scrapedAt": "2026-10-04T23:29:19.058314+00:00",
+      "contentHash": "d0105d44dd609f931cff47115af16f4a08ad4d526cd831fb49c8fed92c5c8cc9",
       "bytes": 10607,
       "hasChildren": false
     },
@@ -1426,9 +1676,50 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:32.031689+00:00",
-      "contentHash": "a093a4afe22126d00649cf67cede092c11518606f0ab6fd178dca349146a2874",
-      "bytes": 2335,
+      "scrapedAt": "2026-10-04T23:29:19.138549+00:00",
+      "contentHash": "d30e82803e9afe999ba7ec5e4f3e26998d863b925f58af1f1f97e5092703df09",
+      "bytes": 2569,
+      "hasChildren": false
+    },
+    {
+      "id": "UNRNOaivEZTbGTaoOzk4Kw",
+      "tocId": "Z~ZaEVbQGg87MsaoHuRysw",
+      "title": "Vulnerability notifications",
+      "path": [
+        "How-to",
+        "Vulnerability notifications"
+      ],
+      "section": "How-to",
+      "prettyUrl": "/r/polaris/black-duck-polaris-platform/vulnerability-notifications.html",
+      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/vulnerability-notifications.html",
+      "localPath": "docs/platform/how-to/vulnerability-notifications.md",
+      "depth": 2,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:16.430208+00:00",
+      "contentHash": "3cfa86ed45e51ce6b79688b618a7d8b73365806a08f48f903d7158521a85b8fa",
+      "bytes": 2483,
+      "hasChildren": true
+    },
+    {
+      "id": "T3AHPAukxXuDGEHG1aYFRQ",
+      "tocId": "PDsA74Bt5h1qxPD2D~s8Zw",
+      "title": "Configure vulnerability notifications",
+      "path": [
+        "How-to",
+        "Vulnerability notifications",
+        "Configure vulnerability notifications"
+      ],
+      "section": "How-to",
+      "prettyUrl": "/r/polaris/black-duck-polaris-platform/configure-vulnerability-notifications.html",
+      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/configure-vulnerability-notifications.html",
+      "localPath": "docs/platform/how-to/vulnerability-notifications/configure-vulnerability-notifications.md",
+      "depth": 3,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:16.461124+00:00",
+      "contentHash": "a5884b1e6acab3e04f5b3c327112166e29a48324fb67c27c466b8903b7a0f878",
+      "bytes": 5072,
       "hasChildren": false
     },
     {
@@ -1486,9 +1777,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:34.492990+00:00",
-      "contentHash": "d75cef85c6ca6ad83b187d974f7d3752674f0259481a8bb2a18749a2326c51f8",
-      "bytes": 2713,
+      "scrapedAt": "2026-10-04T23:29:19.187975+00:00",
+      "contentHash": "8143933af80d3d253a030c67baa25adc07468ce17ca007d208e1d3ca8b06c329",
+      "bytes": 2577,
       "hasChildren": false
     },
     {
@@ -1514,21 +1805,21 @@
     {
       "id": "XUOflzc228XydyNCLuBjuA",
       "tocId": "fcEL1r9eV063V3_hPrse2g",
-      "title": "Fix Pull Requests (Fix PR)",
+      "title": "SCA Fix Pull Requests",
       "path": [
         "How-to",
-        "Fix Pull Requests (Fix PR)"
+        "SCA Fix Pull Requests"
       ],
       "section": "How-to",
-      "prettyUrl": "/r/polaris/black-duck-polaris-platform/fix-pull-requests-fix-pr-.html",
-      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/fix-pull-requests-fix-pr-.html",
+      "prettyUrl": "/r/polaris/black-duck-polaris-platform/sca-fix-pull-requests.html",
+      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/sca-fix-pull-requests.html",
       "localPath": "docs/platform/how-to/fix-pull-requests-fix-pr.md",
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:35.999037+00:00",
-      "contentHash": "b2eca9fef827d6371af236ef19a2b2dc92a6da493d5ef30f36b6d85b7cb6dbca",
-      "bytes": 4762,
+      "scrapedAt": "2026-10-04T23:29:19.226883+00:00",
+      "contentHash": "a9e23432a2943f697a3cfef06e2ff9ecc8011a19c1edc8f515e2322ece71be0b",
+      "bytes": 5385,
       "hasChildren": true
     },
     {
@@ -1537,7 +1828,7 @@
       "title": "Create and manage automatic Fix PRs",
       "path": [
         "How-to",
-        "Fix Pull Requests (Fix PR)",
+        "SCA Fix Pull Requests",
         "Create and manage automatic Fix PRs"
       ],
       "section": "How-to",
@@ -1547,9 +1838,9 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:36.643419+00:00",
-      "contentHash": "93e0ca63bce89f9d72d5573cb8d6578e77be114896abef38b1f5ebe7307ad326",
-      "bytes": 4907,
+      "scrapedAt": "2026-10-04T23:29:19.254468+00:00",
+      "contentHash": "417360ba4aeceecb92aa8c6c532b9c08fc4f24b4aebd03c328a50630800b2475",
+      "bytes": 4930,
       "hasChildren": false
     },
     {
@@ -1558,7 +1849,7 @@
       "title": "Create a Manual Fix PR",
       "path": [
         "How-to",
-        "Fix Pull Requests (Fix PR)",
+        "SCA Fix Pull Requests",
         "Create a Manual Fix PR"
       ],
       "section": "How-to",
@@ -1568,9 +1859,9 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:37.266659+00:00",
-      "contentHash": "136f75e96a868990e239efa011e3ee7ca06817e381197eb6ce13fedd1d172168",
-      "bytes": 892,
+      "scrapedAt": "2026-10-04T23:29:19.267427+00:00",
+      "contentHash": "91543c20765e8a3a8045cf367eca84d89c8327ea456414748dfb531d241dff6d",
+      "bytes": 883,
       "hasChildren": false
     },
     {
@@ -1579,7 +1870,7 @@
       "title": "Disable a Fix PR for a Component",
       "path": [
         "How-to",
-        "Fix Pull Requests (Fix PR)",
+        "SCA Fix Pull Requests",
         "Disable a Fix PR for a Component"
       ],
       "section": "How-to",
@@ -1589,9 +1880,71 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:37.895953+00:00",
-      "contentHash": "26af05a7a7bcce60f7fb858ca185729f11e72699fefa975ee9816cb1efe8dcce",
-      "bytes": 958,
+      "scrapedAt": "2026-10-04T23:29:19.280066+00:00",
+      "contentHash": "168dd520a6d63fe7af6c16fee0e59c96176645681f5deb951ec1ca89b26ca3ee",
+      "bytes": 954,
+      "hasChildren": false
+    },
+    {
+      "id": "QksShZwdjLe7eeQdBNKpdg",
+      "tocId": "F_uMzFEBzc7JD72ytI4fMQ",
+      "title": "SAST Fix Pull Requests",
+      "path": [
+        "How-to",
+        "SAST Fix Pull Requests"
+      ],
+      "section": "How-to",
+      "prettyUrl": "/r/polaris/black-duck-polaris-platform/sast-fix-pull-requests.html",
+      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/sast-fix-pull-requests.html",
+      "localPath": "docs/platform/how-to/sast-fix-pull-requests.md",
+      "depth": 2,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:16.493634+00:00",
+      "contentHash": "bda971fd37e8e3b647e5c3a719a37541647ad501ead103f6cc4986383b22da56",
+      "bytes": 6523,
+      "hasChildren": true
+    },
+    {
+      "id": "aXnYUdeb8VRmLCrK_sqkQA",
+      "tocId": "EtXZ5nv6b0xRMjeMDV4o6g",
+      "title": "Create a SAST Fix PR on demand",
+      "path": [
+        "How-to",
+        "SAST Fix Pull Requests",
+        "Create a SAST Fix PR on demand"
+      ],
+      "section": "How-to",
+      "prettyUrl": "/r/polaris/black-duck-polaris-platform/create-a-sast-fix-pr-on-demand.html",
+      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/create-a-sast-fix-pr-on-demand.html",
+      "localPath": "docs/platform/how-to/sast-fix-pull-requests/create-a-sast-fix-pr-on-demand.md",
+      "depth": 3,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:16.512366+00:00",
+      "contentHash": "5075d8922a0174e89997931a5ba2e38b07d593d47997395cac809af275840f8f",
+      "bytes": 2490,
+      "hasChildren": false
+    },
+    {
+      "id": "zJtPP_Phqbf5HoAIrbMLMQ",
+      "tocId": "jTW2UpoIN3MBaQfHc4lfWw",
+      "title": "Create SAST Fix PRs with a policy",
+      "path": [
+        "How-to",
+        "SAST Fix Pull Requests",
+        "Create SAST Fix PRs with a policy"
+      ],
+      "section": "How-to",
+      "prettyUrl": "/r/polaris/black-duck-polaris-platform/create-sast-fix-prs-with-a-policy.html",
+      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/create-sast-fix-prs-with-a-policy.html",
+      "localPath": "docs/platform/how-to/sast-fix-pull-requests/create-sast-fix-prs-with-a-policy.md",
+      "depth": 3,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:16.538534+00:00",
+      "contentHash": "212d45a2fe751b93e4d301559525aa52ba63df1d57fef0e5ddc4179e97669aa4",
+      "bytes": 4780,
       "hasChildren": false
     },
     {
@@ -1609,9 +1962,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:38.676429+00:00",
-      "contentHash": "e0ecf5a8b7583adfc0200b75e061c8763d11b9a68acb3d8ef84ad294d7a15b9a",
-      "bytes": 10735,
+      "scrapedAt": "2026-10-04T23:29:19.332857+00:00",
+      "contentHash": "58d27087f3be27498a40607f95c9f26456975e3ebbb6bb8d92575bbc903ee740",
+      "bytes": 11098,
       "hasChildren": true
     },
     {
@@ -1630,8 +1983,8 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:39.330029+00:00",
-      "contentHash": "0eb73c4113df0ba47d73ff332caf110e2e9a7570c28455b44b145c2c6201abbb",
+      "scrapedAt": "2026-10-04T23:29:19.361078+00:00",
+      "contentHash": "3da6431c060a6dd8f2d4c1117ba17471c7c10db157c313bf6968b9987b6f83e6",
       "bytes": 5030,
       "hasChildren": false
     },
@@ -1651,9 +2004,9 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:40.256850+00:00",
-      "contentHash": "7462e7888c1d4c342017f165acf45f91f33d896f513449af3d5619041a3a1f57",
-      "bytes": 1036,
+      "scrapedAt": "2026-10-04T23:29:19.379223+00:00",
+      "contentHash": "27a23ac6e8aa9348f7c93c4f3e23382f4d993401d79973cf4c409ac3ecc90593",
+      "bytes": 1322,
       "hasChildren": false
     },
     {
@@ -1692,8 +2045,8 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:41.712602+00:00",
-      "contentHash": "11225f3a7545a47a125ed2707620c7dc28adfa55c89f60323cd4f2eeb6575690",
+      "scrapedAt": "2026-10-04T23:29:19.420469+00:00",
+      "contentHash": "287bd90af83cec2c3fb57e9472f5cf1a15889779ca17b2778694f4b582894f3e",
       "bytes": 6293,
       "hasChildren": true
     },
@@ -1796,8 +2149,8 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:44.902459+00:00",
-      "contentHash": "e682bed73c43e3e8870b50781c1ea00507d09b4f6d8ba4a6474e0e05128d5064",
+      "scrapedAt": "2026-10-04T23:29:19.463197+00:00",
+      "contentHash": "cafeae202a7e8071a96eb88b8f6a3a34de09e757d13baad8f2fdf0af40b041ed",
       "bytes": 2872,
       "hasChildren": false
     },
@@ -1816,8 +2169,8 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:45.555576+00:00",
-      "contentHash": "22b0c5521f94b34c70ae8f9e7dcab0338ded7de0804ce937cf2e991735b65bf9",
+      "scrapedAt": "2026-10-04T23:29:19.489974+00:00",
+      "contentHash": "53903851e68fe4aa68362291bfab6dda28e6ac03698e5627e4599353564b5ecd",
       "bytes": 4131,
       "hasChildren": true
     },
@@ -1858,9 +2211,9 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:46.796785+00:00",
-      "contentHash": "e1d8efa668d9ea2cf91d00a93509e7c5b294ce8db42bfe00ca848f7ba9183922",
-      "bytes": 890,
+      "scrapedAt": "2026-10-04T23:29:19.508080+00:00",
+      "contentHash": "5cd683ccb16af5a6d8f30a58830e5cc41c905073fb0e3ef8c0788a9b43c0fc29",
+      "bytes": 867,
       "hasChildren": false
     },
     {
@@ -1879,9 +2232,9 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:47.434519+00:00",
-      "contentHash": "f4f6fd2bd63d546bd0c9a9283bbc3169b4390622dc61446d7c31913ef1cd50b2",
-      "bytes": 897,
+      "scrapedAt": "2026-10-04T23:29:19.520951+00:00",
+      "contentHash": "ef0bd0d5bedab8872c6c8d653d6714a44986ba30a5575d8d9f47711e5884702e",
+      "bytes": 873,
       "hasChildren": false
     },
     {
@@ -1899,9 +2252,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:48.509158+00:00",
-      "contentHash": "6af4e8cf8803a6eed1ae306aca4ffeceb3d23d2e33e653adf57b95154610c6db",
-      "bytes": 11424,
+      "scrapedAt": "2026-10-04T23:29:19.602453+00:00",
+      "contentHash": "7460d8cbb8d238a55b34ac1d353c0e3ac28485117df24463be68708b865cd382",
+      "bytes": 11799,
       "hasChildren": false
     },
     {
@@ -1919,8 +2272,8 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:49.388966+00:00",
-      "contentHash": "7dcbf6d1aad22b00f91c6b1252ce39c6b3792abf3bde3b4a666a67d26aa7dff7",
+      "scrapedAt": "2026-10-04T23:29:19.641752+00:00",
+      "contentHash": "26eb2d4a6f5afd60da42e0e70be0dd78edfcf7be343d18b457957ac8c132d3b7",
       "bytes": 4966,
       "hasChildren": false
     },
@@ -1939,9 +2292,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:50.305457+00:00",
-      "contentHash": "02bae11a2e4f856490afeb85bf8607e5e8c851dd5230da74c3a63e608f5f4de2",
-      "bytes": 7060,
+      "scrapedAt": "2026-10-04T23:29:19.691440+00:00",
+      "contentHash": "56c97f39d2208d041d09189ace7d13a82ae1d6cd6807e2ec69544fcea933578b",
+      "bytes": 7855,
       "hasChildren": false
     },
     {
@@ -1959,9 +2312,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:51.123368+00:00",
-      "contentHash": "bab2785b7127424ef64bf8803d23f82cd4e839fedd1d2439eac44c4a781e940c",
-      "bytes": 2131,
+      "scrapedAt": "2026-10-04T23:29:19.715367+00:00",
+      "contentHash": "1a0a3467944d0d4d990b816236be5bcaf786daeb9095fcac87eefeecf4ff5944",
+      "bytes": 2170,
       "hasChildren": false
     },
     {
@@ -1982,6 +2335,26 @@
       "scrapedAt": "2026-08-12T19:56:51.913680+00:00",
       "contentHash": "632cc8e8612c298fd8b09911b23f412d751d15820486e4e794b49c9e15e1bab0",
       "bytes": 2066,
+      "hasChildren": false
+    },
+    {
+      "id": "aK~t1Od4NNuS0Wjff2sQWg",
+      "tocId": "hji2nM3LtwwDa4uyepHKSA",
+      "title": "AI-assisted triage (limited availability)",
+      "path": [
+        "How-to",
+        "AI-assisted triage (limited availability)"
+      ],
+      "section": "How-to",
+      "prettyUrl": "/r/polaris/black-duck-polaris-platform/ai-assisted-triage-limited-availability-.html",
+      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/ai-assisted-triage-limited-availability-.html",
+      "localPath": "docs/platform/how-to/ai-assisted-triage-limited-availability.md",
+      "depth": 2,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:16.610677+00:00",
+      "contentHash": "ce1df02f6b50c026f97a55cda99e2a048fad3607e50dcbac0900ed4a1365c826",
+      "bytes": 15859,
       "hasChildren": false
     },
     {
@@ -2103,9 +2476,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:55.924360+00:00",
-      "contentHash": "c1b28c17982ba26cbc975dab5abc0201a884d8f779173a670adb24003e1fed98",
-      "bytes": 3972,
+      "scrapedAt": "2026-10-04T23:29:19.793926+00:00",
+      "contentHash": "904d7890a9fcf597016d843b8195060fb136a146f6b986303cb9cc2801dc0171",
+      "bytes": 4454,
       "hasChildren": false
     },
     {
@@ -2123,8 +2496,8 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:56.727445+00:00",
-      "contentHash": "49168a6f8f364310d22a7dcde68d4ec5027bc8eedd8e0fb9d16dbc4120896a92",
+      "scrapedAt": "2026-10-04T23:29:19.823700+00:00",
+      "contentHash": "542ee7ca515928d296cebec3e30c03c11ac59e9c380ae7408d52c2edda381db4",
       "bytes": 2724,
       "hasChildren": false
     },
@@ -2143,9 +2516,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:57.365965+00:00",
-      "contentHash": "160aeac7b460c974decbff3b540a26d5fd814c64575877c8ca38e2f97334c791",
-      "bytes": 2938,
+      "scrapedAt": "2026-10-04T23:29:19.842121+00:00",
+      "contentHash": "06431e4f0b1c5215bf7149030eb806c0615bb303a62e084493b848d164663263",
+      "bytes": 2954,
       "hasChildren": true
     },
     {
@@ -2164,9 +2537,9 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:58.307180+00:00",
-      "contentHash": "1c580a27aac4fd2be60dd6dc757d81a5f224afd61801001fec4dcaed9dc38cdd",
-      "bytes": 14753,
+      "scrapedAt": "2026-10-04T23:29:19.934660+00:00",
+      "contentHash": "1868ba966d292ea993aa90e634ce0341f1cc36edd27bac4a56e436d78018ac6a",
+      "bytes": 15569,
       "hasChildren": false
     },
     {
@@ -2185,9 +2558,9 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:56:59.176843+00:00",
-      "contentHash": "1d2a3117420d332f1fa450ba6675e7f42d7cb60f5589854fd2321a9ae9c41097",
-      "bytes": 7940,
+      "scrapedAt": "2026-10-04T23:29:19.990839+00:00",
+      "contentHash": "c3095b138642c591adc168ae02ce326e57d3337deda18a427b43d2ea898c4d0a",
+      "bytes": 7969,
       "hasChildren": false
     },
     {
@@ -2206,9 +2579,9 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:00.081307+00:00",
-      "contentHash": "5c27fe2c00dbdcf467250157eef37dc8e4d2c93551c816cfc57609cf96686231",
-      "bytes": 8771,
+      "scrapedAt": "2026-10-04T23:29:20.054830+00:00",
+      "contentHash": "e802e4a1434bf20dbda9d536aa61d1c5677bca6d2099fee59407e641dab5c50b",
+      "bytes": 9076,
       "hasChildren": false
     },
     {
@@ -2397,9 +2770,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:06.499896+00:00",
-      "contentHash": "06c952fe94cd94b976c50db12314bcb634c5ed06319d25828323e352910afd79",
-      "bytes": 4605,
+      "scrapedAt": "2026-10-04T23:29:20.173006+00:00",
+      "contentHash": "e9c96a2d6eb7cf123fb9f0f8ab91ebc6203f743ac9794827142a48965502c38b",
+      "bytes": 4829,
       "hasChildren": false
     },
     {
@@ -2417,9 +2790,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:07.151989+00:00",
-      "contentHash": "d494cf2ad9f0a988995bc7b1c8a6b1f1a242a60a975aed7140e9d32a3b148dc3",
-      "bytes": 4524,
+      "scrapedAt": "2026-10-04T23:29:20.200555+00:00",
+      "contentHash": "0771ac2672030beb4d821d5afc2e71b2720c3f1be1e940b0196bbc38b1f5da16",
+      "bytes": 4637,
       "hasChildren": true
     },
     {
@@ -2438,9 +2811,9 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:08.167948+00:00",
-      "contentHash": "2acd4985fdb5fd1c068f9d85e454c1e47cdc1c759540f421c0031a7d0da654a7",
-      "bytes": 9091,
+      "scrapedAt": "2026-10-04T23:29:20.263322+00:00",
+      "contentHash": "a03d4143981ad7334c99a8f0924285ea7458a71930c55da77466059e7adea5fe",
+      "bytes": 9086,
       "hasChildren": false
     },
     {
@@ -2459,30 +2832,30 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:09.154859+00:00",
-      "contentHash": "061c575c278a1ec8c91007a0597ee319fbcd873d89ed0172e276ef4a4cac98ef",
-      "bytes": 9977,
+      "scrapedAt": "2026-10-04T23:29:20.324168+00:00",
+      "contentHash": "1e0a0e1617a94365c2e769f5f61e00964ef255f215158809e7ed34f5c81ec505",
+      "bytes": 9972,
       "hasChildren": false
     },
     {
       "id": "v5NFypuxAG_Tssy4Sjl_~A",
       "tocId": "7XcRBPV0XktX2N4JyzOQPA",
-      "title": "GitHub and GitHub Enterprise",
+      "title": "GitHub, GitHub Enterprise, and GitHub Enterprise with data residency",
       "path": [
         "How-to",
         "Connect Polaris to Multiple SCM Repositories",
-        "GitHub and GitHub Enterprise"
+        "GitHub, GitHub Enterprise, and GitHub Enterprise with data residency"
       ],
       "section": "How-to",
-      "prettyUrl": "/r/polaris/black-duck-polaris-platform/github-and-github-enterprise.html",
-      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/github-and-github-enterprise.html",
+      "prettyUrl": "/r/polaris/black-duck-polaris-platform/github-github-enterprise-and-github-enterprise-with-data-residency.html",
+      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/github-github-enterprise-and-github-enterprise-with-data-residency.html",
       "localPath": "docs/platform/how-to/connect-polaris-to-multiple-scm-repositories/github-and-github-enterprise.md",
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:10.161463+00:00",
-      "contentHash": "5af567d9f344ff7abc86baa5d8e7d8727bbf22ed68ef1d87cc1f003dfaff50a5",
-      "bytes": 10126,
+      "scrapedAt": "2026-10-04T23:29:20.390254+00:00",
+      "contentHash": "4ed8245ecf16760625c74ea40bdd5fee529a6c223696b86102ab28dec9011337",
+      "bytes": 10863,
       "hasChildren": false
     },
     {
@@ -2504,28 +2877,6 @@
       "scrapedAt": "2026-08-12T19:57:10.890339+00:00",
       "contentHash": "13fd360882f3c1d61551d5bd683c348f7e409efaaaf81543bcf1c046235e755a",
       "bytes": 10507,
-      "hasChildren": true
-    },
-    {
-      "id": "_fo2B9EqTQVTH54NNvnXyA",
-      "tocId": "9hXmsDwMy~AQg60tYyXY2g",
-      "title": "Update your self-hosted SCM connections within an application",
-      "path": [
-        "How-to",
-        "Connect Polaris to Multiple SCM Repositories",
-        "GitHub Enterprise Server",
-        "Update your self-hosted SCM connections within an application"
-      ],
-      "section": "How-to",
-      "prettyUrl": "/r/polaris/black-duck-polaris-platform/update-your-self-hosted-scm-connections-within-an-application.html",
-      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/update-your-self-hosted-scm-connections-within-an-application.html",
-      "localPath": "docs/platform/how-to/connect-polaris-to-multiple-scm-repositories/github-enterprise-server/update-your-self-hosted-scm-connections-within-an-application.md",
-      "depth": 4,
-      "status": "done",
-      "error": null,
-      "scrapedAt": "2026-08-12T19:57:11.520629+00:00",
-      "contentHash": "4ba3a23220a793655ed6319fe6343a35394ee24bb26dc6e462b94d6a92b4ea18",
-      "bytes": 1905,
       "hasChildren": false
     },
     {
@@ -2544,9 +2895,51 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:12.500378+00:00",
-      "contentHash": "60ec5ead780693afc9aab3a4f488da725da0db79014be2bd320d0a84223f0a89",
-      "bytes": 9141,
+      "scrapedAt": "2026-10-04T23:29:20.458358+00:00",
+      "contentHash": "ba6f3b634ef0badf5982dc925a93dede4d1b33e6375f1b28b47b8f22df3bf0ef",
+      "bytes": 9164,
+      "hasChildren": false
+    },
+    {
+      "id": "WmSBBryUar1AJmU1fGy6SQ",
+      "tocId": "6rljSW7EFRuiqH_sEfGXIw",
+      "title": "GitLab Self-Managed",
+      "path": [
+        "How-to",
+        "Connect Polaris to Multiple SCM Repositories",
+        "GitLab Self-Managed"
+      ],
+      "section": "How-to",
+      "prettyUrl": "/r/polaris/black-duck-polaris-platform/gitlab-self-managed.html",
+      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/gitlab-self-managed.html",
+      "localPath": "docs/platform/how-to/connect-polaris-to-multiple-scm-repositories/gitlab-self-managed.md",
+      "depth": 3,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:16.674803+00:00",
+      "contentHash": "2ee52b94858752b0bbd01c9df7d2ea83ccf0423238b70d43595f190d80ce930a",
+      "bytes": 13666,
+      "hasChildren": false
+    },
+    {
+      "id": "_fo2B9EqTQVTH54NNvnXyA",
+      "tocId": "JnQ7HMoeAIZ770kxCtLPVw",
+      "title": "Update your self-hosted SCM connections within an application",
+      "path": [
+        "How-to",
+        "Connect Polaris to Multiple SCM Repositories",
+        "Update your self-hosted SCM connections within an application"
+      ],
+      "section": "How-to",
+      "prettyUrl": "/r/polaris/black-duck-polaris-platform/update-your-self-hosted-scm-connections-within-an-application.html",
+      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/update-your-self-hosted-scm-connections-within-an-application.html",
+      "localPath": "docs/platform/how-to/connect-polaris-to-multiple-scm-repositories/github-enterprise-server/update-your-self-hosted-scm-connections-within-an-application.md",
+      "depth": 3,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:20.480974+00:00",
+      "contentHash": "e942a80ea84a518de637ed239d90d7eb56de8d51342c51409f8dd32723d28da2",
+      "bytes": 1905,
       "hasChildren": false
     },
     {
@@ -2564,9 +2957,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:13.389987+00:00",
-      "contentHash": "0cd73ea6fcdbbce14cfb068fb5bba90113d77438c665905dd373cf0b761ac392",
-      "bytes": 5337,
+      "scrapedAt": "2026-10-04T23:29:20.519472+00:00",
+      "contentHash": "765fb0bb69b111994019240d3717b277bbccbdc53fd1a6b9ab2f5841e4f255d4",
+      "bytes": 5142,
       "hasChildren": false
     },
     {
@@ -2584,9 +2977,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:14.209487+00:00",
-      "contentHash": "c865ffff3f9de75ec0ec7e683592ed712499e196287236c00ca8f2bb246e53a7",
-      "bytes": 10720,
+      "scrapedAt": "2026-10-04T23:29:20.571323+00:00",
+      "contentHash": "3210d01741805acf6e96f8ec0bd2ac83d517077be1c7853ee6297efcd846c4e3",
+      "bytes": 10865,
       "hasChildren": false
     },
     {
@@ -2604,8 +2997,8 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:15.170245+00:00",
-      "contentHash": "e0d465d03ffd5825eed4f2f06bb60366b3157e85b58e96b6518043bf1286c5a8",
+      "scrapedAt": "2026-10-04T23:29:20.603345+00:00",
+      "contentHash": "b5326391db2ff35cca458e6e5ef7fc072ff5f3c6cf5f184e0956bff8f4f3408e",
       "bytes": 2955,
       "hasChildren": false
     },
@@ -2624,8 +3017,8 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:16.060829+00:00",
-      "contentHash": "c824dca5885a1aacdd85512e3326afd386b036ffae339ae846ba3335598959bb",
+      "scrapedAt": "2026-10-04T23:29:20.633321+00:00",
+      "contentHash": "9121276e2d27e914eb040755cd314dcce8bdf7abb932f546f0c035eb9b0f46e2",
       "bytes": 3763,
       "hasChildren": false
     },
@@ -2644,8 +3037,8 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:17.013912+00:00",
-      "contentHash": "577e3e18aa61bc2805ff5086c114cf547a3c9a1b7e323fb199a96a7d6a767830",
+      "scrapedAt": "2026-10-04T23:29:20.670089+00:00",
+      "contentHash": "8a2f9a31905ec2e817418694f5758922edc76da5bd9036cf50c97cec6c60b32c",
       "bytes": 3594,
       "hasChildren": false
     },
@@ -2664,9 +3057,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:17.899047+00:00",
-      "contentHash": "ae4b53845a2173608d9dc1db3afc95588d1a3525be139923167fb848a0ef4445",
-      "bytes": 2999,
+      "scrapedAt": "2026-10-04T23:29:20.697284+00:00",
+      "contentHash": "c4de7d8c6d07aa1f70976c47ff4360066eecc6a2a8f1508aeda16c248d1dcb46",
+      "bytes": 3211,
       "hasChildren": false
     },
     {
@@ -2684,9 +3077,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:18.519836+00:00",
-      "contentHash": "c6b2ef0248f6af002705fd96920a3a1d40ce5f02a6d843dabdf1a6acb133cd8c",
-      "bytes": 3453,
+      "scrapedAt": "2026-10-04T23:29:20.721974+00:00",
+      "contentHash": "e9f6b40e4d6c634acb1f075fb1077b1fe442bcf2d24e5a6d0344add1dbc9debc",
+      "bytes": 3537,
       "hasChildren": true
     },
     {
@@ -2705,8 +3098,8 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:19.470658+00:00",
-      "contentHash": "0ab8c119728845f8e4cdf82378d0a93f056c000660b0304c17028832420152ff",
+      "scrapedAt": "2026-10-04T23:29:20.767803+00:00",
+      "contentHash": "e17fb969af20d997ed06b9e5cb95d7fcb105476cbbf7acffb9499c3931a2a125",
       "bytes": 3771,
       "hasChildren": false
     },
@@ -2726,8 +3119,8 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:20.271770+00:00",
-      "contentHash": "ce79b66040c286f3fb39d629bc187044b389074b66a4126a168a7ab26cdfd9fb",
+      "scrapedAt": "2026-10-04T23:29:20.796910+00:00",
+      "contentHash": "e057d190a8914ae410ca2b9dcad965407dab4c6ac642faac3f8a9f9450d4f94e",
       "bytes": 3975,
       "hasChildren": false
     },
@@ -2747,30 +3140,30 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:21.070970+00:00",
-      "contentHash": "f814c07769002b4bcdc7232a5a77dc0bd875892852e8416e193f5bb38c61a986",
-      "bytes": 3348,
+      "scrapedAt": "2026-10-04T23:29:20.823534+00:00",
+      "contentHash": "c3ab12b6e880859a64b1908f5cfa81a210dc058f669a22dede2d80afa9e4b702",
+      "bytes": 3597,
       "hasChildren": false
     },
     {
       "id": "7zCqxPvjbXHSNhNCLapPBQ",
       "tocId": "KC9dyArhNUi1qoLM_I6Yww",
-      "title": "GitHub and GitHub Enterprise Cloud",
+      "title": "GitHub, GitHub Enterprise, and GitHub Enterprise with data residency",
       "path": [
         "How-to",
         "Connect a Polaris project to a repository in your SCM",
-        "GitHub and GitHub Enterprise Cloud"
+        "GitHub, GitHub Enterprise, and GitHub Enterprise with data residency"
       ],
       "section": "How-to",
-      "prettyUrl": "/r/polaris/black-duck-polaris-platform/github-and-github-enterprise-cloud.html",
-      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/github-and-github-enterprise-cloud.html",
+      "prettyUrl": "/r/polaris/black-duck-polaris-platform/github-github-enterprise-and-github-enterprise-with-data-residency.html",
+      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/github-github-enterprise-and-github-enterprise-with-data-residency.html",
       "localPath": "docs/platform/how-to/connect-a-polaris-project-to-a-repository-in-your-scm/github-and-github-enterprise-cloud.md",
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:21.962391+00:00",
-      "contentHash": "563cf4ff48fa6fc3e4edb29269f30b264f026eab6049b0e6eadf89a99fc6cac0",
-      "bytes": 3537,
+      "scrapedAt": "2026-10-04T23:29:20.857114+00:00",
+      "contentHash": "bf19f2931ab2b8da101d9302bff8e7332c799149841928c337b5fb5deaca5f89",
+      "bytes": 3735,
       "hasChildren": false
     },
     {
@@ -2789,9 +3182,9 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:22.879898+00:00",
-      "contentHash": "3081b3a24f7c8d777206d3aa4ae9e3f7b6b9302e74ee4bd51984ee46df86fbdd",
-      "bytes": 4039,
+      "scrapedAt": "2026-10-04T23:29:20.893386+00:00",
+      "contentHash": "c4ea70c6c6b1fbcf21006f9e58f38804bf2529c6d108b477a49ab46e8b829b60",
+      "bytes": 4296,
       "hasChildren": false
     },
     {
@@ -2810,8 +3203,8 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:23.765282+00:00",
-      "contentHash": "c6e64147035496cd00875492ccee241e5e6204d6ef3c36fa24eb8bdc5c426e36",
+      "scrapedAt": "2026-10-04T23:29:20.924819+00:00",
+      "contentHash": "eeabacb5c72a7adc0adf3b22c578dbed4af179ac79352aa382776a1d37513ff2",
       "bytes": 3192,
       "hasChildren": false
     },
@@ -2831,9 +3224,9 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:24.672142+00:00",
-      "contentHash": "4c650339c2add24129c17da31594c98de9a2be916cadd1d2f418f21c133de842",
-      "bytes": 2987,
+      "scrapedAt": "2026-10-04T23:29:20.958637+00:00",
+      "contentHash": "64709aa77d332b2b7bb9cd25f9958931345faf5773f2c288aa2cb750f55ce038",
+      "bytes": 4450,
       "hasChildren": false
     },
     {
@@ -2872,9 +3265,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:26.053017+00:00",
-      "contentHash": "1d44c9f2c6e2439349e77ba6320cfbe6db8c6af3b09c98fe977c9488a0354bc1",
-      "bytes": 9707,
+      "scrapedAt": "2026-10-04T23:29:21.010447+00:00",
+      "contentHash": "0036b6d9192ce3b065f69f7c936a9f5cc97e66b17202e6a19f22271ad7af1913",
+      "bytes": 9748,
       "hasChildren": false
     },
     {
@@ -2912,9 +3305,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:27.645572+00:00",
-      "contentHash": "7523b247ec11e6338e20fa80945ae45b60e067e473edbf2dbdd8c9f95dfc7516",
-      "bytes": 4858,
+      "scrapedAt": "2026-10-04T23:29:21.053349+00:00",
+      "contentHash": "78c6e7b626b84556ad7dcff214b3f0b546a51eb553169f75f3e047bf251750c6",
+      "bytes": 5014,
       "hasChildren": false
     },
     {
@@ -2952,9 +3345,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:29.320626+00:00",
-      "contentHash": "5e3ce3938d120e959a766d5568f812938255c7e725ea3bce06a64bb975413775",
-      "bytes": 7682,
+      "scrapedAt": "2026-10-04T23:29:21.116933+00:00",
+      "contentHash": "17ea429f962c9f1d420208dbebbba215b4b034a18b87fcad21e0f4e989dff185",
+      "bytes": 11513,
       "hasChildren": true
     },
     {
@@ -2973,51 +3366,135 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:30.315006+00:00",
-      "contentHash": "1ed7e4391fe287259f282a6ffd803cbd97909ba5d67b439be8c2b0f978214e1f",
-      "bytes": 9998,
+      "scrapedAt": "2026-10-04T23:29:21.186050+00:00",
+      "contentHash": "03e4aec59be50e1f380be500fb5a82c5c0647a942c19d6ec9c2eca3cd235b9f7",
+      "bytes": 12649,
       "hasChildren": false
     },
     {
       "id": "DIrTqgd96EYX7eyAKSUkjg",
       "tocId": "4jYvV54i_eSJfNIRnOrw9g",
-      "title": "Issue tracking integration for Jira",
+      "title": "Issue tracking integration for Jira Cloud",
       "path": [
         "How-to",
         "Issue tracking integrations",
-        "Issue tracking integration for Jira"
+        "Issue tracking integration for Jira Cloud"
       ],
       "section": "How-to",
-      "prettyUrl": "/r/polaris/black-duck-polaris-platform/issue-tracking-integration-for-jira.html",
-      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/issue-tracking-integration-for-jira.html",
+      "prettyUrl": "/r/polaris/black-duck-polaris-platform/issue-tracking-integration-for-jira-cloud.html",
+      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/issue-tracking-integration-for-jira-cloud.html",
       "localPath": "docs/platform/how-to/issue-tracking-integrations/issue-tracking-integration-for-jira.md",
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:31.431866+00:00",
-      "contentHash": "ec6bed6146a9b671e19e7ed504d8189396c7971617cd871795e37d86c807cf9e",
-      "bytes": 17630,
+      "scrapedAt": "2026-10-04T23:29:21.292221+00:00",
+      "contentHash": "ae495b404960ab8e9a7f8bf15a802ea62fe16160e4ea08ed700cee3bcd8e2075",
+      "bytes": 18379,
+      "hasChildren": false
+    },
+    {
+      "id": "WGy6nGS45SKWolXXjatgBw",
+      "tocId": "GMQ~qSZMbGYtBWqvhA0MXA",
+      "title": "Issue tracking integration for Jira Data Center",
+      "path": [
+        "How-to",
+        "Issue tracking integrations",
+        "Issue tracking integration for Jira Data Center"
+      ],
+      "section": "How-to",
+      "prettyUrl": "/r/polaris/black-duck-polaris-platform/issue-tracking-integration-for-jira-data-center.html",
+      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/issue-tracking-integration-for-jira-data-center.html",
+      "localPath": "docs/platform/how-to/issue-tracking-integrations/issue-tracking-integration-for-jira-data-center.md",
+      "depth": 3,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:16.776505+00:00",
+      "contentHash": "f5939ef4a26bef6484e4ea9d11255cf52d1d771dcb6c4f6e98a560c47935f9f5",
+      "bytes": 18903,
+      "hasChildren": false
+    },
+    {
+      "id": "nanrcSOSMsnk~SG5mpynFA",
+      "tocId": "bVkLjZs4V568cANfqAnyWA",
+      "title": "Issue tracking integration for ServiceNow",
+      "path": [
+        "How-to",
+        "Issue tracking integrations",
+        "Issue tracking integration for ServiceNow"
+      ],
+      "section": "How-to",
+      "prettyUrl": "/r/polaris/black-duck-polaris-platform/issue-tracking-integration-for-servicenow.html",
+      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/issue-tracking-integration-for-servicenow.html",
+      "localPath": "docs/platform/how-to/issue-tracking-integrations/issue-tracking-integration-for-servicenow.md",
+      "depth": 3,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:16.860012+00:00",
+      "contentHash": "e919c1cf5c5600ec94de70c407254fd29286786db2780ed037c61fb776d2b7b1",
+      "bytes": 13531,
+      "hasChildren": false
+    },
+    {
+      "id": "gokC4ZSU4bI1ZrfWIVHQdQ",
+      "tocId": "u5tp6b2kVQmRdsP4Q3sG6g",
+      "title": "Issue tracking integration for GitHub Issues",
+      "path": [
+        "How-to",
+        "Issue tracking integrations",
+        "Issue tracking integration for GitHub Issues"
+      ],
+      "section": "How-to",
+      "prettyUrl": "/r/polaris/black-duck-polaris-platform/issue-tracking-integration-for-github-issues.html",
+      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/issue-tracking-integration-for-github-issues.html",
+      "localPath": "docs/platform/how-to/issue-tracking-integrations/issue-tracking-integration-for-github-issues.md",
+      "depth": 3,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:16.981824+00:00",
+      "contentHash": "97b30d40128f8ce971d17cd329c261390bf407665f8d2ad6af6138a99785c29d",
+      "bytes": 19130,
+      "hasChildren": false
+    },
+    {
+      "id": "ttMKrlA8LeSo~SdIUPqHDQ",
+      "tocId": "ioOF3bwx3zAWSzYAI4TwtA",
+      "title": "Issue tracking integration for GitLab Issues",
+      "path": [
+        "How-to",
+        "Issue tracking integrations",
+        "Issue tracking integration for GitLab Issues"
+      ],
+      "section": "How-to",
+      "prettyUrl": "/r/polaris/black-duck-polaris-platform/issue-tracking-integration-for-gitlab-issues.html",
+      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/issue-tracking-integration-for-gitlab-issues.html",
+      "localPath": "docs/platform/how-to/issue-tracking-integrations/issue-tracking-integration-for-gitlab-issues.md",
+      "depth": 3,
+      "status": "done",
+      "error": null,
+      "scrapedAt": "2026-10-04T23:29:17.089608+00:00",
+      "contentHash": "96cc1ed79a8d469978645d3db9ea9b787b0de649802217177ba7da0acdea0ec4",
+      "bytes": 17829,
       "hasChildren": false
     },
     {
       "id": "wYmexZHmWc5xs1ZJyzvsNA",
       "tocId": "ZIX4VnpfxBeiWXU~WXxcAA",
-      "title": "Export an issue to Azure DevOps or Jira",
+      "title": "Export an issue to an issue tracking instance",
       "path": [
         "How-to",
         "Issue tracking integrations",
-        "Export an issue to Azure DevOps or Jira"
+        "Export an issue to an issue tracking instance"
       ],
       "section": "How-to",
-      "prettyUrl": "/r/polaris/black-duck-polaris-platform/export-an-issue-to-azure-devops-or-jira.html",
-      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/export-an-issue-to-azure-devops-or-jira.html",
+      "prettyUrl": "/r/polaris/black-duck-polaris-platform/export-an-issue-to-an-issue-tracking-instance.html",
+      "sourceUrl": "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/export-an-issue-to-an-issue-tracking-instance.html",
       "localPath": "docs/platform/how-to/issue-tracking-integrations/export-an-issue-to-azure-devops-or-jira.md",
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:32.305685+00:00",
-      "contentHash": "d1dad2567e897a40a006d6fea3e00f1193688842775e872f4a2a79c905d964d4",
-      "bytes": 3936,
+      "scrapedAt": "2026-10-04T23:29:21.342905+00:00",
+      "contentHash": "1ccd6467d71d35fba0f4b8c62d496c06cf9666516a18662c983850e3476b9592",
+      "bytes": 4583,
       "hasChildren": false
     },
     {
@@ -3036,9 +3513,9 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:32.940305+00:00",
-      "contentHash": "9646f752f92ee1ad351d184aad1738d9371cc597a7172de7d41d45230eca6f41",
-      "bytes": 1863,
+      "scrapedAt": "2026-10-04T23:29:21.366127+00:00",
+      "contentHash": "bbf5b7a92d3bc52688c593e075aafb7acce54efa2cb73a0f7d90bef2b155137e",
+      "bytes": 2544,
       "hasChildren": false
     },
     {
@@ -3076,9 +3553,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:34.687743+00:00",
-      "contentHash": "a06432883074dfae6d69daf025c64c63e2c6b15a6d13059ea485ea2dfbfdd41c",
-      "bytes": 2937,
+      "scrapedAt": "2026-10-04T23:29:21.405737+00:00",
+      "contentHash": "55c54027bc36a51ed5993abca413d350091ea52a8dc02c2d7807353dbca4f6c0",
+      "bytes": 2320,
       "hasChildren": false
     },
     {
@@ -3096,9 +3573,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:35.626053+00:00",
-      "contentHash": "14d475852e52d6b11f7a5d38b1204cdabbd107782cd9de1765c2b119ae09b0e5",
-      "bytes": 17207,
+      "scrapedAt": "2026-10-04T23:29:21.497062+00:00",
+      "contentHash": "2957c61dd81fb1971304a7e9e3210eb02151b7e6e4bba0c997d5e305e446e4f9",
+      "bytes": 17542,
       "hasChildren": false
     },
     {
@@ -3116,9 +3593,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:36.402241+00:00",
-      "contentHash": "371a7eb4bec14aaebbcda7b437524430e16f871903eb8c85129f1f90814486ed",
-      "bytes": 17980,
+      "scrapedAt": "2026-10-04T23:29:21.581119+00:00",
+      "contentHash": "a79da30c132e0c03ea1445386fe10d7d3184dd99c66c20e5d67a790365e9b0c8",
+      "bytes": 18030,
       "hasChildren": true
     },
     {
@@ -3157,8 +3634,8 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:38.145052+00:00",
-      "contentHash": "b581ab436fbdeb3bdc2db41ad66be4b9547d2fbef13ec89faeae17b7936992a7",
+      "scrapedAt": "2026-10-04T23:29:21.641261+00:00",
+      "contentHash": "3eddfcab65a3d557db180f7a55d8aba441415abd99ddc27954272e5232003fc0",
       "bytes": 5637,
       "hasChildren": false
     },
@@ -3177,9 +3654,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:38.951264+00:00",
-      "contentHash": "8cbc819a21304226bf8662145b3573e85864cc435ecc8af81434abd43f2f9246",
-      "bytes": 4736,
+      "scrapedAt": "2026-10-04T23:29:21.670905+00:00",
+      "contentHash": "10dd651f17537bdf0ad141d9f3fbd0411ab34264b4e2a35efcefbdef1af3ac18",
+      "bytes": 4814,
       "hasChildren": true
     },
     {
@@ -3198,8 +3675,8 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:39.803786+00:00",
-      "contentHash": "bd561b21c34ee1ad7091bb00795d33049ec6e251c4213d53f153b3fb1b875f37",
+      "scrapedAt": "2026-10-04T23:29:21.774341+00:00",
+      "contentHash": "2e19ad5fa24ec061618c7d0b3956a309567b1cce4cddb725038f2fa412f445f6",
       "bytes": 19469,
       "hasChildren": false
     },
@@ -3219,8 +3696,8 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:40.641137+00:00",
-      "contentHash": "afe57a2a99098d593a152a6154f9b9d5144d998ebcf1bcb6da9d4f0c7dc5fc4b",
+      "scrapedAt": "2026-10-04T23:29:21.833910+00:00",
+      "contentHash": "071e42d7c0f4051265405359bec0215d376fb7316ead1d1e35292e3c9ef50cd5",
       "bytes": 9633,
       "hasChildren": false
     },
@@ -3261,9 +3738,9 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:42.085639+00:00",
-      "contentHash": "505ad38c01aecefdc2b4ed6b92fee8f2e0fd5553e2aade083b98412e65bf8923",
-      "bytes": 1914,
+      "scrapedAt": "2026-10-04T23:29:21.871030+00:00",
+      "contentHash": "d350d68d83c89537b7921df826be7b725eb815fe52d488bb5184d27558adf4d2",
+      "bytes": 3778,
       "hasChildren": false
     },
     {
@@ -3282,8 +3759,8 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:43.010281+00:00",
-      "contentHash": "1df025fe7b690cb26a0b1ca048dd8b77ef918c766e76e8e98c427adaf8ed3967",
+      "scrapedAt": "2026-10-04T23:29:22.031112+00:00",
+      "contentHash": "d68c949539b273c01eaa169ee2792e93f5c6cf6a5131b0d928494871fbad8272",
       "bytes": 34424,
       "hasChildren": false
     },
@@ -3303,9 +3780,9 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:43.769543+00:00",
-      "contentHash": "9583b2c3a2854050718473df72c2006ebac1b836e659669deb29c3a14df01231",
-      "bytes": 10964,
+      "scrapedAt": "2026-10-04T23:29:22.082971+00:00",
+      "contentHash": "ce7311d69bead9efe65c6dba06a6072b567186ec27a98fe63423989135af0413",
+      "bytes": 11009,
       "hasChildren": false
     },
     {
@@ -3324,8 +3801,8 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:44.595496+00:00",
-      "contentHash": "89af4407743cc9950d29d82a4e060cbe10e424af059a353767346ace047c91e5",
+      "scrapedAt": "2026-10-04T23:29:22.161969+00:00",
+      "contentHash": "12a5b153eaf360707fa55176871cf7bbb9c75e39f3293f56536366d2b79ba446",
       "bytes": 9830,
       "hasChildren": false
     },
@@ -3365,8 +3842,8 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:46.210900+00:00",
-      "contentHash": "aa02512f1be92a813942168d75672bf947e44e61676eabafdd0d400062cd4354",
+      "scrapedAt": "2026-10-04T23:29:22.218849+00:00",
+      "contentHash": "82c5216eaa34a58cd56520f053e677860a3d511ffe831c1e09d1a2e607e70f47",
       "bytes": 6689,
       "hasChildren": true
     },
@@ -3386,8 +3863,8 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:46.842998+00:00",
-      "contentHash": "fc74750eccfe1d0c6411e4d629278937c50fae2ce14467c4f28f818775e75270",
+      "scrapedAt": "2026-10-04T23:29:22.235593+00:00",
+      "contentHash": "0f4b393768b05ebcb8ba01706a045fc078c66ccf6802651d58063d9b6d6e7964",
       "bytes": 1233,
       "hasChildren": false
     },
@@ -3511,9 +3988,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:50.850678+00:00",
-      "contentHash": "cf48375d3c08f0af381ec9c8986bb903b46f279571161a2ed3763f5e55d3b615",
-      "bytes": 4025,
+      "scrapedAt": "2026-10-04T23:29:22.301198+00:00",
+      "contentHash": "35ab19f2d7eaebd72400d03bc568dc080c8f40b4585a4ebcbbb9294cd9ef3c98",
+      "bytes": 4088,
       "hasChildren": false
     },
     {
@@ -3550,9 +4027,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:53.193267+00:00",
-      "contentHash": "d5e9e54cc98b7826acff8d8c716284934bacb8c63058a5ee756ab0db1b7cc3b3",
-      "bytes": 209283,
+      "scrapedAt": "2026-10-04T23:29:23.137416+00:00",
+      "contentHash": "6626ec242a421561538eb3c041d0e77bde3264f8e045fc7ea5ca80330a4e0ad3",
+      "bytes": 235474,
       "hasChildren": false
     },
     {
@@ -3570,9 +4047,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:54.105308+00:00",
-      "contentHash": "5b6ae7efaae67507ff1d5287ba1a6c9a4b1e0baedd7a33e9bd865c57aa88ef11",
-      "bytes": 40312,
+      "scrapedAt": "2026-10-04T23:29:23.289743+00:00",
+      "contentHash": "df85848bf34afd8035cc1833f62f77ae3583ce7e64e145e837f92cbafca391cd",
+      "bytes": 42892,
       "hasChildren": false
     },
     {
@@ -3590,9 +4067,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:55.140099+00:00",
-      "contentHash": "02a27c3e96b5423218de494422f8a7c25083c0f84c44261dfb0cfab47cce7519",
-      "bytes": 24575,
+      "scrapedAt": "2026-10-04T23:29:23.478763+00:00",
+      "contentHash": "62734791079ed369660d1208369bca821865d8c7e109c2caea41560422108169",
+      "bytes": 26431,
       "hasChildren": false
     },
     {
@@ -3610,8 +4087,8 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:55.866654+00:00",
-      "contentHash": "3b3380bee1558732607e0ae759c22a59fe05cfc98fa635059fe4696ed44645c0",
+      "scrapedAt": "2026-10-04T23:29:23.518164+00:00",
+      "contentHash": "e4a3733654f3b16572d803c9c687a19552e45c224a0e73ff5333db1584a7c7ec",
       "bytes": 5317,
       "hasChildren": true
     },
@@ -3631,8 +4108,8 @@
       "depth": 3,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:56.590961+00:00",
-      "contentHash": "41288cc69d4a9a5701cce790ea79ef760ab1934f6589691a2a6588e4f951fe7a",
+      "scrapedAt": "2026-10-04T23:29:23.553380+00:00",
+      "contentHash": "7ea2fffe47a9f8733759268aaa7ad4f24ac61eb0b39bea973f49278819ce8115",
       "bytes": 4112,
       "hasChildren": false
     },
@@ -3651,9 +4128,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:57.240324+00:00",
-      "contentHash": "d49f62f7b9861f6af4d50fc4a110e2cbda1fab298877b49778c3c33aa34bacb3",
-      "bytes": 7387,
+      "scrapedAt": "2026-10-04T23:29:23.587526+00:00",
+      "contentHash": "0f637af79c2f0cf897fdcb3225c886d60fde2170c1535bb7b0c02fc80acf7da1",
+      "bytes": 8072,
       "hasChildren": false
     },
     {
@@ -3671,9 +4148,9 @@
       "depth": 2,
       "status": "done",
       "error": null,
-      "scrapedAt": "2026-08-12T19:57:58.571931+00:00",
-      "contentHash": "74703e92229cf3197b9887de32d7eb61b74d834a30bc227e3e88de0ac7178d79",
-      "bytes": 13233,
+      "scrapedAt": "2026-10-04T23:29:25.158564+00:00",
+      "contentHash": "864d437f66bf285b1a6439505429bbd33535a528d3e8bc4eb47f64a9769458ef",
+      "bytes": 14484,
       "hasChildren": false
     },
     {
@@ -3738,11 +4215,11 @@
     }
   ],
   "stats": {
-    "total": 182,
+    "total": 205,
     "pending": 0,
-    "done": 182,
+    "done": 205,
     "skipped": 0,
     "error": 0
   },
-  "lastScrapeAt": "2026-08-12T19:58:29.765275+00:00"
+  "lastScrapeAt": "2026-10-04T23:29:25.184470+00:00"
 }

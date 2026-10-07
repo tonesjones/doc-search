@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/switch
 content_id: "aNf_GmLjmNbStItFTg4yWQ"
 version: "12.0.0"
 section: "Configuring Detect"
-scraped_at: "2026-09-07T21:15:18.241207+00:00"
+scraped_at: "2026-10-04T23:33:19.180823+00:00"
+content_hash: "c8a52d23d2f7550924b229d10fa9be65786cc76378d140790937af5f686b9710"
 ---
 
 # Switching between multiple profiles

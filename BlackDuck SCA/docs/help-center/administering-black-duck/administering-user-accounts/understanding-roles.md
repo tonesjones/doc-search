@@ -1,21 +1,18 @@
 ---
 title: "Understanding roles"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/understanding-roles.html"
-content_id: "ns0Bc~AESKel_ZtEYkWbFA"
+content_id: "4WERTjvJSE1JnM8QfC9NvQ"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T15:31:35.747973+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:18.789853+00:00"
+content_hash: "26c243e0aec2cb8e31c0d4d9a3ae29cec082096f579bd081a68c08bd333c1e80"
 ---
 
 # Understanding roles
 
-Black Duck SCA uses roles to control what users can view and manage.
-Roles define the actions users can perform and the information they can access. Users
-can be assigned roles individually or through group membership. Permissions from
-multiple roles are combined.
+Black Duck SCA uses roles to control what users can view and manage. Roles define the actions users can perform and the information they can access. Users can be assigned roles individually or through group membership. Permissions from multiple roles are combined.
 
-If no roles are assigned, users have read-only access to Black Duck and to the projects
-to which they are assigned.
+If no roles are assigned, users have read-only access to Black Duck and to the projects to which they are assigned.
 
 ## Role types
 
@@ -23,9 +20,7 @@ Black Duck provides three types of roles:
 
 - **Global roles**
 
-  Global roles grant permissions across the entire Black Duck SCA environment.
-  These roles are typically assigned to users who perform administrative,
-  security, compliance, reporting, or system-wide management tasks.
+  Global roles grant permissions across the entire Black Duck SCA environment. These roles are typically assigned to users who perform administrative, security, compliance, reporting, or system-wide management tasks.
 
   Common global roles include:
 
@@ -43,13 +38,10 @@ Black Duck provides three types of roles:
   | Global Security Manager | Manage remediation statuses |
   | Integration Manager | Manage integrations |
 
-  For detailed role capabilities, see **Global roles
-  reference**
+  For detailed role capabilities, see **Global roles reference**
 - **Project roles**
 
-  Project roles apply only to the projects to which a user has been assigned.
-  Use project roles when users need access to specific projects without
-  receiving broader system-wide permissions.
+  Project roles apply only to the projects to which a user has been assigned. Use project roles when users need access to specific projects without receiving broader system-wide permissions.
 
   Common project roles include:
 
@@ -64,14 +56,10 @@ Black Duck provides three types of roles:
   | Policy Violation Reviewer | Manage policy overrides |
   | Project Viewer | View project information and reports |
 
-  For detailed role capabilities, see **Project
-  roles reference**.
+  For detailed role capabilities, see **Project roles reference**.
 - **Project group roles**
 
-  Project group roles provide the same capabilities as their project-role
-  counterparts but apply to every project within an assigned project group.
-  They help administrators manage permissions consistently across multiple
-  related projects.
+  Project group roles provide the same capabilities as their project-role counterparts but apply to every project within an assigned project group. They help administrators manage permissions consistently across multiple related projects.
 
   Examples include:
 
@@ -88,16 +76,13 @@ Black Duck provides three types of roles:
 
 ## Assigning roles
 
-Roles can be assigned directly to users or to groups. When a role is assigned to a group, all
-group members inherit that role and its permissions.
+Roles can be assigned directly to users or to groups. When a role is assigned to a group, all group members inherit that role and its permissions.
 
-Users can also receive project-level permissions when they are assigned a role within
-a project or project group.
+Users can also receive project-level permissions when they are assigned a role within a project or project group.
 
 ## How permissions are combined
 
-Users can have multiple roles. A user's effective permissions are the combination of
-all assigned global, project, and project group roles.
+Users can have multiple roles. A user's effective permissions are the combination of all assigned global, project, and project group roles.
 
 For example, a user might:
 
@@ -117,11 +102,9 @@ The user is assigned directly to a project.
 
 **Indirect access**
 
-The user gains access through a project group assignment or through membership in a user group
-that is associated with a project group.
+The user gains access through a project group assignment or through membership in a user group that is associated with a project group.
 
-Project group roles allow permissions to be applied consistently across multiple
-projects without assigning users to each project individually.
+Project group roles allow permissions to be applied consistently across multiple projects without assigning users to each project individually.
 
 ## Choosing the appropriate role type
 
@@ -136,5 +119,4 @@ projects without assigning users to each project individually.
 - Global roles reference
 - Project roles reference
 - Project group roles reference
-- Black Duck SCA user role
-  matrix
+- Black Duck SCA user role matrix

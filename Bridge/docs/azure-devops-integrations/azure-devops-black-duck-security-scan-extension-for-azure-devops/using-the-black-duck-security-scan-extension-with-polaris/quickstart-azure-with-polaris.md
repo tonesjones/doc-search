@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickst
 content_id: "HrMeUNswHZgiZKoURhNKgA"
 version: "latest"
 section: "Azure DevOps Integrations"
-scraped_at: "2026-08-08T23:48:23.612605+00:00"
+scraped_at: "2026-10-04T23:28:29.888752+00:00"
+content_hash: "f4ced3e2604de5694e7db474b34608fff6ee227b5a31a81f6e4c230f29a18553"
 ---
 
 # Quickstart: Azure with Polaris

@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/lerna.
 content_id: "HhT_OFJMpf84PQ~jZKbgRQ"
 version: "12.0.0"
 section: "Detect Properties"
-scraped_at: "2026-09-07T21:16:50.727637+00:00"
+scraped_at: "2026-10-04T23:33:22.560382+00:00"
+content_hash: "112b2590b08ba98cddd4925ae1b23c1bb67e563420faf4baf758f35a80884c6f"
 ---
 
 # lerna

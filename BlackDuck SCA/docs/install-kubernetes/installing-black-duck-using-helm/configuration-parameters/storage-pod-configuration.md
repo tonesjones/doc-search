@@ -1,10 +1,11 @@
 ---
 title: "Storage pod configuration"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/storage-pod-configuration.html"
-content_id: "DrjL5VkfJVUq3t2aoBSh9w"
+content_id: "f1gyPMKT82wgcm2vuf_bPw"
 version: "2026.7"
 section: "Installing Black Duck using Kubernetes and OpenShift"
-scraped_at: "2026-08-08T15:33:14.681533+00:00"
+scraped_at: "2026-10-04T23:32:23.180128+00:00"
+content_hash: "94ea1f72c41c2efc967defebf17b3637580e137b9e65b8cfbc554ad8ad13a308"
 ---
 
 # Storage pod configuration
@@ -29,10 +30,7 @@ scraped_at: "2026-08-08T15:33:14.681533+00:00"
 
 ## Storage Providers
 
-The provider in storage service refers to a persistence type and its configuration.
-Black Duck manages tools, application reports and other
-large blobs under storage service. Currently, it supports only the filesystem as one
-of the provider.
+The provider in storage service refers to a persistence type and its configuration. Black Duck manages tools, application reports and other large blobs under storage service. Currently, it supports only the filesystem as one of the provider.
 
 ```
 storage:

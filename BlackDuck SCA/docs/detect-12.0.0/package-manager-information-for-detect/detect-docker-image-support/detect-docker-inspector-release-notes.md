@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/detect
 content_id: "vl6Fx0AumGrOWwJqZdliKg"
 version: "12.0.0"
 section: "Package Manager information for Detect"
-scraped_at: "2026-09-07T21:16:00.021698+00:00"
+scraped_at: "2026-10-04T23:33:20.598049+00:00"
+content_hash: "b7dd533398f2976f71cfc91a6a2b66d4a746a68fac5b811b8b4ded31be27608d"
 ---
 
 # Detect Docker Inspector Release notes

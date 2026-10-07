@@ -1,10 +1,11 @@
 ---
 title: "Understanding Component Scanning"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/understanding-component-scanning.html"
-content_id: "7Y9PO5z66fExOZgbxpwbCg"
+content_id: "fLe3fl2zcgan~4rNfukoyQ"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T14:53:26.698993+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:10.152891+00:00"
+content_hash: "7ebb6a675981e1b29aecb1f255f79d90af8f561647a736cd9daea822c2aece81"
 ---
 
 # Understanding Component Scanning

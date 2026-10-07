@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/se
 content_id: "1ecmSVF8yLTpHZ8ZaaTVtA"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:56:50.305457+00:00"
-content_hash: "02bae11a2e4f856490afeb85bf8607e5e8c851dd5230da74c3a63e608f5f4de2"
+scraped_at: "2026-10-04T23:29:19.691440+00:00"
+content_hash: "56c97f39d2208d041d09189ace7d13a82ae1d6cd6807e2ec69544fcea933578b"
 ---
 
 # Set up triage approval workflows
@@ -22,9 +22,12 @@ Your triage approval workflow can be configured so any of the following changes 
 - Changing an issue's triage status to To Be Fixed.
 - Changing an issue's Severity.
 - Changing an issue's Fix-By Date.
+- Accepting an AI-assisted triage suggestion.
 - Including or excluding a component from your SBOM (SBOM include/exclude).
 
 Additionally, when you enable Require reason/comment to justify the approval request, changes that require approval cannot be submitted without a comment.
+
+Important: Triage status changes triggered from an external issue tracker bypass triage approval workflows. When a project is connected to an issue tracking integration configured for two-way (bi-directional) status synchronization, a status change on a linked ticket immediately updates the triage status of the linked issue in Polaris, even when an approval workflow is configured at the organization, application, or project level. The status update is still logged in the triage history panel. This is by design for all supported issue tracking platforms. If you require approval for every triage status change, configure one-way synchronization instead. See Automatically close tickets and synchronize triage statuses for more information.
 
 ### Approval workflow inheritance
 

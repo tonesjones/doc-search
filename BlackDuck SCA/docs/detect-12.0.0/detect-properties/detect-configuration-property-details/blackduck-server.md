@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/blackd
 content_id: "RwliZJf3R0RX~49dctaC1w"
 version: "12.0.0"
 section: "Detect Properties"
-scraped_at: "2026-09-07T21:16:26.363721+00:00"
+scraped_at: "2026-10-04T23:33:21.605928+00:00"
+content_hash: "c5e3ddd4b8602b60e3666603b687d0c943be4b401aef4922df240e2d86e5cbc8"
 ---
 
 # blackduck-server

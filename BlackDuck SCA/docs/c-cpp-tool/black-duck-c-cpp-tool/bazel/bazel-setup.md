@@ -1,10 +1,11 @@
 ---
 title: "Bazel setup"
 source_url: "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/bazel-setup.html"
-content_id: "KUsit7e57btUfByP7lW10g"
+content_id: "v9E2WX~pl0~MlMTeG0vSjA"
 version: "latest"
 section: "Black Duck C/CPP Tool"
-scraped_at: "2026-08-13T16:16:57.628549+00:00"
+scraped_at: "2026-10-04T23:32:44.236236+00:00"
+content_hash: "9b9941f7c2923d3bca5af73396999f61269851bb109c094eb5b0fbbdb61cdd3a"
 ---
 
 # Bazel setup

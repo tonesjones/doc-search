@@ -1,6 +1,6 @@
 # Black Duck Sigma documentation corpus
 
-Offline Markdown copy of official **Black Duck Sigma** (Rapid Scan Static) docs from [docs.blackduck.com](https://docs.blackduck.com/r/sigma/2026.8.0/sigma-documentation/). Share this folder as a repo and people (or coding agents) can search it instead of the live help center.
+Offline Markdown copy of official **Black Duck Sigma** (Rapid Scan Static) docs from [docs.blackduck.com](https://docs.blackduck.com/r/sigma/2026.9.1/sigma-documentation/). Share this folder as a repo and people (or coding agents) can search it instead of the live help center.
 
 The public site is a JavaScript SPA. Opening a topic in a browser works; fetching that same URL with `curl` usually returns only `Loading application...`. This repo was built from the Fluid Topics **TOC and content APIs**, not from scraped HTML.
 
@@ -9,11 +9,11 @@ The public site is a JavaScript SPA. Opening a topic in a browser works; fetchin
 | Field | Current pin |
 |-------|-------------|
 | Product | Sigma Documentation (English) |
-| Version | **2026.8.0** (last official publication 2026-08-11) |
-| Product key | `sigma-2026.8.0` |
+| Version | **2026.9.1** (documentation map edition 2026-09-22) |
+| Product key | `sigma-2026.9.1` |
 | Topics | **59 / 59** |
-| Official help center | https://docs.blackduck.com/r/sigma/2026.8.0/sigma-documentation/ |
-| Map ID | `S_R7XSLfKPN3q6kGpp1eHQ` |
+| Official help center | https://docs.blackduck.com/r/sigma/2026.9.1/sigma-documentation/ |
+| Map ID | `HDJ_IfD4RK593mgPPhyrnw` |
 | Catalog | [index.md](index.md) |
 | Progress hub | [corpus-status.md](corpus-status.md) |
 
@@ -44,16 +44,16 @@ Or unzip / copy the shared folder and open it in an editor.
 
 | Question about… | Open |
 |-----------------|------|
-| What Sigma / Rapid Scan Static is | [docs/user-guide/introducing-sigma.md](docs/user-guide/introducing-sigma.md) |
-| Binary or Docker download | [docs/user-guide/downloading-sigma.md](docs/user-guide/downloading-sigma.md) |
-| Config files, env vars, AI checker plug-in, output | [docs/user-guide/configuring-sigma.md](docs/user-guide/configuring-sigma.md) |
-| Jenkins plugin, pipelines, quality-gate policies | [docs/user-guide/running-sigma-in-ci-cd.md](docs/user-guide/running-sigma-in-ci-cd.md) |
-| `sigma` CLI and subcommands | [docs/user-guide/command-reference.md](docs/user-guide/command-reference.md) |
-| Languages, OS, CI systems, hardware | [docs/user-guide/sigma-support-matrix.md](docs/user-guide/sigma-support-matrix.md) |
-| What changed in a release | [docs/user-guide/release-notes.md](docs/user-guide/release-notes.md) |
-| Checker catalog (pointer only) | [docs/user-guide/sigma-checkers.md](docs/user-guide/sigma-checkers.md) |
+| What Sigma / Rapid Scan Static is | [docs/sigma-2026.9.1/sigma-user-guide/introducing-sigma.md](docs/sigma-2026.9.1/sigma-user-guide/introducing-sigma.md) |
+| Binary or Docker download | [docs/sigma-2026.9.1/sigma-user-guide/downloading-sigma.md](docs/sigma-2026.9.1/sigma-user-guide/downloading-sigma.md) |
+| Config files, env vars, AI checker plug-in, output | [docs/sigma-2026.9.1/sigma-user-guide/configuring-sigma.md](docs/sigma-2026.9.1/sigma-user-guide/configuring-sigma.md) |
+| Jenkins plugin, pipelines, quality-gate policies | [docs/sigma-2026.9.1/sigma-user-guide/running-sigma-in-ci-cd.md](docs/sigma-2026.9.1/sigma-user-guide/running-sigma-in-ci-cd.md) |
+| `sigma` CLI and subcommands | [docs/sigma-2026.9.1/sigma-user-guide/command-reference.md](docs/sigma-2026.9.1/sigma-user-guide/command-reference.md) |
+| Languages, OS, CI systems, hardware | [docs/sigma-2026.9.1/sigma-user-guide/sigma-support-matrix.md](docs/sigma-2026.9.1/sigma-user-guide/sigma-support-matrix.md) |
+| What changed in a release | [docs/sigma-2026.9.1/sigma-user-guide/release-notes.md](docs/sigma-2026.9.1/sigma-user-guide/release-notes.md) |
+| Checker catalog (pointer only) | [docs/sigma-2026.9.1/sigma-user-guide/sigma-checkers.md](docs/sigma-2026.9.1/sigma-user-guide/sigma-checkers.md) |
 
-Treat the local Markdown as the source of truth for this snapshot. Cite the path (for example `docs/user-guide/command-reference/the-analyze-subcommand.md`) so answers are checkable.
+Treat the local Markdown as the source of truth for this snapshot. Cite the path (for example `docs/sigma-2026.9.1/sigma-user-guide/command-reference/the-analyze-subcommand.md`) so answers are checkable.
 
 ### 3. Point a coding agent at it
 
@@ -71,13 +71,13 @@ A typical prompt:
 ### Layout
 
 ```
-docs/user-guide/       Topic bodies (one official topic → one .md file)
+docs/sigma-2026.9.1/sigma-user-guide/       Topic bodies (one official topic → one .md file)
 index.md               Full catalog with links (generated — do not hand-edit rows)
 corpus-status.md       Progress summary (generated)
 AGENTS.md              Standing rules for coding agents
 CHECKPOINT.md          Last scrape status and next action
 scripts/               Only needed if you refresh or scrape
-sources/sigma-2026.8.0/  TOC snapshot + work-queue manifest
+sources/sigma-2026.9.1/  TOC snapshot + work-queue manifest
 ```
 
 ### What is not in this snapshot
@@ -96,7 +96,7 @@ There are **two** situations. Pick the matching workflow. Never scrape the SPA H
 
 | Situation | What changed | Workflow |
 |-----------|--------------|----------|
-| Same version, pages edited or added | Still **2026.8.0**, same map ID | [Refresh the current version](#1-refresh-the-current-version-docs-changed-version-did-not) |
+| Same version, pages edited or added | Still **2026.9.1**, same map ID | [Refresh the current version](#1-refresh-the-current-version-docs-changed-version-did-not) |
 | New Sigma release | Help center shows **2026.9.0** (or later) with a new map | [Scrape a future Sigma version](#2-scrape-a-future-sigma-version) |
 
 `--init` is **not** a refresh. It rebuilds a fresh manifest with every topic `pending` and does not keep previous statuses. Do not use it on the current pin unless you intend a full reset.
@@ -119,15 +119,15 @@ Registered keys, map IDs, and scrape flags live in [`scripts/products.py`](scrip
 
 ### 1. Refresh the current version (docs changed, version did not)
 
-Use this when **2026.8.0** is updated in place on the official site. The map ID is still `S_R7XSLfKPN3q6kGpp1eHQ`.
+Use this when **2026.9.1** is updated in place on the official site. The map ID is still `HDJ_IfD4RK593mgPPhyrnw`.
 
 ```powershell
-python scripts/build-index.py --product sigma-2026.8.0 --refresh-toc --hub
-python scripts/scrape-pending.py --product sigma-2026.8.0 --all-pending
-python scripts/scrape-pending.py --product sigma-2026.8.0 --refresh-changed
-python scripts/scrape-pending.py --product sigma-2026.8.0 --retry-errors
-python scripts/build-index.py --product sigma-2026.8.0 --hub
-python scripts/validate-corpus.py --product sigma-2026.8.0
+python scripts/build-index.py --product sigma-2026.9.1 --refresh-toc --hub
+python scripts/scrape-pending.py --product sigma-2026.9.1 --all-pending
+python scripts/scrape-pending.py --product sigma-2026.9.1 --refresh-changed
+python scripts/scrape-pending.py --product sigma-2026.9.1 --retry-errors
+python scripts/build-index.py --product sigma-2026.9.1 --hub
+python scripts/validate-corpus.py --product sigma-2026.9.1
 python scripts/smoke-retrieval.py
 ```
 
@@ -149,11 +149,11 @@ After the commands succeed:
 4. Note what changed in [CHECKPOINT.md](CHECKPOINT.md).
 5. Commit `docs/`, `sources/`, generated indexes, this README, and the checkpoint together.
 
-Do **not** hand-edit topic rows in `index.md` or `corpus-status.md`. Change `sources/sigma-2026.8.0/manifest.json` (or re-scrape) and run `build-index.py`.
+Do **not** hand-edit topic rows in `index.md` or `corpus-status.md`. Change `sources/sigma-2026.9.1/manifest.json` (or re-scrape) and run `build-index.py`.
 
 ### 2. Scrape a future Sigma version
 
-A new Sigma year/release (for example 2026.9.0) is a **new Fluid Topics map**, not a TOC refresh of 2026.8.0. Do not point the existing `sigma-2026.8.0` key at the new map and run `--init` unless you intend to throw away the current pin.
+A new Sigma year/release (for example 2026.9.0) is a **new Fluid Topics map**, not a TOC refresh of 2026.9.1. Do not point the existing `sigma-2026.9.1` key at the new map and run `--init` unless you intend to throw away the current pin.
 
 Avoid pinning the map whose only version is `latest` (`vkb5zvSX~7E~X~04sUrrNQ`) if you want a stable corpus. That map moves when Black Duck republishes.
 
@@ -183,7 +183,7 @@ Skip non-English titles and the unversioned `latest` map unless you are delibera
 
 #### Register the product (keep the old snapshot)
 
-Add an entry in [`scripts/products.py`](scripts/products.py). Keep `sigma-2026.8.0` if you still want that corpus on disk. Give the new version its own `docs_root` and index so paths do not collide with the current `docs/user-guide/` tree.
+Add an entry in [`scripts/products.py`](scripts/products.py). Keep `sigma-2026.9.1` if you still want that corpus on disk. Give the new version its own `docs_root` and index so paths do not collide with the current `docs/sigma-2026.9.1/sigma-user-guide/` tree.
 
 ```python
 "sigma-2026.9.0": {
@@ -224,7 +224,7 @@ python scripts/scrape-pending.py --product sigma-2026.9.0 --path-contains "Intro
 
 #### Replace-in-place (drop the old pin)
 
-Only do this if you no longer need the current files as the default corpus. Change `map_id`, `version`, `source_dir`, and `DEFAULT_PRODUCT_KEY` on the existing `sigma-2026.8.0` entry, then use `--refresh-toc` (not `--init`) so topics that kept the same content id stay `done`. New topics scrape as `pending`; `--refresh-changed` updates bodies that moved. Leftover Markdown for removed TOC nodes is **not** deleted automatically.
+Only do this if you no longer need the current files as the default corpus. Change `map_id`, `version`, `source_dir`, and `DEFAULT_PRODUCT_KEY` on the existing `sigma-2026.9.1` entry, then use `--refresh-toc` (not `--init`) so topics that kept the same content id stay `done`. New topics scrape as `pending`; `--refresh-changed` updates bodies that moved. Leftover Markdown for removed TOC nodes is **not** deleted automatically.
 
 #### Retarget the pin
 
@@ -253,23 +253,23 @@ If the new version becomes the default corpus:
 ```powershell
 # Status / products
 python scripts/build-index.py --list-products
-python scripts/validate-corpus.py --product sigma-2026.8.0
+python scripts/validate-corpus.py --product sigma-2026.9.1
 python scripts/smoke-retrieval.py
 
 # Everyday refresh (same book, docs edited or TOC grew)
-python scripts/build-index.py --product sigma-2026.8.0 --refresh-toc --hub
-python scripts/scrape-pending.py --product sigma-2026.8.0 --all-pending
-python scripts/scrape-pending.py --product sigma-2026.8.0 --refresh-changed
-python scripts/build-index.py --product sigma-2026.8.0 --hub
+python scripts/build-index.py --product sigma-2026.9.1 --refresh-toc --hub
+python scripts/scrape-pending.py --product sigma-2026.9.1 --all-pending
+python scripts/scrape-pending.py --product sigma-2026.9.1 --refresh-changed
+python scripts/build-index.py --product sigma-2026.9.1 --hub
 
 # One path only
-python scripts/scrape-pending.py --product sigma-2026.8.0 --path-contains "Command Reference"
+python scripts/scrape-pending.py --product sigma-2026.9.1 --path-contains "Command Reference"
 
 # Retry failures
-python scripts/scrape-pending.py --product sigma-2026.8.0 --retry-errors
+python scripts/scrape-pending.py --product sigma-2026.9.1 --retry-errors
 
 # Preview without writing
-python scripts/scrape-pending.py --product sigma-2026.8.0 --all-pending --dry-run
+python scripts/scrape-pending.py --product sigma-2026.9.1 --all-pending --dry-run
 ```
 
 PowerShell wrappers for the index script: `.\scripts\build-index.ps1 -ListProducts`, `-Init`, `-RefreshToc`, `-Hub`.
@@ -290,3 +290,7 @@ PowerShell wrappers for the index script: `.\scripts\build-index.ps1 -ListProduc
 ## License and attribution
 
 Topic bodies are Black Duck product documentation, retrieved from the public docs site. Copyright remains with Black Duck / the original publisher. Use this mirror in line with their terms. Scripts in `scripts/` are part of this repository.
+
+## Version history
+
+Unversioned questions use 2026.9.1 through `index.md`. The 2026.8.0 snapshot remains unchanged at `index-sigma-2026.8.0.md`. Use the historical catalog only for that version or a comparison.

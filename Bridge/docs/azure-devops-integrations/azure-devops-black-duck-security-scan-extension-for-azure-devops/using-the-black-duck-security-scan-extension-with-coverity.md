@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-t
 content_id: "EHp9b_mEnoivm_8zBR94Ew"
 version: "latest"
 section: "Azure DevOps Integrations"
-scraped_at: "2026-08-08T23:48:27.369571+00:00"
+scraped_at: "2026-10-04T23:28:30.060475+00:00"
+content_hash: "a77ca606c1b16e0982e5594249cdbebf0b4efa3fe59953e64e41a19d524557b9"
 ---
 
 # Using the Black Duck Security Scan Extension with Coverity

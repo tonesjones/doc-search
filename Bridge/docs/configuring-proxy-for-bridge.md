@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/configu
 content_id: "ePKQqFFFn9gDdoLeb6tjZQ"
 version: "latest"
 section: "Configuring proxy for Bridge"
-scraped_at: "2026-08-08T23:49:08.936211+00:00"
+scraped_at: "2026-10-04T23:28:32.031153+00:00"
+content_hash: "70dfd32b08b4670987dd8cd39d937ccf457f4111680c1899409db57de3386f47"
 ---
 
 # Configuring proxy for Bridge

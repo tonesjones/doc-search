@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/ou
 content_id: "fl6YB~Bs1yKgv83p77LrjA"
 product_key: "polaris-platform-latest"
 section: "Understand Polaris"
-scraped_at: "2026-08-12T19:55:41.948299+00:00"
-content_hash: "4c82fb580262eb132859bcc8e92a4d5497f4af7a3551a2a212c4f6eca980aca7"
+scraped_at: "2026-10-04T23:29:17.190508+00:00"
+content_hash: "d24cf5ffab10dea0933f9f95ee7d9cd3d397268e54ad0f5b5381f593aa615b15"
 ---
 
 # Out-of-the-box integrations
@@ -14,8 +14,7 @@ Several integrations are available that allow Polaris to interoperate with vario
 
 ## Code Sight integration
 
-Black Duck®
-Code Sight™ provides an interface for viewing issues reported by various Black Duck products, to help improve the security and reliability of your source code. After you connect Code Sight to Polaris, you can:
+Black Duck®Code Sight™ provides an interface for viewing issues reported by various Black Duck products, to help improve the security and reliability of your source code. After you connect Code Sight to Polaris, you can:
 
 - View issues captured in Polaris in your IDE (in Team View).
 - Run tests on Polaris from your IDE with VS Code.
@@ -24,7 +23,13 @@ For more information, see [Connect Code Sight to Polaris](../how-to/connect-code
 
 ## Issue tracking integrations
 
-Manually export issues captured in tests to Azure DevOps or Jira, or use issue policies to automatically export issues to Azure DevOps or Jira. For Jira Cloud, you can also configure two-way synchronization of Polaris triage statuses and Jira ticket statuses.
+Manually export issues captured in tests, or use issue policies to automatically export issues to a third-party issue tracking platform. You can also configure two-way synchronization of Polaris triage statuses and ticket statuses. Supported platforms include:
+
+- Azure DevOps
+- Jira (Cloud and Data Center)
+- ServiceNow
+- GitHub Issues
+- GitLab Issues
 
 For more information, see [Issue tracking integrations](../how-to/issue-tracking-integrations.md).
 

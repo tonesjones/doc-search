@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickst
 content_id: "awDfyMHa01fVMXoYt9X5aA"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:47:02.275816+00:00"
+scraped_at: "2026-10-04T23:28:25.812858+00:00"
+content_hash: "ec1bad7d1e62576e76218504c09a8c23fdd55b473a39d1c5ff925539179f3440"
 ---
 
 # Quickstart: Polaris Bridge CLI in a Jenkins pipeline

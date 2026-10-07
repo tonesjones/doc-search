@@ -1,3 +1,13 @@
+# Current corpus checkpoint
+
+Updated October 4, 2026.
+
+Coverity 2026.9: 4,526/4,526 topics, zero pending or errors. Versioned documents are under docs/coverity-2026.9/. The 2026.6 snapshot remains unchanged at index-coverity-2026.6.md.
+
+The current catalog is `index.md`; companion catalogs are linked from `corpus-status.md`. The refresh report is `../docs/corpus-refresh-check-2026-10-04.md`.
+
+## Previous checkpoint history
+
 # Session checkpoint — Coverity corpus
 
 **Last updated:** 2026-08-12  

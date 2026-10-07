@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/create-
 content_id: "KWKxORuBJ7h7U0KHzEzuXQ"
 version: "latest"
 section: "Bitbucket Integrations"
-scraped_at: "2026-08-08T23:49:00.195293+00:00"
+scraped_at: "2026-10-04T23:28:31.593219+00:00"
+content_hash: "206879c1fc4e09d825300a4d5ec05bc04ccbb68cc762688930133bb7662dd056"
 ---
 
 # Create and use a custom Docker image
@@ -220,6 +221,37 @@ RUN pip3 install --no-cache-dir --break-system-packages -r /requirements.txt
 
 # Polaris SCA Binary scan configuration
 COPY /path/to/artifact.zip /usr/local/artifact.zip
+
+# Set the entrypoint to execute pipe.py
+ENTRYPOINT ["python3", "/pipe.py"]
+
+# Build and push your custom image to dockerhub
+# docker build --platform linux/amd64 -t user/custom-blackduck-security-scan:node .
+# docker push user/custom-blackduck-security-scan:node
+```
+
+Example Dockerfile for Polaris SCA container scan configuration:
+
+```
+# Use Node.js 20 as the base image
+FROM node:20
+
+# Set the working directory
+WORKDIR /
+
+# Install required dependencies: Python3, Pip, JDK 17, Curl, and Git
+RUN apt-get update && apt-get install -y python3 python3-pip openjdk-17-jdk curl git
+
+# Clone the Black Duck Security Scan Pipe repository
+RUN git clone https://bitbucket.org/blackduck-inc/blackduck-security-scan.git /repo
+# Move required files to the working directory
+RUN mv /repo/requirements.txt / && mv /repo/pipe/pipe.py / && mv /repo/pipe.yml / && rm -rf /repo
+
+# Install Python dependencies
+RUN pip3 install --no-cache-dir --break-system-packages -r /requirements.txt
+
+# Polaris SCA Container scan configuration
+COPY /path/to/container.tar.gz /usr/local/container.tar.gz
 
 # Set the entrypoint to execute pipe.py
 ENTRYPOINT ["python3", "/pipe.py"]

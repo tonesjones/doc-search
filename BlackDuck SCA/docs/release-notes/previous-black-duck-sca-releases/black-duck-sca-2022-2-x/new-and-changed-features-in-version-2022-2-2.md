@@ -1,17 +1,16 @@
 ---
 title: "New and Changed Features in Version 2022.2.2"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/new-and-changed-features-in-version-2022.2.2.html"
-content_id: "~cA_sdFlDVT3lzPo5qO0Nw"
+content_id: "jtd1_pAsnLtHdUnTjZpQ3Q"
 version: "2026.7"
-section: "Release Notes"
-scraped_at: "2026-08-08T15:37:41.833023+00:00"
+section: "Black Duck SCA Release Notes"
+scraped_at: "2026-10-04T23:32:34.225769+00:00"
+content_hash: "dbd9c88e40a22a96bb7ed1a424c230fc80e8a4c47406f4a92b026afbb02b873a"
 ---
 
 # New and Changed Features in Version 2022.2.2
 
-Black Duck version 2022.2.2 is a maintenance release and contains no
-new or changed features. A fix was made to the online help to prevent a security
-vulnerability.
+Black Duck version 2022.2.2 is a maintenance release and contains no new or changed features. A fix was made to the online help to prevent a security vulnerability.
 
 ## Container versions
 

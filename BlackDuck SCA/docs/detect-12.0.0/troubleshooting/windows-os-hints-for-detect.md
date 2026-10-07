@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/window
 content_id: "gpiRbhU_jARlNy28RAW8nw"
 version: "12.0.0"
 section: "Troubleshooting"
-scraped_at: "2026-09-07T21:17:10.588466+00:00"
+scraped_at: "2026-10-04T23:33:23.186818+00:00"
+content_hash: "448c08d25a2d53539bc453d8055e31456eaa381ce6e46421051e942aa8c12705"
 ---
 
 # Windows OS hints for Detect

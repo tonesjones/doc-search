@@ -1,17 +1,18 @@
 ---
 title: "Bomengine container"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/bomengine-container.html"
-content_id: "9aXio497vZaYJUW2dyBaiw"
+content_id: "5yJKhPWFLbfDXxwKE53Kjw"
 version: "2026.7"
 section: "Installing Black Duck using Docker Swarm"
-scraped_at: "2026-08-08T15:34:19.862704+00:00"
+scraped_at: "2026-10-04T23:32:25.952361+00:00"
+content_hash: "9458eb742e7b233cc668df9b0922005878e2ea34a2bc1e8a2a5bf81340866992"
 ---
 
 # Bomengine container
 
 | Container Name: bomengine | |
 | --- | --- |
-| Image Name | blackducksoftware/blackduck-bomengine:2026.7.0 |
+| Image Name | blackducksoftware/blackduck-bomengine:2026.7.1 |
 | Description | The bomengine container is responsible for building BOMs and keeping them up-to-date. |
 | Scalability | The container can be scaled |
 | Links/Ports | The bomengine container needs to connect to the following container/services:   - postgres - registration - logstash - cfssl |

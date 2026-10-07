@@ -12,7 +12,9 @@ BASE_URL = "https://docs.blackduck.com"
 BLACKDUCK_ROOT_SLUGS: OrderedDict[str, str] = OrderedDict(
     [
         ("Black Duck SCA Help Center", "help-center"),
+        ("Welcome to Black Duck SCA", "help-center"),
         ("Getting Started with Black Duck", "getting-started"),
+        ("Getting Started with Black Duck SCA", "getting-started"),
         ("Getting Started with the Black Duck API", "api"),
         ("Architecture and Network Communications", "architecture"),
         ("Hosted Architecture and Network Communications", "architecture-hosted"),
@@ -21,6 +23,7 @@ BLACKDUCK_ROOT_SLUGS: OrderedDict[str, str] = OrderedDict(
         ("Scanning Best Practices", "scanning-best-practices"),
         ("Reporting Database", "reporting-database"),
         ("Release Notes", "release-notes"),
+        ("Black Duck SCA Release Notes", "release-notes"),
     ]
 )
 
@@ -85,20 +88,38 @@ PRODUCTS: dict[str, dict[str, Any]] = {
         "root_slugs": OrderedDict(),
         "reader_product": "alert",
         "reader_book": "black-duck-alert-user-guide",
+        "index_file": "index-alert-8.4.0.md",
+        "historical": True,
+        "default": False,
+        "phase": 2,
+    },
+    "alert-8.4.1": {
+        "key": "alert-8.4.1",
+        "map_id": "98MkzshzXyzKMqy_yMHrsw",
+        "version": "8.4.1",
+        "product": "alert",
+        "title": "Black Duck Alert",
+        "source_dir": "sources/alert-8.4.1",
+        "docs_root": "alert-8.4.1",
+        "root_slugs": OrderedDict(),
+        "reader_product": "alert",
+        "reader_book": "black-duck-alert-user-guide",
         "index_file": "index-alert.md",
+        "answer_default": True,
         "default": False,
         "phase": 2,
     },
     "c-cpp-tool-latest": {
         "key": "c-cpp-tool-latest",
-        "map_id": "2GUQEgoyKxsQAcOtWsqdDA",
+        "map_id": "3JcuocdfP6Yh0iupxpNOwQ",
         "version": "latest",
         "product": "c-cpp-tool",
         "title": "Black Duck C/CPP Tool",
         "source_dir": "sources/c-cpp-tool-latest",
         "docs_root": "c-cpp-tool",
         "section_docs_roots": OrderedDict(
-            [("KnowledgeBase Vulnerability Feed Server", "knowledgebase-vulnerability-feed-server")]
+            [("KnowledgeBase Vulnerability Feed Server", "knowledgebase-vulnerability-feed-server"),
+             ("SCASS MCP Server", "scass-mcp")]
         ),
         "root_slugs": OrderedDict(),
         "reader_product": "blackduck-tools",

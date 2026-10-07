@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-t
 content_id: "Vogk8UFLaKNiLhwRVR7hIg"
 version: "latest"
 section: "Azure DevOps Integrations"
-scraped_at: "2026-08-08T23:48:25.045145+00:00"
+scraped_at: "2026-10-04T23:28:29.958021+00:00"
+content_hash: "063473ee266b5dfcc0ed5658e865c5679917a482b8e7f4dcac7c1d4f54aa6745"
 ---
 
 # Using the Black Duck Security Scan Extension with Black Duck SCA

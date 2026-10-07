@@ -1,10 +1,11 @@
 ---
 title: "Resolving memory issues"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/resolving-memory-issues.html"
-content_id: "3JGr95xUJoFfkbX2D71udw"
+content_id: "ikOoeF6FlP0Eg6kqtDUzaA"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T14:53:45.029044+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:11.004491+00:00"
+content_hash: "730273867f0c6639cda330252de9cfafebcbd5f320baa12129aa9ae250f25a4c"
 ---
 
 # Resolving memory issues
@@ -15,15 +16,11 @@ You may receive the following error when trying to run Signature Scanner:
 ERROR: Insufficient memory <Value>
 ```
 
-To resolve this error, increase the memory that is available for use by Signature Scanner. You can accomplish this by using the SCAN_CLI_OPTS
-environment variable to increase the values for the initial and maximum heap size.
+To resolve this error, increase the memory that is available for use by Signature Scanner. You can accomplish this by using the SCAN_CLI_OPTS environment variable to increase the values for the initial and maximum heap size.
 
-Note: The value you specify for the maximum heap size must be larger than that value shown in the
-error message.
+Note: The value you specify for the maximum heap size must be larger than that value shown in the error message.
 
-The instructions shown below describe how to use the command line to configure the
-environment variable. These instructions can be adapted so you can create an alias
-definition in Linux or Mac OS X or use the Control Panel in Windows.
+The instructions shown below describe how to use the command line to configure the environment variable. These instructions can be adapted so you can create an alias definition in Linux or Mac OS X or use the Control Panel in Windows.
 
 To configure the SCAN_CLI_OPTS environment variable in Linux or Mac OS X:
 
@@ -55,6 +52,4 @@ To configure the SCAN_CLI_OPTS environment variable in Windows :
    set SCAN_CLI_OPTS=-Xms1g -Xmx6g
    ```
 
-   Note: There are limits in the maximum scan size when scanning with a 32-bit system as the
-   increase in addressable memory is restricted by the limitations of the 32-bit
-   system.
+   Note: There are limits in the maximum scan size when scanning with a 32-bit system as the increase in addressable memory is restricted by the limitations of the 32-bit system.

@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/interac
 content_id: "~QzaxYmKZdMJQxWcQzKboQ"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:47:06.730263+00:00"
+scraped_at: "2026-10-04T23:28:26.021238+00:00"
+content_hash: "cef17a2c4597280d759556816060fcd33539603268bfa39ecdd6e3f9025aed70"
 ---
 
 # Interactive tutorial: run a signature analysis

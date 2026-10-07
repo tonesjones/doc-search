@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/rapid-
 content_id: "wX395_xKiZ2LNarbii31GA"
 version: "12.0.0"
 section: "Detect Properties"
-scraped_at: "2026-09-07T21:16:38.890950+00:00"
+scraped_at: "2026-10-04T23:33:22.120720+00:00"
+content_hash: "4b63f4cd56c7b28d513c04db15bfd69a47aac76e2140d5f58fdb99268590a813"
 ---
 
 # rapid-scan

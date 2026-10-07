@@ -1,10 +1,11 @@
 ---
 title: "Component Policies table (component_policies)"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/component-policies-table-component_policies-.html"
-content_id: "yi50UVt0eljsobpM0A~3dg"
+content_id: "wF~rQy7Unz0VJ2POlFnzxQ"
 version: "2026.7"
 section: "Reporting Database"
-scraped_at: "2026-08-08T15:34:37.141387+00:00"
+scraped_at: "2026-10-04T23:32:26.750200+00:00"
+content_hash: "63c492a42f9fc069a7746d4614c5c05d2faa2d73db4e1f4efa7b10aaeedccc10"
 ---
 
 # Component Policies table (component_policies)

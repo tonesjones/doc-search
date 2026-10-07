@@ -1,10 +1,11 @@
 ---
 title: "Black Duck C/CPP tool quickstart guide"
 source_url: "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/black-duck-c/cpp-tool-quickstart-guide.html"
-content_id: "wr73B8IOKgNMXm_rzT_f4A"
+content_id: "0srW4O_agivlsh6QavfU6w"
 version: "latest"
 section: "Black Duck C/CPP Tool"
-scraped_at: "2026-08-13T16:16:52.157464+00:00"
+scraped_at: "2026-10-04T23:32:44.027633+00:00"
+content_hash: "10d1910e519d5347ebe268429f7dd00f5c37c4a0243db2319f6abb55c1051746"
 ---
 
 # Black Duck C/CPP tool quickstart guide

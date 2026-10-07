@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/cr
 content_id: "itrgRorwXsSBMpijokPXmw"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:56:06.286929+00:00"
-content_hash: "c1a73807963dc14f5f6e9b277f6d0617c72bc47e86cfe5832180a58f9a705e4b"
+scraped_at: "2026-10-04T23:29:18.462804+00:00"
+content_hash: "8a790185530b95b35ced815de168f8c35962168e9a0d14a6441e55345c0bccf2"
 ---
 
 # Create a Polaris service account
@@ -43,13 +43,20 @@ Note: Only Organization Administrators can complete these steps.
 
       [image: Screenshot of the Manage Applications window, with an active label filter.]
    5. Select Save.
-5. Select Save.
+5. Select an expiration period for the service account's access token using the Expiration dropdown.
+
+   You can select 7 days, 30 days, 60 days, 90 days, 365 days, Custom, or No expiration. The default is 365 days.
+
+   If you select Custom, an Expiration Date date picker appears. Select the date on which you want the access token to expire. Custom expiration dates cannot be more than two years from the current date.
+
+   Important: Regardless of the expiration option you select, service account tokens automatically expire after 30 days of inactivity.
+6. Select Save.
 
    The service account's access token is displayed in the Access Token field.
 
    [image: Screenshot of the Service Accounts page when a service account is created, where the new service account's token can be copied.]
 
    Note: The token is obfuscated, by default. Select the show [image: icon show obfuscated] icon to view the token in plain text.
-6. Select Copy to copy the service account's access token to your clipboard, and then store the token securely.
+7. Select Copy to copy the service account's access token to your clipboard, and then store the token securely.
 
-   Important: The service account's access token is only displayed when the service account is created, and cannot be retrieved later. Service account tokens automatically expire one year after creation, and will also expire if unused for 30 days.
+   Important: The service account's access token is only displayed when the service account is created, and cannot be retrieved later. The token expires at the end of the expiration period you selected, and will also expire if unused for 30 days.

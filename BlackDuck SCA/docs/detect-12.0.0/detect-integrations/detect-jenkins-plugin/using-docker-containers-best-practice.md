@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/using-
 content_id: "W8YmSCcas9p4hMBUJ~zGpQ"
 version: "12.0.0"
 section: "Detect Integrations"
-scraped_at: "2026-09-07T21:17:21.587058+00:00"
+scraped_at: "2026-10-04T23:33:23.528958+00:00"
+content_hash: "34e0d3c25df0450ec0cc0dc85a97c2b93bc894452659968703e86e7a25e055f1"
 ---
 
 # Using Docker Containers - Best Practice

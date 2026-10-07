@@ -16,6 +16,10 @@ SIGNAL_ROOT_SLUGS: OrderedDict[str, str] = OrderedDict(
         ("Scan your code changes", "scan-changes"),
         ("Scan a full project from the CLI", "scan-project"),
         ("Reference guide", "reference"),
+        ("Get Started with Black Duck Signal", "get-started"),
+        ("BYOLLM", "byollm"),
+        ("Signal Reference Guide", "reference"),
+        ("Signal FAQ", "faq"),
         ("AI security, data protection, and trust", "ai-security"),
         ("Signal release notes", "release-notes"),
     ]

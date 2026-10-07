@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/polaris
 content_id: "R1nVYpGOerTE7Z4tM8rqKw"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:47:07.344629+00:00"
+scraped_at: "2026-10-04T23:28:26.049176+00:00"
+content_hash: "0fdf7008d414a6566d35c45ae2018345c014ecb46bdadb9336092c0611724db1"
 ---
 
 # Polaris multi version SAST tool support with Bridge

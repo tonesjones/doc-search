@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-b
 content_id: "pvId1aJA7Q7KEz6MVGV4jg"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:47:10.810031+00:00"
+scraped_at: "2026-10-04T23:28:26.206135+00:00"
+content_hash: "e9cd66c605dd4c1d5f145fdb54176d4c6ef3a50d40d23731b20c4638b6356f65"
 ---
 
 # Using Bridge CLI with Black Duck SCA
@@ -63,8 +64,6 @@ The above JSON file uses the following:
 - `blackducksca.url` for Black Duck® SCA URL.
 - `blackducksca.scan.full` should be set to `true` so that a full /intelligent scan is run by Bridge CLI. For pull request scans, this should be set to `false`.
 - `blackducksca.scan.failure.severities` is a list of severities used by Bridge CLI to decide if the CI pipeline should be failed or not.
-
-For the required minimum set of arguments that you need to pass to integrate Bridge CLI with Polaris, refer to the Polaris specific resources page under Schema Resources and Extensions.
 
 For a complete list of environment variables and command line arguments, see Complete list of Bridge arguments.
 

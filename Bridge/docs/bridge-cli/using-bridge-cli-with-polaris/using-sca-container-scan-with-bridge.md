@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-s
 content_id: "UBfUyYK9U4b4HEsgOLqXtA"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:47:10.100193+00:00"
+scraped_at: "2026-10-04T23:28:26.174917+00:00"
+content_hash: "044344277bbcbb7d882fa4bc06cf26f0fcbec94eab1c8ae5d8a5f9e82416bd8d"
 ---
 
 # Using SCA Container Scan with Bridge

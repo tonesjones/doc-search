@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/gi
 content_id: "ey7ptJSFXDj1OvTNfE8Geg"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:57:17.899047+00:00"
-content_hash: "ae4b53845a2173608d9dc1db3afc95588d1a3525be139923167fb848a0ef4445"
+scraped_at: "2026-10-04T23:29:20.697284+00:00"
+content_hash: "c4de7d8c6d07aa1f70976c47ff4360066eecc6a2a8f1508aeda16c248d1dcb46"
 ---
 
 # GitLab Tokens for SCM Bulk Integration and/or Monitoring
@@ -14,7 +14,7 @@ content_hash: "ae4b53845a2173608d9dc1db3afc95588d1a3525be139923167fb848a0ef4445"
 
 How to create a token for bulk onboarding and monitor features via SCM Integrations. Monitoring includes Synchronizing Polaris with your SCM Provider and Event-Based Test Automation in Polaris for SCM Integrations.
 
-Note: Available only for GitLab SaaS (Premium and Ultimate).
+Note: Group-level webhooks, required for auto-onboarding of new repositories, require GitLab Premium or Ultimate on both SaaS and Self-Managed. Project-level webhooks are supported on all GitLab editions, including Free Edition on Self-Managed.
 
 ### Creating an access token
 
@@ -22,9 +22,9 @@ When integrating SCM repositories, you will need an access token you create in G
 
 Authentication between GitLab and Polaris is managed with an access token that you create in GitLab. If you haven't done so already, create an access token. For additional information: [GitLab Docs > GitLab token overview.](https://docs.gitlab.com/security/tokens/)
 
-Important: Must be created in GitLab SaaS (Premium or Ultimate). Free version does not allow users to create webhooks.
+Important: Premium or Ultimate is required for group-level webhooks (auto-onboarding of new repositories). All editions, including Free, are supported for project-level webhooks (individual project integrations).
 
-Important: Token must be created by a GitLab **Organization Owner** or users with the "Manage organization webhooks" permission, who are authorized to manage organization webhooks. Although other GitLab users may be able to select the scope requirements when creating a token, the token will not work due to permission requirements in GitLab to manage organization webhooks.
+Important: Token must be created by a GitLab **Group Owner** or someone with equivalent webhook-management rights. Although other GitLab users may be able to select the scope requirements when creating a token, the token will not work due to permission requirements in GitLab to manage organization webhooks.
 
 When creating an access token:
 

@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-f
 content_id: "27NYrjFir1wLqz7QPEKkEQ"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:47:23.221385+00:00"
+scraped_at: "2026-10-04T23:28:26.765726+00:00"
+content_hash: "b2c644caa182bc3651bc6e883b17d4a7ba1bf0202852bdd9382886744227ca09"
 ---
 
 # Using Fail Pull Requests With Coverity
@@ -56,5 +57,5 @@ For an example of using Bridge CLI to create Coverity Fail Pull Requests please 
 
 ## Useful Resources
 
-- [Triaging Issues With Coverity](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/coverity-platform/topics/modern_ui_triaging_issues.html)
+- [Triaging Issues With Coverity](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/c0e90de9794cf8830ba849d2462c4312.topic)
 - [Coverity Micro Course: Examining and Triaging Issues](https://blackduck.skilljar.com/path/coverity-from-install-to-first-results/coverity-examining-and-triaging-issues)

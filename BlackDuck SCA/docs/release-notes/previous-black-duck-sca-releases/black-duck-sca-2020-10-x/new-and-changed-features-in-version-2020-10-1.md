@@ -1,10 +1,11 @@
 ---
 title: "New and Changed Features in Version 2020.10.1"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/new-and-changed-features-in-version-2020.10.1.html"
-content_id: "_~SE8DwPGPcVEg~v0ZBtsg"
+content_id: "b1olVF1qZbWKW5MdoiJmeA"
 version: "2026.7"
-section: "Release Notes"
-scraped_at: "2026-08-08T15:38:24.569073+00:00"
+section: "Black Duck SCA Release Notes"
+scraped_at: "2026-10-04T23:32:36.253180+00:00"
+content_hash: "d4e6fc188d0b258bfceb064e60b7a67784cab3167cb2c641db274d1a5b2d7717"
 ---
 
 # New and Changed Features in Version 2020.10.1

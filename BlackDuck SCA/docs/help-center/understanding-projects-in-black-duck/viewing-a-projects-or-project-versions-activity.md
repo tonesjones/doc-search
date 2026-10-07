@@ -1,27 +1,22 @@
 ---
 title: "Viewing a project's or project version's activity"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/viewing-a-project-s-or-project-version-s-activity.html"
-content_id: "whrwa3B5f4eanCBzh7WJpQ"
+content_id: "kZTaeGVE0FciLOSHERmHfQ"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T15:14:09.010425+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:12.220747+00:00"
+content_hash: "cb55a29bf4b4a5d5ef78473af818f60bd8e2645344648e53931246f467109d34"
 ---
 
 # Viewing a project's or project version's activity
 
-The **Activity** tab displays the records of user actions and key events affecting
-this project or project version.
+The **Activity** tab displays the records of user actions and key events affecting this project or project version.
 
-Note: Activity records are available only for actions and events that occur while audit
-tracking is enabled. If audit tracking is enabled after a project or project version has
-already been created or modified, earlier activities are not backfilled and will not
-appear in the Activity tab. This behavior applies to existing projects and project
-versions.
+Note: Activity records are available only for actions and events that occur while audit tracking is enabled. If audit tracking is enabled after a project or project version has already been created or modified, earlier activities are not backfilled and will not appear in the Activity tab. This behavior applies to existing projects and project versions.
 
 ## The events table
 
-The Activity page contains an events table that lists activities recorded for the
-project or project version.
+The Activity page contains an events table that lists activities recorded for the project or project version.
 
 The table includes the following information:
 
@@ -49,5 +44,4 @@ Use filters to narrow the displayed activity records:
   | **Object Names** | Display events related to a specific object name. |
   | **Object Types** | Display events associated with a selected object type. |
 
-After applying filters, the events table updates to display only matching activity
-records.
+After applying filters, the events table updates to display only matching activity records.

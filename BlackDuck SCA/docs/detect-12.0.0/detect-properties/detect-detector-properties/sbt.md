@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/sbt.ht
 content_id: "Q~q~Bkb5RkJL0WmxjzymlQ"
 version: "12.0.0"
 section: "Detect Properties"
-scraped_at: "2026-09-07T21:17:00.020715+00:00"
+scraped_at: "2026-10-04T23:33:22.863460+00:00"
+content_hash: "90a911cb4e59a31b69ae786a6cb187f57bd1d34d7e5bd84f0c3b7eab0901893d"
 ---
 
 # sbt

@@ -1,23 +1,22 @@
 ---
 title: "New and Changed Features in Version 2021.10.3"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/new-and-changed-features-in-version-2021.10.3.html"
-content_id: "AVf8o1cZX0TglWKwC_8yiQ"
+content_id: "cGqfsbqZti6MFJN4_4YdVg"
 version: "2026.7"
-section: "Release Notes"
-scraped_at: "2026-08-08T15:37:48.782422+00:00"
+section: "Black Duck SCA Release Notes"
+scraped_at: "2026-10-04T23:32:34.623066+00:00"
+content_hash: "6656dd09b7d2a208f97e216208195a60fc9a203786231a639a7e258692e6316a"
 ---
 
 # New and Changed Features in Version 2021.10.3
 
 ## Log4j Update
 
-The Apache Log4j 2 Java library has been updated to 2.17.0 to address the critical
-CVE-2021-45046 and CVE-2021-45105 vulnerabilities.
+The Apache Log4j 2 Java library has been updated to 2.17.0 to address the critical CVE-2021-45046 and CVE-2021-45105 vulnerabilities.
 
 ## Logstash Update
 
-The Logstash image used in Black Duck has been upgraded to 7.16.2 which uses Log4j2
-version 2.17.0.
+The Logstash image used in Black Duck has been upgraded to 7.16.2 which uses Log4j2 version 2.17.0.
 
 ## Container versions
 

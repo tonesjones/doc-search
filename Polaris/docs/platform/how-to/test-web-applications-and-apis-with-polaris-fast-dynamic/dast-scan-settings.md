@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/da
 content_id: "YWppbGLp0a_HR5D2WxvftQ"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:57:43.769543+00:00"
-content_hash: "9583b2c3a2854050718473df72c2006ebac1b836e659669deb29c3a14df01231"
+scraped_at: "2026-10-04T23:29:22.082971+00:00"
+content_hash: "ce7311d69bead9efe65c6dba06a6072b567186ec27a98fe63423989135af0413"
 ---
 
 # DAST scan settings
@@ -150,9 +150,9 @@ The settings under Miscellaneous control the *Smart Settings* feature of the DAS
 
 Use Smart Settings (default: on): When Smart Settings is enabled, fAST Dynamic uses a set of "page readiness" heuristics to determine if a web page is ready for interaction. During the pre-flight phase of a scan, Smart Settings may dynamically adjust the scan settings on both the Simple and Advanced subtabs of Scan settings. For transparency, any changes applied by Smart Settings are noted in the scan report provided after a scan completes.
 
-**Smart Settings Settings** (all defaults: on)
+**Smart Settings Settings**
 
-- Test Site Check: Checks whether the site is a test or a benchmark site.
-- SPA Check: Checks whether to enable SPA and rendering.
-- Fast Spacheck: Checks whether to enable faster SPA settings, if applicable.
-- Auth Timeout Check: Checks whether auto-increasing the timeout values for failed logins results in successful logins.
+- Test Site Check: Checks whether the site is a known test or a benchmark site. (default: on)
+- SPA Check: Checks whether to enable SPA and rendering. (default: off)
+- Fast Spacheck: Checks whether to enable faster SPA settings, if applicable. (default: off)
+- Auth Timeout Check: Checks whether auto-increasing the timeout values for failed logins results in successful logins. (default: on)

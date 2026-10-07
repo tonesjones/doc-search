@@ -1,10 +1,11 @@
 ---
 title: "Docker containers"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/docker-containers.html"
-content_id: "5b8vV2jNaAS6ttM_lGh4~Q"
+content_id: "Ex2WDX2aJ4DwzjI7aTpZzw"
 version: "2026.7"
 section: "Installing Black Duck using Docker Swarm"
-scraped_at: "2026-08-08T15:34:18.161245+00:00"
+scraped_at: "2026-10-04T23:32:25.871068+00:00"
+content_hash: "f520c5c03f6d9c6931354dcb8d7c7500b6c704015bd2ddb594ee7d10720e9241"
 ---
 
 # Docker containers
@@ -16,9 +17,7 @@ These are the containers within the Docker network that comprise the Black Duck 
 - Authentication
 - Binary Analysis - Required if Black Duck Binary Analysis is enabled.
 - BOM Engine
-- DB - This container is not included in the
-  Black Duck application if you use an external PostgreSQL
-  instance.
+- DB - This container is not included in the Black Duck application if you use an external PostgreSQL instance.
 - Documentation
 - Integration
 - Jobrunner
@@ -35,22 +34,14 @@ These are the containers within the Docker network that comprise the Black Duck 
 - Rabbitmq
 - Redis
 
-The following diagram shows the basic relationships among the containers and which ports
-are exposed outside of the Docker network.
+The following diagram shows the basic relationships among the containers and which ports are exposed outside of the Docker network.
 
   
  [image: Black Duck Architecture]   
 
-This diagram makes no assumptions about which
-Docker hosts are running which container: it is possible that each container runs on a
-separate Docker host. All containers are contained within a Docker network. The only two
-ports exposed outside of the Docker network are the HTTPS port for Black Duck (via NGiNX) and a read-only database port from Postgres for
-reporting. All other external communication will go through a proxy or another NGiNX
-instance. All other communication will be among the containers within the Docker
-network.
+This diagram makes no assumptions about which Docker hosts are running which container: it is possible that each container runs on a separate Docker host. All containers are contained within a Docker network. The only two ports exposed outside of the Docker network are the HTTPS port for Black Duck (via NGiNX) and a read-only database port from Postgres for reporting. All other external communication will go through a proxy or another NGiNX instance. All other communication will be among the containers within the Docker network.
 
-The Zookeeper container was removed in Black Duck version 2020.4.0. You can
-manually remove the following zookeeper volumes because they are no longer used:
+The Zookeeper container was removed in Black Duck version 2020.4.0. You can manually remove the following zookeeper volumes because they are no longer used:
 
 - zookeeper-data-volume
 - zookeeper-datalog-volume

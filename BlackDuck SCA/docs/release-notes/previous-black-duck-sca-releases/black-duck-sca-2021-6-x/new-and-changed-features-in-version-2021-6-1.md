@@ -1,24 +1,20 @@
 ---
 title: "New and Changed Features in Version 2021.6.1"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/new-and-changed-features-in-version-2021.6.1.html"
-content_id: "zCkAx2XP1anjw52K~J_Z2A"
+content_id: "pbguwQYjHjD98du74m8djg"
 version: "2026.7"
-section: "Release Notes"
-scraped_at: "2026-08-08T15:38:09.646688+00:00"
+section: "Black Duck SCA Release Notes"
+scraped_at: "2026-10-04T23:32:35.583177+00:00"
+content_hash: "5d3cbd363a2f49b303dafa623474d85059d307c3c96db2c11572da770b512912"
 ---
 
 # New and Changed Features in Version 2021.6.1
 
 ## Black Duck Security Advisory (BDSA) Remote Code Execution Exposure
 
-Black Duck highlights vulnerabilities that may allow Remote Code Execution (RCE) in
-the 2021.6.1 release. In the Black Duck UI, if the BDSA vulnerability has a RCE tag
-it will appear in the full BDSA record, the table of vulnerabilities, and in the
-Security tab of a particular component.
+Black Duck highlights vulnerabilities that may allow Remote Code Execution (RCE) in the 2021.6.1 release. In the Black Duck UI, if the BDSA vulnerability has a RCE tag it will appear in the full BDSA record, the table of vulnerabilities, and in the Security tab of a particular component.
 
-The vulnerability APIs report the vulnerability using an array with the name
-bdsaTags. If the bdsaTag array includes “RCE” then that vulnerability may allow
-Remote Code Execution.
+The vulnerability APIs report the vulnerability using an array with the name bdsaTags. If the bdsaTag array includes “RCE” then that vulnerability may allow Remote Code Execution.
 
 - /api/components/{componentId}/vulnerabilities
 - /api/components/{componentId}/versions/{componentVersionId}/vulnerabilities

@@ -1,10 +1,11 @@
 ---
 title: "RabbitMQ pod configuration"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/rabbitmq-pod-configuration.html"
-content_id: "9088IP4O1Odl36Ku~zZDgg"
+content_id: "JXI9G7MlUsUWsg6DGPJPWw"
 version: "2026.7"
 section: "Installing Black Duck using Kubernetes and OpenShift"
-scraped_at: "2026-08-08T15:33:12.342979+00:00"
+scraped_at: "2026-10-04T23:32:23.070925+00:00"
+content_hash: "7d76f1bafd645fb0d52ca333e01aa9dda26aa1360e88c2149f3abe8ec167c1ed"
 ---
 
 # RabbitMQ pod configuration

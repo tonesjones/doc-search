@@ -1,16 +1,16 @@
 ---
 title: "DB container"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/db-container.html"
-content_id: "Tsl8TvresxOOr_PWpu6I_w"
+content_id: "W_VDFItr4ip3yhJj0fA5Xw"
 version: "2026.7"
 section: "Installing Black Duck using Docker Swarm"
-scraped_at: "2026-08-08T15:34:20.989812+00:00"
+scraped_at: "2026-10-04T23:32:26.001526+00:00"
+content_hash: "473fa4d1c829a7867ef7dde4a22fc62d0b27750661ed6bc0a051a5647e08a6b1"
 ---
 
 # DB container
 
-Note: This container is not included in the Black Duck application if you use an
-external Postgres instance.
+Note: This container is not included in the Black Duck application if you use an external Postgres instance.
 
 | Container Name: blackduck-postgres | |
 | --- | --- |

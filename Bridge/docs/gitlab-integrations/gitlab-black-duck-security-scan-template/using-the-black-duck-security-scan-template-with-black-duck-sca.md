@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-t
 content_id: "chYvhUEMaCkHVaZETnX1cw"
 version: "latest"
 section: "GitLab Integrations"
-scraped_at: "2026-08-08T23:48:07.154703+00:00"
+scraped_at: "2026-10-04T23:28:28.935810+00:00"
+content_hash: "8a25aac0a3407d8944836ee000ace47f05a5d9e6f6ce5240aa190db30fd517b1"
 ---
 
 # Using the Black Duck Security Scan Template with Black Duck SCA

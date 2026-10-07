@@ -1,36 +1,26 @@
 ---
 title: "Software Bill of Materials (SBOM) report"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/software-bill-of-materials-sbom-report.html"
-content_id: "6vAmtZuo7ZkpMGY9vvYAUA"
+content_id: "uF7QoicnCxp7QpUkSVlQyg"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T15:14:52.020398+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:13.641015+00:00"
+content_hash: "d236ecbcda690ff84d4aabe9db7491ce5ff883d98efbdd35907a3168bbdfdfb9"
 ---
 
 # Software Bill of Materials (SBOM) report
 
-A software Bill of Materials (SBOM) is a list of all the open source and third-party
-components present in a codebase. An SBOM also lists the licenses that govern those
-components, the versions of the components used in the codebase, and their patch status,
-which allows security teams to quickly identify any associated security or license
-risks. See the individual SPDX and CycloneDX mapping entries for additional
-details on fields found in their SBOM reports.
+A software Bill of Materials (SBOM) is a list of all the open source and third-party components present in a codebase. An SBOM also lists the licenses that govern those components, the versions of the components used in the codebase, and their patch status, which allows security teams to quickly identify any associated security or license risks. See the individual SPDX and CycloneDX mapping entries for additional details on fields found in their SBOM reports.
 
-You can export your SBOM report for a specific project version. SBOM reports can also be
-used to import project information into Black Duck.
+You can export your SBOM report for a specific project version. SBOM reports can also be used to import project information into Black Duck.
 
 **To run a Software Bill of Materials report at the project version level:**
 
-1. Select the project name using the **Watching** or **My Projects**
-   dashboard. The *Project Name* page appears.
+1. Select the project name using the **Watching** or **My Projects** dashboard. The *Project Name* page appears.
 2. Select the version of the project for which you want to run the report.
 3. Select the **Reports** tab.
-4. Click **+ Create New Report** and select **Software Bill of Materials
-   (SBOM)**.
-5. Select a SBOM
-   template from the **Template** dropdown menu. The default SBOM
-   template will automatically be selected, but can be changed if
-   desired.
+4. Click **+ Create New Report** and select **Software Bill of Materials (SBOM)**.
+5. Select a SBOM template from the **Template** dropdown menu. The default SBOM template will automatically be selected, but can be changed if desired.
 6. Select the desired SBOM specification:
 
    - [SPDX v2.2](https://spdx.dev/wp-content/uploads/sites/41/2020/08/SPDX-specification-2-2.pdf)
@@ -46,24 +36,23 @@ used to import project information into Black Duck.
    - YAML
    - RDF
    - tag:value
-8. Optionally, you can expand the **Template Details** to see the fields included
-   in the selected SBOM template.
+8. Optionally, you can expand the **Template Details** to see the fields included in the selected SBOM template.
 9. Click **Create** to run the report.
 10. Click the link to download and view the report.
 
-Note: If the **Don't generate SBOM reports for projects with policy violations** option
-has been enabled for this project's group and the project has policy violations, the
-option to generation a SBOM report will be disabled.
+Note: If the **Don't generate SBOM reports for projects with policy violations** option has been enabled for this project's group and the project has policy violations, the option to generation a SBOM report will be disabled.
+
+## Match Review items in SBOM and VEX reports
+
+When generating SBOM and VEX reports, components and vulnerabilities on the **Match Review** page behave as follows:
+
+- **Components pending Match Review:** Components currently listed under **Match Review** are excluded from the exported SBOM component list.
+- **VEX reports and vulnerabilities:** Vulnerabilities associated with components in **Match Review** appear on the project version's **Vulnerabilities** tab to ensure potential risks remain visible. The inclusion and reported disposition of these vulnerabilities in exported VEX reports depend on their current vulnerability remediation status.
+- **Ignored Match Review components:** Components explicitly ignored on the **Match Review** page do not contribute vulnerabilities to the **Vulnerabilities** tab and are excluded from both SBOM and VEX exports.
 
 ## What fields are imported from SBOMs
 
-When importing Software Bill of Materials (SBOMs), not all fields are processed by
-Black Duck SCA. Understanding which specific fields are
-considered is essential for users to effectively utilize SBOM functionality and
-ensure comprehensive vulnerability management. This section outlines the fields that
-Black Duck SCA evaluates during the SBOM import process,
-providing greater transparency into the detailed SPDX functionality and how it can
-be leveraged in your projects.
+When importing Software Bill of Materials (SBOMs), not all fields are processed by Black Duck SCA. Understanding which specific fields are considered is essential for users to effectively utilize SBOM functionality and ensure comprehensive vulnerability management. This section outlines the fields that Black Duck SCA evaluates during the SBOM import process, providing greater transparency into the detailed SPDX functionality and how it can be leveraged in your projects.
 
 Table 1. SBOM Fields Imported by Black Duck
 
@@ -91,22 +80,15 @@ Table 1. SBOM Fields Imported by Black Duck
 
 **CycloneDX**
 
-- Additional *Component/Package* checksums/hashes & algorithms after
-  first one
+- Additional *Component/Package* checksums/hashes & algorithms after first one
 - *Relationship*s and *Relationship* comments
 - Originators beyond author parsing
-- All properties except the
-  *BlackDuck-Component,**BlackDuck-ComponentVersion* and
-  *BlackDuck-ComponentOrigin*
-- Non-*DISTRIBUTION* external references (they’re parsed but only
-  *distribution* used for the *downloadLocation*)
+- All properties except the *BlackDuck-Component,**BlackDuck-ComponentVersion* and *BlackDuck-ComponentOrigin*
+- Non-*DISTRIBUTION* external references (they’re parsed but only *distribution* used for the *downloadLocation*)
 - Additional supplier contacts after the the first email
 
 **SPDX SBOM**
 
-- Additional *Component/Package* checksums/hashes & algorithms after
-  first one
-- *Relationship*s and *Relationship* comments beyond
-  *RelationshipType* (*SPDX 2.x* and *SPDX 3.x*), and
-  *License*s (*SPDX 3.x*)
+- Additional *Component/Package* checksums/hashes & algorithms after first one
+- *Relationship*s and *Relationship* comments beyond *RelationshipType* (*SPDX 2.x* and *SPDX 3.x*), and *License*s (*SPDX 3.x*)
 - Originators beyond author parsing

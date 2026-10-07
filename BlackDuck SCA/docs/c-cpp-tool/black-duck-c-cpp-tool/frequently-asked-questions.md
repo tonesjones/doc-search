@@ -1,10 +1,11 @@
 ---
 title: "Frequently asked questions"
 source_url: "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/frequently-asked-questions.html"
-content_id: "PTZp6Ld~U~dRqLEHGmQVTw"
+content_id: "og9caAm52~1u0PLXnkrfng"
 version: "latest"
 section: "Black Duck C/CPP Tool"
-scraped_at: "2026-08-13T16:16:58.949855+00:00"
+scraped_at: "2026-10-04T23:32:44.282936+00:00"
+content_hash: "c25b213aedca420aa11f6d09e3d3bb02a12de9decec4cbe47e367a9cfc198011"
 ---
 
 # Frequently asked questions

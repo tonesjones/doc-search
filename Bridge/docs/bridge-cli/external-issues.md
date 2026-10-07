@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/externa
 content_id: "5HNCy~xif8rlYcKWiJdLXg"
 version: "latest"
 section: "Bridge CLI"
-scraped_at: "2026-08-08T23:47:30.388891+00:00"
+scraped_at: "2026-10-04T23:28:27.077522+00:00"
+content_hash: "5d75b5b9517d8ed1005e0263b419d1074bd938a056a8e86db53cd621efaaad54"
 ---
 
 # External issues

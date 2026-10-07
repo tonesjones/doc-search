@@ -1,10 +1,11 @@
 ---
 title: "Scan view table (scan_view)"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/scan-view-table-scan_view-.html"
-content_id: "Wxd8DnN9qgfEAanifsE37A"
+content_id: "vUghHXu7_bPUzG0g7OW4~A"
 version: "2026.7"
 section: "Reporting Database"
-scraped_at: "2026-08-08T15:34:43.703905+00:00"
+scraped_at: "2026-10-04T23:32:27.050551+00:00"
+content_hash: "67e169f5d0dba2b9151dc2c354a5431c40a6d0c1a71eabb061d8c2558aaae27d"
 ---
 
 # Scan view table (scan_view)

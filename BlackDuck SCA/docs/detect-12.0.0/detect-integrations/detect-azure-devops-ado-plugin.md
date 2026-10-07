@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/detect
 content_id: "KlX033g7w41Ze0bIo02j1A"
 version: "12.0.0"
 section: "Detect Integrations"
-scraped_at: "2026-09-07T21:17:22.602725+00:00"
+scraped_at: "2026-10-04T23:33:23.559700+00:00"
+content_hash: "78b23d59920c364d37aefba8f27354ae6ef3f3abf039e6096ee8e37b5701fcdf"
 ---
 
 # Detect Azure DevOps (ADO) Plugin

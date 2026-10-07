@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-b
 content_id: "GssxTBFDd10pv2sxg1Nonw"
 version: "latest"
 section: "Bitbucket Integrations"
-scraped_at: "2026-08-08T23:49:05.495927+00:00"
+scraped_at: "2026-10-04T23:28:31.888395+00:00"
+content_hash: "7627b3615ef20ef7fb17a55cbb4ac0de98cbf41f1bafd2c5a91195b61aeb9b05"
 ---
 
 # Using Black Duck Security Scan Pipe for Coverity

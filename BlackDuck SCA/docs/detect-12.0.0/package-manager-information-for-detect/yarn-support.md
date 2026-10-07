@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/yarn-s
 content_id: "G0DbkryFL0ffKg1zsm2nHw"
 version: "12.0.0"
 section: "Package Manager information for Detect"
-scraped_at: "2026-09-07T21:16:21.082194+00:00"
+scraped_at: "2026-10-04T23:33:21.275687+00:00"
+content_hash: "528e0821b441113ca245ba862fd8ad6f45d345129c7b2df87e95bd47c6a7b243"
 ---
 
 # Yarn support

@@ -1,39 +1,31 @@
 ---
 title: "Network requirements"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/network-requirements.html"
-content_id: "iyjiqk71PbkL8vDBg5EtTg"
+content_id: "XOC~Lwe1LDJ_lZBIjHAKvQ"
 version: "2026.7"
 section: "Installing Black Duck using Docker Swarm"
-scraped_at: "2026-08-08T15:33:30.049108+00:00"
+scraped_at: "2026-10-04T23:32:23.866695+00:00"
+content_hash: "1b74460abc97e6730039292be7069902eff7da24cf8c2dc484285954c574ee6e"
 ---
 
 # Network requirements
 
-Black Duck SCA requires the following ports to be externally
-accessible:
+Black Duck SCA requires the following ports to be externally accessible:
 
 - Port 443 – Web server HTTPS port for Black Duck SCA via NGiNX
 - Port 55436 – Read-only database port from PostgreSQL for reporting
 
-If your corporate security policy requires registration of specific URLs, connectivity
-from your Black Duck SCA installation to Black Duck Software
-hosted servers is limited to communications via HTTPS/TCP on port 443 with the following
-servers:
+If your corporate security policy requires registration of specific URLs, connectivity from your Black Duck SCA installation to Black Duck Software hosted servers is limited to communications via HTTPS/TCP on port 443 with the following servers:
 
 - updates.suite.blackducksoftware.com (to register your software)
 - kb.blackducksoftware.com (access Black Duck KB data)
-- https://auth.docker.io/token?scope=repository/blackducksoftware/blackduckregistration/pull&service=registry.docker.io
-  (access to Docker Registry)
+- https://auth.docker.io/token?scope=repository/blackducksoftware/blackduckregistration/pull&service=registry.docker.io (access to Docker Registry)
 
-Note: If you are using a network proxy, these URLs must be configured as destinations in your
-proxy configuration.
+Note: If you are using a network proxy, these URLs must be configured as destinations in your proxy configuration.
 
 ## Allow list addresses and IP ranges
 
-Note: HTTPS is used for all traffic to Black Duck SCA. IPs that include a subnet
-mask (for example, /22 in 103.21.244.0/22) represent a range of IPs, all of which
-should be allow listed to ensure Black Duck SCA functions as
-intended.
+Note: HTTPS is used for all traffic to Black Duck SCA. IPs that include a subnet mask (for example, /22 in 103.21.244.0/22) represent a range of IPs, all of which should be allow listed to ensure Black Duck SCA functions as intended.
 
 Ensure that the following addresses and IPs are on the allow list:
 
@@ -60,9 +52,7 @@ Ensure that the following addresses and IPs are on the allow list:
 
 Note:
 
-Customers not utilizing the AI-assisted documentation search can still modify the
-CSP headers by using environment variables for the
-`blackduck-nginx` container:
+Customers not utilizing the AI-assisted documentation search can still modify the CSP headers by using environment variables for the `blackduck-nginx` container:
 
 ```
 HUB_CSP_HEADER=default-src 'none'; connect-src 'self'; object-src 'self'; script-src 'self'; 
@@ -78,14 +68,10 @@ To verify connectivity, use the cURL command as shown in the following example.
 curl -v https://kb.blackducksoftware.com
 ```
 
-Tip: It's good to check connectivity on the Docker host but it's better to verify the
-connectivity from within your Docker network.
+Tip: It's good to check connectivity on the Docker host but it's better to verify the connectivity from within your Docker network.
 
 ## IPv4 and IPv6 networks
 
-Black Duck SCA supports IPv4 and IPv6 for ingress and egress traffic. This
-includes connectivity between Black Duck components, the KnowledgeBase, customer
-systems, and internet-facing networking pods.
+Black Duck SCA supports IPv4 and IPv6 for ingress and egress traffic. This includes connectivity between Black Duck components, the KnowledgeBase, customer systems, and internet-facing networking pods.
 
-For deployments in IPv6-only environments, ensure that your networking configuration
-supports IPv6 routing for all required communication paths.
+For deployments in IPv6-only environments, ensure that your networking configuration supports IPv6 routing for all required communication paths.

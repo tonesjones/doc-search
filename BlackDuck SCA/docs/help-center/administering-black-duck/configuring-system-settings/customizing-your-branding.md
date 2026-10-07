@@ -1,10 +1,11 @@
 ---
 title: "Customizing Your Branding"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/customizing-your-branding.html"
-content_id: "_tbGA4KYsmBt7q_U5KNPCQ"
+content_id: "o2eSPXWcpVGt8f~Gt9CvhA"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T15:32:00.470059+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:19.953700+00:00"
+content_hash: "adf40c4ceb5f3cec5743a8353c6e0b091406a60afc1a26c965a90c6f6527a8a9"
 ---
 
 # Customizing Your Branding
@@ -14,9 +15,7 @@ You can replace the logo that appears in the header of the user interface:
   
  [image: Logo header]   
 
-The dimensions will be constrained to a maximum height of 36px and a maximum width of 259px.
-The filesize cannot exceed 100Kb. The logo supports various image formats, including
-PNG, GIF, SVG, WEBP, JPEG, and AVIF.
+The dimensions will be constrained to a maximum height of 36px and a maximum width of 259px. The filesize cannot exceed 100Kb. The logo supports various image formats, including PNG, GIF, SVG, WEBP, JPEG, and AVIF.
 
 To change the logo:
 

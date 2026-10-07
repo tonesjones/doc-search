@@ -450,15 +450,15 @@ def write_hub_index() -> None:
             if r.get("error"):
                 prog += f" · {r['error']} error"
             idx = f"[{r['index']}]({r['index']})"
-        note = "optional" if r.get("optional") else "primary"
+        note = "optional" if r.get("optional") else "historical" if PRODUCTS[r["key"]].get("historical") else "primary"
         a(f"| {r['title']} | {r['version']} | {prog} | {idx} | {note} |")
     a("")
     a("## How to scrape")
     a("")
     a("```powershell")
-    a("python scripts/build-index.py --product sigma-2026.8.0 --init")
-    a("python scripts/scrape-pending.py --product sigma-2026.8.0 --all-pending")
-    a("python scripts/build-index.py --product sigma-2026.8.0 --hub")
+    a(f"python scripts/build-index.py --product {DEFAULT_PRODUCT_KEY} --init")
+    a(f"python scripts/scrape-pending.py --product {DEFAULT_PRODUCT_KEY} --all-pending")
+    a(f"python scripts/build-index.py --product {DEFAULT_PRODUCT_KEY} --hub")
     a("```")
     a("")
     a("Phased scrape: see [PHASE-PLAN.md](PHASE-PLAN.md).")

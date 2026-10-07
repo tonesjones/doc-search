@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickst
 content_id: "700kuerTqlyFnaByt1Bx3Q"
 version: "latest"
 section: "GitHub Integrations"
-scraped_at: "2026-08-08T23:47:46.656266+00:00"
+scraped_at: "2026-10-04T23:28:28.015597+00:00"
+content_hash: "f6058e2611d76902bfcfa630a56b55e8f13a63a7cf0681cba0ae4b4b8804e3bd"
 ---
 
 # Quickstart: Black Duck Security Scan Action with Black Duck SCA

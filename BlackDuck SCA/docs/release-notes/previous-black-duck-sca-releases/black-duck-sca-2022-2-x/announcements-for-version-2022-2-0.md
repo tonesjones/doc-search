@@ -1,55 +1,36 @@
 ---
 title: "Announcements for Version 2022.2.0"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/announcements-for-version-2022.2.0.html"
-content_id: "eSdVOP_wXypVmbAbWUDvHg"
+content_id: "sQN_IqSxdKbFABbzrsmhhw"
 version: "2026.7"
-section: "Release Notes"
-scraped_at: "2026-08-08T15:37:45.302661+00:00"
+section: "Black Duck SCA Release Notes"
+scraped_at: "2026-10-04T23:32:34.389523+00:00"
+content_hash: "c9fdd910f942b1cd1f9aff9ed21cc223bf73373a36fc2b41bfc2bbc11a7e42fa"
 ---
 
 # Announcements for Version 2022.2.0
 
 ## Enhanced Signature Generation
 
-Starting with Black Duck 2022.2.0, the Signature Scanner will default to generation
-of signatures on the client rather than the server.
+Starting with Black Duck 2022.2.0, the Signature Scanner will default to generation of signatures on the client rather than the server.
 
-If you are using the Blackduck hosted service or if you are using the Helm Charts or
-Docker Swarm ‘yaml’ files included in the release, this change will be seamless with
-no action is required on your part. There will not be any interruption to your
-service.
+If you are using the Blackduck hosted service or if you are using the Helm Charts or Docker Swarm ‘yaml’ files included in the release, this change will be seamless with no action is required on your part. There will not be any interruption to your service.
 
-However, if you have customized your Helm Charts or use an override file, please
-refer to [Rebalancing Guidance](https://community.blackduck.com/s/article/Rebalancing-an-On-Prem-Self-Hosted-Blackduck-Instance-to-accommodate-Enhanced-Scanning) on our Community page for
-additional information to assist you with the transition.
+However, if you have customized your Helm Charts or use an override file, please refer to [Rebalancing Guidance](https://community.blackduck.com/s/article/Rebalancing-an-On-Prem-Self-Hosted-Blackduck-Instance-to-accommodate-Enhanced-Scanning) on our Community page for additional information to assist you with the transition.
 
 ## Page Limit Maximums on API Requests
 
-In an ongoing effort to better manage system resources, a maximum page limit has been
-introduced to certain API requests. The maximum page limit will be set to 1000 pages
-with the possibility of change in future Blackduck versions. See the API
-Enhancements section below for a list of the affected API requests in the 2022.2.0
-version.
+In an ongoing effort to better manage system resources, a maximum page limit has been introduced to certain API requests. The maximum page limit will be set to 1000 pages with the possibility of change in future Blackduck versions. See the API Enhancements section below for a list of the affected API requests in the 2022.2.0 version.
 
 ## Deprecated APIs
 
-With Blackduck 2022.2.0, the `/cpes/{cpeId}/variants` endpoint will be
-deprecated, to be replaced with `/cpes/{cpeId}/origins`. The
-`/cpes/{cpeId}/variants` will be removed in Blackduck 2022.4.0.
-The API link in the metadata for `/api/cpes` has also been updated to
-return `/api/cpes/{cpeId}/origins` instead of
-`/api/cpes/{cpeId}/variants`.
+With Blackduck 2022.2.0, the `/cpes/{cpeId}/variants` endpoint will be deprecated, to be replaced with `/cpes/{cpeId}/origins`. The `/cpes/{cpeId}/variants` will be removed in Blackduck 2022.4.0. The API link in the metadata for `/api/cpes` has also been updated to return `/api/cpes/{cpeId}/origins` instead of `/api/cpes/{cpeId}/variants`.
 
 ## Upcoming Resource Guidance Changes
 
-In the upcoming Black Duck 2022.4.0 release, the default resource settings will be
-updated and the recommended settings will increase for all scan volumes. The
-2022.4.0 release will be accompanied by instructions on how to continue to use the
-existing settings.
+In the upcoming Black Duck 2022.4.0 release, the default resource settings will be updated and the recommended settings will increase for all scan volumes. The 2022.4.0 release will be accompanied by instructions on how to continue to use the existing settings.
 
-Please note, the exact possible scan throughput will vary based on your scan size,
-type and composition. However, we used this breakdown in our internal testing to
-gather the information in the table below:
+Please note, the exact possible scan throughput will vary based on your scan size, type and composition. However, we used this breakdown in our internal testing to gather the information in the table below:
 
 - 50% full signature scans
 - 40% full package manager scans
@@ -57,32 +38,17 @@ gather the information in the table below:
 
 ## File Organization Changes
 
-In addition to the changes mentioned above, starting in 2022.4.0, the organization of
-resource override YAML files will change.
+In addition to the changes mentioned above, starting in 2022.4.0, the organization of resource override YAML files will change.
 
-For Kubernetes, the organization of resource override YAML files in the Helm chart
-will change.
+For Kubernetes, the organization of resource override YAML files in the Helm chart will change.
 
-- The `values` folder will be renamed to
-  `sizes-gen01`.
-- The 4 previous t-shirt size files (`small.yaml`, etc.) will be
-  moved to the new `sizes-gen02` directory.
-- A new directory, `sizes-gen03`, will contain a resource
-  overrides file for each of the configurations named in the table below; they
-  are named `10sph.yaml`, `120sph.yaml`,
-  etc.
+- The `values` folder will be renamed to `sizes-gen01`.
+- The 4 previous t-shirt size files (`small.yaml`, etc.) will be moved to the new `sizes-gen02` directory.
+- A new directory, `sizes-gen03`, will contain a resource overrides file for each of the configurations named in the table below; they are named `10sph.yaml`, `120sph.yaml`, etc.
 
-For Swarm, Black Duck will no longer allocate container resources directly in
-`docker-compose.yml`. Instead, resources will be specified in a
-separate overrides file. The current resource allocations will be moved to
-`sizes-gen02/resources.yaml`. For Black Duck 2022.4.0 and later,
-multiple possible allocations will be provided in the `sizes-gen03
-folder`.
+For Swarm, Black Duck will no longer allocate container resources directly in `docker-compose.yml`. Instead, resources will be specified in a separate overrides file. The current resource allocations will be moved to `sizes-gen02/resources.yaml`. For Black Duck 2022.4.0 and later, multiple possible allocations will be provided in the `sizes-gen03 folder`.
 
-For both Kubernetes and Swarm, there will be 7 allocations based on load as measured
-in average scans per hour; if your anticipated load does not match one of the
-predefined allocations, round up. For example, if you anticipate 100 scans per hour,
-select `sizes-gen03/120sph.yaml`.
+For both Kubernetes and Swarm, there will be 7 allocations based on load as measured in average scans per hour; if your anticipated load does not match one of the predefined allocations, round up. For example, if you anticipate 100 scans per hour, select `sizes-gen03/120sph.yaml`.
 
 ## Resource Guidance & Container Scalability
 
@@ -101,10 +67,7 @@ These settings will apply to both Kubernetes and Swarm installations.
 
 ## PostgreSQL Settings
 
-Customers using the PostgreSQL container will need to set the values manually using
-ALTER SYSTEM, and changes to `shared_buffers` won't take effect until
-after the next time that PostgreSQL is restarted. These settings will apply to both
-Kubernetes and Swarm installations.
+Customers using the PostgreSQL container will need to set the values manually using ALTER SYSTEM, and changes to `shared_buffers` won't take effect until after the next time that PostgreSQL is restarted. These settings will apply to both Kubernetes and Swarm installations.
 
 |  |  |  |  |  |
 | --- | --- | --- | --- | --- |
@@ -119,10 +82,8 @@ Kubernetes and Swarm installations.
 
 ## Japanese language
 
-The 2021.10.0 version of the UI, online help, and release notes has been localized to
-Japanese.
+The 2021.10.0 version of the UI, online help, and release notes has been localized to Japanese.
 
 ## Simplified Chinese language
 
-The 2021.10.0 version of the UI, online help, and release notes has been localized to
-Simplified Chinese.
+The 2021.10.0 version of the UI, online help, and release notes has been localized to Simplified Chinese.

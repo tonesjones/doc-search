@@ -1,16 +1,16 @@
 ---
 title: "Viewing jobs"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/viewing-jobs.html"
-content_id: "tlQ4KvobYA_8JIZ7UjDzwA"
+content_id: "_noElImRXUh4hWjmClsRpw"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T15:31:26.663981+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:18.342838+00:00"
+content_hash: "c01be6eed8143a25710db2810badbc7e8cc6dceb80bc0addd9802a7473ca92b0"
 ---
 
 # Viewing jobs
 
-You can view all the jobs in the system if you need to troubleshoot an issue and
-determine if a process ran.
+You can view all the jobs in the system if you need to troubleshoot an issue and determine if a process ran.
 
 Note that any job older than 30 days is purged from the list.
 
@@ -86,7 +86,7 @@ Possible jobs are:
 | Version Vulnerability Remediation Report | Creates the Project Version Vulnerability Remediation report. |
 | Version Vulnerability Status Report | Creates the Project Version Vulnerability Status report. |
 | Version Vulnerability Update Report | Creates the Project Version Vulnerability Update report. |
-| Vulnerability Remediation Report | Creates the Vulnerability Remediation report. |
+| Vulnerability Remediation Report | Creates the Vulnerability Remediation report. |
 | Vulnerability Status Report | Creates the Vulnerability Status report. |
 | Vulnerability Update Report | Creates the Vulnerability Update report. |
 | Watchdog | Monitors the job subsystem for errors and reports or fixes issues as they arise. |
@@ -105,7 +105,5 @@ To view a list of jobs and their current statuses:
 You can refine the jobs displayed in the table by selecting one of the following options:
 
 - **Finished**: Displays all finished jobs.
-- **Scheduled**: Displays all jobs set to run
-  in your environment.
-- **Processing**: Displays all jobs currently
-  processing.
+- **Scheduled**: Displays all jobs set to run in your environment.
+- **Processing**: Displays all jobs currently processing.

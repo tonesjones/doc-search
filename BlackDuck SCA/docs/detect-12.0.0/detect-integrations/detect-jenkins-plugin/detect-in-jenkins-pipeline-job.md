@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/detect
 content_id: "Ha5H5ZKJ8geiusFjiOGtXg"
 version: "12.0.0"
 section: "Detect Integrations"
-scraped_at: "2026-09-07T21:17:18.019478+00:00"
+scraped_at: "2026-10-04T23:33:23.437195+00:00"
+content_hash: "fad9d73c28a0ca5de9e37fef7451381605c2e8758b24e7deab5172308d6f43fd"
 ---
 
 # Detect in Jenkins Pipeline job

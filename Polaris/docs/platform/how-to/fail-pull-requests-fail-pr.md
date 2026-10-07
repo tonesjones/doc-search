@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/fa
 content_id: "VFjnK3oWpnq20ERG3uyaYA"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:56:38.676429+00:00"
-content_hash: "e0ecf5a8b7583adfc0200b75e061c8763d11b9a68acb3d8ef84ad294d7a15b9a"
+scraped_at: "2026-10-04T23:29:19.332857+00:00"
+content_hash: "58d27087f3be27498a40607f95c9f26456975e3ebbb6bb8d92575bbc903ee740"
 ---
 
 # Fail Pull Requests (Fail PR)
@@ -23,6 +23,9 @@ When a pull request matches the criteria of an assigned pull/merge request polic
   - GitHub Standard (public repositories only)
   - GitHub Enterprise
   - GitLab SaaS (Premium and Ultimate)
+  - GitLab Self-Managed
+
+  Important: Pipeline must succeed is a repository-level setting available on all GitLab editions. However, group-level webhook support (for automatic new-repository detection) requires Premium or Ultimate Edition. Free Edition customers can use Fail MR but must manually onboard each project individually.
 - SCM integration has been configured to support event-based testing automation (see [Event-Based Test Automation in Polaris for SCM Integrations](event-based-test-automation-in-polaris-for-scm-integrations.md)).
 - Additional settings are required in SCM to support block for the following:
   - Bitbucket
@@ -41,7 +44,7 @@ To manage policies and settings:
 
 - Branch and project level configuration of warn/block is not currently available. Branch (default or all) is configurable at the application level and applied to all projects in the application.
 - Not all SCM integrations support PR blocking at this time.
-- Fix PR interaction: When a Fix PR is created on a branch that already has an open PR, it is treated as a PR edit and triggers a new scan.
+- Fix PR interaction: When a Fix PR (SCA or SAST) is created on a branch that already has an open PR, it is treated as a PR edit and triggers a new scan.
 
 ## Overview
 
@@ -173,4 +176,4 @@ Do developers need access to Polaris to fix their PR?
 :   No. All information needed to resolve the failing issues is included in the PR comment posted by Polaris. Developers can work entirely within their SCM interface.
 
 Does this feature work with the Fix PR workflow?
-:   When a Fix PR is created on a branch that already has an open PR, it is treated as a PR edit and triggers a new scan. The standard Fail PR and blocking behavior applies to that scan.
+:   When a Fix PR (SCA or SAST) is created on a branch that already has an open PR, it is treated as a PR edit and triggers a new scan. The standard Fail PR and blocking behavior applies to that scan.

@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/bazel.
 content_id: "yoRNnJ27auYQaQAcDUERFg"
 version: "12.0.0"
 section: "Detect Properties"
-scraped_at: "2026-09-07T21:16:42.142619+00:00"
+scraped_at: "2026-10-04T23:33:22.244116+00:00"
+content_hash: "108d973544e404c923aea1356d6bebb754cbc2839696aaa3ffe44be172a4ab40"
 ---
 
 # bazel

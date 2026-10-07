@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/config
 content_id: "UaGVhgvXVneNs3kcraJu5g"
 version: "12.0.0"
 section: "Detect Integrations"
-scraped_at: "2026-09-07T21:17:28.175286+00:00"
+scraped_at: "2026-10-04T23:33:23.738987+00:00"
+content_hash: "e50e1cf6fcac2992131a9888d7b5d8ff94b0b72e7a1ce5c84652513a3349b264"
 ---
 
 # Configuring a Build Agent

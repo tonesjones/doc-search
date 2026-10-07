@@ -10,9 +10,9 @@
 | Product key | `bridge-latest` |
 | Version | **latest** |
 | Map ID | `ilBVZr_kR5v3KVjK1p~wbw` |
-| TOC nodes | **174** |
-| Progress | **174/174 done** (100.0%) · 0 pending · 0 skipped · 0 error |
-| Last index build | 2026-08-08T23:51:15.401303+00:00 |
+| TOC nodes | **178** |
+| Progress | **178/178 done** (100.0%) · 0 pending · 0 skipped · 0 error |
+| Last index build | 2026-10-04T23:27:41.942249+00:00 |
 | Manifest | [sources/bridge-latest/manifest.json](sources/bridge-latest/manifest.json) |
 | Raw TOC | [sources/bridge-latest/toc.json](sources/bridge-latest/toc.json) |
 
@@ -41,13 +41,14 @@ https://docs.blackduck.com/api/khub/maps/ilBVZr_kR5v3KVjK1p~wbw/topics/{contentI
 
 | Section | Topics | Pending | Done | Skipped | Error | Local root |
 |---------|--------|---------|------|---------|-------|------------|
-| Bridge CLI | 59 | 0 | 59 | 0 | 0 | `docs/bridge-cli/` |
-| Jenkins - Black Duck Security Scan Plugin for Jenkins | 26 | 0 | 26 | 0 | 0 | `docs/jenkins-black-duck-security-scan-plugin-for-jenkins/` |
+| Bridge CLI | 60 | 0 | 60 | 0 | 0 | `docs/bridge-cli/` |
+| Jenkins Integrations | 26 | 0 | 26 | 0 | 0 | `docs/jenkins-integrations/` |
 | Azure DevOps Integrations | 21 | 0 | 21 | 0 | 0 | `docs/azure-devops-integrations/` |
 | Bitbucket Integrations | 19 | 0 | 19 | 0 | 0 | `docs/bitbucket-integrations/` |
 | GitHub Integrations | 18 | 0 | 18 | 0 | 0 | `docs/github-integrations/` |
 | GitLab Integrations | 18 | 0 | 18 | 0 | 0 | `docs/gitlab-integrations/` |
 | Bridge CLI reference | 6 | 0 | 6 | 0 | 0 | `docs/bridge-cli-reference/` |
+| How-to | 3 | 0 | 3 | 0 | 0 | `docs/how-to/` |
 | Troubleshooting | 2 | 0 | 2 | 0 | 0 | `docs/troubleshooting/` |
 | Central Integrations release notes | 1 | 0 | 1 | 0 | 0 | `docs/central-integrations-release-notes/` |
 | Bridge product overview | 1 | 0 | 1 | 0 | 0 | `docs/bridge-product-overview/` |
@@ -59,18 +60,22 @@ https://docs.blackduck.com/api/khub/maps/ilBVZr_kR5v3KVjK1p~wbw/topics/{contentI
 
 - [x] [Central Integrations release notes](docs/central-integrations-release-notes.md) · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/central-integrations-release-notes.html)
 - [x] [Bridge product overview](docs/bridge-product-overview.md) · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/bridge-product-overview.html)
+- [x] [How-to](docs/how-to/how-to.md) _(+2)_ · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/how-to.html)
+  - [x] [Exclude files from SAST scans](docs/how-to/exclude-files-from-sast-scans.md) · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/exclude-files-from-sast-scans.html)
+  - [x] [Using Rapid Scan Static for pull request workflows](docs/how-to/using-rapid-scan-static-for-pull-request-workflows.md) · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-rapid-scan-static-for-pull-request-workflows.html)
 - [x] [Bridge CLI](docs/bridge-cli.md) _(+11)_ · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/bridge-cli.html)
   - [x] [Download Bridge CLI](docs/bridge-cli/download-bridge-cli.md) · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/download-bridge-cli.html)
-  - [x] [Using Bridge CLI](docs/bridge-cli/using-bridge-cli.md) _(+3)_ · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-bridge-cli.html)
+  - [x] [Using Bridge CLI](docs/bridge-cli/using-bridge-cli.md) _(+4)_ · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-bridge-cli.html)
     - [x] [Passing Arguments using a JSON file](docs/bridge-cli/using-bridge-cli/passing-arguments-using-a-json-file.md) · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/passing-arguments-using-a-json-file.html)
     - [x] [Passing Arguments using the CLI](docs/bridge-cli/using-bridge-cli/passing-arguments-using-the-cli.md) · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/passing-arguments-using-the-cli.html)
+    - [x] [Passing Arguments using environment variables](docs/bridge-cli/using-bridge-cli/passing-arguments-using-environment-variables.md) · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/passing-arguments-using-environment-variables.html)
     - [x] [Configuring tools using Bridge](docs/bridge-cli/using-bridge-cli/configuring-tools-using-bridge.md) · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/configuring-tools-using-bridge.html)
   - [x] [Using Bridge CLI with Signal](docs/bridge-cli/using-bridge-cli-with-signal.md) _(+5)_ · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-bridge-cli-with-signal.html)
     - [x] [Scan a full project with Black Duck Signal](docs/bridge-cli/using-bridge-cli-with-signal/scan-a-full-project-with-black-duck-signal.md) · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/scan-a-full-project-with-black-duck-signal.html)
-    - [x] [Perform a diff scan with Black Duck Signal](docs/bridge-cli/using-bridge-cli-with-signal/perform-a-diff-scan-with-black-duck-signal.md) · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/perform-a-diff-scan-with-black-duck-signal.html)
-    - [x] [Perform a diff scan against a reference branch with Black Duck Signal](docs/bridge-cli/using-bridge-cli-with-signal/perform-a-diff-scan-against-a-reference-branch-with-black-duck-signal.md) · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/perform-a-diff-scan-against-a-reference-branch-with-black-duck-signal.html)
-    - [x] [Scan local files with Black Duck Signal](docs/bridge-cli/using-bridge-cli-with-signal/scan-local-files-with-black-duck-signal.md) · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/scan-local-files-with-black-duck-signal.html)
-    - [x] [Black Duck Signal reference guide](docs/bridge-cli/using-bridge-cli-with-signal/black-duck-signal-reference-guide.md) · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/black-duck-signal-reference-guide.html)
+    - [x] [Scan uncommitted changes](docs/bridge-cli/using-bridge-cli-with-signal/perform-a-diff-scan-with-black-duck-signal.md) · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/scan-uncommitted-changes.html)
+    - [x] [Scan changes against a reference branch](docs/bridge-cli/using-bridge-cli-with-signal/perform-a-diff-scan-against-a-reference-branch-with-black-duck-signal.md) · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/scan-changes-against-a-reference-branch.html)
+    - [x] [Scan local files](docs/bridge-cli/using-bridge-cli-with-signal/scan-local-files-with-black-duck-signal.md) · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/scan-local-files.html)
+    - [x] [Bridge CLI Reference Guide](docs/bridge-cli/using-bridge-cli-with-signal/black-duck-signal-reference-guide.md) · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/bridge-cli-reference-guide.html)
   - [x] [Using Bridge CLI with Polaris](docs/bridge-cli/using-bridge-cli-with-polaris.md) _(+12)_ · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-bridge-cli-with-polaris.html)
     - [x] [Polaris prerequisites](docs/bridge-cli/using-bridge-cli-with-polaris/polaris-prerequisites.md) · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/polaris-prerequisites.html)
     - [x] [Quickstarts](docs/bridge-cli/using-bridge-cli-with-polaris/quickstarts.md) _(+5)_ · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickstarts.html)
@@ -181,7 +186,7 @@ https://docs.blackduck.com/api/khub/maps/ilBVZr_kR5v3KVjK1p~wbw/topics/{contentI
     - [x] [Using the Black Duck Security Scan Extension with Software Risk Manager](docs/azure-devops-integrations/azure-devops-black-duck-security-scan-extension-for-azure-devops/using-the-black-duck-security-scan-extension-with-software-risk-manager.md) _(+1)_ · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-scan-extension-with-software-risk-manager.html)
       - [x] [Quickstart: Azure with Software Risk Manager](docs/azure-devops-integrations/azure-devops-black-duck-security-scan-extension-for-azure-devops/using-the-black-duck-security-scan-extension-with-software-risk-manager/quickstart-azure-with-software-risk-manager.md) · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickstart-azure-with-software-risk-manager.html)
     - [x] [Additional Azure DevOps configuration](docs/azure-devops-integrations/azure-devops-black-duck-security-scan-extension-for-azure-devops/additional-azure-devops-configuration.md) · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/additional-azure-devops-configuration.html)
-- [x] [Jenkins - Black Duck Security Scan Plugin for Jenkins](docs/jenkins-black-duck-security-scan-plugin-for-jenkins.md) _(+7)_ · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/jenkins-black-duck-security-scan-plugin-for-jenkins.html)
+- [x] [Jenkins Integrations](docs/jenkins-black-duck-security-scan-plugin-for-jenkins.md) _(+7)_ · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/jenkins-integrations.html)
   - [x] [Jenkins prerequisites](docs/jenkins-black-duck-security-scan-plugin-for-jenkins/jenkins-prerequisites.md) _(+3)_ · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/jenkins-prerequisites.html)
     - [x] [Configuring Bitbucket](docs/jenkins-black-duck-security-scan-plugin-for-jenkins/jenkins-prerequisites/configuring-bitbucket.md) · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/configuring-bitbucket.html)
     - [x] [Configuring GitHub](docs/jenkins-black-duck-security-scan-plugin-for-jenkins/jenkins-prerequisites/configuring-github.md) · [source](https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/configuring-github.html)

@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/quickst
 content_id: "ln~l1Ogf~wIMEl06k2Ivxg"
 version: "latest"
 section: "GitLab Integrations"
-scraped_at: "2026-08-08T23:48:09.766947+00:00"
+scraped_at: "2026-10-04T23:28:29.071589+00:00"
+content_hash: "acb6f6ea5fcd5eb1f5ebf63bb5d1203eac6dd3f8309c00a162ca5cf9aabbe378"
 ---
 
 # Quickstart: GitLab Template with Coverity
@@ -139,11 +140,11 @@ Follow the steps below to configure the Black Duck Security Scan Template to run
      #  expire_in: 30 days
    ```
 
-   Important: For deployments with [scan_services](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/cnc/topics/scan_service.html) disabled or Coverity versions < 2022.3 the `coverity_local` line in the example should be uncommented. Subsequently, the full Coverity client will be used to enable a local analysis to be performed with the full toolkit. This will override the default behavior that uses the Coverity thin client to capture and upload artifacts, with analysis being performed on the server.
+   Important: For deployments with [scan_services](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/0a69325e186c9bec20342e8d19ab1fb4.topic) disabled or Coverity versions < 2022.3 the `coverity_local` line in the example should be uncommented. Subsequently, the full Coverity client will be used to enable a local analysis to be performed with the full toolkit. This will override the default behavior that uses the Coverity thin client to capture and upload artifacts, with analysis being performed on the server.
 
    In the example above the Black Duck Security Scan Action will download and use the Coverity CLI to scan the codebase of the branch that triggered the pipeline. Branches are defined in the `SCAN_BRANCHES` pipeline variable.
 
-   For a full scan, detected issues that violate the `Outstanding Issues` [Coverity View](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/cov-platform-rest-api/topics/views.html) will be uploaded to a Coverity stream within a Coverity Connect project, named after the repository. If the project doesn’t already exist, it is created automatically.
+   For a full scan, detected issues that violate the `Outstanding Issues` [Coverity View](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/7fed661211f165581bd480bdf4e8687f.topic) will be uploaded to a Coverity stream within a Coverity Connect project, named after the repository. If the project doesn’t already exist, it is created automatically.
 
    The Coverity stream is named using the format `repository-name-branch-name` and stores a snapshot of the issues identified during the scan, ready for review in Coverity Connect.
 
@@ -174,7 +175,7 @@ If a pipeline error is encountered similar to the example below, then the `cover
 
 Attention: ERROR: Failed to retrieve tool information details: Fetch tool information: received unexpected response status code '500' from Connect API
 
-In this scenario [scan services](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/cnc/topics/scan_service.html) are likely not enabled. The default behavior is that the pipeline uses the Coverity thin client to upload artifacts, with the analysis performed at the server. Setting the `coverity_local` parameter to `true` enables the full analysis toolkit at the client. Subsequently, the scan and analysis will be performed locally by the pipeline. For further details relating to the different Coverity deployment models supported, please refer to [Coverity Deployment Architecture](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/help-center/topics/deployment_architecture.html).
+In this scenario [scan services](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/0a69325e186c9bec20342e8d19ab1fb4.topic) are likely not enabled. The default behavior is that the pipeline uses the Coverity thin client to upload artifacts, with the analysis performed at the server. Setting the `coverity_local` parameter to `true` enables the full analysis toolkit at the client. Subsequently, the scan and analysis will be performed locally by the pipeline. For further details relating to the different Coverity deployment models supported, please refer to [Coverity Deployment Architecture](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/a0caa9e5b240fbee6150f8640240b2a5.topic).
 
 If a pipeline error is encountered similar to the example below, then it is likely that organization firewall rules maybe restricting access to the template.
 
@@ -187,10 +188,10 @@ The recommended solution is to check that the template is referenced correctly a
 
 ## Useful resources
 
-- [Coverity Product Documentation](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/webhelp-files/help_center_start.html)
+- [Coverity Product Documentation](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/65af71645148476f0c3da0e6b8552214.topic)
 - [Coverity Tutorials](https://community.blackduck.com/s/article/coverity-tutorials)
 - [Coverity Projects and Streams Tutorial](https://community.blackduck.com/s/article/Coverity-Tutorial-Projects-and-Streams)
-- [Coverity Deployment Architecture](https://docs.blackduck.com/access?ft:originId=coverity-docs-latest_en-US/help-center/topics/deployment_architecture.html)
+- [Coverity Deployment Architecture](https://docs.blackduck.com/access?ft:originId=f720d35c853c162f322ebf99909fe7c9/a0caa9e5b240fbee6150f8640240b2a5.topic)
 - Bridge product overview
 - Using Bridge CLI
 - [Bridge CLI Download](https://repo.blackduck.com/bds-integrations-release/com/blackduck/integration/bridge/binaries/bridge-cli-bundle/latest/)

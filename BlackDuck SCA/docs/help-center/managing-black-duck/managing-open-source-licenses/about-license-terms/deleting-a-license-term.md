@@ -1,18 +1,18 @@
 ---
 title: "Deleting a license term"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/deleting-a-license-term.html"
-content_id: "Nrt4J6BuvOcTJNSdQr~gYg"
+content_id: "4MJFysrlMnW85piRuxueZQ"
 version: "2026.7"
-section: "Black Duck SCA Help Center"
-scraped_at: "2026-08-08T15:30:53.815634+00:00"
+section: "Welcome to Black Duck SCA"
+scraped_at: "2026-10-04T23:32:16.784760+00:00"
+content_hash: "1f491625f46bc086c9e7666881254f2ef965b069422410aea38951e2bcd19f87"
 ---
 
 # Deleting a license term
 
 You can only delete custom license terms.
 
-You cannot delete a KnowledgeBase license terms. Instead you can deactivate a KnowledgeBase license
-term so that the term does not apply to a specific license.
+You cannot delete a KnowledgeBase license terms. Instead you can deactivate a KnowledgeBase license term so that the term does not apply to a specific license.
 
 Only users with the License Manager role can delete license terms.
 
@@ -29,8 +29,7 @@ To delete a license term:
 
      
     [image: image]
-3. Click [image: image] in the row of the
-   license term and select **Delete**.
+3. Click [image: image] in the row of the license term and select **Delete**.
 
    The Delete a License Term dialog box appears.
 4. Click **Delete** to confirm.

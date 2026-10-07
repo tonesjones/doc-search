@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/nuget-
 content_id: "4y8oUw1fquHS1i5vPJgtrQ"
 version: "12.0.0"
 section: "Package Manager information for Detect"
-scraped_at: "2026-09-07T21:16:15.840654+00:00"
+scraped_at: "2026-10-04T23:33:21.111193+00:00"
+content_hash: "efcbbb0ffabb924e7e95077d80133778b75401431a52c1ec8c2fae7779b608a8"
 ---
 
 # NuGet support

@@ -1,32 +1,34 @@
 ---
-title: "Issue tracking integration for Jira"
-source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/issue-tracking-integration-for-jira.html"
+title: "Issue tracking integration for Jira Cloud"
+source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/issue-tracking-integration-for-jira-cloud.html"
 content_id: "DIrTqgd96EYX7eyAKSUkjg"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:57:31.431866+00:00"
-content_hash: "ec6bed6146a9b671e19e7ed504d8189396c7971617cd871795e37d86c807cf9e"
+scraped_at: "2026-10-04T23:29:21.292221+00:00"
+content_hash: "ae495b404960ab8e9a7f8bf15a802ea62fe16160e4ea08ed700cee3bcd8e2075"
 ---
 
-# Issue tracking integration for Jira
+# Issue tracking integration for Jira Cloud
 
-This page describes the issue tracking integration for Jira. Once configured, the integration allows Polaris to create tickets in Jira for issues. You can also configure integration options to automatically close Jira tickets and keep Polaris triage statuses and Jira ticket statuses in sync automatically.
+This page describes the issue tracking integration for Jira Cloud. Once configured, the integration allows Polaris to export issues to Jira tickets. You can also configure integration options to automatically close Jira tickets and keep Polaris triage statuses and Jira ticket statuses in sync automatically.
+
+Note: This topic covers the procedure for issue tracking integration for Jira Cloud. To set up issue tracking integration for Jira Data Center, see [Issue tracking integration for Jira Data Center](issue-tracking-integration-for-jira-data-center.md).
 
 ## Prerequisites and technical requirements
 
-The issue tracking integration for Jira requires:
+The issue tracking integration for Jira Cloud requires:
 
 - A classic Jira Cloud instance running the latest long term support release.
 
-  Important: The Jira instance must be routable over the Internet. Closed networks are not supported at this time. Jira Next-Gen is not supported.
-- Only Organization Administrators can connect Polaris to Jira. The Organization Administrator who configures the integration must also be a Jira Administrator (with permissions to link external applications to Jira).
-- Authentication between Jira and Polaris is through OAuth. You will need to create public and private OAuth keys, as described in this article.
+  Important: The Jira instance must be routable over the Internet. Jira Next-Gen is not supported.
+- A Polaris Organization Administrator who is also a Jira Administrator (with permissions to link external applications to Jira).
+- OAuth keys for authentication between Polaris and Jira. See Create public and private RSA keys.
 
 ### Issue fields and attributes
 
 Each ticket Polaris creates in Jira includes the following fields:
 
-- Summary: the format of summaries vary, depending on how the ticket was created:
+- Summary: the format of summaries varies, depending on how the ticket was created:
   - Tickets for issues you export manually:
 
     ```
@@ -37,28 +39,24 @@ Each ticket Polaris creates in Jira includes the following fields:
     ```
     Polaris - Project '<Polaris project name>' contains issues violating policy '<Policy name>'
     ```
-- Description: the format of descriptions vary, depending on how the ticket was created:
+- Description: the format of descriptions varies, depending on how the ticket was created:
   - Tickets for issues you export manually: detailed information about the issue, evidence (DAST issues only), remediation guidance, and helpful links.
   - Tickets created for policy violations: the name of the violated policy, the names of any violated rules, and links you can use to view violating issues in Polaris.
 - Reporter: The name of the user who configured the integration.
 
 Important: If other fields are required by your Jira project, exports will fail.
 
-## Connect Polaris to a Jira instance
+## Connect Polaris to a Jira Cloud instance
 
-Complete the following tasks to connect Polaris to a Jira instance:
+Complete the following tasks to connect Polaris to a Jira Cloud instance:
 
-1. Create public and private RSA Keys
-2. Link Polaris to Jira with a public key
-3. Add a Jira instance to Polaris
+1. Create public and private RSA keys
+2. Link Polaris to Jira Cloud with a public key
+3. Add a Jira Cloud instance to Polaris
 
-Important: These tasks can only be completed by an Organization Administrator *who is also a Jira Administrator*. The same person must complete all of the tasks in this section.
+### Create public and private RSA keys
 
-Each one of these tasks is explained in more detail below.
-
-### Create public and private RSA Keys
-
-To link Jira to Polaris, you need to create a pair of public and private OAuth keys. If you already have these keys, go to the next section. If not, follow these steps:
+To link Jira to Polaris, you need a public/private OAuth key pair with RSA-SHA1 signing for authentication. If you already have these keys, go to the next section. If not, follow these steps:
 
 1. Open a terminal and run the following `openssl` commands.
 2. Generate a new RSA private key:
@@ -78,18 +76,16 @@ To link Jira to Polaris, you need to create a pair of public and private OAuth k
 
    If successful, the command generates an X509 certificate.
 
-   The certificate will expire in 365 days – you can change the final value to a different number. A new certificate will be needed after the interval has passed.
-
    CAUTION:
 
-   Certificates expire after a set period of time. Schedule periodic rotation of certificates. When updating the certificates, you must repeat this procedure, except that you will update the record rather than creating it.
-4. Extract a PCKS8 private key:
+   The certificate expires after the specified number of days (default: 365). Schedule periodic rotation of certificates. When updating the certificates, you must repeat this procedure, except that you will update the record rather than create it.
+4. Extract the PKCS8 private key:
 
    ```
-   openssl pkcs8 -topk8 -nocrypt -in jira_privatekey.pem -out jira_privatekey.pcks8
+   openssl pkcs8 -topk8 -nocrypt -in jira_privatekey.pem -out jira_privatekey.pkcs8
    ```
 
-   This command reads the unencrypted private key and outputs a new key in PKCS8 format with the name specified (`jira_privatekey.pcks8`). This is the private key that you will provide to Polaris later.
+   This command reads the unencrypted private key and outputs a new key in PKCS8 format with the name specified (`jira_privatekey.pkcs8`). This is the private key that you will provide to Polaris later.
 5. Extract the public key:
 
    ```
@@ -98,13 +94,13 @@ To link Jira to Polaris, you need to create a pair of public and private OAuth k
 
    This command uses the certificate you created to extract the public key file, `jira_publickey.pem`. This is the public key that you will provide to Jira in the next task.
 
-### Link Polaris to Jira with a public key
+### Link Polaris to Jira Cloud with a public key
 
 Now, add Polaris to Jira as a linked application with the public OAuth key.
 
 1. In Jira, go to Settings > Products.
 
-   Settings is the cog icon at the top right.
+   The Settings icon is the cog at the top right.
 2. Under Integrations, select Application Links.
 
    [image: A screenshot of the left-hand navigation in Jira.]
@@ -124,11 +120,13 @@ Now, add Polaris to Jira as a linked application with the public OAuth key.
    - Select Generic Application from the Application Type dropdown menu.
    - Select the Create incoming link checkbox.
 
-   Important: If you enter text or place the cursor in the other fields, the form will not be accepted.
+   CAUTION:
+
+   If you adjust or enter text in the other fields, the form will not be accepted.
 6. Select Continue.
 
    The link you created for Polaris appears on the Application Links page.
-7. Select the options icon [image: tracking jira options icon] next to the application link you created for Polaris and then select Edit.
+7. Select the options icon [image: A small user interface icon with three dots] next to the application link you created for Polaris and then select Edit.
 
    The Configure window opens.
 8. Open the Incoming Authentication tab, and complete the required fields:
@@ -140,21 +138,19 @@ Now, add Polaris to Jira as a linked application with the public OAuth key.
 
    Select Save (near the bottom of the form).
 
-### Add a Jira instance to Polaris
+### Add a Jira Cloud instance to Polaris
 
 Configure your Polaris instance with the private OAuth key and verify the connection.
-
-Important: These steps can only be completed by the user who connects Polaris to Jira (described in the previous task).
 
 1. In Polaris, go to My Organization > Integrations.
 2. Select + Add Integration > Jira Cloud.
 
-   [image: tracking org add]
+   [image: A screenshot of the My Organization Integration settings in the Polaris UI.]
 3. On the Jira Integration Set Up page, complete the form as follows:
 
    - Enter your Jira instance's URL in the Enter Jira URL field.
    - Enter `OauthKey` in the Enter Consumer Key field.
-   - Copy and paste your private key (from the .pcks8 file) into the Enter Private Key field.
+   - Copy and paste your private key (from the .pkcs8 file) into the Enter Private Key field.
 
    Note: Before you proceed, turn off any pop-up blockers or ad blockers to ensure that you receive the verification code.
 4. Click Next.
@@ -169,18 +165,21 @@ Important: These steps can only be completed by the user who connects Polaris to
 
     If the test is successful, a green check mark appears next to the Test button.
 
-## Create integration options for Jira
+## Create integration options for Jira Cloud
 
 After you connect Polaris to Jira, create integration options to control how issue data is exported to Jira tickets, including custom field mappings, ticket title templates, description content, and synchronization settings. Each option is associated with a specific Jira project and issue type. You can create multiple options for different issue types.
 
-You must have already completed Connect Polaris to a Jira instance.
+You must have already completed Connect Polaris to a Jira Cloud instance.
 
 Note: Only Organization Administrators can complete these steps.
 
-Important: Synchronizing issue and ticket statuses is only supported for Jira Cloud. Jira Data Center is not supported. Synchronizing statuses is not supported by bundled tickets (created when more than one issue in Polaris is exported to Jira in a single step, by a policy action or a manual export).
+Important: If you are configuring two-way status synchronization, note the following:
+
+- Synchronizing statuses is not supported for bundled tickets (created when more than one issue in Polaris is exported to Jira in a single step, by a policy action or a manual export). Synchronization only works for individually exported issues with a 1:1 link between a Polaris issue and a Jira work item. Bundled tickets can still participate in one-way auto-close, which is triggered when all issues linked to the work item are dismissed or absent in Polaris.
+- Triage status changes triggered by two-way synchronization bypass triage approval workflows. When a linked ticket's status changes in the issue tracker, Polaris updates the triage status of the linked issue(s) immediately, even if a triage approval workflow is configured for the organization, application, or project. If you require approval for every triage status change, configure one-way synchronization (Polaris to Jira) instead.
 
 1. In Polaris, go to My Organization > Integrations.
-2. Under Integrations, select the Jira connection you wish to configure.
+2. Under Integrations, select the Jira connection you want to configure.
 3. Under Jira Options, select + New.
 
    The Create Jira Options window opens. Required fields are marked with an asterisk.
@@ -206,7 +205,7 @@ Important: Synchronizing issue and ticket statuses is only supported for Jira Cl
    ```
 7. (Optional) Set up field mapping and synchronization between Polaris and Jira in the Field Mapping table. The fields available in the dropdowns are determined by the workflow and issue type you selected.
 
-   1. Select the add [image: issue tracking options add icon] icon to add a row to the table.
+   1. Select the add [image: A small user interface icon with a plus symbol within a circle.] icon to add a row to the table.
    2. Use the Polaris Field dropdown to select a field in Polaris you want to export or synchronize with your Jira project.
 
       Note: Only fields with the Bi-directional tag can be configured for bi-directional synchronization between Polaris and Jira. For example, to sync fix-by dates, map the Fix-By Polaris field to the Due Date Jira field.
@@ -215,7 +214,7 @@ Important: Synchronizing issue and ticket statuses is only supported for Jira Cl
    3. Use the Jira Field dropdown to select the Jira field to link to the previously-selected Polaris Field option.
 
       Note: Custom fields created in Jira are marked with the Custom tag in this dropdown. Custom fields must be created in your Jira project before they appear here.
-   4. Use the arrows [image: integration options sync icon] icon to control the direction of the field synchronization or enable bi-directional synchronization.
+   4. Use the arrows [image: A small user interface icon showing a left-facing arrow over a right-facing arrow.] icon to control the direction of the field synchronization or enable bi-directional synchronization.
 
       Important: Each Polaris field can only be mapped to one Jira field, and each Jira field can only be mapped to one Polaris field. If you attempt to map a field that is already in use, the duplicate mapping will not be saved.
    5. For fields that require modular mapping (such as Status or Priority), select the Configure button with the gear icon to customize the status mapping. The Polaris triage statuses are:
@@ -226,21 +225,21 @@ Important: Synchronizing issue and ticket statuses is only supported for Jira Cl
       - Dismissed > Other
 
       Important: Polaris can map to Jira ticket statuses, but does not verify Jira resolutions. If a Jira workflow requires an intermediate state before reaching the target status (for example, a ticket cannot transition directly from "To Do" to "Closed"), the sync attempt will fail. When this happens, the Polaris triage status reverts to its previous value and an error is logged in the issue's triage history. Configure your Jira workflows to allow the transitions you need.
-   6. Use the trash [image: trash icon] icon to remove a field mapping option.
+   6. Use the trash [image: A small user interface icon showing a trash bin.] icon to remove a field mapping option.
 
    Jira ticket statuses that have no configured mapping do not trigger any change in Polaris. If a Polaris issue was dismissed as a result of a Jira ticket status change, and you then manually change the Polaris triage status back to an active state (for example, To Be Fixed), the linked Jira ticket is automatically reopened.
-8. (Optional) Choose which Jira Description Content items to include in the Jira ticket. Use the toggles to select or deselect which Polaris issue details will be included in the description body of the Jira ticket. Drag and drop properties with the move [image: grip dots icon] icon to change the order of the description content.
+8. (Optional) Choose which Jira Description Content items to include in the Jira ticket. Use the toggles to select or deselect which Polaris issue details will be included in the description body of the Jira ticket. Drag and drop properties with the move [image: A small user interface icon showing a grid of dots.] icon to change the order of the description content.
 
    An example of a completed integration option form is pictured below:
 
    [image: A screenshot of customized integration options for a Jira project.]
 9. Select Save.
 
-The new option appears in the list of Jira Options for that integration. You can now enable this option at the project level. See Connect a Polaris project to Jira for information on enabling integration options for a project.
+The new option appears in the list of Jira Options for that integration. You can now enable this option at the project level. See Connect a Polaris project to Jira Cloud for information on enabling integration options for a project.
 
 If necessary, repeat these steps to create options for other Jira issue types.
 
-## Connect a Polaris project to Jira
+## Connect a Polaris project to Jira Cloud
 
 After an Organization Administrator establishes the connection between Polaris and Jira, follow these steps to connect a project to Jira. Organization Administrators, Organization Application Managers, Application Administrators, Application Contributors, and other users with permissions to manage project settings can complete these steps.
 
@@ -256,7 +255,7 @@ After an Organization Administrator establishes the connection between Polaris a
 6. Select the Jira Issue Type Polaris creates when exporting issues.
 7. (Optional) Select an integration option from the Jira Options dropdown menu.
 
-   If you created Jira Options (see Create integration options for Jira), you can select an option here to enable auto-close and triage status sync for this project. When an option with triage status sync mappings is selected, triage status changes in Polaris and ticket status changes in Jira will be kept in sync automatically.
+   If you created Jira Options (see Create integration options for Jira Cloud), you can select an option here to enable auto-close and triage status synchronization for this project. When an option with triage status sync mappings is selected, triage status changes in Polaris and ticket status changes in Jira will be kept in sync automatically.
 8. (Optional) If you selected a Jira Option, configure the branch scope for synchronization.
 
    The branch scope determines which branches Polaris considers when deciding whether to auto-close a Jira ticket:
@@ -274,10 +273,10 @@ When the project-level branch scope is set to All branches, you can control whic
 
 Before you can configure individual branches, you must:
 
-- Create Jira Options (see Create integration options for Jira).
-- Connect the project to Jira, select a Jira Option, and set the branch scope to All branches (see Connect a Polaris project to Jira).
+- Create Jira Options (see Create integration options for Jira Cloud).
+- Connect the project to Jira, select a Jira Option, and set the branch scope to All branches (see Connect a Polaris project to Jira Cloud).
 
-When the branch scope is All branches, Polaris considers all synchronized branches when determining whether to automatically close a Jira ticket. You can include or exclude individual branches from synchronization to control which branches participate. This is useful when you want to track issue resolution across specific branches (such as release branches) or exclude branches such as feature branches from auto-close behavior.
+When the branch scope is All branches, Polaris considers all synchronized branches when determining whether to automatically close a Jira ticket. You can include or exclude individual branches from synchronization to control which branches participate. This is useful when you want to track issue resolution across specific branches (such as release branches) or exclude branches such as feature branches from auto-close behavior. An exported issue must be dismissed or absent across all participating branches before the associated ticket is closed.
 
 Organization Administrators, Organization Application Managers, Application Administrators, Application Contributors, and other users with permissions to manage branch settings can complete these steps.
 

@@ -3,8 +3,9 @@ title: "Using the Black Duck Security Scan Plugin with Coverity"
 source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/using-the-black-duck-security-scan-plugin-with-coverity.html"
 content_id: "d9GyXZQD6xmHZ9UncmbR0w"
 version: "latest"
-section: "Jenkins - Black Duck Security Scan Plugin for Jenkins"
-scraped_at: "2026-08-08T23:48:43.424547+00:00"
+section: "Jenkins Integrations"
+scraped_at: "2026-10-04T23:28:30.768087+00:00"
+content_hash: "f9237e18940f80004d3760c99eda80a01177c2119f2772e0f80f04f0ceae8ad9"
 ---
 
 # Using the Black Duck Security Scan Plugin with Coverity

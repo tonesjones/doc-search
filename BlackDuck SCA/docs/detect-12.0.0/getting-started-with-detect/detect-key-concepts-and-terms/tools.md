@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/tools.
 content_id: "CzfTZRGmNQASgyITof92tQ"
 version: "12.0.0"
 section: "Getting started with Detect"
-scraped_at: "2026-09-07T21:15:09.406092+00:00"
+scraped_at: "2026-10-04T23:33:18.942083+00:00"
+content_hash: "71524689ce2cdfc6c77a1dc43b416a5e69d6021c57d63855e69e55f6a8c53900"
 ---
 
 # Tools

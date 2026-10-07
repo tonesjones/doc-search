@@ -1,10 +1,11 @@
 ---
 title: "CFSSL pod configuration"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/cfssl-pod-configuration.html"
-content_id: "yHGUmurDcckPYNrksxxp0Q"
+content_id: "7NZ0xLezsHeYZb59SrXhag"
 version: "2026.7"
 section: "Installing Black Duck using Kubernetes and OpenShift"
-scraped_at: "2026-08-08T15:33:06.525292+00:00"
+scraped_at: "2026-10-04T23:32:22.801283+00:00"
+content_hash: "770313b762604eddb546c597e34b4847f0472611a92effb6eafb0d357c692cc6"
 ---
 
 # CFSSL pod configuration

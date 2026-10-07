@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/academy
 content_id: "saAsqcp_GaAPD~XwTZwvCw"
 version: "latest"
 section: "Azure DevOps Integrations"
-scraped_at: "2026-08-08T23:48:26.563222+00:00"
+scraped_at: "2026-10-04T23:28:30.018708+00:00"
+content_hash: "a8db62c3f3229e5ba1a02fabb223618b36a211350f733e148b254a2227150321"
 ---
 
 # Academy resources

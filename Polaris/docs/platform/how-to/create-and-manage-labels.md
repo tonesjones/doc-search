@@ -4,8 +4,8 @@ source_url: "https://docs.blackduck.com/r/polaris/black-duck-polaris-platform/cr
 content_id: "D7mPFPaCkap7IR3wi0OLbA"
 product_key: "polaris-platform-latest"
 section: "How-to"
-scraped_at: "2026-08-12T19:57:27.645572+00:00"
-content_hash: "7523b247ec11e6338e20fa80945ae45b60e067e473edbf2dbdd8c9f95dfc7516"
+scraped_at: "2026-10-04T23:29:21.053349+00:00"
+content_hash: "78c6e7b626b84556ad7dcff214b3f0b546a51eb553169f75f3e047bf251750c6"
 ---
 
 # Create and manage labels
@@ -19,6 +19,8 @@ Labels can be applied to the following objects:
 - Applications
 - Projects
 - Branches (SAST & SCA projects only)
+
+There is no limit to the number of labels you can create. However, a maximum of 100 labels can be applied to any single application, project, or branch.
 
 In My Organization > Labels, you can create labels, merge or duplicate existing labels, and control whether non-Admin users have the ability to create their own labels. Once you have created a set of labels, users with the appropriate permissions can apply them to Polaris objects, as shown in the following table.
 

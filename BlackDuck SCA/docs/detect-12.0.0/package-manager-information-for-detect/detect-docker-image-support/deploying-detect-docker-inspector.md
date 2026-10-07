@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/deploy
 content_id: "N9FVqyyt3Mj_5tcsEzZBIQ"
 version: "12.0.0"
 section: "Package Manager information for Detect"
-scraped_at: "2026-09-07T21:16:08.351052+00:00"
+scraped_at: "2026-10-04T23:33:20.872833+00:00"
+content_hash: "7fef31a057d1e18855062e7af21ccca112a2bcfae115167944598aad0966873e"
 ---
 
 # Deploying Detect Docker Inspector

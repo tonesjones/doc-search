@@ -6,7 +6,7 @@
 
 | Product | Version | Progress | Index | Notes |
 |---------|---------|----------|-------|-------|
-| Black Duck Signal | latest | **17/17** (100.0%) | [index.md](index.md) | primary |
+| Black Duck Signal | latest | **32/32** (100.0%) | [index.md](index.md) | primary |
 
 ## How to scrape
 
@@ -22,5 +22,5 @@ Registered product keys: `signal-latest`.
 
 ---
 
-*Hub generated 2026-08-13T00:05:06.297513+00:00. Full TOC catalog: [index.md](index.md).*
+*Hub generated 2026-10-04T23:34:30.506188+00:00. Full TOC catalog: [index.md](index.md).*
 

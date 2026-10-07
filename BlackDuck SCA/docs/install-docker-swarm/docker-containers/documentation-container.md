@@ -1,17 +1,18 @@
 ---
 title: "Documentation container"
 source_url: "https://docs.blackduck.com/r/blackduck/2026.7/black-duck-documentation/documentation-container.html"
-content_id: "NsHjDaGPGYyidjJ~3NaOzA"
+content_id: "kU~F2u6L22FTF0wK8RGGoQ"
 version: "2026.7"
 section: "Installing Black Duck using Docker Swarm"
-scraped_at: "2026-08-08T15:34:21.549639+00:00"
+scraped_at: "2026-10-04T23:32:26.026580+00:00"
+content_hash: "437954e13a0d0192246e546e752d5f0478e0e56ecb7f378cc32aa6795729658a"
 ---
 
 # Documentation container
 
 | Container Name: blackduck-documentation | |
 | --- | --- |
-| Image Name | blackducksoftware/blackduck-documentation:2026.7.0 |
+| Image Name | blackducksoftware/blackduck-documentation:2026.7.1 |
 | Description | The Documentation container supplies documentation for the application. |
 | Scalability | There is a single instance of this container. It should not be scaled. |
 | Links/Ports | This container must connect to these other containers/services:   - logstash - cfssl   The documentation container must expose port 8443 to other containers that link to it. |

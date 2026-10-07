@@ -8,82 +8,145 @@
     "children": []
   },
   {
-    "tocId": "Wr0JAj6PCgQZSX9AHb7UuQ",
-    "contentId": "ujhWk4bWYBGi9EG95j4Inw",
-    "title": "Scan your code changes",
-    "prettyUrl": "/r/signal/black-duck-signal/scan-your-code-changes.html",
+    "tocId": "zjl8QidmOYxipwFjfTH1Og",
+    "contentId": "pWh4HdADYtbOrBKc4~5pUw",
+    "title": "Get Started with Black Duck Signal",
+    "prettyUrl": "/r/signal/black-duck-signal/get-started-with-black-duck-signal.html",
     "hasRating": true,
     "children": [
       {
-        "tocId": "OTJo2R4WQlUAhCwjU7rcWQ",
-        "contentId": "SjEFcRZdM2gIPe3yrbv9lg",
-        "title": "With a coding assistant",
-        "prettyUrl": "/r/signal/black-duck-signal/with-a-coding-assistant.html",
+        "tocId": "nV1skl9U9zCaRvFw07JmdA",
+        "contentId": "OHhk5dWIw9oUxRLShfedOw",
+        "title": "Signal CLI",
+        "prettyUrl": "/r/signal/black-duck-signal/signal-cli.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "e9VF_60xPDR9oXMTnvfaeg",
+        "contentId": "fjduKYSb9H6pOuRf3HB48Q",
+        "title": "Coding Assistants",
+        "prettyUrl": "/r/signal/black-duck-signal/coding-assistants.html",
         "hasRating": false,
         "children": [
           {
-            "tocId": "bZ6pXpqk6g~DJ8CDRNd~Xw",
+            "tocId": "b8g8YGDeOG2FpP6KY9tfvQ",
             "contentId": "ixkusxIoyIQQXA5nwicHGg",
-            "title": "Black Duck Signal and Claude Code",
-            "prettyUrl": "/r/signal/black-duck-signal/black-duck-signal-and-claude-code.html",
+            "title": "Signal and Claude Code",
+            "prettyUrl": "/r/signal/black-duck-signal/signal-and-claude-code.html",
             "hasRating": false,
             "children": []
           },
           {
-            "tocId": "UMxi3f6J5159Ct0Y23nOTg",
+            "tocId": "0qZI_bztaXg3VCFsntD~IA",
+            "contentId": "65oFgOMUlhg2AGqVvrDekQ",
+            "title": "Signal and Codex CLI",
+            "prettyUrl": "/r/signal/black-duck-signal/signal-and-codex-cli.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "dl7ImZju_HRKlnyk2~IaLQ",
+            "contentId": "xfJP0kGn4qmGIC3PUpLwdQ",
+            "title": "Signal and Cursor",
+            "prettyUrl": "/r/signal/black-duck-signal/signal-and-cursor.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "VzKL3aL9x~Tye7dl24x0iw",
+            "contentId": "MLHjCljNoqFGucMPEZxovw",
+            "title": "Signal and Gemini",
+            "prettyUrl": "/r/signal/black-duck-signal/signal-and-gemini.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "HUq0NcdfYkBkTm96m~kAdQ",
+            "contentId": "ott~fFzYya3Nqp3i6mX24g",
+            "title": "Signal and JetBrains",
+            "prettyUrl": "/r/signal/black-duck-signal/signal-and-jetbrains.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "Caz6PCeaWhBYEYYopu8m_A",
+            "contentId": "kGoc2aLOgnL2lv5hMYw4jg",
+            "title": "Signal and Visual Studio with GitHub Copilot",
+            "prettyUrl": "/r/signal/black-duck-signal/signal-and-visual-studio-with-github-copilot.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "6Vg2sFhKKEsUC8woZLByAw",
             "contentId": "yJEbl~KQUC2yDwoSiqgacg",
-            "title": "Black Duck Signal and GitHub Copilot",
-            "prettyUrl": "/r/signal/black-duck-signal/black-duck-signal-and-github-copilot.html",
+            "title": "Signal and VS Code with GitHub Copilot",
+            "prettyUrl": "/r/signal/black-duck-signal/signal-and-vs-code-with-github-copilot.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "kviHDZga8ZjsDQJJXkF3RQ",
+            "contentId": "M9QKObrq2p30Hbe8vmi1ew",
+            "title": "Signal and Windsurf",
+            "prettyUrl": "/r/signal/black-duck-signal/signal-and-windsurf.html",
             "hasRating": false,
             "children": []
           }
         ]
       },
       {
-        "tocId": "PmQ0dsUmJ~kHAscTngnbpQ",
-        "contentId": "ZCe1Ljs9qdQy3oC6pVwfUw",
-        "title": "In your IDE",
-        "prettyUrl": "/r/signal/black-duck-signal/in-your-ide.html",
+        "tocId": "_Y5WXVO9EHRXhiHbHPKIQQ",
+        "contentId": "fPSXTYIaVYKVGJI3EoHgUQ",
+        "title": "Signal and Code Sight VS Code Extension",
+        "prettyUrl": "/r/signal/black-duck-signal/signal-and-code-sight-vs-code-extension.html",
         "hasRating": false,
-        "children": [
-          {
-            "tocId": "Xfn0eA~eI2IENvG6K2IxIw",
-            "contentId": "fPSXTYIaVYKVGJI3EoHgUQ",
-            "title": "Signal with Code Sight VS Code Extension",
-            "prettyUrl": "/r/signal/black-duck-signal/signal-with-code-sight-vs-code-extension.html",
-            "hasRating": false,
-            "children": []
-          }
-        ]
+        "children": []
       },
       {
-        "tocId": "POBLf75mIoPWqQ7nCxEhNA",
-        "contentId": "Ec_l6aQgIo6tdLo2n8CWew",
-        "title": "From the command line",
-        "prettyUrl": "/r/signal/black-duck-signal/from-the-command-line.html",
+        "tocId": "POETogbI5ANBWNEv0xgN8Q",
+        "contentId": "jjhChLFp3nrWpn45ZMX52g",
+        "title": "Using Bridge CLI with Signal",
+        "prettyUrl": "/r/signal/black-duck-signal/using-bridge-cli-with-signal.html",
         "hasRating": false,
         "children": [
           {
-            "tocId": "KAGEIBsv7tCUzxwvSYkQFg",
-            "contentId": "XBRDb3XpMO6IjYIYjx2wZA",
-            "title": "Perform a diff scan",
-            "prettyUrl": "/r/signal/black-duck-signal/perform-a-diff-scan.html",
-            "hasRating": false,
-            "children": []
-          },
-          {
-            "tocId": "6o9jptbpiGn5TcKiaVuFWw",
-            "contentId": "i_KFKAGFq72wFejG_0mdFw",
-            "title": "Perform diff scan against a reference branch",
-            "prettyUrl": "/r/signal/black-duck-signal/perform-diff-scan-against-a-reference-branch.html",
-            "hasRating": false,
-            "children": []
-          },
-          {
-            "tocId": "j4wsYcC0gUJXi41y1VyqtA",
+            "tocId": "0Rh3SDamsB23kwt1a9X5KA",
             "contentId": "8a0GSNsRz1EeMdzh6FCNFA",
-            "title": "Perform a file scan",
-            "prettyUrl": "/r/signal/black-duck-signal/perform-a-file-scan.html",
+            "title": "Scan local files",
+            "prettyUrl": "/r/signal/black-duck-signal/scan-local-files.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "qgg3N4OZ1RsZDOt4HyQvzQ",
+            "contentId": "XBRDb3XpMO6IjYIYjx2wZA",
+            "title": "Scan uncommitted changes",
+            "prettyUrl": "/r/signal/black-duck-signal/scan-uncommitted-changes.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "qn73zNCG2yTBFWDQAEIgVw",
+            "contentId": "i_KFKAGFq72wFejG_0mdFw",
+            "title": "Scan changes against a reference branch",
+            "prettyUrl": "/r/signal/black-duck-signal/scan-changes-against-a-reference-branch.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "zH8t01hxxND_g_BnkZHdNA",
+            "contentId": "L5rw5N0dHn89RZbP5o6wpA",
+            "title": "Scan a full project",
+            "prettyUrl": "/r/signal/black-duck-signal/scan-a-full-project.html",
+            "hasRating": false,
+            "children": []
+          },
+          {
+            "tocId": "uBCpEc66xRVV2rcMCsXYKQ",
+            "contentId": "2DLMrelpQZzX9ofT3Ngq6w",
+            "title": "Bridge Reference Guide",
+            "prettyUrl": "/r/signal/black-duck-signal/bridge-reference-guide.html",
             "hasRating": false,
             "children": []
           }
@@ -92,35 +155,76 @@
     ]
   },
   {
-    "tocId": "uBeJEBJHiaZ9Dw~V88Wu_Q",
-    "contentId": "7jplJ4qnxCOCnQhPOvQ9jg",
-    "title": "Scan a full project from the CLI",
-    "prettyUrl": "/r/signal/black-duck-signal/scan-a-full-project-from-the-cli.html",
+    "tocId": "w9czFnzdBqBCYijT87ixTQ",
+    "contentId": "YUNO2lj47cRmGK1ZaaD75w",
+    "title": "BYOLLM",
+    "prettyUrl": "/r/signal/black-duck-signal/byollm.html",
     "hasRating": true,
     "children": [
       {
-        "tocId": "DMTOXbHPzeFjpjidIAfUaw",
-        "contentId": "L5rw5N0dHn89RZbP5o6wpA",
-        "title": "Full project scan with SARIF report only",
-        "prettyUrl": "/r/signal/black-duck-signal/full-project-scan-with-sarif-report-only.html",
+        "tocId": "mlqr2zSfekuR3UphOwyQHA",
+        "contentId": "OuG~YeoACrFy1KVAN_MfRw",
+        "title": "Signal's LLM Agents",
+        "prettyUrl": "/r/signal/black-duck-signal/signal-s-llm-agents.html",
+        "hasRating": false,
+        "children": [
+          {
+            "tocId": "EeAxXV5GWSdXxvH16ig1jA",
+            "contentId": "Km58~tIfMxAVPGSsIikLig",
+            "title": "Agent Capability Requirements",
+            "prettyUrl": "/r/signal/black-duck-signal/agent-capability-requirements.html",
+            "hasRating": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "tocId": "LuPyAJhouSGQDSwx0gqLwQ",
+        "contentId": "oY1M8GQfpRz2bPXRNVTiKQ",
+        "title": "BYOLLM configuration from the CLI",
+        "prettyUrl": "/r/signal/black-duck-signal/byollm-configuration-from-the-cli.html",
         "hasRating": false,
         "children": []
       },
       {
-        "tocId": "eWGAuikI6EASRPxJYfXh8w",
-        "contentId": "ToOSgk4S4z5RCE5ztWaJBw",
-        "title": "Full project scan and send results to Polaris",
-        "prettyUrl": "/r/signal/black-duck-signal/full-project-scan-and-send-results-to-polaris.html",
+        "tocId": "Tci0CD~sMwXxn53F~Shb2Q",
+        "contentId": "grdVX0rwt1f_SCmS2_9kFw",
+        "title": "BYOLLM configuration using Config Files",
+        "prettyUrl": "/r/signal/black-duck-signal/byollm-configuration-using-config-files.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "Rj2GfL4lgZasqPkQ4DGtgg",
+        "contentId": "4uJU~WyShorEC8fjQO1Z5g",
+        "title": "Preflight validation",
+        "prettyUrl": "/r/signal/black-duck-signal/preflight-validation.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "FVU0jHfMPT6lA5ZHT2ukYg",
+        "contentId": "SnBif4W_krb2UVHzvyqvDg",
+        "title": "Troubleshooting",
+        "prettyUrl": "/r/signal/black-duck-signal/troubleshooting.html",
+        "hasRating": false,
+        "children": []
+      },
+      {
+        "tocId": "7C2qZlfHjk49a_y8aMbkjA",
+        "contentId": "9nrUoYGQPMyyXc_tqWjExA",
+        "title": "Environment Variables Index",
+        "prettyUrl": "/r/signal/black-duck-signal/environment-variables-index.html",
         "hasRating": false,
         "children": []
       }
     ]
   },
   {
-    "tocId": "w0qO5pbvXYR_DIVcVbMHSw",
-    "contentId": "7plpGYKZ68aJBNC_3zC2_g",
-    "title": "Reference guide",
-    "prettyUrl": "/r/signal/black-duck-signal/reference-guide.html",
+    "tocId": "Kt2elxpAAHPqMUOYYLxtkw",
+    "contentId": "VQ8en5ZARi3SiBDVn4bs7g",
+    "title": "Signal Reference Guide",
+    "prettyUrl": "/r/signal/black-duck-signal/signal-reference-guide.html",
     "hasRating": true,
     "children": []
   },
@@ -137,6 +241,14 @@
     "contentId": "4RKMpkO6EtmpgrOkKE9r0Q",
     "title": "Signal release notes",
     "prettyUrl": "/r/signal/black-duck-signal/signal-release-notes.html",
+    "hasRating": true,
+    "children": []
+  },
+  {
+    "tocId": "pGEvHfeTjWfQK2z5INUt9w",
+    "contentId": "adLfX1KuRGF8aOKdT8kkBg",
+    "title": "Signal FAQ",
+    "prettyUrl": "/r/signal/black-duck-signal/signal-faq.html",
     "hasRating": true,
     "children": []
   }

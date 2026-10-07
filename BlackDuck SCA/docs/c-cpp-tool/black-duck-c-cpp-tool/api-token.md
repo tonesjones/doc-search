@@ -1,10 +1,11 @@
 ---
 title: "API token"
 source_url: "https://docs.blackduck.com/r/blackduck-tools/latest/black-duck-tools/api-token.html"
-content_id: "s0SBRCBnmNmySHLNhnVb1g"
+content_id: "ctSzsdTwSTUuw3kUi4tEaA"
 version: "latest"
 section: "Black Duck C/CPP Tool"
-scraped_at: "2026-08-13T16:16:56.243875+00:00"
+scraped_at: "2026-10-04T23:32:44.181093+00:00"
+content_hash: "eb8e4f1c11483f6c693f38162f100e46d58738b191af9729a8c920567f9a371d"
 ---
 
 # API token

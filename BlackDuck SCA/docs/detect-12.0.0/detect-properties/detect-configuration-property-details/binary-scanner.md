@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/binary
 content_id: "c6fsfEGVdvjgLk09ZRAgpQ"
 version: "12.0.0"
 section: "Detect Properties"
-scraped_at: "2026-09-07T21:16:25.514725+00:00"
+scraped_at: "2026-10-04T23:33:21.570682+00:00"
+content_hash: "9a6dc93dabf2e6d4bcda3aeb09a308744cb98b73922c51364d3eba5467af16c9"
 ---
 
 # binary-scanner

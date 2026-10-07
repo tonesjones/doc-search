@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/bridge/latest/bridge-cli-guide/additio
 content_id: "QaUepVRb9NsYmMamWxQvtg"
 version: "latest"
 section: "GitLab Integrations"
-scraped_at: "2026-08-08T23:48:11.746184+00:00"
+scraped_at: "2026-10-04T23:28:29.173651+00:00"
+content_hash: "4739c588c29c84e71fb1bf53e7bff935541f21eac9a0843c5efc5ff7c013f8a8"
 ---
 
 # Additional GitLab configuration

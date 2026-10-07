@@ -4,7 +4,8 @@ source_url: "https://docs.blackduck.com/r/detect/12.0.0/black-duck-detect/gradle
 content_id: "Zh66buQNZAzFcMrxTAP4mg"
 version: "12.0.0"
 section: "Detect Properties"
-scraped_at: "2026-09-07T21:16:49.216898+00:00"
+scraped_at: "2026-10-04T23:33:22.513715+00:00"
+content_hash: "55831ec4c0c23b54ae78fd4a85aa0294cbe014b600a3673ea2d523c7c0a846f5"
 ---
 
 # gradle
