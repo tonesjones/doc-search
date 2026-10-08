@@ -26,7 +26,7 @@ The [DS-04 inventory](docs/ds-04-reconciliation.md) records experimental work th
 | Software Risk Manager | `SRM/` | [2026-09-08](SRM/sources/srm-latest/manifest.json) | [README.md](SRM/README.md), `AGENTS.md`, `CHECKPOINT.md`, `index.md` |
 | Sigma 2026.9.1 | `Sigma/` | [2026-10-04](Sigma/sources/sigma-2026.9.1/manifest.json) | [README.md](Sigma/README.md), `AGENTS.md`, `CHECKPOINT.md`, `index.md` |
 | Signal | `Signal/` | [2026-10-04](Signal/sources/signal-latest/manifest.json) | [README.md](Signal/README.md), `AGENTS.md`, `CHECKPOINT.md`, `index.md` |
-| Black Duck Code Sight 2026.9.0 | `CodeSight/` | [2026-10-06](CodeSight/sources/codesight-2026.9.0/manifest.json) | [README.md](CodeSight/README.md), `AGENTS.md`, `CHECKPOINT.md`, `index.md` |
+| Black Duck Code Sight 2026.9.0 | `CodeSight/` | [2026-10-06](CodeSight/sources/codesight-2026.9.0/manifest.json) | [SKILL.md](CodeSight/SKILL.md), [README.md](CodeSight/README.md), `AGENTS.md`, `CHECKPOINT.md`, `index.md` |
 
 Dates use `YYYY-MM-DD` and come from each current manifest's `scrapedAt` field, or `lastScrapeAt` for Polaris. Each date links to its source manifest. A date records the last local scrape, including an initial import. It does not indicate a product release date or confirm that upstream documentation is still unchanged. Historical versions and separate snapshots, such as the GitHub SCA MCP documentation, are outside this table.
 
@@ -72,7 +72,11 @@ python scripts/smoke-retrieval.py
 
 Both checks pass for the initial 2026.9.0 corpus.
 
-Code Sight is not yet registered with the root router. `CodeSight/SKILL.md` and a Code Sight verification entry point do not exist in this corpus update. Until those are added, enter the corpus through `CodeSight/README.md`, `CodeSight/AGENTS.md`, and `CodeSight/index.md`.
+Code Sight is registered with the root router as `codesight` (alias `code-sight`). Its product skill routes questions to the local 2026.9.0 corpus. Run the offline checks from the repository root with:
+
+```powershell
+python -B "CodeSight/verification/verify.py"
+```
 
 ## Verify Black Duck SCA offline
 
@@ -132,10 +136,10 @@ For a product registered in the root router:
 6. Do not invent UI paths, API endpoints, CLI flags, checker names, license names, or product behavior.
 7. If the corpus does not answer the question, say so before using another source.
 
-For Code Sight, start directly in the product folder until root routing is added:
+For Code Sight, the root router selects `CodeSight/SKILL.md`. The product skill directs the agent to:
 
 ```text
-Read CodeSight/README.md, CodeSight/AGENTS.md, and CodeSight/CHECKPOINT.md.
+Read CodeSight/SKILL.md, CodeSight/README.md, CodeSight/AGENTS.md, and CodeSight/CHECKPOINT.md.
 Search CodeSight/index.md and CodeSight/docs/ before answering.
 Use the local Code Sight 2026.9.0 documentation as the primary source.
 Cite the supporting Markdown files.
@@ -160,7 +164,7 @@ Read SKILL.md. Resolve the product through products.json. Read the selected prod
 
 Codex follows `AGENTS.md` files when they are in scope. Resolving the product first reduces cross-product retrieval.
 
-For Code Sight, start directly in `CodeSight/`.
+For Code Sight, follow the root router to `CodeSight/SKILL.md`.
 
 ### Grok
 

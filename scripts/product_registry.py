@@ -8,7 +8,7 @@ from typing import Iterable, Mapping, Sequence
 
 REGISTRY_FILE = "products.json"
 EXPECTED_PRODUCT_IDS = frozenset(
-    {"black-duck-sca", "bridge", "coverity", "polaris", "sigma", "signal", "srm"}
+    {"black-duck-sca", "bridge", "codesight", "coverity", "polaris", "sigma", "signal", "srm"}
 )
 REQUIRED_FIELDS = ("id", "name", "root", "skill", "verifier", "versions", "aliases")
 

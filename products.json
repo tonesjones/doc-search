@@ -99,6 +99,19 @@
       "aliases": [
         "software-risk-manager"
       ]
+    },
+    {
+      "id": "codesight",
+      "name": "Black Duck Code Sight",
+      "root": "CodeSight",
+      "skill": "CodeSight/SKILL.md",
+      "verifier": "CodeSight/verification/verify.py",
+      "versions": [
+        "2026.9.0"
+      ],
+      "aliases": [
+        "code-sight"
+      ]
     }
   ]
 }

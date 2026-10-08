@@ -22,6 +22,7 @@ The registry defines these logical products:
 
 - `black-duck-sca`
 - `bridge`
+- `codesight`
 - `coverity`
 - `polaris`
 - `sigma`

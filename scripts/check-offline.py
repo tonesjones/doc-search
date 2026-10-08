@@ -7,7 +7,7 @@ import sys
 
 
 ROOT = Path(__file__).resolve().parents[1]
-CORPORA = ("BlackDuck SCA", "Bridge", "Coverity", "Polaris", "Sigma", "Signal", "SRM")
+CORPORA = ("BlackDuck SCA", "Bridge", "CodeSight", "Coverity", "Polaris", "Sigma", "Signal", "SRM")
 
 
 def main() -> int:
@@ -17,7 +17,7 @@ def main() -> int:
                      ["-m", "unittest", "discover", "-s", "tests", "-v"]))
     for product in CORPORA:
         jobs.append((f"{product} corpus integrity", ROOT / product, ["scripts/validate-corpus.py"]))
-    for product in ("Polaris", "Sigma", "Signal"):
+    for product in ("Polaris", "Sigma", "Signal", "CodeSight"):
         jobs.append((f"{product} retrieval", ROOT / product, ["scripts/smoke-retrieval.py"]))
     jobs.append(("SCA integrity and retrieval report", ROOT, ["BlackDuck SCA/verification/verify.py"]))
 

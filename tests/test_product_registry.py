@@ -24,10 +24,10 @@ class ProductRegistryTests(unittest.TestCase):
     def setUpClass(cls) -> None:
         cls.products = load_registry(ROOT)
 
-    def test_real_registry_has_exactly_seven_products(self) -> None:
+    def test_real_registry_has_exactly_eight_products(self) -> None:
         self.assertEqual(
             [product.id for product in self.products],
-            ["black-duck-sca", "bridge", "coverity", "polaris", "sigma", "signal", "srm"],
+            ["black-duck-sca", "bridge", "coverity", "polaris", "sigma", "signal", "srm", "codesight"],
         )
 
     def test_aliases_resolve_to_canonical_products(self) -> None:
@@ -88,7 +88,7 @@ class ProductRegistryTests(unittest.TestCase):
             check=False,
         )
         self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertEqual(result.stdout.strip(), "Product registry valid with 7 products")
+        self.assertEqual(result.stdout.strip(), "Product registry valid with 8 products")
 
 
 if __name__ == "__main__":
