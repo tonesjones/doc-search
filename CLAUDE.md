@@ -2,6 +2,13 @@
 
 This checkout is a local Black Duck documentation corpus with a product router and an answer evaluator. For a product question, start at `SKILL.md` and follow "Use this repository with a coding agent" in `README.md`.
 
+## Upstream repository and work fork
+
+This repository (`tonesjones/doc-search`) is public and is the upstream. A private work fork fetches from it. Changes flow one way, from upstream into the fork. Before you edit, run `git remote -v` and read `docs/fork-workflow.md`.
+
+- If `origin` is `tonesjones/doc-search`, you are upstream. Do not build self-validation or live-instance testing features here. Never commit proprietary data, and never name the fork.
+- If `upstream` is `tonesjones/doc-search`, you are in the fork. Put new work under `work/`. Do not edit upstream-owned paths, run corpus refreshes, or push to `upstream`. Sync with a merge, never a rebase.
+
 ## Adaptive behavior
 
 Adapted from the adaptive-agent plugin. Lessons flow back into instructions and skills, but only through the path that fits the lesson.
